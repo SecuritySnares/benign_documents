@@ -1,0 +1,524 @@
+ <!DOCTYPE html>
+<html lang="en-us" dir="ltr" prefix="og: http://ogp.me/ns# article: http://ogp.me/ns/article# book: http://ogp.me/ns/book# profile: http://ogp.me/ns/profile# video: http://ogp.me/ns/video# product: http://ogp.me/ns/product# content: http://purl.org/rss/1.0/modules/content/ dc: http://purl.org/dc/terms/ foaf: http://xmlns.com/foaf/0.1/ rdfs: http://www.w3.org/2000/01/rdf-schema# sioc: http://rdfs.org/sioc/ns# sioct: http://rdfs.org/sioc/types# skos: http://www.w3.org/2004/02/skos/core# xsd: http://www.w3.org/2001/XMLSchema# schema: http://schema.org/">
+<head>
+<link rel="profile" href="http://www.w3.org/1999/xhtml/vocab" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>.async-hide { opacity: 0 !important} </style>
+<script>(function(a,s,y,n,c,h,i,d,e){s.className+=' '+y;h.start=1*new Date;
+      h.end=i=function(){s.className=s.className.replace(RegExp(' ?'+y),'')};
+      (a[n]=a[n]||[]).hide=h;setTimeout(function(){i();h.end=null},c);h.timeout=c;
+    })(window,document.documentElement,'async-hide','dataLayer',4000,
+      {'GTM-NKP4M62':true});</script>
+
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+      j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+      'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-NKP4M62');</script>
+
+<!--[if IE]><![endif]-->
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="shortcut icon" href="https://www.flukenetworks.com/sites/default/files/favicon_3.ico" type="image/vnd.microsoft.icon" />
+<meta name="ps-key" content="1805-58b8e43945e86b24009d412a" />
+<script>
+if (location.host == 'www.flukenetworks.com.cn') {  
+	var _hmt = _hmt || [];
+	(function() {
+		var hm = document.createElement("script");
+		hm.src = "https://hm.baidu.com/hm.js?416c31bfd6bf3d7bf39ae68431b89a26";
+		var s = document.getElementsByTagName("script")[0];
+		s.parentNode.insertBefore(hm, s);
+	})();
+
+//	document.oncontextmenu = function() {return false;}
+//	document.onselectstart = function() {return false;}
+}
+</script><script>
+if (location.host == 'www.flukenetworks.com.cn') {
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  
+
+hm.src = "https://hm.baidu.com/hm.js?8df3a0b817c90f3f645f0776e5c9b552";
+  var s = 
+
+document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+}
+</script><meta name="generator" content="Drupal 7 (https://www.drupal.org)" />
+<link rel="canonical" href="https://www.flukenetworks.com/findit/7000539" />
+<meta property="og:site_name" content="Fluke Networks" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://www.flukenetworks.com/findit/7000539" />
+<meta property="og:title" content="Find It" />
+<meta name="msvalidate.01" content="80CDC8FF61D5429BCB36AD17EECF5B84" />
+<meta name="google-site-verification" content="7Kl9W7RgCrqmY7uW-iOnaiQ8-1pjBuShBH5xi2_8s_c" />
+<title>Find It | Fluke Networks</title>
+<link type="text/css" rel="stylesheet" href="/sites/default/files/advagg_css/css__uxrWcSDlpJ2Hr-lKXKPTVovZ3WkVT1sAkPzTmasX_mQ__lCj_q69CuUXTkdPMW2jVLwxkE25RYFDDVoTD6rcfTOs__gDimtVzah_iwIidwGhiV1V8evyWabeUFKac376lfiRo.css" media="all" />
+<link type="text/css" rel="stylesheet" href="/sites/default/files/advagg_css/css__NTCeQ3FKrwpqECmG1f6XLl1L43AgTnzfXxCaeIfpBjc__D_EUHDAfEQdxcLiSDY7hREUWkG1Ge56_h2z3Er8V188__gDimtVzah_iwIidwGhiV1V8evyWabeUFKac376lfiRo.css" media="all" />
+<link type="text/css" rel="stylesheet" href="/sites/default/files/advagg_css/css__HgNdwEhVU4K04Kjz4K1iP8a2cILck94aADlKUeMbcAk__CvYZho3J58CG0v5SNof_8s6hnpzs0mWIT6S9RS0tfnE__gDimtVzah_iwIidwGhiV1V8evyWabeUFKac376lfiRo.css" media="all" />
+<link type="text/css" rel="stylesheet" href="/sites/default/files/advagg_css/css__pF-SYcCFNvKBm9T23I3Z-9Iv-SeQCeIek-AxBw88BsY__Tvw0gJ0aKDyHk4aGWhFpNdXctT3_9f6HznX2lfIxJpo__gDimtVzah_iwIidwGhiV1V8evyWabeUFKac376lfiRo.css" media="all" />
+<link type="text/css" rel="stylesheet" href="/sites/default/files/advagg_css/css__wYDvsKp-t9MwBaHQHNFTNPENK3RhxmgF_CnxSTadNN4__WylIptPcNcXfb5FVOMoixnDc6_lrEoWDLbJvHTgKOio__gDimtVzah_iwIidwGhiV1V8evyWabeUFKac376lfiRo.css" media="all" />
+<link type="text/css" rel="stylesheet" href="/sites/default/files/advagg_css/css__3bVtPexonRWE_Xm_k42LVZRDDLKQvHvh6uPfm3IzlnI__8CwZMmEnzs5MEIgoFXU2Vlbf-NWH20t53XVWG-bElhw__gDimtVzah_iwIidwGhiV1V8evyWabeUFKac376lfiRo.css" media="all" />
+<link type="text/css" rel="stylesheet" href="/sites/default/files/advagg_css/css__mgUJZXFoMuK0eccLa3La7uceei5bj0XrWcpw9hluTVk__4xt1h_vhOMP292Y_5zPI8WMcZI9U6CCp96uJ9um39Xc__gDimtVzah_iwIidwGhiV1V8evyWabeUFKac376lfiRo.css" media="all" />
+<link type="text/css" rel="stylesheet" href="/sites/default/files/advagg_css/css__LtEDGEbUXNpNc9EYtDSa9BsuL1vgpD8ppVuFMbItdRU__VCHz24SmfXyIJoNL3FgKCq_MqqbpvYy845IRtcvYDys__gDimtVzah_iwIidwGhiV1V8evyWabeUFKac376lfiRo.css" media="all" />
+<link type="text/css" rel="stylesheet" href="/sites/default/files/advagg_css/css__s0rNz9wqBCB9vW-MPYTNqk8lr33MreTdYtkjgM0WHrY__IX40CeJNN6oke2gvWLbJencCQVFhsLoMCNPzHLXRp6o__gDimtVzah_iwIidwGhiV1V8evyWabeUFKac376lfiRo.css" media="all" />
+
+<!--[if lt IE 9]>
+    <script src="https://cdn.jsdelivr.net/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
+<script type="text/javascript" src="/sites/default/files/advagg_js/js__nrcQAaZMGUPNzjrGgCkDsRAXVrWfQ7B0kba7gHOA1Q0__6WgEo0vsiyuQSTJtji-aze0uTp2YYgLWCo8W4bmpWcQ__gDimtVzah_iwIidwGhiV1V8evyWabeUFKac376lfiRo.js"></script>
+<script type="text/javascript" src="/sites/default/files/advagg_js/js__ZyeOaiFuDejQQbhUV7yg7atYZnj4WLfH77o0scv4068__o1ocvEYCCVzh-T8XcEDrn8z9TCo1F5mN4rJogFGuecE__gDimtVzah_iwIidwGhiV1V8evyWabeUFKac376lfiRo.js"></script>
+<script type="text/javascript" src="/sites/default/files/advagg_js/js__I8ucyAWCjh7YgbmjTe1fz-sgXQEXudL9f5ugDxSZgQA__wbqJ_T9OnHqmZnu0GAz-3x9pg4ZQ1sZsh92BK0Wb82c__gDimtVzah_iwIidwGhiV1V8evyWabeUFKac376lfiRo.js"></script>
+<script type="text/javascript" src="/sites/default/files/advagg_js/js__0mS4fSPfXsGzAu4qKJFz1lzPKL9wr0RivgIgNgvk8j0__dRPEMzYE8LXiV2va20EbSkmNp1WQCb1NtGUFFvIJjMw__gDimtVzah_iwIidwGhiV1V8evyWabeUFKac376lfiRo.js"></script>
+<script type="text/javascript" src="/sites/default/files/advagg_js/js__GHkj6HzThsoPUScOAMoZDLSBp9WJg2bhLo8RwlFFQvg__8S5HmeL_KOv9vi78e0eVE7NmIUxlu3Wt33gy2RJ-9vU__gDimtVzah_iwIidwGhiV1V8evyWabeUFKac376lfiRo.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","setHasJsCookie":0,"ajaxPageState":{"theme":"fnet_bootstrap_subtheme","theme_token":"3IpV4bK7cuIHRgTY1vZeee7sG_UTmdiP-IIUHB0UBWg","css":{"modules\/system\/system.base.css":1,"sites\/all\/modules\/contrib\/date\/date_api\/date.css":1,"sites\/all\/modules\/contrib\/date\/date_popup\/themes\/datepicker.1.7.css":1,"modules\/field\/theme\/field.css":1,"sites\/all\/modules\/contrib\/logintoboggan\/logintoboggan.css":1,"modules\/node\/node.css":1,"sites\/all\/modules\/custom\/product_assets\/product_assets.css":1,"sites\/all\/modules\/custom\/product_distributor\/css\/admin_toolbar_top_position_fix.css":1,"sites\/all\/modules\/custom\/product_distributor\/css\/distributor_form.css":1,"sites\/all\/modules\/custom\/product_distributor\/css\/distributor_group_form.css":1,"sites\/all\/modules\/custom\/product_distributor\/css\/product_form.css":1,"sites\/all\/modules\/custom\/product_distributor\/css\/tabs.css":1,"sites\/all\/modules\/custom\/product_distributor\/css\/wheretobuy_page.css":1,"sites\/all\/modules\/custom\/product_distributor\/css\/wtb_countries_form.css":1,"sites\/all\/modules\/contrib\/views\/css\/views.css":1,"sites\/all\/modules\/contrib\/ckeditor\/css\/ckeditor.css":1,"sites\/all\/modules\/contrib\/ctools\/css\/ctools.css":1,"sites\/all\/modules\/custom\/digital_asset\/digital_asset.css":1,"sites\/all\/modules\/custom\/ems\/styles\/event.css":1,"sites\/all\/modules\/custom\/ems\/styles\/event_occurrence.css":1,"sites\/all\/libraries\/fancybox\/source\/jquery.fancybox.css":1,"sites\/all\/modules\/custom\/doc_links\/doc_links.css":1,"sites\/all\/modules\/contrib\/responsive_dropdown_menus\/theme\/responsive-dropdown-menus.css":1,"sites\/all\/themes\/fnet_bootstrap_subtheme\/css\/fnet_bootstrap_subtheme-admin.css":1,"sites\/all\/modules\/custom\/fnet_header_footer\/css\/fnet_header_footer.css":1,"sites\/all\/libraries\/fontawesome\/css\/font-awesome.css":1,"sites\/all\/themes\/fnet_bootstrap_subtheme\/css\/font-awesome.min.css":1,"sites\/all\/themes\/fnet_bootstrap_subtheme\/css\/style.css":1,"sites\/all\/themes\/fnet_bootstrap_subtheme\/css\/select2.min.css":1},"js":{"sites\/all\/modules\/contrib\/eloqua_tracking\/js\/tracking.js":1,"sites\/all\/themes\/bootstrap\/js\/bootstrap.js":1,"sites\/all\/modules\/contrib\/jquery_update\/replace\/jquery\/3.1\/jquery.min.js":1,"misc\/jquery-extend-3.4.0.js":1,"misc\/jquery-html-prefilter-3.5.0-backport.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"sites\/all\/modules\/contrib\/fancybox\/fancybox.js":1,"sites\/all\/libraries\/fancybox\/source\/jquery.fancybox.pack.js":1,"sites\/all\/libraries\/fancybox\/lib\/jquery.mousewheel.pack.js":1,"sites\/all\/modules\/contrib\/responsive_dropdown_menus\/theme\/responsive-dropdown-menus.js":1,"sites\/all\/themes\/fnet_bootstrap_subtheme\/js\/bootstrap.min.js":1,"sites\/all\/themes\/fnet_bootstrap_subtheme\/js\/jquery.validate.min.js":1,"sites\/all\/themes\/fnet_bootstrap_subtheme\/js\/select2.min.js":1,"sites\/all\/themes\/fnet_bootstrap_subtheme\/js\/main.js":1,"sites\/all\/themes\/fnet_bootstrap_subtheme\/js\/language_switcher.js":1}},"fancybox":{"selectors":[".fnet_fancybox"]},"urlIsAjaxTrusted":{"\/site-search":true},"better_exposed_filters":{"views":{"events":{"displays":{"event_occurrence_block":{"filters":[]}}},"blog_articles":{"displays":{"block_1":{"filters":[]},"block_2":{"filters":[]}}},"News":{"displays":{"block_1":{"filters":[]}}}}},"_elqQ":[["elqSetSiteId","1182545284"],["elqTrackPageView","https:\/\/www.flukenetworks.com\/findit\/7000539"]],"responsive_dropdown_menus":{"menu-group-33":"Asia-Pacific","devel":"Development","menu-group-34":"EMEA","features":"Features","menu-footer-links":"Footer Links","menu-footer-secondary-links":"Footer Secondary Links","menu-industrialautomation":"Industrial Automation","menu-group-35":"Latin America","linkwarelive":"LinkWare Live Main Menu","main-menu":"Main menu","management":"Management","navigation":"Navigation","menu-group-36":"North America","menu-other-companies":"Other Companies","extranet":"Sales Insider","menu-menu-social-media":"Social Media Footer Links","menu-social-media":"Social Media Footer Links","user-menu":"User menu"},"bootstrap":{"anchorsFix":"0","anchorsSmoothScrolling":"0","formHasError":1,"popoverEnabled":1,"popoverOptions":{"animation":1,"html":0,"placement":"right","selector":"","trigger":"click","triggerAutoclose":1,"title":"","content":"","delay":0,"container":"body"},"tooltipEnabled":1,"tooltipOptions":{"animation":1,"html":0,"placement":"auto left","selector":"","trigger":"hover focus","delay":0,"container":"body"}}});
+//--><!]]>
+</script>
+</head>
+<body class="html not-front not-logged-in no-sidebars page-findit page-findit- page-findit-7000539 region-us language-en i18n-en-us">
+
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NKP4M62"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+
+<div id="skip-link">
+<a href="#main-content" class="element-invisible element-focusable">Skip to main content</a>
+</div>
+<script>
+  function OneLinkSwitch(sHostname) {
+    document.location.href = document.location.protocol + "//" + sHostname +
+      document.location.pathname + document.location.search;
+  }
+</script>
+<section id="topHeading">
+<div class="container ">
+<div class="row">
+
+<div class="col-md-4 col-sm-5 col-xs-6 leftTop">
+<a href="/" title="Home">
+<img src="https://www.flukenetworks.com/sites/default/files/fnet_logo_0_0_0.png" alt="Home" class="img-responsive logo">
+</a>
+</div>
+<div class="col-md-8 col-sm-7 col-xs-6 rightTop hidden-xs">
+
+<ul class="keyPoints "><li class=""><a class="titleHead searchTxt" data-placement="bottom"><button class="svg-button"><svg id="search-icon-svg" class="img-responsive icons" data-name="search-icon-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30">
+<title>search-icon-white</title>
+<path class="search-icon" d="M21.38121,18.97518H20.12589l-.41844-.41844a10.94488,10.94488,0,0,0-1.0461-15.48227A11.14471,11.14471,0,0,0,11.12943.35461h0A11.078,11.078,0,0,0,.25,11.234h0A10.93825,10.93825,0,0,0,11.12943,22.11348h0a9.78038,9.78038,0,0,0,7.11348-2.71986l.41844.41844V21.2766l8.578,8.36879L29.75,27.13475Zm-10.25178,0A7.681,7.681,0,0,1,3.59752,11.234h0a7.681,7.681,0,0,1,7.74113-7.53191h0a7.681,7.681,0,0,1,7.53192,7.74113A7.54917,7.54917,0,0,1,11.12943,18.97518Z" />
+</svg>
+</button></a></li><li class=""><a class="titleHead countryChg" data-placement="bottom"><button class="svg-button"><svg id="globe-icon-svg" class="img-responsive icons" data-name="globe-icon-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30">
+<title>world-icon-white</title>
+<path class="globe-icon" d="M7.72887,25.38733a11.52323,11.52323,0,0,0-1.662,1.24647A16.23409,16.23409,0,0,0,10.22183,28.919a8.56914,8.56914,0,0,1-2.07746-2.70071c-.20775-.41549-.4155-.62324-.4155-.831ZM5.85916,3.3662a11.52362,11.52362,0,0,1,1.662,1.24648c.20774-.4155.41549-.62324.41549-.831A13.3373,13.3373,0,0,1,10.01408,1.081,16.23383,16.23383,0,0,0,5.85916,3.3662ZM8.76761,5.23592c.41549.20774.62324.20774.831.41549a17.67034,17.67034,0,0,0,4.57042.831V.25C12.2993.66549,10.63732,2.11972,9.39085,4.40493c-.20775.41549-.20775.62324-.62324.831ZM15.831,6.48239a16.18168,16.18168,0,0,0,4.36267-.831c.4155-.20775.62324-.20775.831-.41549,0-.20775-.20775-.4155-.41549-.831A8.16846,8.16846,0,0,0,15.831.25V6.48239Zm6.44014-1.86971a11.524,11.524,0,0,0,1.662-1.24648A16.23389,16.23389,0,0,0,19.77817,1.081a7.90522,7.90522,0,0,1,1.86972,2.7007c.20774.20775.62324.62324.62324.831Zm2.90845-.20775a13.97433,13.97433,0,0,1-2.28521,1.45423,26.86307,26.86307,0,0,1,1.662,8.30985H29.75a14.44309,14.44309,0,0,0-4.15493-9.55633.64339.64339,0,0,0-.41549-.20775ZM21.64789,6.48239c-.41549.20775-.62324.4155-1.03873.62324a13.96577,13.96577,0,0,1-4.98592.831V14.169h7.47887a22.97952,22.97952,0,0,0-1.45422-7.68662ZM14.169,7.93662A14.28018,14.28018,0,0,1,9.1831,6.89789a1.575,1.575,0,0,1-.831-.4155A22.01313,22.01313,0,0,0,6.89789,14.169h7.47887L14.169,7.93662ZM7.10563,5.85916A8.57876,8.57876,0,0,1,4.82042,4.40493a.64341.64341,0,0,0-.41549.20775A14.44309,14.44309,0,0,0,.25,14.169H5.44366a21.17146,21.17146,0,0,1,1.662-8.30985ZM4.82042,25.59507a13.97357,13.97357,0,0,1,2.28521-1.45422,26.8632,26.8632,0,0,1-1.662-8.30986H.25a14.44313,14.44313,0,0,0,4.15493,9.55634c.20775,0,.41549,0,.41549.20774Zm3.53169-2.28521c.20775-.20775.62324-.20775,1.03874-.41549a14.2802,14.2802,0,0,1,4.98591-1.03874V15.62324H6.89789a22.01309,22.01309,0,0,0,1.45422,7.68662ZM15.831,21.85563a21.32917,21.32917,0,0,1,4.98591,1.03874c.41549.20774.62324.20774.831.41549a22.01313,22.01313,0,0,0,1.45422-7.68662H15.62324l.20775,6.23239Zm7.06338,2.07747c.831.41549,1.45422,1.03873,2.28521,1.45422l.20775-.20774a13.52548,13.52548,0,0,0,4.15492-9.55634H24.34859a21.16351,21.16351,0,0,1-1.45422,8.30986Zm1.24648,2.7007a11.5232,11.5232,0,0,1-1.662-1.24648c-.20774.4155-.41549.62324-.41549.831a30.38981,30.38981,0,0,1-1.86972,2.7007,38.58819,38.58819,0,0,0,3.94719-2.28521Zm-3.1162-1.86971c-.41549-.20775-.62324-.20775-.831-.4155a16.30868,16.30868,0,0,0-4.57042-1.03873v6.02465c1.86972-.4155,3.53169-1.86972,4.98592-4.15493.20774,0,.20774-.20775.41549-.41549ZM14.169,23.30986a18.14553,18.14553,0,0,0-4.57042,1.03873c-.41549.20775-.62324.20775-.831.4155.20774.41549.41549.62324.41549.831A7.9463,7.9463,0,0,0,14.169,29.75V23.30986Z" />
+</svg>
+</button></a></li><li class=""><a class="titleHead MyAccountChg" href="/myaccount/edit" data-link="/user/login" data-placement="bottom"><button class="svg-button"><svg id="sign-in-icon-svg" class="img-responsive icons" data-name="sign-in-icon-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30">
+<title>account-icon-white</title>
+<path class="sign-in-icon" d="M14.89613,15A7.40588,7.40588,0,0,0,22.375,7.72887,7.72458,7.72458,0,0,0,14.89613.25,7.5441,7.5441,0,0,0,7.41725,7.52113h0A7.44778,7.44778,0,0,0,14.89613,15Zm0,3.73944c-4.98592,0-14.54226,2.28521-14.54226,7.27112V29.75H29.64613V26.01056C29.43838,21.02465,19.67429,18.73944,14.89613,18.73944Z" />
+</svg>
+</button></a></li><li id="quote_cta" class=""><a class="quote_cta" href="/request/get-quote" data-placement="bottom">Get Quote</a></li></ul> <div class="other-company-list">
+<div class="menu-block-wrapper menu-block-1 menu-name-menu-other-companies parent-mlid-0 menu-level-1">
+<ul class="menu nav"><li class="first last expanded menu-mlid-26345 dropdown"><a href="/" class="arrow_append_cls disabled-link dropdown-toggle" data-toggle="dropdown">Other Fluke companies <span class="caret"></span></a><ul class="dropdown-menu"><li class="first collapsed menu-mlid-26346"><a href="/" id="other-companies" class="subMenuTitle">OTHER FLUKE COMPANIES</a></li>
+<li class="leaf menu-mlid-26347"><a href="https://www.fluke.com/en-us" target="_blank">Fluke</a></li>
+<li class="leaf menu-mlid-26348"><a href="https://flukecal.com/" target="_blank">Fluke Calibration</a></li>
+<li class="leaf menu-mlid-26349"><a href="https://www.flukebiomedical.com" target="_blank">Fluke Biomedical</a></li>
+<li class="leaf menu-mlid-26350"><a href="https://www.flukeprocessinstruments.com/en-us" target="_blank">Fluke Process Instruments</a></li>
+<li class="leaf menu-mlid-26351"><a href="https://www.accelix.com/" target="_blank">Accelix</a></li>
+<li class="leaf menu-mlid-26352"><a href="http://www.amprobe.com/" target="_blank">Amprobe</a></li>
+<li class="leaf menu-mlid-26353"><a href="https://www.beha-amprobe.com/" target="_blank">Beha-Amprobe</a></li>
+<li class="leaf menu-mlid-26354"><a href="https://www.comarkinstruments.net/" target="_blank">Comark</a></li>
+<li class="leaf menu-mlid-26355"><a href="https://www.landauer.com" target="_blank">Landauer</a></li>
+<li class="leaf menu-mlid-26356"><a href="https://www.pruftechnik.com/" target="_blank">Pruftechnik</a></li>
+<li class="last leaf menu-mlid-26357"><a href="https://www.raysafe.com/" target="_blank">RaySafe</a></li>
+</ul></li>
+</ul></div>
+</div>
+<div class="row OneLinkKeepLinks country-selector-wrapper" id="desktop-switcher" style="display: none;">
+<div class="switcher-heading">
+<h4>CHANGE COUNTRY / LANGUAGE</h4>
+<i class="fa fa-times-thin fa-2x" aria-hidden="true" id="lang-switcher-close"></i>
+</div>
+<div class="col-xs-3 paddingZero"> 
+
+<ul>
+<li class="fnet-regions reg-americas region-active">
+<a href="#">Americas<i class="fa fa-angle-right icon6" aria-hidden="true"></i></a>
+<ul class="fnet-lang-menu">
+<li>
+<div class="country-name col-md-4"> United States </div>
+<div class="languages-list col-md-8">
+<a id="en-us" onclick="setcnlangcookie(this);" data-region="us" data-lang="en" href="javascript:OneLinkSwitch('www.flukenetworks.com')">English</a>
+</div>
+</li>
+<li>
+<div class="country-name col-md-4"> Canada </div>
+<div class="languages-list col-md-8">
+<a id="en-ca" onclick="setcnlangcookie(this);" data-region="ca" data-lang="en" href="javascript:OneLinkSwitch('www.flukenetworks.com')">English </a>
+<a id="fr-ca" onclick="setcnlangcookie(this);" data-region="ca" data-lang="fr" href="javascript:OneLinkSwitch('fr.flukenetworks.com')"> French</a>
+</div>
+</li>
+<li>
+<div class="country-name col-md-4"> Latin America </div>
+<div class="languages-list col-md-8">
+<a id="en-ln" onclick="setcnlangcookie(this);" data-region="ln" data-lang="en" href="javascript:OneLinkSwitch('www.flukenetworks.com')"> English </a>
+<a id="es-ln" onclick="setcnlangcookie(this);" data-region="ln" data-lang="es" href="javascript:OneLinkSwitch('es.flukenetworks.com')"> Spanish </a>
+<a id="pt-br" onclick="setcnlangcookie(this);" data-region="br" data-lang="pt" href="javascript:OneLinkSwitch('pt.flukenetworks.com')"> Portuguese</a>
+</div>
+</li>
+</ul>
+</li>
+<li class="fnet-regions reg-europe">
+<a href="#">Europe<i class="fa fa-angle-right icon6" aria-hidden="true"></i></a>
+<ul class="fnet-lang-menu">
+<li><a id="en-eu" onclick="setcnlangcookie(this);" data-region="eu" data-lang="en" href="javascript:OneLinkSwitch('www.flukenetworks.com')">English</li>
+<li><a id="fr-eu" onclick="setcnlangcookie(this);" data-region="eu" data-lang="fr" href="javascript:OneLinkSwitch('fr.flukenetworks.com')">French</a></li>
+<li><a id="de-eu" onclick="setcnlangcookie(this);" data-region="eu" data-lang="de" href="javascript:OneLinkSwitch('de.flukenetworks.com')">German</a></li>
+<li><a id="es-eu" onclick="setcnlangcookie(this);" data-region="eu" data-lang="es" href="javascript:OneLinkSwitch('es.flukenetworks.com')">Spanish</a></li>
+<li><a id="pt-eu" onclick="setcnlangcookie(this);" data-region="eu" data-lang="pt" href="javascript:OneLinkSwitch('pt.flukenetworks.com')">Portuguese</a></li>
+</ul>
+</li>
+<li class="fnet-regions reg-apac">
+<a href="#">Asia-Pacific<i class="fa fa-angle-right icon6" aria-hidden="true"></i></a>
+<ul class="fnet-lang-menu">
+<li><a id="en-su" onclick="setcnlangcookie(this);" data-region="su" data-lang="en" href="javascript:OneLinkSwitch('www.flukenetworks.com')">SE Asia</a></li>
+<li><a id="en-au" onclick="setcnlangcookie(this);" data-region="au" data-lang="en" href="javascript:OneLinkSwitch('www.flukenetworks.com')">Oceania</a></li>
+<li><a id="en-in" onclick="setcnlangcookie(this);" data-region="in" data-lang="en" href="javascript:OneLinkSwitch('www.flukenetworks.com')">India</a></li>
+<li><a id="cn-zh" onclick="setcnlangcookie(this);" data-region="cn" data-lang="cn" href="javascript:OneLinkSwitch('www.flukenetworks.com.cn')">China</a></li>
+<li><a id="ko-kr" onclick="setcnlangcookie(this);" data-region="ko" data-lang="ko" href="javascript:OneLinkSwitch('ko.flukenetworks.com')">Korea</a></li>
+<li><a id="jp-ja" onclick="setcnlangcookie(this);" data-region="jp" data-lang="jp" href="javascript:OneLinkSwitch('jp.flukenetworks.com')">Japan</a></li>
+</ul>
+</li>
+<li class="fnet-regions reg-mea">
+<a href="#">Middle East & Africa<i class="fa fa-angle-right icon6" aria-hidden="true"></i></a>
+<ul class="fnet-lang-menu">
+<li><a id="en-eu" onclick="setcnlangcookie(this);" data-region="eu" data-lang="en" href="javascript:OneLinkSwitch('www.flukenetworks.com')">English</li>
+<li><a id="fr-eu" onclick="setcnlangcookie(this);" data-region="eu" data-lang="fr" href="javascript:OneLinkSwitch('fr.flukenetworks.com')">French</a></li>
+</ul>
+</li>
+ <li class="fnet-regions reg-ru">
+<a href="#">Russia<i class="fa fa-angle-right icon6" aria-hidden="true"></i></a>
+<ul class="fnet-lang-menu">
+<li><a id="ru-ru" onclick="setcnlangcookie(this);" data-region="ru" data-lang="ru" href="javascript:OneLinkSwitch('ru.flukenetworks.com')">Russia</a></li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="container-fluid fullBorder">
+</div>
+<div class="container">
+<div class="row">
+<nav role="navigation" class="navbar navbar-default mainmenu">
+
+<div class="navbar-header">
+<button type="button" id="ChangeToggle" class="navbar-toggle collapsed" data-toggle="slide-collapse" data-target="#slide-navbar-collapse" aria-expanded="false">
+<div id="navbar-hamburger">
+<span class="sr-only">Toggle navigation</span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+</div>
+<div id="navbar-close" class="hidden">
+<i class="fa fa-times" aria-hidden="true"></i>
+</div>
+</button>
+</div>
+
+<div id="slide-navbar-collapse" class="navbar-collapse">
+<ul class="keyPoints headerTwo">
+<li class=""><a class="titleHead searchTxt" data-placement="bottom"><button class="svg-button"><svg id="search-icon-svg" class="img-responsive icons" data-name="search-icon-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30">
+<title>search-icon-white</title>
+<path class="search-icon" d="M21.38121,18.97518H20.12589l-.41844-.41844a10.94488,10.94488,0,0,0-1.0461-15.48227A11.14471,11.14471,0,0,0,11.12943.35461h0A11.078,11.078,0,0,0,.25,11.234h0A10.93825,10.93825,0,0,0,11.12943,22.11348h0a9.78038,9.78038,0,0,0,7.11348-2.71986l.41844.41844V21.2766l8.578,8.36879L29.75,27.13475Zm-10.25178,0A7.681,7.681,0,0,1,3.59752,11.234h0a7.681,7.681,0,0,1,7.74113-7.53191h0a7.681,7.681,0,0,1,7.53192,7.74113A7.54917,7.54917,0,0,1,11.12943,18.97518Z" />
+</svg>
+</button></a></li><li class=""><a class="titleHead countryChg" data-placement="bottom"><button class="svg-button"><svg id="globe-icon-svg" class="img-responsive icons" data-name="globe-icon-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30">
+<title>world-icon-white</title>
+<path class="globe-icon" d="M7.72887,25.38733a11.52323,11.52323,0,0,0-1.662,1.24647A16.23409,16.23409,0,0,0,10.22183,28.919a8.56914,8.56914,0,0,1-2.07746-2.70071c-.20775-.41549-.4155-.62324-.4155-.831ZM5.85916,3.3662a11.52362,11.52362,0,0,1,1.662,1.24648c.20774-.4155.41549-.62324.41549-.831A13.3373,13.3373,0,0,1,10.01408,1.081,16.23383,16.23383,0,0,0,5.85916,3.3662ZM8.76761,5.23592c.41549.20774.62324.20774.831.41549a17.67034,17.67034,0,0,0,4.57042.831V.25C12.2993.66549,10.63732,2.11972,9.39085,4.40493c-.20775.41549-.20775.62324-.62324.831ZM15.831,6.48239a16.18168,16.18168,0,0,0,4.36267-.831c.4155-.20775.62324-.20775.831-.41549,0-.20775-.20775-.4155-.41549-.831A8.16846,8.16846,0,0,0,15.831.25V6.48239Zm6.44014-1.86971a11.524,11.524,0,0,0,1.662-1.24648A16.23389,16.23389,0,0,0,19.77817,1.081a7.90522,7.90522,0,0,1,1.86972,2.7007c.20774.20775.62324.62324.62324.831Zm2.90845-.20775a13.97433,13.97433,0,0,1-2.28521,1.45423,26.86307,26.86307,0,0,1,1.662,8.30985H29.75a14.44309,14.44309,0,0,0-4.15493-9.55633.64339.64339,0,0,0-.41549-.20775ZM21.64789,6.48239c-.41549.20775-.62324.4155-1.03873.62324a13.96577,13.96577,0,0,1-4.98592.831V14.169h7.47887a22.97952,22.97952,0,0,0-1.45422-7.68662ZM14.169,7.93662A14.28018,14.28018,0,0,1,9.1831,6.89789a1.575,1.575,0,0,1-.831-.4155A22.01313,22.01313,0,0,0,6.89789,14.169h7.47887L14.169,7.93662ZM7.10563,5.85916A8.57876,8.57876,0,0,1,4.82042,4.40493a.64341.64341,0,0,0-.41549.20775A14.44309,14.44309,0,0,0,.25,14.169H5.44366a21.17146,21.17146,0,0,1,1.662-8.30985ZM4.82042,25.59507a13.97357,13.97357,0,0,1,2.28521-1.45422,26.8632,26.8632,0,0,1-1.662-8.30986H.25a14.44313,14.44313,0,0,0,4.15493,9.55634c.20775,0,.41549,0,.41549.20774Zm3.53169-2.28521c.20775-.20775.62324-.20775,1.03874-.41549a14.2802,14.2802,0,0,1,4.98591-1.03874V15.62324H6.89789a22.01309,22.01309,0,0,0,1.45422,7.68662ZM15.831,21.85563a21.32917,21.32917,0,0,1,4.98591,1.03874c.41549.20774.62324.20774.831.41549a22.01313,22.01313,0,0,0,1.45422-7.68662H15.62324l.20775,6.23239Zm7.06338,2.07747c.831.41549,1.45422,1.03873,2.28521,1.45422l.20775-.20774a13.52548,13.52548,0,0,0,4.15492-9.55634H24.34859a21.16351,21.16351,0,0,1-1.45422,8.30986Zm1.24648,2.7007a11.5232,11.5232,0,0,1-1.662-1.24648c-.20774.4155-.41549.62324-.41549.831a30.38981,30.38981,0,0,1-1.86972,2.7007,38.58819,38.58819,0,0,0,3.94719-2.28521Zm-3.1162-1.86971c-.41549-.20775-.62324-.20775-.831-.4155a16.30868,16.30868,0,0,0-4.57042-1.03873v6.02465c1.86972-.4155,3.53169-1.86972,4.98592-4.15493.20774,0,.20774-.20775.41549-.41549ZM14.169,23.30986a18.14553,18.14553,0,0,0-4.57042,1.03873c-.41549.20775-.62324.20775-.831.4155.20774.41549.41549.62324.41549.831A7.9463,7.9463,0,0,0,14.169,29.75V23.30986Z" />
+</svg>
+</button></a></li><li class=""><a class="titleHead MyAccountChg" href="/myaccount/edit" data-link="/user/login" data-placement="bottom"><button class="svg-button"><svg id="sign-in-icon-svg" class="img-responsive icons" data-name="sign-in-icon-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30">
+<title>account-icon-white</title>
+<path class="sign-in-icon" d="M14.89613,15A7.40588,7.40588,0,0,0,22.375,7.72887,7.72458,7.72458,0,0,0,14.89613.25,7.5441,7.5441,0,0,0,7.41725,7.52113h0A7.44778,7.44778,0,0,0,14.89613,15Zm0,3.73944c-4.98592,0-14.54226,2.28521-14.54226,7.27112V29.75H29.64613V26.01056C29.43838,21.02465,19.67429,18.73944,14.89613,18.73944Z" />
+</svg>
+</button></a></li><li id="quote_cta" class=""><a class="quote_cta" href="/request/get-quote" data-placement="bottom">Get Quote</a></li> </ul>
+<div id="mobile-switcher">
+<div class="row OneLinkKeepLinks country-selector-wrapper" style="display: none;">
+<div class="switcher-heading">
+<h4>CHANGE COUNTRY / LANGUAGE</h4>
+</div>
+<div class="paddingZero"> 
+
+<ul>
+<li class="fnet-regions reg-americas region-active">
+<a href="#">Americas<i class="fa fa-angle-up" aria-hidden="true"></i></a>
+<ul class="fnet-lang-menu">
+<li>
+<div class="country-name col-md-4"> United States </div>
+<div class="languages-list col-md-8">
+<a id="en-us" onclick="setcnlangcookie(this);" data-region="us" data-lang="en" href="javascript:OneLinkSwitch('www.flukenetworks.com')">English</a>
+</div>
+</li>
+<li>
+<div class="country-name col-md-4"> Canada </div>
+<div class="languages-list col-md-8">
+<a id="en-ca" onclick="setcnlangcookie(this);" data-region="ca" data-lang="en" href="javascript:OneLinkSwitch('www.flukenetworks.com')">English </a>
+<a id="fr-ca" onclick="setcnlangcookie(this);" data-region="ca" data-lang="fr" href="javascript:OneLinkSwitch('fr.flukenetworks.com')"> French</a>
+</div>
+</li>
+<li id="latin-america">
+<div class="country-name col-md-4"> Latin America </div>
+<div class="languages-list col-md-8">
+<a id="en-ln" onclick="setcnlangcookie(this);" data-region="ln" data-lang="en" href="javascript:OneLinkSwitch('www.flukenetworks.com')"> English </a>
+<a id="es-ln" onclick="setcnlangcookie(this);" data-region="es" data-lang="es" href="javascript:OneLinkSwitch('es.flukenetworks.com')"> Spanish </a>
+<a id="pt-br" onclick="setcnlangcookie(this);" data-region="br" data-lang="pt" href="javascript:OneLinkSwitch('pt.flukenetworks.com')"> Portuguese</a>
+</div>
+</li>
+</ul>
+</li>
+<li class="fnet-regions reg-europe">
+<a href="#">Europe<i class="fa fa-angle-down" aria-hidden="true"></i></a>
+<ul class="fnet-lang-menu">
+<li><a id="en-eu" onclick="setcnlangcookie(this);" data-region="eu" data-lang="en" href="javascript:OneLinkSwitch('www.flukenetworks.com')">English</a></li>
+<li><a id="fr-eu" onclick="setcnlangcookie(this);" data-region="eu" data-lang="fr" href="javascript:OneLinkSwitch('fr.flukenetworks.com')">French</a></li>
+<li><a id="de-eu" onclick="setcnlangcookie(this);" data-region="eu" data-lang="de" href="javascript:OneLinkSwitch('de.flukenetworks.com')">German</a></li>
+<li><a id="es-eu" onclick="setcnlangcookie(this);" data-region="eu" data-lang="es" href="javascript:OneLinkSwitch('es.flukenetworks.com')">Spanish</a></li>
+<li><a id="pt-eu" onclick="setcnlangcookie(this);" data-region="eu" data-lang="pt" href="javascript:OneLinkSwitch('pt.flukenetworks.com')">Portuguese</a></li>
+</ul>
+</li>
+<li class="fnet-regions reg-apac">
+<a href="#">Asia-Pacific<i class="fa fa-angle-down" aria-hidden="true"></i></a>
+<ul class="fnet-lang-menu">
+<li><a id="en-su" onclick="setcnlangcookie(this);" data-region="su" data-lang="en" href="javascript:OneLinkSwitch('www.flukenetworks.com')">SE Asia</a></li>
+<li><a id="en-au" onclick="setcnlangcookie(this);" data-region="au" data-lang="en" href="javascript:OneLinkSwitch('www.flukenetworks.com')">Oceania</a></li>
+<li><a id="en-in" onclick="setcnlangcookie(this);" data-region="in" data-lang="en" href="javascript:OneLinkSwitch('www.flukenetworks.com')">India</a></li>
+<li><a id="cn-zh" onclick="setcnlangcookie(this);" data-region="cn" data-lang="cn" href="javascript:OneLinkSwitch('www.flukenetworks.com.cn')">China</a></li>
+<li><a id="ko-kr" onclick="setcnlangcookie(this);" data-region="ko" data-lang="ko" href="javascript:OneLinkSwitch('ko.flukenetworks.com')">Korea</a></li>
+<li><a id="jp-ja" onclick="setcnlangcookie(this);" data-region="jp" data-lang="jp" href="javascript:OneLinkSwitch('jp.flukenetworks.com')">Japan</a></li>
+</ul>
+</li>
+<li class="fnet-regions reg-mea">
+<a href="#">Middle East & Africa<i class="fa fa-angle-down" aria-hidden="true"></i></a>
+<ul class="fnet-lang-menu">
+<li><a id="en-eu" onclick="setcnlangcookie(this);" data-region="eu" data-lang="en" href="javascript:OneLinkSwitch('www.flukenetworks.com')">English</li>
+<li><a id="fr-eu" onclick="setcnlangcookie(this);" data-region="eu" data-lang="fr" href="javascript:OneLinkSwitch('fr.flukenetworks.com')">French</a></li>
+</ul>
+</li>
+<li class="fnet-regions reg-ru">
+<a href="#">Russia<i class="fa fa-angle-down" aria-hidden="true"></i></a>
+<ul class="fnet-lang-menu">
+<li><a id="ru-ru" onclick="setcnlangcookie(this);" data-region="ru" data-lang="ru" href="javascript:OneLinkSwitch('ru.flukenetworks.com')">Russia</a></li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<ul class="backTxt visible-sm visible-xs">
+<li id="back" style="display: none;">
+<a href="#"><i class="fa fa-angle-left icon3" aria-hidden="true"></i><span>BACK <span></a>
+</li>
+</ul>
+<ul id="fresponsive headerMenuCust11" class="nav navbar-nav dropdown"><li id="back" style=""><a href="#"><i class="fa fa-angle-left icon3" aria-hidden="true"></i><span>BACK</span></a></li><li class="first expanded flukeMenu content dropdown-submenu" id="one"><a href="/products" id="menu_first_link_cust" class="topMenu arrow_append_cls dropdown-toggle" data-toggle="dropdown">Products</a><div class="row dropdown-menu content1 product"><ul class="subMenuContent"><li class="first expanded dropdown-submenu col-md-3 col-xs-12 padMarg"><a href="/cabling-certification" class="vldproducts dropdown-toggle">VLD Products</a><ul class="dropDownMenuCont productData"><li class="first leaf subMenu dropdown"><a href="/products/cabling-certification/cabling-certification-versiv" class="subMenuTitle dropdown">VERSIV</a><div class="row dropdown-menu content1 product"><ul class="col-md-4 col-xs-12 col-sm-4"></ul></div></li>
+<li class="leaf subMenu dropdown"><a href="/industrialethernet" class="subMenuTitle dropdown">INDUSTRIAL ETHERNET</a><div class="row dropdown-menu content1 product"><ul class="col-md-4 col-xs-12 col-sm-4"></ul></div></li>
+<li class="leaf subMenu dropdown"><a href="/linkwarelive" class="subMenuTitle dropdown">LINKWARE LIVE</a><div class="row dropdown-menu content1 product"><ul class="col-md-4 col-xs-12 col-sm-4"></ul></div></li>
+<li class="last leaf subMenu dropdown"><a href="/content/gold-product-support" class="subMenuTitle dropdown">GOLD SUPPORT PLAN</a><div class="row dropdown-menu content1 product"><ul class="col-md-4 col-xs-12 col-sm-4"></ul></div></li>
+</ul></li>
+<li class="expanded mobileCustPad dropdown-submenu col-md-3 col-xs-12 padMarg"><a href="/cabling-certification" class="title productHead custProductOverd dropdown-toggle">Cabling Certification</a><ul class="dropDownMenuCont productData"><li class="first leaf subMenu dropdown"><a href="/products/cabling-certification/cabling-certification-versiv" class="subMenuTitle dropdown">Versiv Cabling Certification</a><div class="row dropdown-menu content1 product"><ul class="col-md-4 col-xs-12 col-sm-4"></ul></div></li>
+<li class="leaf subMenu dropdown"><a href="/products/cabling-certification/copper-certification" class="subMenuTitle dropdown">Copper Certification</a><div class="row dropdown-menu content1 product"><ul class="col-md-4 col-xs-12 col-sm-4"></ul></div></li>
+<li class="last leaf subMenu dropdown"><a href="/products/cabling-certification/fiber-certification" class="subMenuTitle dropdown">Fiber Certification</a><div class="row dropdown-menu content1 product"><ul class="col-md-4 col-xs-12 col-sm-4"></ul></div></li>
+</ul></li>
+<li class="expanded mobileCustPad dropdown-submenu col-md-3 col-xs-12 padMarg"><a href="/installation-and-test" class="title productHead custProductOverd dropdown-toggle">Installation and Test</a><ul class="dropDownMenuCont productData"><li class="first leaf subMenu dropdown"><a href="/products/installation-and-test/cable-and-network-testing" class="subMenuTitle dropdown">Cable and Network Testing</a><div class="row dropdown-menu content1 product"><ul class="col-md-4 col-xs-12 col-sm-4"></ul></div></li>
+<li class="leaf subMenu dropdown"><a href="/products/installation-and-test/fiber-inspection-and-cleaning" class="subMenuTitle dropdown">Fiber Inspection and Cleaning</a><div class="row dropdown-menu content1 product"><ul class="col-md-4 col-xs-12 col-sm-4"></ul></div></li>
+<li class="leaf subMenu dropdown"><a href="/products/installation-and-test/fiber-optic-power-meters-and-fault-locators" class="subMenuTitle dropdown">Fiber Optic Power Meters and Fault Locators</a><div class="row dropdown-menu content1 product"><ul class="col-md-4 col-xs-12 col-sm-4"></ul></div></li>
+<li class="leaf subMenu dropdown"><a href="/products/installation-and-test/copper-cable-testers-and-tone-generators" class="subMenuTitle dropdown">Network Cable Testers</a><div class="row dropdown-menu content1 product"><ul class="col-md-4 col-xs-12 col-sm-4"></ul></div></li>
+<li class="last leaf subMenu dropdown"><a href="/products/installation-and-test/punch-down-and-termination-tools" class="subMenuTitle dropdown">Punch Down Tools and Termination Tools</a><div class="row dropdown-menu content1 product"><ul class="col-md-4 col-xs-12 col-sm-4"></ul></div></li>
+</ul></li>
+<li class="last expanded mobileCustPad dropdown-submenu col-md-3 col-xs-12 padMarg"><a href="/telecom-test" class="title productHead custProductOverd dropdown-toggle">Telecom Test</a><ul class="dropDownMenuCont productData"><li class="first leaf subMenu dropdown"><a href="/products/telecom-test/telephone-line-test-sets" class="subMenuTitle dropdown">Telephone Line Test Sets</a><div class="row dropdown-menu content1 product"><ul class="col-md-4 col-xs-12 col-sm-4"></ul></div></li>
+<li class="leaf subMenu dropdown"><a href="/products/telecom-test/fault-locators-and-tone-generators" class="subMenuTitle dropdown">Fault Locators and Tone Generators</a><div class="row dropdown-menu content1 product"><ul class="col-md-4 col-xs-12 col-sm-4"></ul></div></li>
+<li class="last leaf subMenu dropdown"><a href="/products/telecom-test/termination-tools" class="subMenuTitle dropdown">Termination Tools</a><div class="row dropdown-menu content1 product"><ul class="col-md-4 col-xs-12 col-sm-4"></ul></div></li>
+</ul></li>
+</ul> <div class="row allTxt"><div class="col-md-12 productAll"><div class="viewAll"><p>Can’t find it?</p><ul><li><a href="/products">View all Products &gt;</a></li></ul></div></div></div> </div></li>
+<li class="expanded flukeMenu content dropdown-submenu" id="two"><a href="/content/were-here-help" id="menu_cust_frfx_cls" class="topMenu arrow_append_cls dropdown-toggle" data-toggle="dropdown">Support</a><div class="row dropdown-menu content1 frfxWdth"><ul class="subMenuContent"><li class="first leaf subMenu dropdown-submenu" id="custMenuClsItm"><a href="/support/downloads" class="subMenuTitle dropdown-toggle">Downloads & Updates</a><ul class="dropDownMenuCont productData"></ul></li>
+<li class="leaf subMenu dropdown-submenu" id="custMenuClsItm"><a href="/knowledge-base" class="subMenuTitle dropdown-toggle">Knowledge Base</a><ul class="dropDownMenuCont productData"></ul></li>
+<li class="leaf subMenu dropdown-submenu" id="custMenuClsItm"><a href="/support/manuals" class="subMenuTitle dropdown-toggle">Manuals</a><ul class="dropDownMenuCont productData"></ul></li>
+<li class="leaf subMenu dropdown-submenu" id="custMenuClsItm"><a href="/expertise/whitepapers" class="subMenuTitle dropdown-toggle">Whitepapers</a><ul class="dropDownMenuCont productData"></ul></li>
+<li class="leaf subMenu dropdown-submenu" id="custMenuClsItm"><a href="/support/application-notes" class="subMenuTitle dropdown-toggle">Application Notes</a><ul class="dropDownMenuCont productData"></ul></li>
+<li class="leaf subMenu dropdown-submenu" id="custMenuClsItm"><a href="/contact" class="subMenuTitle dropdown-toggle">Contact Us</a><ul class="dropDownMenuCont productData"></ul></li>
+<li class="leaf subMenu dropdown-submenu" id="custMenuClsItm"><a href="/content/register-your-product" class="subMenuTitle dropdown-toggle">Product registration</a><ul class="dropDownMenuCont productData"></ul></li>
+<li class="last leaf subMenu dropdown-submenu" id="custMenuClsItm"><a href="/content/gold-product-support" class="subMenuTitle dropdown-toggle">Gold Support</a><ul class="dropDownMenuCont productData"></ul></li>
+</ul></div></li>
+<li class="expanded flukeMenu content thirdlinkSln dropdown-submenu" id="three"><a href="/solutions" id="menu_third_link_cust" class="topMenu arrow_append_cls dropdown-toggle" data-toggle="dropdown">Solutions</a><div class="row dropdown-menu content1 solution"><ul class="subMenuContent"><li class="first expanded dropdown-submenu col-md-6 col-xs-12 padMarg" id="custMenuClsItmsln"><a href="/solutions/roles" class="title solnHead productHead dropdown-toggle">Roles</a><ul class="dropDownMenuCont productData"><li class="first leaf subMenu dropdown"><a href="/expertise/role/architects-consultants-and-designers" class="subMenuTitle dropdown">Architects, Consultants and Designers</a><div class="row dropdown-menu content1 product"><ul class="col-md-4 col-xs-12 col-sm-4"></ul></div></li>
+<li class="leaf subMenu dropdown"><a href="/expertise/role/guide-to-contract-installers-and-installation" class="subMenuTitle dropdown">Contractors and Installers</a><div class="row dropdown-menu content1 product"><ul class="col-md-4 col-xs-12 col-sm-4"></ul></div></li>
+<li class="leaf subMenu dropdown"><a href="/expertise/role/industrial-automation-controls-engineers-technicians-and-electricians" class="subMenuTitle dropdown">Controls System Engineers</a><div class="row dropdown-menu content1 product"><ul class="col-md-4 col-xs-12 col-sm-4"></ul></div></li>
+<li class="leaf subMenu dropdown"><a href="/expertise/role/network-engineers" class="subMenuTitle dropdown">Network Engineers</a><div class="row dropdown-menu content1 product"><ul class="col-md-4 col-xs-12 col-sm-4"></ul></div></li>
+<li class="last leaf subMenu dropdown"><a href="/solutions/roles" class="subMenuTitle dropdown">See More ></a><div class="row dropdown-menu content1 product"><ul class="col-md-4 col-xs-12 col-sm-4"></ul></div></li>
+</ul></li>
+<li class="last expanded dropdown-submenu col-md-6 col-xs-12 padMarg" id="custMenuClsItmsln"><a href="/solutions/learn-about" class="title solnHead productHead dropdown-toggle">Fundamentals</a><ul class="dropDownMenuCont productData"><li class="first leaf subMenu dropdown"><a href="/expertise/learn-about/cable-installation" class="subMenuTitle dropdown">Cable Installation Tools</a><div class="row dropdown-menu content1 product"><ul class="col-md-4 col-xs-12 col-sm-4"></ul></div></li>
+<li class="leaf subMenu dropdown"><a href="/expertise/learn-about/cable-testing" class="subMenuTitle dropdown">Network Cable Testers</a><div class="row dropdown-menu content1 product"><ul class="col-md-4 col-xs-12 col-sm-4"></ul></div></li>
+<li class="leaf subMenu dropdown"><a href="/Expertise/Learn-About/Fiber-Testing" class="subMenuTitle dropdown">Fiber Optic Testers</a><div class="row dropdown-menu content1 product"><ul class="col-md-4 col-xs-12 col-sm-4"></ul></div></li>
+<li class="leaf subMenu dropdown"><a href="/expertise/learn-about/otdr" class="subMenuTitle dropdown">OTDR - Optical Time Domain Reflectometer</a><div class="row dropdown-menu content1 product"><ul class="col-md-4 col-xs-12 col-sm-4"></ul></div></li>
+<li class="leaf subMenu dropdown"><a href="/expertise/learn-about/category-8-cable-testing" class="subMenuTitle dropdown">Category 8 Cable Testing</a><div class="row dropdown-menu content1 product"><ul class="col-md-4 col-xs-12 col-sm-4"></ul></div></li>
+<li class="leaf subMenu dropdown"><a href="/solutions/case-studies" class="subMenuTitle dropdown">Case Studies</a><div class="row dropdown-menu content1 product"><ul class="col-md-4 col-xs-12 col-sm-4"></ul></div></li>
+<li class="last leaf dropdown"><a href="/solutions/learn-about" class="subMenuTitle dropdown">See More ></a><div class="row dropdown-menu content1 product"><ul class="col-md-4 col-xs-12 col-sm-4"></ul></div></li>
+</ul></li>
+</ul></div></li>
+<li class="expanded flukeMenu content dropdown-submenu" id="four"><a href="/community" class="topMenu arrow_append_cls dropdown-toggle" data-toggle="dropdown">Community</a><div class="row dropdown-menu content1"><ul class="subMenuContent"><li class="first leaf subMenu dropdown-submenu" id="custMenuClsItm"><a href="/news-list" class="subMenuTitle dropdown-toggle">News</a><ul class="dropDownMenuCont productData"></ul></li>
+<li class="leaf subMenu dropdown-submenu" id="custMenuClsItm"><a href="/blog/cabling-chronicles" class="subMenuTitle dropdown-toggle">Blog</a><ul class="dropDownMenuCont productData"></ul></li>
+<li class="last leaf subMenu dropdown-submenu" id="custMenuClsItm"><a href="/community" class="subMenuTitle dropdown-toggle">Social Media</a><ul class="dropDownMenuCont productData"></ul></li>
+</ul></div></li>
+<li class="expanded flukeMenu content dropdown-submenu" id="five"><a href="/news-events" id="menu_cust_frfx_cls" class="topMenu arrow_append_cls dropdown-toggle" data-toggle="dropdown">TRAINING & EVENTS</a><div class="row dropdown-menu content1 frfxWdth"><ul class="subMenuContent"><li class="first leaf subMenu dropdown-submenu" id="custMenuClsItm"><a href="/content/certified-cabling-test-technician-training-program" class="subMenuTitle dropdown-toggle">Certified Cabling Technician Training</a><ul class="dropDownMenuCont productData"></ul></li>
+<li class="last leaf subMenu dropdown-submenu" id="custMenuClsItm"><a href="/knowledge-base?title=&amp;term_node_tid_depth=622" class="subMenuTitle dropdown-toggle">Online Training Videos</a><ul class="dropDownMenuCont productData"></ul></li>
+</ul></div></li>
+<li class="last expanded flukeMenu content dropdown-submenu" id="six"><a href="/wheretobuy" class="topMenu arrow_append_cls dropdown-toggle" data-toggle="dropdown">Where To Buy</a><div class="row dropdown-menu content1"><ul class="subMenuContent"><li class="first leaf subMenu dropdown-submenu" id="custMenuClsItm"><a href="/wheretobuy" class="subMenuTitle dropdown-toggle">Find a Reseller</a><ul class="dropDownMenuCont productData"></ul></li>
+<li class="last leaf subMenu dropdown-submenu" id="custMenuClsItm"><a href="/content/contact-sales-representative" class="subMenuTitle dropdown-toggle">Call Us</a><ul class="dropDownMenuCont productData"></ul></li>
+</ul></div></li>
+</ul> <div class="mobile-other-company-list">
+<div class="menu-block-wrapper menu-block-1 menu-name-menu-other-companies parent-mlid-0 menu-level-1">
+<ul class="menu nav"><li class="first last expanded menu-mlid-26345 dropdown"><a href="/" class="arrow_append_cls disabled-link dropdown-toggle" data-toggle="dropdown">Other Fluke companies <span class="caret"></span></a><ul class="dropdown-menu"><li class="first collapsed menu-mlid-26346"><a href="/" id="other-companies" class="subMenuTitle">OTHER FLUKE COMPANIES</a></li>
+<li class="leaf menu-mlid-26347"><a href="https://www.fluke.com/en-us" target="_blank">Fluke</a></li>
+<li class="leaf menu-mlid-26348"><a href="https://flukecal.com/" target="_blank">Fluke Calibration</a></li>
+<li class="leaf menu-mlid-26349"><a href="https://www.flukebiomedical.com" target="_blank">Fluke Biomedical</a></li>
+<li class="leaf menu-mlid-26350"><a href="https://www.flukeprocessinstruments.com/en-us" target="_blank">Fluke Process Instruments</a></li>
+<li class="leaf menu-mlid-26351"><a href="https://www.accelix.com/" target="_blank">Accelix</a></li>
+<li class="leaf menu-mlid-26352"><a href="http://www.amprobe.com/" target="_blank">Amprobe</a></li>
+<li class="leaf menu-mlid-26353"><a href="https://www.beha-amprobe.com/" target="_blank">Beha-Amprobe</a></li>
+<li class="leaf menu-mlid-26354"><a href="https://www.comarkinstruments.net/" target="_blank">Comark</a></li>
+<li class="leaf menu-mlid-26355"><a href="https://www.landauer.com" target="_blank">Landauer</a></li>
+<li class="leaf menu-mlid-26356"><a href="https://www.pruftechnik.com/" target="_blank">Pruftechnik</a></li>
+<li class="last leaf menu-mlid-26357"><a href="https://www.raysafe.com/" target="_blank">RaySafe</a></li>
+</ul></li>
+</ul></div>
+</div>
+</div>
+</nav>
+</div>
+</div>
+</div>
+</section>
+<div id="search" style="display: none;">
+<div class="region region-header">
+<section id="block-views-exp-fnet-site-search-page" class="block block-views clearfix">
+
+<form action="/site-search" method="get" id="views-exposed-form-fnet-site-search-page" accept-charset="UTF-8"><div><div class="views-exposed-form">
+<div class="views-exposed-widgets clearfix">
+<div id="edit-term-wrapper" class="views-exposed-widget views-widget-filter-search_api_views_fulltext">
+<label for="edit-term">
+Search </label>
+<div class="views-widget">
+<div class="form-item form-item-term form-type-textfield form-group"><input class="form-control form-text" type="text" id="edit-term" name="term" value="" size="30" maxlength="128" /></div> </div>
+</div>
+<div class="views-exposed-widget views-submit-button">
+<button type="submit" id="edit-submit-fnet-site-search" name="" value="Search" class="btn btn-primary form-submit">Search</button>
+</div>
+</div>
+</div>
+</div></form>
+</section>
+</div>
+</div>
+<div id="myaccount" style="display: none;">
+<h5 class="topTitle myAccountTitle">
+<a href="/myaccount" rel="nofollow">MY ACCOUNT</a></h5>
+<h5 class="topTitle myAccountTitle">
+<a href="/user/logout" rel="nofollow">LOG OUT</a></h5>
+</div>
+<section class="main-content">
+<div id="content">
+
+<div id="bread" class="container "><div class="breadcrumb"><a href="/" class="breadcrumbs--item">Home<span class="arrowBread"> > </span></a><span class="breadcrumbs--item breadcrumbs--item---active"></span></div></div> <div class="region region-content">
+<section id="block-system-main" class="block block-system clearfix">
+<section id="asset">
+<div class="container">
+<img src="/sites/all/themes/fnet_bootstrap_subtheme/images/gateway-checkmark-icon-blue.svg" class="img-responsive checkGateway">
+<h1 class="titleNm">Your Download Is Ready</h1>
+<div class="successMsg">
+<h4><p>We appreciate your interest in ISO/IEC Fiber Statement of Works (LSPM and OTDR testing)</p>
+<p>Your download will begin shortly.</p>
+</h4>
+</div>
+<ul class="questionMail">
+<li><a href="https://download.flukenetworks.com/Download/Asset/sow_fiber_iso_14763-3_centric_v_1.0_lspm_and_otdr.docx?nvb=20230105145715&amp;nva=20230105160215&amp;token=0277ec77e98f141b6d481">If your download does not start in five seconds, click here.</a></li>
+</ul>
+<script>
+                setTimeout('top.location = "https://download.flukenetworks.com/Download/Asset/sow_fiber_iso_14763-3_centric_v_1.0_lspm_and_otdr.docx?nvb=20230105145715&nva=20230105160215&token=0277ec77e98f141b6d481"', 3000);
+            </script>
+</div>
+</section>
+</section>
+</div>
+</div>
+</section>
+<section id="footer">
+<div class="container footerTop">
+<div class="row">
+<div class="col-md-3 col-sm-3"><h5 class="footerHead"><a href="/products">PRODUCTS</a></h5><ul class="footerData"><li class="footerLink"><a href="/products/cabling-certification/cabling-certification-versiv" class="footerText">Versiv</a></li><li class="footerLink"><a href="/linkwarelive" class="footerText">LinkWare Live</a></li><li class="footerLink"><a href="/cabling-certification" class="footerText">Cabling Certification</a></li><li class="footerLink"><a href="/installation-and-test" class="footerText">Installation and Test</a></li><li class="footerLink"><a href="/telecom-test" class="footerText">Telecom Test</a></li><li class="footerLink"><a href="/products" class="footerText">Complete Product List </a></li><li class="footerLink"><a href="/promotions" class="footerText">Promotions</a></li></ul></div><div class="col-md-3 col-sm-3"><h5 class="footerHead"><a href="/content/were-here-help">SUPPORT</a></h5><ul class="footerData"><li class="footerLink"><a href="/support/downloads" class="footerText">Downloads and Updates</a></li><li class="footerLink"><a href="/knowledge-base" class="footerText">Knowledge Base </a></li><li class="footerLink"><a href="/support/manuals" class="footerText">Manuals</a></li><li class="footerLink"><a href="/expertise/whitepapers" class="footerText">Whitepapers</a></li><li class="footerLink"><a href="/support/application-notes" class="footerText">Application Notes</a></li><li class="footerLink"><a href="/content/standard-warranty" class="footerText">Warranty Information</a></li><li class="footerLink"><a href="/contact" class="footerText">Contact Us</a></li><li class="footerLink"><a href="/content/register-your-product" class="footerText">Product registration</a></li></ul></div><div class="col-md-2 col-sm-2"><h5 class="footerHead"><a href="/solutions">SOLUTIONS</a></h5><ul class="footerData"><li class="footerLink"><a href="/solutions/roles" class="footerText">Solutions by Role</a></li><li class="footerLink"><a href="/solutions/case-studies" class="footerText">Case Studies</a></li><li class="footerLink"><a href="/solutions/learn-about" class="footerText">Fundamentals</a></li></ul><h5 class="footerHead community"><a href="/community">COMMUNITY</a></h5><ul class="footerData"><li class="footerLink"><a href="/news-list" class="footerText">News</a></li><li class="footerLink"><a href="/blog/cabling-chronicles" class="footerText">Blog </a></li><li class="footerLink"><a href="/community" class="footerText">Social Media </a></li></ul></div><div class="col-md-2 col-sm-2"><h5 class="footerHead"><a href="/">TRAINING & EVENTS</a></h5><ul class="footerData"><li class="footerLink"><a href="/content/certified-cabling-test-technician-training-program" class="footerText">Certified Cabling Technician Training</a></li><li class="footerLink"><a href="/knowledge-base" class="footerText">Online Training Videos</a></li><li class="footerLink"><a href="/training-events/webinars" class="footerText">Webinars</a></li><li class="footerLink"><a href="/training-events/workshops" class="footerText">Workshops</a></li><li class="footerLink"><a href="/training-events/trade-shows" class="footerText">Trade Shows</a></li></ul><h5 class="footerHead vspace51px" data-href="footerSI"><a href="/extranet">SALES INSIDER</a></h5></div><div class="col-md-2 col-sm-2"><h5 class="footerHead"><a href="/">WHERE TO BUY</a></h5><ul class="footerData"><li class="footerLink"><a href="/wheretobuy" class="footerText">Find a Reseller</a></li><li class="footerLink"><a href="/content/contact-sales-representative" class="footerText">Contact a Sales Representative</a></li></ul><h5 class="footerHead vspace51px"><a href="/about-us">ABOUT</a></h5><ul class="footerData"><li class="footerLink"><a href="/about-us" class="footerText">Who We Are</a></li><li class="footerLink"><a href="https://careers.fortive.com/fluke" class="footerText">Careers</a></li><li class="footerLink"><a href="https://clients.intelex.com/Login3/Fluke/DocLink?id=w8D-bYEvtpCXJkoW5OoDrKBmNTdAzyDHcy6A0rdegE_AtKH22Qwn-ehWYcClH0Hb0" class="footerText">Supplier handbook</a></li></ul></div> </div>
+</div>
+<div class="container footerBottom">
+<div class="row">
+<div class="col-md-3 col-xs-12 col-sm-3 socialIconblock">
+<div class="OneLinkShow_zh">
+<div class="region region-china-footer-socials">
+<section id="block-block-8" class="block block-block OneLinkShow_zh clearfix">
+<style type="text/css">.OneLinkShow_zh .socialIcons li a img {
+width: 60px !important;
+height: 60px !important;
+}
+</style>
+<div class="OneLinkShow_zh">
+<ul class="socialIcons">
+<li>
+<a class="fnet_fancybox" href="/sites/default/files/other/ewm01.png"><img alt="" class="img-responsive" src="/sites/default/files/other/ewm01.png" /></a></li>
+<li>
+<a class="fnet_fancybox" href="/sites/default/files/other/ewm03.jpg"><img alt="" class="img-responsive" src="/sites/default/files/other/ewm03.jpg" /></a></li>
+<li>
+<a class="fnet_fancybox" href="/sites/default/files/other/ewm02.jpg"><img alt="" class="img-responsive" src="/sites/default/files/other/ewm02.jpg" /></a></li>
+</ul>
+<select class="input" onchange="if(this.value!='')window.open(this.value);this.options[0].selected=true"><option disabled="disabled" hidden="" selected="selected" value="0">友情链接</option><option value="http://www.0755tianyou.com">深圳天游信息科技有限公司</option><option value="http://www.whpermanent.com">武汉恒景科技有限公司</option><option value="http://www.deanyee.com.cn">重庆得安易科技有限公司</option><option value="http://www.sdlk.cn">山东朗坤信息系统有限公司</option><option value="http://www.njjinshun.com.cn">南京锦顺网络科技有限公司</option><option value="http://www.clouvis.com">云乔科技（北京）有限公司</option><option value="http://www.thxc-bj.com.cn">北京泰和信测科技有限公司</option><option value="http://www.gztester.com">广州泰息特电子科技有限公司</option><option value="">北京艾特耐特科技发展有限公司</option><option value="http://www.nanqiao.cc">广州市南乔网络技术有限公司</option><option value="http://www.langkun.com">上海朗坤信息系统有限公司</option><option value="http://www.mingczh.com/">北京明辰智航科技有限公司</option> </select></div>
+</section>
+</div>
+</div>
+<ul class="socialIcons OneLinkHide_zh">
+<li><a href="https://twitter.com/FlukeNetDCI" target="_blank" title="Twitter"><img class="menu-social-twitter" src="/sites/all/themes/fnet_bootstrap_subtheme/images/twitter-icon.svg" /> </a></li><li><a href="http://www.facebook.com/flukenetworks" target="_blank" title="Facebook"><img class="menu-social-facebook" src="/sites/all/themes/fnet_bootstrap_subtheme/images/facebook-icon.svg" /> </a></li><li><a href="http://www.youtube.com/flukenetworksvideo" target="_blank" title="YouTube"><img class="menu-social-youtube" src="/sites/all/themes/fnet_bootstrap_subtheme/images/you-tube-icon.svg" /> </a></li> </ul>
+</div>
+<div class="col-md-5 col-xs-12 col-sm-5 policyBlock">
+<ul class="policy">
+<li><a href="https://www.fortive.com/integrity-compliance" class="policyPointsFirst">Integrity and Compliance Program </a> </li><li><a href="/about/privacy" class="policyPoints">Privacy Policy</a> </li><li><a href="/about/terms-of-use" class="policyPoints">Terms of Use</a> </li><li><a href="/sitemap" class="policyPointsLast">Sitemap</a> </li> </ul>
+</div>
+<div class="col-md-4 col-xs-12 col-sm-4 copyrightBlock">
+<div class="OneLinkShow_zh">
+<div class="region region-china-footer-copyright">
+<section id="block-block-9" class="block block-block OneLinkShow_zh clearfix">
+<div class="region-footer-copyright rights">
+<p>
+&copy;2006-2021&nbsp;Fluke Corporation。保留所有权利。</p>
+<p>
+RM2011, 20/F, SCITECH Tower, 22 Jianguomenwai Avenue, Chaoyang District, Beijing, China<br />
+地址：北京市朝阳区建国门外大街22号赛特大厦20层2011室<br />
+联系电话：400-8103435<br />
+<a href="https://beian.miit.gov.cn" target="_blank">沪ICP备11037028号-15</a><img alt="" height="14" class="OneLinkShow_zh" src="https://www.flukenetworks.com.cn/sites/default/files/homepage/gongxinbu.jpg" width="14" /></p>
+</div>
+</section>
+</div>
+</div>
+<div class="OneLinkHide_zh">
+<div class="region region-footer-copyright">
+<section id="block-block-3" class="block block-block rights clearfix">
+<p>©2006-2020 Fluke Corporation. All rights reserved.</p>
+</section>
+<section id="block-block-6" class="block block-block clearfix">
+<script type="text/javascript">
+    var http_cf_ipcountry = 'US';
+console.log(http_cf_ipcountry, "- The country from Cloudflare");</script>
+</section>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<script type="text/javascript" src="/sites/default/files/advagg_js/js__Pl-hcTf0a-8hCOZYOyUfHDPivggjGT2g9t9sJSvz5aM__TPFPJrj-cHbvDr8JGSghWf7KE3xqcS_U1U2zNm4b5WA__gDimtVzah_iwIidwGhiV1V8evyWabeUFKac376lfiRo.js"></script>
+<script type="text/javascript" src="/sites/default/files/advagg_js/js__i11V-7AETPhfL9YzRpXBpECwVkYyQ_ahu2eHxES_mK0__S79mhsO6q7fWONLNt9XSEZx-JmiQeAEtuPkuVxIEjpY__gDimtVzah_iwIidwGhiV1V8evyWabeUFKac376lfiRo.js"></script>
+<script>(function(){var js = "window['__CF$cv$params']={r:'784d18089973f261',m:'w7P_rDDgPqiQzToxtqDgBdXFNNbQ0pElqe5ystyBaak-1672930935-0-ASoFuXHLtvb8FJNuBS0AmKqmXNQbL+zJb9Sf8usnbat6RAdWFDXDhCCHMkggap3t3UjUdmZvI8rXvgfeOOXxqf8cyOdrrDKMZCmwTJJbiN2x1i4Fszd5MTs/XsPVnzbLxA==',s:[0x71e4780b6a,0x80ef4fa351],u:'/cdn-cgi/challenge-platform/h/b'};var now=Date.now()/1000,offset=14400,ts=''+(Math.floor(now)-Math.floor(now%offset)),_cpo=document.createElement('script');_cpo.nonce='',_cpo.src='/cdn-cgi/challenge-platform/h/b/scripts/alpha/invisible.js?ts='+ts,document.getElementsByTagName('head')[0].appendChild(_cpo);";var _0xh = document.createElement('iframe');_0xh.height = 1;_0xh.width = 1;_0xh.style.position = 'absolute';_0xh.style.top = 0;_0xh.style.left = 0;_0xh.style.border = 'none';_0xh.style.visibility = 'hidden';document.body.appendChild(_0xh);function handler() {var _0xi = _0xh.contentDocument || _0xh.contentWindow.document;if (_0xi) {var _0xj = _0xi.createElement('script');_0xj.nonce = '';_0xj.innerHTML = js;_0xi.getElementsByTagName('head')[0].appendChild(_0xj);}}if (document.readyState !== 'loading') {handler();} else if (window.addEventListener) {document.addEventListener('DOMContentLoaded', handler);} else {var prev = document.onreadystatechange || function () {};document.onreadystatechange = function (e) {prev(e);if (document.readyState !== 'loading') {document.onreadystatechange = prev;handler();}};}})();</script></body>
+</html>

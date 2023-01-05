@@ -1,0 +1,149 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<!-- FileName: 97638.htm-->
+<head>
+      
+	<!--None-->
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title> Understanding Convergence </title>
+			<meta property="og:title" content="Oracle Primavera Cloud Risk Management User Guide" />
+			<meta name="application-name" content="Oracle Primavera Cloud Risk Management User Guide" />
+			<meta name="firstTopicFilename" content="|94915.htm|" />
+			<!--Title: Risk Management User Guide-->
+<meta name="Keywords" content="" />
+<meta name="description" content="(Risk Management User Guide)" />
+<meta name="aitBookID" content="89183" />
+<meta name="aitObjectID" content="97638" />
+<meta name="aitBasedOnObjectID" content="82196" />
+<meta name="aitBasedOnKey" content="82196" />
+<meta name="aitBasedText" content="Reference LW" />
+<meta name="aitParentID" content="88298" />
+<meta name="aitTOCorder" content="1" />
+<meta name="aitProductName" content="PRIME" />
+    <meta property="og:description" content="This guide explains how to use the Risk app in Oracle Primavera Cloud to analyze and manage the impact of risk on a project." />
+ <meta property="og:site_name" content="Oracle Help Center" />
+	<meta name="dcterms.title" content="Construction and Engineering" />
+	<meta name="dcterms.product" content="en/industries/construction-engineering" />
+	<meta name="dcterms.identifier" content="en/industries/construction-engineering" />
+	<script id="ssot-metadata" type="application/json">
+		
+		 
+{"primary":{"category":{"short_name":"industries","element_name":"Industries","display_in_url":true},"suite":{"short_name":"construction-engineering","element_name":"Construction and Engineering","display_in_url":true}}} 
+		 
+		
+		</script>
+	
+ 
+
+ 
+ 
+ 
+ 
+<link id="rwStylesheet0" rel="stylesheet" href="/sp_common/book-template/ohc-book-template/css/book.css" /><link rel="stylesheet" type="text/css" href="assets/stylesheets/custom_r2.css"><!----></link>
+
+
+
+<script data-main="/sp_common/book-template/ohc-book-template/js/book-config" src="/sp_common/book-template/requirejs/require.js">  </script>
+
+<script>  
+
+
+	//
+if (window.require === undefined && self === top) {
+                document.write('<script data-main="sp_common/book-template/ohc-book-template/js/book-config" src="sp_common/book-template/requirejs/require.js"><\/script>');
+			}
+
+if (window.require === undefined) {
+	document.write('<link href="sp_common/book-template/ohc-book-template/css/book.css" rel="stylesheet"/>');
+}
+
+	 //
+</script>
+	
+
+
+
+	<link rel="prev" href="88298.htm" title="Previous" type="text/html"><!----></link>
+	
+	<link rel="next" href="162022.htm" title="Next" type="text/html"><!----></link>
+	
+				
+			<!--processed regular page
+	-->
+						
+					<!--UPK links = no--><!--
+						Filename from variable:index.htm--><script src="dhtml_search.js"><!----></script>
+<script src="assets\js\result_page_rw.js"><!----></script>
+<!--_____-->
+		  
+    <script src="dhtml_popup.js" type="text/javascript">  </script>
+    
+  <script type="application/ld+json">
+ 
+{
+    "@context":"https://schema.org",
+    "@type":"WebPage",
+    "name":"Oracle Primavera Cloud Risk Management User Guide",
+     "description":"This guide explains how to use the Risk app in Oracle Primavera Cloud to analyze and manage the impact of risk on a project.",
+    "datePublished":"2022-11-15 00:00:00 GMT"
+ }
+
+ </script>
+  <script>window.ohcglobal || document.write('<script src="/en/dcommon/js/global.js">\x3C/script>')</script></head>
+
+<body><article><header>
+<!--H_2--><div id="searchMainContainer"><div id="searchFormTableID" class="searchFormTable"><div id="searchInputContainer"><form name="SearchForm" class="regHelp"><input type="text" id="SearchText" name="SearchText" placeholder="Search" size="25" value=""><div id="searchOptions"><input type="checkbox" id="inHeading" name="inHeading" /><label for="inHeading"> Search only in titles</label><br /></div><button type="submit" class="btn btn-picker" title="Search" id="btnSearch" onclick="searchF()" aria-label="Search"><span class="devgraphicsredwood"></span>
+ </button>
+ </input></form><hr class="searchHR" /></div></div></div><h1 id="t97638" class="heading2" tabindex="0"><span class="inheading">Understanding </span><span class="inheading">Convergence </span></h1>
+					</header>
+					<div id="s_anchor"><!----></div>
+<div id="authoritcontent"><div id="breadcrumb"><!--breadcrumb 
+		--><p class="breadcrumbs"><a class="breadcrumblink" href="88432.htm">Risk Analysis Overview</a><span class="breadcrumbdelimiter" xmlns="http://www.w3.org/1999/xhtml"> &gt; </span><a class="breadcrumblink" href="88298.htm">Run a Risk Analysis</a></p></div>
+<!-- AuthoritObject mark="start" id="97638" type="topic" -->
+
+<p class="bodytext">Use convergence to ensure you run a sufficient, but not excessive number of iterations to achieve statistically accurate analysis results. When convergence is enabled, the system runs the risk analysis and calculates key metrics at selected intervals throughout the simulation. When the key metrics no longer change by more than a specified percentage threshold, the risk analysis stops before running the maximum iterations. The analysis setting that controls the intervals at which the analysis recalculates key metrics is the convergence iteration frequency. The setting that defines the percentage variance used to define key metrics as converged is the convergence threshold.</p>
+<p class="bodytext">The key project metrics that are measured for convergence are:</p>
+<ul class="listbullet" xmlns="http://www.w3.org/1999/xhtml">
+ <li class="listbullet" xmlns="">Mean Duration &amp; Mean Cost</li>
+ 
+ <li class="listbullet" xmlns="">Duration Standard Deviation &amp; Cost Standard Deviation</li>
+ 
+ <li class="listbullet" xmlns="">Optimistic Duration &amp; Optimistic Cost</li>
+ 
+ <li class="listbullet" xmlns="">P50 Duration &amp; P50 Cost</li>
+ 
+ <li class="listbullet" xmlns="">Pessimistic Duration &amp; Pessimistic Cost</li>
+ </ul><p class="bodytext">After four or more duration metrics have converged and four or more cost metrics have converged, the application will consider the analysis converged and stop any remaining iterations from being run. Because Oracle Primavera Cloud is a multi-threaded application, the number of iterations run may be greater than the number of iterations at which the analysis converged due to each thread completing independently.</p>
+<h2 class="subheading" id="subhead_example12">Example</h2>
+<p class="bodytext">To gain an understanding of how convergence works, consider the following example. Say you are analyzing a project for risk and you configure the following settings:</p>
+<p class="bodytext"><strong class="specialbold" xmlns="http://www.w3.org/1999/xhtml">Maximum iterations</strong>: 1000</p>
+<p class="bodytext"><strong class="specialbold" xmlns="http://www.w3.org/1999/xhtml">Convergence Iteration Frequency</strong>: 100</p>
+<p class="bodytext"><strong class="specialbold" xmlns="http://www.w3.org/1999/xhtml">Convergence Threshold</strong>: 1%</p>
+<p class="infobox-note"><strong class="specialbold" xmlns="http://www.w3.org/1999/xhtml">Note</strong>: For this example, we will only examine a single key metric, project mean cost. However, during an actual risk analysis the application computes and examines various key metrics to determine when the analysis results have converged.</p>
+<p class="bodytext">When you run the analysis, it proceeds as follows:</p>
+<ol class="listnumber" xmlns="http://www.w3.org/1999/xhtml">
+ <li class="listnumber" xmlns="">The first 100 iterations are run and the key metric is computed: Mean Cost = 1,000.</li>
+ 
+ <li class="listnumber" xmlns="">100 more iterations are run. The key metric is computed for the total 200 iterations: Mean Cost = 1,050. There is a 5% variance (1,050-1000 divided by 1000=0.05). Because the convergence threshold of 1% has not been reached, the analysis continues.</li>
+ 
+ <li class="listnumber" xmlns="">100 more iterations are run. The key metric is measured for the total 300 iterations: Mean Cost = 1120. There is a 2.8% variance (1120-1050 divided by 1050=0.028). Because the convergence threshold of 1% has not been reached, the analysis continues.</li>
+ 
+ <li class="listnumber" xmlns="">100 more iterations are run. The key metric is measured for the total 400 iterations: Mean Cost = 1112. There is a 0.7% variance (1112-1120 divided by 1120=0.007). 0.7% is less than the convergence threshold of 1% so the results are considered converged. The analysis is stopped and any remaining outstanding iterations that have already begun their calculations are completed.</li>
+ </ol><!-- AuthoritObject mark="end" id="97638" type="topic" -->
+
+
+<div id="specialcontent" xmlns="http://www.w3.org/1999/xhtml"><!--Supports Custom Links--></div><br id="contentEnd" xmlns="http://www.w3.org/1999/xhtml" /><div id="ContentLeftFootingArea">
+
+</div><div id="ContentRightFootingArea">
+<hr id="mainHR" />
+<!--Short version of the date -->
+<!--
+<p class="bodytext">Last Published 11/15/2022</p>
+-->
+<!-- Long version -->
+<p class="bodytext"><span id="lastPublished" xmlns="http://www.w3.org/1999/xhtml">Last Published</span> Tuesday, November 15, 2022</p>
+</div></div>
+
+ </article>
+ <!--97638.htm--></body>
+</html><!--Filename: 97638.htm-->

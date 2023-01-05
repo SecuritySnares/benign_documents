@@ -1,0 +1,1411 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml 
+  xmlns="http://www.opengis.net/kml/2.2" 
+  xmlns:gx="http://www.google.com/kml/ext/2.2" 
+  xmlns:kml="http://www.opengis.net/kml/2.2" 
+  xmlns:atom="http://www.w3.org/2005/Atom"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="
+    http://www.opengis.net/kml/2.2 http://schemas.opengis.net/kml/2.2.0/ogckml22.xsd
+    http://www.w3.org/2005/Atom http://schemas.opengis.net/kml/2.2.0/atom-author-link.xsd">
+<Document>
+	<atom:author>
+		<atom:name>Jesse Allen</atom:name>
+	</atom:author>
+	<atom:link href="http://earthobservatory.nasa.gov/Feeds/GoogleEarth/" />
+	<Style id="normalState">
+		<IconStyle>
+			<Icon>
+				<href>http://mw1.google.com/mw-earth-vectordb/nasa/nasa0/Icons/nasa_icon.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<color>00000000</color>
+		</LabelStyle>
+		<BalloonStyle>
+			<text>$[description]</text>
+		</BalloonStyle>
+	</Style>
+	<Style id="highlightState">
+		<IconStyle>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://mw1.google.com/mw-earth-vectordb/nasa/nasa0/Icons/nasa_icon.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<color>00000000</color>
+			<scale>1.2</scale>
+		</LabelStyle>
+		<BalloonStyle>
+			<text>$[description]</text>
+		</BalloonStyle>
+	</Style>
+	<StyleMap id="balloonStyle">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#normalState</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#highlightState</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="normalState_grey">
+		<IconStyle>
+			<Icon>
+				<href>http://earthobservatory.nasa.gov/Feeds/GoogleEarth/Logos/nasa_icon_grey.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<color>00000000</color>
+		</LabelStyle>
+		<BalloonStyle>
+			<text>$[description]</text>
+		</BalloonStyle>
+	</Style>
+	<Style id="highlightState_grey">
+		<IconStyle>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://earthobservatory.nasa.gov/Feeds/GoogleEarth/Logos/nasa_icon_grey.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>1.2</scale>
+		</LabelStyle>
+		<BalloonStyle>
+			<text>$[description]</text>
+		</BalloonStyle>
+	</Style>
+	<StyleMap id="balloonStyle_grey">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#normalState_grey</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#highlightState_grey</styleUrl>
+		</Pair>
+	</StyleMap>
+	<name>101</name>
+	<Region>
+		<LatLonAltBox>
+			<north>90.000000</north>
+			<south>45.000000</south>
+			<east>45.000000</east>
+			<west>0.000000</west>
+		</LatLonAltBox>
+		<Lod>
+			<minLodPixels>1024</minLodPixels>
+			<maxLodPixels>-1</maxLodPixels>
+		</Lod>
+	</Region>
+	<Placemark>
+		<name>Agricultural Patterns (NW Germany)</name>
+		<Snippet></Snippet>
+		<description><![CDATA[
+<!-- CSS -->
+<link rel="stylesheet" type="text/css" href="http://earthobservatory.nasa.gov/css/layout_google_earth.css">
+
+<div class="header">
+<a href="http://www.nasa.gov/">
+<img class="nasa-logo" src="http://earthobservatory.nasa.gov/Feeds/GoogleEarth/Logos/nasa-logo.png" 
+     width="51" height="38" alt="NASA: National Aeronautics and Space Administration" 
+     title="NASA: National Aeronautics and Space Administration"></a>
+<a href="http://earthobservatory.nasa.gov/">
+<img class="logo" src="http://earthobservatory.nasa.gov/Feeds/GoogleEarth/Logos/eo-logo.png" 
+     width="217" height="38" alt="NASA: Earth Observatory" 
+     title="NASA: Earth Observatory"></a>
+</a>
+</div>
+
+<div class="images">
+<div class="image-title">
+<h2>Agricultural Patterns (NW Germany)</h2>
+</div>
+<a href="http://earthobservatory.nasa.gov/IOTD/view.php?id=6605&eocn=ge_feed&eoci=gallery">
+<img src="http://earthobservatory.nasa.gov/Feeds/GoogleEarth/Thumbnails/kansas_ast_2000132_front.jpg"></a>
+<div class="image-info"><span class="date">acquired May 27, 2005</span></div>
+</div>
+
+<div class="image-caption">
+<p>Around the world, agricultural practices have developed as a function of topography, soil type, crop type, annual rainfall, and tradition. This montage of six images from shows differences in field geometry and size in different parts of the world.</p>
+
+<ul class="references">
+<li><h4>Related scenes:</h4></li>
+<li><a href="http://earthobservatory.nasa.gov/Feeds/GoogleEarth/ge_06605_01/ge_06605_01.kml">Minnesota</a></li>
+<li><a href="http://earthobservatory.nasa.gov/Feeds/GoogleEarth/ge_06605_02/ge_06605_02.kml">Kansas</a></li>
+<li><a href="http://earthobservatory.nasa.gov/Feeds/GoogleEarth/ge_06605_04/ge_06605_04.kml">Bolivia</a></li>
+<li><a href="http://earthobservatory.nasa.gov/Feeds/GoogleEarth/ge_06605_05/ge_06605_05.kml">Thailand</a></li>
+<li><a href="http://earthobservatory.nasa.gov/Feeds/GoogleEarth/ge_06605_06/ge_06605_06.kml">Brazil</a></li>
+</ul>
+<p>You can <a href="http://earthobservatory.nasa.gov/IOTD/view.php?id=6605&eocn=ge_feed&eoci=gallery">read more about this image</a> on the <a href="http://earthobservatory.nasa.gov/">Earth Observatory</a> website.</p>
+
+<p>
+<a href="ge_06605_03/ge_06605_03.kml">Overlay image on Earth.</a>
+</p>
+</div>
+<div style="clear:both"></div>
+]]>
+		</description>
+		<LookAt>
+			<longitude>6.8566</longitude>
+			<latitude>51.8964</latitude>
+			<range>20000</range>
+		</LookAt>
+		<styleUrl>#balloonStyle</styleUrl>
+		<Point>
+			<coordinates>6.8566,51.8964,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Drought in Moldova</name>
+		<Snippet></Snippet>
+		<description><![CDATA[
+<!-- CSS -->
+<link rel="stylesheet" type="text/css" href="http://earthobservatory.nasa.gov/css/layout_google_earth.css">
+
+<div class="header">
+<a href="http://www.nasa.gov/">
+<img class="nasa-logo" src="http://earthobservatory.nasa.gov/Feeds/GoogleEarth/Logos/nasa-logo.png" 
+     width="51" height="38" alt="NASA: National Aeronautics and Space Administration" 
+     title="NASA: National Aeronautics and Space Administration"></a>
+<a href="http://earthobservatory.nasa.gov/">
+<img class="logo" src="http://earthobservatory.nasa.gov/Feeds/GoogleEarth/Logos/eo-logo.png" 
+     width="217" height="38" alt="NASA: Earth Observatory" 
+     title="NASA: Earth Observatory"></a>
+</a>
+</div>
+
+<div class="images">
+<div class="image-title">
+<h2>Drought in Moldova</h2>
+</div>
+<a href="http://earthobservatory.nasa.gov/IOTD/view.php?id=8101&eocn=ge_feed&eoci=gallery">
+<img src="http://eoimages.gsfc.nasa.gov/images/imagerecords/8000/8101/moldavandvia_tmo_2007209_front.jpg"></a>
+<div class="image-info"><span class="date">acquired July 28, 2007 - August 12, 2007</span></div>
+</div>
+
+<div class="image-caption">
+<p>The impact of the drought on plants in Moldova and parts of Ukraine and Romania is illustrated by this pair of images. The images are vegetation anomaly images, which indicate how quickly plants were taking in light and growing.</p>
+
+<p>You can <a href="http://earthobservatory.nasa.gov/IOTD/view.php?id=8101&eocn=ge_feed&eoci=gallery">read more about this image</a> on the <a href="http://earthobservatory.nasa.gov/">Earth Observatory</a> website.</p>
+
+<p>
+<a href="ge_08101.kml">Overlay image on Earth.</a>
+</p>
+</div>
+<div style="clear:both"></div>
+]]>
+		</description>
+		<LookAt>
+			<longitude>28.8</longitude>
+			<latitude>46.6</latitude>
+			<range>1250000</range>
+		</LookAt>
+		<styleUrl>#balloonStyle</styleUrl>
+		<Point>
+			<coordinates>28.8,46.6,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>IJsselmeer, Netherlands</name>
+		<Snippet></Snippet>
+		<description><![CDATA[
+<!-- CSS -->
+<link rel="stylesheet" type="text/css" href="http://earthobservatory.nasa.gov/css/layout_google_earth.css">
+
+<div class="header">
+<a href="http://www.nasa.gov/">
+<img class="nasa-logo" src="http://earthobservatory.nasa.gov/Feeds/GoogleEarth/Logos/nasa-logo.png" 
+     width="51" height="38" alt="NASA: National Aeronautics and Space Administration" 
+     title="NASA: National Aeronautics and Space Administration"></a>
+<a href="http://earthobservatory.nasa.gov/">
+<img class="logo" src="http://earthobservatory.nasa.gov/Feeds/GoogleEarth/Logos/eo-logo.png" 
+     width="217" height="38" alt="NASA: Earth Observatory" 
+     title="NASA: Earth Observatory"></a>
+</a>
+</div>
+
+<div class="images">
+<div class="image-title">
+<h2>IJsselmeer, Netherlands</h2>
+</div>
+<a href="http://earthobservatory.nasa.gov/IOTD/view.php?id=8965&eocn=ge_feed&eoci=gallery">
+<img src="http://eoimages.gsfc.nasa.gov/images/imagerecords/8000/8965/ijsselmeer_etm_2006182_front.jpg"></a>
+<div class="image-info"><span class="date">acquired August 5, 2007</span></div>
+</div>
+
+<div class="image-caption">
+<p>Beginning in 1932, Dutch engineers completed a dike across the Zuiderzee to create a freshwater lake. Engineers later used pumps to drain water from the area, creating expanses of usable land known as polders. These images show changes in the land cover in one such polder between 1980 and 2007.</p>
+
+<p>You can <a href="http://earthobservatory.nasa.gov/IOTD/view.php?id=8965&eocn=ge_feed&eoci=gallery">read more about this image</a> on the <a href="http://earthobservatory.nasa.gov/">Earth Observatory</a> website.</p>
+
+<p>
+<a href="ge_08965.kml">Overlay image on Earth.</a>
+</p>
+</div>
+<div style="clear:both"></div>
+]]>
+		</description>
+		<LookAt>
+			<longitude>5.4808</longitude>
+			<latitude>52.5304</latitude>
+			<range>72000</range>
+		</LookAt>
+		<styleUrl>#balloonStyle</styleUrl>
+		<Point>
+			<coordinates>5.4808,52.5304,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Stressed Crops in Ukraine and Russia</name>
+		<Snippet></Snippet>
+		<description><![CDATA[
+<!-- CSS -->
+<link rel="stylesheet" type="text/css" href="http://earthobservatory.nasa.gov/css/layout_google_earth.css">
+
+<div class="header">
+<a href="http://www.nasa.gov/">
+<img class="nasa-logo" src="http://earthobservatory.nasa.gov/Feeds/GoogleEarth/Logos/nasa-logo.png" 
+     width="51" height="38" alt="NASA: National Aeronautics and Space Administration" 
+     title="NASA: National Aeronautics and Space Administration"></a>
+<a href="http://earthobservatory.nasa.gov/">
+<img class="logo" src="http://earthobservatory.nasa.gov/Feeds/GoogleEarth/Logos/eo-logo.png" 
+     width="217" height="38" alt="NASA: Earth Observatory" 
+     title="NASA: Earth Observatory"></a>
+</a>
+</div>
+
+<div class="images">
+<div class="image-title">
+<h2>Stressed Crops in Ukraine and Russia</h2>
+</div>
+<a href="http://earthobservatory.nasa.gov/NaturalHazards/view.php?id=15726&eocn=ge_feed&eoci=gallery">
+<img src="http://earthobservatory.nasa.gov/Feeds/GoogleEarth/Thumbnails/ukrainendvia_tmo_2006113_front.png"></a>
+<div class="image-info"><span class="date">acquired April 23, 2006 - May 8, 2006</span></div>
+</div>
+
+<div class="image-caption">
+<p>Under the one-two punch of a dry fall and a frigid winter, winter crops in Ukraine were in poor condition in April and May 2006. This vegetation anomaly (difference from normal) image was created from data collected by the Moderate Resolution Imaging Spectroradiometer (<a href="http://modis.gsfc.nasa.gov/">MODIS</a>) on NASA&rsquo;s <a href="http://terra.nasa.gov/">Terra</a> satellite. Widespread brown indicates that plants throughout the region had grown less compared to the average growth for 2000-2005. The Foreign Agricultural Service, a division of the U.S. Department of Agriculture, estimated that only 10 metric tons of winter wheat, the primary crop growing here, would be harvested in July and August. That figure was down about 46 percent from the 18.7 metric tons harvested in 2005.</p>
+
+<p>You can <a href="http://earthobservatory.nasa.gov/NaturalHazards/view.php?id=15726&eocn=ge_feed&eoci=gallery">read more about this image</a> on the <a href="http://earthobservatory.nasa.gov/">Earth Observatory</a> website.</p>
+
+<p>
+<a href="ge_15726/ge_15726.kml">Overlay image on Earth.</a>
+</p>
+</div>
+<div style="clear:both"></div>
+]]>
+		</description>
+		<LookAt>
+			<longitude>32</longitude>
+			<latitude>49.6</latitude>
+			<range>1200000</range>
+		</LookAt>
+		<styleUrl>#balloonStyle</styleUrl>
+		<Point>
+			<coordinates>32,49.6,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Land Reclamation at Rotterdam</name>
+		<Snippet></Snippet>
+		<description><![CDATA[
+<!-- CSS -->
+<link rel="stylesheet" type="text/css" href="http://earthobservatory.nasa.gov/css/layout_google_earth.css">
+
+<div class="header">
+<a href="http://www.nasa.gov/">
+<img class="nasa-logo" src="http://earthobservatory.nasa.gov/Feeds/GoogleEarth/Logos/nasa-logo.png" 
+     width="51" height="38" alt="NASA: National Aeronautics and Space Administration" 
+     title="NASA: National Aeronautics and Space Administration"></a>
+<a href="http://earthobservatory.nasa.gov/">
+<img class="logo" src="http://earthobservatory.nasa.gov/Feeds/GoogleEarth/Logos/eo-logo.png" 
+     width="217" height="38" alt="NASA: Earth Observatory" 
+     title="NASA: Earth Observatory"></a>
+</a>
+</div>
+
+<div class="images">
+<div class="image-title">
+<h2>Land Reclamation at Rotterdam</h2>
+</div>
+<a href="http://earthobservatory.nasa.gov/IOTD/view.php?id=47122&eocn=ge_feed&eoci=gallery">
+<img src="http://eoimages.gsfc.nasa.gov/images/imagerecords/47000/47122/rotterdam_tm5_2010185_front.jpg"></a>
+<div class="image-info"><span class="date">acquired July 16, 2006</span></div>
+</div>
+
+<div class="image-caption">
+<p>Acquired in 2006, 2009, and 2010, these natural-color images show the progress of land reclamation aimed at increasing the port capacity at Rotterdam.</p>
+
+<p>You can <a href="http://earthobservatory.nasa.gov/IOTD/view.php?id=47122&eocn=ge_feed&eoci=gallery">read more about this image</a> on the <a href="http://earthobservatory.nasa.gov/">Earth Observatory</a> website.</p>
+
+<p>
+<a href="ge_47122.kml">Overlay image on Earth.</a>
+</p>
+</div>
+<div style="clear:both"></div>
+]]>
+		</description>
+		<LookAt>
+			<longitude>4.015503</longitude>
+			<latitude>51.951037</latitude>
+			<range>17500</range>
+		</LookAt>
+		<styleUrl>#balloonStyle</styleUrl>
+		<Point>
+			<coordinates>4.015503,51.951037,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Clouds over Ice</name>
+		<Snippet></Snippet>
+		<description><![CDATA[
+<!-- CSS -->
+<link rel="stylesheet" type="text/css" href="http://earthobservatory.nasa.gov/css/layout_google_earth.css">
+
+<div class="header">
+<a href="http://www.nasa.gov/">
+<img class="nasa-logo" src="http://earthobservatory.nasa.gov/Feeds/GoogleEarth/Logos/nasa-logo.png" 
+     width="51" height="38" alt="NASA: National Aeronautics and Space Administration" 
+     title="NASA: National Aeronautics and Space Administration"></a>
+<a href="http://earthobservatory.nasa.gov/">
+<img class="logo" src="http://earthobservatory.nasa.gov/Feeds/GoogleEarth/Logos/eo-logo.png" 
+     width="217" height="38" alt="NASA: Earth Observatory" 
+     title="NASA: Earth Observatory"></a>
+</a>
+</div>
+
+<div class="images">
+<div class="image-title">
+<h2>Clouds over Ice</h2>
+</div>
+<a href="http://earthobservatory.nasa.gov/IOTD/view.php?id=7378&eocn=ge_feed&eoci=gallery">
+<img src="http://eoimages.gsfc.nasa.gov/images/imagerecords/7000/7378/polar_utmo_2006172_front.jpg"></a>
+<div class="image-info"><span class="date">acquired June 21, 2006</span></div>
+</div>
+
+<div class="image-caption">
+<p>In a photo-like satellite image, the faintest of shadows or shading of grey may give them away, but more often, clouds over the poles simply disappear against the background, camouflaged from the satellite&rsquo;s view by the underlying snow and sea ice. For those trying to track clouds from space, to understand cloud physics, say, or to predict the weather, the problem is frustrating. Only with a combination of visible and invisible wavelengths of light, such as infrared light, do clouds become distinct from the snow and ice below.</p>
+
+<p>You can <a href="http://earthobservatory.nasa.gov/IOTD/view.php?id=7378&eocn=ge_feed&eoci=gallery">read more about this image</a> on the <a href="http://earthobservatory.nasa.gov/">Earth Observatory</a> website.</p>
+
+<p>
+<a href="ge_07378.kml">Overlay image on Earth.</a>
+</p>
+</div>
+<div style="clear:both"></div>
+]]>
+		</description>
+		<LookAt>
+			<longitude>19.5</longitude>
+			<latitude>81.5</latitude>
+			<range>3000000</range>
+		</LookAt>
+		<styleUrl>#balloonStyle</styleUrl>
+		<Point>
+			<coordinates>19.5,81.5,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Severe Storm in the Sea of Azov</name>
+		<Snippet></Snippet>
+		<description><![CDATA[
+<!-- CSS -->
+<link rel="stylesheet" type="text/css" href="http://earthobservatory.nasa.gov/css/layout_google_earth.css">
+
+<div class="header">
+<a href="http://www.nasa.gov/">
+<img class="nasa-logo" src="http://earthobservatory.nasa.gov/Feeds/GoogleEarth/Logos/nasa-logo.png" 
+     width="51" height="38" alt="NASA: National Aeronautics and Space Administration" 
+     title="NASA: National Aeronautics and Space Administration"></a>
+<a href="http://earthobservatory.nasa.gov/">
+<img class="logo" src="http://earthobservatory.nasa.gov/Feeds/GoogleEarth/Logos/eo-logo.png" 
+     width="217" height="38" alt="NASA: Earth Observatory" 
+     title="NASA: Earth Observatory"></a>
+</a>
+</div>
+
+<div class="images">
+<div class="image-title">
+<h2>Severe Storm in the Sea of Azov</h2>
+</div>
+<a href="http://earthobservatory.nasa.gov/IOTD/view.php?id=8214&eocn=ge_feed&eoci=gallery">
+<img src="http://eoimages.gsfc.nasa.gov/images/imagerecords/8000/8214/azov_amo_2006315_front.jpg"></a>
+<div class="image-info"><span class="date">acquired November 11, 2007</span></div>
+</div>
+
+<div class="image-caption">
+<p>A fierce storm struck both the Black Sea and the Sea of Azov on November 11, 2007. According to news reports, as many as 10 ships either sank or ran aground, one of them an oil tanker. The Russian tanker Volganeft-139 was anchored to the sea floor in the Kerch Strait linking the Black and Azov Seas when 108-kilometer- (67-mile-) per-hour winds tore the ship apart.</p>
+
+<p>You can <a href="http://earthobservatory.nasa.gov/IOTD/view.php?id=8214&eocn=ge_feed&eoci=gallery">read more about this image</a> on the <a href="http://earthobservatory.nasa.gov/">Earth Observatory</a> website.</p>
+
+<p>
+<a href="ge_08214/ge_08214.kml">Overlay image on Earth.</a>
+</p>
+</div>
+<div style="clear:both"></div>
+]]>
+		</description>
+		<LookAt>
+			<longitude>35</longitude>
+			<latitude>47.5</latitude>
+			<range>1550000</range>
+		</LookAt>
+		<styleUrl>#balloonStyle</styleUrl>
+		<Point>
+			<coordinates>35,47.5,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Petrol Depot Fire in the United Kingdom</name>
+		<Snippet></Snippet>
+		<description><![CDATA[
+<!-- CSS -->
+<link rel="stylesheet" type="text/css" href="http://earthobservatory.nasa.gov/css/layout_google_earth.css">
+
+<div class="header">
+<a href="http://www.nasa.gov/">
+<img class="nasa-logo" src="http://earthobservatory.nasa.gov/Feeds/GoogleEarth/Logos/nasa-logo.png" 
+     width="51" height="38" alt="NASA: National Aeronautics and Space Administration" 
+     title="NASA: National Aeronautics and Space Administration"></a>
+<a href="http://earthobservatory.nasa.gov/">
+<img class="logo" src="http://earthobservatory.nasa.gov/Feeds/GoogleEarth/Logos/eo-logo.png" 
+     width="217" height="38" alt="NASA: Earth Observatory" 
+     title="NASA: Earth Observatory"></a>
+</a>
+</div>
+
+<div class="images">
+<div class="image-title">
+<h2>Petrol Depot Fire in the United Kingdom</h2>
+</div>
+<a href="http://earthobservatory.nasa.gov/IOTD/view.php?id=6102&eocn=ge_feed&eoci=gallery">
+<img src="http://eoimages.gsfc.nasa.gov/images/imagerecords/6000/6102/london_tmo_2005345_front.jpg"></a>
+<div class="image-info"><span class="date">acquired December 11, 2005</span></div>
+</div>
+
+<div class="image-caption">
+<p>Sunday, December 11, 2005, was a day without sun for many Londoners. At about 6 a.m. local time, an explosion rocked a fuel depot in Hertfordshire, approximately 40 kilometers (25 miles) north of London. The ensuing oil fire sent thick clouds of sun-blocking black smoke billowing over London and South England.
+</p>
+
+<p>You can <a href="http://earthobservatory.nasa.gov/IOTD/view.php?id=6102&eocn=ge_feed&eoci=gallery">read more about this image</a> on the <a href="http://earthobservatory.nasa.gov/">Earth Observatory</a> website.</p>
+
+<p>
+<a href="ge_06102.kml">Overlay image on Earth.</a>
+</p>
+</div>
+<div style="clear:both"></div>
+]]>
+		</description>
+		<LookAt>
+			<longitude>0</longitude>
+			<latitude>51.5</latitude>
+			<range>300000</range>
+		</LookAt>
+		<styleUrl>#balloonStyle</styleUrl>
+		<Point>
+			<coordinates>0,51.5,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Flooding in Western Russia</name>
+		<Snippet></Snippet>
+		<description><![CDATA[
+<!-- CSS -->
+<link rel="stylesheet" type="text/css" href="http://earthobservatory.nasa.gov/css/layout_google_earth.css">
+
+<div class="header">
+<a href="http://www.nasa.gov/">
+<img class="nasa-logo" src="http://earthobservatory.nasa.gov/Feeds/GoogleEarth/Logos/nasa-logo.png" 
+     width="51" height="38" alt="NASA: National Aeronautics and Space Administration" 
+     title="NASA: National Aeronautics and Space Administration"></a>
+<a href="http://earthobservatory.nasa.gov/">
+<img class="logo" src="http://earthobservatory.nasa.gov/Feeds/GoogleEarth/Logos/eo-logo.png" 
+     width="217" height="38" alt="NASA: Earth Observatory" 
+     title="NASA: Earth Observatory"></a>
+</a>
+</div>
+
+<div class="images">
+<div class="image-title">
+<h2>Flooding in Western Russia</h2>
+</div>
+<a href="http://earthobservatory.nasa.gov/NaturalHazards/view.php?id=12994&eocn=ge_feed&eoci=gallery">
+<img src="http://earthobservatory.nasa.gov/Feeds/GoogleEarth/Thumbnails/russia_amo_2004095_front.jpg"></a>
+<div class="image-info"><span class="date">acquired April 4, 2004</span></div>
+</div>
+
+<div class="image-caption">
+<p><p>The overlay shows this false-color image of the region at 250-meter resolution.</p></p>
+
+<p>You can <a href="http://earthobservatory.nasa.gov/NaturalHazards/view.php?id=12994&eocn=ge_feed&eoci=gallery">read more about this image</a> on the <a href="http://earthobservatory.nasa.gov/">Earth Observatory</a> website.</p>
+
+<p>
+<a href="ge_12994/ge_12994.kml">Overlay image on Earth.</a>
+</p>
+</div>
+<div style="clear:both"></div>
+]]>
+		</description>
+		<LookAt>
+			<longitude>30.15</longitude>
+			<latitude>52.15</latitude>
+			<range>835000</range>
+		</LookAt>
+		<styleUrl>#balloonStyle</styleUrl>
+		<Point>
+			<coordinates>30.15,52.15,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Flooding in Pakistan</name>
+		<Snippet></Snippet>
+		<description><![CDATA[
+<!-- CSS -->
+<link rel="stylesheet" type="text/css" href="http://earthobservatory.nasa.gov/css/layout_google_earth.css">
+
+<div class="header">
+<a href="http://www.nasa.gov/">
+<img class="nasa-logo" src="http://earthobservatory.nasa.gov/Feeds/GoogleEarth/Logos/nasa-logo.png" 
+     width="51" height="38" alt="NASA: National Aeronautics and Space Administration" 
+     title="NASA: National Aeronautics and Space Administration"></a>
+<a href="http://earthobservatory.nasa.gov/">
+<img class="logo" src="http://earthobservatory.nasa.gov/Feeds/GoogleEarth/Logos/eo-logo.png" 
+     width="217" height="38" alt="NASA: Earth Observatory" 
+     title="NASA: Earth Observatory"></a>
+</a>
+</div>
+
+<div class="images">
+<div class="image-title">
+<h2>Flooding in Pakistan</h2>
+</div>
+<a href="http://earthobservatory.nasa.gov/NaturalHazards/view.php?id=45885&eocn=ge_feed&eoci=gallery">
+<img src="http://eoimages.gsfc.nasa.gov/images/imagerecords/45000/45200/pakistan_tmo_2010223_front.jpg"></a>
+<div class="image-info"><span class="date">acquired September 20, 2010</span></div>
+</div>
+
+<div class="image-caption">
+<p>The Indus practically spawned a parallel river in Sindh Province by early September 2010. A dam breach upstream caused the waters of the Indus to diverge in August. While water remained in the main river channel and flowed toward the Arabian Sea, some water flooded agricultural lands and settlements to the west, ultimately pouring into Manchhar (also spelled Manchar) Lake, according to news reports. Flooding had already ravaged several settlements, including Mehar. Authorities feared that floodwaters would breach embankments and inundate the town of Johi and the nearby city of Dadu.</p>
+
+<p>You can <a href="http://earthobservatory.nasa.gov/NaturalHazards/view.php?id=45885&eocn=ge_feed&eoci=gallery">read more about this image</a> on the <a href="http://earthobservatory.nasa.gov/">Earth Observatory</a> website.</p>
+
+<p>
+<a href="ge_44986.kml">Overlay image on Earth.</a>
+</p>
+</div>
+<div style="clear:both"></div>
+]]>
+		</description>
+		<LookAt>
+			<longitude>29.9</longitude>
+			<latitude>69.4</latitude>
+			<range>1750000</range>
+		</LookAt>
+		<styleUrl>#balloonStyle</styleUrl>
+		<Point>
+			<coordinates>29.9,69.4,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Ries Crater, Germany</name>
+		<Snippet></Snippet>
+		<description><![CDATA[
+<!-- CSS -->
+<link rel="stylesheet" type="text/css" href="http://earthobservatory.nasa.gov/css/layout_google_earth.css">
+
+<div class="header">
+<a href="http://www.nasa.gov/">
+<img class="nasa-logo" src="http://earthobservatory.nasa.gov/Feeds/GoogleEarth/Logos/nasa-logo.png" 
+     width="51" height="38" alt="NASA: National Aeronautics and Space Administration" 
+     title="NASA: National Aeronautics and Space Administration"></a>
+<a href="http://earthobservatory.nasa.gov/">
+<img class="logo" src="http://earthobservatory.nasa.gov/Feeds/GoogleEarth/Logos/eo-logo.png" 
+     width="217" height="38" alt="NASA: Earth Observatory" 
+     title="NASA: Earth Observatory"></a>
+</a>
+</div>
+
+<div class="images">
+<div class="image-title">
+<h2>Ries Crater, Germany</h2>
+</div>
+<a href="http://earthobservatory.nasa.gov/IOTD/view.php?id=8554&eocn=ge_feed&eoci=gallery">
+<img src="http://eoimages.gsfc.nasa.gov/images/imagerecords/8000/8554/ries_ast_2006250_front.jpg"></a>
+<div class="image-info"><span class="date">acquired September 6, 2007</span></div>
+</div>
+
+<div class="image-caption">
+<p>Germany&#8217;s Ries Crater (or N&ouml;rdlinger Ries) is not easily discerned in space-based images. The crater&#8217;s existence was probably just as subtle to the medieval Europeans who established a settlement inside it and unknowingly matched their 1-kilometer- (0.6-mile-) wide city to the likely diameter of the meteorite that formed the crater.</p>
+
+<p>You can <a href="http://earthobservatory.nasa.gov/IOTD/view.php?id=8554&eocn=ge_feed&eoci=gallery">read more about this image</a> on the <a href="http://earthobservatory.nasa.gov/">Earth Observatory</a> website.</p>
+
+<p>
+<a href="ge_08554.kml">Overlay image on Earth.</a>
+</p>
+</div>
+<div style="clear:both"></div>
+]]>
+		</description>
+		<LookAt>
+			<longitude>10.597</longitude>
+			<latitude>48.863</latitude>
+			<range>58000</range>
+		</LookAt>
+		<styleUrl>#balloonStyle</styleUrl>
+		<Point>
+			<coordinates>10.597,48.863,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Lake Janisjarvi Impact Crater</name>
+		<Snippet></Snippet>
+		<description><![CDATA[
+<!-- CSS -->
+<link rel="stylesheet" type="text/css" href="http://earthobservatory.nasa.gov/css/layout_google_earth.css">
+
+<div class="header">
+<a href="http://www.nasa.gov/">
+<img class="nasa-logo" src="http://earthobservatory.nasa.gov/Feeds/GoogleEarth/Logos/nasa-logo.png" 
+     width="51" height="38" alt="NASA: National Aeronautics and Space Administration" 
+     title="NASA: National Aeronautics and Space Administration"></a>
+<a href="http://earthobservatory.nasa.gov/">
+<img class="logo" src="http://earthobservatory.nasa.gov/Feeds/GoogleEarth/Logos/eo-logo.png" 
+     width="217" height="38" alt="NASA: Earth Observatory" 
+     title="NASA: Earth Observatory"></a>
+</a>
+</div>
+
+<div class="images">
+<div class="image-title">
+<h2>Lake Janisjarvi Impact Crater</h2>
+</div>
+<a href="http://earthobservatory.nasa.gov/IOTD/view.php?id=8635&eocn=ge_feed&eoci=gallery">
+<img src="http://eoimages.gsfc.nasa.gov/images/imagerecords/8000/8635/jonisjarvi_etm_1999248_front.jpg"></a>
+<div class="image-info"><span class="date">acquired September 5, 1999</span></div>
+</div>
+
+<div class="image-caption">
+<p>Lake J&auml;nisj&auml;rvi is a roughly oval-shaped lake, some 13 by 17 kilometers (8 by 11 miles) across, in northwestern Russia, near the Finnish border. The basin for this lake was formed hundreds of millions of years ago by a meteorite impact.</p>
+
+<p>You can <a href="http://earthobservatory.nasa.gov/IOTD/view.php?id=8635&eocn=ge_feed&eoci=gallery">read more about this image</a> on the <a href="http://earthobservatory.nasa.gov/">Earth Observatory</a> website.</p>
+
+<p>
+<a href="ge_08635/ge_08635.kml">Overlay image on Earth.</a>
+</p>
+</div>
+<div style="clear:both"></div>
+]]>
+		</description>
+		<LookAt>
+			<longitude>30.9508</longitude>
+			<latitude>61.8952</latitude>
+			<range>75000</range>
+		</LookAt>
+		<styleUrl>#balloonStyle</styleUrl>
+		<Point>
+			<coordinates>30.9508,61.8952,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Thames River Plume in the North Sea</name>
+		<Snippet></Snippet>
+		<description><![CDATA[
+<!-- CSS -->
+<link rel="stylesheet" type="text/css" href="http://earthobservatory.nasa.gov/css/layout_google_earth.css">
+
+<div class="header">
+<a href="http://www.nasa.gov/">
+<img class="nasa-logo" src="http://earthobservatory.nasa.gov/Feeds/GoogleEarth/Logos/nasa-logo.png" 
+     width="51" height="38" alt="NASA: National Aeronautics and Space Administration" 
+     title="NASA: National Aeronautics and Space Administration"></a>
+<a href="http://earthobservatory.nasa.gov/">
+<img class="logo" src="http://earthobservatory.nasa.gov/Feeds/GoogleEarth/Logos/eo-logo.png" 
+     width="217" height="38" alt="NASA: Earth Observatory" 
+     title="NASA: Earth Observatory"></a>
+</a>
+</div>
+
+<div class="images">
+<div class="image-title">
+<h2>Thames River Plume in the North Sea</h2>
+</div>
+<a href="http://earthobservatory.nasa.gov/NaturalHazards/view.php?id=18169&eocn=ge_feed&eoci=gallery">
+<img src="http://earthobservatory.nasa.gov/Feeds/GoogleEarth/Thumbnails/northsea_tmo_2007085_front.jpg"></a>
+<div class="image-info"><span class="date">acquired March 26, 2007</span></div>
+</div>
+
+<div class="image-caption">
+<p>Though the River Thames pours into the North Sea in southeast England, the river does not end there. Its plume of fresh water, colored tan by the earth picked up on its journey across England, flows through the dark blue waters of the North Sea along the coast of Belgium, the Netherlands, and Germany before fading in a cloud of green near Denmark.</p>
+
+<p>You can <a href="http://earthobservatory.nasa.gov/NaturalHazards/view.php?id=18169&eocn=ge_feed&eoci=gallery">read more about this image</a> on the <a href="http://earthobservatory.nasa.gov/">Earth Observatory</a> website.</p>
+
+<p>
+<a href="ge_18169/ge_18169.kml">Overlay image on Earth.</a>
+</p>
+</div>
+<div style="clear:both"></div>
+]]>
+		</description>
+		<LookAt>
+			<longitude>6</longitude>
+			<latitude>55</latitude>
+			<range>800000</range>
+		</LookAt>
+		<styleUrl>#balloonStyle</styleUrl>
+		<Point>
+			<coordinates>6,55,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Bloom in the Barents Sea</name>
+		<Snippet></Snippet>
+		<description><![CDATA[
+<!-- CSS -->
+<link rel="stylesheet" type="text/css" href="http://earthobservatory.nasa.gov/css/layout_google_earth.css">
+
+<div class="header">
+<a href="http://www.nasa.gov/">
+<img class="nasa-logo" src="http://earthobservatory.nasa.gov/Feeds/GoogleEarth/Logos/nasa-logo.png" 
+     width="51" height="38" alt="NASA: National Aeronautics and Space Administration" 
+     title="NASA: National Aeronautics and Space Administration"></a>
+<a href="http://earthobservatory.nasa.gov/">
+<img class="logo" src="http://earthobservatory.nasa.gov/Feeds/GoogleEarth/Logos/eo-logo.png" 
+     width="217" height="38" alt="NASA: Earth Observatory" 
+     title="NASA: Earth Observatory"></a>
+</a>
+</div>
+
+<div class="images">
+<div class="image-title">
+<h2>Bloom in the Barents Sea</h2>
+</div>
+<a href="http://earthobservatory.nasa.gov/NaturalHazards/view.php?id=18843&eocn=ge_feed&eoci=gallery">
+<img src="http://earthobservatory.nasa.gov/Feeds/GoogleEarth/Thumbnails/barents_tmo_2007213_front.jpg"></a>
+<div class="image-info"><span class="date">acquired August 1, 2007</span></div>
+</div>
+
+<div class="image-caption">
+<p>A break in the clouds provided a window to a brilliant display of color in the Barents Sea north off Norway on August 1, 2007. The bright aquamarine hues suggest that this is likely a coccolithophore bloom.</p>
+
+<p>You can <a href="http://earthobservatory.nasa.gov/NaturalHazards/view.php?id=18843&eocn=ge_feed&eoci=gallery">read more about this image</a> on the <a href="http://earthobservatory.nasa.gov/">Earth Observatory</a> website.</p>
+
+<p>
+<a href="ge_18843/ge_18843.kml">Overlay image on Earth.</a>
+</p>
+</div>
+<div style="clear:both"></div>
+]]>
+		</description>
+		<LookAt>
+			<longitude>40</longitude>
+			<latitude>73</latitude>
+			<range>800000</range>
+		</LookAt>
+		<styleUrl>#balloonStyle</styleUrl>
+		<Point>
+			<coordinates>40,73,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Phytoplankton Bloom in the Barents Sea</name>
+		<Snippet></Snippet>
+		<description><![CDATA[
+<!-- CSS -->
+<link rel="stylesheet" type="text/css" href="http://earthobservatory.nasa.gov/css/layout_google_earth.css">
+
+<div class="header">
+<a href="http://www.nasa.gov/">
+<img class="nasa-logo" src="http://earthobservatory.nasa.gov/Feeds/GoogleEarth/Logos/nasa-logo.png" 
+     width="51" height="38" alt="NASA: National Aeronautics and Space Administration" 
+     title="NASA: National Aeronautics and Space Administration"></a>
+<a href="http://earthobservatory.nasa.gov/">
+<img class="logo" src="http://earthobservatory.nasa.gov/Feeds/GoogleEarth/Logos/eo-logo.png" 
+     width="217" height="38" alt="NASA: Earth Observatory" 
+     title="NASA: Earth Observatory"></a>
+</a>
+</div>
+
+<div class="images">
+<div class="image-title">
+<h2>Phytoplankton Bloom in the Barents Sea</h2>
+</div>
+<a href="http://earthobservatory.nasa.gov/NaturalHazards/view.php?id=20367&eocn=ge_feed&eoci=gallery">
+<img src="http://earthobservatory.nasa.gov/Feeds/GoogleEarth/Thumbnails/norway_amo_2008225_front.jpg"></a>
+<div class="image-info"><span class="date">acquired August 12, 2008</span></div>
+</div>
+
+<div class="image-caption">
+<p>Phytoplankton are tiny plant-like organisms that are the foundation of the ocean food web. Like plants, they contain chlorophyll and other pigments that they use to harvest sunlight for photosynthesis. In northern waters, these organisms are starved for sunlight much of the year, but during the summer months, they explode in colorful blooms such as this one.</p>
+
+<p>You can <a href="http://earthobservatory.nasa.gov/NaturalHazards/view.php?id=20367&eocn=ge_feed&eoci=gallery">read more about this image</a> on the <a href="http://earthobservatory.nasa.gov/">Earth Observatory</a> website.</p>
+
+<p>
+<a href="ge_20367/ge_20367.kml">Overlay image on Earth.</a>
+</p>
+</div>
+<div style="clear:both"></div>
+]]>
+		</description>
+		<LookAt>
+			<longitude>37.45</longitude>
+			<latitude>71</latitude>
+			<range>600000</range>
+		</LookAt>
+		<styleUrl>#balloonStyle</styleUrl>
+		<Point>
+			<coordinates>37.45,71,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Curonian Spit</name>
+		<Snippet></Snippet>
+		<description><![CDATA[
+<!-- CSS -->
+<link rel="stylesheet" type="text/css" href="http://earthobservatory.nasa.gov/css/layout_google_earth.css">
+
+<div class="header">
+<a href="http://www.nasa.gov/">
+<img class="nasa-logo" src="http://earthobservatory.nasa.gov/Feeds/GoogleEarth/Logos/nasa-logo.png" 
+     width="51" height="38" alt="NASA: National Aeronautics and Space Administration" 
+     title="NASA: National Aeronautics and Space Administration"></a>
+<a href="http://earthobservatory.nasa.gov/">
+<img class="logo" src="http://earthobservatory.nasa.gov/Feeds/GoogleEarth/Logos/eo-logo.png" 
+     width="217" height="38" alt="NASA: Earth Observatory" 
+     title="NASA: Earth Observatory"></a>
+</a>
+</div>
+
+<div class="images">
+<div class="image-title">
+<h2>Curonian Spit</h2>
+</div>
+<a href="http://earthobservatory.nasa.gov/IOTD/view.php?id=8179&eocn=ge_feed&eoci=gallery">
+<img src="http://eoimages.gsfc.nasa.gov/images/imagerecords/8000/8179/curonian_ast_2006206_front.jpg"></a>
+<div class="image-info"><span class="date">acquired July 25, 2006</span></div>
+</div>
+
+<div class="image-caption">
+<p>In the southeastern corner of the Baltic Sea lies a skinny stretch of land. Known as the Curonian (or Courland) Spit, it separates the Curonian Lagoon (also known as the Courland Lagoon) from the Baltic Sea.  Both the spit and the lagoon fall within the borders of Lithuania and Russia&rsquo;s Kaliningrad Oblast.</p>
+
+<p>You can <a href="http://earthobservatory.nasa.gov/IOTD/view.php?id=8179&eocn=ge_feed&eoci=gallery">read more about this image</a> on the <a href="http://earthobservatory.nasa.gov/">Earth Observatory</a> website.</p>
+
+<p>
+<a href="ge_08179/ge_08179.kml">Overlay image on Earth.</a>
+</p>
+</div>
+<div style="clear:both"></div>
+]]>
+		</description>
+		<LookAt>
+			<longitude>20.9122</longitude>
+			<latitude>55.2053</latitude>
+			<range>115000</range>
+		</LookAt>
+		<styleUrl>#balloonStyle</styleUrl>
+		<Point>
+			<coordinates>20.9122,55.2053,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Toxic Sludge in Hungary</name>
+		<Snippet></Snippet>
+		<description><![CDATA[
+<!-- CSS -->
+<link rel="stylesheet" type="text/css" href="http://earthobservatory.nasa.gov/css/layout_google_earth.css">
+
+<div class="header">
+<a href="http://www.nasa.gov/">
+<img class="nasa-logo" src="http://earthobservatory.nasa.gov/Feeds/GoogleEarth/Logos/nasa-logo.png" 
+     width="51" height="38" alt="NASA: National Aeronautics and Space Administration" 
+     title="NASA: National Aeronautics and Space Administration"></a>
+<a href="http://earthobservatory.nasa.gov/">
+<img class="logo" src="http://earthobservatory.nasa.gov/Feeds/GoogleEarth/Logos/eo-logo.png" 
+     width="217" height="38" alt="NASA: Earth Observatory" 
+     title="NASA: Earth Observatory"></a>
+</a>
+</div>
+
+<div class="images">
+<div class="image-title">
+<h2>Toxic Sludge in Hungary</h2>
+</div>
+<a href="http://earthobservatory.nasa.gov/IOTD/view.php?id=46360&eocn=ge_feed&eoci=gallery">
+<img src="http://eoimages.gsfc.nasa.gov/images/imagerecords/46000/46360/devecser_ali_2010282_front.jpg"></a>
+<div class="image-info"><span class="date">acquired October 9, 2010</span></div>
+</div>
+
+<div class="image-caption">
+<p>On October 4, 2010, an accident occurred at the Ajkai Timf&ouml;ldgy&aacute;r alumina (aluminum oxide) plant in western Hungary. A corner wall of a waste-retaining pond broke, releasing a torrent of toxic red sludge down a local stream. Several nearby towns were inundated, including Kolontar and Devecser, where the sludge was 2 meters (6.5 feet) deep in places. Four people were killed immediately, likely from drowning, and several more were missing. Dozens of residents were hospitalized for chemical burns.</p>
+
+<p>You can <a href="http://earthobservatory.nasa.gov/IOTD/view.php?id=46360&eocn=ge_feed&eoci=gallery">read more about this image</a> on the <a href="http://earthobservatory.nasa.gov/">Earth Observatory</a> website.</p>
+
+<p>
+<a href="ge_46360/ge_46360.kml">Overlay image on Earth.</a>
+</p>
+</div>
+<div style="clear:both"></div>
+]]>
+		</description>
+		<LookAt>
+			<longitude>17.4696</longitude>
+			<latitude>47.0958</latitude>
+			<range>11500</range>
+		</LookAt>
+		<styleUrl>#balloonStyle</styleUrl>
+		<Point>
+			<coordinates>17.4696,47.0958,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Record Sea Ice Minimum</name>
+		<Snippet></Snippet>
+		<description><![CDATA[
+<!-- CSS -->
+<link rel="stylesheet" type="text/css" href="http://earthobservatory.nasa.gov/css/layout_google_earth.css">
+
+<div class="header">
+<a href="http://www.nasa.gov/">
+<img class="nasa-logo" src="http://earthobservatory.nasa.gov/Feeds/GoogleEarth/Logos/nasa-logo.png" 
+     width="51" height="38" alt="NASA: National Aeronautics and Space Administration" 
+     title="NASA: National Aeronautics and Space Administration"></a>
+<a href="http://earthobservatory.nasa.gov/">
+<img class="logo" src="http://earthobservatory.nasa.gov/Feeds/GoogleEarth/Logos/eo-logo.png" 
+     width="217" height="38" alt="NASA: Earth Observatory" 
+     title="NASA: Earth Observatory"></a>
+</a>
+</div>
+
+<div class="images">
+<div class="image-title">
+<h2>Record Sea Ice Minimum</h2>
+</div>
+<a href="http://earthobservatory.nasa.gov/IOTD/view.php?id=8126&eocn=ge_feed&eoci=gallery">
+<img src="http://eoimages.gsfc.nasa.gov/images/imagerecords/8000/8126/npseaice_ams_2007259_front.jpg"></a>
+<div class="image-info"><span class="date">acquired September 17, 2007</span></div>
+</div>
+
+<div class="image-caption">
+<p>Arctic sea ice reached a record low in September 2007, below the previous record set in 2005 and substantially below the long-term average.</p>
+
+<p>You can <a href="http://earthobservatory.nasa.gov/IOTD/view.php?id=8126&eocn=ge_feed&eoci=gallery">read more about this image</a> on the <a href="http://earthobservatory.nasa.gov/">Earth Observatory</a> website.</p>
+
+<p>
+</p>
+</div>
+<div style="clear:both"></div>
+]]>
+		</description>
+		<LookAt>
+			<longitude>15</longitude>
+			<latitude>89</latitude>
+			<range>6000000</range>
+		</LookAt>
+		<styleUrl>#balloonStyle_grey</styleUrl>
+		<Point>
+			<coordinates>15,89,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Arctic Sea Ice Reaches Annual Minimum</name>
+		<Snippet></Snippet>
+		<description><![CDATA[
+<!-- CSS -->
+<link rel="stylesheet" type="text/css" href="http://earthobservatory.nasa.gov/css/layout_google_earth.css">
+
+<div class="header">
+<a href="http://www.nasa.gov/">
+<img class="nasa-logo" src="http://earthobservatory.nasa.gov/Feeds/GoogleEarth/Logos/nasa-logo.png" 
+     width="51" height="38" alt="NASA: National Aeronautics and Space Administration" 
+     title="NASA: National Aeronautics and Space Administration"></a>
+<a href="http://earthobservatory.nasa.gov/">
+<img class="logo" src="http://earthobservatory.nasa.gov/Feeds/GoogleEarth/Logos/eo-logo.png" 
+     width="217" height="38" alt="NASA: Earth Observatory" 
+     title="NASA: Earth Observatory"></a>
+</a>
+</div>
+
+<div class="images">
+<div class="image-title">
+<h2>Arctic Sea Ice Reaches Annual Minimum</h2>
+</div>
+<a href="http://earthobservatory.nasa.gov/IOTD/view.php?id=9115&eocn=ge_feed&eoci=gallery">
+<img src="http://eoimages.gsfc.nasa.gov/images/imagerecords/9000/9115/arcticseaice_ams_200809263_med.jpg"></a>
+<div class="image-info"><span class="date">acquired September 17, 2008</span></div>
+</div>
+
+<div class="image-caption">
+<p>The arrival of Northern Hemisphere autumn signals the end of the seasonal retreat of Arctic sea ice. Polar scientists from the National Snow and Ice Data Center report that sea ice appeared to hit its lowest extent on September 14, 2008, when the area at least 15 percent covered by ice dropped to 4.52 million square kilometers (1.74 million square miles).</p>
+
+<p>You can <a href="http://earthobservatory.nasa.gov/IOTD/view.php?id=9115&eocn=ge_feed&eoci=gallery">read more about this image</a> on the <a href="http://earthobservatory.nasa.gov/">Earth Observatory</a> website.</p>
+
+<p>
+</p>
+</div>
+<div style="clear:both"></div>
+]]>
+		</description>
+		<LookAt>
+			<longitude>0</longitude>
+			<latitude>85</latitude>
+			<range>6000000</range>
+		</LookAt>
+		<styleUrl>#balloonStyle_grey</styleUrl>
+		<Point>
+			<coordinates>0,85,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Ice on the Dnieper River, Ukraine</name>
+		<Snippet></Snippet>
+		<description><![CDATA[
+<!-- CSS -->
+<link rel="stylesheet" type="text/css" href="http://earthobservatory.nasa.gov/css/layout_google_earth.css">
+
+<div class="header">
+<a href="http://www.nasa.gov/">
+<img class="nasa-logo" src="http://earthobservatory.nasa.gov/Feeds/GoogleEarth/Logos/nasa-logo.png" 
+     width="51" height="38" alt="NASA: National Aeronautics and Space Administration" 
+     title="NASA: National Aeronautics and Space Administration"></a>
+<a href="http://earthobservatory.nasa.gov/">
+<img class="logo" src="http://earthobservatory.nasa.gov/Feeds/GoogleEarth/Logos/eo-logo.png" 
+     width="217" height="38" alt="NASA: Earth Observatory" 
+     title="NASA: Earth Observatory"></a>
+</a>
+</div>
+
+<div class="images">
+<div class="image-title">
+<h2>Ice on the Dnieper River, Ukraine</h2>
+</div>
+<a href="http://earthobservatory.nasa.gov/NaturalHazards/view.php?id=77545&eocn=ge_feed&eoci=gallery">
+<img src="http://eoimages.gsfc.nasa.gov/images/imagerecords/77000/77545/dnieperali_ali_2012087_tn.jpg"></a>
+<div class="image-info"><span class="date">acquired March 17, 2012</span></div>
+</div>
+
+<div class="image-caption">
+<p>After an <a href="http://earthobservatory.nasa.gov/IOTD/view.php?id=77126">unsually cold winter in Ukraine,</a> the spring melting of the <a href="http://www.encyclopediaofukraine.com/display.asp?linkPath=pages\K\Y\KyivReservoir.htm">Kyiv (or Kiev) Reservoir</a> on the <a href="http://www.encyclopediaofukraine.com/display.asp?AddButton=pages\D\N\DnieperRiver.htm">Dnieper River</a>  has caused potentially hazardous rafts of ice to start drifting toward <a href="http://sgem.com.ua/our_activity_objects_in_ukraine_kievskaya_hpp.html">a dam and hydroelectric plant</a> at the southern edge of the reservoir.</p>
+
+<p>You can <a href="http://earthobservatory.nasa.gov/NaturalHazards/view.php?id=77545&eocn=ge_feed&eoci=gallery">read more about this image</a> on the <a href="http://earthobservatory.nasa.gov/">Earth Observatory</a> website.</p>
+
+<p>
+<a href="ge_77545/ge_77545.kml">Overlay image on Earth.</a>
+</p>
+</div>
+<div style="clear:both"></div>
+]]>
+		</description>
+		<LookAt>
+			<longitude>30.501</longitude>
+			<latitude>50.569</latitude>
+			<range>25000</range>
+		</LookAt>
+		<styleUrl>#balloonStyle</styleUrl>
+		<Point>
+			<coordinates>30.501,50.569,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>A European Heat Wave</name>
+		<Snippet></Snippet>
+		<description><![CDATA[
+<!-- CSS -->
+<link rel="stylesheet" type="text/css" href="http://earthobservatory.nasa.gov/css/layout_google_earth.css">
+
+<div class="header">
+<a href="http://www.nasa.gov/">
+<img class="nasa-logo" src="http://earthobservatory.nasa.gov/Feeds/GoogleEarth/Logos/nasa-logo.png" 
+     width="51" height="38" alt="NASA: National Aeronautics and Space Administration" 
+     title="NASA: National Aeronautics and Space Administration"></a>
+<a href="http://earthobservatory.nasa.gov/">
+<img class="logo" src="http://earthobservatory.nasa.gov/Feeds/GoogleEarth/Logos/eo-logo.png" 
+     width="217" height="38" alt="NASA: Earth Observatory" 
+     title="NASA: Earth Observatory"></a>
+</a>
+</div>
+
+<div class="images">
+<div class="image-title">
+<h2>A European Heat Wave</h2>
+</div>
+<a href="http://earthobservatory.nasa.gov/IOTD/view.php?id=3714&eocn=ge_feed&eoci=gallery">
+<img src="http://eoimages.gsfc.nasa.gov/images/imagerecords/3000/3714/modis_lst_europe_front.jpg"></a>
+<div class="image-info"><span class="date">acquired July 1 -  31, 2003</span></div>
+</div>
+
+<div class="image-caption">
+<p><p>The image overlay shows the anomaly (the difference from the usual values) of temperature, leaf area index (LAI), and light absorption from plant photosynthesis (FPAR), all at 1-kilometer resolution.</p></p>
+
+<p>You can <a href="http://earthobservatory.nasa.gov/IOTD/view.php?id=3714&eocn=ge_feed&eoci=gallery">read more about this image</a> on the <a href="http://earthobservatory.nasa.gov/">Earth Observatory</a> website.</p>
+
+<p>
+<a href="ge_03714/ge_03714.kml">Overlay image on Earth.</a>
+</p>
+</div>
+<div style="clear:both"></div>
+]]>
+		</description>
+		<LookAt>
+			<longitude>4.5</longitude>
+			<latitude>47</latitude>
+			<range>3000000</range>
+		</LookAt>
+		<styleUrl>#balloonStyle</styleUrl>
+		<Point>
+			<coordinates>4.5,47,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Longyearbyen, Spitsbergen, Svalbard</name>
+		<Snippet></Snippet>
+		<description><![CDATA[
+<!-- CSS -->
+<link rel="stylesheet" type="text/css" href="http://earthobservatory.nasa.gov/css/layout_google_earth.css">
+
+<div class="header">
+<a href="http://www.nasa.gov/">
+<img class="nasa-logo" src="http://earthobservatory.nasa.gov/Feeds/GoogleEarth/Logos/nasa-logo.png" 
+     width="51" height="38" alt="NASA: National Aeronautics and Space Administration" 
+     title="NASA: National Aeronautics and Space Administration"></a>
+<a href="http://earthobservatory.nasa.gov/">
+<img class="logo" src="http://earthobservatory.nasa.gov/Feeds/GoogleEarth/Logos/eo-logo.png" 
+     width="217" height="38" alt="NASA: Earth Observatory" 
+     title="NASA: Earth Observatory"></a>
+</a>
+</div>
+
+<div class="images">
+<div class="image-title">
+<h2>Longyearbyen, Spitsbergen, Svalbard</h2>
+</div>
+<a href="http://earthobservatory.nasa.gov/IOTD/view.php?id=8577&eocn=ge_feed&eoci=gallery">
+<img src="http://eoimages.gsfc.nasa.gov/images/imagerecords/8000/8577/longyearbyen_ast_2003193_front.jpg"></a>
+<div class="image-info"><span class="date">acquired July 12, 2003</span></div>
+</div>
+
+<div class="image-caption">
+<p>In July 2008, the United Nations Educational, Scientific, and Cultural Organization (UNESCO) added 27 new areas to its list of World Heritage sites. One of those areas included the lagoons of New Caledonia. Some 1,200 kilometers (750 miles) east of Australia, this French-governed archipelago contains the world&#8217;s third-largest coral reef structure. The coral reefs enclose the waters near the islands in shallow lagoons of impressive biodiversity.</p>
+
+<p>You can <a href="http://earthobservatory.nasa.gov/IOTD/view.php?id=8577&eocn=ge_feed&eoci=gallery">read more about this image</a> on the <a href="http://earthobservatory.nasa.gov/">Earth Observatory</a> website.</p>
+
+<p>
+<a href="ge_08577/ge_08577.kml">Overlay image on Earth.</a>
+</p>
+</div>
+<div style="clear:both"></div>
+]]>
+		</description>
+		<LookAt>
+			<longitude>15.6495</longitude>
+			<latitude>78.2186</latitude>
+			<range>20000</range>
+		</LookAt>
+		<styleUrl>#balloonStyle</styleUrl>
+		<Point>
+			<coordinates>15.6495,78.2186,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Heat Wave in Northern Europe</name>
+		<Snippet></Snippet>
+		<description><![CDATA[
+<!-- CSS -->
+<link rel="stylesheet" type="text/css" href="http://earthobservatory.nasa.gov/css/layout_google_earth.css">
+
+<div class="header">
+<a href="http://www.nasa.gov/">
+<img class="nasa-logo" src="http://earthobservatory.nasa.gov/Feeds/GoogleEarth/Logos/nasa-logo.png" 
+     width="51" height="38" alt="NASA: National Aeronautics and Space Administration" 
+     title="NASA: National Aeronautics and Space Administration"></a>
+<a href="http://earthobservatory.nasa.gov/">
+<img class="logo" src="http://earthobservatory.nasa.gov/Feeds/GoogleEarth/Logos/eo-logo.png" 
+     width="217" height="38" alt="NASA: Earth Observatory" 
+     title="NASA: Earth Observatory"></a>
+</a>
+</div>
+
+<div class="images">
+<div class="image-title">
+<h2>Heat Wave in Northern Europe</h2>
+</div>
+<a href="http://earthobservatory.nasa.gov/IOTD/view.php?id=8850&eocn=ge_feed&eoci=gallery">
+<img src="http://eoimages.gsfc.nasa.gov/images/imagerecords/8000/8850/neeurope_tmo_2008153_front.png"></a>
+<div class="image-info"><span class="date">acquired June 2 -  8, 2008</span></div>
+</div>
+
+<div class="image-caption">
+<p>On the calendar, Scandinavian summer starts on June 21 in 2008, but summer temperatures had already settled over much of northern Europe by early June. The intense heat and dry weather led to dangerous fire conditions in Scandinavia. Both Norway and Sweden were plagued with several forest fires in early June.</p>
+
+<p>You can <a href="http://earthobservatory.nasa.gov/IOTD/view.php?id=8850&eocn=ge_feed&eoci=gallery">read more about this image</a> on the <a href="http://earthobservatory.nasa.gov/">Earth Observatory</a> website.</p>
+
+<p>
+<a href="ge_08850/ge_08850.kml">Overlay image on Earth.</a>
+</p>
+</div>
+<div style="clear:both"></div>
+]]>
+		</description>
+		<LookAt>
+			<longitude>14</longitude>
+			<latitude>62</latitude>
+			<range>3000000</range>
+		</LookAt>
+		<styleUrl>#balloonStyle</styleUrl>
+		<Point>
+			<coordinates>14,62,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Arctic Eclipse </name>
+		<Snippet></Snippet>
+		<description><![CDATA[
+<!-- CSS -->
+<link rel="stylesheet" type="text/css" href="http://earthobservatory.nasa.gov/css/layout_google_earth.css">
+
+<div class="header">
+<a href="http://www.nasa.gov/">
+<img class="nasa-logo" src="http://earthobservatory.nasa.gov/Feeds/GoogleEarth/Logos/nasa-logo.png" 
+     width="51" height="38" alt="NASA: National Aeronautics and Space Administration" 
+     title="NASA: National Aeronautics and Space Administration"></a>
+<a href="http://earthobservatory.nasa.gov/">
+<img class="logo" src="http://earthobservatory.nasa.gov/Feeds/GoogleEarth/Logos/eo-logo.png" 
+     width="217" height="38" alt="NASA: Earth Observatory" 
+     title="NASA: Earth Observatory"></a>
+</a>
+</div>
+
+<div class="images">
+<div class="image-title">
+<h2>Arctic Eclipse </h2>
+</div>
+<a href="http://earthobservatory.nasa.gov/IOTD/view.php?id=8971&eocn=ge_feed&eoci=gallery">
+<img src="http://eoimages.gsfc.nasa.gov/images/imagerecords/8000/8971/eclipse_tmo_2008214_front.jpg"></a>
+<div class="image-info"><span class="date">acquired August 1, 2008</span></div>
+</div>
+
+<div class="image-caption">
+<p>NASA&#8217;s Terra satellite was rounding the top of the globe, making its way from the eastern tip of Siberia and across the Arctic Ocean towards northern Norway and northwest Russia, when it captured this unique view of a total solar eclipse on August 1, 2008.</p>
+
+<p>You can <a href="http://earthobservatory.nasa.gov/IOTD/view.php?id=8971&eocn=ge_feed&eoci=gallery">read more about this image</a> on the <a href="http://earthobservatory.nasa.gov/">Earth Observatory</a> website.</p>
+
+<p>
+<a href="ge_08971/ge_08971.kml">Overlay image on Earth.</a>
+</p>
+</div>
+<div style="clear:both"></div>
+]]>
+		</description>
+		<LookAt>
+			<longitude>0</longitude>
+			<latitude>76.5</latitude>
+			<range>5800000</range>
+		</LookAt>
+		<styleUrl>#balloonStyle</styleUrl>
+		<Point>
+			<coordinates>0,76.5,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Sivash, Ukraine</name>
+		<Snippet></Snippet>
+		<description><![CDATA[
+<!-- CSS -->
+<link rel="stylesheet" type="text/css" href="http://earthobservatory.nasa.gov/css/layout_google_earth.css">
+
+<div class="header">
+<a href="http://www.nasa.gov/">
+<img class="nasa-logo" src="http://earthobservatory.nasa.gov/Feeds/GoogleEarth/Logos/nasa-logo.png" 
+     width="51" height="38" alt="NASA: National Aeronautics and Space Administration" 
+     title="NASA: National Aeronautics and Space Administration"></a>
+<a href="http://earthobservatory.nasa.gov/">
+<img class="logo" src="http://earthobservatory.nasa.gov/Feeds/GoogleEarth/Logos/eo-logo.png" 
+     width="217" height="38" alt="NASA: Earth Observatory" 
+     title="NASA: Earth Observatory"></a>
+</a>
+</div>
+
+<div class="images">
+<div class="image-title">
+<h2>Sivash, Ukraine</h2>
+</div>
+<a href="http://earthobservatory.nasa.gov/IOTD/view.php?id=47117&eocn=ge_feed&eoci=gallery">
+<img src="http://eoimages.gsfc.nasa.gov/images/imagerecords/47000/47117/sivash_tm5_2010157_front.jpg"></a>
+<div class="image-info"><span class="date">acquired June 6, 2010</span></div>
+</div>
+
+<div class="image-caption">
+<p>From mainland Ukraine, the Crimean Peninsula extends southward into the Black Sea. The peninsula is bordered on the west by the Black Sea, and on the east by the Sea of Azov. Stretching across the peninsula is a network of shallow, marshy inlets sprawling over roughly 1,000 square miles (2,600 square kilometers). This network of lagoons is known as Sivash (also Syvash or Siva&scaron;). During the summer months, warmed marsh waters give off unpleasant odors, lending the region nicknames of &ldquo;Rotten Sea&rdquo; or &ldquo;Putrid Sea.&rdquo;</p>
+
+<p>You can <a href="http://earthobservatory.nasa.gov/IOTD/view.php?id=47117&eocn=ge_feed&eoci=gallery">read more about this image</a> on the <a href="http://earthobservatory.nasa.gov/">Earth Observatory</a> website.</p>
+
+<p>
+<a href="ge_47117/ge_47117.kml">Overlay image on Earth.</a>
+</p>
+</div>
+<div style="clear:both"></div>
+]]>
+		</description>
+		<LookAt>
+			<longitude>34.15</longitude>
+			<latitude>46.07</latitude>
+			<range>80000</range>
+		</LookAt>
+		<styleUrl>#balloonStyle</styleUrl>
+		<Point>
+			<coordinates>34.15,46.07,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark>
+		<name>Auroral Rocket in Norway</name>
+		<Snippet></Snippet>
+		<description><![CDATA[
+<!-- CSS -->
+<link rel="stylesheet" type="text/css" href="http://earthobservatory.nasa.gov/css/layout_google_earth.css">
+
+<div class="header">
+<a href="http://www.nasa.gov/">
+<img class="nasa-logo" src="http://earthobservatory.nasa.gov/Feeds/GoogleEarth/Logos/nasa-logo.png" 
+     width="51" height="38" alt="NASA: National Aeronautics and Space Administration" 
+     title="NASA: National Aeronautics and Space Administration"></a>
+<a href="http://earthobservatory.nasa.gov/">
+<img class="logo" src="http://earthobservatory.nasa.gov/Feeds/GoogleEarth/Logos/eo-logo.png" 
+     width="217" height="38" alt="NASA: Earth Observatory" 
+     title="NASA: Earth Observatory"></a>
+</a>
+</div>
+
+<div class="images">
+<div class="image-title">
+<h2>Auroral Rocket in Norway</h2>
+</div>
+<a href="http://earthobservatory.nasa.gov/IOTD/view.php?id=48340&eocn=ge_feed&eoci=gallery">
+<img src="http://eoimages.gsfc.nasa.gov/images/imagerecords/48000/48340/aurora_rocket_front.jpg"></a>
+<div class="image-info"><span class="date">acquired December 12, 2010</span></div>
+</div>
+
+<div class="image-caption">
+<p>Photographers captured these digital photos of a four-stage <a href="http://sites.wff.nasa.gov/mpl/w_blackbrantxii.html">Black Brant XII</a> sounding rocket and the aurora borealis on December 12, 2010, during the NASA-funded <a href="http://www.unh.edu/news/cj_nr/2010/dec/ds13nasa.cfm">Rocket Experiment for Neutral Upwelling (RENU)</a>.</p>
+
+<p>You can <a href="http://earthobservatory.nasa.gov/IOTD/view.php?id=48340&eocn=ge_feed&eoci=gallery">read more about this image</a> on the <a href="http://earthobservatory.nasa.gov/">Earth Observatory</a> website.</p>
+
+<p>
+</p>
+</div>
+<div style="clear:both"></div>
+]]>
+		</description>
+		<LookAt>
+			<longitude>16.114</longitude>
+			<latitude>69.32</latitude>
+			<range>1000000</range>
+		</LookAt>
+		<styleUrl>#balloonStyle_grey</styleUrl>
+		<Point>
+			<coordinates>16.114,69.32,0</coordinates>
+		</Point>
+	</Placemark>
+</Document>
+</kml>

@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" lang="en-us" xml:lang="en-us" class="_Skins_HTML5___Top_Navigation" data-mc-search-type="Stem" data-mc-help-system-file-name="Default.xml" data-mc-path-to-help-system="../../../../../../../" data-mc-has-content-body="True" data-mc-toc-path="Help Topics|Core CRM|Calls|Call Reporting|Advanced Functionality|Executing a Call|Capturing Call Activities" data-mc-target-type="WebHelp2" data-mc-runtime-file-type="Topic;Default" data-mc-preload-images="false" data-mc-in-preview-mode="false">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="subject" content="Advanced Functionality" />
+        <meta name="platform" content="iPhone" />
+        <meta charset="utf-8" /><title>Using Action Items on the Call Report</title>
+        <link rel="shortcut icon" href="../../../../../../Resources/Images/Site_assets/favicon.png" />
+        <link href="../../../../../../../Skins/Default/Stylesheets/Slideshow.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../../../../../../Skins/Default/Stylesheets/TextEffects.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../../../../../../Skins/Default/Stylesheets/Topic.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../../../../../../Skins/Default/Stylesheets/Components/Styles.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../../../../../../Skins/Default/Stylesheets/Components/Tablet.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../../../../../../Skins/Default/Stylesheets/Components/Mobile.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../../../../../../Skins/Default/Stylesheets/Components/Print.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../../../../../../Skins/Fluid/Stylesheets/foundation.6.2.3.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../../../../../../Skins/Fluid/Stylesheets/Styles.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../../../../../../Skins/Fluid/Stylesheets/Tablet.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../../../../../../Skins/Fluid/Stylesheets/Mobile.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../../../../../../Skins/Fluid/Stylesheets/Print.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../../../../../Resources/Stylesheets/MainStyles.css" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+        <link href="../../../../../../Resources/Stylesheets/MainStyles.css?v=1.1" rel="stylesheet" type="text/css" />
+        <link href="../../../../../../Resources/Stylesheets/st-styles.css?v=1.1" rel="stylesheet" type="text/css" />
+        <link href="../../../../../../Resources/Stylesheets/ionicons.min.css" rel="stylesheet" type="text/css" />
+        <link href="../../../../../../Resources/Stylesheets/FooterStyles.css" rel="stylesheet" type="text/css" />
+        <link href="../../../../../../Resources/Stylesheets/queries.css?v=1.1" rel="stylesheet" type="text/css" />
+        <link href="../../../../../../Resources/TableStyles/Veeva Table Style.css" rel="stylesheet" data-mc-stylesheet-type="table" />
+        <script src="../../../../../../../Resources/Scripts/jquery.min.js" type="text/javascript">
+        </script>
+        <script src="../../../../../../../Resources/Scripts/purify.min.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../../../../../../../Resources/Scripts/require.min.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../../../../../../../Resources/Scripts/require.config.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../../../../../../../Resources/Scripts/foundation.6.2.3_custom.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../../../../../../../Resources/Scripts/plugins.min.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../../../../../../../Resources/Scripts/MadCapGlobal.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../../../../../../../Resources/Scripts/MadCapDom.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../../../../../../../Resources/Scripts/MadCapUtilities.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../../../../../../../Resources/Scripts/MadCapXhr.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../../../../../../../Resources/Scripts/MadCapTextEffects.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../../../../../../../Resources/Scripts/MadCapSlideshow.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../../../../../../../Resources/Scripts/MadCapMessageBus.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../../../../../../../Resources/Scripts/MadCapDefault.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../../../../../../../Resources/Scripts/MadCapMediaQueries.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../../../../../../../Resources/Scripts/MadCapAccessibility.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../../../../../../../Resources/Scripts/MadCapHelpSystem.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../../../../../../../Resources/Scripts/MadCapAliasFile.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../../../../../../../Resources/Scripts/MadCapSkinHelper.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../../../../../../../Resources/Scripts/MadCapToc.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../../../../../../../Resources/Scripts/MadCapToc.Breadcrumbs.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../../../../../../../Resources/Scripts/MadCapToc.MiniToc.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../../../../../../../Resources/Scripts/MadCapToc.SideMenu.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../../../../../../../Resources/Scripts/MadCapIndex.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../../../../../../../Resources/Scripts/MadCapGlossary.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../../../../../../../Resources/Scripts/MadCapParser.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../../../../../../../Resources/Scripts/MadCapSearch.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../../../../../../../Resources/Scripts/MadCapNavigateTopics.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../../../../../../../Resources/Scripts/MadCapLms.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../../../../../../../Resources/Scripts/MadCapELearning.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../../../../../../../Resources/Scripts/MadCapTopic.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../../../../../../../Resources/Scripts/MadCapMicroContentComponent.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../../../../../../../Resources/Scripts/MadCapSearchHelper.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../../../../../../../Resources/Scripts/MadCapTopicElements.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../../../../../../../Resources/Scripts/MadCapFluid.js" type="text/javascript" defer="defer">
+        </script>
+        <script type="text/javascript" src="../../../../../../Resources/Scripts/back_to_top.js">
+        </script>
+        <script type="text/javascript" src="../../../../../../Resources/Scripts/jquery.swiftype.autocomplete.js">
+        </script>
+        <script type="text/javascript" src="../../../../../../Resources/Scripts/jquery.swiftype.search.js">
+        </script>
+        <script type="text/javascript" src="../../../../../../Resources/Scripts/themeToggle.js">
+        </script>
+    </head>
+    <body>
+        <div class="foundation-wrap off-canvas-wrapper">
+            <div class="off-canvas-wrapper-inner" data-off-canvas-wrapper="">
+                <aside class="off-canvas position-right" role="navigation" id="offCanvas" data-off-canvas="" data-position="right" data-mc-ignore="true">
+                    <ul class="off-canvas-drilldown vertical menu off-canvas-list" data-drilldown="" data-mc-back-link="Back" data-mc-css-tree-node-expanded="is-drilldown-submenu-parent" data-mc-css-tree-node-collapsed="is-drilldown-submenu-parent" data-mc-css-sub-menu="vertical menu slide-in-right is-drilldown-submenu" data-mc-include-indicator="False" data-mc-include-icon="False" data-mc-include-parent-link="True" data-mc-include-back="True" data-mc-defer-expand-event="True" data-mc-expand-event="click.zf.drilldown" data-mc-toc="True">
+                    </ul>
+                </aside>
+                <div class="off-canvas-content inner-wrap" data-off-canvas-content="">
+                    <div data-sticky-container="" class="title-bar-container">
+                        <nav class="title-bar tab-bar sticky" role="banner" data-sticky="" data-options="marginTop:0" style="width:100%" data-sticky-on="only screen and (min-width: 1280px)" data-mc-ignore="true"><a class="skip-to-content fluid-skip showOnFocus" href="#">Skip To Main Content</a>
+                            <div class="middle title-bar-section outer-row clearfix">
+                                <div class="menu-icon-container relative clearfix">
+                                    <div class="central-account-wrapper">
+                                        <div class="central-dropdown"><a class="central-account-drop"><span class="central-account-image"></span><span class="central-account-text">Account</span></a>
+                                            <div class="central-dropdown-content"><a class="MCCentralLink central-dropdown-content-settings">Settings</a>
+                                                <hr class="central-separator" /><a class="MCCentralLink central-dropdown-content-logout">Logout</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <button class="menu-icon" aria-label="Show Navigation Panel" data-toggle="offCanvas"><span></span>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="title-bar-layout outer-row">
+                                <div class="logo-wrapper"><a class="logo" href="../../../../../../Home.htm" alt="Logo"></a>
+                                </div>
+                                <div class="navigation-wrapper nocontent">
+                                    <ul class="navigation clearfix" role="navigation" data-mc-css-tree-node-has-children="has-children" data-mc-css-sub-menu="sub-menu" data-mc-expand-event="mouseenter" data-mc-top-nav-menu="True" data-mc-max-depth="3" data-mc-include-icon="False" data-mc-include-indicator="False" data-mc-include-children="True" data-mc-include-siblings="True" data-mc-include-parent="True" data-mc-toc="True">
+                                        <li class="placeholder" style="visibility:hidden"><a>placeholder</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="central-account-wrapper">
+                                    <div class="central-dropdown"><a class="central-account-drop"><span class="central-account-image"></span><span class="central-account-text">Account</span></a>
+                                        <div class="central-dropdown-content"><a class="MCCentralLink central-dropdown-content-settings">Settings</a>
+                                            <hr class="central-separator" /><a class="MCCentralLink central-dropdown-content-logout">Logout</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="nav-search-wrapper">
+                                    <div class="nav-search row">
+                                        <form class="search" action="#">
+                                            <div class="search-bar search-bar-container needs-pie">
+                                                <input class="search-field needs-pie" type="search" aria-label="Search Field" placeholder="Search the online help" />
+                                                <div class="search-filter-wrapper"><span class="invisible-label" id="search-filters-label">Filter: </span>
+                                                    <div class="search-filter" aria-haspopup="true" aria-controls="sf-content" aria-expanded="false" aria-label="Search Filter" title="All Files" role="button" tabindex="0">
+                                                    </div>
+                                                    <div class="search-filter-content" id="sf-content">
+                                                        <ul>
+                                                            <li>
+                                                                <button class="mc-dropdown-item" aria-labelledby="search-filters-label filterSelectorLabel-00001"><span id="filterSelectorLabel-00001">All Files</span>
+                                                                </button>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                                <div class="search-submit-wrapper" dir="ltr">
+                                                    <div class="search-submit" title="Search" role="button" tabindex="0"><span class="invisible-label">Submit Search</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </nav>
+                    </div>
+                    <div class="main-section">
+                        <div class="row outer-row sidenav-layout">
+                            <nav class="sidenav-wrapper">
+                                <div class="sidenav-container">
+                                    <ul class="off-canvas-accordion vertical menu sidenav" data-accordion-menu="" data-mc-css-tree-node-expanded="is-accordion-submenu-parent" data-mc-css-tree-node-collapsed="is-accordion-submenu-parent" data-mc-css-sub-menu="vertical menu accordion-menu is-accordion-submenu nested" data-mc-include-indicator="False" data-mc-include-icon="False" data-mc-include-parent-link="False" data-mc-include-back="False" data-mc-defer-expand-event="True" data-mc-expand-event="click.zf.accordionMenu" data-mc-toc="True" data-mc-side-nav-menu="True">
+                                    </ul>
+                                </div>
+                            </nav>
+                            <div class="body-container">
+                                <div data-mc-content-body="True">
+                                    <!-- Dark mode toggle -->
+                                    <img src="../../../../../../Resources/Images/dark-mode.png" id="theme-toggle-dark" onclick="swapButtonHandler()" style="width: 36px;float: right;margin: 8px;cursor: pointer;" title="light/dark theme" />
+                                    <img src="../../../../../../Resources/Images/light-mode.png" id="theme-toggle-light" onclick="swapButtonHandler()" style="display: none;width: 36px;float: right;margin: 8px;cursor: pointer;" title="light/dark theme" />
+                                    <!-- End Dark mode toggle -->
+                                    <button class="btn toolstip" type="submit" onclick="MadCap.TextEffects.TextEffectControl.ExpandAll('open');printDiv('printArea')" style="float:right;border-style:none;cursor:pointer"><i class="material-icons">print</i><span class="toolstiptext">Print this topic</span>
+                                    </button>
+                                    <div class="content">
+                                        <form id="search">
+                                            <div>
+                                                <button type="submit" form="search" class="st-submit"><i class="ion-search st-submit-ion"></i>
+                                                </button>
+                                                <button type="button" id="st-fav-btn" class="st-fav checkHide"><i class="ion-android-options st-submit-ion"></i>
+                                                </button>
+                                                <input type="text" placeholder="Search" class="st-search-input" id="st-search-input" />
+                                                <div id="st-suggest">
+                                                    <div>
+                                                        <p>Popular Searches</p>
+                                                        <ul class="st-pop-list" id="pop-list">
+                                                            <li class="st-pop-li"><span class="st-pre-link">My Schedule Filters</span>
+                                                            </li>
+                                                            <li class="st-pop-li"><span class="st-pre-link">Record Type Label</span>
+                                                            </li>
+                                                            <li class="st-pop-li"><span class="st-pre-link">Data Change Requests</span>
+                                                            </li>
+                                                            <li class="st-pop-li"><span class="st-pre-link">Preferred Address</span>
+                                                            </li>
+                                                            <li class="st-pop-li"><span class="st-pre-link">Primary Address</span>
+                                                            </li>
+                                                            <li class="st-pop-li"><span class="st-pre-link">Approved Email</span>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                                <div id="st-settings">
+                                                    <div style="margin-bottom: 10px;">
+                                                        <input id="exact-search" type="checkbox" />
+                                                        <label for="exact-search">Enable Exact Search</label>
+                                                    </div>
+                                                    <select size="16" id="filter" name="filter" style="overflow-y: scroll;">
+                                                        <option value="default" style="display:none;" selected="selected">You Shouldn't be Able to See This</option>
+                                                        <optgroup label="Search by Platform" style="color: #F89628; padding-left: 4px;">
+                                                            <option style="font-size: 80%;" value="Browser (Classic)">Browser (Classic)</option>
+                                                            <option style="font-size: 80%;" value="Browser (Lightning)">Browser (Lightning)</option>
+                                                            <option style="font-size: 80%;" value="CRM Desktop (Mac)">CRM Desktop (Mac)</option>
+                                                            <option style="font-size: 80%;" value="CRM Desktop (Windows)">CRM Desktop (Windows)</option>
+                                                            <option style="font-size: 80%;" value="iPad">iPad</option>
+                                                            <option style="font-size: 80%;" value="iPhone">iPhone</option>
+                                                            <option style="font-size: 80%;" value="Windows Tablet">Windows Tablet</option>
+                                                        </optgroup>
+                                                        <optgroup label="Search by Module" style="margin-top: 12px; color: #F89628; padding-left: 4px;">
+                                                            <option style="font-size: 80%;" value="Accounts">Accounts</option>
+                                                            <option style="font-size: 80%;" value="Approved Email">Approved Email</option>
+                                                            <option style="font-size: 80%;" value="Call Reporting">Call Reporting</option>
+                                                            <option style="font-size: 80%;" value="CLM">CLM</option>
+                                                            <option style="font-size: 80%;" value="Consent Capture">Consent Capture</option>
+                                                            <option style="font-size: 80%;" value="Engage">Engage</option>
+                                                            <option style="font-size: 80%;" value="Events Management">Events Management</option>
+                                                            <option style="font-size: 80%;" value="Integrations">Integrations</option>
+                                                            <option style="font-size: 80%;" value="Inventory Monitoring">Inventory Monitoring</option>
+                                                            <option style="font-size: 80%;" value="Medical">Medical</option>
+                                                            <option style="font-size: 80%;" value="MyInsights">MyInsights</option>
+                                                            <option style="font-size: 80%;" value="Order Management">Order Management</option>
+                                                            <option style="font-size: 80%;" value="Samples">Samples</option>
+                                                            <option style="font-size: 80%;" value="Scheduling and Planning">Scheduling and Planning</option>
+                                                            <option style="font-size: 80%;" value="Surveys">Surveys</option>
+                                                        </optgroup>
+                                                    </select><a href="" id="reset" name="reset" style="display:block;font-size:.7em;">Clear Filter</a>
+                                                </div>
+                                            </div>
+                                        </form>
+                                        <div class="nocontent">
+                                            <div class="MCBreadcrumbsBox_0 breadcrumbs" role="navigation" aria-label="Breadcrumbs" data-mc-breadcrumbs-divider="/" data-mc-breadcrumbs-count="6" data-mc-toc="True"><span class="MCBreadcrumbsPrefix">You are here: </span>
+                                            </div>
+                                        </div>
+                                        <div class="col-left">
+                                            <div class="sideMenu">
+                                                <div id="headingsMenu">
+                                                    <p>In this Topic</p>
+                                                    <ul data-magellan="" data-animation-duration="250" data-active-class="selected" data-scroll-container-on="small" class="nocontent menu _Skins_SideMenuNew mc-component">
+                                                        <li><a href="#UsingActionItemsontheCallReport">Using Action Items on the Call Report</a>
+                                                        </li>
+                                                        <ul>
+                                                            <li><a href="#PrerequisitesforActionItemsonCallReport">Prerequisites for Action Items on Call Report</a>
+                                                            </li>
+                                                            <li><a href="#ConfiguringActionItemsonCallReport">Configuring Action Items on Call Report</a>
+                                                            </li>
+                                                            <li><a href="#UsingActionItemsonCallReport">Using Action Items on Call Report</a>
+                                                            </li>
+                                                            <ul>
+                                                                <li><a href="#CompletingActionItemsontheCallReport">Completing Action Items on the Call Report</a>
+                                                                </li>
+                                                                <li><a href="#SubmittingaCallReportwithActionItems">Submitting a Call Report with Action Items</a>
+                                                                </li>
+                                                                <li><a href="#ChangingStatusforCompletedActionItems">Changing Status for Completed Action Items</a>
+                                                                </li>
+                                                                <li><a href="#ActionItemsonGroupCallswithUniqueActivities">Action Items on Group Calls with Unique Activities</a>
+                                                                </li>
+                                                            </ul>
+                                                            <li><a href="#RelatedTopics">Related Topics</a>
+                                                            </li>
+                                                        </ul>
+                                                    </ul>
+                                                </div>
+                                                <p>Topics</p>
+                                                <ul class="nocontent menu _Skins_SideMenuNew mc-component" data-mc-is-context-sensitive="True" data-mc-linked-toc="Data/Tocs/CRM_TopMenu.js" data-mc-side-menu="True" data-mc-max-depth="1" data-mc-include-icon="False" data-mc-include-indicator="False" data-mc-include-children="True" data-mc-include-siblings="True" data-mc-include-parent="True" data-mc-toc="True">
+                                                </ul><a href="#open-modal" style="color: #f89728;"><button style="" class="btn-veeva btn-veeva-primary" type="submit">Feedback</button></a>
+                                            </div>
+                                        </div>
+                                        <div class="col-right" id="printArea" style="margin-left: 400px;" data-swiftype-index="true">
+                                            <div role="main" id="mc-main-content">
+                                                <h2 id="UsingActionItemsontheCallReport" data-magellan-target="UsingActionItemsontheCallReport">Using Action Items on the Call Report</h2>
+                                                <ul class="platforms">
+                                                    <li>Browser (Classic)</li>
+                                                    <li>iPad</li>
+                                                    <li>iPhone</li>
+                                                </ul>
+                                                <p>Action items provide a flexible way to manage tasks for account plans and offer a less-formal alternative to Call Objectives or Salesforce Tasks when defining to-do lists for team members. Key Account Managers (KAM) and account plan team members can access a list of available action items on the call report to complete during a call.</p>
+                                                <p>For example, Sarah Jones is working on an account plan for Newton Memorial Hospital with her teammate, Larry Lakes. The account plan has a list of:</p>
+                                                <ul>
+                                                    <li class="bulleted">Key Stakeholders, including Clinton Ackerman and Tonja Holma</li>
+                                                    <li class="bulleted">Action Items defined by her manager, including:<ul><li class="bullet">Fill out the Cholecap Survey with Clinton Ackerman, assigned to Larry</li><li class="bullet">Fill out the Cholecap Survey with Christine Beacher , assigned to Sarah</li><li class="bullet">Bring donuts and coffee, assigned to Sarah</li><li class="bullet">Hand out 10 brochures about the new Cholecap product, unassigned</li></ul></li>
+                                                </ul>
+                                                <p>Sarah records a call for Newton Memorial Hospital and adds Clinton Ackerman as an attendee. On the call report, Sarah views the items assigned to her. She can also see unassigned items that can be completed by anyone on the team. She marks each item complete as they are accomplished. She saves and submits the call report.</p>
+                                                <p><iframe class="vimeo-player_0" src="https://player.vimeo.com/video/480045493?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
+                                                </p>
+                                                <h3 id="PrerequisitesforActionItemsonCallReport" data-magellan-target="PrerequisitesforActionItemsonCallReport">Prerequisites for Action Items on Call Report</h3>
+                                                <ul>
+                                                    <li class="bulleted">Enable <a href="../../../../../Accounts/Account_Planning_and_Execution/AddingActionItems.htm" class="MCXref xref">Using Action Items for KAMs</a>, <a href="../../../../../Accounts/Account_Planning_and_Execution/Account_Based_Selling.htm" class="MCXref xref">Account-Based Selling</a>, and <a href="../../../../../Accounts/Account_Planning_and_Execution/PlanTactics.htm" class="MCXref xref">Plan Tactics</a></li>
+                                                    <li class="bulleted">Ensure the Action_Item_vod object is referenced in the Account_Plan_Object_Hierarchy_vod Veeva Setting as described in <a href="../../../../../Accounts/Account_Planning_and_Execution/AddingActionItems.htm#Configur" class="MCXref xref">Configuring Action Items for KAMs</a></li>
+                                                    <li class="bulleted">Ensure the Account Plan Sharing Veeva Setting is set to 1</li>
+                                                    <li class="bulleted">Ensure the following VMOCs are active for the appropriate platforms:<br /><table style="mc-table-style: url('../../../../../../Resources/TableStyles/Veeva Table Style.css');" class="TableStyle-Veeva_Table_Style" cellspacing="0"><col class="TableStyle-Veeva_Table_Style-Column-Column1" /><col class="TableStyle-Veeva_Table_Style-Column-Column1" /><col class="TableStyle-Veeva_Table_Style-Column-Column1" /><thead><tr class="TableStyle-Veeva_Table_Style-Head-Header1"><th class="TableStyle-Veeva_Table_Style-HeadE-Column1-Header1"><p>Object</p></th><th class="TableStyle-Veeva_Table_Style-HeadE-Column1-Header1"><p>Sync Type</p></th><th class="TableStyle-Veeva_Table_Style-HeadD-Column1-Header1"><p>WHERE clause</p></th></tr></thead><tbody><tr class="TableStyle-Veeva_Table_Style-Body-Body2"><td class="TableStyle-Veeva_Table_Style-BodyE-Column1-Body2"><p>Action_Item_vod</p></td><td class="TableStyle-Veeva_Table_Style-BodyE-Column1-Body2"><p>Top Level</p></td><td class="TableStyle-Veeva_Table_Style-BodyD-Column1-Body2"><p>WHERE ((OwnerId = @@VOD_SF_USER_ID@@) OR (Assignee_vod__c = @@VOD_SF_USER_ID@@))</p></td></tr><tr class="TableStyle-Veeva_Table_Style-Body-Body1"><td class="TableStyle-Veeva_Table_Style-BodyE-Column1-Body1"><p>Action_Item_vod</p></td><td class="TableStyle-Veeva_Table_Style-BodyE-Column1-Body1"><p>Top Level</p></td><td class="TableStyle-Veeva_Table_Style-BodyD-Column1-Body1"><p>WHERE Account_vod__c IN (SELECT Id FROM Account)</p></td></tr><tr class="TableStyle-Veeva_Table_Style-Body-Body2"><td class="TableStyle-Veeva_Table_Style-BodyE-Column1-Body2">Action_Item_vod</td><td class="TableStyle-Veeva_Table_Style-BodyE-Column1-Body2">Top Level</td><td class="TableStyle-Veeva_Table_Style-BodyD-Column1-Body2">WHERE Account_Plan_vod__c IN (Select Id FROM Account_Plan_vod__c)</td></tr><tr class="TableStyle-Veeva_Table_Style-Body-Body1"><td class="TableStyle-Veeva_Table_Style-BodyE-Column1-Body1"><p>Key_Stakeholder_vod</p></td><td class="TableStyle-Veeva_Table_Style-BodyE-Column1-Body1"><p>Full Sync</p></td><td class="TableStyle-Veeva_Table_Style-BodyD-Column1-Body1"><p>WHERE Account_Plan_vod__c in (Select Account_Plan_vod__c from Account_Tactic_vod__c)</p></td></tr><tr class="TableStyle-Veeva_Table_Style-Body-Body2"><td class="TableStyle-Veeva_Table_Style-BodyB-Column1-Body2">Plan_Tactic_vod</td><td class="TableStyle-Veeva_Table_Style-BodyB-Column1-Body2">Top Level</td><td class="TableStyle-Veeva_Table_Style-BodyA-Column1-Body2">N/A</td></tr></tbody></table></li>
+                                                </ul>
+                                                <h3 id="ConfiguringActionItemsonCallReport" data-magellan-target="ConfiguringActionItemsonCallReport">Configuring Action Items on Call Report</h3>
+                                                <p>Ensure <a href="../../../InitialConfig/ConfiguringCR.htm">initial configuration</a> is complete before enabling this functionality.</p>
+                                                <p>To configure this feature:</p>
+                                                <ol>
+                                                    <li value="1">Grant all users FLS edit permission to the <b>Account_Plan_vod</b> field on the Call2_vod object.</li>
+                                                    <li value="2">Grant admins FLS edit permission and users at least FLS read permission to the <b>zvod_Action_Items_vod</b> field on the Call2_vod object.</li>
+                                                    <li value="3">Grant all users FLS edit permission to the <b>Call2_vod</b> field on the Action_Item_vod object.</li>
+                                                    <li value="4">Place the <b>Account_Plan_vod</b> field on the appropriate Call2_vod object page layout in its own single-column layout section.</li>
+                                                    <li value="5">Place the <b>zvod_Action_Items_vod</b> field on the appropriate Call2_vod object page layout in its own single-column layout section.</li>
+                                                </ol>
+                                                <h3 id="UsingActionItemsonCallReport" data-magellan-target="UsingActionItemsonCallReport">Using Action Items on Call Report</h3>
+                                                <p>When KAMs create a call report, available action items display for accounts on the call for all available account plans where the account is the main account for the plan, or the account is a key stakeholder.</p>
+                                                <p>Action items are sorted and displayed by the item name, in ascending order. The list is refreshed automatically based on the account plan selected, when the call date is changed, or as attendees are added or removed.</p>
+                                                <p>
+                                                    <img src="../../../../../../Resources/Images/Activities/CallReporting/Advanced/CallActionItems.PNG" class="gray" style="width: 50%;" />
+                                                </p>
+                                                <p>When users select an account plan on the call report, all additional action items for the account plan display. When an account plan is selected, the action items are filtered to only include action items related to the account plan and call attendee accounts.</p>
+                                                <p>
+                                                    <img src="../../../../../../Resources/Images/Activities/CallReporting/Advanced/ActionItems-plan.PNG" class="gray" style="width: 50%;" />
+                                                </p>
+                                                <p>
+                                                    <p>
+                                                        <p>Action items display based on the following conditions:</p>
+                                                        <ul>
+                                                            <li class="bulleted">Assignee is empty or is set as the current user</li>
+                                                            <li class="bulleted">Status is not Completed</li>
+                                                            <li class="bulleted">Start date is empty or is on or before the call date</li>
+                                                            <li class="bulleted">Due date is empty or is on or after the call date</li>
+                                                        </ul>
+                                                        <p>Action items in the list display the following information:</p>
+                                                        <ul>
+                                                            <li class="bulleted">Account Name (for action items directly tied to accounts)</li>
+                                                            <li class="bulleted">Action Item Name</li>
+                                                            <li class="bulleted">Description</li>
+                                                            <li class="bulleted">Due Date</li>
+                                                            <li class="bulleted">Related To (displays the record name for Account Plan, Account Tactic, Plan Tactic or Custom Object, as defined in the Account Plan Hierarchy Custom Setting)</li>
+                                                            <li class="bulleted">Unassigned indicator for action items without an assignee</li>
+                                                        </ul>
+                                                    </p>
+                                                </p>
+                                                <p class="n">In order for action items to display on the call report, action items must be added to the related list on the account plan. For more information, see <a href="../../../../../Accounts/Account_Planning_and_Execution/AddingActionItems.htm#Creating" class="MCXref xref">Creating Action Items</a>.</p>
+                                                <h4 id="CompletingActionItemsontheCallReport" data-magellan-target="CompletingActionItemsontheCallReport">Completing Action Items on the Call Report</h4>
+                                                <p>Users select an action item to mark it as complete.</p>
+                                                <p>
+                                                    <img src="../../../../../../Resources/Images/Activities/CallReporting/Advanced/ActionItems-check.PNG" class="gray" style="width: 50%;" />
+                                                </p>
+                                                <h4 id="SubmittingaCallReportwithActionItems" data-magellan-target="SubmittingaCallReportwithActionItems">Submitting a Call Report with Action Items</h4>
+                                                <p>Once the call is saved or submitted, the check box for the action item is locked.</p>
+                                                <p>
+                                                    <img src="../../../../../../Resources/Images/Activities/CallReporting/Advanced/ActionItems-complete.PNG" class="gray" style="width: 50%;" />
+                                                </p>
+                                                <p>When the call is saved or submitted, the completed action items’ records are stamped with the following values:</p>
+                                                <ul>
+                                                    <li class="bulleted">Status - Completed</li>
+                                                    <li class="bulleted">Completed Date - call date</li>
+                                                    <li class="bulleted">Completed By - current user</li>
+                                                    <li class="bulleted">Call - current call</li>
+                                                </ul>
+                                                <h4 id="ChangingStatusforCompletedActionItems" data-magellan-target="ChangingStatusforCompletedActionItems">Changing Status for Completed Action Items</h4>
+                                                <p>After a call is saved or submitted, users cannot change the status of completed action items. For example, a user who mistakenly marks an action item as completed and then submits the call report cannot change the action item’s status back to uncompleted. To change the status of an action item after a call is saved or submitted, a company admin must unlock the call, remove the call reference, and change the action item status to uncompleted.</p>
+                                                <h4 id="ActionItemsonGroupCallswithUniqueActivities" data-magellan-target="ActionItemsonGroupCallswithUniqueActivities">Action Items on Group Calls with Unique Activities</h4>
+                                                <p>For group calls, if the action item is linked to a business account, the action item  displays on the call for the business account. If the action item is linked to an attendee, it displays on the child call.</p>
+                                                <h3 id="RelatedTopics" data-magellan-target="RelatedTopics">Related Topics</h3>
+                                                <ul>
+                                                    <li class="bulleted"><a href="../../../../../Accounts/Account_Planning_and_Execution/AddingActionItems.htm" class="MCXref xref">Using Action Items for KAMs</a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div style="clear:both">
+                                        </div>
+                                    </div>
+                                    <div id="open-modal" class="modal-window">
+                                        <div><a href="#modal-close" title="" class="modal-close"></a>
+                                            <form method="POST" action="/doc/Content/Resources/Scripts/sendmail.php">
+                                                <div class="form-group">
+                                                    <p> Feedback </p>
+                                                </div>
+                                                <div class="form-group">
+                                                    <input type="email" name="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email" required="required" />
+                                                </div>
+                                                <div class="form-group">
+                                                    <div>
+                                                    </div><textarea name="message" class="form-control" id="Feedback" placeholder="Provide feedback here" required="required"></textarea>
+                                                    <input style="display:none;" id="veeva-url" type="text" name="veeva-url" />
+                                                    <input style="display: none;" id="bot-check" type="text" name="bot-check" />
+                                                </div>
+                                                <div class="form-group">
+                                                    <input type="submit" class="btn btn-veeva-secondary" />
+                                                </div>
+                                            </form>
+                                        </div>
+                                    </div>
+                                    <div class="footerFix">
+                                        <p class="last-updated">This page was last updated on <span class="mc-variable General.LastUpdated variable">December 21, 2022</span>.</p>
+                                        <div class="footer" style="border-top-style: solid;border-top-width: 2px;border-top-color: #f89728;">
+                                            <div class="row outer-row">
+                                                <div class="small-12 medium-3 columns"><a href="http://www.veeva.com/products/crm"><img src="../../../../../../Resources/Images/Site_assets/Veeva-logo-CRM-orange.png" alttext="" class="Hyperlinked footer-logo" style="width: 132px;height: 25px;" /></a>
+                                                </div>
+                                                <div class="small-12 medium-6 columns">
+                                                    <div class="footer-links"><a class="links-for-footer" href="https://support.veeva.com/hc/en-us" onClick="ga('send','event','crmHelpLink','click','contactSupportLink');">Support</a><a class="links-for-footer" href="http://www.veeva.com/">Company</a>
+                                                    </div>
+                                                    <div class="footer-links"><a class="links-for-footer" href="../../../../../../Home_footer_topics/Copyright.htm">Copyright © <span class="mc-variable General.CompanyName variable">Veeva Systems</span> 2013-<span class="mc-variable General.CopyrightYear variable">2023</span> </a>
+                                                    </div>
+                                                </div>
+                                                <div class="small-12 medium-3 footer-icons columns"><a href="https://twitter.com/veevasystems" target="_blank"><i class="ion-social-twitter icon-social"></i></a><a href="http://www.facebook.com/veevasystems" target="_blank"><i class="ion-social-facebook icon-social"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div><a href="#open-modal" style="color: #f89728;"><button style="" class="btn-veeva btn-veeva-primary" type="submit">Feedback</button></a><a href="#" class="back-to-top" title="back to top"><img src="../../../../../../Resources/Images/Site_assets/backtotopbutton.png" /></a>
+                                    <script type="text/javascript" src="../../../../../../Resources/Scripts/veeva-st-auto.js?v=1.1">
+                                    </script>
+                                    <script type="text/javascript" src="../../../../../../Resources/Scripts/body_end.js?v=1.3">
+                                    </script>
+                                </div>
+                            </div>
+                        </div>
+                    </div><a data-close="true"></a>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

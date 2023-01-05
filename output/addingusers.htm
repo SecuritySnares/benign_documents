@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+
+<html class="" lang="en-US">
+<head><meta content="2023-01-04 20:47:37Z" name="cpp-last-modified-time"/><meta content="2023-01-04 20:47:37Z" name="cpp-last-processed-time"/>
+<meta charset="utf-8"/>
+<meta content="(C) Copyright 2023" name="copyright"/>
+<meta content="DITA-OT" name="generator"/>
+<meta content="Adding Users" name="title"/>
+<meta content="add groups, add users, docs, documentation, iaas, iaas docs, oci docs, oci support, oracle cloud infrastructure documentation" name="keywords"/>
+<meta content="2018-12-06" name="last-modified-date"/>
+<meta content="Get a quick hands-on tutorial to add users and groups and create simple policies to grant them permissions to work with Oracle Cloud Infrastructure resources." name="description"/>
+<meta content="WM178512" name="productservices_id"/>
+<meta content="en" name="language"/>
+<meta content="WM178623" name="contenttype_id"/>
+<meta content="https://docs.oracle.com/iaas/Content/GSG/Tasks/addingusers.htm" name="url"/>
+<title>Adding Users</title>
+<meta content="width=device-width" name="viewport"/>
+<meta charset="utf-8"/>
+<link href="/iaas/build/styles.css?ca91552f90e45c3cd7be070b38554034c4cefdb116420c70ab71a10885713458" rel="stylesheet"/>
+<script>window.ohcglobal || document.write('<script src="/en/dcommon/js/global.js">\x3C/script>')</script></head>
+<body>
+<div id="highline-mount"></div>
+<div data-trackas="dcoc-main-navigation" id="mobile-toc" uk-offcanvas="flip: true; overlay: true">
+<div class="uk-offcanvas-bar uk-padding-remove-left uk-padding-remove-right">
+<button class="uk-offcanvas-close toc-mobile-close" type="button" uk-close=""></button>
+<div class="uk-margin-top vl-table-of-contents-mount">
+<div class="uk-text-center">
+<div uk-spinner=""></div>
+</div>
+</div>
+</div>
+</div>
+<div data-trackas="dcoc-header" i18n="" id="global-nav-mount">
+<div class="vl-nav-mount-height-placeholder"></div>
+</div>
+<div class="uk-section uk-section-secondary vl-background-hero uk-background-cover vl-dcoc-hero" data-trackas="dcoc-content-body" style="background-image: url('/iaas/img/banner-bg.jpg')">
+<div class="uk-container uk-container-large">
+<h3 class="uk-link-reset uk-text-bold uk-margin-remove-bottom">
+<a href="/iaas/Content/home.htm">
+              Oracle Cloud Infrastructure Documentation
+            </a>
+</h3>
+<hr class="vl-hr-accent uk-margin-small-top"/>
+</div>
+</div>
+<div uk-height-viewport="offset-top: true; offset-bottom: true">
+<div class="vl-dcoc-hero-margin">
+<div class="uk-container vl-padding-small-vertical uk-background-muted uk-hidden@m">
+<div class="uk-grid uk-grid-small uk-text-small" uk-grid="">
+<div class="uk-width-expand" data-trackas="dcoc-main-navigation" id="vl-breadcrumbs-mount"></div>
+<div class="uk-width-auto">
+<button class="uk-button uk-button-link uk-button-small vl-button-icon" type="button" uk-toggle="target: #mobile-toc">
+<span uk-icon="icon: menu; ratio: .8"></span>
+                  All Pages
+                </button>
+</div>
+</div>
+</div>
+</div>
+<div class="uk-container uk-container-large">
+<div class="uk-height-1-1 uk-grid" uk-grid="">
+<div class="vl-sidebar-left uk-visible@m" vl-table-of-contents-left="">
+<div class="vl-table-of-contents-mount vl-table-of-contents-inner" vl-table-of-contents-left-inner="">
+<div class="uk-text-center uk-margin-top">
+<div uk-spinner=""></div>
+</div>
+</div>
+</div>
+<div class="uk-width-expand" data-trackas="dcoc-content-body">
+<div class="uk-grid" uk-grid="">
+<div class="uk-width-expand" uk-height-viewport="offset-top: true">
+<a href="#dcoc-content-body" id="skiplink" tabindex="1">Skip to main content</a>
+<div class="uk-margin-large-bottom" id="dcoc-content-body">
+<div class="vl-content vl-content-max-width">
+<div class="uk-hidden@l">
+<div class="uk-nav uk-active uk-nav-default dts-header" id="vl-dts-mount-header"></div>
+</div>
+<article aria-labelledby="ariaid-title1" role="article"><article aria-labelledby="ariaid-title1" class="nested0" id="Adding_Users">
+<h1 class="title topictitle1" id="ariaid-title1">Adding Users</h1>
+<div class="body">
+<p class="p">This topic provides a quick hands-on tutorial for adding users and groups and creating
+            simple policies to grant them permissions to work with <span class="ph">Oracle Cloud Infrastructure</span> resources.</p>
+<p class="p">Use these instructions to quickly add some users to try out features. See  <span class="ph"><a class="xref" href="../../Identity/getstarted/identity-domains.htm#overview" title="Oracle Cloud Infrastructure Identity and Access Management (IAM) provides identity and access management features such as authentication, single sign-on (SSO), and identity lifecycle management for Oracle Cloud as well as Oracle and non-Oracle applications, whether SaaS, cloud-hosted, or on-premises. Employees, business partners, and customers can access applications at any time, from anywhere, and on any device in a secure manner.">Overview of IAM</a>
+</span> to fully understand the features of the <span class="ph">IAM</span>
+            service and how to manage access to your cloud resources. </p>
+</div>
+<article aria-labelledby="ariaid-title2" class="topic nested1" id="one">
+<h2 class="title topictitle2 vl-include-in-page-toc" id="ariaid-title2">About Users, Groups, and Policies</h2>
+<div class="body">
+<p class="p"> A user's permissions to access <span class="ph">Oracle Cloud Infrastructure</span> services comes from the  <em class="ph i"><strong title="A collection of users who all need a particular type of access to a set of resources or compartment.">groups <span class="vl-1px-up" uk-icon="icon: info; ratio: .8"></span></strong></em> to which they belong. The permissions for a group are defined by <strong title='An Identity and Access Management (IAM) document that specifies who has what type of access to your resources. Policy can refer to several types of documents: an individual statement written in the policy language, a collection of statements in a single named "policy" document, and the overall body of policies that your organization uses to control access to resources.'>policies <span class="vl-1px-up" uk-icon="icon: info; ratio: .8"></span></strong>. Policies define what actions members of a group can perform, and in which compartments. Users can then access services and perform operations based on the policies set for the groups  they are members of. </p>
+</div>
+</article><article aria-labelledby="ariaid-title3" class="topic nested1" id="Sample_Users_and_Groups">
+<h2 class="title topictitle2 vl-include-in-page-toc" id="ariaid-title3">Sample Users and Groups</h2>
+<div class="body">
+<p class="p">To help you understand how to set up users with the access permissions they need,  perform the following tasks to set up these two basic types of users: </p>
+<ul class="ul">
+<li class="li">A user with full administrator permissions (Cloud Administrator)</li>
+<li class="li">A user with permissions to use one compartment only</li>
+</ul>
+</div>
+</article><article aria-labelledby="ariaid-title4" class="topic nested1" id="Add">
+<h2 class="title topictitle2 vl-include-in-page-toc" id="ariaid-title4">Add a User with Oracle Cloud Administrator Permissions<a name="Add"></a></h2>
+<div class="body">
+<p class="p">The user you create in this task will have full administrator permissions of the default
+            administrator. This means that the user has full access to all compartments and can
+            create and manage all resources in <span class="ph">Oracle Cloud Infrastructure</span>. You must
+            have Cloud Administrator permissions to complete this task.</p>
+</div>
+<div class="uk-margin-top" uk-accordion=""><div id="Create_a_Cloud_Administrator_user"><a class="uk-accordion-title" href="#" id="ariaid-title5">Create a Cloud Administrator user</a><div class="uk-accordion-content"><div aria-labelledby="ariaid-title5" class="topic nested2">
+<div class="body">
+<ol class="ol">
+<li class="li"><span class="ph">Open the <span class="ph">navigation menu</span> and click <strong class="ph b">Identity &amp; Security</strong>.
+                Under <strong class="ph b">Identity</strong>, click <strong class="ph b">Domains</strong>.</span></li>
+<li class="li">Click <span class="ph uicontrol">Default</span> to open the Default identity domain.</li>
+<li class="li">Under the <strong class="ph b">Identity domain</strong> resources on the left, click <strong class="ph b">Users</strong>.</li>
+<li class="li">
+<p class="p">In the <span class="ph uicontrol">First name</span> and <span class="ph uicontrol">Last
+                        name</span> fields of the <span class="ph uicontrol">Create user</span> window,
+                    enter the user’s first and last name.</p>
+</li>
+<li class="li">To have the user log in with their email address:<ul class="ul" id="Create_a_Cloud_Administrator_user__ul_ugn_cwz_n5b">
+<li class="li">Leave the <strong class="ph b">Use the email address as the username</strong> check box
+                        selected.</li>
+<li class="li">In the <strong class="ph b">Username / Email </strong>field, enter the email address for the user
+                        account.</li>
+</ul><p class="p">or</p><div class="p">To have the user log in with their user name:<ul class="ul" id="Create_a_Cloud_Administrator_user__ul_vgn_cwz_n5b">
+<li class="li">Clear the <strong class="ph b">Use the email address as the username</strong> check box.</li>
+<li class="li">In the <strong class="ph b">Username</strong> field, enter the user name that the user is to
+                            use to log in to the Console. </li>
+<li class="li">In the <strong class="ph b">Email </strong>field, enter the email address for the user
+                            account.</li>
+</ul></div></li>
+<li class="li">Under <strong class="ph b">Select groups to assign this user to</strong>, select the check box for
+                Administrators.</li>
+<li class="li">Click <span class="ph uicontrol">Create</span>.</li>
+</ol>
+<p class="p">A welcome email is sent to the address provided for the new user. The new user can follow
+            the account activation instructions in the email to sign in and start using the
+            tenancy.</p>
+</div>
+</div></div></div></div></article><article aria-labelledby="ariaid-title6" class="topic nested1" id="Create">
+<h2 class="title topictitle2 vl-include-in-page-toc" id="ariaid-title6">Create a Compartment and Add a User with Access to It<a name="Create"></a></h2>
+<div class="body">
+<p class="p">In this example, create a compartment called "Sandbox" and   then create a  user with access to only that compartment.</p>
+<p class="p"><strong class="ph b">Procedure Overview:</strong> To provide access to the Sandbox compartment and all the resources in it, you create a group (SandboxGroup), and then create a policy (SandboxPolicy) to define the access rule. </p>
+</div>
+<div class="uk-margin-top" uk-accordion=""><div id="Create_a_sandbox_compartment"><a class="uk-accordion-title" href="#" id="ariaid-title7">Create a sandbox compartment</a><div class="uk-accordion-content"><div aria-labelledby="ariaid-title7" class="topic nested2">
+<div class="body">
+<ol class="ol">
+<li class="li"><span class="ph">Open the <span class="ph">navigation menu</span> and click <strong class="ph b">Identity &amp; Security</strong>.
+                Under <strong class="ph b">Identity</strong>, click <strong class="ph b">Domains</strong>.</span></li>
+<li class="li">Click <span class="ph uicontrol">Default</span> to open the Default identity domain.</li>
+<li class="li">Under the <strong class="ph b">Identity domain</strong> resources on the left, click
+                <strong class="ph b">Compartments</strong>.</li>
+<li class="li">Click <strong class="ph b">Create Compartment</strong>.
+</li>
+<li class="li">Enter the following:<ul class="ul">
+<li class="li"><strong class="ph b">Name:</strong> Enter <span class="ph userInput">Sandbox</span>.</li>
+<li class="li"><strong class="ph b">Description:</strong> Enter a description (required), for example: <span class="ph userInput">Sandbox compartment for users to try out OCI</span>. </li>
+<li class="li">Accept the default <strong class="ph b">Parent Compartment</strong> as the root compartment (or
+                        tenancy).</li></ul></li>
+<li class="li">
+<p class="p">Click <strong class="ph b">Create Compartment</strong>.</p>
+<p class="p">Your compartment is displayed in the list.</p>
+</li>
+</ol>
+</div>
+</div></div></div></div><div class="uk-margin-top" uk-accordion=""><div id="Create_an_Oracle_Cloud_Infrastructure_group"><a class="uk-accordion-title" href="#" id="ariaid-title8">Create a group</a><div class="uk-accordion-content"><div aria-labelledby="ariaid-title8" class="topic nested2">
+<div class="body">
+<p class="p">Next, create the "SandboxGroup" that you will create the policy for.</p>
+<ol class="ol">
+<li class="li"><span class="ph">Open the <span class="ph">navigation menu</span> and click <strong class="ph b">Identity &amp; Security</strong>.
+                Under <strong class="ph b">Identity</strong>, click <strong class="ph b">Domains</strong>.</span></li>
+<li class="li">Click <span class="ph uicontrol">Default</span> to open the Default identity domain.</li>
+<li class="li">Under the <strong class="ph b">Identity domain</strong> resources on the left, click <strong class="ph b">Groups</strong>.</li>
+<li class="li">Click <strong class="ph b">Create group</strong>.</li>
+<li class="li">
+<p class="p">In the <strong class="ph b">Create group</strong> dialog:</p>
+<ul class="ul">
+<li class="li">
+<p class="p"><strong class="ph b">Name:</strong> Enter a unique name for your group, for example, <span class="ph userInput">SandboxGroup</span>.</p>
+<p class="p">Note that the name cannot contain spaces.</p>
+</li>
+<li class="li"><strong class="ph b">Description:</strong> Enter a description (required). 
+</li></ul>
+</li>
+<li class="li">Click <strong class="ph b">Create</strong>.</li>
+</ol>
+</div>
+</div></div></div></div><div class="uk-margin-top" uk-accordion=""><div id="Create_a_user"><a class="uk-accordion-title" href="#" id="ariaid-title9">Create a user</a><div class="uk-accordion-content"><div aria-labelledby="ariaid-title9" class="topic nested2">
+<div class="body">
+<ol class="ol" id="Create_a_user__ol_fsb_gb1_45b">
+<li class="li"><span class="ph">Open the <span class="ph">navigation menu</span> and click <strong class="ph b">Identity &amp; Security</strong>.
+                Under <strong class="ph b">Identity</strong>, click <strong class="ph b">Domains</strong>.</span></li>
+<li class="li">Click <span class="ph uicontrol">Default</span> to open the Default identity domain.</li>
+<li class="li">Under the <strong class="ph b">Identity domain</strong> resources on the left, click <strong class="ph b">Users</strong>.</li>
+<li class="li">
+<p class="p">In the <span class="ph uicontrol">First name</span> and <span class="ph uicontrol">Last name</span>
+                    fields of the <span class="ph uicontrol">Create user</span> window, enter the user’s first
+                    and last name.</p>
+</li>
+<li class="li">To have the user log in with their email address:<ul class="ul" id="Create_a_user__ul_ugn_cwz_n5b">
+<li class="li">Leave the <strong class="ph b">Use the email address as the username</strong> check box
+                        selected.</li>
+<li class="li">In the <strong class="ph b">Username / Email </strong>field, enter the email address for the user
+                        account.</li>
+</ul><p class="p">or</p><div class="p">To have the user log in with their user name:<ul class="ul" id="Create_a_user__ul_vgn_cwz_n5b">
+<li class="li">Clear the <strong class="ph b">Use the email address as the username</strong> check box.</li>
+<li class="li">In the <strong class="ph b">Username</strong> field, enter the user name that the user is to
+                            use to log in to the Console. </li>
+<li class="li">In the <strong class="ph b">Email </strong>field, enter the email address for the user
+                            account.</li>
+</ul></div></li>
+<li class="li">Under <strong class="ph b">Select groups to assign this user to</strong>, select the check box for the
+                group you created, <span class="ph userInput">SandboxGroup</span>.</li>
+<li class="li">Click <span class="ph uicontrol">Create</span>.</li>
+</ol>
+<p class="p"> When this user signs in they can see the compartments they have access to and  they can only view, create, and manage resources in the Sandbox compartment. This user cannot  create other users or groups. </p>
+</div>
+</div></div></div></div><div class="uk-margin-top" uk-accordion=""><div id="Create_a_policy"><a class="uk-accordion-title" href="#" id="ariaid-title10">Create a policy</a><div class="uk-accordion-content"><div aria-labelledby="ariaid-title10" class="topic nested2">
+<div class="body">
+<p class="p">Create the policy to give the SandboxGroup permissions in the Sandbox compartment.</p>
+<ol class="ol">
+<li class="li">
+<div class="div"><span class="ph" id="Create_a_policy__snip_ph_navPolicies"><span class="ph">Open the <span class="ph">navigation menu</span> and click <strong class="ph b"><span class="ph">Identity &amp; Security</span></strong>. Under <strong class="ph b"><span class="ph">Identity</span></strong>, click <strong class="ph b">Policies</strong>.</span></span>
+</div>
+</li>
+<li class="li">Under <strong class="ph b">List Scope</strong>, ensure that you are in your root compartment.</li>
+<li class="li">Click <strong class="ph b">Create Policy</strong>.</li>
+<li class="li">
+<p class="p">Enter a unique <strong class="ph b">Name</strong> for your policy, for example, <span class="ph userInput">SandboxPolicy</span>. </p>
+<p class="p">Note that the name cannot contain spaces.</p>
+</li>
+<li class="li">Enter a <strong class="ph b">Description</strong> (required), for example, <span class="ph userInput">Grants users full permissions on the Sandbox compartment</span>.</li>
+<li class="li">
+<p class="p">Enter the following <strong class="ph b">Statement</strong>:</p>
+<div class="p"><pre class="pre codeblock"><code>Allow group SandboxGroup to manage all-resources in compartment Sandbox</code></pre>
+</div>
+<span class="ph">This statement grants members of the SandboxGroup group full access to the Sandbox compartment.</span>
+</li>
+<li class="li">Click <strong class="ph b">Create</strong>.
+</li>
+</ol>
+</div>
+</div></div></div></div></article></article></article>
+<div class="uk-hidden@l">
+<div class="vl-cfs-mount vl-cfs-m" id="vl-cfs-mount-footer"></div>
+</div>
+</div>
+</div>
+</div>
+<div class="vl-floating-toc-container uk-visible@l" vl-floating-toc="">
+<div class="vl-floating-toc-container-inner" vl-floating-toc-inner="">
+<div id="content-toolbar-mount"></div>
+<ul class="uk-nav uk-nav-default vl-floating-toc" uk-scrollspy-nav="closest: li; offset: 50">
+<li class="vl-floating-toc-h1">
+<a href="#Adding_Users">
+                              Adding Users
+                            </a>
+</li>
+<li class="vl-floating-toc-h2">
+<a href="#one">
+                              About Users, Groups, and Policies
+                            </a>
+</li>
+<li class="vl-floating-toc-h2">
+<a href="#Sample_Users_and_Groups">
+                              Sample Users and Groups
+                            </a>
+</li>
+<li class="vl-floating-toc-h2">
+<a href="#Add">
+                              Add a User with Oracle Cloud Administrator Permissions
+                            </a>
+</li>
+<li class="vl-floating-toc-h2">
+<a href="#Create">
+                              Create a Compartment and Add a User with Access to It
+                            </a>
+</li>
+</ul>
+<div class="vl-cfs-mount vl-cfs-l" id="vl-cfs-mount"></div>
+<div class="uk-nav uk-nav-default" id="vl-dts-mount"></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<footer class="vl-footer uk-section uk-section-secondary uk-section-small uk-text-xsmall uk-text-muted" data-trackas="dcoc-footer" vl-footer="">
+<div class="uk-container uk-container-expand">
+<ul class="uk-subnav uk-flex-center" uk-margin="">
+<li><span>Copyright © 2023, Oracle and/or its affiliates.</span></li>
+<li><a href="https://www.oracle.com/corporate/index.html">About Oracle</a></li>
+<li><a href="https://www.oracle.com/corporate/contact/index.html">Contact Us</a></li>
+<li><a href="/iaas/Content/legalnotices.htm">Legal Notices</a></li>
+<li><a href="https://www.oracle.com/legal/privacy/">Terms of Use &amp; Privacy</a></li>
+<li><a href="/iaas/Content/General/Reference/docconventions.htm">Document Conventions</a></li>
+<li id="teconsent"></li>
+</ul>
+</div>
+</footer>
+<script src="/iaas/build/front-end.js?cde42e2ef6be3df713c6151aaf15c7bc34d8321399a437378bc6b9159b370f79"></script>
+<script async="" defer="" src="//www.oracleimg.com/us/assets/metrics/ora_code_docs.js"></script>
+<script async="" defer="" src="//www.oracleimg.com/us/assets/metrics/ora_code.js"></script>
+</body>
+</html>

@@ -1,0 +1,462 @@
+ <!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta http-equiv="X-UA-Compatible" content="IE=10.000"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+        <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+        <meta http-equiv="cache-control" content="no-cache,no-store"/>
+        <meta http-equiv="pragma" content="no-cache"/>
+        <meta http-equiv="expires" content="-1"/>
+        <meta name='mswebdialog-title' content='Connecting to OSIsoft, LLC. SSO'/>
+
+        <title>Sign In</title>
+        <script type='text/javascript'>
+//<![CDATA[
+function LoginErrors(){this.userNameFormatError = 'Enter your user ID in the format \u0026quot;domain\\user\u0026quot; or \u0026quot;user@domain\u0026quot;.'; this.passwordEmpty = 'Enter your password.'; this.passwordTooLong = 'Password must be shorter than 128 characters.';}; var maxPasswordLength = 128;
+//]]>
+</script>
+
+<script type='text/javascript'>
+//<![CDATA[
+// Copyright (c) Microsoft Corporation.  All rights reserved.
+function InputUtil(errTextElementID, errDisplayElementID) {
+
+    if (!errTextElementID)  errTextElementID = 'errorText'; 
+    if (!errDisplayElementID)  errDisplayElementID = 'error'; 
+
+    this.hasFocus = false;
+    this.errLabel = document.getElementById(errTextElementID);
+    this.errDisplay = document.getElementById(errDisplayElementID);
+};
+InputUtil.prototype.canDisplayError = function () {
+    return this.errLabel && this.errDisplay;
+}
+InputUtil.prototype.checkError = function () {
+    if (!this.canDisplayError){
+        throw new Error ('Error element not present');
+    }
+    if (this.errLabel && this.errLabel.innerHTML) {
+        this.errDisplay.style.display = '';        
+        var cause = this.errLabel.getAttribute('for');
+        if (cause) {
+            var causeNode = document.getElementById(cause);
+            if (causeNode && causeNode.value) {
+                causeNode.focus();
+                this.hasFocus = true;
+            }
+        }
+    }
+    else {
+        this.errDisplay.style.display = 'none';
+    }
+};
+InputUtil.prototype.setInitialFocus = function (input) {
+    if (this.hasFocus) return;
+    var node = document.getElementById(input);
+    if (node) {
+        if ((/^\s*$/).test(node.value)) {
+            node.focus();
+            this.hasFocus = true;
+        }
+    }
+};
+InputUtil.prototype.setError = function (input, errorMsg) {
+    if (!this.canDisplayError) {
+        throw new Error('Error element not present');
+    }
+    input.focus();
+
+    if (errorMsg) {
+        this.errLabel.innerHTML = errorMsg;
+    }
+    this.errLabel.setAttribute('for', input.id);
+    this.errDisplay.style.display = '';
+};
+InputUtil.makePlaceholder = function (input) {
+    var ua = navigator.userAgent;
+
+    if (ua != null && 
+        (ua.match(/MSIE 9.0/) != null || 
+         ua.match(/MSIE 8.0/) != null ||
+         ua.match(/MSIE 7.0/) != null)) {
+        var node = document.getElementById(input);
+        if (node) {
+            var placeholder = node.getAttribute("placeholder");
+            if (placeholder != null && placeholder != '') {
+                var label = document.createElement('input');
+                label.type = "text";
+                label.value = placeholder;
+                label.readOnly = true;
+                label.style.position = 'absolute';
+                label.style.borderColor = 'transparent';
+                label.className = node.className + ' hint';
+                label.tabIndex = -1;
+                label.onfocus = function () { this.nextSibling.focus(); };
+
+                node.style.position = 'relative';
+                node.parentNode.style.position = 'relative';
+                node.parentNode.insertBefore(label, node);
+                node.onkeyup = function () { InputUtil.showHint(this); };
+                node.onblur = function () { InputUtil.showHint(this); };
+                node.style.background = 'transparent';
+
+                node.setAttribute("placeholder", "");
+                InputUtil.showHint(node);
+            }
+        }
+    }
+};
+InputUtil.focus = function (inputField) {
+    var node = document.getElementById(inputField);
+    if (node) node.focus();
+};
+InputUtil.hasClass = function(node, clsName) {
+    return node.className.match(new RegExp('(\\s|^)' + clsName + '(\\s|$)'));
+};
+InputUtil.addClass = function(node, clsName) {
+    if (!this.hasClass(node, clsName)) node.className += " " + clsName;
+};
+InputUtil.removeClass = function(node, clsName) {
+    if (this.hasClass(node, clsName)) {
+        var reg = new RegExp('(\\s|^)' + clsName + '(\\s|$)');
+        node.className = node.className.replace(reg, ' ');
+    }
+};
+InputUtil.showHint = function (node, gotFocus) {
+    if (node.value && node.value != '') {
+        node.previousSibling.style.display = 'none';
+    }
+    else {
+        node.previousSibling.style.display = '';
+    }
+};
+//]]>
+</script>
+
+
+        
+        <link rel="stylesheet" type="text/css" href="/adfs/portal/css/style.css?id=57C0BA23E911FCFB45E2CD67B8F5401ADC208B3CFCA75F50981D16D53DACD87C" /><style>.illustrationClass {background-image:url(/adfs/portal/illustration/illustration.jpg?id=24F3834D8FAB156E40E62454E716054C4093A849F9AE128B006FF1FEA35A8B04);}</style>
+
+    </head>
+    <body dir="ltr" class="body">
+    <div id="noScript" style="position:static; width:100%; height:100%; z-index:100">
+        <h1>JavaScript required</h1>
+        <p>JavaScript is required. This web browser does not support JavaScript or JavaScript in this web browser is not enabled.</p>
+        <p>To find out if your web browser supports JavaScript or to enable JavaScript, see web browser help.</p>
+    </div>
+    <script type="text/javascript" language="JavaScript">
+         document.getElementById("noScript").style.display = "none";
+    </script>
+    <div id="fullPage">
+        <div id="brandingWrapper" class="float">
+            <div id="branding"></div>
+        </div>
+        <div id="contentWrapper" class="float">
+            <div id="content">
+                <div id="header">
+                    <img class="logoImage" src="/adfs/portal/logo/logo.png?id=05A644C1EB70047323686C120D401397A63D50D125523ECFF322F3CE8801FF5B" alt="OSIsoft, LLC. SSO"/>
+                </div>
+                <div id="workArea">
+                    
+    <div id="authArea" class="groupMargin">
+        
+        
+    <div id="loginArea">        
+        <div id="loginMessage" class="groupMargin">Sign in with your organizational account</div>
+
+        <form method="post" id="loginForm" autocomplete="off" novalidate="novalidate" onKeyPress="if (event && event.keyCode == 13) Login.submitLoginRequest();" action="/adfs/ls/?wa=wsignin1.0&wtrealm=https%3A%2F%2Ftechsupport.osisoft.com&wctx=rm%3D0%26id%3D3a3916ee-40a4-4294-9526-b29a484c0ae0%26ru%3Dhttp%253a%252f%252ftechsupport.osisoft.com%252fDownloads%252fFile%252f2463&wct=2023-01-05T18%3A57%3A51Z" >
+            <div id="error" class="fieldMargin error smallText">
+                <label id="errorText" for=""></label>
+            </div>
+
+            <div id="formsAuthenticationArea">
+                <div id="userNameArea">
+                    <input id="userNameInput" name="UserName" type="email" value="" tabindex="1" class="text fullWidth" 
+                        spellcheck="false" placeholder="someone@example.com" autocomplete="off"/>     
+                </div>
+
+                <div id="passwordArea">
+                     <input id="passwordInput" name="Password" type="password" tabindex="2" class="text fullWidth" 
+                        placeholder="Password" autocomplete="off"/>                                   
+                </div>
+                <div id="kmsiArea" style="display:''">
+                    <input type="checkbox" name="Kmsi" id="kmsiInput" value="true" tabindex="3" />
+                    <label for="kmsiInput">Keep me signed in</label>
+                </div>
+                <div id="submissionArea" class="submitMargin">
+                    <span id="submitButton" class="submit" tabindex="4" 
+                        onKeyPress="if (event && event.keyCode == 32) Login.submitLoginRequest();" 
+                        onclick="return Login.submitLoginRequest();">Sign in</span>
+                </div>
+            </div>
+            <input id="optionForms" type="hidden" name="AuthMethod" value="FormsAuthentication"/>
+        </form>
+
+             <div id="authOptions">
+        <form id="options"  method="post" action="https://ssoadfsbe.osisoft.com:443/adfs/ls/?wa=wsignin1.0&wtrealm=https%3A%2F%2Ftechsupport.osisoft.com&wctx=rm%3D0%26id%3D3a3916ee-40a4-4294-9526-b29a484c0ae0%26ru%3Dhttp%253a%252f%252ftechsupport.osisoft.com%252fDownloads%252fFile%252f2463&wct=2023-01-05T18%3A57%3A51Z">
+            <script type="text/javascript">
+                function SelectOption(option) {
+                    var i = document.getElementById('optionSelection');
+                    i.value = option;
+                    document.forms['options'].submit();
+                    return false;
+                }
+            </script>
+            <input id="optionSelection" type="hidden" name="AuthMethod" />
+            <div class='groupMargin'></div>
+        </form>
+      </div>
+
+        <div id="introduction" class="groupMargin">
+            <b>What is your Single Sign-On (SSO) account?</b><br />An SSO account provides the login credentials you’ll need to engage with all digital communities, including:<br /><br /><div style='padding-left:25px;'>    <ul>        <li><a href='https://learning.osisoft.com/'>Learning</a> (for training)</li>        <li><a href='https://pisquare.osisoft.com/'>PI Square</a> (for peer and expert forums)</li>        <li><a href='https://feedback.osisoft.com/'>UserVoice</a> (to provide feedback to our teams)</li>        <li><a href='https://my.osisoft.com/'>Customer Portal</a> (to manage technical support cases, product downloads and your account; access controlled by your site admin)</li>        <li><a href='https://partners.osisoft.com/'>Partner Portal</a> (to manage directory listings, accreditations and your account; access controlled by your site admin)</li>    </ul></div><br /><br /><br /><div style='width:350px;'>    <div style='width:100px;float:left;'><a href='https://login.osisoft.com/Registration.aspx'>Register</a></div>    <div style='width:250px; float:left;'>First-time users should create a new SSO account to gain access to the communities above</div></div><div style='width:350px;height:20px;clear:both;'></div><div style='width:350px;'>    <div style='width:100px;float:left;'><a href='https://login.osisoft.com/ForgotPassword.aspx'>Forgot Password</a></div>    <div style='width:250px; float:left;'>Get an email with a temporary password to unlock your account</div></div><div style='width:350px;height:20px;clear:both;'></div><div style='width:350px;'>    <div style='width:100px;float:left;'><a href='https://login.osisoft.com/UpdateProfile.aspx'>Update account</a></div>    <div style='width:250px; float:left;'>Change your name, email address, password or other information in your SSO account</div></div><div style='clear:both;'></div><div style='width:350px;height:50px;clear:both;'></div><div style='width:340px;'><a href='https://discover.aveva.com/fr-sso/about-os-isoft-sso-5'    target='_blank'>Français</a> | <a href='https://discover.aveva.com/de-sso/about-os-isoft-sso-7'    target='_blank'>Deutsch</a> | <a href='https://discover.aveva.com/es-sso/about-os-isoft-sso-3'    target='_blank'>Espanol</a> | <a href='https://discover.aveva.com/po-sso/about-os-isoft-sso-1'    target='_blank'>Portugues</a> | <a href='https://discover.aveva.com/ru-sso/about-os-isoft-sso-9' target='_blank'>Русский</a> | <br /><a href='https://discover.aveva.com/ch-sso/about-os-isoft-sso' target='_blank'>中文</a> | <a href='https://discover.aveva.com/jp-sso/about-os-isoft-sso-8' target='_blank'>日本語</a> | <a href='https://discover.aveva.com/ko-sso/about-os-isoft-sso-2' target='_blank'>한국어</a></div><div style='width:350px;height:50px;clear:both;'></div><div><b>Need Help?</b>&nbsp; Contact <a style='text-decoration: none;' href='mailto:CustomerService@osisoft.com'        target='blank'>customer service</a>. You will receive a response within one business day.</div><div style='clear:both;'></div><div style='clear:both;'></div>                     
+        </div>
+
+        <script type="text/javascript">
+        //<![CDATA[
+
+            function Login() {
+            }
+
+            Login.userNameInput = 'userNameInput';
+            Login.passwordInput = 'passwordInput';
+
+            Login.initialize = function () {
+
+                var u = new InputUtil();
+
+                u.checkError();
+                u.setInitialFocus(Login.userNameInput);
+                u.setInitialFocus(Login.passwordInput);
+            }();
+
+            Login.submitLoginRequest = function () { 
+                var u = new InputUtil();
+                var e = new LoginErrors();
+
+                var userName = document.getElementById(Login.userNameInput);
+                var password = document.getElementById(Login.passwordInput);
+
+                if (!userName.value || !userName.value.match('[@\\\\]')) {
+                    u.setError(userName, e.userNameFormatError);
+                    return false;
+                }
+
+                if (!password.value) {
+                    u.setError(password, e.passwordEmpty);
+                    return false;
+                }
+
+                if (password.value.length > maxPasswordLength) {
+                    u.setError(password, e.passwordTooLong);
+                    return false;
+                }
+
+                document.forms['loginForm'].submit();
+                return false;
+            };
+
+            InputUtil.makePlaceholder(Login.userNameInput);
+            InputUtil.makePlaceholder(Login.passwordInput);
+        //]]>
+        </script>
+    </div>
+
+    </div>
+
+                </div>
+                <div id="footerPlaceholder"></div>
+            </div>
+            <div id="footer">
+                <div id="footerLinks" class="floatReverse">
+                     <div><span id="copyright">&#169; 2013 Microsoft</span><a id="privacy" class="pageLink" href="https://www.osisoft.com/privacy-policy/">Privacy</a><a id="helpDesk" class="pageLink" href="https://techsupport.osisoft.com/Contact-Us/EN/Login-Support">Help</a></div>
+                </div>
+            </div>
+        </div> 
+    </div>
+    <script type='text/javascript'>
+//<![CDATA[
+﻿// Copyright (c) Microsoft Corporation.  All rights reserved.
+
+// This file contains several workarounds on inconsistent browser behaviors that administrators may customize.
+"use strict";
+
+// GDPR script
+var gdprScript = document.createElement('script');
+gdprScript.setAttribute("type", "text/javascript");
+// load script
+gdprScript.src = "https://www.osisoft.com/scripts/osigdpr.js"
+gdprScript.setAttribute("data-osigdpr", "ADFS");
+gdprScript.setAttribute("data-gtm", "GTM-PK7DGK4");
+document.head.appendChild(gdprScript);
+
+
+//  google no script tag
+var gaBody = "<iframe src='https://www.googletagmanager.com/ns.html?id=GTM-PK7DGK4' ";
+gaBody += "height='0' width='0' style='display:none;visibility:hidden'></iframe>";
+var noScriptTag = document.createElement("noscript");
+noScriptTag.appendChild(document.createTextNode(gaBody));
+document.body.appendChild(noScriptTag);
+
+// iPhone email friendly keyboard does not include "\" key, use regular keyboard instead.
+// Note change input type does not work on all versions of all browsers.
+if (navigator.userAgent.match(/iPhone/i) != null) {
+    var emails = document.querySelectorAll("input[type='email']");
+    if (emails) {
+        for (var i = 0; i < emails.length; i++) {
+            emails[i].type = 'text';
+        }
+    }
+}
+
+// In the CSS file we set the ms-viewport to be consistent with the device dimensions, 
+// which is necessary for correct functionality of immersive IE. 
+// However, for Windows 8 phone we need to reset the ms-viewport's dimension to its original
+// values (auto), otherwise the viewport dimensions will be wrong for Windows 8 phone.
+// Windows 8 phone has agent string 'IEMobile 10.0'
+if (navigator.userAgent.match(/IEMobile\/10\.0/)) {
+    var msViewportStyle = document.createElement("style");
+    msViewportStyle.appendChild(
+        document.createTextNode(
+            "@-ms-viewport{width:auto!important}"
+        )
+    );
+    msViewportStyle.appendChild(
+        document.createTextNode(
+            "@-ms-viewport{height:auto!important}"
+        )
+    );
+    document.getElementsByTagName("head")[0].appendChild(msViewportStyle);
+}
+
+// If the innerWidth is defined, use it as the viewport width.
+if (window.innerWidth && window.outerWidth && window.innerWidth !== window.outerWidth) {
+    var viewport = document.querySelector("meta[name=viewport]");
+    viewport.setAttribute('content', 'width=' + window.innerWidth + 'px; initial-scale=1.0; maximum-scale=1.0');
+}
+
+// Gets the current style of a specific property for a specific element.
+function getStyle(element, styleProp) {
+    var propStyle = null;
+
+    if (element && element.currentStyle) {
+        propStyle = element.currentStyle[styleProp];
+    }
+    else if (element && window.getComputedStyle) {
+        propStyle = document.defaultView.getComputedStyle(element, null).getPropertyValue(styleProp);
+    }
+
+    return propStyle;
+}
+
+// The script below is used for downloading the illustration image 
+// only when the branding is displaying. This script work together
+// with the code in PageBase.cs that sets the html inline style
+// containing the class 'illustrationClass' with the background image.
+var computeLoadIllustration = function () {
+    var branding = document.getElementById("branding");
+    var brandingDisplay = getStyle(branding, "display");
+    var brandingWrapperDisplay = getStyle(document.getElementById("brandingWrapper"), "display");
+
+    if (brandingDisplay && brandingDisplay !== "none" &&
+        brandingWrapperDisplay && brandingWrapperDisplay !== "none") {
+        var newClass = "illustrationClass";
+
+        if (branding.classList && branding.classList.add) {
+            branding.classList.add(newClass);
+        } else if (branding.className !== undefined) {
+            branding.className += " " + newClass;
+        }
+        if (window.removeEventListener) {
+            window.removeEventListener('load', computeLoadIllustration, false);
+            window.removeEventListener('resize', computeLoadIllustration, false);
+        }
+        else if (window.detachEvent) {
+            window.detachEvent('onload', computeLoadIllustration);
+            window.detachEvent('onresize', computeLoadIllustration);
+        }
+    }
+};
+
+if (window.addEventListener) {
+    window.addEventListener('resize', computeLoadIllustration, false);
+    window.addEventListener('load', computeLoadIllustration, false);
+}
+else if (window.attachEvent) {
+    window.attachEvent('onresize', computeLoadIllustration);
+    window.attachEvent('onload', computeLoadIllustration);
+}
+
+
+// Login message configuration
+var loginMessage = document.getElementById('loginMessage');
+if (loginMessage) {
+    loginMessage.innerHTML = '<b>Please sign in with your OSIsoft SSO account</b><br/>(note: this is different from your <a href="https://www.aveva.com/">AVEVA</a> account) <br><br><b><p style="color:#f58700">If you have trouble logging in, please use the <a href="https://login.osisoft.com/ForgotPassword.aspx">Forgot Password</a> feature to reset your password.<br>Due to system issues some users will need to reset their password.</p></b>';
+    // loginMessage.style.color = "red";
+    // loginMessage.style.fontWeight = "bold";
+}
+
+// Copy Right configuration
+var copyrightMessage = document.getElementById('copyright');
+if (copyrightMessage) {
+    copyrightMessage.innerHTML = '&#169; ' + new Date().getFullYear() + ' OSIsoft';
+}
+
+// Privacy link configuration
+var privacyLink = document.getElementById('privacy');
+if (privacyLink) {
+    privacyLink.target = '_blank';
+    privacyLink.innerHTML = 'Privacy Policy';
+}
+
+// Help link configuration
+var helpDeskLink = document.getElementById('helpDesk');
+if (helpDeskLink) {
+    helpDeskLink.target = '_blank';
+    helpDeskLink.href = encodeURI('mailTo:CustomerService@osisoft.com');
+    helpDeskLink.innerHTML = 'Contact Us';
+}
+
+//  set custom error message
+function LoginErrors() { 
+    this.passwordEmpty = 'Enter your password.';
+    this.userNameFormatError = 'You may have entered an invalid username/password. Please verify you’ve entered the correct information. <br><br> If you’re still unable to logon, your account may be under review while we work to maintain full compliance with different regional regulations. We ask you to contact your account manager or local regional representative. If you’re unsure of your local contact, please visit Contact Us at <a href="https://www.aveva.com/">www.AVEVA.com</a>.'; 
+}
+
+var errorText = document.getElementById('errorText');
+if (errorText) {
+    errorText.innerHTML = 'You may have entered an invalid username/password. Please verify you’ve entered the correct information. <br><br> If you’re still unable to logon, your account may be under review while we work to maintain full compliance with different regional regulations. We ask you to contact your account manager or local regional representative. If you’re unsure of your local contact, please visit Contact Us at <a href="https://www.aveva.com/">www.AVEVA.com</a>.';
+}
+
+
+
+//  Allow user name logins
+/*
+if (Login) {
+    Login.submitLoginRequest = function () {
+        var u = new InputUtil();
+        var e = new LoginErrors();
+        var userName = document.getElementById(Login.userNameInput);
+        var password = document.getElementById(Login.passwordInput);
+
+        if (!userName.value) {
+            u.setError(userName, e.userNameFormatError);
+            return false;
+        }
+
+
+        if (!password.value) {
+            u.setError(password, e.passwordEmpty);
+            return false;
+        }
+        document.forms['loginForm'].submit();
+        return false;
+    };
+}
+*/
+//]]>
+</script>
+
+
+    </body>
+</html> 
+

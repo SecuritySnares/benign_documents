@@ -1,0 +1,948 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+
+
+
+
+    
+    
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+
+
+
+
+
+
+
+
+        
+
+
+
+
+
+
+
+
+        
+
+
+
+
+
+
+
+
+        
+
+        
+        
+        
+            
+            
+            
+            
+            
+                
+            
+        
+        
+        
+            
+            
+            
+            
+            
+            
+            
+        <!doctype html>
+
+
+
+
+
+
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="The U.S. Department of Energy's Office of Scientific and Technical Information">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        
+    <title>FY16 Strategic Themes White Paper. (Technical Report) | OSTI.GOV</title>
+    <link rel="icon" type="image/png" href="https://www.osti.gov/sites/www.osti.gov/files/public/styles/large/public/image-files/OSTI_favicon_32px.png" />
+    <link rel="search" type="application/opensearchdescription+xml" href="/res/ostigovsearch.xml" title="OSTI.GOV Search" />
+    <link rel="canonical" href="https://www.osti.gov/biblio/1346902" />
+    
+    <link href="/css/ostigov.221219.1831.css" rel="stylesheet">
+    
+    
+    <script type="text/javascript">var _gaq = _gaq || [];</script>
+    
+        
+            <script type="text/javascript">
+                _gaq.push(['_setAccount', 'UA-18099922-2']);
+                _gaq.push(['_setDomainName', 'www.osti.gov']);
+                _gaq.push(['_setCustomVar', 1, 'Product Type', 'Technical Report', 3]);
+                
+                _gaq.push(['_trackPageview']);
+                (function() {
+                    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+                    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+                    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+                })();
+            </script>
+            
+        
+    
+
+    <meta name="citation_title" content="FY16 Strategic Themes White Paper." />
+                <meta name="citation_abstract" content="The Science and Technology (S&amp;T) Division 1000 Strategic Plan includes the Themes, Goals, and Actions for FY16. S&amp;T will continue to support the Labs Strategic plan, Mission Areas and Program Management Units by focusing on four strategic themes that align with the targeted needs of the Labs. The themes presented in this plan are Mission Engagement, Bold Outcomes, Collaborative Environment, and the Safety Imperative. Collectively they emphasize diverse, collaborative teams and a self-reliant culture of safety that will deliver on our promise of exceptional service in the national interest like never before. Mission Engagement focuses on increasing collaboration at all levels but with emphasis at the strategic level with mission efforts across the labs. Bold Outcomes seeks to increase the ability to take thoughtful risks with the goal of achieving transformative breakthroughs more frequently. Collaborative environment strives for a self-aware, collaborative working environment that bridges the many cultures of Sandia. Finally, Safety Imperative aims to minimize the risk of serious injury and to continuously strengthen the safety culture. Each of these themes is accompanied by a brief vision statement, several goals, and planned actions to support those goals throughout FY16 and leading into FY17." />
+                
+                    <meta name="citation_author" content="Leland, Robert W." />
+                    
+                    <meta name="citation_author_institution" content="Sandia National Lab. (SNL-NM), Albuquerque, NM (United States)" />
+                
+                <meta name="citation_date" content="Wed Mar 01 00:00:00 EST 2017" />
+                <meta name="citation_language" content="English" />
+                <meta name="citation_technical_report_number" content="SAND2017-2557R" />
+                <meta name="citation_technical_report_institution" content="Sandia National Lab. (SNL-NM), Albuquerque, NM (United States)" />
+                <meta name="citation_pdf_url" content="https://www.osti.gov/servlets/purl/1346902" />
+                <meta name="citation_doi" content="10.2172/1346902" />
+                <meta name="citation_keywords" content=" general and miscellaneous" />
+                
+                
+                
+                
+                
+                
+                    <meta name="citation_funding_source" content="citation_funder=US Department of Energy; citation_grant_number=AC04-94AL85000; "/>
+                
+                
+                
+                
+                <script type="application/ld+json">{"datePublished":"Wed Mar 01 00:00:00 EST 2017","identifier":"https://doi.org/10.2172/1346902","keywords":["99 GENERAL AND MISCELLANEOUS"],"@type":"Report","author":[{"name":"Leland, Robert W.","@type":"Person"}],"name":"FY16 Strategic Themes White Paper.","sourceOrganization":[{"name":"Sandia National Lab. (SNL-NM), Albuquerque, NM (United States)","@type":"Organization"},{"name":"USDOE National Nuclear Security Administration (NNSA)","@type":"Organization"}],"description":"The Science and Technology (S&amp;T) Division 1000 Strategic Plan includes the Themes, Goals, and Actions for FY16. S&amp;T will continue to support the Labs Strategic plan, Mission Areas and Program Management Units by focusing on four strategic themes that align with the targeted needs of the Labs. The themes presented in this plan are Mission Engagement, Bold Outcomes, Collaborative Environment, and the Safety Imperative. Collectively they emphasize diverse, collaborative teams and a self-reliant culture of safety that will deliver on our promise of exceptional service in the national interest like never before. Mission Engagement focuses on increasing collaboration at all levels but with emphasis at the strategic level with mission efforts across the labs. Bold Outcomes seeks to increase the ability to take thoughtful risks with the goal of achieving transformative breakthroughs more frequently. Collaborative environment strives for a self-aware, collaborative working environment that bridges the many cultures of Sandia. Finally, Safety Imperative aims to minimize the risk of serious injury and to continuously strengthen the safety culture. Each of these themes is accompanied by a brief vision statement, several goals, and planned actions to support those goals throughout FY16 and leading into FY17.","@context":"http://schema.org/","headline":"FY16 Strategic Themes White Paper.","url":"https://www.osti.gov/biblio/1346902"}</script>
+    
+</head>
+<body data-baseurl="https://www.osti.gov" data-context="" class="">
+<div id="skiptocontent"><a href="#main-body">skip to main content</a></div>
+
+
+<section id="content">
+<header>
+    <div class="header-nav ">
+        <div class="header-nav-container">
+            <div class="container d-none d-md-inline-block" style="/* float:right; */ position:absolute; right:0;">
+                <nav>
+    <div class="pure-menu pure-menu-horizontal small text-right">
+        <ul class="pure-menu-list">
+        
+            
+                
+                <li class="pure-menu-item"><span class="nav-user"><a href="/login" class="pure-menu-link"><span class="fa fa-user"></span> Sign In</a></span></li>
+                <li class="pure-menu-item"><span class="nav-user"><a href="/createaccount" class="pure-menu-link">Create Account</a></span></li>
+            
+            
+        
+        </ul>
+    </div>		
+</nav>
+
+            </div>
+            <div class="header-nav-content container">
+                <div class="row header-primary">
+                    <div class="col-md-5 header-primary-title">
+                        <div class="header-nav-mobile d-block d-md-none" style="position: absolute; right: 10px;">
+                            <a href="#" rel="nofollow" class="pure-button" onclick="$('.header-primary-search').toggleClass('d-none');if(!$('.header-primary-search').hasClass('d-none')){$('#search_search').focus();};return false;"><span class="fa fa-search"></span><span class="sr-only">Show search</span></a>
+
+                            <a href="#" rel="nofollow" class="pure-button" onclick="$('.header-nav-menu').toggleClass('d-none');return false;"><span class="fa fa-bars"></span><span class="sr-only">Show menu</span></a>
+                        </div>
+                        <div class="header-nav-title">
+                            <a href="/"><img src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" class="sprite sprite-header-title" alt="OSTI.GOV title logo" style="margin-top:0.6rem; margin-right:0.2rem;" width="220" height="44" /></a>
+                            <span class="subtitle d-none d-xl-inline-block">U.S. Department of Energy<br/>Office of Scientific and Technical Information</span>
+                        </div>
+                    </div>
+                    <div class="col-md-7 d-none d-md-block header-primary-search">
+                        <form action="/search" id="search_form" class="pure-form" method="POST" autocomplete="off">
+    <input type="hidden" id="index_search_act" name="act" value="act"/>
+    <input type="hidden" id="index_search_rows" name="rows" value=""/>
+    <input type="hidden" id="index_search_page" name="page" value=""/>
+    <input type="hidden" id="index_search_sort" name="sort" value=""/>
+    
+    <input type="hidden" id="search_journal_type" name="journal_type" value=""/>
+    <input type="hidden" id="search_data_type" name="data_type" value=""/>
+    <input type="hidden" id="search_availability" name="availability" value=""/>
+
+    <div style="padding: 0.7em 0 0.5em;"><div class="row">
+        <div class="col-11">
+            <div style="position:relative;">
+                <label class="sr-only" for="search_search">Search terms:</label>
+                <input class="pure-input-1" id="search_search" type="text" name="search" value="" placeholder="Search 3+ million Department of Energy research results">
+                <button type='button' class='close-advformoptions' aria-hidden='true' title="Advanced search options" style='position: absolute; top: 7px; right: 5px; z-index: 2;cursor: pointer; background: transparent; border: 0; color:#7cb342; font-size: 1.3rem; margin-top: -0.15rem;'><span class="fa fa-caret-down"></span><span class="sr-only">Advanced search options</span></button>
+                <div id="adv-search" style="background-color:#f9f9f9; border:1px solid #444; padding:20px; position:absolute; left:0; right: 0; top: 38px; display:none; z-index:2000;">
+
+                <fieldset class="small" style="padding-bottom:0;">
+                    <legend style="padding:0px; margin-bottom:1em;">
+                        <div class="pull-right">
+                            
+                        </div>
+                        Advanced Search Options<small style="display:block;color:#999;">Advanced Search queries use a traditional Term Search.  For more info, see our <a href="/faqs#faq-270584">FAQ</a>.</small>
+                    </legend>
+
+                        <div class="adv_search-row">
+                            <label for="search_term">All Fields: </label>
+                            <input class="pure-input-1" type="text" name="term" id="search_term" value="">
+                        </div>
+                        <div class="adv_search-row">
+                            <label for="search_title">Title: </label>
+                            <input class="pure-input-1" type="text" name="title" id="search_title" value="">
+                        </div>
+                        <div class="adv_search-row">
+                            <label for="search_creators">Author / Contributor: </label>
+                            <input class="pure-input-1" type="text" name="creators" id="search_creators" value="">
+                        </div>
+                        <div class="adv_search-row">
+                            <label for="search_doi">Digital Object Identifier (DOI): </label>
+                            <input class="pure-input-1" type="text" name="doi" id="search_doi" value="">
+                        </div>
+                        <div class="adv_search-row">
+                            <label for="search_idnos">Identifier Numbers: </label>
+                            <input class="pure-input-1" type="text" name="idnos" id="search_idnos" value="">
+                        </div>
+                        <div class="adv_search-row">
+                            <label for="search_pubd_from">Publication Date: </label>
+                            <div style="/* white-space: nowrap; */">
+                                <input type="text" pattern="(0[1-9]|1[012])[/](0[1-9]|[12][0-9]|3[01])[/]\d\d\d\d" id="search_pubd_from" name="pubd_from" data-toggle="tooltip" data-placement="bottom" title="" class="dateinput pure-u-1-3" value="" placeholder="MM/DD/YYYY" data-original-title="Enter date in MM/DD/YYYY format">
+                                <label for="search_pubd_until" style="margin-right:0.5rem; margin-left:0.5rem;">to</label>
+                                <input type="text" pattern="(0[1-9]|1[012])[/](0[1-9]|[12][0-9]|3[01])[/]\d\d\d\d" id="search_pubd_until" name="pubd_until" data-toggle="tooltip" data-placement="bottom" title="" class="dateinput pure-u-1-3" value="" placeholder="MM/DD/YYYY" data-original-title="Enter date in MM/DD/YYYY format">
+                            </div>
+                        </div>
+                </fieldset>
+
+                <fieldset class="small" style="padding-bottom:0; margin-top:20px;">
+                    <legend style="padding:0px; margin-bottom:1em;"><a href="#" id="search_search-moreoptions"><span id="more-options-indicator" class="fa fa-plus-squared-alt"></span> More Options ...</a></legend>
+                    <div id="more-options-container" class="hidden">
+                        <div class="adv_search-row">
+                            <label for="search_fulltext">Full Text: </label>
+                            <input class="pure-input-1" type="text" name="fulltext" id="search_fulltext" value="">
+                        </div>
+                        <div class="adv_search-row">
+                            <label for="search_product_type">Resource Type: </label>
+                            <div style="position:relative;" data-jq-dropdown="#product_type_dropdown">
+                                <input class="pure-input-1" type="text" name="product_type" id="search_product_type" value="" style="-webkit-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none;">
+                                <span style="position: absolute; top: 8px; right: 10px; z-index: 2;cursor: pointer; background: transparent; border: 0; color:#7cb342;"><span class="fa fa-caret-down"></span></span>
+                            </div>
+                            <div style="position:relative;">
+                                <div id="product_type_dropdown" class="jq-dropdown jq-dropdown-tip jq-dropdown-relative" style="width:100%;">
+                                    <div class="jq-dropdown-panel">
+                                        <div class="row" style="display:flex;">
+                                            <div class="col-lg-6 col-md-12 jqd-col">
+                                                <label class="facet-item control control-checkbox" style="white-space: nowrap;">Journal Article
+                                                    <input type="checkbox" name="product_type_option" title="Journal Article" value="Journal Article" /><div class="control-indicator"></div>
+                                                </label>
+                                                <label class="facet-item control control-checkbox" style="white-space: nowrap;">Technical Report
+                                                    <input type="checkbox" name="product_type_option" title="Technical Report" value="Technical Report" /><div class="control-indicator"></div>
+                                                </label>
+                                                <label class="facet-item control control-checkbox">Data
+                                                    <input type="checkbox" name="product_type_option" title="Data" value="Data" /><div class="control-indicator"></div>
+                                                </label>
+                                                <label class="facet-item control control-checkbox">Software
+                                                    <input type="checkbox" name="product_type_option" title="Software" value="Software" /><div class="control-indicator"></div>
+                                                </label>
+                                                <label class="facet-item control control-checkbox">Patent
+                                                    <input type="checkbox" name="product_type_option" title="Patent" value="Patent" /><div class="control-indicator"></div>
+                                                </label>
+                                                <label class="facet-item control control-checkbox" style="white-space: nowrap;">Conference / Event
+                                                    <input type="checkbox" name="product_type_option" title="Conference / Event" value="Conference" /><div class="control-indicator"></div>
+                                                </label>
+                                            </div>
+                                            <div class="col-lg-6 col-md-12 jqd-col">
+                                                <label class="facet-item control control-checkbox" style="white-space: nowrap;">Book / Monograph
+                                                    <input type="checkbox" name="product_type_option" title="Book / Monograph" value="Book" /><div class="control-indicator"></div>
+                                                </label>
+                                                <label class="facet-item control control-checkbox" style="white-space: nowrap;">Program Document
+                                                    <input type="checkbox" name="product_type_option" title="Program Document" value="Program Document" /><div class="control-indicator"></div>
+                                                </label>
+                                                <label class="facet-item control control-checkbox" style="white-space: nowrap;">Thesis / Dissertation
+                                                    <input type="checkbox" name="product_type_option" title="Thesis / Dissertation" value="Thesis/Dissertation" /><div class="control-indicator"></div>
+                                                </label>
+                                                <label class="facet-item control control-checkbox">Video / Audio
+                                                    <input type="checkbox" name="product_type_option" title="Video / Audio" value="Multimedia" /><div class="control-indicator"></div>
+                                                </label>
+                                                <label class="facet-item control control-checkbox">Miscellaneous
+                                                    <input type="checkbox" name="product_type_option" title="Miscellaneous" value="Miscellaneous" /><div class="control-indicator"></div>
+                                                </label>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>                                
+                            </div>
+                        </div>
+                        
+                        <div class="adv_search-row">
+                            <label for="search_subject">Subject: </label>
+                            <input class="pure-input-1" type="text" name="subject" id="search_subject" value="">
+                        </div>
+                        <div class="adv_search-row">
+                            <label for="search_site_code">Site: </label>
+                            <select class="pure-input-1" name="site_code" id="search_site_code">
+                                <option value="">All</option>
+                            </select>
+                        </div>
+                        <div class="adv_search-row">
+                            <label for="search_research_org">Research Org: </label>
+                            <input class="pure-input-1" type="text" name="research_org" id="search_research_org" value="">
+                        </div>
+                        <div class="adv_search-row">
+                            <label for="search_sponsor_org">Sponsoring Org: </label>
+                            <input class="pure-input-1" type="text" name="sponsor_org" id="search_sponsor_org" value="">
+                        </div>
+                        <div class="adv_search-row">
+                            <label for="search_updd_from">Update Date: </label>
+                            <div style="/* white-space: nowrap; */">
+                                <input type="text" pattern="(0[1-9]|1[012])[/](0[1-9]|[12][0-9]|3[01])[/]\d\d\d\d" id="search_updd_from" name="updd_from" data-toggle="tooltip" data-placement="bottom" title="" class="dateinput pure-u-1-3" value="" placeholder="MM/DD/YYYY" data-original-title="Enter date in MM/DD/YYYY format">
+                                <label for="search_updd_until" style="margin-right:0.5rem; margin-left:0.5rem;">to</label>
+                                <input type="text" pattern="(0[1-9]|1[012])[/](0[1-9]|[12][0-9]|3[01])[/]\d\d\d\d" id="search_updd_until" name="updd_until" data-toggle="tooltip" data-placement="bottom" title="" class="dateinput pure-u-1-3" value="" placeholder="MM/DD/YYYY" data-original-title="Enter date in MM/DD/YYYY format">
+                            </div>
+                        </div>
+                        <div class="adv_search-row">
+                            <label class="control control-checkbox">Limit to INIS / NSA records only 
+                                <input type="checkbox" id="search_inis_nsa" name="inis_nsa" title="Limit to INIS / NSA records only" value="true"/><div class="control-indicator"></div>
+                            </label>
+                        </div>
+                        <div class="adv_search-row">
+                            <label class="control control-checkbox">Limit to Nobel Prize winning researchers only 
+                                <input type="checkbox" id="search_nobel" name="nobel" title="Limit to Nobel Prize winning researchers only" value="true"/><div class="control-indicator"></div>
+                            </label>
+                        </div>
+                        
+                        <hr/>
+                    </div>
+                </fieldset>
+
+                <div class="text-right">
+                    <button type="submit" class="pure-button button-success" style="margin: 1px; margin-left: 5px; padding:0.5em 0.9em;"><span class="fa fa-search"></span> Search</button>
+                </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="col-1">
+            <button type="submit" class="pure-input-1 pure-button button-search" id="search_submit" aria-hidden="true" title="Submit"><span class="fa fa-search"></span><span class="sr-only">Submit</span></button>
+        </div>
+
+    </div></div>
+</form>
+
+<form action="/search" id="state_form" method="POST" autocomplete="off">
+    <input type="hidden" id="state_act" name="act" value="act"/>
+    <input type="hidden" id="state_rows" name="rows" value="10"/>
+    <input type="hidden" id="state_page" name="page" value=""/>
+    <input type="hidden" id="state_sort" name="sort" value=""/>
+    <input type="hidden" id="state_return_type" name="return_type" value=""/>
+    <input type="hidden" id="state_search" name="search" value=""/>
+    <input type="hidden" id="state_term" name="term" value=""/>
+    <input type="hidden" id="state_title" name="title" value=""/>
+    <input type="hidden" id="state_creators" name="creators" value=""/>
+    <input type="hidden" id="state_doi" name="doi" value=""/>
+    <input type="hidden" id="state_idnos" name="idnos" value=""/>
+    <input type="hidden" id="state_pubd_from" name="pubd_from" value=""/>
+    <input type="hidden" id="state_pubd_until" name="pubd_until" value=""/>
+    <input type="hidden" id="state_fulltext" name="fulltext" value=""/>
+    <input type="hidden" id="state_doe_contract_number" name="doe_contract_number" value=""/>
+    <input type="hidden" id="state_product_type" name="product_type" value=""/>
+    <input type="hidden" id="state_journal_type" name="journal_type" value=""/>
+    <input type="hidden" id="state_data_type" name="data_type" value=""/>
+    <input type="hidden" id="state_software_type" name="software_type" value=""/>
+    <input type="hidden" id="state_software_license" name="software_license" value=""/>
+    <input type="hidden" id="state_subject" name="subject" value=""/>
+    <input type="hidden" id="state_site_code" name="site_code" value=""/>
+    <input type="hidden" id="state_research_org" name="research_org" value=""/>
+    <input type="hidden" id="state_sponsor_org" name="sponsor_org" value=""/>
+    <input type="hidden" id="state_updd_from" name="updd_from" value=""/>
+    <input type="hidden" id="state_updd_until" name="updd_until" value=""/>
+    <input type="hidden" id="state_availability" name="availability" value=""/>
+    <input type="hidden" id="state_inis_nsa" name="inis_nsa" value=""/>
+    <input type="hidden" id="state_nobel" name="nobel" value=""/>
+    <button type="submit" style="display:none;" aria-hidden="true" title="Submit"/>
+</form>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header-nav-menu d-none d-md-block">
+            <div class="container" style="padding-left:5px; padding-right:5px;">
+                <nav class="text-center">
+                    <div class="pure-menu pure-menu-horizontal">
+                        
+                        <ul class="pure-menu-list nav-primary clearfix d-block" style="display:inline-block !important;">
+                            <li class="pure-menu-item"><a href="/submit-sti" class="pure-menu-link"><span class="fa fa-sign-in"></span> Submit<span class="d-sm-inline d-md-none"> Research Results</span></a></li>
+                            <li class="pure-menu-item"><a href="/search-tools" class="pure-menu-link"><span class="fa fa-search"></span> Search<span class="d-sm-inline d-md-none d-lg-inline"> Tools</span></a></li>
+                            <li class="pure-menu-item"><a href="/public-access" class="pure-menu-link"><span class="fa fa-unlock"></span> <span class="d-sm-inline d-md-none d-lg-inline">Public </span>Access<span class="d-sm-inline d-md-none"> Policy</span></a></li>
+                            <li class="pure-menu-item"><a href="/persistent-identifier-services-developer-tools" class="pure-menu-link"><span class="fa fa-database"></span> PID<span class="d-sm-none d-md-inline d-lg-none">s</span><span class="d-sm-inline d-md-none d-lg-inline"> Services</span><span class="d-sm-inline d-md-none d-xl-inline"> &amp; Dev Tools</span></a></li>
+                            <li class="pure-menu-item"><a href="/about" class="pure-menu-link"><span class="fa fa-info"></span> About</a></li>
+                            <li class="pure-menu-item"><a href="/faqs" class="pure-menu-link"><span class="fa fa-question"></span> FAQs</a></li>
+                            <li class="pure-menu-item"><a href="/news" class="pure-menu-link"><span class="fa fa-newspaper-o"></span> News</a></li>
+                            <li class="pure-menu-item" style="border-right:0;"><a href="/75th-anniversary" class="pure-menu-link"><span class="fa fa-anniversary"><img alt="OSTI 75th Anniversary" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" height="24" width="24"></span> 75<sup>th</sup><span class="d-sm-inline d-md-none d-lg-none d-xl-inline"> Anniversary</span></a></li>
+                            
+                                
+                                    
+                                    <li class="pure-menu-item d-block d-md-none"><a href="/login" class="pure-menu-link"><span class="fa fa-user"></span> Sign In</a></li>
+                                    <li class="pure-menu-item d-block d-md-none"><a href="/createaccount" class="pure-menu-link">Create Account</a></li>
+                                
+                                
+                            
+                        </ul>
+                    </div>		
+                </nav>
+            </div>
+        </div>
+    </div>
+</header>
+
+<div class="body-breadcrumb container clearfix">
+    
+    <nav class="breadcrumb" itemscope itemtype="https://schema.org/BreadcrumbList">
+        <a itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem" class="breadcrumb-item" href="/"><span itemprop="item"><span itemprop="name">OSTI.GOV</span></span><meta itemprop="position" content="1" /></a>
+                
+                <span itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem" class="breadcrumb-item text-muted active"><span itemprop="item"><span itemprop="name">Technical Report: <em>FY16 Strategic Themes White Paper.</em></span></span><meta itemprop="position" content="2" /></span>
+    </nav>
+    
+</div>
+
+<div id="main-body" class="body-content container">
+                
+        <div itemprop="mainEntity" itemscope itemtype="http://schema.org/Report" class="biblio-page" data-ostiid="1346902" data-doi="10.2172/1346902" data-type="" data-avail="avail">
+
+        <div class="row"><div class="col-12">
+            
+            <h1><span style="font-weight:normal;display:none;">Title: </span><span itemprop="name headline">FY16 Strategic Themes White Paper.</span></h1>
+        </div></div>
+        <div class="row mb-2 d-none d-md-block"><div class="col-12">
+            
+            <ul class="nav nav-tabs small clearfix" style="white-space:nowrap;">
+                <li class="active"><a href="#biblio-full" class="tab-nav biblio-detail-tab" id="biblio-fullrecord-tab" data-tab="biblio" data-ostiid="1346902" data-type="tab-details">Full Record</a></li>
+                
+                    
+                    
+                        
+                        
+                    
+                
+                
+                <li class=""><a href="#biblio-related" class="tab-nav biblio-detail-tab" data-tab="biblio" data-ostiid="1346902" data-type="tab-related"><span class="d-none d-xl-inline">Other </span>Related<span class="d-none d-lg-inline"> Research</span></a></li>
+                
+            </ul>
+        </div></div>
+        <div class="row"><div class="col-12">
+                
+            
+            <section id="biblio-full" class="tab-content active" data-tab="biblio">
+                <div class="row">
+                    <div class="col-md-9 order-md-9 biblio-summary biblio-summary-right pl-2">
+                        
+                        
+                            
+                            <div class="alert alert-success">
+                                <button type="button" class="close" data-dismiss="alert">&times;</button>
+                                <p style="margin:0;">
+                                    You are accessing a document from the Department of Energy's (DOE) <a href="//www.osti.gov">OSTI.GOV</a>.
+                                    This site is a product of <a href="//www.energy.gov" target="_blank">DOE's</a> Office of Scientific and Technical Information (OSTI) and is provided as a public service.
+                                    <br/><br/>
+                                    Visit <a href="//www.osti.gov/search-tools" target="_blank">OSTI</a> to utilize additional information resources in energy science and technology.
+                                </p>
+                            </div>			
+                        
+                        
+                        <div class="biblio-detail">
+    
+    <h2 class="abstract">Abstract</h2>
+        <p class="description" id="citation-abstract" itemprop="description">
+            The Science and Technology (S&amp;T) Division 1000 Strategic Plan includes the Themes, Goals, and Actions for FY16. S&amp;T will continue to support the Labs Strategic plan, Mission Areas and Program Management Units by focusing on four strategic themes that align with the targeted needs of the Labs. The themes presented in this plan are Mission Engagement, Bold Outcomes, Collaborative Environment, and the Safety Imperative. Collectively they emphasize diverse, collaborative teams and a self-reliant culture of safety that will deliver on our promise of exceptional service in the national interest like never before. Mission Engagement focuses on increasing collaboration at all levels but with emphasis at the strategic level with mission efforts across the labs. Bold Outcomes seeks to increase the ability to take thoughtful risks with the goal of achieving transformative breakthroughs more frequently. Collaborative environment strives for a self-aware, collaborative working environment that bridges the many cultures of Sandia. Finally, Safety Imperative aims to minimize the risk of serious injury and to continuously strengthen the safety culture. Each of these themes is accompanied by a brief vision statement, several goals, and planned actions to support those goals throughout FY16 and leading into FY17.</p>
+        <div style="clear:both;margin-bottom:20px;"></div>
+    </div>
+
+                        <div class="biblio-detail">
+
+    <dl class="dl-horizontal small clearfix">
+                    <dt>Authors: <span class="infotip-show-hidden d-none"></span></dt>
+                    <dd>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+        
+        
+        
+        
+        
+    
+
+
+
+    <span class="author-link"><a href="/search/author:&quot;Leland, Robert W.&quot;" class="biblio-detail-author-link"><span class="author" itemprop="author">Leland, Robert W.</span>&nbsp;<sup class="text-muted">[1]</sup></a></span>
+    
+
+
+
+
+    <hr style="margin-top:8px;margin-bottom:8px;"/>
+    <div class="affiliation_toggle affiliation_toggle_auth hidden-print"><a href="#" onclick="$('.affiliation_list_auth').removeClass('visible-print-block');$('.affiliation_toggle_auth').hide();return false;">&#43; Show Author Affiliations</a></div>
+    <ol class="affiliation_list affiliation_list_auth visible-print-block" style="padding-left:15px;">
+        
+            <li>Sandia National Lab. (SNL-NM), Albuquerque, NM (United States)</li>
+        
+    </ol>
+
+</dd>
+                </dl>
+                <dl class="dl-horizontal small clearfix">
+            <dt>Publication Date: <span class="infotip-show-hidden d-none"></span></dt>
+            <dd><time itemprop="datePublished" datetime="Wed Mar 01 00:00:00 EST 2017">Wed Mar 01 00:00:00 EST 2017</time></dd>
+        </dl>
+    <dl class="dl-horizontal small clearfix">
+                    <dt>Research Org.: <span class="infotip-show-hidden d-none"></span></dt>
+                    <dd itemprop="sourceOrganization">Sandia National Lab. (SNL-NM), Albuquerque, NM (United States)</dd>
+                </dl>
+            <dl class="dl-horizontal small clearfix">
+                    <dt>Sponsoring Org.: <span class="infotip-show-hidden d-none"></span></dt>
+                    <dd itemprop="sourceOrganization">USDOE National Nuclear Security Administration (NNSA)</dd>
+                </dl>
+            <dl class="dl-horizontal small clearfix">
+                <dt>OSTI Identifier: <span class="infotip-show-hidden d-none"></span></dt>
+                <dd>1346902</dd>
+            </dl>
+            <dl class="dl-horizontal small clearfix">
+                            <dt>Report Number(s): <span class="infotip-show-hidden d-none"></span></dt>
+                            <dd>SAND2017-2557R<br/> 651572</dd>
+                        </dl>
+                    <dl class="dl-horizontal small clearfix">
+                        <dt>DOE Contract Number: &nbsp;<span class="infotip-show-hidden d-none"></span></dt>
+                        <dd>AC04-94AL85000</dd>
+                    </dl>
+                <dl class="dl-horizontal small clearfix">
+                                <dt>Resource Type: <span class="infotip-show-hidden d-none"></span></dt>
+                                <dd>Technical Report</dd>
+                            </dl>
+                        <dl class="dl-horizontal small clearfix">
+                        <dt>Country of Publication: <span class="infotip-show-hidden d-none"></span></dt>
+                        <dd>United States</dd>
+                    </dl>
+                <dl class="dl-horizontal small clearfix">
+                        <dt>Language: <span class="infotip-show-hidden d-none"></span></dt>
+                        <dd>English</dd>
+                    </dl>
+                <dl class="dl-horizontal small clearfix">
+                        <dt>Subject: <span class="infotip-show-hidden d-none"></span></dt>
+                        <dd><span class="subject" itemprop="about">99 GENERAL AND MISCELLANEOUS</span></dd>
+                    </dl>
+                </div>
+
+                        <div class="d-none d-md-block">
+                            <hr/>
+                            <div class="biblio-cite">
+    
+    <h3 class="title-citeformat">Citation Formats</h3>
+    
+    <div class="row mb-2"><div class="col-12">
+        <ul class="nav nav-tabs small clearfix">
+          <li class="active"><a href="#biblio-cite-mla" class="tab-nav tab-nav-cite" data-tab="cite">MLA</a></li>
+          <li><a href="#biblio-cite-apa" class="tab-nav tab-nav-cite" data-tab="cite">APA</a></li>
+          <li><a href="#biblio-cite-chi" class="tab-nav tab-nav-cite" data-tab="cite">Chicago</a></li>
+          <li><a href="#biblio-cite-bib" class="tab-nav tab-nav-cite" data-tab="cite">BibTeX</a></li>
+        </ul>
+    </div></div>
+    <div class="row"><div class="col-12">
+            
+        <section id="biblio-cite-mla" class="tab-content active" data-tab="cite">
+            <div class="small">
+                <code id="biblio-cite-mla-code">
+                    Leland, Robert W. <i>FY16 Strategic Themes White Paper.</i>.  United States: N. p., 2017. 
+        Web.  doi:10.2172/1346902. </code>
+            </div>
+            <div class="text-right small" style="margin-top:1em;"><a href="#" class="clip-cite-bib" data-clipboard-target="biblio-cite-mla-code"><span class="fa fa-files-o"></span> Copy to clipboard</a></div>
+        </section>
+            
+        <section id="biblio-cite-apa" class="tab-content" data-tab="cite">
+            <div class="small">
+                <code id="biblio-cite-apa-code">
+                    Leland, Robert W. <i>FY16 Strategic Themes White Paper.</i>.  United States.  https://doi.org/10.2172/1346902 </code>
+            </div>
+            <div class="text-right small" style="margin-top:1em;"><a href="#" class="clip-cite-bib" data-clipboard-target="biblio-cite-apa-code"><span class="fa fa-files-o"></span> Copy to clipboard</a></div>
+        </section>
+                
+        <section id="biblio-cite-chi" class="tab-content" data-tab="cite">
+            <div class="small">
+                <code id="biblio-cite-chi-code">
+                    Leland, Robert W. 2017.  
+        "FY16 Strategic Themes White Paper.".  United States.  https://doi.org/10.2172/1346902.  https://www.osti.gov/servlets/purl/1346902. </code>
+            </div>
+            <div class="text-right small" style="margin-top:1em;"><a href="#" class="clip-cite-bib" data-clipboard-target="biblio-cite-chi-code"><span class="fa fa-files-o"></span> Copy to clipboard</a></div>
+        </section>
+
+        <section id="biblio-cite-bib" class="tab-content" data-tab="cite">
+            <div class="small">
+                <code id="biblio-cite-bib-code">
+                    
+@article{osti_1346902,<br/>
+  title        = {FY16 Strategic Themes White Paper.},<br/>
+  author       = {Leland, Robert W.},<br/>
+  abstractNote = {The Science and Technology (S&amp;T) Division 1000 Strategic Plan includes the Themes, Goals, and Actions for FY16. S&amp;T will continue to support the Labs Strategic plan, Mission Areas and Program Management Units by focusing on four strategic themes that align with the targeted needs of the Labs. The themes presented in this plan are Mission Engagement, Bold Outcomes, Collaborative Environment, and the Safety Imperative. Collectively they emphasize diverse, collaborative teams and a self-reliant culture of safety that will deliver on our promise of exceptional service in the national interest like never before. Mission Engagement focuses on increasing collaboration at all levels but with emphasis at the strategic level with mission efforts across the labs. Bold Outcomes seeks to increase the ability to take thoughtful risks with the goal of achieving transformative breakthroughs more frequently. Collaborative environment strives for a self-aware, collaborative working environment that bridges the many cultures of Sandia. Finally, Safety Imperative aims to minimize the risk of serious injury and to continuously strengthen the safety culture. Each of these themes is accompanied by a brief vision statement, several goals, and planned actions to support those goals throughout FY16 and leading into FY17.},<br/>
+  doi          = {10.2172/1346902},<br/>
+  url          = {https://www.osti.gov/biblio/1346902},
+  journal      = {},<br/>number       = ,<br/>
+  volume       = ,<br/>
+  place        = {United States},<br/>
+  year         = {Wed Mar 01 00:00:00 EST 2017},<br/>
+  month        = {Wed Mar 01 00:00:00 EST 2017}<br/>
+}
+    </code>
+            </div>
+            <div class="text-right small" style="margin-top:1em;"><a href="#" class="clip-cite-bib" data-clipboard-target="biblio-cite-bib-code"><span class="fa fa-files-o"></span> Copy to clipboard</a></div>
+        </section>
+            
+    </div></div>
+
+    
+    
+</div>
+
+                        </div>
+                    </div>
+                    <div class="col-md-3 order-md-3 biblio-summary biblio-summary-left">
+                        <hr class="d-block d-md-none" style="margin-top:1.5rem; margin-bottom:1.5rem;"/>
+                
+<header class="subheader biblio-avail">Technical Report:</header>
+
+<div class="biblio-secondary-group">
+    <div class="biblio-secondary-item small">
+                                    <a style="margin-bottom:0.5em;" class="pure-button button-success fulltext-link" data-ostiid="1346902" data-product-type="Technical Report" data-product-subtype="" href="/servlets/purl/1346902" target="_blank" rel="noopener"><span class="fa fa-download" style="margin-right:0.25em;"></span> View Technical Report<span class="small">&nbsp;(1.28 MB)</span></a>
+                                </div>
+                            <div class="biblio-secondary-item small"><a href="https://doi.org/10.2172/1346902" target="_blank" rel="noopener" title="Document DOI URL" class="doi-link" data-ostiid="1346902" data-product-type="Technical Report" data-product-subtype="" style="word-wrap: break-word;">https://doi.org/10.2172/1346902</a></div></div>
+    
+<hr style="margin-top:1.5rem; margin-bottom:1.5rem;"/>
+    <header class="subheader biblio-avail">Save / Share:</header>
+    <div class="biblio-secondary-group">
+        
+        <div class="biblio-secondary-item small">
+            <a href="#" data-jq-dropdown="#biblio-save-export" data-vertical-offset="16">Export Metadata  <span class="fa fa-angle-down" style="color:#aaa;" aria-hidden="true"></span></a>
+            <div id="biblio-save-export" class="jq-dropdown jq-dropdown-tip jq-dropdown-relative">
+                <ul class="jq-dropdown-menu" style="padding:0.5em; line-height: 1em;">
+                    <li><a href="#" class="export-link" data-export="biblio" data-ostiid="1346902" data-format="enw" rel="nofollow">Endnote</a></li>
+                    <li><a href="#" class="export-link" data-export="biblio" data-ostiid="1346902" data-format="ris" rel="nofollow">RIS</a></li>
+                    <li><a href="#" class="export-link" data-export="biblio" data-ostiid="1346902" data-format="csv" rel="nofollow">CSV / Excel</a></li>
+                    <li><a href="#" class="export-link" data-export="biblio" data-ostiid="1346902" data-format="xml" rel="nofollow">XML</a></li>
+                    <li><a href="#" class="export-link" data-export="biblio" data-ostiid="1346902" data-format="json" rel="nofollow">JSON</a></li>
+                </ul>
+            </div>            
+        </div>
+        <div class="biblio-secondary-item small">
+            <a href="#" data-jq-dropdown="#biblio-save-library" data-vertical-offset="16">Save to My Library</a>
+                    <div id="biblio-save-library" class="jq-dropdown jq-dropdown-tip jq-dropdown-relative">
+                        <div class="jq-dropdown-panel">
+                            You must <a class="" href="/login?callback=biblio">Sign In</a> or <a href="/createaccount">Create an Account</a> in order to save documents to your library.
+                        </div>
+                    </div>            
+                </div>
+        <div class="biblio-secondary-item small" style="margin-top: 1em;">
+            <div class="pure-menu pure-menu-horizontal">
+                <ul class="pure-menu-list biblio-social"><li class="pure-menu-item">
+                    <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A//www.osti.gov/biblio/1346902" target="_blank" rel="noopener" class="pure-menu-link social"><span class="fa fa-fw fa-facebook" style=""></span><span class="sr-only">Facebook</span></a>
+                </li><li class="pure-menu-item">
+                    <a href="https://twitter.com/home?status=DOE%20Research%20from%20OSTI.GOV%3A%20https%3A//www.osti.gov/biblio/1346902" target="_blank" rel="noopener" class="pure-menu-link social"><span class="fa fa-fw fa-twitter" style=""></span><span class="sr-only">Twitter</span></a>
+                </li><li class="pure-menu-item"><a href="mailto:?subject=DOE%20Research%20from%20OSTI.GOV&body=https%3A//www.osti.gov/biblio/1346902" class="pure-menu-link social"><span class="fa fa-fw fa-envelope" style=""></span><span class="sr-only">Email</span></a>
+                </li><li class="pure-menu-item"><a href="javascript:window.print();" class="pure-menu-link social"><span class="fa fa-fw fa-print" style=""></span><span class="sr-only">Print</span></a>
+                </li><li class="pure-menu-item">
+                    <a href="#" data-jq-dropdown="#biblio-save-share" data-vertical-offset="32" data-horizontal-offset="-125" class="pure-menu-link social" title="More share options ..."><span class="fa fa-fw fa-share-alt" style=""></span><span class="sr-only">More share options</span></a>
+                    <div id="biblio-save-share" class="jq-dropdown jq-dropdown-tip jq-dropdown-relative jq-dropdown-anchor-right">
+                        <ul class="jq-dropdown-menu clearfix" style="padding:0.5em; line-height: 1em;">
+                            <li><a href="https://www.linkedin.com/shareArticle?mini=true&url=https%3A//www.osti.gov/biblio/1346902&title=DOE%20Research%20from%20OSTI.GOV&summary=&source=" target="_blank" rel="noopener" class="pure-menu-link social"><span class="fa fa-fw fa-linkedin" style=""></span> LinkedIn</a></li>
+                            <li><a href="https://pinterest.com/pin/create/button/?url=&media=https%3A//www.osti.gov/biblio/12345&description=" target="_blank" rel="noopener" class="pure-menu-link social"><span class="fa fa-fw fa-pinterest" style=""></span> Pinterest</a></li>
+                            <li><a href="http://www.tumblr.com/share?v=3&u=https%3A%2F%2Fwww.osti.gov%2Fostigov%2Fbiblio%2F12345&t=" target="_blank" rel="noopener" class="pure-menu-link social"><span class="fa fa-fw fa-tumblr" style=""></span> Tumblr</a></li>
+                        </ul>
+                    </div>            
+                </li></ul>
+            </div>
+        </div>
+                
+    </div>
+
+                    </div>
+                </div>
+            </section>
+                    
+            
+            
+            
+                
+                
+                
+                
+                
+
+            
+            
+                    
+            
+            
+            
+            
+            
+            
+            <section id="biblio-related" class="tab-content tab-content-sec " data-tab="biblio">
+                <div class="row">
+                    <div class="col-sm-9 order-sm-9">
+
+                        <section id="biblio-similar" class="tab-content tab-content-sec active" data-tab="related">
+                            <div class="padding">
+                                <p class="lead text-muted" style="font-size: 18px; margin-top:0px;">Similar records in OSTI.GOV collections:</p>
+                                <aside>
+                                <ul class="item-list" itemscope itemtype="http://schema.org/ItemList" style="padding-left:0; list-style-type: none;">
+                                    
+                                    
+                                        <li>
+            <div class="article item document" itemprop="itemListElement" itemscope itemtype="http://schema.org/WebPage"><meta itemprop="position" content="0" /><div class="item-info">
+                    <h2 class="title" itemprop="name headline"><a href="/biblio/1346903" itemprop="url">FY16 Strategic Themes.</a></h2>
+                    <div class="metadata">
+                        <small class="text-muted" style="text-transform:uppercase;display:block;line-height:2.5em;">Technical Report</small><span class="authors">
+                            <span class="author">Leland, Robert</span><span class="text-muted pubdata"></span>
+                            </span></div>
+                    <div class="abstract">I am pleased to present this summary of the Division 1000 Science and Technology Strategic Plan. This plan was created with considerable participation from all levels of management in Division 1000, and is intended to chart our course as we strive to contribute our very best in service of the greater Laboratory strategy. The plan is characterized by four strategic themes: Mission Engagement, Bold Outcomes, Collaborative Environment, and the Safety Imperative. Each theme is accompanied by a brief vision statement, several goals, and planned actions to support those goals throughout FY16. I want to be clear that this is not<a href='#' onclick='$(this).hide().next().show().next().show();return false;' style='margin-left:10px;'>more&nbsp;&raquo;</a><span style='display:none;'> a strategy to be pursued in tension with the Laboratory strategic plan. Rather, it is intended to describe “how” we intend to show up for the “what” described in Sandia’s Strategic Plan. I welcome your feedback and look forward to our dialogue about these strategic themes. Please join me as we move forward to implement the plan in the coming year.</span><a href='#' onclick='$(this).hide().prev().hide().prev().show();return false;' style='margin-left:10px;display:none;'>&laquo;&nbsp;less</a></div><div class="metadata-links small clearfix text-muted" style="margin-top:15px;">
+                        <div class="pure-menu pure-menu-horizontal pull-right" style="width:unset;">
+                            <ul class="pure-menu-list">
+                                    <li class="pure-menu-item"><span class="item-info-ftlink"><a class="misc doi-link " href="https://doi.org/10.2172/1346903" target="_blank" rel="noopener" title="Link to document DOI" data-ostiid="1346903" data-product-type="Technical Report" data-product-subtype="" >https://doi.org/10.2172/1346903</a></span></li>
+                                    <li class="pure-menu-item"><span class="item-info-ftlink"><a class="misc fulltext-link " href="/servlets/purl/1346903" title="Link to document media" target="_blank" rel="noopener" data-ostiid="1346903" data-product-type="Technical Report" data-product-subtype="" >Full Text Available</a></span></li>
+                                    </ul>
+                            </div>                            
+                    </div>
+                    </div>
+                <div class="clearfix"></div>
+            </div>
+        </li>		
+    
+                                        
+                                    
+                                        <li>
+            <div class="article item document" itemprop="itemListElement" itemscope itemtype="http://schema.org/WebPage"><meta itemprop="position" content="1" /><div class="item-info">
+                    <h2 class="title" itemprop="name headline"><a href="/biblio/1346904" itemprop="url">FY17 Strategic Themes.</a></h2>
+                    <div class="metadata">
+                        <small class="text-muted" style="text-transform:uppercase;display:block;line-height:2.5em;">Technical Report</small><span class="authors">
+                            <span class="author">Leland, Robert</span><span class="text-muted pubdata"></span>
+                            </span></div>
+                    <div class="abstract">I am pleased to present this summary of the FY17 Division 1000 Science and Technology Strategic Plan. As this plan represents a continuation of the work we started last year, the four strategic themes (Mission Engagement, Bold Outcomes, Collaborative Environment, and Safety Imperative) remain the same, along with many of the goals. You will see most of the changes in the actions listed for each goal: We completed some actions, modified others, and added a few new ones. As I’ve stated previously, this is not a strategy to be pursued in tension with the Laboratory strategic plan. The Division 1000<a href='#' onclick='$(this).hide().next().show().next().show();return false;' style='margin-left:10px;'>more&nbsp;&raquo;</a><span style='display:none;'> strategic plan is intended to chart our course as we strive to contribute our very best in service of the greater Laboratory strategy. I welcome your feedback and look forward to our dialogue about these strategic themes. Please join me as we move forward to implement the plan in the coming months.</span><a href='#' onclick='$(this).hide().prev().hide().prev().show();return false;' style='margin-left:10px;display:none;'>&laquo;&nbsp;less</a></div><div class="metadata-links small clearfix text-muted" style="margin-top:15px;">
+                        <div class="pure-menu pure-menu-horizontal pull-right" style="width:unset;">
+                            <ul class="pure-menu-list">
+                                    <li class="pure-menu-item"><span class="item-info-ftlink"><a class="misc doi-link " href="https://doi.org/10.2172/1346904" target="_blank" rel="noopener" title="Link to document DOI" data-ostiid="1346904" data-product-type="Technical Report" data-product-subtype="" >https://doi.org/10.2172/1346904</a></span></li>
+                                    <li class="pure-menu-item"><span class="item-info-ftlink"><a class="misc fulltext-link " href="/servlets/purl/1346904" title="Link to document media" target="_blank" rel="noopener" data-ostiid="1346904" data-product-type="Technical Report" data-product-subtype="" >Full Text Available</a></span></li>
+                                    </ul>
+                            </div>                            
+                    </div>
+                    </div>
+                <div class="clearfix"></div>
+            </div>
+        </li>		
+    
+                                        
+                                    
+                                        <li>
+            <div class="article item document" itemprop="itemListElement" itemscope itemtype="http://schema.org/WebPage"><meta itemprop="position" content="2" /><div class="item-info">
+                    <h2 class="title" itemprop="name headline"><a href="/biblio/15009835" itemprop="url">Chemistry and Materials Science Strategic Plan</a></h2>
+                    <div class="metadata">
+                        <small class="text-muted" style="text-transform:uppercase;display:block;line-height:2.5em;">Technical Report</small><span class="authors">
+                            <span class="author">Rhodie, K</span>; <span class="author">Mailhiot, C</span>; <span class="author">Eaglesham, D</span>; <span class="author">...</span> <span class="text-muted pubdata"></span>
+                            </span></div>
+                    <div class="abstract">Lawrence Livermore National Laboratory's mission is as clear today as it was in 1952 when the Laboratory was founded--to ensure our country's national security and the safety and reliability of its nuclear deterrent. As a laboratory pursuing applied science in the national interest, we strive to accomplish our mission through excellence in science and technology. We do this while developing and implementing sound and robust business practices in an environment that emphasizes security and ensures our safety and the safety of the community around us. Our mission as a directorate derives directly from the Laboratory's charter. When I accepted the<a href='#' onclick='$(this).hide().next().show().next().show();return false;' style='margin-left:10px;'>more&nbsp;&raquo;</a><span style='display:none;'> assignment of Associate Director for Chemistry and Materials Science (CMS), I talked to you about the need for strategic balance and excellence in all our endeavors. We also discussed how to take the directorate to the next level. The long-range CMS strategic plan presented here was developed with this purpose in mind. It also aligns with the Lab's institutional long-range science and technology plan and its 10-year facilities and infrastructure site plan. The plan is aimed at ensuring that we fulfill our directorate's two governing principles: (1) delivering on our commitments to Laboratory programs and sponsors, and (2) anticipating change and capitalizing on opportunities through innovation in science and technology. This will require us to attain a new level of creativity, agility, and flexibility as we move forward. Moreover, a new level of engagement in partnerships with other directorates across the Laboratory as well as with universities and other national labs will also be required. The group of managers and staff that I chartered to build a strategic plan identified four organizing themes that define our directorate's work and unite our staff with a set of common goals. The plan presented here explains how we will proceed in each of these four theme areas: (1) Materials properties and performance under extreme conditions--Fundamental investigations of the properties and performance of states of matter under extreme dynamic, environmental, and nanoscale conditions, with an emphasis on materials of interest to Laboratory programs and mission needs. (2) Chemistry under extreme conditions and chemical engineering to support national security programs--Insights into the chemical reactions of energetic materials in the nuclear stockpile through models of molecular response to extreme conditions of temperature and pressure, advancing a new technique for processing energetic materials by using sol-gel chemistry, providing materials for NIF optics, and furthering developments to enhance other high-power lasers. (3) Science supporting national objectives at the intersection of chemistry, materials science, and biology--Multidisciplinary research for developing new technologies to combat chemical and biological terrorism, to monitor changes in the nation's nuclear stockpile, and to enable the development and application of new physical-science-based methodologies and tools for fundamental biology studies and human health applications. (4) Applied nuclear science for human health and national security: Nuclear science research that is used to develop new methods and technologies for detecting and attributing nuclear materials, assisting Laboratory programs that require nuclear and radiochemical expertise in carrying out their missions, discovering new elements in the periodic table, and finding ways of detecting and understanding cellular response to radiation.</span><a href='#' onclick='$(this).hide().prev().hide().prev().show();return false;' style='margin-left:10px;display:none;'>&laquo;&nbsp;less</a></div><div class="metadata-links small clearfix text-muted" style="margin-top:15px;">
+                        <div class="pure-menu pure-menu-horizontal pull-right" style="width:unset;">
+                            <ul class="pure-menu-list">
+                                    <li class="pure-menu-item"><span class="item-info-ftlink"><a class="misc doi-link " href="https://doi.org/10.2172/15009835" target="_blank" rel="noopener" title="Link to document DOI" data-ostiid="15009835" data-product-type="Technical Report" data-product-subtype="" >https://doi.org/10.2172/15009835</a></span></li>
+                                    <li class="pure-menu-item"><span class="item-info-ftlink"><a class="misc fulltext-link " href="/servlets/purl/15009835" title="Link to document media" target="_blank" rel="noopener" data-ostiid="15009835" data-product-type="Technical Report" data-product-subtype="" >Full Text Available</a></span></li>
+                                    </ul>
+                            </div>                            
+                    </div>
+                    </div>
+                <div class="clearfix"></div>
+            </div>
+        </li>		
+    
+                                        
+                                    
+                                        <li>
+            <div class="article item document" itemprop="itemListElement" itemscope itemtype="http://schema.org/WebPage"><meta itemprop="position" content="3" /><div class="item-info">
+                    <h2 class="title" itemprop="name headline"><a href="/biblio/22407910" itemprop="url">WE-A-16A-01: International Medical Physics Symposium: Increasing Access to Medical Physics Education/Training and Research Excellence</a></h2>
+                    <div class="metadata">
+                        <small class="text-muted" style="text-transform:uppercase;display:block;line-height:2.5em;">Journal Article</small><span class="authors">
+                            <span class="author">Bortfeld, T</span>; <span class="author">Ngoma, T</span>; <span class="author">Odedina, F</span>; <span class="author">...</span> <span class="text-muted pubdata"> - Medical Physics</span>
+                            </span></div>
+                    <div class="abstract">In response to a world in which cancer is a growing global health challenge, there is now a greater need for US Medical Physicists and other Radiation Oncology professionals across institutions to work together and be more globally engaged in the fight against cancer. There are currently many opportunities for Medical Physicists to contribute to alleviating this pressing need, especially in helping enhance access to Medical Physics Education/training and Research Excellence across international boundaries, particularly for low and middle-income countries (LMIC), which suffer from a drastic shortage of accessible knowledge and quality training programs in radiotherapy. Many Medical Physicists are<a href='#' onclick='$(this).hide().next().show().next().show();return false;' style='margin-left:10px;'>more&nbsp;&raquo;</a><span style='display:none;'> not aware of the range of opportunities that even with small effort could have a high impact. Faculty at the two CAMPEP-accredited Medical Physics Programs in New England: the University of Massachusetts Lowell and Harvard Medical School have developed a growing alliance to increase Access to Medical Physics Education/training and Research Excellence (AMPERE), and facilitate greater active involvement of U.S. Medical Physicists in helping the global fight against cancer and cancer disparities. In this symposium, AMPERE Alliance members and partners from Europe and Africa will present and discuss the growing global cancer challenge, the dearth of knowledge, research, and other barriers to providing life-saving radiotherapy in LMIC, mechanisms for meeting these challenges, the different opportunities for participation by Medical Physicists, including students and residents, and how participation can be facilitated to increase AMPERE for global health. Learning Objectives: To learn about the growing global cancer challenge, areas of greatest need and limitations to accessing knowledge and quality radiotherapy training programs, especially in LMIC; To learn about the range of opportunities for Medical Physicists, including students and residents, to work together in global health to help increase AMPERE and alleviate the growing global burden of cancer; To present and discuss a new model for harmonizing Medical Physics Training across countries and how this model (UMass and Heidelberg) could be extended to LMIC in collaboration with the IAEA; To highlight a new platform and program for facilitating contributions by Medical Physicists to increase AMPERE towards the elimination of global cancer disparities. Challenges in Cancer Control in Africa Twalib A. Ngoma, MD, Professor, Executive Director, Ocean Road Cancer Institute, Dar Es Salaam, Tanzania Cancer care in Africa is beset by lack of attention, political will, cancer registries, cancer plans, human resources, financial resources and treatment facilities.. As a result of this, cancer patients in Africa are far more likely to die of their disease than those in developed countries. According to data from the WHO 750,000 new cancer cases occur in Africa every year and this number is predicted to rise by 70% by 2020. To make matters worse, an estimated 75% of cancer patients in Africa have advanced or incurable cancers at diagnosis making palliative care the most realistic approach to their management. Furthermore, Cancer prevention is nearly nonexistent, cancer detection is rare and treatment usually comes too late and is inefficient. The overall mortality-to-incidence ratio for men with cancer in the Africa is 0.75 compared with 0.54 in the developed world while the ratios for women in Africa, is 0.65 compared with 0.45 for women in the developed world. There is also limited access to radiotherapy. According to the International Atomic Energy Agency (IAEA), whilst developed countries usually have one radiotherapy machine per 250,000 people, most African nations have only one machine per ten million people. The above numbers are alarming and speak for themselves. The only solution to improve this alarming situation is to address the major challenges which African countries face in provision of cancer services which include but not limited to lack of cancer registries, lack of funding, lack of human resources, lack of radiotherapy machines, lack of cancer drugs and lack of accessible and affordable cancer screening, early diagnosis, treatment or palliative care services. Since there are considerable differences among African countries, in my presentation I will share with the audience how we address cancer control challenges in Tanzania in general and specifically in radiation oncology. The African continent cancer plan 2013 2017 Folakemi Odedina, PhD, Professor and Director of Health Disparities, UF Health Cancer Center, University of Florida The burden of cancer is rising in Africa, in addition to current heavy burden of communicable, and other non-cancer related non—communicable diseases. Conquering cancer in Africa will require a comprehensive collaborative approach with cancer clinicians, scientists, patients, advocates, policy makers and community leaders working hand-in-hand at the local, state, national, and continent levels with the primary mission: To reduce the number of deaths from cancer and improve the quality of life of cancer patients, survivors and caregivers. Unfortunately, less than 40% of African countries have a credible cancer control policy and program. The African Organization for Research and Training in Cancer (AORTIC) decided to create an African Cancer Plan to provide cost-effective strategies that can be employed throughout the continent to fight cancer. Based on the African proverb that “It takes a village to raise a child”, the Cancer Plan provides specific strategies that can be used by individuals, employers, organizations and policy-makers to fight cancer. In addition, we have provided overarching strategies to address cancer in Africa and targeted 5-year plan for prostate, breast, cervix, lung and liver cancers. In developing this Cancer Plan, our primary goal is to decrease cancer incidence and mortality in Africa. This goal can only be achieved by stakeholders and dedicated individuals to lead and implement the strategies outlined in this plan. If you are interested in partnering with AORTIC to reduce the burden of cancer in Africa, please send an email to info@aortic-africa.org. Synergies in research and clinical care through international collaboration Thomas Bortfeld and David Gierga, Massachusetts General Hospital, Harvard Medical School, MA Medical Physics relies on high technology that is not distributed equally. The whole spectrum of Medical Physics technologies is not available at every hospital or research institute, and not even in every high income country. One example is heavy ion therapy equipment which is currently only available in Japan, Germany and Italy. There is also a large global variation in terms of research infrastructure and focus. A student of Medical physics cannot gain broad experience, certainly not hands-on experience, by staying at one place only. While it is debatable what a good trade-off between breadth and depth in Medical Physics education is, it is generally agreed upon that some breadth is necessary. Researchers in Medical Physics have to cross borders if they need specific technologies for their projects. Therefore it is self-evident that international programs in Medical Physics education and research make sense. Yet, very few programs of this type exist. In this presentation we will report on our own experience of pursuing an international career in Medical Physics, with international student programs, and with the international exchange of researchers. We will present new or planned opportunities such as the medical beamline at CERN in Geneva. We will also report on the synergies in clinical care through international collaborations between partners in high and low income countries. One example is the partnership of the MGH/Harvard Medical School community with the oncology community and government of Botswana to form the BOTSOGO (BOTSwana Oncology Global Outreach) initiative. This collaborative effort in oncology care was spurred by existing relationships in HIV/AIDS research and care delivery developed within the Botswana-Harvard AIDS Institute Partnership (BHP). The initial efforts of the BOTSOGO initiative have been organized as follows: 1) on-site visits to share expertise in clinical cancer care for capacity building purposes (e.g. cervical brachytherapy), 2) developing a forum for multi-disciplinary case discussions and education and 3) relationship building with local stakeholders for long-term sustainability and growth. An international system for the certification of medical physicists Raymond K. Wu, Chairman, IOMP Professional Relations Committee; Chairman, AAPM Exchange Scientist Program Subcommittee An international system for the certification of medical physicists is an important issue. The International Organization for Medical Physicists (IOMP) has in collaboration with a number of member countries established the International Medical Physics Certification Board (IMPCB) to address this issue, and to provide a mechanism to mark the milestone for the professional development of clinical medical physicists. Raymond Wu, PhD, is the CEO of IMPCB and the Chairman of the IOMP Professional Relations Committee. He is the invited speaker recommended by IOMP to give a talk on this important subject. He will give the latest update of the work of IMPCB, its near term goals, and pathways to the goals. He will also discuss the importance of such an International System of certification in the training/education of next generation Medical Physicists, including those in low and middle income countries (LMIC) where such training is crucial in the fight against cancer. Learning Objectives: Understand the certification program as described in the IOMP Policy Statements. Understand the plan of the IMPCB to establish the accreditation process of national certification programs. Understand the goals of this international collaborative effort and the potential impacts to the quality of clinical medical physics practice. Medical Physics Education Across Continents: The UMass Lowell and Heidelberg University Joint Coordination Effort Erno Sajo, Director of Medical Physics, University of Massachusetts at Lowell Medical Physics education has unique flavors across institutions within the US and shows significant differences across continents. In the latter, even the definition of Medical Physics may differ. Not only is there a difference in topical coverage, but often what is considered a cohesive topic in one institution, and taught as a single course, is fragmented among several other courses in the other institution due to a different philosophy. Because of the regulatory and certification requirements, these differences impact the mobility of medical physicists across continents. As a result, physicists who wish to practice in the US or Canada but have completed their education elsewhere often find that they have to take remedial courses or even obtain a new degree in Medical Physics despite the fact that they already have one. Outreach to developing countries, therefore, is even more difficult. The University of Massachusetts Lowell and Heidelberg University recently completed a joint coordination effort, in which they identified topics that are common versus complementary in their medical physics curricula. A student exchange program was developed that permits students to take any of the common topics at the other institution while taking complementary courses as electives, which count towards their degree requirements at their home institution. Thesis research is also mutually accepted. When properly documented, in this way CAMPEP recommendations can be met across the institutions. Therefore, students participating in this program satisfy both the American Board of Radiology (ABR) requirements and the European regulatory requirements. The framework on which this collaboration rests and the cross-comparison methods developed therein may be implemented in other exchange programs and thus a similar approach can be adopted in outreach programs with developing countries. IAEA PACT Program and opportunities for support and collaboration Susan Morgan, Program Coordinator, International Atomic Energy Agency, Vienna, Austria In response to the developing world's cancer crisis, the International Atomic Energy Agency (IAEA) established the Program of Action for Cancer Therapy (PACT) in 2004 to fully realize the public health impact obtained through global partnerships in cancer control and technology transfer in radiation medicine. PACT's vision strives for global partnerships to confront the cancer crisis in developing countries, notably with our sister United Nations agency, the World Health Organization (WHO), and our Joint Programme on Cancer Control established in 2009. The IAEA, through PACT, the WHO, the International Agency for Research on Cancer (IARC) and other cancer-related organizations work together to make a coordinated global response in supporting low and middle income (LMI) IAEA Member States in the implementation of comprehensive national cancer control programmes. PACT's goals are: To build global partnerships of cancer-related organizations committed to addressing the challenge of cancer in LMI Member States in all its aspects; To mobilize resources from charitable trusts, foundations, and others in public and private sectors sources to assist LMI Member States to develop and implement their radiation medicine capacities within a national cancer control programme (NCCP); and, To ensure the effective and sustainable transfer of radiation medicine technologies or knowledge to all LMI Member States where unmet needs exist. PACT work focuses on: imPACT: Assessing Cancer Burden PMDS: Developing Global Partnerships VUCCnet: Promoting Cancer Control Training AGaRT: Making Radiotherapy Accessible Facilitating increased participation and professional development of Medical Physicists and other Radiation Oncology professionals in global health Wilfred Ngwa, Harvard Medical School, University of Massachusetts Lowell, MA The 2014 World Health Organization (WHO) Cancer report highlights an alarming increase in the global burden of cancer. It also highlights what it terms “the cancer divide”, or disparities, evinced by a substantially higher cancer burden in low and middle income countries (LMIC) in Asia, Central/South America and Africa. The WHO even predicts a potential African cancer epidemic by 2020 if significant progress is not made in global cancer control efforts. Evidence that collaborative global health approaches have led to major progress in controlling infectious diseases including in LMIC suggests that similar approaches will be useful for non-communicable diseases like cancer. In consonance with this, leaders in cancer policy from the USA and 14 economically diverse countries recently concluded that successful campaigns to control cancers with existing methods and to improve current strategies will increasingly depend onconcerted multinational collaborations (Sci Transl Med 5, p. 175, 2013). Hence there is growing urgency for increasing collaborative global cancer Care Research and Education (CaRE), as well as support for greater effectiveness of already existing initiatives involving partners from different nations, diverse economic and cultural backgrounds. The good news is that there is a growing awareness of the importance of global health and growing interest including amongst Medical Physicists and other Radiation oncology (RadOnc) professionals to participate in global health. However, many are unaware of currently existing opportunities for participation that even with small effort could have a high impact. Over 50% of cancer patients in the developed world depend on RadOnc professionals for their treatment, and hence participation of RadOnc professionals in global health efforts in the global fight against cancer is crucial. It is also important that the next generation of RadOnc professionals (students, and residents) be trained with a global perspective, to be global health leaders in cancer CaRE. This presentation will highlight a novel platform for enhancing participation and professional development of Medical Physicists and other RadOnc professionals in global health. Ways in which this platform can facilitate contributions by Medical Physicists and other RadOnc Professionals, students and residents in global health towards the elimination of global cancer disparities will be discussed. This will be followed by a panel discussion by some of the pioneers/leaders in collaborative global cancer CaRE on the growing cancer burden, challenges and opportunities for greater active involvement and professional development.</span><a href='#' onclick='$(this).hide().prev().hide().prev().show();return false;' style='margin-left:10px;display:none;'>&laquo;&nbsp;less</a></div><div class="metadata-links small clearfix text-muted" style="margin-top:15px;">
+                        <div class="pure-menu pure-menu-horizontal pull-right" style="width:unset;">
+                            <ul class="pure-menu-list">
+                                    <li class="pure-menu-item"><span class="item-info-ftlink"><a class="misc doi-link " href="https://doi.org/10.1118/1.4889368" target="_blank" rel="noopener" title="Link to document DOI" data-ostiid="22407910" data-product-type="Journal Article" data-product-subtype="AC" >https://doi.org/10.1118/1.4889368</a></span></li>
+                                    </ul>
+                            </div>                            
+                    </div>
+                    </div>
+                <div class="clearfix"></div>
+            </div>
+        </li>		
+    
+                                        
+                                    
+                                        <li>
+            <div class="article item document" itemprop="itemListElement" itemscope itemtype="http://schema.org/WebPage"><meta itemprop="position" content="4" /><div class="item-info">
+                    <h2 class="title" itemprop="name headline"><a href="/biblio/22802420" itemprop="url">The U.S. DOE-EM International Program - 17411</a></h2>
+                    <div class="metadata">
+                        <small class="text-muted" style="text-transform:uppercase;display:block;line-height:2.5em;">Conference</small><span class="authors">
+                            <span class="author">Han, Ana</span>; <span class="author">Elmetti, Rosa</span>; <span class="author">Rivera, Benjamin</span>; <span class="author">...</span> <span class="text-muted pubdata"></span>
+                            </span></div>
+                    <div class="abstract">The U.S. Department of Energy (DOE) Office of Environmental Management (EM) has a mission to complete the safe clean-up of the environmental legacy resulting from six decades of weapons production and energy research. This effort is recognized as one of the largest and most diverse and technically complex environmental clean-up operations in the world. The overall strategy to address this challenge includes several components, one of which involves leveraging the expertise within the International community, when applicable. The opportunities related to international collaborations are an important component of the DOE EM strategy for the clean-up mission, providing excellent forums for<a href='#' onclick='$(this).hide().next().show().next().show();return false;' style='margin-left:10px;'>more&nbsp;&raquo;</a><span style='display:none;'> EM to stay beneficially engaged with the international community and our global partners. EM has been supporting the clean-up mission of the Department through international collaborations for almost 20 years. The EM International Program is sponsored by the DOE EM Office of the Chief of Staff (EM-2.1), which directly supports the DOE-EM Office of Assistant Secretary (EM-1), in coordination with the entire EM organization. The primary objective of the EM International Program is to provide benefit to the Department in successful completion of the EM clean-up mission, through establishing strategic approaches for specific international collaboration initiatives that are focused on appropriate strategic program goals. The EM International Program strategy to support the EM mission includes many facets, but they can generally be grouped into two primary areas. First, the EM International Program maintains, establishes, and/or participates in international agreements such that appropriate mechanisms are available for conducting international collaborations with foreign government organizations, educational institutions and private industry to leverage resources and link international experience and expertise, in support of the EM mission and compliant with US foreign policy. Second, through coordination with the EM Office of Technology Development (EM-3.2), the EM International Program leverages these agreements to identify mutually beneficial opportunities to evaluate, test, and adapt technologies, capabilities, and expertise for application to EM mission needs. These activities directly support goals within the current DOE Strategic Plan 2014 - 2018, issued in April 2014. Working with the Office of Technology Development, the EM International Program is developing a process for identifying and selecting collaborative international technology projects for Fiscal Year 2017 (FY17) that have high potential impact to the EM mission. The technical scope of these activities is expected to span the entire EM mission, including tank waste and nuclear materials management; groundwater and soil remediation; deactivation and decommissioning; and radioactive waste disposal operations. Depending on budget availability, these collaborative activities are expected to be awarded by mid-FY17. (authors)</span><a href='#' onclick='$(this).hide().prev().hide().prev().show();return false;' style='margin-left:10px;display:none;'>&laquo;&nbsp;less</a></div><div class="metadata-links small clearfix text-muted" style="margin-top:15px;">
+                        <div class="pure-menu pure-menu-horizontal pull-right" style="width:unset;">
+                            </div>                            
+                    </div>
+                    </div>
+                <div class="clearfix"></div>
+            </div>
+        </li>		
+    
+                                        
+                                                                         
+                                </ul>
+                                </aside>
+                            </div>
+                        </section>
+                                    
+                                    
+                                    
+                    </div>
+                    <div class="col-sm-3 order-sm-3">
+                        <ul class="nav nav-stacked">
+                            
+                                
+                                    <li class="active"><a class="tab-nav disabled" data-tab="related" style="color: #636c72 !important; opacity: 1;"><span class="fa fa-angle-right"></span> Similar Records</a></li>
+                                
+                                
+                            
+                        </ul>
+                        
+                                
+                    </div>
+                </div>
+            </section>
+
+            
+            
+            
+            
+        </div></div>
+
+
+        </div>
+    
+
+        
+
+
+
+
+</div>
+</section>
+
+<footer class="" style="background-color:#f9f9f9; /* padding-top: 0.5rem; */">
+
+	<div class="footer-minor">
+		<div class="container">
+                        <hr class="footer-separator" />
+			<div class="text-center" style="margin-top:1.25rem;">
+                            <div class="pure-menu pure-menu-horizontal">
+                                <ul class="pure-menu-list" id="footer-org-menu">
+                                    <li class="pure-menu-item d-block d-inline-small">
+                                        <a href="https://energy.gov" target="_blank" rel="noopener noreferrer">
+                                            <img src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" class="sprite sprite-footer-us-doe-min" alt="U.S. Department of Energy" />
+                                        </a>
+                                    </li>
+                                    <li class="pure-menu-item d-block d-inline-small">
+                                        <a href="https://www.energy.gov/science/office-science" target="_blank" rel="noopener noreferrer">
+                                            <img src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" class="sprite sprite-footer-office-of-science-min" alt="Office of Science" />
+                                        </a>
+                                    </li>
+                                    <li class="pure-menu-item d-block d-inline-small">
+                                        <a href="/">
+                                            <img src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" class="sprite sprite-footer-osti-min" alt="Office of Scientific and Technical Information" />
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+			</div>
+			<div class="text-center small" style="margin-top:0.5em;margin-bottom:2.0rem;">
+			
+                            <div class="pure-menu pure-menu-horizontal">
+                                <ul class="pure-menu-list">
+                                <li class="pure-menu-item"><a href="/disclaim" class="pure-menu-link"><span class="fa fa-institution"></span> Website Policies <span class="d-none d-sm-inline" style="color:#737373;">/ Important Links</span></a></li>
+                                <li class="pure-menu-item"><a href="/contact" class="pure-menu-link"><span class="fa fa-comments-o"></span> Contact Us</a></li>
+                                <li class="d-block d-md-none mb-1"></li>
+                                <li class="pure-menu-item"><a href="https://doe.responsibledisclosure.com/hc/en-us" target="_blank" class="pure-menu-link">Vulnerability Disclosure Program</a></li>
+                                <li class="d-block d-lg-none mb-1"></li>
+                                <li class="pure-menu-item"><a href="https://www.facebook.com/ostigov" target="_blank" rel="noopener noreferrer" class="pure-menu-link social"><span class="fa fa-facebook"></span><span class="sr-only">Facebook</span></a></li>
+                                <li class="pure-menu-item"><a href="https://twitter.com/OSTIgov" target="_blank" rel="noopener noreferrer" class="pure-menu-link social"><span class="fa fa-twitter"></span><span class="sr-only">Twitter</span></a></li>
+                                <li class="pure-menu-item"><a href="https://www.youtube.com/user/ostigov" target="_blank" rel="noopener noreferrer" class="pure-menu-link social"><span class="fa fa-youtube-play"></span><span class="sr-only">YouTube</span></a></li>
+                                </ul>
+                            </div>
+				
+			</div>
+		</div>	
+	</div>
+
+</footer>
+
+
+    <link href="/css/ostigov.fonts.221219.1831.css" rel="stylesheet">
+    
+
+<script src="/js/ostigov.221219.1831.js"></script><noscript></noscript>
+
+
+<script defer src="/js/ostigov.biblio.221219.1831.js"></script><noscript></noscript>
+<script async type="text/javascript" src="/js/Universal-Federated-Analytics-Min.js?agency=DOE" id="_fed_an_ua_tag"></script><noscript></noscript>
+</body>
+<!-- OSTI.GOV v.221219.1831 -->
+</html>
+
+    
+
+

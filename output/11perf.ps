@@ -1,0 +1,4217 @@
+%!PS-Adobe-3.0
+%%BoundingBox: (atend)
+%%Pages: (atend)
+%%PageOrder: (atend)
+%%DocumentFonts: (atend)
+%%DocumentNeedsFonts: (atend)
+%%DocumentSuppliedFonts: (atend)
+%%Creator: Frame 5.5
+%%DocumentData: Clean7Bit
+%%EndComments
+%%BeginProlog
+%
+% Frame ps_prolog 5.5, for use with Adobe Unix Frame 5.5 products
+%
+% This ps_prolog file is Copyright (c) 1986-1996 Adobe Systems, Incoporated.
+% All rights reserved.  This ps_prolog file may be freely copied and 
+% distributed in conjunction with documents created using FrameMaker, 
+% FrameMaker+SGML, FrameReader, and FrameViewer as long as this 
+% copyright notice is preserved.
+/FMDocSave save def
+%
+% FrameMaker users specify the proper paper size for each print job in the
+% "Print" dialog's "Printer Paper Size" "Width" and "Height~ fields.  If the
+% printer that the PS file is sent to does not support the requested paper
+% size, or if there is no paper tray of the proper size currently installed, 
+% then the job will not be printed.  The following flag, if set to true, will
+% cause the job to print on the default paper in such cases.
+/FMAllowPaperSizeMismatch            false def
+%
+% Frame products normally print colors as their true color on a color printer
+% or as shades of gray, based on luminance, on a black-and white printer. The
+% following flag, if set to true, forces all non-white colors to print as pure
+% black. This has no effect on bitmap images.
+/FMPrintAllColorsAsBlack             false def
+%
+% Frame products can either set their own line screens or use a printer's 
+% default settings. Three flags below control this separately for no 
+% separations, spot separations and process separations. If a flag
+% is true, then the default printer settings will not be changed. If it is
+% false, Frame products will use their own settings from a table based on
+% the printer's resolution.
+/FMUseDefaultNoSeparationScreen      true  def
+/FMUseDefaultSpotSeparationScreen    true  def
+/FMUseDefaultProcessSeparationScreen false def
+%
+% For any given PostScript printer resolution, Frame products have two sets of 
+% screen angles and frequencies for printing process separations, which are 
+% recomended by Adobe. The following variable chooses the higher frequencies
+% when set to true or the lower frequencies when set to false. This is only
+% effective if the appropriate FMUseDefault...SeparationScreen flag is false.
+/FMUseHighFrequencyScreens true def
+%
+% The following is a set of predefined optimal frequencies and angles for various
+% common dpi settings. This is taken from "Advances in Color Separation Using
+% PostScript Software Technology," from Adobe Systems (3/13/89 P.N. LPS 0043)
+% and corrolated with information which is in various PPD (4.0) files.
+%
+% The "dpiranges" figure is the minimum dots per inch device resolution which
+% can support this setting. The "low" and "high" values are controlled by the
+% setting of the FMUseHighFrequencyScreens flag above. The "TDot" flags control
+% the use of the "Yellow Triple Dot" feature whereby the frequency id divided by
+% three, but the dot function is "trippled" giving a block of 3x3 dots per cell.
+%
+% PatFreq is a compromise pattern frequency for ps Level 2 printers which is close
+% to the ideal WYSIWYG pattern frequency of 9 repetitions/inch but does not beat
+% (too badly) against the screen frequencies of any separations for that DPI.
+/dpiranges   [  2540    2400    1693     1270    1200     635      600      0      ] def
+/CMLowFreqs  [ 100.402  94.8683 89.2289 100.402  94.8683  66.9349  63.2456 47.4342 ] def
+/YLowFreqs   [  95.25   90.0    84.65    95.25   90.0     70.5556  66.6667 50.0    ] def
+/KLowFreqs   [  89.8026 84.8528 79.8088  89.8026 84.8528  74.8355  70.7107 53.033  ] def
+/CLowAngles  [  71.5651 71.5651 71.5651 71.5651  71.5651  71.5651  71.5651 71.5651 ] def
+/MLowAngles  [  18.4349 18.4349 18.4349 18.4349  18.4349  18.4349  18.4349 18.4349 ] def
+/YLowTDot    [  true    true    false    true    true     false    false   false   ] def
+/CMHighFreqs [ 133.87  126.491 133.843  108.503 102.523  100.402   94.8683 63.2456 ] def
+/YHighFreqs  [ 127.0   120.0   126.975  115.455 109.091   95.25    90.0    60.0    ] def
+/KHighFreqs  [ 119.737 113.137 119.713  128.289 121.218   89.8026  84.8528 63.6395 ] def
+/CHighAngles [  71.5651 71.5651 71.5651  70.0169 70.0169  71.5651  71.5651 71.5651 ] def
+/MHighAngles [  18.4349 18.4349 18.4349  19.9831 19.9831  18.4349  18.4349 18.4349 ] def
+/YHighTDot   [  false   false   true     false   false    true     true    false   ] def
+/PatFreq     [	10.5833 10.0     9.4055  10.5833 10.0	  10.5833  10.0	   9.375   ] def
+%
+% PostScript Level 2 printers contain an "Accurate Screens" feature which can
+% improve process separation rendering at the expense of compute time. This 
+% flag is ignored by PostScript Level 1 printers.
+/FMUseAcccurateScreens true def
+%
+% The following PostScript procedure defines the spot function that Frame
+% products will use for process separations. You may un-comment-out one of
+% the alternative functions below, or use your own.
+%
+% Dot function
+/FMSpotFunction {abs exch abs 2 copy add 1 gt 
+		{1 sub dup mul exch 1 sub dup mul add 1 sub }
+		{dup mul exch dup mul add 1 exch sub }ifelse } def
+%
+% Line function
+% /FMSpotFunction { pop } def
+%
+% Elipse function
+% /FMSpotFunction { dup 5 mul 8 div mul exch dup mul exch add 
+%		sqrt 1 exch sub } def
+%
+%
+/FMversion (5.5) def 
+/fMLevel1 /languagelevel where {pop languagelevel} {1} ifelse 2 lt def
+/FMPColor
+	fMLevel1 {
+		false
+		/colorimage where {pop pop true} if
+	} {
+		true
+	} ifelse
+def
+/FrameDict 400 dict def 
+systemdict /errordict known not {/errordict 10 dict def
+		errordict /rangecheck {stop} put} if
+% The readline in PS 23.0 doesn't recognize cr's as nl's on AppleTalk
+FrameDict /tmprangecheck errordict /rangecheck get put 
+errordict /rangecheck {FrameDict /bug true put} put 
+FrameDict /bug false put 
+mark 
+% Some PS machines read past the CR, so keep the following 3 lines together!
+currentfile 5 string readline
+00
+0000000000
+cleartomark 
+errordict /rangecheck FrameDict /tmprangecheck get put 
+FrameDict /bug get { 
+	/readline {
+		/gstring exch def
+		/gfile exch def
+		/gindex 0 def
+		{
+			gfile read pop 
+			dup 10 eq {exit} if 
+			dup 13 eq {exit} if 
+			gstring exch gindex exch put 
+			/gindex gindex 1 add def 
+		} loop
+		pop 
+		gstring 0 gindex getinterval true 
+		} bind def
+	} if
+/FMshowpage /showpage load def
+/FMquit /quit load def
+/FMFAILURE { 
+	2 copy exch = = flush 
+	FMshowpage 
+	/Helvetica findfont 12 scalefont setfont
+	72 200 moveto show
+	72 220 moveto show
+	FMshowpage 
+	FMquit 
+	} def 
+/FMVERSION {
+	FMversion ne {
+		(Adobe Frame product version does not match ps_prolog!  Check installation;)
+		(also check ~/fminit and ./fminit for old versions) FMFAILURE
+		} if
+	} def 
+/fmConcatProcs
+	{
+	/proc2 exch cvlit def/proc1 exch cvlit def/newproc proc1 length proc2 length add array def
+	newproc 0 proc1 putinterval newproc proc1 length proc2 putinterval newproc cvx
+}def
+FrameDict begin [
+	/ALDsave
+	/FMdicttop
+	/FMoptop
+	/FMpointsize
+	/FMsetsize
+	/FMsaveobject
+	/b
+	/bitmapsave
+	/blut
+	/bpside
+	/bs
+	/bstring
+	/bwidth
+	/c
+	/cf
+	/cs
+	/cynu
+	/depth
+	/edown
+	/fh
+	/fillvals
+	/fw
+	/fx
+	/fy
+	/g
+	/gfile
+	/gindex
+	/grnt
+	/gryt
+	/gstring
+	/height
+	/hh
+	/i
+	/im
+	/indx
+	/is
+	/k
+	/kk
+	/landscape
+	/lb
+	/len
+	/llx
+	/lly
+	/m
+	/magu
+	/manualfeed
+	/n
+	/offbits
+	/onbits
+	/organgle
+	/orgbangle
+	/orgbfreq
+	/orgbproc
+	/orgbxfer
+	/orgfreq
+	/orggangle
+	/orggfreq
+	/orggproc
+	/orggxfer
+	/orghalftone
+	/orgmatrix
+	/orgproc
+	/orgrangle
+	/orgrfreq
+	/orgrproc
+	/orgrxfer
+	/orgxfer
+	/pagesave
+	/paperheight
+	/papersizedict
+	/paperwidth
+	/pos
+	/pwid
+	/r
+	/rad
+	/redt
+	/sl
+	/str
+	/tran
+	/u
+	/urx
+	/ury
+	/val
+	/width
+	/width
+	/ws
+	/ww
+	/x
+	/x1
+	/x2
+	/xindex
+	/xpoint
+	/xscale
+	/xx
+	/y
+	/y1
+	/y2
+	/yelu
+	/yindex
+	/ypoint
+	/yscale
+	/yy
+	/tintGray
+] { 0 def } forall
+/FmBD {bind def} bind def
+systemdict /pdfmark known systemdict /currentdistillerparams known and {
+	/fMAcrobat true def
+	
+	/FmPD /pdfmark load def
+	
+	
+	/FmPT /show load def
+	
+	
+	currentdistillerparams /CoreDistVersion get 2000 ge {
+	
+		
+		/FmPD2 /pdfmark load def
+		
+		
+		
+		
+		
+		/FmPA { mark exch /Dest exch 5 3 roll 
+				/View [ /XYZ null 6 -2 roll FmDC exch pop null] /DEST FmPD 
+		}FmBD
+	} {
+		
+		/FmPD2 /cleartomark load def
+		/FmPA {pop pop pop}FmBD
+	} ifelse
+} {
+	
+	/fMAcrobat false def
+	/FmPD /cleartomark load def
+	/FmPD2 /cleartomark load def
+	/FmPT /pop load def
+	/FmPA {pop pop pop}FmBD
+} ifelse
+/FmDC {
+	transform fMDefaultMatrix defaultmatrix itransform cvi exch cvi exch
+}FmBD
+/FmBx {
+	dup 3 index lt {3 1 roll exch} if 
+	1 index 4 index lt {4 -1 roll 3 1 roll exch 4 1 roll} if
+}FmBD
+/FMnone 0 def
+/FMcyan 1 def
+/FMmagenta 2 def
+/FMyellow 3 def
+/FMblack 4 def
+/FMcustom 5 def
+/fMNegative false def 
+/FrameSepIs FMnone def 
+/FrameSepBlack 0 def
+/FrameSepYellow 0 def
+/FrameSepMagenta 0 def
+/FrameSepCyan 0 def
+/FrameSepRed 1 def
+/FrameSepGreen 1 def
+/FrameSepBlue 1 def
+/FrameCurGray 1 def
+/FrameCurPat null def
+/FrameCurColors [ 0 0 0 1 0 0 0 1] def 
+/FrameColorEpsilon .001 def	
+/eqepsilon {		
+	sub dup 0 lt {neg} if
+	FrameColorEpsilon le
+} bind def
+/FrameCmpColorsCMYK { 
+	2 copy 0 get exch 0 get eqepsilon {
+		2 copy 1 get exch 1 get eqepsilon {
+			2 copy 2 get exch 2 get eqepsilon {
+				3 get exch 3 get eqepsilon
+			} {pop pop false} ifelse
+		}{pop pop false} ifelse
+	} {pop pop false} ifelse
+} bind def
+/FrameCmpColorsRGB { 
+	2 copy 4 get exch 0 get eqepsilon {
+		2 copy 5 get exch 1 get eqepsilon {
+			6 get exch 2 get eqepsilon
+		}{pop pop false} ifelse
+	} {pop pop false} ifelse
+} bind def
+/RGBtoCMYK { 
+	1 exch sub 
+	3 1 roll 
+	1 exch sub 
+	3 1 roll 
+	1 exch sub 
+	3 1 roll 
+	3 copy 
+	2 copy 
+	le { pop } { exch pop } ifelse 
+	2 copy 
+	le { pop } { exch pop } ifelse 
+	dup dup dup 
+	6 1 roll 
+	4 1 roll 
+	7 1 roll 
+	sub 
+	6 1 roll 
+	sub 
+	5 1 roll 
+	sub 
+	4 1 roll 
+} bind def
+/CMYKtoRGB { 
+	dup dup 4 -1 roll add 						  
+	5 1 roll 3 -1 roll add 						  
+	4 1 roll add 								  
+	1 exch sub dup 0 lt {pop 0} if 3 1 roll 	  
+	1 exch sub dup 0 lt {pop 0} if exch 	      
+	1 exch sub dup 0 lt {pop 0} if exch	  		  
+} bind def
+/FrameSepInit {
+	1.0 RealSetgray
+} bind def
+/FrameSetSepColor { 
+	/FrameSepBlue exch def
+	/FrameSepGreen exch def
+	/FrameSepRed exch def
+	/FrameSepBlack exch def
+	/FrameSepYellow exch def
+	/FrameSepMagenta exch def
+	/FrameSepCyan exch def
+	/FrameSepIs FMcustom def
+	setCurrentScreen	
+} bind def
+/FrameSetCyan {
+	/FrameSepBlue 1.0 def
+	/FrameSepGreen 1.0 def
+	/FrameSepRed 0.0 def
+	/FrameSepBlack 0.0 def
+	/FrameSepYellow 0.0 def
+	/FrameSepMagenta 0.0 def
+	/FrameSepCyan 1.0 def
+	/FrameSepIs FMcyan def
+	setCurrentScreen	
+} bind def
+ 
+/FrameSetMagenta {
+	/FrameSepBlue 1.0 def
+	/FrameSepGreen 0.0 def
+	/FrameSepRed 1.0 def
+	/FrameSepBlack 0.0 def
+	/FrameSepYellow 0.0 def
+	/FrameSepMagenta 1.0 def
+	/FrameSepCyan 0.0 def
+	/FrameSepIs FMmagenta def
+	setCurrentScreen
+} bind def
+ 
+/FrameSetYellow {
+	/FrameSepBlue 0.0 def
+	/FrameSepGreen 1.0 def
+	/FrameSepRed 1.0 def
+	/FrameSepBlack 0.0 def
+	/FrameSepYellow 1.0 def
+	/FrameSepMagenta 0.0 def
+	/FrameSepCyan 0.0 def
+	/FrameSepIs FMyellow def
+	setCurrentScreen
+} bind def
+ 
+/FrameSetBlack {
+	/FrameSepBlue 0.0 def
+	/FrameSepGreen 0.0 def
+	/FrameSepRed 0.0 def
+	/FrameSepBlack 1.0 def
+	/FrameSepYellow 0.0 def
+	/FrameSepMagenta 0.0 def
+	/FrameSepCyan 0.0 def
+	/FrameSepIs FMblack def
+	setCurrentScreen
+} bind def
+ 
+/FrameNoSep { 
+	/FrameSepIs FMnone def
+	setCurrentScreen
+} bind def
+/FrameSetSepColors { 
+	FrameDict begin
+	[ exch 1 add 1 roll ]
+	/FrameSepColors  
+	exch def end
+	} bind def
+/FrameColorInSepListCMYK { 
+	FrameSepColors {  
+       		exch dup 3 -1 roll 
+       		FrameCmpColorsCMYK 
+       		{ pop true exit } if
+    	} forall 
+	dup true ne {pop false} if
+	} bind def
+/FrameColorInSepListRGB { 
+	FrameSepColors {  
+       		exch dup 3 -1 roll 
+       		FrameCmpColorsRGB 
+       		{ pop true exit } if
+    	} forall 
+	dup true ne {pop false} if
+	} bind def
+/RealSetgray /setgray load def
+/RealSetrgbcolor /setrgbcolor load def
+/RealSethsbcolor /sethsbcolor load def
+end 
+/setgray { 
+	FrameDict begin
+	FrameSepIs FMnone eq
+		{ RealSetgray } 
+		{ 
+		FrameSepIs FMblack eq 
+			{ RealSetgray } 
+			{ FrameSepIs FMcustom eq 
+			  FrameSepRed 0 eq and
+			  FrameSepGreen 0 eq and
+			  FrameSepBlue 0 eq and {
+			  	RealSetgray
+			  } {
+				1 RealSetgray pop 
+			  } ifelse
+			} ifelse
+		} ifelse
+	end
+} bind def
+/setrgbcolor { 
+	FrameDict begin
+	FrameSepIs FMnone eq
+	{  RealSetrgbcolor }
+	{
+		3 copy [ 4 1 roll ] 
+		FrameColorInSepListRGB
+		{
+				FrameSepBlue eq exch 
+			 	FrameSepGreen eq and exch 
+			 	FrameSepRed eq and
+			 	{ 0 } { 1 } ifelse
+		}
+		{
+			FMPColor {
+				RealSetrgbcolor
+				currentcmykcolor
+			} {
+				RGBtoCMYK
+			} ifelse
+			FrameSepIs FMblack eq
+			{1.0 exch sub 4 1 roll pop pop pop} {
+			FrameSepIs FMyellow eq
+			{pop 1.0 exch sub 3 1 roll pop pop} {
+			FrameSepIs FMmagenta eq
+			{pop pop 1.0 exch sub exch pop } {
+			FrameSepIs FMcyan eq
+			{pop pop pop 1.0 exch sub } 
+			{pop pop pop pop 1} ifelse } ifelse } ifelse } ifelse 
+		} ifelse
+		RealSetgray
+	} 
+	ifelse
+	end
+} bind def
+/sethsbcolor {
+	FrameDict begin
+	FrameSepIs FMnone eq 
+	{ RealSethsbcolor } 
+	{
+		RealSethsbcolor 
+		currentrgbcolor  
+		setrgbcolor 
+	} 
+	ifelse
+	end
+} bind def
+FrameDict begin
+/setcmykcolor where {
+	pop /RealSetcmykcolor /setcmykcolor load def
+} {
+	/RealSetcmykcolor {
+		4 1 roll
+		3 { 3 index add 0 max 1 min 1 exch sub 3 1 roll} repeat 
+		RealSetrgbcolor pop
+	} bind def
+} ifelse
+userdict /setcmykcolor { 
+		FrameDict begin
+		FrameSepIs FMnone eq
+		{ RealSetcmykcolor } 
+		{
+			4 copy [ 5 1 roll ]
+			FrameColorInSepListCMYK
+			{
+				FrameSepBlack eq exch 
+				FrameSepYellow eq and exch 
+				FrameSepMagenta eq and exch 
+				FrameSepCyan eq and 
+				{ 0 } { 1 } ifelse
+			}
+			{
+				FrameSepIs FMblack eq
+				{1.0 exch sub 4 1 roll pop pop pop} {
+				FrameSepIs FMyellow eq
+				{pop 1.0 exch sub 3 1 roll pop pop} {
+				FrameSepIs FMmagenta eq
+				{pop pop 1.0 exch sub exch pop } {
+				FrameSepIs FMcyan eq
+				{pop pop pop 1.0 exch sub } 
+				{pop pop pop pop 1} ifelse } ifelse } ifelse } ifelse 
+			} ifelse
+			RealSetgray
+		}
+		ifelse
+		end
+	} bind put
+fMLevel1 { 
+	
+	
+	
+	/patScreenDict 7 dict dup begin
+		<0f1e3c78f0e1c387> [ 45  { pop } {exch pop} 		.5   2 sqrt] FmBD
+		<0f87c3e1f0783c1e> [ 135 { pop } {exch pop}			.5   2 sqrt] FmBD
+		<cccccccccccccccc> [ 0   { pop } dup				.5   2	   ] FmBD
+		<ffff0000ffff0000> [ 90  { pop } dup				.5   2	   ] FmBD
+		<8142241818244281> [ 45  { 2 copy lt {exch} if pop}	dup .75  2 sqrt] FmBD
+		<03060c183060c081> [ 45  { pop } {exch pop}			.875 2 sqrt] FmBD
+		<8040201008040201> [ 135 { pop } {exch pop}			.875 2 sqrt] FmBD
+	end def
+} { 
+	
+	/patProcDict 5 dict dup begin
+		<0f1e3c78f0e1c387> { 3 setlinewidth -1 -1 moveto 9 9 lineto stroke 
+											4 -4 moveto 12 4 lineto stroke
+											-4 4 moveto 4 12 lineto stroke} bind def
+		<0f87c3e1f0783c1e> { 3 setlinewidth -1 9 moveto 9 -1 lineto stroke 
+											-4 4 moveto 4 -4 lineto stroke
+											4 12 moveto 12 4 lineto stroke} bind def
+		<8142241818244281> { 1 setlinewidth -1 9 moveto 9 -1 lineto stroke
+											-1 -1 moveto 9 9 lineto stroke } bind def
+		<03060c183060c081> { 1 setlinewidth -1 -1 moveto 9 9 lineto stroke 
+											4 -4 moveto 12 4 lineto stroke
+											-4 4 moveto 4 12 lineto stroke} bind def
+		<8040201008040201> { 1 setlinewidth -1 9 moveto 9 -1 lineto stroke 
+											-4 4 moveto 4 -4 lineto stroke
+											4 12 moveto 12 4 lineto stroke} bind def
+	end def
+	/patDict 15 dict dup begin
+		/PatternType 1 def		
+		/PaintType 2 def		
+		/TilingType 3 def		
+		/BBox [ 0 0 8 8 ] def 	
+		/XStep 8 def			
+		/YStep 8 def			
+		/PaintProc {
+			begin
+			patProcDict bstring known {
+				patProcDict bstring get exec
+			} {
+				8 8 true [1 0 0 -1 0 8] bstring imagemask
+			} ifelse
+			end
+		} bind def
+	end def
+} ifelse
+/tintCMYK {
+	1 tintGray sub FrameCurColors 0 4 getinterval aload pop 	
+	4 index mul 5 1 roll										
+	3 index mul 5 1 roll										
+	2 index mul 5 1 roll										
+	mul 4 1 roll												
+}bind def
+/tintRGB {
+	1 tintGray sub FrameCurColors 4 3 getinterval aload pop 	
+	1 exch sub 3 index mul 1 exch sub 4 1 roll					
+	1 exch sub 2 index mul 1 exch sub 4 1 roll					
+	1 exch sub mul 1 exch sub 3 1 roll							
+}bind def
+/combineColor {
+	/tintGray 1 1 FrameCurGray sub FrameCurColors 7 get mul sub def
+    FrameSepIs FMnone eq
+	{
+		graymode fMLevel1 or not {
+			
+			[/Pattern [/DeviceCMYK]] setcolorspace
+			tintCMYK FrameCurPat setcolor
+		} {
+			FrameCurColors 3 get 1.0 ge {
+				tintGray RealSetgray
+			} {
+				fMAcrobat not FMPColor graymode and and {
+					tintCMYK
+					RealSetcmykcolor
+				} {
+					tintRGB
+					RealSetrgbcolor
+				} ifelse
+			} ifelse
+		} ifelse
+	} { 
+		FrameCurColors 0 4 getinterval aload
+		FrameColorInSepListCMYK {
+			FrameSepBlack eq exch 
+			FrameSepYellow eq and exch 
+			FrameSepMagenta eq and exch 
+			FrameSepCyan eq and
+			FrameSepIs FMcustom eq and
+			{ tintGray } { 1 } ifelse
+		} {
+			FrameSepIs FMblack eq
+			{tintGray 1.0 exch sub mul 1.0 exch sub 4 1 roll pop pop pop} {
+			FrameSepIs FMyellow eq
+			{pop tintGray 1.0 exch sub mul 1.0 exch sub 3 1 roll pop pop} {
+			FrameSepIs FMmagenta eq
+			{pop pop tintGray 1.0 exch sub mul 1.0 exch sub exch pop } {
+			FrameSepIs FMcyan eq
+			{pop pop pop tintGray 1.0 exch sub mul 1.0 exch sub } 
+			{pop pop pop pop 1} ifelse } ifelse } ifelse } ifelse 
+		} ifelse
+		graymode fMLevel1 or not {
+			
+			[/Pattern [/DeviceGray]] setcolorspace
+			FrameCurPat setcolor
+		} { 
+			graymode not fMLevel1 and {
+				
+				dup 1 lt {pop FrameCurGray} if
+			} if
+			RealSetgray
+		} ifelse
+	} ifelse
+} bind def
+/savematrix {
+	orgmatrix currentmatrix pop
+	} bind def
+/restorematrix {
+	orgmatrix setmatrix
+	} bind def
+/fMDefaultMatrix matrix def
+/fMatrix2 matrix def
+/dpi    72 0 fMDefaultMatrix defaultmatrix dtransform
+    dup mul exch   dup mul add   sqrt def
+	
+/freq dpi dup 72 div round dup 0 eq {pop 1} if 8 mul div def
+/sangle 1 0 fMDefaultMatrix defaultmatrix dtransform exch atan def
+	sangle fMatrix2 rotate 
+	fMDefaultMatrix defaultmatrix fMatrix2 concatmatrix 
+	dup 0 get /sflipx exch def
+	    3 get /sflipy exch def
+/screenIndex {
+	0 1 dpiranges length 1 sub { dup dpiranges exch get 1 sub dpi le {exit} {pop} ifelse } for
+} bind def
+/getCyanScreen {
+	FMUseHighFrequencyScreens { CHighAngles CMHighFreqs} {CLowAngles CMLowFreqs} ifelse
+		screenIndex dup 3 1 roll get 3 1 roll get /FMSpotFunction load
+} bind def
+/getMagentaScreen {
+	FMUseHighFrequencyScreens { MHighAngles CMHighFreqs } {MLowAngles CMLowFreqs} ifelse
+		screenIndex dup 3 1 roll get 3 1 roll get /FMSpotFunction load
+} bind def
+/getYellowScreen {
+	FMUseHighFrequencyScreens { YHighTDot YHighFreqs} { YLowTDot YLowFreqs } ifelse
+		screenIndex dup 3 1 roll get 3 1 roll get { 3 div
+			{2 { 1 add 2 div 3 mul dup floor sub 2 mul 1 sub exch} repeat
+			FMSpotFunction } } {/FMSpotFunction load } ifelse
+			0.0 exch
+} bind def
+/getBlackScreen  {
+	FMUseHighFrequencyScreens { KHighFreqs } { KLowFreqs } ifelse
+		screenIndex get 45.0 /FMSpotFunction load 
+} bind def
+/getSpotScreen {
+	getBlackScreen
+} bind def
+/getCompositeScreen {
+	getBlackScreen
+} bind def
+/FMSetScreen 
+	fMLevel1 { /setscreen load 
+	}{ {
+		8 dict begin
+		/HalftoneType 1 def
+		/SpotFunction exch def
+		/Angle exch def
+		/Frequency exch def
+		/AccurateScreens FMUseAcccurateScreens def
+		currentdict end sethalftone
+	} bind } ifelse
+def
+/setDefaultScreen {
+	fMLevel1 {
+		FMPColor {
+			orgrxfer cvx orggxfer cvx orgbxfer cvx orgxfer cvx setcolortransfer
+		}
+		{
+			orgxfer cvx settransfer
+		} ifelse
+		orgfreq organgle orgproc cvx setscreen
+	} {
+		orghalftone sethalftone
+	}ifelse
+} bind def
+/setCurrentScreen {
+	FrameSepIs FMnone eq {
+		FMUseDefaultNoSeparationScreen {
+			setDefaultScreen
+		} {
+			getCompositeScreen FMSetScreen
+		} ifelse
+	} {
+		FrameSepIs FMcustom eq {
+			FMUseDefaultSpotSeparationScreen {
+				setDefaultScreen
+			} {
+				getSpotScreen FMSetScreen
+			} ifelse
+		} {
+			FMUseDefaultProcessSeparationScreen {
+				setDefaultScreen
+			} {
+				FrameSepIs FMcyan eq {
+					getCyanScreen FMSetScreen
+				} {
+					FrameSepIs FMmagenta eq {
+						getMagentaScreen FMSetScreen
+					} {
+						FrameSepIs FMyellow eq {
+							getYellowScreen FMSetScreen
+						} {
+							getBlackScreen FMSetScreen
+						} ifelse
+					} ifelse
+				} ifelse
+			} ifelse
+		} ifelse
+	} ifelse 
+} bind def
+end
+	
+/FMDOCUMENT { 
+	array /FMfonts exch def 
+	dup 1 gt {/#copies exch def} {pop} ifelse
+	FrameDict begin
+	0 ne /manualfeed exch def
+	/paperheight exch def
+	/paperwidth exch def
+	0 ne /fMNegative exch def 
+	0 ne /edown exch def 
+	/yscale exch def
+	/xscale exch def
+	fMLevel1 {
+		manualfeed {setmanualfeed} if
+		/FMdicttop countdictstack 1 add def 
+		/FMoptop count def 
+		setpapername 
+		manualfeed {true} {papersize} ifelse 
+		{manualpapersize} {false} ifelse 
+		{desperatepapersize} {false} ifelse 
+		{papersizefailure} if
+		count -1 FMoptop {pop pop} for
+		countdictstack -1 FMdicttop {pop end} for 
+		}
+		{2 dict
+		 dup /PageSize [paperwidth paperheight] put
+		 manualfeed {dup /ManualFeed manualfeed put} if
+		 {setpagedevice} stopped {papersizefailure} if
+		}
+	ifelse 
+	
+	fMLevel1 not {
+		/orghalftone currenthalftone def
+	}if 
+	
+	FMPColor {
+		currentcolorscreen
+			cvlit /orgproc exch def
+				  /organgle exch def 
+				  /orgfreq exch def
+			cvlit /orgbproc exch def
+				  /orgbangle exch def 
+				  /orgbfreq exch def
+			cvlit /orggproc exch def
+				  /orggangle exch def 
+				  /orggfreq exch def
+			cvlit /orgrproc exch def
+				  /orgrangle exch def 
+				  /orgrfreq exch def
+			currentcolortransfer 
+			fMNegative {
+				1 1 4 { 
+					pop { 1 exch sub } fmConcatProcs 4 1 roll
+				} for
+				4 copy
+				setcolortransfer
+			} if
+			cvlit /orgxfer exch def
+			cvlit /orgbxfer exch def
+			cvlit /orggxfer exch def
+			cvlit /orgrxfer exch def
+	} {
+		currentscreen 
+			cvlit /orgproc exch def
+				  /organgle exch def 
+				  /orgfreq exch def
+				  
+		currenttransfer 
+		fMNegative {
+			{ 1 exch sub } fmConcatProcs
+			dup settransfer
+		} if 
+		cvlit /orgxfer exch def
+	} ifelse
+	end 
+} def 
+/FMENDDOCUMENT {
+	FMDocSave restore	
+} def
+/FMBEGINPAGE { 
+	FrameDict begin 
+	/pagesave save def
+	3.86 setmiterlimit
+	0 0 moveto paperwidth 0 lineto paperwidth paperheight lineto 
+	0 paperheight lineto 0 0 lineto 1 setgray fill
+	/landscape exch 0 ne def
+	landscape { 
+		90 rotate 0 exch dup /pwid exch def neg translate pop 
+	}{
+		pop /pwid exch def
+	} ifelse
+	edown { [-1 0 0 1 pwid 0] concat } if
+	xscale yscale scale
+	/orgmatrix matrix def
+	gsave 
+} def 
+/FMENDPAGE {
+	grestore 
+	pagesave restore
+	end 
+	showpage
+	} def 
+/FMFONTDEFINE { 
+	FrameDict begin
+	findfont 
+	ReEncode 
+	1 index exch 
+	definefont 
+	FMfonts 3 1 roll 
+	put
+	end 
+	} def 
+/FMFILLS {
+	FrameDict begin dup
+	array /fillvals exch def
+	dict /patCache exch def
+	end 
+	} def 
+/FMFILL {
+	FrameDict begin
+	 fillvals 3 1 roll put
+	end 
+	} def 
+/FMNORMALIZEGRAPHICS { 
+	newpath
+	1 setlinewidth
+	0 setlinecap
+	0 0 0 sethsbcolor
+	0 setgray 
+	} bind def
+/FMBEGINEPSF { 
+	end 
+	/FMEPSF save def 
+	/showpage {} def 
+	FMNORMALIZEGRAPHICS 
+	[/fy /fx /fh /fw /ury /urx /lly /llx] {exch def} forall 
+	fx fw 2 div add fy fh 2 div add  translate
+	rotate
+	fw 2 div neg fh 2 div neg translate
+	fw urx llx sub div fh ury lly sub div scale 
+	llx neg lly neg translate 
+	/FMdicttop countdictstack 1 add def 
+	/FMoptop count def 
+	} bind def
+/FMENDEPSF {
+	count -1 FMoptop {pop pop} for 
+	countdictstack -1 FMdicttop {pop end} for 
+	FMEPSF restore
+	FrameDict begin 
+	} bind def
+FrameDict begin 
+/setmanualfeed {
+%%BeginFeature: *ManualFeed True
+	 statusdict /manualfeed true put
+%%EndFeature
+	} bind def
+/max {2 copy lt {exch} if pop} bind def
+/min {2 copy gt {exch} if pop} bind def
+/inch {72 mul} def
+/pagedimen { 
+	paperheight sub abs 16 lt exch 
+	paperwidth sub abs 16 lt and
+	{/papername exch def} {pop} ifelse
+	} bind def
+/setpapername { 
+	/papersizedict 14 dict def 
+	papersizedict begin
+	/papername /unknown def 
+		/Letter 8.5 inch 11.0 inch pagedimen
+		/LetterSmall 7.68 inch 10.16 inch pagedimen
+		/Tabloid 11.0 inch 17.0 inch pagedimen
+		/Ledger 17.0 inch 11.0 inch pagedimen
+		/Legal 8.5 inch 14.0 inch pagedimen
+		/Statement 5.5 inch 8.5 inch pagedimen
+		/Executive 7.5 inch 10.0 inch pagedimen
+		/A3 11.69 inch 16.5 inch pagedimen
+		/A4 8.26 inch 11.69 inch pagedimen
+		/A4Small 7.47 inch 10.85 inch pagedimen
+		/B4 10.125 inch 14.33 inch pagedimen
+		/B5 7.16 inch 10.125 inch pagedimen
+	end
+	} bind def
+/papersize {
+	papersizedict begin
+		/Letter {lettertray letter} def
+		/LetterSmall {lettertray lettersmall} def
+		/Tabloid {11x17tray 11x17} def
+		/Ledger {ledgertray ledger} def
+		/Legal {legaltray legal} def
+		/Statement {statementtray statement} def
+		/Executive {executivetray executive} def
+		/A3 {a3tray a3} def
+		/A4 {a4tray a4} def
+		/A4Small {a4tray a4small} def
+		/B4 {b4tray b4} def
+		/B5 {b5tray b5} def
+		/unknown {unknown} def
+	papersizedict dup papername known {papername} {/unknown} ifelse get
+	end
+	statusdict begin stopped end 
+	} bind def
+/manualpapersize {
+	papersizedict begin
+		/Letter {letter} def
+		/LetterSmall {lettersmall} def
+		/Tabloid {11x17} def
+		/Ledger {ledger} def
+		/Legal {legal} def
+		/Statement {statement} def
+		/Executive {executive} def
+		/A3 {a3} def
+		/A4 {a4} def
+		/A4Small {a4small} def
+		/B4 {b4} def
+		/B5 {b5} def
+		/unknown {unknown} def
+	papersizedict dup papername known {papername} {/unknown} ifelse get
+	end
+	stopped 
+	} bind def
+/desperatepapersize {
+	
+	mark
+	statusdict begin 
+		/setpageparams where {
+			pop
+			paperwidth paperheight 0 1 
+			{setpageparams} stopped 
+		} { 
+			true 
+		} ifelse
+		
+		{
+			
+			/setpagedevice where {
+				pop 
+				1 dict dup begin
+					/PageSize [ paperwidth paperheight ] def
+				end 
+				{setpagedevice} stopped
+			} {
+				true	
+			} ifelse
+		} {
+			false		
+		} ifelse 
+	end
+	{cleartomark true}{cleartomark false}ifelse
+} bind def
+/papersizefailure {
+	FMAllowPaperSizeMismatch not
+		{
+(The requested paper size is not available in any currently-installed tray)
+(Edit the PS file to "FMAllowPaperSizeMismatch true" to use default tray)
+		 FMFAILURE } if
+	} def
+/DiacriticEncoding [
+/.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef
+/.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef
+/.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef
+/.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef
+/.notdef /.notdef /.notdef /.notdef /space /exclam /quotedbl
+/numbersign /dollar /percent /ampersand /quotesingle /parenleft
+/parenright /asterisk /plus /comma /hyphen /period /slash /zero /one
+/two /three /four /five /six /seven /eight /nine /colon /semicolon
+/less /equal /greater /question /at /A /B /C /D /E /F /G /H /I /J /K
+/L /M /N /O /P /Q /R /S /T /U /V /W /X /Y /Z /bracketleft /backslash
+/bracketright /asciicircum /underscore /grave /a /b /c /d /e /f /g /h
+/i /j /k /l /m /n /o /p /q /r /s /t /u /v /w /x /y /z /braceleft /bar
+/braceright /asciitilde /.notdef /Adieresis /Aring /Ccedilla /Eacute
+/Ntilde /Odieresis /Udieresis /aacute /agrave /acircumflex /adieresis
+/atilde /aring /ccedilla /eacute /egrave /ecircumflex /edieresis
+/iacute /igrave /icircumflex /idieresis /ntilde /oacute /ograve
+/ocircumflex /odieresis /otilde /uacute /ugrave /ucircumflex
+/udieresis /dagger /.notdef /cent /sterling /section /bullet
+/paragraph /germandbls /registered /copyright /trademark /acute
+/dieresis /.notdef /AE /Oslash /.notdef /.notdef /.notdef /.notdef
+/yen /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef
+/ordfeminine /ordmasculine /.notdef /ae /oslash /questiondown
+/exclamdown /logicalnot /.notdef /florin /.notdef /.notdef
+/guillemotleft /guillemotright /ellipsis /.notdef /Agrave /Atilde
+/Otilde /OE /oe /endash /emdash /quotedblleft /quotedblright
+/quoteleft /quoteright /.notdef /.notdef /ydieresis /Ydieresis
+/fraction /currency /guilsinglleft /guilsinglright /fi /fl /daggerdbl
+/periodcentered /quotesinglbase /quotedblbase /perthousand
+/Acircumflex /Ecircumflex /Aacute /Edieresis /Egrave /Iacute
+/Icircumflex /Idieresis /Igrave /Oacute /Ocircumflex /.notdef /Ograve
+/Uacute /Ucircumflex /Ugrave /dotlessi /circumflex /tilde /macron
+/breve /dotaccent /ring /cedilla /hungarumlaut /ogonek /caron
+] def
+/ReEncode { 
+	dup 
+	length 
+	dict begin 
+	{
+	1 index /FID ne 
+		{def} 
+		{pop pop} ifelse 
+	} forall 
+	0 eq {/Encoding DiacriticEncoding def} if 
+	currentdict 
+	end 
+	} bind def
+FMPColor 
+	
+	{
+	/BEGINBITMAPCOLOR { 
+		BITMAPCOLOR} def
+	/BEGINBITMAPCOLORc { 
+		BITMAPCOLORc} def
+	/BEGINBITMAPTRUECOLOR { 
+		BITMAPTRUECOLOR } def
+	/BEGINBITMAPTRUECOLORc { 
+		BITMAPTRUECOLORc } def
+	/BEGINBITMAPCMYK { 
+		BITMAPCMYK } def
+	/BEGINBITMAPCMYKc { 
+		BITMAPCMYKc } def
+	}
+	
+	{
+	/BEGINBITMAPCOLOR { 
+		BITMAPGRAY} def
+	/BEGINBITMAPCOLORc { 
+		BITMAPGRAYc} def
+	/BEGINBITMAPTRUECOLOR { 
+		BITMAPTRUEGRAY } def
+	/BEGINBITMAPTRUECOLORc { 
+		BITMAPTRUEGRAYc } def
+	/BEGINBITMAPCMYK { 
+		BITMAPCMYKGRAY } def
+	/BEGINBITMAPCMYKc { 
+		BITMAPCMYKGRAYc } def
+	}
+ifelse
+/K { 
+	FMPrintAllColorsAsBlack {
+		8 1 roll
+		dup 1 eq 2 index 1 eq and 3 index 1 eq and not
+			{7 {pop} repeat 0 0 0 1 0 0 0} if
+		8 -1 roll
+	} if 
+	FrameCurColors astore 
+	pop combineColor
+} bind def
+/graymode true def
+fMLevel1 {
+	/fmGetFlip {
+		fMatrix2 exch get mul 0 lt { -1 } { 1 } ifelse
+	} FmBD
+} if
+/setPatternMode {
+	fMLevel1 {
+		2 index patScreenDict exch known {
+			pop pop
+			patScreenDict exch get aload pop 
+			freq 								
+			mul									
+			5 2 roll							
+			fMatrix2 currentmatrix 1 get 0 ne {
+				3 -1 roll 90 add 3 1 roll 		
+				sflipx 1 fmGetFlip sflipy 2 fmGetFlip neg mul
+			} {  								
+				sflipx 0 fmGetFlip sflipy 3 fmGetFlip mul 
+			} ifelse
+			0 lt {exch pop} {pop} ifelse 		
+			fMNegative { 
+				{neg} fmConcatProcs 			
+			} if
+			bind
+			
+			
+			
+			systemdict /setscreen get exec		
+			/FrameCurGray exch def
+		} {
+			/bwidth  exch def
+			/bpside  exch def
+			/bstring exch def
+			/onbits 0 def  /offbits 0 def
+			freq sangle landscape {90 add} if 
+				{/ypoint exch def
+				 /xpoint exch def
+				 /xindex xpoint 1 add 2 div bpside mul cvi def
+				 /yindex ypoint 1 add 2 div bpside mul cvi def
+				 bstring yindex bwidth mul xindex 8 idiv add get
+				 1 7 xindex 8 mod sub bitshift and 0 ne fMNegative {not} if
+				 {/onbits  onbits  1 add def 1}
+				 {/offbits offbits 1 add def 0}
+				 ifelse
+				}
+				setscreen
+			offbits offbits onbits add dup 0 ne {div} {pop pop .5} ifelse fMNegative {1.0 exch sub} if
+			/FrameCurGray exch def
+		} ifelse
+	} { 
+		pop pop
+		dup patCache exch known {
+			patCache exch get
+		} { 
+			dup
+			patDict /bstring 3 -1 roll put
+			patDict 
+			9 PatFreq screenIndex get div dup matrix scale
+			makepattern
+			dup 
+			patCache 4 -1 roll 3 -1 roll put
+		} ifelse
+		/FrameCurGray 0 def
+		/FrameCurPat exch def
+	} ifelse
+	/graymode false def
+	combineColor
+} bind def
+/setGrayScaleMode {
+	graymode not {
+		/graymode true def
+		fMLevel1 {
+			setCurrentScreen
+		} if
+	} if
+	/FrameCurGray exch def
+	combineColor
+} bind def
+/normalize {
+	transform round exch round exch itransform
+	} bind def
+/dnormalize {
+	dtransform round exch round exch idtransform
+	} bind def
+/lnormalize { 
+	0 dtransform exch cvi 2 idiv 2 mul 1 add exch idtransform pop
+	} bind def
+/H { 
+	lnormalize setlinewidth
+	} bind def
+/Z {
+	setlinecap
+	} bind def
+	
+/PFill {
+	graymode fMLevel1 or not {
+		gsave 1 setgray eofill grestore
+	} if
+} bind def
+/PStroke {
+	graymode fMLevel1 or not {
+		gsave 1 setgray stroke grestore
+	} if
+	stroke
+} bind def
+/X { 
+	fillvals exch get
+	dup type /stringtype eq
+	{8 1 setPatternMode} 
+	{setGrayScaleMode}
+	ifelse
+	} bind def
+/V { 
+	PFill gsave eofill grestore
+	} bind def
+/Vclip {
+	clip
+	} bind def
+/Vstrk {
+	currentlinewidth exch setlinewidth PStroke setlinewidth
+	} bind def
+/N { 
+	PStroke
+	} bind def
+/Nclip {
+	strokepath clip newpath
+	} bind def
+/Nstrk {
+	currentlinewidth exch setlinewidth PStroke setlinewidth
+	} bind def
+/M {newpath moveto} bind def
+/E {lineto} bind def
+/D {curveto} bind def
+/O {closepath} bind def
+/L { 
+ 	/n exch def
+	newpath
+	normalize
+	moveto 
+	2 1 n {pop normalize lineto} for
+	} bind def
+/Y { 
+	L 
+	closepath
+	} bind def
+/R { 
+	/y2 exch def
+	/x2 exch def
+	/y1 exch def
+	/x1 exch def
+	x1 y1
+	x2 y1
+	x2 y2
+	x1 y2
+	4 Y 
+	} bind def
+/rarc 
+	{rad 
+	 arcto
+	} bind def
+/RR { 
+	/rad exch def
+	normalize
+	/y2 exch def
+	/x2 exch def
+	normalize
+	/y1 exch def
+	/x1 exch def
+	mark
+	newpath
+	{
+	x1 y1 rad add moveto
+	x1 y2 x2 y2 rarc
+	x2 y2 x2 y1 rarc
+	x2 y1 x1 y1 rarc
+	x1 y1 x1 y2 rarc
+	closepath
+	} stopped {x1 y1 x2 y2 R} if 
+	cleartomark
+	} bind def
+/RRR { 
+	/rad exch def
+	normalize /y4 exch def /x4 exch def
+	normalize /y3 exch def /x3 exch def
+	normalize /y2 exch def /x2 exch def
+	normalize /y1 exch def /x1 exch def
+	newpath
+	normalize moveto 
+	mark
+	{
+	x2 y2 x3 y3 rarc
+	x3 y3 x4 y4 rarc
+	x4 y4 x1 y1 rarc
+	x1 y1 x2 y2 rarc
+	closepath
+	} stopped
+	 {x1 y1 x2 y2 x3 y3 x4 y4 newpath moveto lineto lineto lineto closepath} if
+	cleartomark
+	} bind def
+/C { 
+	grestore
+	gsave
+	R 
+	clip
+	setCurrentScreen
+} bind def
+/CP { 
+	grestore
+	gsave
+	Y 
+	clip
+	setCurrentScreen
+} bind def
+/F { 
+	FMfonts exch get
+	[FMsetsize 0 0 FMpointsize 0 0] makefont
+	setfont
+	} bind def
+/Q { 
+	/FMpointsize exch def
+	/FMsetsize FMpointsize def
+	F 
+	} bind def
+/QQ { 
+	/FMsetsize exch def
+	/FMpointsize exch def
+	F 
+	} bind def
+/T { 
+	moveto show
+	} bind def
+/RF { 
+	rotate
+	0 ne {-1 1 scale} if
+	} bind def
+/TF { 
+	gsave
+	moveto 
+	RF
+	show
+	grestore
+	} bind def
+/P { 
+	moveto
+	0 32 3 2 roll widthshow
+	} bind def
+/PF { 
+	gsave
+	moveto 
+	RF
+	0 32 3 2 roll widthshow
+	grestore
+	} bind def
+/S { 
+	moveto
+	0 exch ashow
+	} bind def
+/SF { 
+	gsave
+	moveto
+	RF
+	0 exch ashow
+	grestore
+	} bind def
+/B { 
+	moveto
+	0 32 4 2 roll 0 exch awidthshow
+	} bind def
+/BF { 
+	gsave
+	moveto
+	RF
+	0 32 4 2 roll 0 exch awidthshow
+	grestore
+	} bind def
+/G { 
+	gsave
+	newpath
+	normalize translate 0.0 0.0 moveto 
+	dnormalize scale 
+	0.0 0.0 1.0 5 3 roll arc 
+	closepath 
+	PFill fill
+	grestore
+	} bind def
+/Gstrk {
+	savematrix
+    newpath
+    2 index 2 div add exch 3 index 2 div sub exch 
+    normalize 2 index 2 div sub exch 3 index 2 div add exch 
+    translate
+    scale 
+    0.0 0.0 1.0 5 3 roll arc 
+    restorematrix
+    currentlinewidth exch setlinewidth PStroke setlinewidth
+    } bind def
+/Gclip { 
+	newpath
+	savematrix
+	normalize translate 0.0 0.0 moveto 
+	dnormalize scale 
+	0.0 0.0 1.0 5 3 roll arc 
+	closepath 
+	clip newpath
+	restorematrix
+	} bind def
+/GG { 
+	gsave
+	newpath
+	normalize translate 0.0 0.0 moveto 
+	rotate 
+	dnormalize scale 
+	0.0 0.0 1.0 5 3 roll arc 
+	closepath
+	PFill
+	fill
+	grestore
+	} bind def
+/GGclip { 
+	savematrix
+	newpath
+    normalize translate 0.0 0.0 moveto 
+    rotate 
+    dnormalize scale 
+    0.0 0.0 1.0 5 3 roll arc 
+    closepath
+	clip newpath
+	restorematrix
+	} bind def
+/GGstrk { 
+	savematrix
+    newpath
+    normalize translate 0.0 0.0 moveto 
+    rotate 
+    dnormalize scale 
+    0.0 0.0 1.0 5 3 roll arc 
+    closepath 
+	restorematrix
+    currentlinewidth exch setlinewidth PStroke setlinewidth
+	} bind def
+/A { 
+	gsave
+	savematrix
+	newpath
+	2 index 2 div add exch 3 index 2 div sub exch 
+	normalize 2 index 2 div sub exch 3 index 2 div add exch 
+	translate 
+	scale 
+	2 copy 0.0 0.0 1.0 5 3 roll arc 
+	round cvi 360 mod exch round cvi 360 mod eq {closepath} if 
+	restorematrix
+	PStroke
+	grestore
+	} bind def
+/Aclip {
+	newpath
+	savematrix
+	normalize translate 0.0 0.0 moveto 
+	dnormalize scale 
+	0.0 0.0 1.0 5 3 roll arc 
+	closepath 
+	strokepath clip newpath
+	restorematrix
+} bind def
+/Astrk {
+	Gstrk
+} bind def
+/AA { 
+	gsave
+	savematrix
+	newpath
+	
+	3 index 2 div add exch 4 index 2 div sub exch 
+	
+	normalize 3 index 2 div sub exch 4 index 2 div add exch
+	translate 
+	rotate 
+	scale 
+	0.0 0.0 1.0 5 3 roll arc 
+	restorematrix
+	PStroke
+	grestore
+	} bind def
+/AAclip {
+	savematrix
+	newpath
+    normalize translate 0.0 0.0 moveto 
+    rotate 
+    dnormalize scale 
+    0.0 0.0 1.0 5 3 roll arc 
+    closepath
+	strokepath clip newpath
+	restorematrix
+} bind def
+/AAstrk {
+	GGstrk
+} bind def
+/BEGINPRINTCODE { 
+	/FMdicttop countdictstack 1 add def 
+	/FMoptop count 7 sub def 
+	/FMsaveobject save def
+	userdict begin 
+	/showpage {} def 
+	FMNORMALIZEGRAPHICS 
+	3 index neg 3 index neg translate
+	} bind def
+/ENDPRINTCODE {
+	count -1 FMoptop {pop pop} for 
+	countdictstack -1 FMdicttop {pop end} for 
+	FMsaveobject restore 
+	} bind def
+/gn { 
+	0 
+	{	46 mul 
+		cf read pop 
+		32 sub 
+		dup 46 lt {exit} if 
+		46 sub add 
+		} loop
+	add 
+	} bind def
+/cfs { 
+	/str sl string def 
+	0 1 sl 1 sub {str exch val put} for 
+	str def 
+	} bind def
+/ic [ 
+	0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0223
+	0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0223
+	0
+	{0 hx} {1 hx} {2 hx} {3 hx} {4 hx} {5 hx} {6 hx} {7 hx} {8 hx} {9 hx}
+	{10 hx} {11 hx} {12 hx} {13 hx} {14 hx} {15 hx} {16 hx} {17 hx} {18 hx}
+	{19 hx} {gn hx} {0} {1} {2} {3} {4} {5} {6} {7} {8} {9} {10} {11} {12}
+	{13} {14} {15} {16} {17} {18} {19} {gn} {0 wh} {1 wh} {2 wh} {3 wh}
+	{4 wh} {5 wh} {6 wh} {7 wh} {8 wh} {9 wh} {10 wh} {11 wh} {12 wh}
+	{13 wh} {14 wh} {gn wh} {0 bl} {1 bl} {2 bl} {3 bl} {4 bl} {5 bl} {6 bl}
+	{7 bl} {8 bl} {9 bl} {10 bl} {11 bl} {12 bl} {13 bl} {14 bl} {gn bl}
+	{0 fl} {1 fl} {2 fl} {3 fl} {4 fl} {5 fl} {6 fl} {7 fl} {8 fl} {9 fl}
+	{10 fl} {11 fl} {12 fl} {13 fl} {14 fl} {gn fl}
+	] def
+/ms { 
+	/sl exch def 
+	/val 255 def 
+	/ws cfs 
+	/im cfs 
+	/val 0 def 
+	/bs cfs 
+	/cs cfs 
+	} bind def
+400 ms 
+/ip { 
+	is 
+	0 
+	cf cs readline pop 
+	{	ic exch get exec 
+		add 
+		} forall 
+	pop 
+	
+	} bind def
+/rip { 
+	   
+	  
+	  bis ris copy pop 
+      is
+      0
+      cf cs readline pop 
+      {       ic exch get exec 
+              add 
+              } forall 
+	  pop pop 
+	  ris gis copy pop 
+	  dup is exch 
+	  
+      cf cs readline pop 
+      {       ic exch get exec 
+              add 
+              } forall 
+	  pop pop
+	  gis bis copy pop 
+	  dup add is exch 
+	  
+      cf cs readline pop 
+      {       ic exch get exec 
+              add 
+              } forall 
+      pop 
+      
+      } bind def
+/rip4 { 
+	   
+	  
+	  kis cis copy pop 
+      is
+      0
+      cf cs readline pop 
+      {       ic exch get exec 
+              add 
+              } forall 
+	  pop pop 
+	  cis mis copy pop 
+	  dup is exch 
+	  
+      cf cs readline pop 
+      {       ic exch get exec 
+              add 
+              } forall 
+	  pop pop
+	  mis yis copy pop 
+	  dup dup add is exch 
+	  
+      cf cs readline pop 
+      {       ic exch get exec 
+              add 
+              } forall 
+	  pop pop
+	  yis kis copy pop 
+	  3 mul is exch 
+	  
+      cf cs readline pop 
+      {       ic exch get exec 
+              add 
+              } forall 
+      pop 
+      
+      } bind def
+/wh { 
+	/len exch def 
+	/pos exch def 
+	ws 0 len getinterval im pos len getinterval copy pop
+	pos len 
+	} bind def
+/bl { 
+	/len exch def 
+	/pos exch def 
+	bs 0 len getinterval im pos len getinterval copy pop
+	pos len 
+	} bind def
+/s1 1 string def
+/fl { 
+	/len exch def 
+	/pos exch def 
+	/val cf s1 readhexstring pop 0 get def
+	pos 1 pos len add 1 sub {im exch val put} for
+	pos len 
+	} bind def
+/hx { 
+	3 copy getinterval 
+	cf exch readhexstring pop pop 
+	} bind def
+/wbytes { 
+      dup dup
+      8 gt { pop 8 idiv mul }
+      { 8 eq {pop} {1 eq {7 add 8 idiv} {3 add 4 idiv} ifelse} ifelse } ifelse
+	} bind def
+/BEGINBITMAPBWc { 
+	1 {} COMMONBITMAPc
+	} bind def
+/BEGINBITMAPGRAYc { 
+	8 {} COMMONBITMAPc
+	} bind def
+/BEGINBITMAP2BITc { 
+	2 {} COMMONBITMAPc
+	} bind def
+/COMMONBITMAPc { 
+		 
+	/cvtProc exch def
+	/depth exch def
+	gsave
+	
+	3 index 2 div add exch	
+	4 index 2 div add exch	
+	translate		
+	rotate			
+	1 index 2 div neg	
+	1 index 2 div neg	
+	translate		
+	scale			
+	/height exch def /width exch def
+	/lb width depth wbytes def 
+	sl lb lt {lb ms} if 
+	/bitmapsave save def 
+	cvtProc                
+	/is im 0 lb getinterval def 
+	ws 0 lb getinterval is copy pop 
+	/cf currentfile def 
+	width height depth [width 0 0 height neg 0 height] 
+	{ip} image 
+	bitmapsave restore 
+	grestore
+	} bind def
+/BEGINBITMAPBW { 
+	1 {} COMMONBITMAP
+	} bind def
+/BEGINBITMAPGRAY { 
+	8 {} COMMONBITMAP
+	} bind def
+/BEGINBITMAP2BIT { 
+	2 {} COMMONBITMAP
+	} bind def
+/COMMONBITMAP { 
+	/cvtProc exch def
+	/depth exch def
+	gsave
+	
+	3 index 2 div add exch	
+	4 index 2 div add exch	
+	translate		
+	rotate			
+	1 index 2 div neg	
+	1 index 2 div neg	
+	translate		
+	scale			
+	/height exch def /width exch def
+	/bitmapsave save def 
+	cvtProc              
+	/is width depth wbytes string def
+	/cf currentfile def 
+	width height depth [width 0 0 height neg 0 height] 
+	{cf is readhexstring pop} image
+	bitmapsave restore 
+	grestore
+	} bind def
+/ngrayt 256 array def
+/nredt 256 array def
+/nbluet 256 array def
+/ngreent 256 array def
+fMLevel1 {
+/colorsetup {
+	currentcolortransfer
+	/gryt exch def
+	/blut exch def
+	/grnt exch def
+	/redt exch def
+	0 1 255 {
+		/indx exch def
+		/cynu 1 red indx get 255 div sub def
+		/magu 1 green indx get 255 div sub def
+		/yelu 1 blue indx get 255 div sub def
+		/kk cynu magu min yelu min def
+		/u kk currentundercolorremoval exec def
+%		/u 0 def
+		nredt indx 1 0 cynu u sub max sub redt exec put
+		ngreent indx 1 0 magu u sub max sub grnt exec put
+		nbluet indx 1 0 yelu u sub max sub blut exec put
+		ngrayt indx 1 kk currentblackgeneration exec sub gryt exec put
+	} for
+	{255 mul cvi nredt exch get}
+	{255 mul cvi ngreent exch get}
+	{255 mul cvi nbluet exch get}
+	{255 mul cvi ngrayt exch get}
+	setcolortransfer
+	{pop 0} setundercolorremoval
+	{} setblackgeneration
+	} bind def
+}
+{
+/colorSetup2 {
+	[ /Indexed /DeviceRGB 255 
+		{dup red exch get 255 div 
+		 exch dup green exch get 255 div 
+		 exch blue exch get 255 div}
+	] setcolorspace
+} bind def
+} ifelse
+/fakecolorsetup {
+	/tran 256 string def
+	0 1 255 {/indx exch def 
+		tran indx
+		red indx get 77 mul
+		green indx get 151 mul
+		blue indx get 28 mul
+		add add 256 idiv put} for
+	currenttransfer
+	{255 mul cvi tran exch get 255.0 div}
+	exch fmConcatProcs settransfer
+} bind def
+/BITMAPCOLOR { 
+	/depth 8 def
+	gsave
+	
+	3 index 2 div add exch	
+	4 index 2 div add exch	
+	translate		
+	rotate			
+	1 index 2 div neg	
+	1 index 2 div neg	
+	translate		
+	scale			
+	/height exch def /width exch def
+	/bitmapsave save def
+	fMLevel1 {	
+		colorsetup
+		/is width depth wbytes string def
+		/cf currentfile def 
+		width height depth [width 0 0 height neg 0 height] 
+		{cf is readhexstring pop} {is} {is} true 3 colorimage 
+	} {
+		colorSetup2
+		/is width depth wbytes string def
+		/cf currentfile def 
+		7 dict dup begin
+			/ImageType 1 def
+			/Width width def
+			/Height height def
+			/ImageMatrix [width 0 0 height neg 0 height] def
+			/DataSource {cf is readhexstring pop} bind def
+			/BitsPerComponent depth def
+			/Decode [0 255] def
+		end image	
+	} ifelse
+	bitmapsave restore 
+	grestore
+	} bind def
+/BITMAPCOLORc { 
+	/depth 8 def
+	gsave
+	
+	3 index 2 div add exch	
+	4 index 2 div add exch	
+	translate		
+	rotate			
+	1 index 2 div neg	
+	1 index 2 div neg	
+	translate		
+	scale			
+	/height exch def /width exch def
+	/lb width depth wbytes def 
+	sl lb lt {lb ms} if 
+	/bitmapsave save def 
+	fMLevel1 {	
+		colorsetup
+		/is im 0 lb getinterval def 
+		ws 0 lb getinterval is copy pop 
+		/cf currentfile def 
+		width height depth [width 0 0 height neg 0 height] 
+		{ip} {is} {is} true 3 colorimage
+	} {
+		colorSetup2
+		/is im 0 lb getinterval def 
+		ws 0 lb getinterval is copy pop 
+		/cf currentfile def 
+		7 dict dup begin
+			/ImageType 1 def
+			/Width width def
+			/Height height def
+			/ImageMatrix [width 0 0 height neg 0 height] def
+			/DataSource {ip} bind def
+			/BitsPerComponent depth def
+			/Decode [0 255] def
+		end image	
+	} ifelse
+	bitmapsave restore 
+	grestore
+	} bind def
+/BITMAPTRUECOLORc { 
+	/depth 24 def
+        gsave
+ 	
+	3 index 2 div add exch	
+	4 index 2 div add exch	
+	translate		
+	rotate			
+	1 index 2 div neg	
+	1 index 2 div neg	
+	translate		
+	scale			
+	/height exch def /width exch def
+	/lb width depth wbytes def 
+	sl lb lt {lb ms} if 
+	/bitmapsave save def 
+        
+	/is im 0 lb getinterval def	
+	/ris im 0 width getinterval def	
+	/gis im width width getinterval def	
+	/bis im width 2 mul width getinterval def 
+        
+	ws 0 lb getinterval is copy pop 
+	/cf currentfile def 
+	width height 8 [width 0 0 height neg 0 height] 
+	{width rip pop ris} {gis} {bis} true 3 colorimage
+	bitmapsave restore 
+	grestore
+	} bind def
+/BITMAPCMYKc { 
+	/depth 32 def
+        gsave
+ 	
+	3 index 2 div add exch	
+	4 index 2 div add exch	
+	translate		
+	rotate			
+	1 index 2 div neg	
+	1 index 2 div neg	
+	translate		
+	scale			
+	/height exch def /width exch def
+	/lb width depth wbytes def 
+	sl lb lt {lb ms} if 
+	/bitmapsave save def 
+        
+	/is im 0 lb getinterval def	
+	/cis im 0 width getinterval def	
+	/mis im width width getinterval def	
+	/yis im width 2 mul width getinterval def 
+	/kis im width 3 mul width getinterval def 
+        
+	ws 0 lb getinterval is copy pop 
+	/cf currentfile def 
+	width height 8 [width 0 0 height neg 0 height] 
+	{width rip4 pop cis} {mis} {yis} {kis} true 4 colorimage
+	bitmapsave restore 
+	grestore
+	} bind def
+/BITMAPTRUECOLOR { 
+        gsave
+		
+		3 index 2 div add exch	
+		4 index 2 div add exch	
+		translate		
+		rotate			
+		1 index 2 div neg	
+		1 index 2 div neg	
+		translate		
+		scale			
+		/height exch def /width exch def
+        /bitmapsave save def 
+        /is width string def
+        /gis width string def
+        /bis width string def
+        /cf currentfile def 
+        width height 8 [width 0 0 height neg 0 height] 
+        { cf is readhexstring pop } 
+        { cf gis readhexstring pop } 
+        { cf bis readhexstring pop } 
+        true 3 colorimage 
+        bitmapsave restore 
+        grestore
+        } bind def
+/BITMAPCMYK { 
+        gsave
+		
+		3 index 2 div add exch	
+		4 index 2 div add exch	
+		translate		
+		rotate			
+		1 index 2 div neg	
+		1 index 2 div neg	
+		translate		
+		scale			
+		/height exch def /width exch def
+        /bitmapsave save def 
+        /is width string def
+        /mis width string def
+        /yis width string def
+        /kis width string def
+        /cf currentfile def 
+        width height 8 [width 0 0 height neg 0 height] 
+        { cf is readhexstring pop } 
+        { cf mis readhexstring pop } 
+        { cf yis readhexstring pop } 
+        { cf kis readhexstring pop } 
+        true 4 colorimage 
+        bitmapsave restore 
+        grestore
+        } bind def
+/BITMAPTRUEGRAYc { 
+	/depth 24 def
+        gsave
+	
+	3 index 2 div add exch	
+	4 index 2 div add exch	
+	translate		
+	rotate			
+	1 index 2 div neg	
+	1 index 2 div neg	
+	translate		
+	scale			
+	/height exch def /width exch def
+	/lb width depth wbytes def 
+	sl lb lt {lb ms} if 
+        /bitmapsave save def 
+        
+	/is im 0 lb getinterval def	
+	/ris im 0 width getinterval def	
+	/gis im width width getinterval def	
+	/bis im width 2 mul width getinterval def 
+        ws 0 lb getinterval is copy pop 
+        /cf currentfile def 
+        width height 8 [width 0 0 height neg 0 height] 
+        {width rip pop ris gis bis width gray} image
+        bitmapsave restore 
+        grestore
+        } bind def
+/BITMAPCMYKGRAYc { 
+	/depth 32 def
+        gsave
+	
+	3 index 2 div add exch	
+	4 index 2 div add exch	
+	translate		
+	rotate			
+	1 index 2 div neg	
+	1 index 2 div neg	
+	translate		
+	scale			
+	/height exch def /width exch def
+	/lb width depth wbytes def 
+	sl lb lt {lb ms} if 
+        /bitmapsave save def 
+        
+	/is im 0 lb getinterval def	
+	/cis im 0 width getinterval def	
+	/mis im width width getinterval def	
+	/yis im width 2 mul width getinterval def 
+	/kis im width 3 mul width getinterval def 
+        ws 0 lb getinterval is copy pop 
+        /cf currentfile def 
+        width height 8 [width 0 0 height neg 0 height] 
+        {width rip pop cis mis yis kis width cgray} image
+        bitmapsave restore 
+        grestore
+        } bind def
+/cgray { 
+        /ww exch def
+        /k exch def
+        /y exch def
+        /m exch def
+        /c exch def
+        0 1 ww 1 sub { /i exch def c i get m i get y i get k i get CMYKtoRGB
+				.144 mul 3 1 roll .587 mul 3 1 roll .299 mul add add
+				c i 3 -1 roll floor cvi put } for
+        c
+ 		} bind def
+/gray { 
+        /ww exch def
+        /b exch def
+        /g exch def
+        /r exch def
+        0 1 ww 1 sub { /i exch def r i get .299 mul g i get .587 mul
+			b i get .114 mul add add r i 3 -1 roll floor cvi put } for
+        r
+        } bind def
+/BITMAPTRUEGRAY { 
+        gsave
+		
+		3 index 2 div add exch	
+		4 index 2 div add exch	
+		translate		
+		rotate			
+		1 index 2 div neg	
+		1 index 2 div neg	
+		translate		
+		scale			
+		/height exch def /width exch def
+        /bitmapsave save def 
+        /is width string def
+        /gis width string def
+        /bis width string def
+        /cf currentfile def 
+        width height 8 [width 0 0 height neg 0 height] 
+        { cf is readhexstring pop 
+          cf gis readhexstring pop 
+          cf bis readhexstring pop width gray}  image
+        bitmapsave restore 
+        grestore
+        } bind def
+/BITMAPCMYKGRAY { 
+        gsave
+		
+		3 index 2 div add exch	
+		4 index 2 div add exch	
+		translate		
+		rotate			
+		1 index 2 div neg	
+		1 index 2 div neg	
+		translate		
+		scale			
+		/height exch def /width exch def
+        /bitmapsave save def 
+        /is width string def
+        /yis width string def
+        /mis width string def
+        /kis width string def
+        /cf currentfile def 
+        width height 8 [width 0 0 height neg 0 height] 
+        { cf is readhexstring pop 
+          cf mis readhexstring pop 
+          cf yis readhexstring pop 
+          cf kis readhexstring pop width cgray}  image
+        bitmapsave restore 
+        grestore
+        } bind def
+/BITMAPGRAY { 
+	8 {fakecolorsetup} COMMONBITMAP
+	} bind def
+/BITMAPGRAYc { 
+	8 {fakecolorsetup} COMMONBITMAPc
+	} bind def
+/ENDBITMAP {
+	} bind def
+end 
+	/ALDmatrix matrix def ALDmatrix currentmatrix pop
+/StartALD {
+	/ALDsave save def
+	 savematrix
+	 ALDmatrix setmatrix
+	} bind def
+/InALD {
+	 restorematrix
+	} bind def
+/DoneALD {
+	 ALDsave restore
+	} bind def
+/I { setdash } bind def
+/J { [] 0 setdash } bind def
+%%EndProlog
+%%BeginSetup
+(5.5) FMVERSION
+1 1 0 0 612 792 0 1 13 FMDOCUMENT
+%%IncludeFont: Times-Roman
+0 0 /Times-Roman FMFONTDEFINE
+%%IncludeFont: Helvetica-Bold
+1 0 /Helvetica-Bold FMFONTDEFINE
+%%IncludeFont: Helvetica
+2 0 /Helvetica FMFONTDEFINE
+%%IncludeFont: Helvetica-Oblique
+3 0 /Helvetica-Oblique FMFONTDEFINE
+%%IncludeFont: Times-Bold
+4 0 /Times-Bold FMFONTDEFINE
+%%IncludeFont: Symbol
+5 1 /Symbol FMFONTDEFINE
+32 FMFILLS
+0 0 FMFILL
+1 0.1 FMFILL
+2 0.3 FMFILL
+3 0.5 FMFILL
+4 0.7 FMFILL
+5 0.9 FMFILL
+6 0.97 FMFILL
+7 1 FMFILL
+8 <0f1e3c78f0e1c387> FMFILL
+9 <0f87c3e1f0783c1e> FMFILL
+10 <cccccccccccccccc> FMFILL
+11 <ffff0000ffff0000> FMFILL
+12 <8142241818244281> FMFILL
+13 <03060c183060c081> FMFILL
+14 <8040201008040201> FMFILL
+16 1 FMFILL
+17 0.9 FMFILL
+18 0.7 FMFILL
+19 0.5 FMFILL
+20 0.3 FMFILL
+21 0.1 FMFILL
+22 0.03 FMFILL
+23 0 FMFILL
+24 <f0e1c3870f1e3c78> FMFILL
+25 <f0783c1e0f87c3e1> FMFILL
+26 <3333333333333333> FMFILL
+27 <0000ffff0000ffff> FMFILL
+28 <7ebddbe7e7dbbd7e> FMFILL
+29 <fcf9f3e7cf9f3f7e> FMFILL
+30 <7fbfdfeff7fbfdfe> FMFILL
+%%EndSetup
+%%Page: "mini" 1
+%%BeginPaperSize: Letter
+%%EndPaperSize
+612 792 0 FMBEGINPAGE
+0 FrameSetSepColors
+FrameNoSep
+0 0 0 1 0 0 0 1 K
+J
+165.17 400.5 446.83 765 C
+0 0 0 1 0 0 0 1 K
+0 5.06 Q
+0 X
+(CSE378) 178.98 422.9 T
+( Autumn 2002) 288.61 422.9 T
+(1) 419.21 422.9 T
+181.28 717.12 429.8 726.34 C
+0 0 0 1 0 0 0 1 K
+181.28 717.12 429.8 726.34 R
+7 X
+V
+1 1 0 0 0 0 1 1 K
+180.36 722.2 479.5 722.2 2 L
+V
+1.38 H
+2 Z
+0 X
+N
+0 0 0 1 0 0 0 1 K
+165.17 400.5 446.83 765 C
+1 1 0 0 0 0 1 1 K
+1 11.05 Q
+0 X
+( Performance Metrics) 249.38 730.02 T
+0 0 0 1 0 0 0 1 K
+2 8.28 Q
+(Why study performance metrics?) 181.28 704.7 T
+(\245) 189.56 691.35 T
+(determine the benefit/lack of benefit of designs) 197.85 691.35 T
+(\245) 189.56 678.46 T
+(computer design is too complex to intuit performance &) 197.85 678.46 T
+(performance bottlenecks) 197.85 668.34 T
+(\245) 189.56 655.45 T
+(have) 197.85 655.45 T
+(to) 217.92 655.45 T
+(be) 226.95 655.45 T
+(careful) 238.28 655.45 T
+(about) 265.25 655.45 T
+(what) 288.1 655.45 T
+(you) 307.71 655.45 T
+(mean) 323.18 655.45 T
+(to) 346.01 655.45 T
+(measure) 355.04 655.45 T
+(&) 389.38 655.45 T
+(how) 397.02 655.45 T
+(you) 414.33 655.45 T
+(measure it) 197.85 645.33 T
+(What you should get out of this discussion) 181.28 618.18 T
+(\245) 189.56 604.83 T
+(good metrics for measuring computer performance) 197.85 604.83 T
+(\245) 189.56 591.94 T
+(what they should be used for) 197.85 591.94 T
+(\245) 189.56 579.06 T
+(what metrics you shouldn\325t use & how metrics are misused) 197.85 579.06 T
+165.17 27 446.83 391.5 C
+0 0 0 1 0 0 0 1 K
+0 5.06 Q
+0 X
+(CSE378) 178.98 49.4 T
+( Autumn 2002) 288.61 49.4 T
+(2) 419.21 49.4 T
+181.28 343.62 429.8 352.84 C
+0 0 0 1 0 0 0 1 K
+181.28 343.62 429.8 352.84 R
+7 X
+V
+1 1 0 0 0 0 1 1 K
+180.36 348.7 479.5 348.7 2 L
+V
+1.38 H
+2 Z
+0 X
+N
+0 0 0 1 0 0 0 1 K
+165.17 27 446.83 391.5 C
+1 1 0 0 0 0 1 1 K
+1 11.05 Q
+0 X
+(Performance of Computer Systems) 213.17 356.52 T
+0 0 0 1 0 0 0 1 K
+2 8.28 Q
+(Many different factors to take into account when determining) 181.28 331.2 T
+(performance:) 197.85 320.61 T
+(\245) 189.56 307.27 T
+(Technology) 197.85 307.27 T
+(\245) 206.13 294.84 T
+(circuit speed \050clock, MHz\051) 214.42 294.84 T
+(\245) 206.13 282.87 T
+(processor technology \050how many transistors on a chip\051) 214.42 282.87 T
+(\245) 189.56 270.45 T
+(Architecture & microarchitecture) 197.85 270.45 T
+(\245) 206.13 258.02 T
+(type of architecture \050RISC or CISC\051) 214.42 258.02 T
+(\245) 206.13 246.06 T
+(configuration of the memory hierarchy) 214.42 246.06 T
+(\245) 206.13 234.09 T
+(speed & capability of I/O devices) 214.42 234.09 T
+(\245) 206.13 222.12 T
+(number of processors in the system) 214.42 222.12 T
+(\245) 189.56 209.7 T
+(Software) 197.85 209.7 T
+(\245) 206.13 197.27 T
+(quality of the compilers) 214.42 197.27 T
+(\245) 206.13 185.31 T
+(organization & quality of OS, databases, etc.) 214.42 185.31 T
+FMENDPAGE
+%%EndPage: "mini" 1
+%%Page: "mini" 2
+612 792 0 FMBEGINPAGE
+0 FrameSetSepColors
+FrameNoSep
+165.17 400.5 446.83 765 C
+0 0 0 1 0 0 0 1 K
+0 5.06 Q
+0 X
+(CSE378) 178.98 422.9 T
+( Autumn 2002) 288.61 422.9 T
+(3) 419.21 422.9 T
+181.28 717.12 429.8 726.34 C
+0 0 0 1 0 0 0 1 K
+181.28 717.12 429.8 726.34 R
+7 X
+V
+1 1 0 0 0 0 1 1 K
+180.36 722.2 479.5 722.2 2 L
+V
+1.38 H
+2 Z
+0 X
+N
+0 0 0 1 0 0 0 1 K
+165.17 400.5 446.83 765 C
+1 1 0 0 0 0 1 1 K
+1 11.05 Q
+0 X
+(\322Principles\323 of Experimentation) 222.07 730.02 T
+0 0 0 1 0 0 0 1 K
+0 1 1 0 1 0 0 1 K
+1 8.28 Q
+(Meaningful metrics) 181.28 690.89 T
+0 0 0 1 0 0 0 1 K
+2 F
+(execution time & component metrics that explain it) 197.85 677.08 T
+0 1 1 0 1 0 0 1 K
+1 F
+(Reproducibility) 181.28 649.47 T
+0 0 0 1 0 0 0 1 K
+2 F
+(machine configuration, compiler & optimization level, OS, input) 197.85 635.66 T
+0 1 1 0 1 0 0 1 K
+1 F
+(Real programs) 181.28 608.05 T
+0 0 0 1 0 0 0 1 K
+2 F
+(no toys, kernels, synthetic programs) 197.85 594.24 T
+(SPEC is the norm \050integer, floating point, graphics, webserver\051) 197.85 580.44 T
+(TPC-B, TPC-C & TPC-D for database transactions) 197.85 566.63 T
+0 1 1 0 1 0 0 1 K
+1 F
+(Simulation) 181.28 539.02 T
+0 0 0 1 0 0 0 1 K
+2 F
+(long executions,) 197.85 525.21 T
+1 0 1 0 0 1 0 1 K
+1 F
+(warm start) 260.01 525.21 T
+0 0 0 1 0 0 0 1 K
+2 F
+( to mimic) 301.9 525.21 T
+1 0 1 0 0 1 0 1 K
+1 F
+(steady-state) 337.34 525.21 T
+0 0 0 1 0 0 0 1 K
+2 F
+( behavior) 385.68 525.21 T
+(usually applications only; some OS simulation) 197.85 511.4 T
+(simulator \322validation\323 & internal checks for accuracy) 197.85 497.6 T
+165.17 27 446.83 391.5 C
+0 0 0 1 0 0 0 1 K
+0 5.06 Q
+0 X
+(CSE378) 178.98 49.4 T
+( Autumn 2002) 288.61 49.4 T
+(4) 419.21 49.4 T
+181.28 343.62 429.8 352.84 C
+0 0 0 1 0 0 0 1 K
+181.28 343.62 429.8 352.84 R
+7 X
+V
+1 1 0 0 0 0 1 1 K
+180.36 348.7 479.5 348.7 2 L
+V
+1.38 H
+2 Z
+0 X
+N
+0 0 0 1 0 0 0 1 K
+165.17 27 446.83 391.5 C
+1 1 0 0 0 0 1 1 K
+1 11.05 Q
+0 X
+(Metrics that Measure Performance) 215.31 356.52 T
+0 0 0 1 0 0 0 1 K
+0 1 1 0 1 0 0 1 K
+1 8.28 Q
+(Raw speed) 181.28 331.2 T
+0 0 0 1 0 0 0 1 K
+(:) 224.56 331.2 T
+2 F
+(peak performance \050never attained\051) 229.62 331.2 T
+0 1 1 0 1 0 0 1 K
+1 F
+(Execution) 181.28 303.58 T
+(time) 222.88 303.58 T
+2 F
+(:) 239.92 303.58 T
+0 0 0 1 0 0 0 1 K
+(time) 244.24 303.58 T
+(to) 261.9 303.58 T
+(execute) 270.82 303.58 T
+(one) 301.85 303.58 T
+(program) 317.68 303.58 T
+(from) 350.54 303.58 T
+(beginning) 369.12 303.58 T
+(to) 407.06 303.58 T
+(end) 415.98 303.58 T
+(\245) 189.56 290.24 T
+(the \322performance bottom line\323) 197.85 290.24 T
+(\245) 189.56 277.35 T
+(wall clock time, response time) 197.85 277.35 T
+(\245) 189.56 264.47 T
+(Unix time function: 13.7u 23.6s 18:27 3%) 197.85 264.47 T
+0 1 1 0 1 0 0 1 K
+1 F
+(Throughput) 181.28 237.31 T
+0 0 0 1 0 0 0 1 K
+2 F
+(: total amount of work completed in a given time) 227.75 237.31 T
+(\245) 206.13 224.43 T
+(instructions / cycle) 214.42 224.43 T
+(\245) 206.13 212.46 T
+(transactions \050database\051 or packets \050web servers\051 / second) 214.42 212.46 T
+(\245) 189.56 200.03 T
+(an indication of how well hardware resources are being used) 197.85 200.03 T
+(\245) 189.56 187.15 T
+(good metrics for chip designers or managers of computer) 197.85 187.15 T
+(systems) 197.85 177.02 T
+(\050Often improving execution time will improve throughput & vice) 181.28 153.55 T
+(versa.\051) 197.85 142.97 T
+0 1 1 0 1 0 0 1 K
+1 F
+(Component metrics) 181.28 115.35 T
+0 0 0 1 0 0 0 1 K
+2 F
+(: subsystem performance, e.g., memory) 259.07 115.35 T
+(behavior) 197.85 104.77 T
+(\245) 189.56 91.42 T
+(help explain how execution time was obtained) 197.85 91.42 T
+(\245) 189.56 78.54 T
+(pinpoints performance bottlenecks) 197.85 78.54 T
+FMENDPAGE
+%%EndPage: "mini" 2
+%%Page: "mini" 3
+612 792 0 FMBEGINPAGE
+0 FrameSetSepColors
+FrameNoSep
+165.17 400.5 446.83 765 C
+0 0 0 1 0 0 0 1 K
+0 5.06 Q
+0 X
+(CSE378) 178.98 422.9 T
+( Autumn 2002) 288.61 422.9 T
+(5) 419.21 422.9 T
+181.28 717.12 429.8 726.34 C
+0 0 0 1 0 0 0 1 K
+181.28 717.12 429.8 726.34 R
+7 X
+V
+1 1 0 0 0 0 1 1 K
+180.36 722.2 479.5 722.2 2 L
+V
+1.38 H
+2 Z
+0 X
+N
+0 0 0 1 0 0 0 1 K
+165.17 400.5 446.83 765 C
+1 1 0 0 0 0 1 1 K
+1 11.05 Q
+0 X
+(Execution Time) 264.72 730.02 T
+0 0 0 1 0 0 0 1 K
+2 8.28 Q
+(Processor A is faster than processor B, i.e.,) 181.28 649.13 T
+(Relative Performance) 181.28 572.09 T
+(performance of A is) 214.42 527.51 T
+3 F
+(n) 288.54 527.51 T
+2 F
+( times greater than B) 293.15 527.51 T
+(execution time of B is) 214.42 513.7 T
+3 F
+(n) 295.45 513.7 T
+2 F
+( times longer than A) 300.06 513.7 T
+181.28 687.79 320.08 710.22 C
+0 0 0 1 0 0 0 1 K
+4 8.28 Q
+0 X
+(P) 182.37 698.95 T
+(e) 187.92 698.95 T
+(r) 192.09 698.95 T
+(f) 196.25 698.95 T
+(o) 199.5 698.95 T
+(r) 204.13 698.95 T
+(m) 208.3 698.95 T
+(a) 215.69 698.95 T
+(n) 220.32 698.95 T
+(c) 225.41 698.95 T
+(e) 229.58 698.95 T
+4 6.44 Q
+(A) 233.57 696.28 T
+4 8.28 Q
+(1) 281.66 703.73 T
+(E) 251.39 693.59 T
+(x) 257.4 693.59 T
+(e) 262.03 693.59 T
+(c) 266.2 693.59 T
+(u) 270.37 693.59 T
+(t) 275.46 693.59 T
+(i) 278.71 693.59 T
+(o) 281.5 693.59 T
+(n) 286.13 693.59 T
+(T) 291.23 693.59 T
+(i) 297.24 693.59 T
+(m) 300.03 693.59 T
+(e) 307.42 693.59 T
+4 6.44 Q
+(A) 311.41 690.92 T
+4 8.28 Q
+(-) 251.39 698.95 T
+(-) 252.77 698.95 T
+(-) 254.15 698.95 T
+(-) 255.53 698.95 T
+(-) 256.91 698.95 T
+(-) 258.29 698.95 T
+(-) 259.67 698.95 T
+(-) 261.05 698.95 T
+(-) 262.42 698.95 T
+(-) 263.8 698.95 T
+(-) 265.18 698.95 T
+(-) 266.56 698.95 T
+(-) 267.94 698.95 T
+(-) 269.32 698.95 T
+(-) 270.7 698.95 T
+(-) 272.08 698.95 T
+(-) 273.46 698.95 T
+(-) 274.84 698.95 T
+(-) 276.22 698.95 T
+(-) 277.6 698.95 T
+(-) 278.98 698.95 T
+(-) 280.36 698.95 T
+(-) 281.73 698.95 T
+(-) 283.11 698.95 T
+(-) 284.49 698.95 T
+(-) 285.87 698.95 T
+(-) 287.25 698.95 T
+(-) 288.63 698.95 T
+(-) 290.01 698.95 T
+(-) 291.39 698.95 T
+(-) 292.77 698.95 T
+(-) 294.15 698.95 T
+(-) 295.53 698.95 T
+(-) 296.91 698.95 T
+(-) 298.29 698.95 T
+(-) 299.67 698.95 T
+(-) 301.04 698.95 T
+(-) 302.42 698.95 T
+(-) 303.8 698.95 T
+(-) 305.18 698.95 T
+(-) 306.56 698.95 T
+(-) 307.94 698.95 T
+(-) 309.32 698.95 T
+(-) 310.7 698.95 T
+(-) 312.08 698.95 T
+(-) 313.3 698.95 T
+(=) 242.36 698.95 T
+165.17 400.5 446.83 765 C
+181.28 628.55 323.09 640.84 C
+0 0 0 1 0 0 0 1 K
+4 8.28 Q
+0 X
+(E) 181.27 634.17 T
+(x) 187.29 634.17 T
+(e) 191.92 634.17 T
+(c) 196.09 634.17 T
+(u) 200.25 634.17 T
+(t) 205.35 634.17 T
+(i) 208.59 634.17 T
+(o) 211.38 634.17 T
+(n) 216.02 634.17 T
+(T) 221.11 634.17 T
+(i) 227.12 634.17 T
+(m) 229.91 634.17 T
+(e) 237.3 634.17 T
+4 6.44 Q
+(A) 241.3 631.5 T
+4 8.28 Q
+(E) 254.64 634.17 T
+(x) 260.65 634.17 T
+(e) 265.28 634.17 T
+(c) 269.45 634.17 T
+(u) 273.61 634.17 T
+(t) 278.71 634.17 T
+(i) 281.95 634.17 T
+(o) 284.75 634.17 T
+(n) 289.38 634.17 T
+(T) 294.47 634.17 T
+(i) 300.48 634.17 T
+(m) 303.28 634.17 T
+(e) 310.67 634.17 T
+4 6.44 Q
+(B) 314.66 631.5 T
+5 8.28 Q
+(<) 248.02 634.17 T
+165.17 400.5 446.83 765 C
+181.28 610.74 304.55 623.03 C
+0 0 0 1 0 0 0 1 K
+4 8.28 Q
+0 X
+(P) 182.2 616.36 T
+(e) 187.75 616.36 T
+(r) 191.92 616.36 T
+(f) 196.09 616.36 T
+(o) 199.34 616.36 T
+(r) 203.96 616.36 T
+(m) 208.13 616.36 T
+(a) 215.52 616.36 T
+(n) 220.15 616.36 T
+(c) 225.24 616.36 T
+(e) 229.41 616.36 T
+4 6.44 Q
+(A) 233.4 613.69 T
+4 8.28 Q
+(P) 246.74 616.36 T
+(e) 252.29 616.36 T
+(r) 256.46 616.36 T
+(f) 260.63 616.36 T
+(o) 263.87 616.36 T
+(r) 268.51 616.36 T
+(m) 272.67 616.36 T
+(a) 280.06 616.36 T
+(n) 284.69 616.36 T
+(c) 289.79 616.36 T
+(e) 293.95 616.36 T
+4 6.44 Q
+(B) 297.94 613.69 T
+5 8.28 Q
+(>) 240.13 616.36 T
+165.17 400.5 446.83 765 C
+181.28 538.55 336.68 563.8 C
+0 0 0 1 0 0 0 1 K
+4 8.28 Q
+0 X
+(P) 181.62 556.71 T
+(e) 187.17 556.71 T
+(r) 191.34 556.71 T
+(f) 195.51 556.71 T
+(o) 198.75 556.71 T
+(r) 203.38 556.71 T
+(m) 207.55 556.71 T
+(a) 214.94 556.71 T
+(n) 219.57 556.71 T
+(c) 224.66 556.71 T
+(e) 228.83 556.71 T
+4 6.44 Q
+(A) 232.82 554.04 T
+4 8.28 Q
+(P) 181.8 544.35 T
+(e) 187.35 544.35 T
+(r) 191.52 544.35 T
+(f) 195.68 544.35 T
+(o) 198.93 544.35 T
+(r) 203.56 544.35 T
+(m) 207.73 544.35 T
+(a) 215.12 544.35 T
+(n) 219.75 544.35 T
+(c) 224.84 544.35 T
+(e) 229.01 544.35 T
+4 6.44 Q
+(B) 233 541.68 T
+4 8.28 Q
+(-) 181.62 549.71 T
+(-) 183 549.71 T
+(-) 184.38 549.71 T
+(-) 185.76 549.71 T
+(-) 187.14 549.71 T
+(-) 188.52 549.71 T
+(-) 189.9 549.71 T
+(-) 191.28 549.71 T
+(-) 192.66 549.71 T
+(-) 194.04 549.71 T
+(-) 195.42 549.71 T
+(-) 196.8 549.71 T
+(-) 198.18 549.71 T
+(-) 199.55 549.71 T
+(-) 200.93 549.71 T
+(-) 202.31 549.71 T
+(-) 203.69 549.71 T
+(-) 205.07 549.71 T
+(-) 206.45 549.71 T
+(-) 207.83 549.71 T
+(-) 209.21 549.71 T
+(-) 210.59 549.71 T
+(-) 211.97 549.71 T
+(-) 213.35 549.71 T
+(-) 214.73 549.71 T
+(-) 216.1 549.71 T
+(-) 217.49 549.71 T
+(-) 218.86 549.71 T
+(-) 220.24 549.71 T
+(-) 221.62 549.71 T
+(-) 223 549.71 T
+(-) 224.38 549.71 T
+(-) 225.76 549.71 T
+(-) 227.14 549.71 T
+(-) 228.52 549.71 T
+(-) 229.9 549.71 T
+(-) 231.28 549.71 T
+(-) 232.66 549.71 T
+(-) 234.04 549.71 T
+(-) 234.72 549.71 T
+(E) 250.99 556.71 T
+(x) 257 556.71 T
+(e) 261.63 556.71 T
+(c) 265.8 556.71 T
+(u) 269.96 556.71 T
+(t) 275.06 556.71 T
+(i) 278.3 556.71 T
+(o) 281.1 556.71 T
+(n) 285.73 556.71 T
+(T) 290.82 556.71 T
+(i) 296.83 556.71 T
+(m) 299.63 556.71 T
+(e) 307.02 556.71 T
+4 6.44 Q
+(B) 311.01 554.05 T
+4 8.28 Q
+(E) 250.81 544.36 T
+(x) 256.82 544.36 T
+(e) 261.45 544.36 T
+(c) 265.62 544.36 T
+(u) 269.79 544.36 T
+(t) 274.88 544.36 T
+(i) 278.13 544.36 T
+(o) 280.92 544.36 T
+(n) 285.55 544.36 T
+(T) 290.64 544.36 T
+(i) 296.66 544.36 T
+(m) 299.45 544.36 T
+(e) 306.84 544.36 T
+4 6.44 Q
+(A) 310.83 541.69 T
+4 8.28 Q
+(-) 250.81 549.72 T
+(-) 252.19 549.72 T
+(-) 253.57 549.72 T
+(-) 254.95 549.72 T
+(-) 256.33 549.72 T
+(-) 257.7 549.72 T
+(-) 259.08 549.72 T
+(-) 260.46 549.72 T
+(-) 261.84 549.72 T
+(-) 263.22 549.72 T
+(-) 264.6 549.72 T
+(-) 265.98 549.72 T
+(-) 267.36 549.72 T
+(-) 268.74 549.72 T
+(-) 270.12 549.72 T
+(-) 271.5 549.72 T
+(-) 272.88 549.72 T
+(-) 274.26 549.72 T
+(-) 275.64 549.72 T
+(-) 277.01 549.72 T
+(-) 278.39 549.72 T
+(-) 279.77 549.72 T
+(-) 281.15 549.72 T
+(-) 282.53 549.72 T
+(-) 283.91 549.72 T
+(-) 285.29 549.72 T
+(-) 286.67 549.72 T
+(-) 288.05 549.72 T
+(-) 289.43 549.72 T
+(-) 290.81 549.72 T
+(-) 292.19 549.72 T
+(-) 293.57 549.72 T
+(-) 294.95 549.72 T
+(-) 296.32 549.72 T
+(-) 297.7 549.72 T
+(-) 299.08 549.72 T
+(-) 300.46 549.72 T
+(-) 301.84 549.72 T
+(-) 303.22 549.72 T
+(-) 304.6 549.72 T
+(-) 305.98 549.72 T
+(-) 307.36 549.72 T
+(-) 308.74 549.72 T
+(-) 310.12 549.72 T
+(-) 311.5 549.72 T
+(-) 312.72 549.72 T
+(n) 325 549.71 T
+(=) 316.14 549.71 T
+(=) 241.78 549.71 T
+165.17 400.5 446.83 765 C
+0 0 0 1 0 0 0 1 K
+165.17 27 446.83 391.5 C
+0 0 0 1 0 0 0 1 K
+0 5.06 Q
+0 X
+(CSE378) 178.98 49.4 T
+( Autumn 2002) 288.61 49.4 T
+(6) 419.21 49.4 T
+181.28 343.62 429.8 352.84 C
+0 0 0 1 0 0 0 1 K
+181.28 343.62 429.8 352.84 R
+7 X
+V
+1 1 0 0 0 0 1 1 K
+180.36 348.7 479.5 348.7 2 L
+V
+1.38 H
+2 Z
+0 X
+N
+0 0 0 1 0 0 0 1 K
+165.17 27 446.83 391.5 C
+1 1 0 0 0 0 1 1 K
+1 11.05 Q
+0 X
+(CPU Execution Time) 251.53 356.52 T
+0 0 0 1 0 0 0 1 K
+2 8.28 Q
+(The time the CPU spends executing an application) 181.28 331.2 T
+(\245) 189.56 317.85 T
+(no memory effects) 197.85 317.85 T
+(\245) 189.56 304.96 T
+(no I/O) 197.85 304.96 T
+(\245) 189.56 292.08 T
+(no effects of multiprogramming) 197.85 292.08 T
+(Cycle time \050clock period\051 is measured in time or rate) 181.28 235.93 T
+(\245) 189.56 222.59 T
+(clock cycle time = 1/clock cycle rate) 197.85 222.59 T
+(\245) 206.13 180.69 T
+(clock cycle rate of 1 MHz) 214.42 180.69 T
+5 F
+(\336) 308.79 180.69 T
+2 F
+( cycle time of 1) 316.96 180.69 T
+5 F
+(m) 374.51 180.69 T
+2 F
+(s) 379.28 180.69 T
+(\245) 206.13 168.73 T
+(clock cycle rate of 1 GHz) 214.42 168.73 T
+5 F
+(\336) 308.33 168.73 T
+2 F
+( cycle time of 1 ns) 316.51 168.73 T
+181.28 260.78 417.61 270.45 C
+0 0 0 1 0 0 0 1 K
+0 1 1 0 1 0 0 1 K
+4 8.28 Q
+0 X
+(C) 182.88 263.78 T
+(P) 189.35 263.78 T
+(U) 194.9 263.78 T
+(E) 201.37 263.78 T
+(x) 207.38 263.78 T
+(e) 212.01 263.78 T
+(c) 216.18 263.78 T
+(u) 220.34 263.78 T
+(t) 225.44 263.78 T
+(i) 228.68 263.78 T
+(o) 231.48 263.78 T
+(n) 236.11 263.78 T
+(T) 241.2 263.78 T
+(i) 247.21 263.78 T
+(m) 250.01 263.78 T
+(e) 257.39 263.78 T
+0 0 0 1 0 0 0 1 K
+(C) 274.07 263.78 T
+(P) 280.54 263.78 T
+(U) 286.09 263.78 T
+(C) 292.56 263.78 T
+(l) 299.03 263.78 T
+(o) 301.82 263.78 T
+(c) 306.45 263.78 T
+(k) 310.62 263.78 T
+(C) 315.71 263.78 T
+(y) 322.18 263.78 T
+(c) 326.82 263.78 T
+(l) 330.98 263.78 T
+(e) 333.77 263.78 T
+(s) 337.94 263.78 T
+(c) 349.85 263.78 T
+(l) 354.02 263.78 T
+(o) 356.81 263.78 T
+(c) 361.44 263.78 T
+(k) 365.61 263.78 T
+(C) 370.7 263.78 T
+(y) 377.17 263.78 T
+(c) 381.8 263.78 T
+(l) 385.97 263.78 T
+(e) 388.76 263.78 T
+(T) 392.92 263.78 T
+(i) 398.94 263.78 T
+(m) 401.73 263.78 T
+(e) 409.12 263.78 T
+5 F
+(\264) 343.23 263.78 T
+4 F
+(=) 265.21 263.78 T
+165.17 27 446.83 391.5 C
+181.28 60.14 429.8 363.88 C
+184.96 190.36 426.12 219.82 C
+0 0 0 1 0 0 0 1 K
+0 1 1 0 1 0 0 1 K
+4 8.28 Q
+0 X
+(C) 225.08 202.09 T
+(P) 231.55 202.09 T
+(U) 237.1 202.09 T
+(E) 243.57 202.09 T
+(x) 249.58 202.09 T
+(e) 254.21 202.09 T
+(c) 258.38 202.09 T
+(u) 262.55 202.09 T
+(t) 267.64 202.09 T
+(i) 270.89 202.09 T
+(o) 273.68 202.09 T
+(n) 278.31 202.09 T
+(T) 283.4 202.09 T
+(i) 289.42 202.09 T
+(m) 292.21 202.09 T
+(e) 299.6 202.09 T
+0 0 0 1 0 0 0 1 K
+(C) 316.44 206.87 T
+(P) 322.91 206.87 T
+(U) 328.46 206.87 T
+(C) 334.93 206.87 T
+(l) 341.4 206.87 T
+(o) 344.19 206.87 T
+(c) 348.82 206.87 T
+(k) 352.99 206.87 T
+(C) 358.08 206.87 T
+(y) 364.55 206.87 T
+(c) 369.18 206.87 T
+(l) 373.35 206.87 T
+(e) 376.14 206.87 T
+(s) 380.31 206.87 T
+(c) 319.44 196.72 T
+(l) 323.61 196.72 T
+(o) 326.4 196.72 T
+(c) 331.03 196.72 T
+(k) 335.19 196.72 T
+(C) 340.29 196.72 T
+(y) 346.76 196.72 T
+(c) 351.39 196.72 T
+(l) 355.55 196.72 T
+(e) 358.35 196.72 T
+(R) 362.51 196.72 T
+(a) 368.98 196.72 T
+(t) 373.61 196.72 T
+(e) 376.86 196.72 T
+(-) 316.44 202.09 T
+(-) 317.82 202.09 T
+(-) 319.2 202.09 T
+(-) 320.58 202.09 T
+(-) 321.96 202.09 T
+(-) 323.34 202.09 T
+(-) 324.72 202.09 T
+(-) 326.1 202.09 T
+(-) 327.48 202.09 T
+(-) 328.86 202.09 T
+(-) 330.24 202.09 T
+(-) 331.62 202.09 T
+(-) 332.99 202.09 T
+(-) 334.38 202.09 T
+(-) 335.75 202.09 T
+(-) 337.13 202.09 T
+(-) 338.51 202.09 T
+(-) 339.89 202.09 T
+(-) 341.27 202.09 T
+(-) 342.65 202.09 T
+(-) 344.03 202.09 T
+(-) 345.41 202.09 T
+(-) 346.79 202.09 T
+(-) 348.17 202.09 T
+(-) 349.55 202.09 T
+(-) 350.93 202.09 T
+(-) 352.3 202.09 T
+(-) 353.68 202.09 T
+(-) 355.06 202.09 T
+(-) 356.44 202.09 T
+(-) 357.82 202.09 T
+(-) 359.2 202.09 T
+(-) 360.58 202.09 T
+(-) 361.96 202.09 T
+(-) 363.34 202.09 T
+(-) 364.72 202.09 T
+(-) 366.1 202.09 T
+(-) 367.48 202.09 T
+(-) 368.86 202.09 T
+(-) 370.24 202.09 T
+(-) 371.61 202.09 T
+(-) 372.99 202.09 T
+(-) 374.37 202.09 T
+(-) 375.75 202.09 T
+(-) 377.13 202.09 T
+(-) 378.51 202.09 T
+(-) 379.89 202.09 T
+(-) 380.77 202.09 T
+(=) 307.42 202.09 T
+181.28 60.14 429.8 363.88 C
+165.17 27 446.83 391.5 C
+0 0 0 1 0 0 0 1 K
+FMENDPAGE
+%%EndPage: "mini" 3
+%%Page: "mini" 4
+612 792 0 FMBEGINPAGE
+0 FrameSetSepColors
+FrameNoSep
+165.17 400.5 446.83 765 C
+0 0 0 1 0 0 0 1 K
+0 5.06 Q
+0 X
+(CSE378) 178.98 422.9 T
+( Autumn 2002) 288.61 422.9 T
+(7) 419.21 422.9 T
+181.28 717.12 429.8 726.34 C
+0 0 0 1 0 0 0 1 K
+181.28 717.12 429.8 726.34 R
+7 X
+V
+1 1 0 0 0 0 1 1 K
+180.36 722.2 479.5 722.2 2 L
+V
+1.38 H
+2 Z
+0 X
+N
+0 0 0 1 0 0 0 1 K
+165.17 400.5 446.83 765 C
+1 1 0 0 0 0 1 1 K
+1 11.05 Q
+0 X
+(CPI) 296.33 730.02 T
+0 0 0 1 0 0 0 1 K
+0 1 1 0 1 0 0 1 K
+1 8.28 Q
+(CPI) 181.28 660.52 T
+0 0 0 1 0 0 0 1 K
+2 F
+(: average number of clock cycles per instruction) 195.09 660.52 T
+(\245) 189.56 647.17 T
+(throughput metric) 197.85 647.17 T
+(\245) 189.56 634.28 T
+(component metric, not a measure of performance) 197.85 634.28 T
+(\245) 189.56 621.4 T
+(used for processor organization \050microarchitectural\051 studies,) 197.85 621.4 T
+(given a fixed compiler & ISA) 197.85 611.27 T
+(Can have different CPI\325s for different classes of instructions) 181.28 584.12 T
+(e.g., floating point instructions take longer than integer) 197.85 573.54 T
+(instructions) 197.85 562.95 T
+(where CPI) 214.42 517.84 T
+2 6.63 Q
+(i) 253.09 515.77 T
+2 8.28 Q
+( = CPI for a particular class of instructions) 254.56 517.84 T
+(where C) 214.42 500.3 T
+1 6.63 Q
+(i) 245.26 498.23 T
+2 8.28 Q
+( = the number of instructions of the i) 247.1 500.3 T
+1 6.63 Q
+(th) 379.02 503.62 T
+2 8.28 Q
+( class that) 385.28 500.3 T
+(have been executed) 214.42 488.2 T
+(Improving part of the architecture can improve a CPI) 181.28 460.59 T
+1 6.63 Q
+(i) 373.27 458.52 T
+2 8.28 Q
+(\245) 189.56 445.72 T
+(Talk about the contribution to CPI of a class of instructions) 197.85 445.72 T
+181.28 433.64 429.8 737.38 C
+184.04 685.37 427.04 701.94 C
+0 0 0 1 0 0 0 1 K
+4 8.28 Q
+0 X
+(C) 207.96 691.34 T
+(P) 214.43 691.34 T
+(U) 219.98 691.34 T
+(C) 226.45 691.34 T
+(l) 232.91 691.34 T
+(o) 235.71 691.34 T
+(c) 240.34 691.34 T
+(k) 244.5 691.34 T
+(C) 249.6 691.34 T
+(y) 256.07 691.34 T
+(c) 260.7 691.34 T
+(l) 264.86 691.34 T
+(e) 267.66 691.34 T
+(s) 271.82 691.34 T
+(N) 288 691.34 T
+(u) 294.47 691.34 T
+(m) 299.56 691.34 T
+(b) 306.95 691.34 T
+(e) 312.04 691.34 T
+(r) 316.21 691.34 T
+(O) 320.38 691.34 T
+(f) 327.31 691.34 T
+(I) 330.56 691.34 T
+(n) 334.27 691.34 T
+(s) 339.36 691.34 T
+(t) 343.07 691.34 T
+(r) 346.32 691.34 T
+(u) 350.49 691.34 T
+(c) 355.58 691.34 T
+(t) 359.75 691.34 T
+(i) 362.99 691.34 T
+(o) 365.79 691.34 T
+(n) 370.42 691.34 T
+(s) 375.51 691.34 T
+0 1 1 0 1 0 0 1 K
+(C) 387.42 691.34 T
+(P) 393.89 691.34 T
+(I) 399.44 691.34 T
+0 0 0 1 0 0 0 1 K
+5 F
+(\264) 380.8 691.34 T
+0 F
+(=) 279.18 691.34 T
+181.28 433.64 429.8 737.38 C
+165.17 400.5 446.83 765 C
+181.28 433.64 429.8 737.38 C
+184.04 528.88 427.04 560.19 C
+0 0 0 1 0 0 0 1 K
+4 8.28 Q
+0 X
+(C) 240.51 540.85 T
+(P) 246.98 540.85 T
+(U) 252.52 540.85 T
+(C) 258.99 540.85 T
+(l) 265.46 540.85 T
+(o) 268.26 540.85 T
+(c) 272.89 540.85 T
+(k) 277.05 540.85 T
+(C) 282.15 540.85 T
+(y) 288.62 540.85 T
+(c) 293.25 540.85 T
+(l) 297.41 540.85 T
+(e) 300.2 540.85 T
+(s) 304.37 540.85 T
+(C) 332.64 540.85 T
+(P) 339.11 540.85 T
+(I) 344.66 540.85 T
+4 6.44 Q
+(i) 348.2 538.18 T
+4 8.28 Q
+(C) 358.68 540.85 T
+4 6.44 Q
+(i) 364.98 538.18 T
+5 8.28 Q
+(\264) 352.06 540.85 T
+(\050) 329.3 540.85 T
+(\051) 367.36 540.85 T
+4 6.44 Q
+(1) 322.92 530.57 T
+(n) 322.74 551.07 T
+5 11.05 Q
+(\345) 320.6 539.08 T
+4 8.28 Q
+(=) 311.73 540.85 T
+181.28 433.64 429.8 737.38 C
+165.17 400.5 446.83 765 C
+0 0 0 1 0 0 0 1 K
+165.17 27 446.83 391.5 C
+0 0 0 1 0 0 0 1 K
+0 5.06 Q
+0 X
+(CSE378) 178.98 49.4 T
+( Autumn 2002) 288.61 49.4 T
+(8) 419.21 49.4 T
+181.28 343.62 429.8 352.84 C
+0 0 0 1 0 0 0 1 K
+181.28 343.62 429.8 352.84 R
+7 X
+V
+1 1 0 0 0 0 1 1 K
+180.36 348.7 479.5 348.7 2 L
+V
+1.38 H
+2 Z
+0 X
+N
+0 0 0 1 0 0 0 1 K
+165.17 27 446.83 391.5 C
+1 1 0 0 0 0 1 1 K
+1 11.05 Q
+0 X
+(CPU Execution Time) 251.53 356.52 T
+0 0 0 1 0 0 0 1 K
+2 8.28 Q
+(To measure:) 181.28 306.35 T
+(\245) 189.56 293 T
+(execution time: depends on all 3 factors) 197.85 293 T
+(\245) 206.13 280.57 T
+(time the program) 214.42 280.57 T
+(\245) 189.56 268.15 T
+(number of instructions: determined by the ISA) 197.85 268.15 T
+(\245) 206.13 255.72 T
+(programmable hardware counters) 214.42 255.72 T
+(\245) 206.13 243.76 T
+(profiling) 214.42 243.76 T
+(\245) 222.7 232.25 T
+(count) 231.44 232.25 T
+(number) 253.86 232.25 T
+(of) 284.1 232.25 T
+(times) 293.17 232.25 T
+(each) 315.11 232.25 T
+(basic) 335.23 232.25 T
+(block) 356.72 232.25 T
+(is) 378.21 232.25 T
+(executed) 386.35 232.25 T
+(&) 422.12 232.25 T
+(multiply by the number of instructions in each basic) 230.98 222.59 T
+(block) 230.98 212.92 T
+(\245) 222.7 201.41 T
+(instruction sampling) 231.44 201.41 T
+(\245) 189.56 188.99 T
+(CPI: determined by the ISA & implementation) 197.85 188.99 T
+(\245) 206.13 176.56 T
+(simulator: interpret \050in software\051 every instruction &) 214.42 176.56 T
+(calculate the number of cycles it takes to simulate it) 214.42 166.9 T
+(\245) 189.56 154.47 T
+(clock cycle time: determined by the implementation & process) 197.85 154.47 T
+(technology) 197.85 144.35 T
+(Factors are interdependent:) 181.28 117.2 T
+(\245) 189.56 103.85 T
+(RISC:) 197.85 103.85 T
+1 0 1 0 0 1 0 1 K
+1 F
+(increases) 222.24 103.85 T
+0 0 0 1 0 0 0 1 K
+2 F
+( instructions/program, but) 260.47 103.85 T
+0 1 0 0 1 0 1 1 K
+1 F
+(decreases) 356.23 103.85 T
+0 0 0 1 0 0 0 1 K
+2 F
+( CPI &) 396.75 103.85 T
+(clock cycle time because the instructions are simple) 197.85 93.72 T
+(\245) 189.56 80.84 T
+(CISC:) 197.85 80.84 T
+1 0 1 0 0 1 0 1 K
+1 F
+(decreases) 222.24 80.84 T
+0 0 0 1 0 0 0 1 K
+2 F
+( instructions/program, but) 262.77 80.84 T
+0 1 0 0 1 0 1 1 K
+1 F
+(increases) 358.53 80.84 T
+0 0 0 1 0 0 0 1 K
+2 F
+( CPI &) 396.75 80.84 T
+(clock cycle time because many instructions are more complex) 197.85 70.71 T
+181.28 60.14 429.8 363.88 C
+184.04 318.77 427.04 343.62 C
+0 0 0 1 0 0 0 1 K
+0 1 1 0 1 0 0 1 K
+4 8.28 Q
+0 X
+(C) 208.93 332.8 T
+(P) 215.4 332.8 T
+(U) 220.95 332.8 T
+(E) 227.42 332.8 T
+(x) 233.44 332.8 T
+(e) 238.07 332.8 T
+(c) 242.24 332.8 T
+(u) 246.4 332.8 T
+(t) 251.5 332.8 T
+(i) 254.74 332.8 T
+(o) 257.53 332.8 T
+(n) 262.17 332.8 T
+(T) 267.26 332.8 T
+(i) 273.27 332.8 T
+(m) 276.06 332.8 T
+(e) 283.45 332.8 T
+0 0 0 1 0 0 0 1 K
+(n) 208.93 324.51 T
+(u) 214.03 324.51 T
+(m) 219.12 324.51 T
+(b) 226.51 324.51 T
+(e) 231.61 324.51 T
+(r) 235.77 324.51 T
+(O) 239.94 324.51 T
+(f) 246.87 324.51 T
+(I) 250.12 324.51 T
+(n) 253.83 324.51 T
+(s) 258.93 324.51 T
+(t) 262.64 324.51 T
+(r) 265.88 324.51 T
+(u) 270.05 324.51 T
+(c) 275.14 324.51 T
+(t) 279.31 324.51 T
+(i) 282.56 324.51 T
+(o) 285.35 324.51 T
+(n) 289.98 324.51 T
+(s) 295.08 324.51 T
+(C) 306.98 324.51 T
+(P) 313.45 324.51 T
+(I) 319 324.51 T
+5 F
+(\264) 300.37 324.51 T
+4 F
+(c) 330.91 324.51 T
+(l) 335.08 324.51 T
+(o) 337.87 324.51 T
+(c) 342.5 324.51 T
+(k) 346.67 324.51 T
+(C) 351.76 324.51 T
+(y) 358.23 324.51 T
+(c) 362.86 324.51 T
+(l) 367.03 324.51 T
+(e) 369.82 324.51 T
+(T) 373.99 324.51 T
+(i) 380 324.51 T
+(m) 382.79 324.51 T
+(e) 390.18 324.51 T
+5 F
+(\264) 324.3 324.51 T
+4 F
+(=) 291.27 332.8 T
+181.28 60.14 429.8 363.88 C
+165.17 27 446.83 391.5 C
+0 0 0 1 0 0 0 1 K
+FMENDPAGE
+%%EndPage: "mini" 4
+%%Page: "mini" 5
+612 792 0 FMBEGINPAGE
+0 FrameSetSepColors
+FrameNoSep
+165.17 400.5 446.83 765 C
+0 0 0 1 0 0 0 1 K
+0 5.06 Q
+0 X
+(CSE378) 178.98 422.9 T
+( Autumn 2002) 288.61 422.9 T
+(9) 419.21 422.9 T
+181.28 717.12 429.8 726.34 C
+0 0 0 1 0 0 0 1 K
+181.28 717.12 429.8 726.34 R
+7 X
+V
+1 1 0 0 0 0 1 1 K
+180.36 722.2 479.5 722.2 2 L
+V
+1.38 H
+2 Z
+0 X
+N
+0 0 0 1 0 0 0 1 K
+165.17 400.5 446.83 765 C
+1 1 0 0 0 0 1 1 K
+1 11.05 Q
+0 X
+(Metrics Not to Use) 257.06 730.02 T
+0 0 0 1 0 0 0 1 K
+0 1 1 0 1 0 0 1 K
+1 8.28 Q
+(MIPS) 181.28 704.7 T
+0 0 0 1 0 0 0 1 K
+2 F
+(\050millions of instructions per second\051) 203.84 704.7 T
+(+) 189.56 658.21 T
+(intuitive: the higher, the better) 197.85 658.21 T
+(-) 189.56 645.33 T
+(instruction set-dependent \050even true for similar architectures\051) 197.85 645.33 T
+(-) 189.56 632.44 T
+(implementation-dependent) 197.85 632.44 T
+(-) 189.56 619.56 T
+(compiler technology-dependent) 197.85 619.56 T
+(-) 189.56 606.67 T
+(program- & input-dependent) 197.85 606.67 T
+0 1 1 0 1 0 0 1 K
+1 F
+(MFLOPS) 181.28 579.52 T
+0 0 0 1 0 0 0 1 K
+2 F
+( \050millions of floating point operations per second\051) 215.8 579.52 T
+(+) 189.56 533.04 T
+(FP) 197.85 533.04 T
+(operations) 210.39 533.04 T
+(are) 251.03 533.04 T
+(independent) 264.96 533.04 T
+(of) 312.51 533.04 T
+(FP) 321.38 533.04 T
+(instruction) 333.92 533.04 T
+(implementation) 373.63 533.04 T
+(-) 189.56 520.15 T
+(different machines implement different FP operations) 197.85 520.15 T
+(-) 189.56 507.26 T
+(different FP operations take different amounts of time) 197.85 507.26 T
+(-) 189.56 494.38 T
+(only measures FP code) 197.85 494.38 T
+(static metrics \050code size\051) 181.28 467.22 T
+181.28 433.64 429.8 737.38 C
+181.28 668.8 411.84 701.94 C
+0 0 0 1 0 0 0 1 K
+0 8.28 Q
+0 X
+(instruction count) 213.97 688.36 T
+(execution time) 207.17 674.86 T
+(10) 264.87 674.86 T
+0 6.44 Q
+(6) 273.47 679.59 T
+5 8.28 Q
+(\264) 258.25 674.86 T
+0 F
+(-) 207.17 683.76 T
+(-) 208.55 683.76 T
+(-) 209.93 683.76 T
+(-) 211.31 683.76 T
+(-) 212.69 683.76 T
+(-) 214.07 683.76 T
+(-) 215.45 683.76 T
+(-) 216.83 683.76 T
+(-) 218.21 683.76 T
+(-) 219.59 683.76 T
+(-) 220.96 683.76 T
+(-) 222.35 683.76 T
+(-) 223.72 683.76 T
+(-) 225.1 683.76 T
+(-) 226.48 683.76 T
+(-) 227.86 683.76 T
+(-) 229.24 683.76 T
+(-) 230.62 683.76 T
+(-) 232 683.76 T
+(-) 233.38 683.76 T
+(-) 234.76 683.76 T
+(-) 236.14 683.76 T
+(-) 237.52 683.76 T
+(-) 238.9 683.76 T
+(-) 240.27 683.76 T
+(-) 241.65 683.76 T
+(-) 243.03 683.76 T
+(-) 244.41 683.76 T
+(-) 245.79 683.76 T
+(-) 247.17 683.76 T
+(-) 248.55 683.76 T
+(-) 249.93 683.76 T
+(-) 251.31 683.76 T
+(-) 252.69 683.76 T
+(-) 254.07 683.76 T
+(-) 255.45 683.76 T
+(-) 256.83 683.76 T
+(-) 258.21 683.76 T
+(-) 259.58 683.76 T
+(-) 260.96 683.76 T
+(-) 262.34 683.76 T
+(-) 263.72 683.76 T
+(-) 265.1 683.76 T
+(-) 266.48 683.76 T
+(-) 267.86 683.76 T
+(-) 269.24 683.76 T
+(-) 270.62 683.76 T
+(-) 272 683.76 T
+(-) 273.38 683.76 T
+(-) 273.93 683.76 T
+(clock rate) 290.45 688.36 T
+(CPI) 289.97 674.86 T
+(10) 311.55 674.86 T
+0 6.44 Q
+(6) 320.15 679.59 T
+5 8.28 Q
+(\264) 304.93 674.86 T
+0 F
+(-) 289.97 683.76 T
+(-) 291.35 683.76 T
+(-) 292.73 683.76 T
+(-) 294.11 683.76 T
+(-) 295.49 683.76 T
+(-) 296.87 683.76 T
+(-) 298.25 683.76 T
+(-) 299.63 683.76 T
+(-) 301.01 683.76 T
+(-) 302.38 683.76 T
+(-) 303.76 683.76 T
+(-) 305.14 683.76 T
+(-) 306.52 683.76 T
+(-) 307.9 683.76 T
+(-) 309.28 683.76 T
+(-) 310.66 683.76 T
+(-) 312.04 683.76 T
+(-) 313.42 683.76 T
+(-) 314.8 683.76 T
+(-) 316.18 683.76 T
+(-) 317.56 683.76 T
+(-) 318.94 683.76 T
+(-) 320.32 683.76 T
+(-) 320.61 683.76 T
+(=) 280.99 683.76 T
+181.28 433.64 429.8 737.38 C
+165.17 400.5 446.83 765 C
+181.28 433.64 429.8 737.38 C
+181.28 543.62 399.41 576.76 C
+0 0 0 1 0 0 0 1 K
+0 8.28 Q
+0 X
+(floating point operations) 212.12 563.37 T
+(execution time) 218.09 549.87 T
+(10) 275.78 549.87 T
+5 F
+(\264) 269.16 549.87 T
+0 6.44 Q
+(6) 284.38 554.6 T
+0 8.28 Q
+(-) 212.12 558.77 T
+(-) 213.5 558.77 T
+(-) 214.88 558.77 T
+(-) 216.25 558.77 T
+(-) 217.63 558.77 T
+(-) 219.01 558.77 T
+(-) 220.39 558.77 T
+(-) 221.77 558.77 T
+(-) 223.15 558.77 T
+(-) 224.53 558.77 T
+(-) 225.91 558.77 T
+(-) 227.29 558.77 T
+(-) 228.67 558.77 T
+(-) 230.05 558.77 T
+(-) 231.43 558.77 T
+(-) 232.81 558.77 T
+(-) 234.18 558.77 T
+(-) 235.56 558.77 T
+(-) 236.94 558.77 T
+(-) 238.32 558.77 T
+(-) 239.7 558.77 T
+(-) 241.08 558.77 T
+(-) 242.46 558.77 T
+(-) 243.84 558.77 T
+(-) 245.22 558.77 T
+(-) 246.6 558.77 T
+(-) 247.98 558.77 T
+(-) 249.36 558.77 T
+(-) 250.74 558.77 T
+(-) 252.12 558.77 T
+(-) 253.49 558.77 T
+(-) 254.87 558.77 T
+(-) 256.25 558.77 T
+(-) 257.63 558.77 T
+(-) 259.01 558.77 T
+(-) 260.39 558.77 T
+(-) 261.77 558.77 T
+(-) 263.15 558.77 T
+(-) 264.53 558.77 T
+(-) 265.91 558.77 T
+(-) 267.29 558.77 T
+(-) 268.67 558.77 T
+(-) 270.05 558.77 T
+(-) 271.42 558.77 T
+(-) 272.8 558.77 T
+(-) 274.18 558.77 T
+(-) 275.56 558.77 T
+(-) 276.94 558.77 T
+(-) 278.32 558.77 T
+(-) 279.7 558.77 T
+(-) 281.08 558.77 T
+(-) 282.46 558.77 T
+(-) 283.84 558.77 T
+(-) 285.22 558.77 T
+(-) 286.6 558.77 T
+(-) 287.98 558.77 T
+(-) 289.36 558.77 T
+(-) 290.73 558.77 T
+(-) 290.81 558.77 T
+181.28 433.64 429.8 737.38 C
+165.17 400.5 446.83 765 C
+0 0 0 1 0 0 0 1 K
+165.17 27 446.83 391.5 C
+0 0 0 1 0 0 0 1 K
+0 5.06 Q
+0 X
+(CSE378) 178.98 49.4 T
+( Autumn 2002) 288.61 49.4 T
+(10) 419.21 49.4 T
+181.28 343.62 429.8 352.84 C
+0 0 0 1 0 0 0 1 K
+181.28 343.62 429.8 352.84 R
+7 X
+V
+1 1 0 0 0 0 1 1 K
+180.36 348.7 479.5 348.7 2 L
+V
+1.38 H
+2 Z
+0 X
+N
+0 0 0 1 0 0 0 1 K
+165.17 27 446.83 391.5 C
+1 1 0 0 0 0 1 1 K
+1 11.05 Q
+0 X
+(Means) 288.35 356.52 T
+0 0 0 1 0 0 0 1 K
+2 8.28 Q
+(Measuring the performance of a workload) 181.28 331.2 T
+(\245) 189.56 317.85 T
+0 1 1 0 1 0 0 1 K
+1 F
+(arithmetic) 197.85 317.85 T
+0 0 0 1 0 0 0 1 K
+2 F
+(: used for averaging execution times) 237.44 317.85 T
+(\245) 189.56 257.78 T
+0 1 1 0 1 0 0 1 K
+1 F
+(harmonic) 197.85 257.78 T
+0 0 0 1 0 0 0 1 K
+2 F
+(: used for averaging rates) 235.13 257.78 T
+(\245) 189.56 186.13 T
+(weighted means: the programs are executed with different) 197.85 186.13 T
+(frequencies, for example:) 197.85 176 T
+181.28 60.14 429.8 363.88 C
+184.04 281.71 427.04 315.09 C
+0 0 0 1 0 0 0 1 K
+4 8.28 Q
+0 X
+(time) 296.52 294.52 T
+4 6.44 Q
+(i) 312.48 291.85 T
+(i) 282.72 284.24 T
+(1) 292.48 284.24 T
+(=) 286.66 284.24 T
+(n) 287.42 304.73 T
+5 11.05 Q
+(\345) 285.27 292.75 T
+5 8.28 Q
+(\350) 278.95 286.79 T
+(\370) 314.03 286.79 T
+(\347) 278.95 293.89 T
+(\367) 314.03 293.89 T
+(\346) 278.95 300.99 T
+(\366) 314.03 300.99 T
+4 F
+(1) 327.12 299.31 T
+(n) 326.89 289.16 T
+(-) 326.89 294.52 T
+(-) 328.27 294.52 T
+(-) 328.74 294.52 T
+5 F
+(\264) 320.11 294.52 T
+181.28 60.14 429.8 363.88 C
+165.17 27 446.83 391.5 C
+181.28 60.14 429.8 363.88 C
+184.04 210.06 427.04 255.02 C
+0 0 0 1 0 0 0 1 K
+0 8.28 Q
+0 X
+(n) 269.02 245.58 T
+(1) 275.9 231.61 T
+(rate) 270.71 221.46 T
+0 6.44 Q
+(i) 283.44 218.79 T
+0 8.28 Q
+(-) 270.71 227.01 T
+(-) 272.09 227.01 T
+(-) 273.47 227.01 T
+(-) 274.85 227.01 T
+(-) 276.23 227.01 T
+(-) 277.61 227.01 T
+(-) 278.99 227.01 T
+(-) 280.37 227.01 T
+(-) 281.75 227.01 T
+(-) 282.48 227.01 T
+0 6.44 Q
+(i) 256.78 216.73 T
+(1) 266.5 216.73 T
+(=) 260.72 216.73 T
+(n) 261.64 237.23 T
+5 11.05 Q
+(\345) 259.31 225.24 T
+0 8.28 Q
+(-) 256.78 240.98 T
+(-) 258.16 240.98 T
+(-) 259.54 240.98 T
+(-) 260.92 240.98 T
+(-) 262.3 240.98 T
+(-) 263.68 240.98 T
+(-) 265.06 240.98 T
+(-) 266.44 240.98 T
+(-) 267.82 240.98 T
+(-) 269.2 240.98 T
+(-) 270.58 240.98 T
+(-) 271.95 240.98 T
+(-) 273.33 240.98 T
+(-) 274.71 240.98 T
+(-) 276.09 240.98 T
+(-) 277.47 240.98 T
+(-) 278.85 240.98 T
+(-) 280.23 240.98 T
+(-) 281.61 240.98 T
+(-) 282.64 240.98 T
+(1) 322.36 245.39 T
+(a) 295.03 235.24 T
+(r) 299.2 235.24 T
+(i) 302.45 235.24 T
+(t) 305.24 235.24 T
+(h) 308.03 235.24 T
+(m) 312.66 235.24 T
+(e) 319.59 235.24 T
+(t) 323.76 235.24 T
+(i) 326.55 235.24 T
+(c) 329.34 235.24 T
+(M) 333.51 235.24 T
+(e) 341.36 235.24 T
+(a) 345.53 235.24 T
+(n) 349.7 235.24 T
+(-) 295.03 240.79 T
+(-) 296.41 240.79 T
+(-) 297.79 240.79 T
+(-) 299.17 240.79 T
+(-) 300.55 240.79 T
+(-) 301.93 240.79 T
+(-) 303.31 240.79 T
+(-) 304.69 240.79 T
+(-) 306.07 240.79 T
+(-) 307.45 240.79 T
+(-) 308.83 240.79 T
+(-) 310.2 240.79 T
+(-) 311.58 240.79 T
+(-) 312.96 240.79 T
+(-) 314.34 240.79 T
+(-) 315.72 240.79 T
+(-) 317.1 240.79 T
+(-) 318.48 240.79 T
+(-) 319.86 240.79 T
+(-) 321.24 240.79 T
+(-) 322.62 240.79 T
+(-) 324 240.79 T
+(-) 325.38 240.79 T
+(-) 326.76 240.79 T
+(-) 328.14 240.79 T
+(-) 329.51 240.79 T
+(-) 330.89 240.79 T
+(-) 332.27 240.79 T
+(-) 333.65 240.79 T
+(-) 335.03 240.79 T
+(-) 336.41 240.79 T
+(-) 337.79 240.79 T
+(-) 339.17 240.79 T
+(-) 340.55 240.79 T
+(-) 341.93 240.79 T
+(-) 343.31 240.79 T
+(-) 344.69 240.79 T
+(-) 346.07 240.79 T
+(-) 347.45 240.79 T
+(-) 348.82 240.79 T
+(-) 350.2 240.79 T
+(-) 351.08 240.79 T
+(=) 286.05 240.79 T
+181.28 60.14 429.8 363.88 C
+165.17 27 446.83 391.5 C
+181.28 60.14 429.8 363.88 C
+184.04 139.86 427.04 173.24 C
+0 0 0 1 0 0 0 1 K
+4 8.28 Q
+0 X
+(time) 278.17 152.67 T
+4 6.44 Q
+(i) 294.13 150 T
+4 8.28 Q
+(w) 304.61 152.67 T
+(e) 311.08 152.67 T
+(i) 315.24 152.67 T
+(g) 318.03 152.67 T
+(h) 322.67 152.67 T
+(t) 327.76 152.67 T
+5 F
+(\264) 297.99 152.67 T
+4 6.44 Q
+(i) 330.83 149 T
+(i) 264.37 142.39 T
+(1) 274.12 142.39 T
+(=) 268.31 142.39 T
+(n) 269.07 162.89 T
+5 11.05 Q
+(\345) 266.92 150.9 T
+5 8.28 Q
+(\350) 260.6 144.95 T
+(\370) 332.38 144.95 T
+(\347) 260.6 152.05 T
+(\367) 332.38 152.05 T
+(\346) 260.6 159.15 T
+(\366) 332.38 159.15 T
+4 F
+(1) 345.48 157.46 T
+(n) 345.24 147.31 T
+(-) 345.24 152.67 T
+(-) 346.62 152.67 T
+(-) 347.09 152.67 T
+5 F
+(\264) 338.46 152.67 T
+181.28 60.14 429.8 363.88 C
+165.17 27 446.83 391.5 C
+0 0 0 1 0 0 0 1 K
+FMENDPAGE
+%%EndPage: "mini" 5
+%%Page: "mini" 6
+612 792 0 FMBEGINPAGE
+0 FrameSetSepColors
+FrameNoSep
+165.17 400.5 446.83 765 C
+0 0 0 1 0 0 0 1 K
+0 5.06 Q
+0 X
+(CSE378) 178.98 422.9 T
+( Autumn 2002) 288.61 422.9 T
+(11) 419.21 422.9 T
+181.28 717.12 429.8 726.34 C
+0 0 0 1 0 0 0 1 K
+181.28 717.12 429.8 726.34 R
+7 X
+V
+1 1 0 0 0 0 1 1 K
+180.36 722.2 479.5 722.2 2 L
+V
+1.38 H
+2 Z
+0 X
+N
+0 0 0 1 0 0 0 1 K
+165.17 400.5 446.83 765 C
+1 1 0 0 0 0 1 1 K
+1 11.05 Q
+0 X
+(Means) 288.35 730.02 T
+0 0 0 1 0 0 0 1 K
+2 8.28 Q
+(Computer C is ~25 times faster than A when measuring execution) 181.28 500.36 T
+(time) 197.85 489.77 T
+(Still) 181.28 475.97 T
+(true) 196.92 475.97 T
+(when) 213.49 475.97 T
+(measuring) 235.58 475.97 T
+(MFLOPS) 276.55 475.97 T
+(\050a) 312.9 475.97 T
+(rate\051) 322.56 475.97 T
+(with) 341.89 475.97 T
+(the) 358.91 475.97 T
+(harmonic) 372.72 475.97 T
+(mean) 409.08 475.97 T
+(Not true with the arithmetic mean) 181.28 462.16 T
+0 F
+(FP Ops) 245.14 689.97 T
+(T) 324.56 689.97 T
+(ime \050secs\051) 329.33 689.97 T
+(Computer) 276.78 675.24 T
+(A) 311.83 675.24 T
+(Computer B) 323.49 675.24 T
+(Computer C) 370.04 675.24 T
+(program 1) 200.16 661.44 T
+(100) 258.83 661.44 T
+(1) 313.67 661.44 T
+(10) 356.08 661.44 T
+(20) 402.64 661.44 T
+(program 2) 200.16 648.55 T
+(100) 258.83 648.55 T
+(1000) 301.25 648.55 T
+(100) 351.94 648.55 T
+(20) 402.64 648.55 T
+(total) 200.16 635.66 T
+(1001) 301.25 635.66 T
+(110) 351.94 635.66 T
+(40) 402.64 635.66 T
+(arith mean) 201.54 621.86 T
+(500.5) 299.18 621.86 T
+(55) 356.08 621.86 T
+(20) 402.64 621.86 T
+(FP Ops) 246.4 601.61 T
+(Rate \050FLOPS\051) 322.88 601.61 T
+(Computer A) 278.5 586.88 T
+(Computer B) 326.33 586.88 T
+(Computer C) 373.95 586.88 T
+(program 1) 195.72 573.07 T
+(100) 260.1 573.07 T
+(100) 307.71 573.07 T
+(10) 359.46 573.07 T
+(5) 411.21 573.07 T
+(program 2) 195.72 560.19 T
+(100) 260.1 560.19 T
+(.1) 313.92 560.19 T
+(1) 363.6 560.19 T
+(5) 411.21 560.19 T
+(harm mean) 199.04 546.38 T
+(.2) 313.92 546.38 T
+(1.5) 357.39 546.38 T
+(5) 411.21 546.38 T
+(arith mean) 199.96 531.66 T
+(50.1) 305.64 531.66 T
+(5.5) 357.39 531.66 T
+(5) 411.21 531.66 T
+197.4 699.06 197.4 616.45 2 L
+V
+0.23 H
+0 Z
+N
+240.89 699.29 240.89 616.22 2 L
+V
+N
+274.02 699.29 274.02 616.22 2 L
+V
+N
+320.58 684.56 320.58 616.22 2 L
+V
+N
+367.13 684.56 367.13 616.22 2 L
+V
+N
+413.68 699.06 413.68 616.45 2 L
+V
+N
+197.28 699.17 413.8 699.17 2 L
+V
+N
+273.91 684.45 413.8 684.45 2 L
+V
+N
+197.51 670.3 413.57 670.3 2 L
+V
+N
+197.51 669.15 413.57 669.15 2 L
+V
+N
+197.28 656.83 413.8 656.83 2 L
+V
+N
+197.28 643.95 413.8 643.95 2 L
+V
+N
+197.51 631.64 413.57 631.64 2 L
+V
+N
+197.51 630.49 413.57 630.49 2 L
+V
+N
+197.28 616.34 413.8 616.34 2 L
+V
+N
+192.96 610.7 192.96 526.25 2 L
+V
+N
+242.15 610.93 242.15 526.02 2 L
+V
+N
+275.28 610.93 275.28 526.02 2 L
+V
+N
+322.89 596.2 322.89 526.02 2 L
+V
+N
+370.51 596.2 370.51 526.02 2 L
+V
+N
+418.12 610.7 418.12 526.25 2 L
+V
+N
+192.85 610.81 418.23 610.81 2 L
+V
+N
+275.17 596.09 418.23 596.09 2 L
+V
+N
+193.08 581.93 418 581.93 2 L
+V
+N
+193.08 580.78 418 580.78 2 L
+V
+N
+192.85 568.47 418.23 568.47 2 L
+V
+N
+193.08 556.16 418 556.16 2 L
+V
+N
+193.08 555.01 418 555.01 2 L
+V
+N
+192.85 540.86 418.23 540.86 2 L
+V
+N
+192.85 526.13 418.23 526.13 2 L
+V
+N
+165.17 27 446.83 391.5 C
+0 0 0 1 0 0 0 1 K
+0 5.06 Q
+0 X
+(CSE378) 178.98 49.4 T
+( Autumn 2002) 288.61 49.4 T
+(12) 419.21 49.4 T
+181.28 343.62 429.8 352.84 C
+0 0 0 1 0 0 0 1 K
+181.28 343.62 429.8 352.84 R
+7 X
+V
+1 1 0 0 0 0 1 1 K
+180.36 348.7 479.5 348.7 2 L
+V
+1.38 H
+2 Z
+0 X
+N
+0 0 0 1 0 0 0 1 K
+165.17 27 446.83 391.5 C
+1 1 0 0 0 0 1 1 K
+1 11.05 Q
+0 X
+(Speedup) 282.22 356.52 T
+0 0 0 1 0 0 0 1 K
+0 1 1 0 1 0 0 1 K
+1 8.28 Q
+(Amdahl\325s Law) 181.28 276.42 T
+0 0 0 1 0 0 0 1 K
+2 F
+(:) 236.98 276.42 T
+(Performance improvement from speeding up a part of a) 197.85 262.61 T
+(computer system is limited by the proportion of time the) 197.85 252.03 T
+(enhancement is used.) 197.85 241.44 T
+181.28 60.14 429.8 363.88 C
+181.28 302.65 415.98 343.62 C
+0 0 0 1 0 0 0 1 K
+0 1 1 0 1 0 0 1 K
+4 8.28 Q
+0 X
+(speedup) 191.84 317.61 T
+0 0 0 1 0 0 0 1 K
+(execution time) 234.01 324.6 T
+4 6.44 Q
+(b) 285.63 321.93 T
+(e) 289.59 321.93 T
+(f) 292.83 321.93 T
+(o) 295.36 321.93 T
+(r) 298.96 321.93 T
+(e) 302.2 321.93 T
+(I) 305.44 321.93 T
+(m) 308.33 321.93 T
+(p) 314.07 321.93 T
+(r) 318.04 321.93 T
+(o) 321.28 321.93 T
+(v) 324.88 321.93 T
+(e) 328.48 321.93 T
+(m) 331.72 321.93 T
+(e) 337.47 321.93 T
+(n) 340.71 321.93 T
+(t) 344.67 321.93 T
+4 8.28 Q
+(execution time) 236.35 312.25 T
+4 6.44 Q
+(a) 287.97 309.58 T
+(f) 291.57 309.58 T
+(t) 294.1 309.58 T
+(e) 296.62 309.58 T
+(r) 299.86 309.58 T
+(I) 303.1 309.58 T
+(m) 305.99 309.58 T
+(p) 311.73 309.58 T
+(r) 315.7 309.58 T
+(o) 318.94 309.58 T
+(v) 322.54 309.58 T
+(e) 326.14 309.58 T
+(m) 329.38 309.58 T
+(e) 335.13 309.58 T
+(n) 338.37 309.58 T
+(t) 342.33 309.58 T
+4 8.28 Q
+(-) 234.01 317.61 T
+(-) 235.39 317.61 T
+(-) 236.77 317.61 T
+(-) 238.15 317.61 T
+(-) 239.53 317.61 T
+(-) 240.91 317.61 T
+(-) 242.29 317.61 T
+(-) 243.67 317.61 T
+(-) 245.05 317.61 T
+(-) 246.43 317.61 T
+(-) 247.8 317.61 T
+(-) 249.18 317.61 T
+(-) 250.56 317.61 T
+(-) 251.94 317.61 T
+(-) 253.32 317.61 T
+(-) 254.7 317.61 T
+(-) 256.08 317.61 T
+(-) 257.46 317.61 T
+(-) 258.84 317.61 T
+(-) 260.22 317.61 T
+(-) 261.6 317.61 T
+(-) 262.98 317.61 T
+(-) 264.36 317.61 T
+(-) 265.74 317.61 T
+(-) 267.11 317.61 T
+(-) 268.49 317.61 T
+(-) 269.87 317.61 T
+(-) 271.25 317.61 T
+(-) 272.63 317.61 T
+(-) 274.01 317.61 T
+(-) 275.39 317.61 T
+(-) 276.77 317.61 T
+(-) 278.15 317.61 T
+(-) 279.53 317.61 T
+(-) 280.91 317.61 T
+(-) 282.29 317.61 T
+(-) 283.67 317.61 T
+(-) 285.05 317.61 T
+(-) 286.42 317.61 T
+(-) 287.8 317.61 T
+(-) 289.18 317.61 T
+(-) 290.56 317.61 T
+(-) 291.94 317.61 T
+(-) 293.32 317.61 T
+(-) 294.7 317.61 T
+(-) 296.08 317.61 T
+(-) 297.46 317.61 T
+(-) 298.84 317.61 T
+(-) 300.22 317.61 T
+(-) 301.6 317.61 T
+(-) 302.98 317.61 T
+(-) 304.36 317.61 T
+(-) 305.73 317.61 T
+(-) 307.11 317.61 T
+(-) 308.49 317.61 T
+(-) 309.87 317.61 T
+(-) 311.25 317.61 T
+(-) 312.63 317.61 T
+(-) 314.01 317.61 T
+(-) 315.39 317.61 T
+(-) 316.77 317.61 T
+(-) 318.15 317.61 T
+(-) 319.53 317.61 T
+(-) 320.91 317.61 T
+(-) 322.29 317.61 T
+(-) 323.67 317.61 T
+(-) 325.05 317.61 T
+(-) 326.42 317.61 T
+(-) 327.8 317.61 T
+(-) 329.18 317.61 T
+(-) 330.56 317.61 T
+(-) 331.94 317.61 T
+(-) 333.32 317.61 T
+(-) 334.7 317.61 T
+(-) 336.08 317.61 T
+(-) 337.46 317.61 T
+(-) 338.84 317.61 T
+(-) 340.22 317.61 T
+(-) 341.6 317.61 T
+(-) 342.98 317.61 T
+(-) 344.06 317.61 T
+(=) 224.99 317.61 T
+181.28 60.14 429.8 363.88 C
+165.17 27 446.83 391.5 C
+0 0 0 1 0 0 0 1 K
+FMENDPAGE
+%%EndPage: "mini" 6
+%%Trailer
+FMENDDOCUMENT
+%%BoundingBox: 0 0 612 792
+%%PageOrder: Ascend
+%%Pages: 6
+%%DocumentFonts: Times-Roman
+%%+ Helvetica-Bold
+%%+ Helvetica
+%%+ Helvetica-Oblique
+%%+ Times-Bold
+%%+ Symbol
+%%DocumentNeedsFonts: Times-Roman
+%%+ Helvetica-Bold
+%%+ Helvetica
+%%+ Helvetica-Oblique
+%%+ Times-Bold
+%%+ Symbol
+%%DocumentSuppliedFonts:
+%%EOF

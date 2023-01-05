@@ -1,0 +1,3902 @@
+%!PS-Adobe-3.0
+%%Title: (\376\377)
+%%Version: 1 2
+%%Creator: (\376\377)
+%%CreationDate: (D:20010829162245)
+%%For: (\376\377)
+%%DocumentData: Clean7Bit
+%%LanguageLevel: 2
+%%BoundingBox: 0 0 440 666
+%%Pages: 8
+%%DocumentProcessColors: (atend)
+%%DocumentSuppliedResources:
+%%+ font TimesNewRoman$2X1
+%%+ font TimesNewRoman,Italic$2X1
+%%+ font TimesNewRoman,Bold$2X1
+%%+ procset (Adobe Acrobat - PDF operators) 1.2 0
+%%+ procset (Adobe Acrobat - type operators) 1.2 0
+%%+ procset (Adobe Acrobat - general image support) 1.2 0
+%%+ procset (Adobe Acrobat - monochrome image support) 1.2 0
+%%+ procset (Adobe Acrobat - color image support) 1.2 0
+%%EndComments
+%%BeginDefaults
+%%EndDefaults
+%%BeginProlog
+%%EndProlog
+%%BeginSetup
+%%BeginFile: l2check
+%%Copyright: Copyright 1993 Adobe Systems Incorporated. All Rights Reserved.
+systemdict /languagelevel known
+{ systemdict /languagelevel get 1 eq }
+{ true }
+ifelse
+{
+initgraphics /Helvetica findfont 18 scalefont setfont
+72 600 moveto (Error: Your printer driver needs to be configured) dup show
+72 580 moveto (for printing to a PostScript Level 1 printer.) dup show
+exch = =
+/Helvetica-Bold findfont 16 scalefont setfont
+72 520 moveto (Windows and Unix) show
+/Times-Roman findfont 16 scalefont setfont
+72 500 moveto (Select ªLevel 1º in the PostScript options section) show
+72 480 moveto (of the Acrobat Exchange or Reader print dialog.) show
+/Helvetica-Bold findfont 16 scalefont setfont
+72 440 moveto (Macintosh) show
+/Times-Roman findfont 16 scalefont setfont
+72 420 moveto (In the Chooser, select your printer driver.) show
+72 400 moveto (Then select your printer and click the Setup button.) show
+72 380 moveto (Follow any on-screen dialogs that may appear.) show
+showpage
+quit
+}
+if
+%%EndFile
+/currentpacking where{pop currentpacking true setpacking}if
+userdict /PDF 85 dict put
+%%BeginFile: pdfvars.prc
+%%Copyright: Copyright 1987-1996 Adobe Systems Incorporated. All Rights Reserved.
+userdict /PDFVars 75 dict dup begin put
+/_save 0 def
+/_cshow 0 def
+/InitAll 0 def
+/TermAll 0 def
+/_lp /none def
+/_doClip 0 def
+/sfc 0 def
+/_sfcs 0 def
+/_sfc 0 def
+/ssc 0 def
+/_sscs 0 def
+/_ssc 0 def
+/_fcs 0 def
+/_scs 0 def
+/_fp 0 def
+/_sp 0 def
+/_f0 0 array def
+/_f1 1 array def
+/_f3 3 array def
+/_f4 4 array def
+/_fc null def
+/_s0 0 array def
+/_s1 1 array def
+/_s3 3 array def
+/_s4 4 array def
+/_sc null def
+/_cpcf null def
+/_cpcs null def
+/_inT false def
+/_tr -1 def
+/_rise 0 def
+/_ax 0 def
+/_cx 0 def
+/_ld 0 def
+/_tm matrix def
+/_ctm matrix def
+/_mtx matrix def
+/_hy (-) def
+/_fScl 0 def
+/_hs 1 def
+/_pdfEncodings 2 array def
+/_baselineadj 0 def
+/_Tj 0 def
+/_italMtx[1 0 .212557 1 0 0]def
+/_italMtx_WMode1 [1 -.212557 0 1 0 0]def
+/_basefont 0 def
+/_basefonto 0 def
+/_pdf_oldCIDInit null def
+/_categories 10 dict def
+/_sa? true def
+/_op? false def
+/_ColorSep5044? false def
+/_tmpcolr? [] def
+/_tmpop? {} def
+end
+%%EndFile
+PDFVars begin PDF begin
+%%BeginFile: pdfutil.prc
+%%Copyright: Copyright 1993 Adobe Systems Incorporated. All Rights Reserved.
+/bd {bind def} bind def
+/ld {load def} bd
+/dd { PDFVars 3 1 roll put } bd
+/xdd { exch dd } bd
+/Level2?
+systemdict /languagelevel known
+{ systemdict /languagelevel get 2 ge } { false } ifelse
+def
+/here {
+dup currentdict exch known
+{ currentdict exch get true }
+{ pop false }
+ifelse
+} bd
+/isdefined? { where { pop true } { false } ifelse } bd
+/StartLoad { dup dup not { /_save save dd } if } bd
+/EndLoad { if not { _save restore } if } bd
+/npop { { pop } repeat } bd
+%%EndFile
+%%BeginFile: pdf.prc
+%%Copyright: Copyright 1987-1996 Adobe Systems Incorporated. All Rights Reserved.
+/initialize {
+_ColorSep5044? {sep_ops begin 50 dict begin} if
+newpath
+} bd
+/terminate {
+_ColorSep5044? {end end} if
+} bd
+Level2? StartLoad
+{ /m/moveto ld
+/l/lineto ld
+/c/curveto ld
+/setSA/setstrokeadjust ld
+} EndLoad
+Level2? not StartLoad
+{
+/pl {
+transform
+0.25 sub round 0.25 add exch
+0.25 sub round 0.25 add exch
+itransform
+} bd
+/m { _sa? { pl } if moveto } bd
+/l { _sa? { pl } if lineto } bd
+/c { _sa? { pl } if curveto } bd
+/setSA { /_sa? xdd } bd
+} EndLoad
+/v { currentpoint 6 2 roll c } bd
+/y { 2 copy c } bd
+/h/closepath ld
+/d/setdash ld
+/j/setlinejoin ld
+/J/setlinecap ld
+/M/setmiterlimit ld
+/w/setlinewidth ld
+/cf currentflat def
+/i {
+dup 0 eq { pop cf } if
+setflat
+} bd
+/ilp { /_lp /none dd } bd
+/sfc {
+_lp /fill ne {
+_sfcs
+_sfc
+/_lp /fill dd
+} if
+} dd
+/ssc {
+_lp /stroke ne {
+_sscs
+_ssc
+/_lp /stroke dd
+} if
+} dd
+/n {
+_doClip 1 ge {
+_doClip 1 eq { clip } { eoclip } ifelse
+/_doClip 0 dd
+} if
+newpath
+} bd
+/f {
+_doClip 1 ge
+{
+gsave sfc fill grestore
+_doClip 1 eq { clip } { eoclip } ifelse
+newpath
+ilp
+/_doClip 0 dd
+}
+{ sfc fill }
+ifelse
+} bd
+/f* {
+_doClip 1 ge
+{
+gsave sfc eofill grestore
+_doClip 1 eq { clip } { eoclip } ifelse
+newpath
+ilp
+/_doClip 0 dd
+}
+{ sfc eofill }
+ifelse
+} bd
+/S {
+_doClip 1 ge
+{
+gsave ssc stroke grestore
+_doClip 1 eq { clip } { eoclip } ifelse
+newpath
+ilp
+/_doClip 0 dd
+}
+{ ssc stroke }
+ifelse
+} bd
+/s { h S } bd
+/B {
+_doClip dup 1 ge
+gsave f grestore
+{
+gsave S grestore
+1 eq { clip } { eoclip } ifelse
+newpath
+ilp
+/_doClip 0 dd
+}
+{ pop S }
+ifelse
+} bd
+/b { h B } bd
+/B* {
+_doClip dup 1 ge
+gsave f* grestore
+{
+gsave S grestore
+1 eq { clip } { eoclip } ifelse
+newpath
+ilp
+/_doClip 0 dd
+}
+{ pop S }
+ifelse
+} bd
+/b* { h B* } bd
+/W { /_doClip 1 dd } bd
+/W* { /_doClip 2 dd } bd
+/q/save ld
+/Q { restore ilp } bd
+Level2? StartLoad
+{ /defineRes/defineresource ld
+/findRes/findresource ld
+currentglobal
+true systemdict /setglobal get exec
+[/Function /ExtGState /Form]
+{ /Generic /Category findresource dup length dict copy /Category defineresource pop }
+forall
+systemdict /setglobal get exec
+} EndLoad
+Level2? not StartLoad
+{ /AlmostFull?
+{ dup maxlength exch length sub 2 le
+} bind def
+/Expand
+{ 1 index maxlength mul cvi dict
+dup begin exch { def } forall end
+} bind def
+/xput
+{ 3 2 roll
+dup 3 index known not
+{ dup AlmostFull? { 1.5 Expand } if
+} if
+dup 4 2 roll put
+} bind def
+/defineRes
+{ _categories 1 index known not
+{ /_categories _categories 2 index 10 dict xput store
+} if
+_categories exch 2 copy get 5 -1 roll 4 index xput put
+} bind def
+/findRes
+{ _categories exch get exch get
+} bind def
+} EndLoad
+/cs
+{
+dup where { pop load } if
+dup /_fcs xdd
+ucs
+_cpcf exch get
+/_fc xdd
+/_fp null dd
+} bd
+/CS
+{
+dup where { pop load } if
+dup /_scs xdd ucs _cpcs exch get /_sc xdd /_sp null dd
+} bd
+/ucs {
+dup type /arraytype eq
+{ dup 0 get
+dup /Indexed eq
+{ pop 0 get }
+{ /Pattern eq
+{ dup length 2 eq
+{ 1 get ucs }
+{ 0 get }
+ifelse }
+{ 0 get }
+ifelse }
+ifelse }
+if }
+bd
+/_cpcf
+15 dict dup begin
+/DefaultGray _f1 def
+/DeviceGray _f1 def
+/DefaultRGB _f3 def
+/DeviceRGB _f3 def
+/DeviceCMYK _f4 def
+/CalGray _f1 def
+/CalRGB _f3 def
+/CalCMYK _f4 def
+/Lab _f3 def
+/Pattern _f0 def
+/Indexed _f1 def
+/Separation _f1 def
+/CIEBasedA _f1 def
+/CIEBasedABC _f3 def
+end
+dd
+/_cpcs
+15 dict dup begin
+/DefaultGray _s1 def
+/DeviceGray _s1 def
+/DefaultRGB _s3 def
+/DeviceRGB _s3 def
+/DeviceCMYK _s4 def
+/CalGray _s1 def
+/CalRGB _s3 def
+/CalCMYK _s4 def
+/Lab _s3 def
+/Pattern _s0 def
+/Indexed _s1 def
+/Separation _s1 def
+/CIEBasedA _s1 def
+/CIEBasedABC _s3 def
+end
+dd
+Level2? not StartLoad {
+/ri/pop ld
+/makePat/pop ld
+} EndLoad
+Level2? StartLoad {
+/ri
+{
+/findcolorrendering isdefined?
+{
+mark exch
+findcolorrendering
+counttomark 2 eq
+{ type /booleantype eq
+{ dup type /nametype eq
+{ dup /ColorRendering resourcestatus
+{ pop pop
+dup /DefaultColorRendering ne
+{
+/ColorRendering findresource
+setcolorrendering
+} if
+} if
+} if
+} if
+} if
+cleartomark
+}
+{ pop
+} ifelse
+} bd
+/makePat /makepattern ld
+} EndLoad
+Level2? not _ColorSep5044? or StartLoad
+{
+/L1setcolor {
+aload length
+dup 0 eq
+{ pop .5 setgray }
+{ dup 1 eq
+{ pop setgray }
+{ 3 eq
+{ setrgbcolor }
+{ setcmykcolor }
+ifelse }
+ifelse }
+ifelse
+} bind dd
+/_sfcs { } dd
+/_sscs { } dd
+} EndLoad
+Level2? not _ColorSep5044? not and StartLoad
+{
+/_sfc { _fc L1setcolor } dd
+/_ssc { _sc L1setcolor } dd
+} EndLoad
+Level2? _ColorSep5044? not and StartLoad
+{
+/_sfcs
+{
+_fcs setcolorspace
+} bind dd
+/_sscs
+{
+_scs setcolorspace
+} bind dd
+/_sfc
+{
+_fc aload pop
+_fp null eq
+{ setcolor }
+{ _fp setpattern }
+ifelse
+} bind dd
+/_ssc
+{
+_sc aload pop
+_sp null eq { setcolor } { _sp setpattern } ifelse
+} bind dd
+} EndLoad
+/sc
+{
+_fc astore pop
+ilp
+} bd
+/SC
+{
+_sc astore pop
+ilp
+} bd
+/scn {
+dup type /dicttype eq
+{ dup /_fp xdd
+/PaintType get 1 eq
+{ /_fc _f0 dd ilp }
+{ /_fc _cpcf _fcs ucs get dd
+sc }
+ifelse }
+{ sc }
+ifelse
+} bd
+/SCN {
+dup type /dicttype eq
+{ dup /_sp xdd
+/PaintType get 1 eq
+{ /_sc _s0 dd ilp }
+{ /_sc _cpcs _scs ucs get dd
+SC }
+ifelse }
+{ SC }
+ifelse
+} bd
+/g { /DefaultGray cs sc } bd
+/rg { /DefaultRGB cs sc } bd
+/k { /DeviceCMYK cs sc } bd
+/G { /DefaultGray CS SC } bd
+/RG { /DefaultRGB CS SC } bd
+/K { /DeviceCMYK CS SC } bd
+/cm { _mtx astore concat } bd
+/re {
+4 2 roll m
+1 index 0 rlineto
+0 exch rlineto
+neg 0 rlineto
+h
+} bd
+/RC/rectclip ld
+/EF/execform ld
+/PS { cvx exec } bd
+/initgs {
+/DefaultGray where
+{ pop }
+{ /DefaultGray /DeviceGray dd }
+ifelse
+/DefaultRGB where
+{ pop }
+{ /DefaultRGB /DeviceRGB dd }
+ifelse
+0 g 0 G
+[] 0 d 0 j 0 J 10 M 1 w
+true setSA
+} bd
+21 dict dup begin
+/CosineDot
+{ 180 mul cos exch 180 mul cos add 2 div } bd
+/Cross
+{ abs exch abs 2 copy gt { exch } if pop neg } bd
+/Diamond
+{ abs exch abs 2 copy add .75 le
+{ dup mul exch dup mul add 1 exch sub }
+{ 2 copy add 1.23 le
+{ .85 mul add 1 exch sub }
+{ 1 sub dup mul exch 1 sub dup mul add 1 sub }
+ifelse }
+ifelse } bd
+/Double
+{ exch 2 div exch 2 { 360 mul sin 2 div exch } repeat add } bd
+/DoubleDot
+{ 2 { 360 mul sin 2 div exch } repeat add } bd
+/Ellipse
+{ abs exch abs 2 copy 3 mul exch 4 mul add 3 sub dup 0 lt
+{ pop dup mul exch .75 div dup mul add 4 div
+1 exch sub }
+{ dup 1 gt
+{pop 1 exch sub dup mul exch 1 exch sub
+.75 div dup mul add 4 div 1 sub }
+{ .5 exch sub exch pop exch pop }
+ifelse }
+ifelse } bd
+/EllipseA
+{ dup mul .9 mul exch dup mul add 1 exch sub } bd
+/EllipseB
+{ dup 5 mul 8 div mul exch dup mul exch add sqrt 1 exch sub } bd
+/EllipseC
+{ dup .5 gt { 1 exch sub } if
+dup .25 ge
+{ .5 exch sub 4 mul dup mul 1 sub }
+{ 4 mul dup mul 1 exch sub }
+ifelse
+exch
+dup .5 gt { 1 exch sub } if
+dup .25 ge
+{ .5 exch sub 4 mul dup mul 1 sub }
+{ 4 mul dup mul 1 exch sub }
+ifelse
+add -2 div } bd
+/InvertedDouble
+{ exch 2 div exch 2 { 360 mul sin 2 div exch } repeat add neg } bd
+/InvertedDoubleDot
+{ 2 { 360 mul sin 2 div exch } repeat add neg } bd
+/InvertedEllipseA
+{ dup mul .9 mul exch dup mul add 1 sub } bd
+/InvertedSimpleDot
+{ dup mul exch dup mul add 1 sub } bd
+/Line
+{ exch pop abs neg } bd
+/LineX
+{ pop } bd
+/LineY
+{ exch pop } bd
+/Rhomboid
+{ abs exch abs 0.9 mul add 2 div } bd
+/Round
+{ abs exch abs 2 copy add 1 le
+{ dup mul exch dup mul add 1 exch sub }
+{ 1 sub dup mul exch 1 sub dup mul add 1 sub }
+ifelse } bd
+/SimpleDot
+{ dup mul exch dup mul add 1 exch sub } bd
+/Square
+{ abs exch abs 2 copy lt { exch } if pop neg } bd
+end
+{ /Function defineRes pop } forall
+/Identity {} /Function defineRes pop
+_ColorSep5044? StartLoad {
+/_defaulttransferfunc currenttransfer def
+/currentcolortransfer where
+{ pop /_defaultcolortransferfuncs [ currentcolortransfer ] def }
+if
+/concattransferfuncs {
+[ 3 1 roll /exec load exch /exec load ] cvx
+} bd
+/concatandsettransfer {
+/_defaulttransferfunc load concattransferfuncs settransfer
+} bd
+/concatandsetcolortransfer {
+colorplate 0 eq
+{
+_defaultcolortransferfuncs aload pop
+8 -1 roll 5 -1 roll concattransferfuncs 7 1 roll
+6 -1 roll 4 -1 roll concattransferfuncs 5 1 roll
+4 -1 roll 3 -1 roll concattransferfuncs 3 1 roll
+concattransferfuncs
+setcolortransfer
+} if
+colorplate 1 ge colorplate 4 le and
+{
+4 colorplate sub index 4 { exch pop } repeat
+concatandsettransfer
+} if
+colorplate 5 ge
+{
+0 index 4 { exch pop } repeat
+concatandsettransfer
+} if
+} bd
+/tn5044sethalftone
+{
+begin
+HalftoneType 5 eq
+{ [/Default /Cyan /Magenta /Yellow /Black /Default /Default /Default]
+colorplate get
+here not {
+/Default here not { currentdict } if
+} if
+}
+{ currentdict }
+ifelse
+end
+begin
+/TransferFunction here
+{
+concatandsettransfer
+currentdict dup length dict
+begin
+{
+1 index /TransferFunction ne { def } { pop pop } ifelse
+} forall
+currentdict
+end
+}
+{
+currentdict
+} ifelse
+end
+sethalftone
+} bd
+} EndLoad
+Level2? StartLoad {
+/gs
+{
+begin
+/SA here { setstrokeadjust } if
+/OP here { setoverprint } if
+/BG here { setblackgeneration } if
+/UCR here { setundercolorremoval } if
+/TR here
+{
+_ColorSep5044?
+{
+dup xcheck
+{ concatandsettransfer }
+{ aload pop concatandsetcolortransfer }
+ifelse
+}
+{
+dup xcheck
+{ settransfer }
+{ aload pop setcolortransfer }
+ifelse
+} ifelse
+} if
+/sethalftonephase isdefined? { /HTP here { sethalftonephase } if } if
+/HT here
+{ _ColorSep5044?
+{ tn5044sethalftone }
+{ sethalftone }
+ifelse
+} if
+end
+} bd
+/_defaulthalftone currenthalftone def
+} EndLoad
+Level2? not StartLoad {
+/gs
+{
+begin
+/SA here { /_sa? xdd } if
+/OP here { dup /_op? xdd
+/setoverprint where {pop setoverprint}
+{pop} ifelse
+} if
+/TR here
+{
+_ColorSep5044?
+{ dup xcheck
+{ concatandsettransfer }
+{ aload pop concatandsetcolortransfer }
+ifelse
+}
+{ dup xcheck
+{ settransfer }
+{ aload pop setcolortransfer }
+ifelse
+} ifelse
+} if
+/HT here
+{ _ColorSep5044?
+{ tn5044sethalftone }
+{ sethalftone }
+ifelse
+} if
+end
+} bd
+5 dict dup
+begin
+currentscreen 1 [/HalftoneType /SpotFunction /Angle /Frequency ]
+{ exch def } forall
+end
+/_defaulthalftone exch def
+} EndLoad
+/int {
+dup 2 index sub 3 index 5 index sub div 6 -2 roll sub mul
+exch pop add exch pop
+} bd
+/limit {
+dup 2 index le { exch } if pop
+dup 2 index ge { exch } if pop
+} bd
+_ColorSep5044? StartLoad {
+/_sfc
+{
+_fp null eq
+{ _fcs type /arraytype eq
+{_fcs 0 get /Separation eq
+{
+_fcs 1 get /All eq
+{
+_fc aload pop 1 exch sub
+/setseparationgray where pop begin setseparationgray end
+}
+{
+1 _fcs 3 get exec _fcs 1 get
+/findcmykcustomcolor where pop begin findcmykcustomcolor end
+_fc aload pop
+/setcustomcolor where pop begin setcustomcolor end
+}
+ifelse
+}
+{ _fc L1setcolor }
+ifelse
+}
+{ _fc L1setcolor }
+ifelse
+}
+{ _fc L1setcolor }
+ifelse
+} bind dd
+/_ssc
+{
+_sp null eq
+{ _scs type /arraytype eq
+{_scs 0 get /Separation eq
+{
+_scs 1 get /All eq
+{
+_sc aload pop 1 exch sub
+/setseparationgray where pop begin setseparationgray end
+}
+{
+1 _scs 3 get exec _scs 1 get
+/findcmykcustomcolor where pop begin findcmykcustomcolor end
+_sc aload pop
+/setcustomcolor where pop begin setcustomcolor end
+}
+ifelse
+}
+{ _sc L1setcolor }
+ifelse
+}
+{ _sc L1setcolor }
+ifelse
+}
+{ _sc L1setcolor }
+ifelse
+} bind dd
+} EndLoad
+%%EndFile
+%%BeginFile: pdftext.prc
+%%Copyright: Copyright 1987-1997 Adobe Systems Incorporated. All Rights Reserved.
+PDF /PDFText 65 dict dup begin put
+/initialize { PDFText begin } bd
+/terminate { end } bd
+/pdf_has_composefont? systemdict /composefont known def
+/CopyFont {
+{
+1 index /FID ne 2 index /UniqueID ne and
+{ def } { pop pop } ifelse
+} forall
+} bd
+/Type0CopyFont
+{
+exch
+dup length dict
+begin
+CopyFont
+[
+exch
+FDepVector
+{
+dup /FontType get 0 eq
+{
+1 index Type0CopyFont
+/_pdfType0 exch definefont
+}
+{
+/_pdfBaseFont exch
+2 index exec
+}
+ifelse
+exch
+}
+forall
+pop
+]
+/FDepVector exch def
+currentdict
+end
+} bd
+/cHexEncoding
+[/c00/c01/c02/c03/c04/c05/c06/c07/c08/c09/c0A/c0B/c0C/c0D/c0E/c0F/c10/c11/c12
+/c13/c14/c15/c16/c17/c18/c19/c1A/c1B/c1C/c1D/c1E/c1F/c20/c21/c22/c23/c24/c25
+/c26/c27/c28/c29/c2A/c2B/c2C/c2D/c2E/c2F/c30/c31/c32/c33/c34/c35/c36/c37/c38
+/c39/c3A/c3B/c3C/c3D/c3E/c3F/c40/c41/c42/c43/c44/c45/c46/c47/c48/c49/c4A/c4B
+/c4C/c4D/c4E/c4F/c50/c51/c52/c53/c54/c55/c56/c57/c58/c59/c5A/c5B/c5C/c5D/c5E
+/c5F/c60/c61/c62/c63/c64/c65/c66/c67/c68/c69/c6A/c6B/c6C/c6D/c6E/c6F/c70/c71
+/c72/c73/c74/c75/c76/c77/c78/c79/c7A/c7B/c7C/c7D/c7E/c7F/c80/c81/c82/c83/c84
+/c85/c86/c87/c88/c89/c8A/c8B/c8C/c8D/c8E/c8F/c90/c91/c92/c93/c94/c95/c96/c97
+/c98/c99/c9A/c9B/c9C/c9D/c9E/c9F/cA0/cA1/cA2/cA3/cA4/cA5/cA6/cA7/cA8/cA9/cAA
+/cAB/cAC/cAD/cAE/cAF/cB0/cB1/cB2/cB3/cB4/cB5/cB6/cB7/cB8/cB9/cBA/cBB/cBC/cBD
+/cBE/cBF/cC0/cC1/cC2/cC3/cC4/cC5/cC6/cC7/cC8/cC9/cCA/cCB/cCC/cCD/cCE/cCF/cD0
+/cD1/cD2/cD3/cD4/cD5/cD6/cD7/cD8/cD9/cDA/cDB/cDC/cDD/cDE/cDF/cE0/cE1/cE2/cE3
+/cE4/cE5/cE6/cE7/cE8/cE9/cEA/cEB/cEC/cED/cEE/cEF/cF0/cF1/cF2/cF3/cF4/cF5/cF6
+/cF7/cF8/cF9/cFA/cFB/cFC/cFD/cFE/cFF] def
+/modEnc {
+/_enc xdd
+/_icode 0 dd
+counttomark 1 sub -1 0
+{
+index
+dup type /nametype eq
+{
+_enc _icode 3 -1 roll put
+_icode 1 add
+}
+if
+/_icode xdd
+} for
+cleartomark
+_enc
+} bd
+/trEnc {
+/_enc xdd
+255 -1 0 {
+exch dup -1 eq
+{ pop /.notdef }
+{ Encoding exch get }
+ifelse
+_enc 3 1 roll put
+} for
+pop
+_enc
+} bd
+/TE {
+/_i xdd
+StandardEncoding 256 array copy modEnc
+_pdfEncodings exch _i exch put
+} bd
+/TZ
+{
+/_usePDFEncoding xdd
+findfont
+dup length 2 add dict
+begin
+{
+1 index /FID ne { def } { pop pop } ifelse
+} forall
+/FontName exch def
+_usePDFEncoding 0 ge
+{
+/Encoding _pdfEncodings _usePDFEncoding get def
+pop
+}
+{
+_usePDFEncoding -1 eq
+{
+counttomark 0 eq
+{ pop }
+{
+Encoding 256 array copy
+modEnc /Encoding exch def
+}
+ifelse
+}
+{
+256 array
+trEnc /Encoding exch def
+}
+ifelse
+}
+ifelse
+FontName currentdict
+end
+definefont pop
+}
+bd
+/Level2?
+systemdict /languagelevel known
+{systemdict /languagelevel get 2 ge}
+{false}
+ifelse
+def
+Level2?
+{
+/_pdfFontStatus
+{
+currentglobal exch
+/Font resourcestatus
+{pop pop true}
+{false}
+ifelse
+exch setglobal
+} bd
+}
+{
+/_pdfFontStatusString 50 string def
+_pdfFontStatusString 0 (fonts/) putinterval
+/_pdfFontStatus
+{
+_pdfFontStatusString 6 42 getinterval
+cvs length 6 add
+_pdfFontStatusString exch 0 exch getinterval
+status
+{ pop pop pop pop true}
+{ false }
+ifelse
+} bd
+}
+ifelse
+Level2?
+{
+/_pdfCIDFontStatus
+{
+/CIDFont /Category resourcestatus
+{
+pop pop
+/CIDFont resourcestatus
+{pop pop true}
+{false}
+ifelse
+}
+{ pop false }
+ifelse
+} bd
+}
+if
+/_pdfString100 100 string def
+/_pdfComposeFontName
+{
+dup length 1 eq
+{
+0 get
+1 index
+type /nametype eq
+{
+_pdfString100 cvs
+length dup dup _pdfString100 exch (-) putinterval
+_pdfString100 exch 1 add dup _pdfString100 length exch sub getinterval
+2 index exch cvs length
+add 1 add _pdfString100 exch 0 exch getinterval
+exch pop
+true
+}
+{
+pop pop
+false
+}
+ifelse
+}
+{
+false
+}
+ifelse
+} bd
+pdf_has_composefont?
+{
+/_pdfComposeFont
+{
+1 index /CMap resourcestatus
+{pop pop true}
+{false}
+ifelse
+1 index true exch
+{
+_pdfCIDFontStatus not
+{pop false exit}
+if
+}
+forall
+and
+{ 3 -1 roll pop composefont true}
+{
+4 -1 roll pop
+_pdfComposeFontName
+{
+dup _pdfFontStatus
+{ findfont definefont true }
+{
+pop
+dup _pdfFontStatus
+{ findfont true }
+{ pop false }
+ifelse
+}
+ifelse
+}
+{
+dup _pdfFontStatus
+{ findfont true }
+{ pop false }
+ifelse
+}
+ifelse
+}
+ifelse
+} bd
+}
+{
+/_pdfComposeFont
+{
+4 -1 roll pop
+_pdfComposeFontName not
+{
+dup
+}
+if
+2 copy _pdfFontStatus
+{pop findfont exch pop true}
+{
+eq
+{pop false}
+{
+dup _pdfFontStatus
+{findfont true}
+{pop false}
+ifelse
+}
+ifelse
+}
+ifelse
+} bd
+}
+ifelse
+/_pdfFaceByStyleDict 4 dict dup begin
+Level2?
+{
+/Serif
+/HeiseiMin-W3-83pv-RKSJ-H _pdfFontStatus
+{/HeiseiMin-W3}
+{/Ryumin-Light}
+ifelse
+def
+/SansSerif
+/HeiseiKakuGo-W5-83pv-RKSJ-H _pdfFontStatus
+{/HeiseiKakuGo-W5}
+{/GothicBBB-Medium}
+ifelse
+def
+/HeiseiMaruGo-W4-83pv-RKSJ-H _pdfFontStatus
+{/HeiseiMaruGo-W4}
+{
+/Jun101-Light-RKSJ-H _pdfFontStatus
+{ /Jun101-Light }
+{ SansSerif }
+ifelse
+}
+ifelse
+/RoundSansSerif exch def
+/Default Serif def
+}
+{
+/Serif /Ryumin-Light def
+/SansSerif /GothicBBB-Medium def
+{
+(fonts/Jun101-Light-83pv-RKSJ-H) status
+}stopped
+{pop}{
+{ pop pop pop pop /Jun101-Light }
+{ SansSerif }
+ifelse
+/RoundSansSerif exch def
+}ifelse
+/Default Serif def
+}
+ifelse
+end
+def
+/_pdf_Adobe-Japan1-2 (Adobe-Japan1-2) def
+/_pdfConcatNames
+{
+exch
+_pdfString100 cvs
+length dup dup _pdfString100 exch (-) putinterval
+_pdfString100 exch 1 add dup _pdfString100 length exch sub getinterval
+3 -1 roll exch cvs length
+add 1 add _pdfString100 exch 0 exch getinterval
+} bind def
+/_pdfSubSetFontByStyleDict 4 dict dup begin
+_pdfFaceByStyleDict
+{
+_pdf_Adobe-Japan1-2 _pdfConcatNames
+dup _pdfFontStatus
+{ def }
+{
+{
+pop
+dup /SansSerif eq
+{
+/HeiseiKakuGo-W5-Adobe-Japan1-2 dup _pdfFontStatus
+{ def exit }
+{ pop }
+ifelse
+}
+if
+dup /Serif eq
+{
+/HeiseiMin-W3-Adobe-Japan1-2 dup _pdfFontStatus
+{ def exit }
+{ pop }
+ifelse
+}
+if
+pop exit
+}
+loop
+}
+ifelse
+}
+forall
+end def
+/TZzero
+{
+/_fyAdj xdd
+/_wmode xdd
+/_styleArr xdd
+4 copy
+_pdfComposeFont
+{exch pop exch pop exch pop}
+{
+[
+0 1 _styleArr length 1 sub
+{
+_styleArr exch get
+_pdfFaceByStyleDict exch 2 copy known not
+{ pop /Default }
+if
+get
+}
+for
+]
+exch pop
+3 index 3 index 4 2 roll
+_pdfComposeFont
+{exch pop}
+{
+findfont
+}
+ifelse
+}
+ifelse
+dup /FontType get 3 eq _wmode 1 eq and
+{
+_pdfVerticalRomanT3Font dup length dict copy
+begin
+/_basefont exch def
+/Encoding _basefont /Encoding get def
+}
+{
+dup length 2 add dict
+begin
+{1 index /FID ne {def}{pop pop} ifelse }
+forall
+} ifelse
+/WMode _wmode def
+/BaseLineAdj _fyAdj def
+FontType 0 ne
+{
+/Encoding Encoding dup length array copy dup 16#5c /yen put def
+/_fauxfont true def
+} if
+currentdict
+end
+definefont pop
+}
+bd
+/swj {
+dup 4 1 roll
+dup length exch stringwidth
+exch 5 -1 roll 3 index mul add
+4 1 roll 3 1 roll mul add
+6 2 roll /_cnt 0 dd
+{1 index eq {/_cnt _cnt 1 add dd} if} forall pop
+exch _cnt mul exch _cnt mul 2 index add 4 1 roll 2 index add 4 1 roll pop pop
+} bd
+/jss {
+4 1 roll
+{
+2 npop
+(0) exch 2 copy 0 exch put
+gsave
+32 eq
+{
+exch 6 index 6 index 6 index 5 -1 roll widthshow
+currentpoint
+}
+{
+false charpath currentpoint
+4 index setmatrix stroke
+}
+ifelse
+grestore
+moveto
+2 copy rmoveto
+} exch cshow
+6 npop
+} def
+/jsfTzero {
+{
+2 npop
+(0) exch 2 copy 0 exch put
+exch show
+32 eq
+{
+4 index 4 index rmoveto
+}
+if
+2 copy rmoveto
+} exch cshow
+5 npop
+} def
+/jsp
+{
+{
+2 npop
+(0) exch 2 copy 0 exch put
+32 eq
+{ exch 5 index 5 index 5 index 5 -1 roll widthshow }
+{ false charpath }
+ifelse
+2 copy rmoveto
+} exch cshow
+5 npop
+} bd
+/trj { _cx 0 fWModeProc 32 _ax 0 fWModeProc 6 5 roll } bd
+/pjsf { trj sfc fawidthshowProc } bd
+/pjss { trj _ctm ssc jss } bd
+/pjsc { trj jsp } bd
+/_Tjdef [
+/pjsf load
+/pjss load
+{
+dup
+currentpoint 3 2 roll
+pjsf
+newpath moveto
+pjss
+} bind
+{
+trj swj rmoveto
+} bind
+{
+dup currentpoint 4 2 roll gsave
+pjsf
+grestore 3 1 roll moveto
+pjsc
+} bind
+{
+dup currentpoint 4 2 roll
+currentpoint gsave newpath moveto
+pjss
+grestore 3 1 roll moveto
+pjsc
+} bind
+{
+dup currentpoint 4 2 roll gsave
+dup currentpoint 3 2 roll
+pjsf
+newpath moveto
+pjss
+grestore 3 1 roll moveto
+pjsc
+} bind
+/pjsc load
+] def
+/BT
+{
+/_inT true dd
+_ctm currentmatrix pop matrix _tm copy pop
+0 _rise _baselineadj add translate _hs 1 scale
+0 0 moveto
+} bd
+/ET
+{
+/_inT false dd
+_tr 3 gt {clip} if
+_ctm setmatrix newpath
+} bd
+/Tr {
+_inT { _tr 3 le {currentpoint newpath moveto} if } if
+dup /_tr xdd
+_Tjdef exch get /_Tj xdd
+} bd
+/Tj {
+userdict /$$copystring 2 index put
+_Tj
+} bd
+/iTm { _ctm setmatrix _tm concat 0 _rise _baselineadj add translate _hs 1 scale } bd
+/Tm { _tm astore pop iTm 0 0 moveto } bd
+/Td { _mtx translate _tm _tm concatmatrix pop iTm 0 0 moveto } bd
+/TD { dup /_ld xdd Td } bd
+/_nullProc {} bd
+/Tf {
+dup 1000 div /_fScl xdd
+exch findfont dup
+/_nullProc exch
+/WMode known
+{
+1 index /WMode get 1 eq
+{pop /exch}
+if
+}
+if
+load /fWModeProc xdd
+dup
+/FontType get 0 eq dup _cx 0 ne and
+{ /jsfTzero }
+{ /awidthshow }
+ifelse
+load /fawidthshowProc xdd
+/_fTzero xdd
+dup /BaseLineAdj known
+{ dup /BaseLineAdj get _fScl mul }
+{ 0 }
+ifelse
+/_baselineadj xdd
+currentpoint iTm moveto
+exch scalefont setfont
+} bd
+/TL { neg /_ld xdd } bd
+/Tw {
+/_cx xdd
+_cx 0 ne _fTzero and
+{ /jsfTzero }
+{ /awidthshow }
+ifelse
+load /fawidthshowProc xdd
+} bd
+/Tc { /_ax xdd } bd
+/Ts { /_rise xdd currentpoint iTm moveto } bd
+/Tz { 100 div /_hs xdd iTm } bd
+/Tk { exch pop _fScl mul neg 0 fWModeProc rmoveto } bd
+/T* { 0 _ld Td } bd
+/' { T* Tj } bd
+/" { exch Tc exch Tw ' } bd
+/TJ {
+{
+dup type /stringtype eq
+{ Tj }
+{ 0 exch Tk }
+ifelse
+} forall
+} bd
+/T- { _hy Tj } bd
+/d0/setcharwidth ld
+/d1 { setcachedevice /sfc{}dd /ssc{}dd } bd
+/nND {{/.notdef} repeat} bd
+/T3Defs {
+/BuildChar
+{
+1 index /Encoding get exch get
+1 index /BuildGlyph get exec
+}
+def
+/BuildGlyph {
+exch begin
+GlyphProcs exch get exec
+end
+} def
+} bd
+/_pdfBoldRomanWidthProc
+{
+stringwidth 1 index 0 ne { exch .03 add exch }if setcharwidth
+} bd
+/_pdfType0WidthProc
+{
+dup stringwidth 0 0 moveto
+2 index true charpath pathbbox
+0 -1
+7 index 2 div .88
+setcachedevice2
+pop
+} bd
+/_pdfBoldBaseFont
+10 dict begin
+/FontType 3 def
+/FontMatrix[1 0 0 1 0 0]def
+/FontBBox[0 0 1 1]def
+/Encoding cHexEncoding def
+/_setwidthProc /_pdfBoldRomanWidthProc load def
+/_bcstr1 1 string def
+/BuildChar
+{
+exch begin
+_basefont setfont
+_bcstr1 dup 0 4 -1 roll put
+dup
+_setwidthProc
+0 0 moveto
+dup show
+_basefonto setfont
+0 0 moveto
+show
+end
+}bd
+currentdict
+end
+def
+/_pdfVerticalRomanT3Font
+10 dict begin
+/FontType 3 def
+/FontMatrix[1 0 0 1 0 0]def
+/FontBBox[0 0 1 1]def
+/_bcstr1 1 string def
+/BuildChar
+{
+exch begin
+_basefont setfont
+_bcstr1 dup 0 4 -1 roll put
+dup
+_pdfType0WidthProc
+0 0 moveto
+show
+end
+}bd
+currentdict
+end
+def
+/MakeBoldFont
+{
+dup dup length 2 add dict
+begin
+CopyFont
+/PaintType 2 def
+/StrokeWidth .03 0 FontMatrix idtransform pop def
+/dummybold currentdict
+end
+definefont
+_pdfBoldBaseFont 8 dict copy begin
+/_basefont exch def
+/_basefonto exch def
+currentdict
+end
+definefont
+} bd
+/MakeBold {
+findfont dup
+/FontType get 0 eq
+{
+_pdfBoldBaseFont /_setwidthProc /_pdfType0WidthProc load put
+{MakeBoldFont} Type0CopyFont definefont
+}
+{
+dup /_fauxfont known not
+{
+_pdfBoldBaseFont /_setwidthProc /_pdfBoldRomanWidthProc load put
+MakeBoldFont
+}
+{ definefont }
+ifelse
+}
+ifelse
+pop
+}bd
+/MakeItalic {
+findfont
+dup /WMode 2 copy known
+{
+get 1 eq
+{ _italMtx_WMode1 }
+{ _italMtx }
+ifelse
+}
+{ pop pop _italMtx }
+ifelse
+makefont
+definefont pop
+}bd
+/MakeBoldItalic {
+/dummybold exch
+MakeBold
+/dummybold
+MakeItalic
+}bd
+currentdict readonly pop end
+%%EndFile
+PDFText begin
+[39/quotesingle 96/grave 128/Adieresis/Aring/Ccedilla/Eacute/Ntilde/Odieresis
+/Udieresis/aacute/agrave/acircumflex/adieresis/atilde/aring/ccedilla/eacute
+/egrave/ecircumflex/edieresis/iacute/igrave/icircumflex/idieresis/ntilde
+/oacute/ograve/ocircumflex/odieresis/otilde/uacute/ugrave/ucircumflex
+/udieresis/dagger/degree/cent/sterling/section/bullet/paragraph/germandbls
+/registered/copyright/trademark/acute/dieresis/.notdef/AE/Oslash
+/.notdef/plusminus/.notdef/.notdef/yen/mu/.notdef/.notdef
+/.notdef/.notdef/.notdef/ordfeminine/ordmasculine/.notdef/ae/oslash
+/questiondown/exclamdown/logicalnot/.notdef/florin/.notdef/.notdef
+/guillemotleft/guillemotright/ellipsis/.notdef/Agrave/Atilde/Otilde/OE/oe
+/endash/emdash/quotedblleft/quotedblright/quoteleft/quoteright/divide
+/.notdef/ydieresis/Ydieresis/fraction/currency/guilsinglleft/guilsinglright
+/fi/fl/daggerdbl/periodcentered/quotesinglbase/quotedblbase/perthousand
+/Acircumflex/Ecircumflex/Aacute/Edieresis/Egrave/Iacute/Icircumflex
+/Idieresis/Igrave/Oacute/Ocircumflex/.notdef/Ograve/Uacute/Ucircumflex
+/Ugrave/dotlessi/circumflex/tilde/macron/breve/dotaccent/ring/cedilla
+/hungarumlaut/ogonek/caron
+0 TE
+[1/dotlessi/caron 39/quotesingle 96/grave 
+127/bullet/bullet/bullet/quotesinglbase/florin/quotedblbase/ellipsis
+/dagger/daggerdbl/circumflex/perthousand/Scaron/guilsinglleft/OE
+/bullet/bullet/bullet/bullet/quoteleft/quoteright/quotedblleft
+/quotedblright/bullet/endash/emdash/tilde/trademark/scaron
+/guilsinglright/oe/bullet/bullet/Ydieresis/space/exclamdown/cent/sterling
+/currency/yen/brokenbar/section/dieresis/copyright/ordfeminine
+/guillemotleft/logicalnot/hyphen/registered/macron/degree/plusminus
+/twosuperior/threesuperior/acute/mu/paragraph/periodcentered/cedilla
+/onesuperior/ordmasculine/guillemotright/onequarter/onehalf/threequarters
+/questiondown/Agrave/Aacute/Acircumflex/Atilde/Adieresis/Aring/AE/Ccedilla
+/Egrave/Eacute/Ecircumflex/Edieresis/Igrave/Iacute/Icircumflex/Idieresis
+/Eth/Ntilde/Ograve/Oacute/Ocircumflex/Otilde/Odieresis/multiply/Oslash
+/Ugrave/Uacute/Ucircumflex/Udieresis/Yacute/Thorn/germandbls/agrave
+/aacute/acircumflex/atilde/adieresis/aring/ae/ccedilla/egrave/eacute
+/ecircumflex/edieresis/igrave/iacute/icircumflex/idieresis/eth/ntilde
+/ograve/oacute/ocircumflex/otilde/odieresis/divide/oslash/ugrave/uacute
+/ucircumflex/udieresis/yacute/thorn/ydieresis
+1 TE
+end
+%%BeginFile: pdfimage.prc
+%%Copyright: Copyright 1987-1993 Adobe Systems Incorporated. All Rights Reserved.
+PDF /PDFImage 38 dict put
+PDF /PDFIVars 20 dict put
+PDF /PDFImage get begin
+/initialize { PDFImage begin } bd
+/terminate { end } bd
+/nulldict 0 dict def
+/gv { PDFIVars exch get } bd
+/pv { PDFIVars 3 1 roll put } bd
+/BI { save /savelevel exch pv mark } bd
+/EI { /savelevel gv restore } bd
+end
+%%EndFile
+%%BeginFile: pdfimg2.prc
+%%Copyright: Copyright 1987-1993 Adobe Systems Incorporated. All Rights Reserved.
+PDF /PDFImage get begin
+Level2? StartLoad {
+/ID {
+5 counttomark 2 idiv
+dup 3 1 roll add
+dict begin
+{ def } repeat
+cleartomark
+currentdict
+end
+begin
+/ImageType 1 def
+/ImageMatrix [ Width 0 0 Height neg 0 Height ] def
+/ImageMask here { not } { true } ifelse
+{ /ImageMask false def } if
+ImageMask not { ColorSpace setcolorspace } if
+/Intent here { ri } if
+/Decode here { pop } {
+/Decode [
+ImageMask {
+0 1
+} {
+currentcolorspace 0 get /Indexed eq {
+0 2 BitsPerComponent exp 1 sub
+} {
+mark currentcolor counttomark
+dup 2 add 1 roll cleartomark
+{ 0 1 } repeat
+} ifelse
+} ifelse
+] def
+} ifelse
+[
+/DataSource here { pop } {
+currentfile
+/Filter here {
+dup type /arraytype eq { length } { pop 1 } ifelse
+1 sub 0 1 3 -1 roll {
+/DecodeParms here {
+dup type /arraytype eq {
+1 index get
+} if
+dup null eq { pop } { exch } ifelse
+} if
+Filter dup type /arraytype eq
+{ exch get } { exch pop } ifelse
+filter
+dup
+} for
+} if
+/DataSource exch def
+} ifelse
+currentdict
+/ImageMask here not { false } if
+{ sfc imagemask } { image } ifelse
+counttomark
+{ dup status
+{ dup flushfile closefile }
+{ pop }
+ifelse
+}
+repeat
+pop
+end
+} bd
+currentdict readonly pop
+} EndLoad
+end
+%%EndFile
+currentdict readonly pop
+end end
+/currentpacking where {pop setpacking}if
+PDFVars/InitAll{[PDF PDFText PDFImage]{/initialize get exec}forall initgs 0 Tr}put
+PDFVars/TermAll{[PDFImage PDFText PDF]{/terminate get exec}forall}put
+PDFVars begin PDF begin PDFVars/InitAll get exec
+userdict begin
+%%BeginResource: font TimesNewRoman,Italic
+%%EndResource
+end
+    % Begin encoding-delta
+[/N15/Times-Italic 1 TZ
+% End encoding-delta
+userdict begin
+%%BeginResource: font TimesNewRoman,Bold
+%%EndResource
+end
+    % Begin encoding-delta
+[/N17/Times-Bold 1 TZ
+% End encoding-delta
+userdict begin
+%%BeginResource: font TimesNewRoman
+%%EndResource
+end
+    % Begin encoding-delta
+[/N10/Times-Roman 1 TZ
+% End encoding-delta
+PDFVars/TermAll get exec end end
+
+%%EndSetup
+%%Page: 1 1
+%%BeginPageSetup
+userdict /pgsave save put
+PDFVars begin PDF begin PDFVars/InitAll get exec
+77 88 translate
+%%EndPageSetup
+0 0 440 666 RC
+q
+140.25 0 0 -89.25 149.25 607.5 cm
+BI
+	/Width 181
+	/Height 115
+	/BitsPerComponent 8
+	/ColorSpace /DeviceRGB 
+	/Filter [/ASCII85Decode /DCTDecode ]
+ID
+s4IA>!"M;*Ddm8XA:OX[!!*&R!(-_m"pP8:"pbJ?#n71J$4RRW%1N^Y)As5#'Gq]0
++<DRF*[)^U-mU#_,p4Qc.k</'1G^gB/Mf1=1G^gC1G^ie^]4rP!-8.J!s&u6!YGD7
+&HMjL!7CiI!<iK)!<E3%z!!!!$!!*-("U52;#mq%O!!*3'!s/T,"U5/:#6PED!<<05
+!sBb[0a0j?@1si)JMIEDOeK$H,:""%@P]jWEe6X`-'AO4dI:Xe2&>/FnZmco7$CS\
+7DbgA2A[4Y<T7T\Z\66FFlW'_-^:E\[$ASZjRf:V`RX)C<b?N0QDV+1f&lZb7os>I
+LR4pJa4KMK-oab"BR#?#W49q$kkGH%.60t&BmGQ'WO^.(l1kZ).QU1*C3kc+Wk-@,
+lMCP:!!E9)s4RG]!s&B'!!<3$561EmmOR'j8L1f=KU!N0]?rG'I2H6W(Fmu;?!T@n
+c=dD>!0b]cNYc!bRJ4FS/tn2gCB6&jRoni1!uc\])X+3]F^CK&CT>CuUAGcRbc8[m
+NFPcqMZ;&t(%*U-;Fr-s8L0I+s3^QUmOR'j8L0Hj,a)O7de=LE/)4#o,a(_EP$e7<
+pD**Hgep]hP"?p^?iSXM(%*U-;Fr-s8L0I+s4-iK3NR"diYpC),k(m0#<Al$SDkI<
+M'VQlpBN^\Blf(1#pf4L#?C%K(Nh*`HEZ*"IoCTp\p[*"ee\<)1bii"5=i7\11e+D
+rr?'a3#?]bqRottrBI8D='\"blXL<QCIX%1V8qg9l2d)#j-%a5`3V>UoD[?sSD_Cg
+^!(7`!!/sXXiKZ<W0oD#*`#YV'F^#*O-%RZG)NAjImDOlE+9iIp:=HRmFuO,6(anq
+6RShp$3j"%a2hj>3sF/05G2bq3&-E5HX/4dG3ubQ+OAGsTlt$5W*Rnf\[_:@eZNWY
+NGf&;>>p*=aZEtQ,Td=#F6\6PWSu(BlIG"WAc@jm6_%?2Zt_+<os-Zh5k4qmrD2]8
+]K)>OAnGRbIZg]uSE@5])N*DMC`Y2?4FgV-=*#5:k2"N)O_t*olOInDBGuUchbVIU
+4G*UapD**Hgep]hP"?p^?iSaP(%*U-;Fr-s8L0I+s3UKTmOR'j8L0Hj,a)O7dJ"CD
+/)4#o,a(_EP$e7;pD**Hgep]hP"B)1Ds:?r9FC<J:"YMJS!??W'tVu,UblsM5]HpZ
+cerbk\+H`tV?M5!:"YMJL/e\e1"NbW+es&*",J3DA)q[EYi&ZVLrp*R>^&/cl4;N`
+Bk[QC)A3I&r"&hVloHLgY0NNg0YXr,ZRLmB[dJ!mf[Eb$Nlh4mP7H4IA3af`(Lb]P
+D/\[PEsq;7CGM:3CM7d*G/fu<*.9jFp6-!="(XZ11)HX+bU,O^Wag2LQ<qC;7cqAN
+*h*0lBChTVm@Xs9%#)+>HEYi4]66,(c+TMFPF&Q&(d.sKI)(<7KA]%"4]eZ^9C'&s
+FH"tBO9mpo*?g'^+J&,"%cI*n<h=e;qQn^gVl/V0bG:YfVs'14akb]Hi:mjb5Lb!L
+<R(BjeD9G=WuDi:?&sps/?tL)L:4-KEIbjf4eT(hNHYu3#?'e,=#]GH;g5A;S8;u/
+G!7UiZGp)E)VV:s`WH=5p5P/ECUf?Z1O=OIb3SlAg$@$SXg4BY6J&X5W&9kB9Ep+3
+!O`DrG=J0XLtn;*:u%DGbM-5iY@**qnYlVp-$g=OE`n5dEaIKRD/C'%Jf<glU^k2*
+fAj=5j4)i=+)#.QNbErK)N[-5s4$cXmOR'j8L0Hj,a)O7eb9gH/)4#o,a(_EP$e7?
+pD**Hgep]hP"?p^?iSaP(%*U-;Fr-s8L0I+s3UKTmOR'hF#,OiEA,MX[C"=K%@1,f
+!NcDp-om]_\2]i:j]^AOTn^`AH%=Is,a9jMRPAgLaM,[E<D>,ngiR3LQ-3%RH=,5u
+[Io-CUb9f%4k2HF50I'Jf(rSSXTUKX[h/L3l6C(:j_3nl0C'ugqS>s*(M,BDl@fXp
+QEcFOoX5-2#\j$N+o7VV7b3iY<Yc3Ll@!!Od;A9Jb/I(rlt[N[<7id9+fF/+LN>RG
+!j_g9FUtKSPgb1`+f?'@iO.2uf3:Vp>3^ZS?MD#>m:0BeK'6@0>e5^@/4sWlWfZ,D
+ZJ7@LVjcpbHOF+U/Sj5;6(P)mLbN*Tk^?sbqRqqq=KJG36+18.0u])bHO+[=X`L#r
+1UX?,*DA-dd1-ET_"sm-2;p=5)f$k.&[saS;oN[]H^hOpk!n=IQl?q\&qe[5!4E-_
+.d=,CQ;H<R7@9(F`nI"7I@K$J`htRN%NN::d#]Pj@XW4l]#r]`gF@'"WVGJn)_5l;
+T=D@MXj-%6BG%+mH=oq9hc#!0FPKQ2K&?!ED/3gj"6sZVR]s\ukhI0+>"F`cC$D0E
+VgV;9a4##_c3o-4osLora:G8Q)J[/"CSPii8SKA7Of*2QL%TAd@,o`0<lQ'sd8Ssa
+[^^%P9GX"W5qO?Q1,PWRrhG=(e9\P2nh"H8F6gf_))&8lX>G^CXaQY%+l:lp7"_M3
+ec)>#L"(FO$h>l]4*0`,_\k,4qlDW0\ZL:KP9JXO!]2sTQUo?@`m*ccYJ'>%A[787
+H_0WN2$X[4rCPB#-6l8e:qD@l^]2aV(%*U-;Fr-s8TEWk^U>im[FR%CDF[1?a>rrP
+X?1-=>Anf@+A9NR(BNq+`+c73^:!t@Cgm!LXC65+Nf0<eF6maGG1,ZahXe*>Q\#Jq
+"5F-IR]^S4rGrtiWFK@BdkYf$D\_;8=g)\F4*2,")Rp5dmU-"Cp8f5(1,18j,8p9"
+]M#6/c#]<691`jn'"t=Mr/?S,Y/nV3*Np+@Ci`kD*s,V=:WSggR$QQO4a(*uZ(Bo,
+WTBqbi`\nMME3dJ8L0Hj0E9Pr(%*U-<DKUEnG5pTbN_*Ko^VHeFga=VL9s^.\aWT[
+Y>`@'4Z>$mk!.>8`N@_Dk`Qk33Y(>g.f&nmh*28l1F:d)a()2rncSHc4.uP#qVUsu
+)toUmqQ%6*^3pgTR)W?D#F;a(O1`N%j15cQhlZnY=>>S/l+^5BFP"j5qstZJD#j.X
+QH,;g%uTNG:Y+F)?"/l'iH,CCFS]ma-*4Df%jAPpmlr\ZrEoE=J_.-`IQ%&[9oc+q
+Mh]u"Z+R@%YoduH/uS"7!7i,"]nZFSKBmqD3h2'[)f;=ho%/o?IE.GY\jol@lIaCj
+NQcN`2;M8a+&g33E9p[+eb9gH/)4#o,a(_EP$e7?oZsZ,G>KjT/STPqcZWme)X\>r
+Xg.dS#]Tco$e%;K[G=*SUp6c_q`WW!Ztgkj't-6k+iF-Z037qde!O:eg>2/gXN@gZ
+iIVp!o6CIg7'+"HSc'Ai>rbrP@V5:2D6`LMqAJOa\<6[=:rj<Ik(%_[<qSQN0@["B
+CbEZNlD30Eg`c;Gdk>cu5Fkd_JN@[^#F.d&l[!L"R]ircI'!.KmN^OdFr*-"He22(
+:N-?rG[F//rr?1c^3.*$ljSc_AK<D-p=k#WQ/U-tg[<S:KU50*>]hR73bM7ban>8-
+jl^#^<RWA\Q%ug&mjtXPOA=\VVK=)p2)=3k?;lK3f)E.$9T6&GX21h;J^&VOQEqL7
+1%*Q;,bF-ij`Q(-'C($begq?3>tY/pPLT1bF3['eK3ar2K0@GGhXVZH*0<:VFar-V
+l@*[&/t_f0WF-&gHCebEH,qRVCU7;CB=X3FhF!fCOp@4(KBo/[]UlNfom8V+<H`OT
+'90u6!9BTd2/L:q)(%@pjM1`HjF=RMf'NC&e6@Oqo))PADDM^C%3)IE4<DjB7r&2t
+jNf(LX+%NjoWFoBSmGc]gF^ERR3B<1W/h1j'%,FKdQ')oW'=DTn2!NYbDW;0ZA+rZ
+]%L0$bliUNi-:OS5?RbTqN"tI?Y'^j02gVflg#2;DPi<q<r>_d_>XF@eb,!!^Sphn
+Q1e&;@eD>)])'@RS#N-u<PK3\Y^_0>VfeT&m*;`^r;bl=RU(!:@$]>SFZ_DY!#)oJ
+r;aF#Mk9@3d]mhad*#b:[=a39dgpB=^lOZD3\GcjO%RC6Z([JsO_Y11Z+<*5-NZJ)
+F/EN\1BNKi"((-/N?=VZUPHt,Klp[%QiGG*&$<TPH@OIpYZH93:2Wj(Z.3=Di\3Cd
+3(3=-LgHeJ\*L4nqQKT"m`*Anam'X&]NfhR#<p06Sk/AZepak%B>`q?A7`.*PC@#b
+.&S)Y\aC'h7u1.#p&+IZZ!$aXUZHSIZKr<+PC)T#S`bOd<qEPedNd"8GLuH8m_rhi
+/ru:EWlqVH:/0'7b'0EZSQh,kHUs2T=T*.7*OIc,o]u?P1*.sKlWm`\gis<M*-RP.
+\UX"uQhE&@o`m"pZQmi^K&91Tm]t*@W9n9dit)HQjo5=i?=2?rf@1eD7a-o\WXF5)
+)nO3N^8&*2]8Sur.gPrajF*MtI8Rc.IGU9=rr>ff075d7)EX/80$C)>GJhVKa2$$<
+bNQL)+IXe+?td,3%!+uCNsQ'5G!.AA^)gTu4pHHO?U`2\"OU7s"%CVYA"#q6GXt"k
+V82rTNKKE"-=/;p9ZadX<I&E`eW*"%#m?;!I$al\oO"^bgD:+[cW.jHfmPNPhYd,*
+nSH3V:1_`s%AIYCA\`$cQAa.>[/U,B>T^"0<stp;oY.)KRI:mMfo4(DbFV6D7+_pk
+JCG+?HB2D/jbqLWnSn%Q1G*cSK/)7NCFug2":9</,Rm"CH$rlo?B4HJm[KJOg<K'(
+YL5?dGQ,^gOj8tN;HDX]=2,QH];W?=jZW!CpYo9=)k&kg!+a_lSK*$RC1MGpEVaCn
+3*?c5>IiDQoZ_o1r;EKTSa]`g<rW0.2D<X!Q^-(3=%;IV;3#gVD#i;S'%V\YU]VrO
+5g[^WL%TB]@q,CKl$6Q-V=\Z%FVs:TQI$)DOY's"C-XOd":YdT3B\&AV&aUZ,<#_%
+B3S@_2&-2e8<D27j9%H`hZ6C8YP,oOqU^@jRF=2u;)Mg#Bf<DcRk+O]9r$88:e*3%
+8se((m>6PiY6R-FVKAu8C;eoUD/Cj_=9(OSInTF,K<,S?r<)AO2qACBXIL?(Qts^-
+T28S:pOEanqu2g$n3#>&ddK4ef3X7*l_\g+?eHGelr6u%=^JdX)k7,?Zo5ra^'of>
+3JH=3O06/,ldnhr=JM[7&$\u3[:O[WY\nCuf$N.kiqP8OG334Z=&/V<df-Z4of><M
+App,Jm&qYb@ml^7J2QH-dDQQc_W/A'I;f,;-gL^3fm3nRO4l`Y%bi`.Xi\\fX'4)B
+%<s.9/XRdapZf9WW#o6Y[L)fFp0N=CA+ksY_m[d:CN=H2Wn+ST6XC'<Me37qIJU*b
+lAsL\Xp:`u*@%8+[gO+pdm]V[``O,hJ\]3d0d%"?FIuHMHGA!h:TXQr=oPnb:(<a`
+f&YX]DVWAQ^d&f3P;*'*JZ0r;T2KWS^X\9=XT&9'rjUWW%@ou>jP<OJgr^PN5T3=[
+0`[VmW?lE[=2aAe%j.rshlM!&MYtX$p/]'_V6'k1-:sSU1BWf<dQb2o6g@G>O%\c*
+h)fUpm2L&ea)#s@RSM8ngUo!-O6t-;qNHoZV=dN"S[c0&NO\'0[QD%E-YW,=hA!PF
+p<)WF`7stoqCpuk[b4I?8+`;XJ`ldEs3pUIXZtPR#O9W6_SF@ZI7![@]sZkQN7sfF
+SmZCK?m*Pn:d4")^KQ,q-4eXuVhK\gde\[cc[0HHZPg/2QTW(;-GVp1#,$Cfe9^l@
+/7++&Mi!RIR;9+`)+3V)A[XS<JmJl-*.YVJ9<>lH]544c=1tnS['[N<7r+XJp_(/c
+9<>lH]544c=1h,)daIi7*NjHri(DeF[J&%l+&hBEKUV8^\\:RJ,OQim'bPFKH`94I
+hcmF#b&0+<4]qL05=ZJI[^O4<BTbXX5b0ut-,fKUV.M6l[q=$Pgha'<Z*C<XNcQ.A
+D2ree,_>Z?3d2W<R-NANT`&?AX!+iW9m"h(BM1\mGrp-q4^gBq*_ZO_LY#:rSX%V!
+L"GHkQQ8"<A]E;;H1`m16YZY!]qX,1*^*9Z`$g%Ul5A9'+$TSn/^06EQg*:BB#gNB
+&Yq=X)Je%YGTl*sEafgIepQ8bqJKlQjOo[lQ:BU:gTeeJ3$;6%/:h;^%NG?)GodK"
+cc>8J8#,+QC[-*']%s^'hNn,B&_NGr`!,4H4_m8(U\,[fNnLV8gQ(TCcKBLXp9[>!
+?U#)<SRQ_8b'IrD9r(E<XJFM_\GCQF%uGMg(VOqiNFVf4e:+1DpN/MNWt^J1IUN\6
+[VTb;Xcbr8lS.A7DR-tAVt=aHd6=>u*juSH_YUT0[eJnqf@soW_ck_=#o`5`GR`5*
+Xl=HC];>I,bj(D?Z+:Z:b?^2s?"<Sa!-/4%AdRB*lc=%V]fem_CZBP".Yt,YXYS&b
+,?Hbs%1)qE3fc/Z3.5,)U]%Uj\t0@!<L;:)ATaSLfA&2-pd"+,f::lD)RFq%%2mg"
+,.rr7f<L*t2:d`t`#X:Ws4,]s\^pVS'jk%HWR&#QS8dfd/pP"YXj3RU1pe&u"HaH2
+%/V9'YOuh9oh6jLY@1A#D,iRSfB?K0GH4r=5V?ba/uT(#/8tfAOi$G\02p39YG:,Z
+QXsuWfpV'ViFf++l@CN0'3Nb?H.IDE^\Y9Z7c(V89oZHYF5H3*80EhkAYb.])r/'o
+Wu"`PlZi'SgFB*an#WaF$Z<)4OsBa?EpL:WQ('h228-2r]XKnTU_#tRD24224j.h_
+/Oc#U\i39oWq>_gQMm+kRdrTh3P\\CBP;a`,Hu'?6qNZ1e@IS3];kMk\!HU.3_al@
+PFUP]BXBTZcB6a<6R.dEL2Tf&\#<a.9S[J7:M&CN,R-)-#3':22oiI9s43h9c2-a-
+f=00#46iA,WEF**IJF<WdfI/f^`?(XJY^G\p<EI":Y3)9rD*3g;<h1dHXD4p61ikM
+i-YRT]8.A!Y(Q&dep@>()SW?P?``ESb?F4LBKH34Jaf4'\F>nj+58uOZ$!8;?U_El
+1j(i_lQ)kiYG;f>5IPtb$`s@.CA`Eq%lADi>3ELlgL!JtB`3:]m+kV*,u:jeX#d\U
+]1L`A_'n3qq`1%Y=#rjGq!%s\eSZLJdgfkn,^]n?1(h:1p2_s;Y&o^ndF8D!Wn]ks
+VB!Ue8GEf&`.VLb]9Y2J02=Ac1Bqu?a4p6;BQg0>+*^*NgmPP/FjKH#Q'UB%C$KQH
+h.LM,qMUEV$i=sVdtu[@[H:LoKe94%[d/(,X_[2S56-K;ZEe8dlG$89a<J(ES1M!R
+U)N==qj7?7p)A=E:<^Z&Y88[YLXT,n)cPJMc-7sc*@J4t@(WC[m*&0"nT(VMI5N*D
+[6:ZDgsZl:dX+U[>;L6hEUqdOp"\iu42l(?[R#b1-aMZ[_<:eo<e&6g^YW)&5Oa"!
+!0dqbnp9d!Q7b]):4LDTrrDV-chEa(ItR^L]B[^H@'QQqlM%ru&L"$_i5^D$#K[MS
++7>u_<k@#hN@l5XpQgCV1tPtLn1\8G./s9^$Yqm9W\?T4_l2;K!Rq1j6229F+51ck
+`dM.hkF74PZoE1ZX(c8Ha?ouA*utnW[,,)IqRcFH2\DZqE9]GadK^O!^fgu`6pL'U
+OS8<rXP$_#on^o,o`=mL1_9o47K:^^e?4^2=o*d&5.B]t*1H`;cH=9+<>WBS6gAQ\
+`fS[AFc_$_#XnNSd;%u3:jV<Ur9g>D?WXek=[-YupXUa@:".bC)Ld^P&%=h4U&)%C
+/*_U`HEYmNXP;FXD0AAI]iM[qV_DiPB`kfL37/Q.(KKe9><fJ6HB(?%R4WJcOQHiA
+)-+YPn3-iDg(K>:MlQI-Xe4;V]h9N'ba,rFaE%K1N2k=Sp`BK3D$`Vr4[Z7J@/eYc
+2Wg@_*7Jn@NU<mi/ru6ggm-5np%,/2<r/eJSX9"eR^u=uMQ$D)CMY;WDmgVL\$G3N
+qYAXTX*ms`cHH'n9jK3Ud8^Df27=.<2qnf6gY$CIos[#UrEmOeaQU%`J/M98q`[i%
+g>VFMZ+ZDEmDY\e5?\!;H.`j*<HU4UB&Td/f2PFpi"[@$`LfUa=T6otfb7([oet]>
+iN!mK<(ql$'gM)LPuTtCl>BVN?#7f'O5)U.6`VP_$ieWJN)$;"F'iE31?lo/6)EtK
+`ji6494S.#N]^CM@Wal(RemtZQVL3=%5p,6)WJQk/W^I*3:U>*O.CufkI2NWX.6uR
+iEO,M%b+0l4dD:D*I4hilBh/#XPImkppF[D>@p<';/GX.a(+c*Ol-4Z1"j-Q][s4W
+9=f&mDS#an>-b??b_i?nfe'YQA+\uIhuIaOft(q.Sthio(L67/V]D,[A+$M"XI-9T
+S1(!P!@C$T`EW3;d!AblqS,g(a/5je^6;RkZ%-\cp(/5'"RTcSO$5h$2/hgT60VZJ
+lMWk=*h'%1qFt&H`W<N+fKaM6'=F,A4S]&+eW6iG/#VP%HLkjR\s[DI]5;=KMQUiW
+,^*\@>^V+tYQ*&65IDOq>p$+qB=B6#[WSa<LL[S;\.W!=&fsD0Upj)VM2kXrrM]8O
+kl"`O4h3P2Z`S>N3us/H^lm<RORa;I-+\)t9QH!gY,Q&.l90=6n_3uAe+'$rHE772
+k)pcN)Nlr;=I</RZsD+0[M9ebVf])?rh7qf``&tAi6)M:LH2XuZ&I5[!"mq1]Chod
+PPq_akWM#(F[u*7]=p%+ATn>\?*lW:OgU-[Y(-M4e'4JtDbp5k=%L3mq<lGk]Dhk+
+?X9A/h#YGbL:+U[!,:T+:T.P41#H/?I16uSV:^2D2sAqX8SnHT?Of7/"Rlc[5+qO1
+f6q@UoJBh@QXTNVhkL%395"Fepi4bPJp7H?rr?"Z<`?U,Xf)V&"4*k'oO!"5W"4gE
+q#F3%oHn?7J(22pd;a,E.']&i`a8%_3OI=>FdHgcL;7rma2NH5Ra.Pu0;N\p>T=0!
+)-r24maqW29i[N_DOe4Q#@:)O=0Z<q'C*n=l'V7UPs((Q>A;dl'sWr!4sOH!Af(Kr
+oO"O-Xn64kLa6HBl*%gU3)?&("mDT4rTnYeV4n85Y<%.2$ul$[K(U4c04X:h/J01^
+*C"kI\:+Q5Z$!+??=j)LL4,[pqILDsr+lc4l`WA#nAZLW^Ocs0'-9fjJ%+(q(4BEO
+PZMqrYV4>*]^&e>(jI\4#Wh`SGqL'5D%+JW9IcHGW5Q.sN6AK=22?eP.K!Uj?"_\P
+m;)B1+80"m7-*#q1pO4cbdY:$8UM.Y''\<a4"Zr'qPX:o^9(oEbf-NNRjkA'2;hW'
+pUC[On4A.'Vgpbn[&ni.rrB#]&tcDU=Z8OEl<nQAaEr^U>m=[ST+2\;eF_V4rNC[L
+rF"nMh++GQqUm\gO)'[0%LjQJF%P(h@L.r[o\R@]YC<JL@-T`-6`FMjfecgO[DhQh
+#*J:o8_R?W#`V1DI]rE/lMgidc)3?V)qDZh[DBi%%am0ci.Dr(5f3NNrr>sd]%]9Z
+GYW]^6lJM&4m\u)2DrF(*P=I#"rI!:qNloeRFUW?F7O&gdOqfnAL)9#Xs=;?iS"jJ
+I\QdD`p/QK/B'6UZ41-8gud0X)aQ/&[teWuHG@sJWr6S1icSMm+`;0LQ.]0Rc3,'@
+#Qt54Bu(/F=Se$M?``p*?E'KK/Bu/>].1<N^k5jB!.\I:3$DGi5?3"G;U<D0b/Fn6
+a*Sn6Rtr2ka:U*rOUF@6m<S@<Tj[Q:)hKQWc=a,D_Y9?#="]"N5W(5[fNIirCX8rm
+$O<h:g_!R6F#W58^#ag1bFf0g%87;SU8^r<n#Dp+(TKX.U:blNDol^7MfuC3TUc)G
+7K:p,5IL/K;#7ZO4Nr;Ue3EY,fetVN/h`=W)^A6S6lp]XoD;lnoae*O;p<;Y^I/#$
+AR1L0/u%A$%j@a.8MLd%m_(.9I=G5-LXkaKH8SIrT4Q>cQ!(^h6Y'qD,!2M@m76gT
+@,H`@:H8%%A"Ht+Y7GO/crqGG[-\p`,KUMs!,=`s@g;ilH?mQ6lQ'DV<kLT-K0a0m
+cI9.I9TLJaq/8Hr[h@J2nBEMhmWiqu4?,k3NRKs_I1mjIDuF&>]@$V\FNXH(9#heD
+lm:CsP33lX-W3b9kdUPprE\Xe!*;3mI6498N-od]mBT<)O!Kpg-iK&@^IRMD2ko6:
+$NcGb/0r/s8N`/2Uo\t$m:l5h0$L&(^5?tRl=FI8A6E1u%e4TYi'&k.Z1C2fT@H'9
+EfZuE4ZSSr19n*i/?YLuGe&fQ*uK^$PP$0cr^65eVeoGp]7*0_g@eNf]NifKqj7?6
+oo=b!5O.^fp12e'nNP9*8-7MiO)kR?q6"]>SR?6hHH/AKTCmE$1FBi(M=u8d5Shpe
+H^I'jc#\[\lN:JZf=G&6cAg6iF"hV4(0gid$f:$5T?V?uF5)tP?hUo(VTd8"bnjM`
+-(_7t-(!9NC1#uCMi1*B+Ee,V^[5h09pqC#RP(nI90HNr9/!R&eA&tf(D`'b5jT4T
+I7a:LgmTfP=S?7>e>F>\^!tR#(=l7.q)jqfYOs.*a&qVoSPqTU>FUI\G#NSI!n,*j
+,Qe0`_$]@+qN:G\XE@33WL\\oc,?p"C:H:>['5-="pi\0'qV2n?_MTnr-\FD;.`Qb
+f_Xsii'D&[E+"Yb.N_^jU4$/?Z^[MPdP3r1Ao)dD3Q7X#@A&th8r(s3W1R*SXQJ\W
+oScSP=dpJ*%WQ.a=D0'J,tF^.<9RTu-S$F>A,6_XNSldX!:0aE0E9Yu(%*U-<u]Y8
++&Hn-X<+9G/"_Z(c,m:74b:#)NI<Gi"i9*UL`dc<$]XF7&#_GQedk]_(!jh$k2][,
++'<Ajj'PHsJT,i.U'Luqn6FO_9$8;[Yqqe6Fuq9mcaZ!.0_uR9klnm&!/i$+MD*N8
+l5B;%N80A0Vpb%6qQXk8&6RY]oN!f3*UIa#BcqDo,emE%W+XdE1NG4]T1lu"lG^'+
+OBC53oN!f3*UIa##`q$q&l+FQ;h!'A>BLh92V2^mHNY+lOnq"g9`%B48WGY9aZd!%
+XA`b,cXkd3h*_Nd:JIhVZOuOMVOLf%F1j!S/DM4i/T;VR+4`W@MJVP1m(4beW.>E"
+l*W\*@QfCOdqa/FGGQ5^RtHb*XohH_lWl]05793SjAD?K$h13DT8_oq%9<e!l,M*G
+T-G8(s3S`gWdSp,(-UPXE_@r)n^I>GUA+RYWiSe^hL&?MI95`p.'`4:bE?"9Q]@]e
+/K#)i-.Q$Aq!UBrgGAi8;8(9@Q^5DNI?+TY=l0kWfI-O=[f4hU*s30<VgY#=l&8h`
+q`C6p9P9Lg[`=ckAW8"?=uLmuFPKZ1rN#cZ:W1QCrr?Z0H=IlJIa7YZ;]4YH/[=Fs
+=S@p1g,=IKFHUs2W4b,#)_2HG@+Zm5cUH)?l#@gN]uDAe"GhU?6ZeK7rnd+F)"qOP
+lt\BIqE=92r@OX;AjZZTpQt8"E,0eY#44sE[`3[.Y[c@Pl`mP7bNS]4Vt@uW0[,7V
+%IYt(>i=3,C^o*\-#.k0om0u,Co5F8Ngjb#_/IcVF$Ub8>m8L_*JA4-)Qg3BI4HtJ
+o\>"_9<k+3_8<*1Up638>qDPC_cG=uK_+4SC[,8!bNZ]!+D"Gjm(2-6;k29>b3H-q
+:=A+%CBm1OnWg$FB;ag!@9r3KBmmFA.jPbYZF3feJjukM3Ze8Ns3^QUmOR'hnhK\*
+W3VA>R<;Oe[Ir2!k-uJN*=,$Ra2c>satbGXeQ<2d?&]>0Ja>\LKaXlWqO^d3D7.#D
+R.(Jg4:!GB(].M:7`<D\9cX`R[ao#M21r9[a9P#lY]50#hpcI9Q=SCinCqel=Q<LF
+9[&$/*_Ri@WP;GQmqpTsXCg,&/NX!eI">Q9ka'Bkde=LE/)4#o,gL13f/:?(Xq3nW
+K[+@>f/:?(Xq3nWK[+@<danIb&4,`bi,mhHdrEAk"t_fVJm9hH@p%DHQiIRqHk)Xp
+\o'LJ^r<2]O@t:Plt[OfP5kW`(+'e<'dB/?/&nM#G#Zi>albq(s3p]WmOR'j8L0Hj
+,a)O7eFs^G/)4#o,a(_EP$e7>p?S`]lE%#*mU_A0E:F&s?JTa(h,T_Bh9<.#Xr\^A
+/)0EmQ<*k=2`9O$_o*;0>P32!lJqKIVCk;=O[l;(XK^mK<D\LRTFf_C*n!SA#B#A\
+AY3%F5-;R]Wab$hGnbRAb0(9D79'VNg&VY.OmOEH^inq*bs.t6oOm8ud;pl`Xb-J$
+?$1:GL&iDY;5#6V-=LEFF=V?W2J60Aj-KUu**V2LZgC6/4g/]J<XZ#^LPR'fj3#B_
+kVhGmCsKA!j-KUuS6Fc"ZgC6/4g/]J<XZ#^LPR'fmcuq%PkmFY:JuB)Zo[AuSW4,.
+Y&"21$K7.a-6+7+V;2fbiFVZZG%>,k^CqGdf&)U-4Y@GQo'NjApE%53-;K+*Wo2u\
+r,uU]@)!?oe8'!D[iVFS=F#)DmsC+(a*B]L/Gs=C3a6aZYK*;!U>)cL[gLi70[!]s
+h<%f=f'M\d=l37@bA4u!ZE/[Q2-H(+fZOBtI7YX@j'dIA9,kFUhTN7+V!!/.lRc]X
+Kp?0eBr]C:Q868V+&YY>37qUSP/cp.\$GX0qL24-l9Vq`/?\#=<PIj]CW([I,ZuGU
+!GU7H%r0Yk]CdbH2_\iMp9S=k[YubXmmA/:['e0_hWHkM5aW!pL9rO>X1qQedrR_+
+HeQ`152%^\bIn=.]qqlN0)%BE&d6!c9JrMMkhfEFKoe',F'H'?ZE.e4oVm1g%WEds
+&d\Yj#(Qm,Y,-%^P"Yi,pD**Hgep]hP"?p^?iSLI(%*U-;Fr-s8L0I+s3^QUmOR'j
+8L0Hj,a)O7de=LE/)4#o,a(_EP$e7<p<9UCCs7+`jODB;YX@`\!nRr:H!]0hM2dp`
+r-Xs$I5V@ZFoY_)jprusDk`2JSP@YCg>4!sG`YF_??,Y10C&F`hgs6rXq1D&/&*0b
+:#WmumU1B5JZL];EIdK=H,nK`^T6c!IKrTe]Kbd7Y5E::-LfqupFnb+^t'E.\A18M
+j*KQP80;Wc_PYT7ZWV--A*sg0]WaDl^t'Dnj3NV#[^OeIK%F,Kk2H/EZ'^QSgV>D-
+)]b1%]E'.@_)`/2X=J'tGh=T+1Gu[OYZT+>=)Hk2bDhP)GhrF^944>Z'!c>T15o&m
+ZRB=""c^QD/@5I90/pCZ&Km2=o:]Ii!7eN+=R+IJh,P5%A`HunXiSe$FeR_d+khGO
+@+YQe,aI9c>&VrOX_(;X;.`j8275L#N95n"\-Z\-=9GdD!NqSXlaeTm+&ICZ18eYn
+;.X>5AH;$T!A/rX3ro>/8RMMIpD**Hgep]hP"?p^?iS[N(%*U-;Fr-s8L0I+s46oZ
+mOR'j8L0Hj,a)O7fCp$J/)4#o,a(_EP$e79pD**Hgep]hP"B-]B)9bJ6DCEQbfm/?
+72Y]7%X\foQOk?Ger=4Nc"I6A(,+6WXOQkl.Z,e$b/bi*O&jWj_#TmC![Z*)ek;Oa
+J4TcRotIn:8ufYQ^F&hg<D@E?U'DrpaTKJE!0T\KdHiC-bJWVUrF[V]L::5O\qVG5
+>kZ`N$SiP,62(2D@j6>a2%Y*Ao.ohsY('Tt^gX@qd-dT`esAP-Q3,9b!nm;ER:A8N
+8CTrt-=l1IoaJ""ObhhRAPUIi!4g?_B\RSo';hmYItJtC#I_[JV.F/eO[W5R<NQe6
+lt].58<?.,/%*F<krDl=A5Q>BeS@P<HQ(<PdNfBO$L-fQVr(Ku<F&X,@mcXGZk2/<
+">4'Y?dim>?W=mZCp+nWef*-2]"9Sii>ZHFk!-9P2W<cj9I@$0j4)fV[Ckq1bGb2*
+g)@30W7LloN;QN'ZDuX'TQ;Z4[=1`"m+5j\<WCMA(%*U-;Fr-s8L0I+s3p]WmOR'j
+8L0Hj,a)O7eFs^G/)4#o,a(_EP$e7>pD**Hgep]hP"?p^?iS^O(%*U-;Fr1*f(r8/
+37XIU=d=nTDoR.B[C/#EiVTO*hme7=);T5-*i"d!W3r$qei*G=]LuI=FTLC94<FI>
+&.#2a0FhYF23t]I*\F56&d-0ajENn6e,lqeA_dUWKl##G$I;WlZ!Za$UO>DZ3MUAa
+5nN:4#k1u&2XZ4j`jTL8K4h0E=KhA"dCu8hSBtI'O@2-;Je\\53`jlj2_*$Qn#;d>
+k=4n?\.,;\&I3mn?iSaN5+L?@XE6SPOP`\A%bmV9d!$R'cJ7!2o.JbEcN&,pVph,:
+eW,ET1)oIdiS/GDg(*0-3SU"MXN\:l7m$h*HJTTVk^>*7efLDH23thH%%g4]BHD2%
+%tIf4gA:s&]0A4M)V[ep345VNSC6TU)uLK,pPJ>OZMsp4p'%O@IVn^7[LgZ&F%h?L
+V9cY1pas&F'Ab$4qOr`=S@k>+CL225l2r3KUq4?(KoU-DL"S*#FGV9+s3UKTmOR'j
+8L0Hj,a)O7dJ"CD/)4#o,a(_EP$e7;pD**Hgep]hP"?p^?iSUL(%*U-;Fr-s8L0I+
+s4$cXmOR'j8L<Pl>(:@1hlOBKVDd^hCLT+Vd]=3iPVd:@7"_n$XtuhDG(`KZc`I;N
+FPj11j/+`gIqrLM1XW9>?'I0`k<t)B@;CZ[1l#a4Y!9)gd_b<qIpj*mqa2BtSsor=
+E]=\@6/'s<F9ETiQ"mM&Ip0F?VS9%$C9J>U1#AS-\,[eY2780"#oh^6^r^:/'l'qP
+Ip0F?VS9%$C9J>U1#AS-\,[eY2780"#oh^6^r^:/'RKb^p$C.3F7RRma"?$4qoaKk
+90d7p>nT(XF+MlHTjRiMp7)VbK@@(T`5848f_#:`>tk@%P:&ZU9V2uup7)VbK@=f)
+_nr+7f_#:`>tk@%P:&ZU9V2uup:O']>V(3knS2VLefh,&J33`V=B6#s8L0HjJ,e*o
+(%*U-;Fr-s8L0I+s4?u[mOR'j8L0Hj,a)O7d.\:C/)4#o,a(_EP$e7:pD**Hgep]h
+P"?p^?iSRK(%*U-;Fr-s8L0I+s3p]WmOR'j8L0Hj,a)O7eFs^G/)4#o,a(_EP$e7>
+pD**Hgep]hP"?p^?iS^O(%*U-;Fr-s8L0I+s4?u[mOR'j8L0Hj,a)O7d.\:C/)4#o
+,a(_EP$e7:pD**Hgep]hP"?p^?iSRK(%*U-;Fr-s8L0I+s3p]WmOR'j8L0Hj,a)O7
+eFs^G/)4#o,a(_EP$e7>pD**HgfOO/~>
+EI 
+Q
+BT
+81.75 460.5 TD
+0 0 0 rg
+/N10 24 Tf
+-0.0608 Tc
+0.0608 Tw
+(Knowledge, Complexity and)Tj
+43.5 -27.75 TD
+-0.0593 Tc
+0.0593 Tw
+(Innovation Systems)Tj
+-71.25 -54.75 TD
+/N10 14.25 Tf
+-0.123 Tc
+0.3105 Tw
+(M.M.Fischer, )Tj
+80.25 0 TD
+/N10 9 Tf
+-0.0046 Tc
+0.0046 Tw
+(Vienna University of Economics and Business Administration)Tj
+-80.25 -16.5 TD
+/N10 14.25 Tf
+-0.1149 Tc
+0.3024 Tw
+(J. Fr\366hlich)Tj
+59.25 0 TD
+0.1875 Tc
+0 Tw
+(, )Tj
+7.5 0 TD
+/N10 9 Tf
+-0.0064 Tc
+0.0064 Tw
+(Austrian Research Centers Seibersdorf)Tj
+-66.75 -20.25 TD
+/N10 12 Tf
+-0.1311 Tc
+0 Tw
+(Editors)Tj
+0 -48 TD
+/N10 9.75 Tf
+0.1453 Tc
+4.5422 Tw
+(The book addresses the relationship between knowledge, complexity and)Tj
+0 -12 TD
+0.1316 Tc
+1.9309 Tw
+(innovation systems. It integrates research findings from a broad are inc\
+luding)Tj
+0 -11.25 TD
+0.147 Tc
+1.487 Tw
+(economics, business studies, management studies, geography, mathematics \
+and)Tj
+T*
+0.1402 Tc
+2.6723 Tw
+(science & technology contributors from a wide range group of internation\
+al)Tj
+0 -12 TD
+0.1353 Tc
+1.3272 Tw
+(experts. In particular, it offers insight about knowledge creation and s\
+pillovers,)Tj
+0 -11.25 TD
+0.1482 Tc
+1.1643 Tw
+(innovation and learning systems, innovation diffusion processes and inno\
+vation)Tj
+T*
+0.1573 Tc
+1.2385 Tw
+(policies. The contributions provide an excellent coverage of current con\
+ceptual)Tj
+0 -12 TD
+0.1455 Tc
+2.7503 Tw
+(and theoretical developments and valuable insights from both empirical a\
+nd)Tj
+0 -11.25 TD
+0.1487 Tc
+-0.0362 Tw
+(conceptual work. The reader gets an overview about the state of the art \
+of the role)Tj
+T*
+0.1468 Tc
+2.5824 Tw
+(of innovation systems and knowledge creation and diffusion in geographic\
+al)Tj
+0 -12 TD
+0.2346 Tc
+0 Tw
+(space.)Tj
+ET
+PDFVars/TermAll get exec end end
+userdict /pgsave get restore
+showpage
+%%PageTrailer
+%%EndPage
+%%Page: 2 2
+%%BeginPageSetup
+userdict /pgsave save put
+PDFVars begin PDF begin PDFVars/InitAll get exec
+77 88 translate
+%%EndPageSetup
+0 0 440 666 RC
+BT
+54 624.75 TD
+0 0 0 rg
+/N15 8.25 Tf
+-0.0109 Tc
+0 Tw
+(viii)Tj
+10.5 0 TD
+-0.1046 Tc
+0.0671 Tw
+(          Contents)Tj
+-10.5 -32.25 TD
+/N10 15.75 Tf
+0.0304 Tc
+0 Tw
+(Contents)Tj
+0 -49.5 TD
+/N17 9.75 Tf
+0.015 Tc
+(Preface)Tj
+0 -23.25 TD
+0.375 Tc
+(1)Tj
+18 0 TD
+0.104 Tc
+0.0085 Tw
+(Knowledge, Complexity and Innovation Systems: Prologue)Tj
+309 0 TD
+/N10 9.75 Tf
+0.375 Tc
+0 Tw
+(1)Tj
+-309 -11.25 TD
+/N15 9.75 Tf
+0.1809 Tc
+-0.3684 Tw
+(Manfred M. Fischer and Josef Fr\366hlich)Tj
+-18 -36 TD
+/N17 12 Tf
+-0.179 Tc
+0.179 Tw
+(PART A:)Tj
+71.25 0 TD
+-0.0791 Tc
+0.0791 Tw
+(Innovation Systems)Tj
+-71.25 -35.25 TD
+/N17 9.75 Tf
+0.375 Tc
+0 Tw
+(2)Tj
+18 0 TD
+0.0704 Tc
+-0.0079 Tw
+(Networks, National Innovation Systems)Tj
+168.75 0 TD
+0.1431 Tc
+-0.0806 Tw
+(  and Self-Organisation)Tj
+-168.75 -12 TD
+/N15 9.75 Tf
+0.1248 Tc
+-0.3123 Tw
+(Pier Paolo Saviotti)Tj
+0 -22.5 TD
+/N10 9.75 Tf
+0.1875 Tc
+0 Tw
+(2.1)Tj
+27 0 TD
+0.1705 Tc
+(Introduction)Tj
+277.5 0 TD
+-0.375 Tc
+(21)Tj
+-304.5 -12 TD
+0.1875 Tc
+(2.2)Tj
+27 0 TD
+0.0785 Tc
+-0.016 Tw
+(Complexity and Evolutionary Theories)Tj
+277.5 0 TD
+-0.375 Tc
+0 Tw
+(23)Tj
+-304.5 -11.25 TD
+0.1875 Tc
+(2.3)Tj
+27 0 TD
+0.0839 Tc
+-0.0214 Tw
+(Implications of Evolutionary Theories for the NSI)Tj
+277.5 0 TD
+-0.375 Tc
+0 Tw
+(31)Tj
+-304.5 -11.25 TD
+0.1875 Tc
+(2.4)Tj
+27 0 TD
+0.1851 Tc
+(Conclusions)Tj
+277.5 0 TD
+-0.375 Tc
+(43)Tj
+-322.5 -23.25 TD
+/N17 9.75 Tf
+0.375 Tc
+(3)Tj
+18 0 TD
+0.1082 Tc
+-0.129 Tw
+(Innovation Policy in the Systems of Innovation Approach:  Some)Tj
+0 -11.25 TD
+0.0886 Tc
+-0.2761 Tw
+(Basic Principles)Tj
+0 -12 TD
+/N15 9.75 Tf
+0.1661 Tc
+-0.3536 Tw
+(Charles Edquist)Tj
+0 -22.5 TD
+/N10 9.75 Tf
+0.1875 Tc
+0 Tw
+(3.1)Tj
+27 0 TD
+0.1705 Tc
+(Introduction)Tj
+277.5 0 TD
+-0.375 Tc
+(46)Tj
+-304.5 -12 TD
+0.1875 Tc
+(3.2)Tj
+27 0 TD
+0.1145 Tc
+-0.302 Tw
+(Innovation Policy)Tj
+277.5 0 TD
+-0.375 Tc
+0 Tw
+(46)Tj
+-304.5 -11.25 TD
+0.1875 Tc
+(3.3)Tj
+27 0 TD
+0.1075 Tc
+-0.295 Tw
+(Objectives of Innovation Policy)Tj
+277.5 0 TD
+-0.375 Tc
+0 Tw
+(47)Tj
+-304.5 -11.25 TD
+0.1875 Tc
+(3.4)Tj
+27 0 TD
+0.1266 Tc
+-0.1266 Tw
+(Reasons for Innovation Policy Intervention)Tj
+277.5 0 TD
+-0.375 Tc
+0 Tw
+(47)Tj
+-304.5 -12 TD
+0.1875 Tc
+(3.5)Tj
+27 0 TD
+0.135 Tc
+-0.1975 Tw
+(The Role of Different Kinds of Innovations)Tj
+277.5 0 TD
+-0.375 Tc
+0 Tw
+(48)Tj
+-304.5 -11.25 TD
+0.1875 Tc
+(3.6)Tj
+27 0 TD
+0.1776 Tc
+-0.3651 Tw
+(Systems of Innovation)Tj
+277.5 0 TD
+-0.375 Tc
+0 Tw
+(50)Tj
+-304.5 -11.25 TD
+0.1875 Tc
+(3.7)Tj
+27 0 TD
+0.0588 Tc
+-0.2463 Tw
+(General P)Tj
+39 0 TD
+0.1751 Tc
+-0.3626 Tw
+(olicy Implications of the SI Approach)Tj
+238.5 0 TD
+-0.375 Tc
+0 Tw
+(50)Tj
+-304.5 -12 TD
+0.1875 Tc
+(3.8)Tj
+27 0 TD
+0.1373 Tc
+-0.3248 Tw
+(The SI Approach as a Framework for Designing Specific)Tj
+277.5 0 TD
+-0.375 Tc
+0 Tw
+(55)Tj
+-277.5 -11.25 TD
+0.1145 Tc
+-0.302 Tw
+(Innovation Policy)Tj
+-45 -23.25 TD
+/N17 9.75 Tf
+0.375 Tc
+0 Tw
+(4)Tj
+18 0 TD
+0.0712 Tc
+0.3842 Tw
+(The Globalisation of Technology and the European Innovation)Tj
+0 -11.25 TD
+0.1606 Tc
+0 Tw
+(System)Tj
+T*
+/N15 9.75 Tf
+0.1647 Tc
+-0.3522 Tw
+(Daniele Archibugi with assistance of Alberto Coco)Tj
+0 -23.25 TD
+/N10 9.75 Tf
+0.1875 Tc
+0 Tw
+(4.1)Tj
+27 0 TD
+0.0837 Tc
+(Introductio)Tj
+45 0 TD
+0.375 Tc
+(n)Tj
+232.5 0 TD
+-0.375 Tc
+(58)Tj
+-304.5 -11.25 TD
+0.1875 Tc
+(4.2)Tj
+27 0 TD
+0.1285 Tc
+-0.066 Tw
+(The Globalisation of Technology)Tj
+277.5 0 TD
+-0.375 Tc
+0 Tw
+(59)Tj
+-304.5 -12 TD
+0.1875 Tc
+(4.3)Tj
+27 0 TD
+0.1265 Tc
+-0.189 Tw
+(The Quantitative Significance of the Globalisation of)Tj
+277.5 0 TD
+-0.375 Tc
+0 Tw
+(61)Tj
+-277.5 -11.25 TD
+0.1463 Tc
+-0.3338 Tw
+(Technology and the Position of Europe)Tj
+-27 -11.25 TD
+0.1875 Tc
+0 Tw
+(4.4)Tj
+27 0 TD
+0.0681 Tc
+-0.2556 Tw
+(Policy Analysis)Tj
+277.5 0 TD
+-0.375 Tc
+0 Tw
+(68)Tj
+-304.5 -12 TD
+0.1875 Tc
+(4.5)Tj
+27 0 TD
+0.1851 Tc
+(Conclusions)Tj
+277.5 0 TD
+-0.375 Tc
+(74)Tj
+ET
+PDFVars/TermAll get exec end end
+userdict /pgsave get restore
+showpage
+%%PageTrailer
+%%EndPage
+%%Page: 3 3
+%%BeginPageSetup
+userdict /pgsave save put
+PDFVars begin PDF begin PDFVars/InitAll get exec
+77 88 translate
+%%EndPageSetup
+0 0 440 666 RC
+BT
+54 624.75 TD
+0 0 0 rg
+/N15 8.25 Tf
+-0.0109 Tc
+-0.0266 Tw
+(Contents          )Tj
+49.5 0 TD
+-0.7282 Tc
+0 Tw
+(ix)Tj
+-49.5 -29.25 TD
+/N17 12 Tf
+0.056 Tc
+-0.056 Tw
+(PART B:)Tj
+71.25 0 TD
+-0.056 Tc
+0.056 Tw
+(Knowledge Creation and Spillovers)Tj
+-71.25 -35.25 TD
+/N17 9.75 Tf
+0.375 Tc
+0 Tw
+(5)Tj
+18 0 TD
+0.1018 Tc
+-0.2893 Tw
+(Scaling Knowledge Produc)Tj
+114.75 0 TD
+0.0615 Tc
+0.126 Tw
+(tion:  How Significant is the Region?)Tj
+-114.75 -11.25 TD
+/N15 9.75 Tf
+0.1 Tc
+-0.2875 Tw
+(Arnoud Lagendijk)Tj
+0 -23.25 TD
+/N10 9.75 Tf
+0.1875 Tc
+0 Tw
+(5.1)Tj
+27 0 TD
+0.1705 Tc
+(Introduction)Tj
+277.5 0 TD
+-0.375 Tc
+(79)Tj
+-304.5 -11.25 TD
+0.1875 Tc
+(5.2)Tj
+27 0 TD
+0.1655 Tc
+-0.353 Tw
+(The Region as a 'Natural' and Unique Site of Knowledge)Tj
+277.5 0 TD
+-0.375 Tc
+0 Tw
+(80)Tj
+-277.5 -11.25 TD
+0.1457 Tc
+(Production)Tj
+-27 -12 TD
+0.1875 Tc
+(5.3)Tj
+27 0 TD
+0.1796 Tc
+-0.3671 Tw
+(The Region as a System of Innovation)Tj
+277.5 0 TD
+-0.375 Tc
+0 Tw
+(84)Tj
+-304.5 -11.25 TD
+0.1875 Tc
+(5.4)Tj
+27 0 TD
+0.1344 Tc
+-0.1344 Tw
+(The Region as a Political Site of Knowledge Production)Tj
+277.5 0 TD
+-0.375 Tc
+0 Tw
+(87)Tj
+-304.5 -11.25 TD
+0.1875 Tc
+(5.5)Tj
+27 0 TD
+0.1165 Tc
+-0.1165 Tw
+(Intermezzo: The Region as a 'Spatially Reified' Site of)Tj
+277.5 0 TD
+-0.375 Tc
+0 Tw
+(91)Tj
+-277.5 -12 TD
+0.1584 Tc
+-0.3459 Tw
+(Knowledge Production)Tj
+-27 -11.25 TD
+0.1875 Tc
+0 Tw
+(5.6)Tj
+27 0 TD
+0.1331 Tc
+-0.2268 Tw
+(The Region as a 'Socially Constructed' Site of Knowledge)Tj
+277.5 0 TD
+-0.375 Tc
+0 Tw
+(96)Tj
+-277.5 -11.25 TD
+0.1457 Tc
+(Production)Tj
+-27 -12 TD
+0.1875 Tc
+(5.7)Tj
+27 0 TD
+0.1346 Tc
+-0.1078 Tw
+(Outlook: Region as a Site of Policy Innovation)Tj
+272.25 0 TD
+0.125 Tc
+0 Tw
+(100)Tj
+-317.25 -22.5 TD
+/N17 9.75 Tf
+0.375 Tc
+(6)Tj
+18 0 TD
+0.0974 Tc
+-0.1349 Tw
+(Knowledge Spillovers in a Spatial Conte)Tj
+171 0 TD
+0.1356 Tc
+0.2394 Tw
+(xt \226 A Critical Review)Tj
+-171 -12 TD
+0.0865 Tc
+-0.274 Tw
+(and Assessment)Tj
+0 -11.25 TD
+/N15 9.75 Tf
+0.1737 Tc
+-0.3612 Tw
+(Charlie Karlsson and Agostino Manduchi)Tj
+0 -23.25 TD
+/N10 9.75 Tf
+0.1875 Tc
+0 Tw
+(6.1)Tj
+27 0 TD
+0.1705 Tc
+(Introduction)Tj
+272.25 0 TD
+0.125 Tc
+(101)Tj
+-299.25 -11.25 TD
+0.1875 Tc
+(6.2)Tj
+27 0 TD
+0.0509 Tc
+0.2616 Tw
+(Knowledge in Economic Theory)Tj
+272.25 0 TD
+0.125 Tc
+0 Tw
+(103)Tj
+-299.25 -11.25 TD
+0.1875 Tc
+(6.3)Tj
+27 0 TD
+0.1247 Tc
+-0.0122 Tw
+(Knowledge Spillovers \226 a General Introduction)Tj
+272.25 0 TD
+0.125 Tc
+0 Tw
+(105)Tj
+-299.25 -12 TD
+0.1875 Tc
+(6.4)Tj
+27 0 TD
+0.1144 Tc
+-0.3019 Tw
+(Knowledge Spillovers over the Industry Life-Cycle)Tj
+272.25 0 TD
+0.125 Tc
+0 Tw
+(109)Tj
+-299.25 -11.25 TD
+0.1875 Tc
+(6.5)Tj
+27 0 TD
+0.2303 Tc
+(Know)Tj
+24 0 TD
+0.1407 Tc
+-0.1782 Tw
+(ledge Spillovers \226 The Empirical Evidence)Tj
+248.25 0 TD
+0.125 Tc
+0 Tw
+(110)Tj
+-299.25 -11.25 TD
+0.1875 Tc
+(6.6)Tj
+27 0 TD
+0.1528 Tc
+-0.3403 Tw
+(Knowledge Spillovers \226 Towards a Formalisation)Tj
+272.25 0 TD
+0.125 Tc
+0 Tw
+(114)Tj
+-299.25 -12 TD
+0.1875 Tc
+(6.7)Tj
+27 0 TD
+0.1151 Tc
+-0.1151 Tw
+(Knowledge Spillovers and Spatial Interaction)Tj
+272.25 0 TD
+0.125 Tc
+0 Tw
+(118)Tj
+-299.25 -11.25 TD
+0.1875 Tc
+(6.8)Tj
+27 0 TD
+0.1316 Tc
+-0.3191 Tw
+(Modelling the Influence of Knowledge Spillovers)Tj
+272.25 0 TD
+0.125 Tc
+0 Tw
+(119)Tj
+-299.25 -11.25 TD
+0.1875 Tc
+(6.9)Tj
+27 0 TD
+0.1312 Tc
+-0.1937 Tw
+(Technology Policy in a World with Knowledg)Tj
+185.25 0 TD
+0.1023 Tc
+-0.2898 Tw
+(e Spillovers)Tj
+87 0 TD
+0.125 Tc
+0 Tw
+(121)Tj
+-299.25 -12 TD
+-0.1406 Tc
+(6.10)Tj
+27 0 TD
+0.1851 Tc
+(Conclusions)Tj
+272.25 0 TD
+0.125 Tc
+(121)Tj
+-317.25 -22.5 TD
+/N17 9.75 Tf
+0.375 Tc
+(7)Tj
+18 0 TD
+0.0726 Tc
+0.1149 Tw
+(The Role of Space in the Creation of Knowledge in Austria - An)Tj
+0 -12 TD
+0.0907 Tc
+0.0968 Tw
+(Exploratory Spatial Analysis)Tj
+0 -11.25 TD
+/N15 9.75 Tf
+0.1695 Tc
+-0.357 Tw
+(Manfred M. Fischer, Josef Fr\366hlich, Helmut Gassler  and Attila Varga)Tj
+0 -23.25 TD
+/N10 9.75 Tf
+0.1875 Tc
+0 Tw
+(7.1)Tj
+27 0 TD
+0.1705 Tc
+(Introduction)Tj
+272.25 0 TD
+0.125 Tc
+(124)Tj
+-299.25 -11.25 TD
+0.1875 Tc
+(7.2)Tj
+27 0 TD
+0.1511 Tc
+-0.3386 Tw
+(Methodology and Data)Tj
+272.25 0 TD
+0.125 Tc
+0 Tw
+(125)Tj
+-299.25 -11.25 TD
+0.1875 Tc
+(7.3)Tj
+27 0 TD
+0.1265 Tc
+-0.314 Tw
+(Time-Space Patterns of Knowledge Production in Austria)Tj
+272.25 0 TD
+0.125 Tc
+0 Tw
+(130)Tj
+-299.25 -12 TD
+0.1875 Tc
+(7.4)Tj
+27 0 TD
+0.1321 Tc
+-0.2363 Tw
+(Local Inputs to Innovation \226 an Assessment of Their Relative)Tj
+272.25 0 TD
+0.125 Tc
+0 Tw
+(136)Tj
+-272.25 -11.25 TD
+0.1116 Tc
+-0.0491 Tw
+(Significance in Knowledge Production)Tj
+-27 -11.25 TD
+0.1875 Tc
+0 Tw
+(7.5)Tj
+27 0 TD
+0.1851 Tc
+(Conclusions)Tj
+272.25 0 TD
+0.125 Tc
+(141)Tj
+ET
+PDFVars/TermAll get exec end end
+userdict /pgsave get restore
+showpage
+%%PageTrailer
+%%EndPage
+%%Page: 4 4
+%%BeginPageSetup
+userdict /pgsave save put
+PDFVars begin PDF begin PDFVars/InitAll get exec
+77 88 translate
+%%EndPageSetup
+0 0 440 666 RC
+BT
+54 624.75 TD
+0 0 0 rg
+/N15 8.25 Tf
+0.087 Tc
+0 Tw
+(x)Tj
+3.75 0 TD
+-0.1046 Tc
+0.0671 Tw
+(          Contents)Tj
+-3.75 -27.75 TD
+/N17 9.75 Tf
+0.375 Tc
+0 Tw
+(8)Tj
+18 0 TD
+0.1046 Tc
+0.1579 Tw
+(Knowledge Spillovers in High Technology Agglomerations:)Tj
+0 -11.25 TD
+0.0382 Tc
+0.5243 Tw
+(Measurement and Modelling)Tj
+T*
+/N15 9.75 Tf
+0.15 Tc
+-0.3375 Tw
+(Elsie Echeverri-Carroll)Tj
+0 -23.25 TD
+/N10 9.75 Tf
+0.1875 Tc
+0 Tw
+(8.1)Tj
+21.75 0 TD
+0.1705 Tc
+(Introduction)Tj
+277.5 0 TD
+0.125 Tc
+(146)Tj
+-299.25 -11.25 TD
+0.1875 Tc
+(8.2)Tj
+21.75 0 TD
+0.0714 Tc
+-0.2589 Tw
+(Core\226Periphery Spatial Models)Tj
+277.5 0 TD
+0.125 Tc
+0 Tw
+(148)Tj
+-299.25 -12 TD
+0.1875 Tc
+(8.3)Tj
+21.75 0 TD
+0.1547 Tc
+-0.2172 Tw
+(Data and the Definition of High Technology)Tj
+277.5 0 TD
+0.125 Tc
+0 Tw
+(154)Tj
+-299.25 -11.25 TD
+0.1875 Tc
+(8.4)Tj
+21.75 0 TD
+0.0596 Tc
+0.5029 Tw
+(Statistical Results)Tj
+277.5 0 TD
+0.125 Tc
+0 Tw
+(155)Tj
+-299.25 -11.25 TD
+0.1875 Tc
+(8.5)Tj
+21.75 0 TD
+0.1851 Tc
+(Conclusions)Tj
+277.5 0 TD
+0.125 Tc
+(158)Tj
+-317.25 -36 TD
+/N17 12 Tf
+-0.179 Tc
+0.179 Tw
+(PART C:)Tj
+71.25 0 TD
+0.0151 Tc
+-0.0151 Tw
+(Innovation, Knowledge and Regional)Tj
+0 -14.25 TD
+-0.0518 Tc
+0 Tw
+(Development)Tj
+-71.25 -30.75 TD
+/N17 9.75 Tf
+0.375 Tc
+(9)Tj
+18 0 TD
+0.1003 Tc
+-0.0065 Tw
+(Inventive Knowledge and the Sources of  New Technology:)Tj
+0 -11.25 TD
+0.0919 Tc
+0.0018 Tw
+(Regional Changes in Innovative Capacity in the United States)Tj
+T*
+/N15 9.75 Tf
+0.1627 Tc
+-0.3502 Tw
+(Luis Suarez-Villa in the United States')Tj
+0 -23.25 TD
+/N10 9.75 Tf
+0.1875 Tc
+0 Tw
+(9.1)Tj
+21.75 0 TD
+0.1705 Tc
+(Introduction)Tj
+277.5 0 TD
+0.125 Tc
+(165)Tj
+-299.25 -11.25 TD
+0.1875 Tc
+(9.2)Tj
+21.75 0 TD
+0.1209 Tc
+-0.3084 Tw
+(The Emergence of the Sunbelt)Tj
+277.5 0 TD
+0.125 Tc
+0 Tw
+(166)Tj
+-299.25 -12 TD
+0.1875 Tc
+(9.3)Tj
+21.75 0 TD
+0.1637 Tc
+-0.3512 Tw
+(The Factors of Inversion)Tj
+277.5 0 TD
+0.125 Tc
+0 Tw
+(172)Tj
+-299.25 -11.25 TD
+0.1875 Tc
+(9.4)Tj
+21.75 0 TD
+0.1851 Tc
+(Conclusions)Tj
+277.5 0 TD
+0.125 Tc
+(179)Tj
+-317.25 -23.25 TD
+/N17 9.75 Tf
+0.375 Tc
+(10)Tj
+18 0 TD
+0.0806 Tc
+0.2676 Tw
+(Urban Innovation and Collective Learning: Theory and Evidence)Tj
+0 -11.25 TD
+0.0507 Tc
+0.3618 Tw
+(from Five Metropolitan Cities in Europe)Tj
+T*
+/N15 9.75 Tf
+0.2112 Tc
+-0.3987 Tw
+(Roberta Capello)Tj
+0 -23.25 TD
+/N10 9.75 Tf
+-0.1406 Tc
+0 Tw
+(10.1)Tj
+27 0 TD
+0.1705 Tc
+(Introduction)Tj
+272.25 0 TD
+0.125 Tc
+(181)Tj
+-299.25 -11.25 TD
+-0.1406 Tc
+(10.2)Tj
+27 0 TD
+0.0288 Tc
+0.1587 Tw
+(Learning in Cities)Tj
+272.25 0 TD
+0.125 Tc
+0 Tw
+(182)Tj
+-299.25 -12 TD
+-0.1406 Tc
+(10.3)Tj
+27 0 TD
+0.1147 Tc
+-0.1147 Tw
+(Data, Sample Characteristics and Methodology)Tj
+272.25 0 TD
+0.125 Tc
+0 Tw
+(188)Tj
+-299.25 -11.25 TD
+-0.1406 Tc
+(10.4)Tj
+27 0 TD
+0.2374 Tc
+(Innova)Tj
+28.5 0 TD
+0.0718 Tc
+-0.0093 Tw
+(tive Behaviour of Firms in Metropolitan Cities)Tj
+243.75 0 TD
+0.125 Tc
+0 Tw
+(191)Tj
+-299.25 -11.25 TD
+-0.1406 Tc
+(10.5)Tj
+27 0 TD
+0.1313 Tc
+-0.3188 Tw
+(The Determinants of Innovation in Cities)Tj
+272.25 0 TD
+0.125 Tc
+0 Tw
+(197)Tj
+-299.25 -12 TD
+-0.1406 Tc
+(10.6)Tj
+27 0 TD
+0.0881 Tc
+0.1744 Tw
+(Dynamic Urbanisation Economies versus Milieu Economies)Tj
+272.25 0 TD
+0.125 Tc
+0 Tw
+(299)Tj
+-272.25 -11.25 TD
+0.1366 Tc
+-0.2408 Tw
+(in Innovative Behaviour: The Role of Firms' Size and Sectoral)Tj
+0 -11.25 TD
+0.1102 Tc
+0 Tw
+(Specialisation)Tj
+-27 -12 TD
+-0.1406 Tc
+(10.7)Tj
+27 0 TD
+0.0227 Tc
+(Conclusio)Tj
+40.5 0 TD
+0.5411 Tc
+(ns)Tj
+231.75 0 TD
+0.125 Tc
+(203)Tj
+-317.25 -22.5 TD
+/N17 9.75 Tf
+0.375 Tc
+(11)Tj
+18 0 TD
+0.1012 Tc
+0.1613 Tw
+(Distributed Knowledge in Complex Engineering Project)Tj
+0 -12 TD
+0.0877 Tc
+-0.0252 Tw
+(Networks:  Implications for Regional Innovation Systems)Tj
+0 -11.25 TD
+/N15 9.75 Tf
+0.1911 Tc
+-0.3786 Tw
+(Neil Alderman)Tj
+0 -23.25 TD
+/N10 9.75 Tf
+-0.1406 Tc
+0 Tw
+(11.1)Tj
+27 0 TD
+0.1705 Tc
+(Introduction)Tj
+272.25 0 TD
+0.125 Tc
+(209)Tj
+-299.25 -11.25 TD
+-0.1406 Tc
+(11.2)Tj
+27 0 TD
+0.0775 Tc
+0.235 Tw
+(Complex Engineering Project Networks)Tj
+272.25 0 TD
+0.125 Tc
+0 Tw
+(211)Tj
+-299.25 -11.25 TD
+-0.1406 Tc
+(11.3)Tj
+27 0 TD
+0.0717 Tc
+0.1158 Tw
+(Regional Innovation Systems and Project Value Sy)Tj
+204.75 0 TD
+-0.0921 Tc
+0 Tw
+(stems)Tj
+67.5 0 TD
+0.125 Tc
+(212)Tj
+-299.25 -12 TD
+-0.1406 Tc
+(11.4)Tj
+27 0 TD
+0.0984 Tc
+-0.2859 Tw
+(Case Studies)Tj
+272.25 0 TD
+0.125 Tc
+0 Tw
+(217)Tj
+-299.25 -11.25 TD
+-0.1406 Tc
+(11.5)Tj
+27 0 TD
+0.1851 Tc
+(Conclusions)Tj
+272.25 0 TD
+0.125 Tc
+(223)Tj
+ET
+PDFVars/TermAll get exec end end
+userdict /pgsave get restore
+showpage
+%%PageTrailer
+%%EndPage
+%%Page: 5 5
+%%BeginPageSetup
+userdict /pgsave save put
+PDFVars begin PDF begin PDFVars/InitAll get exec
+77 88 translate
+%%EndPageSetup
+0 0 440 666 RC
+BT
+54 624.75 TD
+0 0 0 rg
+/N15 8.25 Tf
+-0.0109 Tc
+-0.0266 Tw
+(Contents          )Tj
+48.75 0 TD
+0.0218 Tc
+0 Tw
+(xi)Tj
+-48.75 -27.75 TD
+/N17 9.75 Tf
+0.375 Tc
+(12)Tj
+18 0 TD
+0.1425 Tc
+-0.1425 Tw
+(Endogenous Technological Change, Entrepreneurship and)Tj
+0 -11.25 TD
+0.0298 Tc
+0.5327 Tw
+(Regional Growth)Tj
+T*
+/N15 9.75 Tf
+0.1534 Tc
+-0.3409 Tw
+(Zolt\341n J. \301cs)Tj
+0 -23.25 TD
+/N10 9.75 Tf
+-0.1406 Tc
+0 Tw
+(12.1)Tj
+27 0 TD
+0.1705 Tc
+(Introduction)Tj
+272.25 0 TD
+0.125 Tc
+(228)Tj
+-299.25 -11.25 TD
+-0.1406 Tc
+(12.2)Tj
+27 0 TD
+0.1426 Tc
+-0.3301 Tw
+(Endogenous Technical Change)Tj
+272.25 0 TD
+0.125 Tc
+0 Tw
+(230)Tj
+-299.25 -12 TD
+-0.1406 Tc
+(12.3)Tj
+27 0 TD
+0.0847 Tc
+0.4778 Tw
+(Entrepreneurial Discovery)Tj
+272.25 0 TD
+0.125 Tc
+0 Tw
+(233)Tj
+-299.25 -11.25 TD
+-0.1406 Tc
+(12.4)Tj
+27 0 TD
+0.0719 Tc
+0.4906 Tw
+(Regional Growth)Tj
+272.25 0 TD
+0.125 Tc
+0 Tw
+(236)Tj
+-299.25 -11.25 TD
+-0.1406 Tc
+(12.5)Tj
+27 0 TD
+0.0938 Tc
+-0.0313 Tw
+(Theory and Empirical Results)Tj
+272.25 0 TD
+0.125 Tc
+0 Tw
+(242)Tj
+-299.25 -12 TD
+-0.1406 Tc
+(12.6)Tj
+27 0 TD
+0.1572 Tc
+-0.3447 Tw
+(Policy Implications)Tj
+272.25 0 TD
+0.125 Tc
+0 Tw
+(244)Tj
+-317.25 -30.75 TD
+/N17 12 Tf
+0.071 Tc
+-0.071 Tw
+(PART D:)Tj
+71.25 0 TD
+-0.008 Tc
+0.758 Tw
+(Modelling Complexities)Tj
+-71.25 -30 TD
+/N17 9.75 Tf
+0.375 Tc
+0 Tw
+(13)Tj
+18 0 TD
+0.0616 Tc
+0.3759 Tw
+(Modelling of Knowledge, Capital Formation, and Innovation)Tj
+0 -11.25 TD
+0.1049 Tc
+0.2076 Tw
+(Behaviour within Micro-Based Profit Oriented and Correlated)Tj
+0 -12 TD
+0.148 Tc
+-0.3355 Tw
+(Decision Processes)Tj
+0 -11.25 TD
+/N15 9.75 Tf
+0.1432 Tc
+-0.3307 Tw
+(G\374nter Haag and Philipp Liedl)Tj
+0 -23.25 TD
+/N10 9.75 Tf
+-0.1406 Tc
+0 Tw
+(13.1)Tj
+27 0 TD
+0.1705 Tc
+(Introduction)Tj
+272.25 0 TD
+0.125 Tc
+(251)Tj
+-299.25 -11.25 TD
+-0.1406 Tc
+(13.2)Tj
+27 0 TD
+0.085 Tc
+-0.0225 Tw
+(Modelling Nested Innovation Processes)Tj
+272.25 0 TD
+0.125 Tc
+0 Tw
+(254)Tj
+-299.25 -11.25 TD
+-0.1406 Tc
+(13.3)Tj
+27 0 TD
+0.1265 Tc
+-0.164 Tw
+(Simulations for Selected Examples and Scenarios)Tj
+272.25 0 TD
+0.125 Tc
+0 Tw
+(264)Tj
+-299.25 -12 TD
+-0.1406 Tc
+(13.4)Tj
+27 0 TD
+0.1851 Tc
+(Conclusions)Tj
+272.25 0 TD
+0.125 Tc
+(273)Tj
+-317.25 -22.5 TD
+/N17 9.75 Tf
+0.375 Tc
+(14)Tj
+18 0 TD
+0.1423 Tc
+-0.1798 Tw
+(Communication and Self-Organisation in Complex Systems:)Tj
+0 -12 TD
+0.1814 Tc
+-0.3689 Tw
+(A Basic Approach)Tj
+0 -11.25 TD
+/N15 9.75 Tf
+0.1463 Tc
+-0.3338 Tw
+(Frank Schweitzer and J\366rg Zimmermann)Tj
+0 -23.25 TD
+/N10 9.75 Tf
+-0.1406 Tc
+0 Tw
+(14.1)Tj
+27 0 TD
+0.1705 Tc
+(Introduction)Tj
+272.25 0 TD
+0.125 Tc
+(275)Tj
+-299.25 -11.25 TD
+-0.1406 Tc
+(14.2)Tj
+27 0 TD
+0.1276 Tc
+-0.0651 Tw
+(Complex Systems and Self-Organisation)Tj
+272.25 0 TD
+0.125 Tc
+0 Tw
+(276)Tj
+-299.25 -11.25 TD
+-0.1406 Tc
+(14.3)Tj
+27 0 TD
+0.1196 Tc
+-0.0571 Tw
+(Complex Versus Minimalistic Agents)Tj
+272.25 0 TD
+0.125 Tc
+0 Tw
+(278)Tj
+-299.25 -12 TD
+-0.1406 Tc
+(14.4)Tj
+27 0 TD
+0.1357 Tc
+-0.3232 Tw
+(An Information-Theoretic Approach)Tj
+272.25 0 TD
+0.125 Tc
+0 Tw
+(281)Tj
+-299.25 -11.25 TD
+-0.1406 Tc
+(14.5)Tj
+27 0 TD
+0.1628 Tc
+-0.3503 Tw
+(Basic Model of Communicating Agents)Tj
+272.25 0 TD
+0.125 Tc
+0 Tw
+(283)Tj
+-299.25 -11.25 TD
+-0.1406 Tc
+(14.6)Tj
+27 0 TD
+0.1739 Tc
+-0.3614 Tw
+(The Mean-Field Approach)Tj
+272.25 0 TD
+0.125 Tc
+0 Tw
+(286)Tj
+-299.25 -12 TD
+-0.1406 Tc
+(14.7)Tj
+27 0 TD
+0.0986 Tc
+0.0889 Tw
+(Spatial Information Distribution)Tj
+272.25 0 TD
+0.125 Tc
+0 Tw
+(289)Tj
+-299.25 -11.25 TD
+-0.1406 Tc
+(14.8)Tj
+27 0 TD
+0.1851 Tc
+(Conclusions)Tj
+272.25 0 TD
+0.125 Tc
+(295)Tj
+-317.25 -23.25 TD
+/N17 9.75 Tf
+0.375 Tc
+(15)Tj
+18 0 TD
+0.0596 Tc
+0.3154 Tw
+(Agents, Interactions, and Co-Evolutionary Learning)Tj
+0 -11.25 TD
+/N15 9.75 Tf
+0.1784 Tc
+-0.3659 Tw
+(David F. Batten)Tj
+0 -23.25 TD
+/N10 9.75 Tf
+-0.1406 Tc
+0 Tw
+(15.1)Tj
+27 0 TD
+0.1705 Tc
+(Introduction)Tj
+272.25 0 TD
+0.125 Tc
+(297)Tj
+-299.25 -11.25 TD
+-0.1406 Tc
+(15.2)Tj
+27 0 TD
+0.1273 Tc
+-0.3148 Tw
+(Schelling's Self-Organising Neighbourhoods)Tj
+272.25 0 TD
+0.125 Tc
+0 Tw
+(298)Tj
+-299.25 -11.25 TD
+-0.1406 Tc
+(15.3)Tj
+27 0 TD
+0.1264 Tc
+-0.3139 Tw
+(Simulation via Cellular Automata)Tj
+272.25 0 TD
+0.125 Tc
+0 Tw
+(302)Tj
+-299.25 -12 TD
+-0.1406 Tc
+(15.4)Tj
+27 0 TD
+0.138 Tc
+-0.3255 Tw
+(Growing an Innovative Silicon Society)Tj
+272.25 0 TD
+0.125 Tc
+0 Tw
+(306)Tj
+-299.25 -11.25 TD
+-0.1406 Tc
+(15.5)Tj
+27 0 TD
+0.0875 Tc
+0.475 Tw
+(Co-Evolutionary Learning)Tj
+272.25 0 TD
+0.125 Tc
+0 Tw
+(309)Tj
+-299.25 -11.25 TD
+-0.1406 Tc
+(15.6)Tj
+27 0 TD
+0.0757 Tc
+0.1118 Tw
+(Discovering Artificial Economics)Tj
+272.25 0 TD
+0.125 Tc
+0 Tw
+(311)Tj
+-299.25 -12 TD
+-0.1406 Tc
+(15.7)Tj
+27 0 TD
+0.0681 Tc
+0.1194 Tw
+(Some Final Thoughts)Tj
+272.25 0 TD
+0.125 Tc
+0 Tw
+(314)Tj
+ET
+PDFVars/TermAll get exec end end
+userdict /pgsave get restore
+showpage
+%%PageTrailer
+%%EndPage
+%%Page: 6 6
+%%BeginPageSetup
+userdict /pgsave save put
+PDFVars begin PDF begin PDFVars/InitAll get exec
+77 88 translate
+%%EndPageSetup
+0 0 440 666 RC
+BT
+54 624.75 TD
+0 0 0 rg
+/N15 8.25 Tf
+0 Tc
+0 Tw
+(xii)Tj
+8.25 0 TD
+-0.1046 Tc
+0.0671 Tw
+(          Contents)Tj
+-8.25 -27.75 TD
+/N17 9.75 Tf
+0.375 Tc
+0 Tw
+(16)Tj
+18 0 TD
+0.1565 Tc
+-0.194 Tw
+(Major Actors of Innovation Diffusion Process)Tj
+0 -11.25 TD
+/N15 9.75 Tf
+0.2017 Tc
+-0.3892 Tw
+(Michael Sonis)Tj
+0 -23.25 TD
+/N10 9.75 Tf
+-0.1406 Tc
+0 Tw
+(16.1)Tj
+27 0 TD
+0.1131 Tc
+-0.3006 Tw
+(Introduction: Innovation Diffusion as)Tj
+150 0 TD
+0.1486 Tc
+-0.3361 Tw
+( a Way to Complexity)Tj
+122.25 0 TD
+0.125 Tc
+0 Tw
+(317)Tj
+-272.25 -11.25 TD
+0.1292 Tc
+-0.3167 Tw
+(through the Process of Complication)Tj
+-27 -11.25 TD
+-0.1406 Tc
+0 Tw
+(16.2)Tj
+27 0 TD
+0.1732 Tc
+-0.3607 Tw
+(Major Actors in the Innovation Diffusion Process)Tj
+272.25 0 TD
+0.125 Tc
+0 Tw
+(318)Tj
+-299.25 -12 TD
+-0.1406 Tc
+(16.3)Tj
+27 0 TD
+0.102 Tc
+-0.102 Tw
+(The First Principle of Individual Choice within the Collective)Tj
+272.25 0 TD
+0.125 Tc
+0 Tw
+(328)Tj
+-299.25 -11.25 TD
+-0.1406 Tc
+(16.4)Tj
+27 0 TD
+0.1211 Tc
+-0.3086 Tw
+(Innovators and Innovating Elites)Tj
+272.25 0 TD
+0.125 Tc
+0 Tw
+(332)Tj
+-299.25 -11.25 TD
+-0.1406 Tc
+(16.5)Tj
+27 0 TD
+0.1084 Tc
+-0.2959 Tw
+(Active Environment)Tj
+81 0 TD
+0.1375 Tc
+-0.325 Tw
+( and Socio-Ecological Niches)Tj
+191.25 0 TD
+0.125 Tc
+0 Tw
+(335)Tj
+-299.25 -12 TD
+-0.1406 Tc
+(16.6)Tj
+27 0 TD
+0.1851 Tc
+(Conclusions)Tj
+272.25 0 TD
+0.125 Tc
+(340)Tj
+-317.25 -36 TD
+/N17 12 Tf
+0.056 Tc
+-0.056 Tw
+(PART E:)Tj
+71.25 0 TD
+0.083 Tc
+-0.083 Tw
+(Policy Issues)Tj
+-71.25 -35.25 TD
+/N17 9.75 Tf
+0.375 Tc
+0 Tw
+(17)Tj
+18 0 TD
+0.0803 Tc
+0.3322 Tw
+(Options, Innovation and Metropolitan Development: Novel)Tj
+0 -11.25 TD
+0.0903 Tc
+0.0972 Tw
+(Insights from  Non-Linear Dynamics)Tj
+T*
+/N15 9.75 Tf
+0.178 Tc
+-0.3655 Tw
+(Dimitrios Dendrinos)Tj
+0 -23.25 TD
+/N10 9.75 Tf
+-0.1406 Tc
+0 Tw
+(17.1)Tj
+27 0 TD
+0.1842 Tc
+(Background)Tj
+272.25 0 TD
+0.125 Tc
+(345)Tj
+-299.25 -11.25 TD
+-0.1406 Tc
+(17.2)Tj
+27 0 TD
+0.1393 Tc
+-0.3268 Tw
+(Options and Metropolitan Development)Tj
+272.25 0 TD
+0.125 Tc
+0 Tw
+(347)Tj
+-299.25 -12 TD
+-0.1406 Tc
+(17.3)Tj
+27 0 TD
+0.1117 Tc
+-0.2992 Tw
+(Options and Their Prices)Tj
+272.25 0 TD
+0.125 Tc
+0 Tw
+(350)Tj
+-299.25 -11.25 TD
+-0.1406 Tc
+(17.4)Tj
+27 0 TD
+0.1341 Tc
+-0.3216 Tw
+(Derivatives, Speculation and Development)Tj
+272.25 0 TD
+0.125 Tc
+0 Tw
+(356)Tj
+-299.25 -11.25 TD
+-0.1406 Tc
+(17.5)Tj
+27 0 TD
+0.1344 Tc
+-0.3219 Tw
+(Derivatives Market Failures and Regulation)Tj
+272.25 0 TD
+0.125 Tc
+0 Tw
+(361)Tj
+-299.25 -12 TD
+-0.1406 Tc
+(17.6)Tj
+27 0 TD
+0.1851 Tc
+(Conclusions)Tj
+272.25 0 TD
+0.125 Tc
+(367)Tj
+-317.25 -22.5 TD
+/N17 9.75 Tf
+0.375 Tc
+(18)Tj
+18 0 TD
+0.0745 Tc
+0.1665 Tw
+(Spatial Dynamics and Government Policy:  An Artificial)Tj
+0 -12 TD
+0.1021 Tc
+-0.1396 Tw
+(Intelligence Approach to Comparing Complex Systems)Tj
+0 -11.25 TD
+/N15 9.75 Tf
+0.1669 Tc
+-0.3544 Tw
+(Peter Nijkamp, Jacques Poot, and Gabriella Vindigni)Tj
+0 -23.25 TD
+/N10 9.75 Tf
+-0.1406 Tc
+0 Tw
+(18.1)Tj
+27 0 TD
+0.0476 Tc
+0.2149 Tw
+(Complexity in a Dynamic Spatial-Economic Context)Tj
+272.25 0 TD
+0.125 Tc
+0 Tw
+(369)Tj
+-299.25 -11.25 TD
+-0.1406 Tc
+(18.2)Tj
+27 0 TD
+0.1181 Tc
+-0.3056 Tw
+(Research Synthesis and Meta-Analysis)Tj
+272.25 0 TD
+0.125 Tc
+0 Tw
+(372)Tj
+-299.25 -11.25 TD
+-0.1406 Tc
+(18.3)Tj
+27 0 TD
+0.1434 Tc
+-0.3309 Tw
+(Rough Set Analysis as an Artificial Intelligence Tool for)Tj
+272.25 0 TD
+0.125 Tc
+0 Tw
+(374)Tj
+-272.25 -12 TD
+0.0668 Tc
+-0.2543 Tw
+(Research Synthesis)Tj
+-27 -11.25 TD
+-0.1406 Tc
+0 Tw
+(18.4)Tj
+27 0 TD
+0.1221 Tc
+-0.0954 Tw
+(A Sample of Studies on Government and Growth)Tj
+272.25 0 TD
+0.125 Tc
+0 Tw
+(377)Tj
+-299.25 -11.25 TD
+-0.1406 Tc
+(18.5)Tj
+27 0 TD
+0.1323 Tc
+-0.2127 Tw
+(The Generalised Rough Set Method: A Multilevel Strategy)Tj
+272.25 0 TD
+0.125 Tc
+0 Tw
+(379)Tj
+-272.25 -12 TD
+0.1786 Tc
+-0.3661 Tw
+(Learning Approach)Tj
+-27 -11.25 TD
+-0.1406 Tc
+0 Tw
+(18.6)Tj
+27 0 TD
+0.1851 Tc
+(Conclusions)Tj
+272.25 0 TD
+0.125 Tc
+(390)Tj
+ET
+PDFVars/TermAll get exec end end
+userdict /pgsave get restore
+showpage
+%%PageTrailer
+%%EndPage
+%%Page: 7 7
+%%BeginPageSetup
+userdict /pgsave save put
+PDFVars begin PDF begin PDFVars/InitAll get exec
+77 88 translate
+%%EndPageSetup
+0 0 440 666 RC
+BT
+54 624.75 TD
+0 0 0 rg
+/N15 8.25 Tf
+-0.0109 Tc
+-0.0266 Tw
+(Contents          )Tj
+48.75 0 TD
+-0.0109 Tc
+0 Tw
+(xiii)Tj
+-48.75 -27.75 TD
+/N17 9.75 Tf
+0.375 Tc
+(19)Tj
+18 0 TD
+0.1079 Tc
+0.0796 Tw
+(Does R&D-Infrastructure Attract High-Tech Start-Ups?)Tj
+0 -11.25 TD
+/N15 9.75 Tf
+0.1835 Tc
+-0.371 Tw
+(Dirk Engel and Andreas Fier)Tj
+0 -23.25 TD
+/N10 9.75 Tf
+-0.1406 Tc
+0 Tw
+(19.1)Tj
+27 0 TD
+0.1392 Tc
+(Int)Tj
+11.25 0 TD
+0.1809 Tc
+(roduction)Tj
+261 0 TD
+0.125 Tc
+(402)Tj
+-299.25 -11.25 TD
+-0.1406 Tc
+(19.2)Tj
+27 0 TD
+0.0881 Tc
+0.4744 Tw
+(Theoretical Reflections)Tj
+272.25 0 TD
+0.125 Tc
+0 Tw
+(402)Tj
+-299.25 -11.25 TD
+-0.1406 Tc
+(19.3)Tj
+27 0 TD
+0.1327 Tc
+-0.3202 Tw
+(Definitions and Data)Tj
+272.25 0 TD
+0.125 Tc
+0 Tw
+(405)Tj
+-299.25 -12 TD
+-0.1406 Tc
+(19.4)Tj
+27 0 TD
+0.0746 Tc
+0.3004 Tw
+(High-Tech Start-Ups in Eastern Germany)Tj
+272.25 0 TD
+0.125 Tc
+0 Tw
+(406)Tj
+-299.25 -11.25 TD
+-0.1406 Tc
+(19.5)Tj
+27 0 TD
+0.1563 Tc
+-0.3438 Tw
+(Determinants for Regional Differences in the Number of)Tj
+272.25 0 TD
+0.125 Tc
+0 Tw
+(410)Tj
+-272.25 -11.25 TD
+0.0773 Tc
+0.4852 Tw
+(High-Tech Start-Ups)Tj
+-27 -12 TD
+-0.1406 Tc
+0 Tw
+(19.6)Tj
+27 0 TD
+0.1339 Tc
+-0.3214 Tw
+(Conclusions and Policy Implications)Tj
+272.25 0 TD
+0.125 Tc
+0 Tw
+(419)Tj
+-317.25 -34.5 TD
+/N17 9.75 Tf
+0.0276 Tc
+(References)Tj
+317.25 0 TD
+/N10 9.75 Tf
+0.125 Tc
+(423)Tj
+-317.25 -22.5 TD
+/N17 9.75 Tf
+0.0354 Tc
+0.1521 Tw
+(List of Figures)Tj
+317.25 0 TD
+/N10 9.75 Tf
+0.125 Tc
+0 Tw
+(455)Tj
+-317.25 -23.25 TD
+/N17 9.75 Tf
+0.0411 Tc
+0.1464 Tw
+(List of Tables)Tj
+317.25 0 TD
+/N10 9.75 Tf
+0.125 Tc
+0 Tw
+(457)Tj
+-317.25 -23.25 TD
+/N17 9.75 Tf
+0.1456 Tc
+0.4169 Tw
+(Subject Index)Tj
+317.25 0 TD
+/N10 9.75 Tf
+0.125 Tc
+0 Tw
+(459)Tj
+-317.25 -22.5 TD
+/N17 9.75 Tf
+0.0526 Tc
+0.5099 Tw
+(Author Index)Tj
+318 0 TD
+/N10 9.75 Tf
+0.125 Tc
+0 Tw
+(xxx)Tj
+-318 -23.25 TD
+/N17 9.75 Tf
+0.0043 Tc
+0.1832 Tw
+(List of Cont)Tj
+51 0 TD
+/N10 9.75 Tf
+-0.2467 Tc
+0 Tw
+(r)Tj
+3 0 TD
+/N17 9.75 Tf
+0.0291 Tc
+(ibutors)Tj
+264 0 TD
+/N10 9.75 Tf
+0.125 Tc
+(xxx)Tj
+ET
+PDFVars/TermAll get exec end end
+userdict /pgsave get restore
+showpage
+%%PageTrailer
+%%EndPage
+%%Page: 8 8
+%%BeginPageSetup
+userdict /pgsave save put
+PDFVars begin PDF begin PDFVars/InitAll get exec
+77 88 translate
+%%EndPageSetup
+0 0 440 666 RC
+BT
+54 622.5 TD
+0 0 0 rg
+/N15 9.75 Tf
+0.2105 Tc
+0 Tw
+(xiv)Tj
+12 0 TD
+/N15 8.25 Tf
+0 Tc
+0.1875 Tw
+(  )Tj
+227.25 0 TD
+-0.0958 Tc
+0.2833 Tw
+(M.M.Fischer and J.Fr\366hlich)Tj
+ET
+PDFVars/TermAll get exec end end
+userdict /pgsave get restore
+showpage
+%%PageTrailer
+%%EndPage
+%%Trailer
+%%DocumentProcessColors: Cyan Magenta Yellow Black
+%%EOF

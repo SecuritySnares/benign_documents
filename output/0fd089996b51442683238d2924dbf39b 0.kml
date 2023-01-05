@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="EDUC_HigherEducationPublicFourYear_MHEC" id="EDUC_HigherEducationPublicFourYear_MHEC">
+	<SimpleField name="OBJECTID" type="int"></SimpleField>
+	<SimpleField name="sitename" type="string"></SimpleField>
+	<SimpleField name="sitedesc" type="string"></SimpleField>
+	<SimpleField name="streetaddr" type="string"></SimpleField>
+	<SimpleField name="building_s" type="string"></SimpleField>
+	<SimpleField name="city" type="string"></SimpleField>
+	<SimpleField name="county" type="string"></SimpleField>
+	<SimpleField name="state" type="string"></SimpleField>
+	<SimpleField name="zip" type="string"></SimpleField>
+	<SimpleField name="phonenumbe" type="string"></SimpleField>
+	<SimpleField name="tollfree_n" type="string"></SimpleField>
+	<SimpleField name="website" type="string"></SimpleField>
+	<SimpleField name="latitude" type="string"></SimpleField>
+	<SimpleField name="longitude" type="string"></SimpleField>
+	<SimpleField name="enrollment" type="string"></SimpleField>
+	<SimpleField name="grades_deg" type="string"></SimpleField>
+</Schema>
+<Folder><name>EDUC_HigherEducationPublicFourYear_MHEC</name>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#EDUC_HigherEducationPublicFourYear_MHEC">
+		<SimpleData name="OBJECTID">1</SimpleData>
+		<SimpleData name="sitename">Bowie State University</SimpleData>
+		<SimpleData name="sitedesc">A member of the University System of Maryland upholding the System's mission of providing accessible and affordable educational opportunities. This includes 22 undergraduate programs and 19 master's, 2 doctoral and 14 advanced certification programs.</SimpleData>
+		<SimpleData name="streetaddr">14000 Jericho Park Road</SimpleData>
+		<SimpleData name="building_s"></SimpleData>
+		<SimpleData name="city">Bowie</SimpleData>
+		<SimpleData name="county">Prince George's</SimpleData>
+		<SimpleData name="state">MD</SimpleData>
+		<SimpleData name="zip">20715</SimpleData>
+		<SimpleData name="phonenumbe">301-860-4000</SimpleData>
+		<SimpleData name="tollfree_n">1-877-77-BOWIE</SimpleData>
+		<SimpleData name="website">http://www.bowiestate.edu</SimpleData>
+		<SimpleData name="latitude">39.018459</SimpleData>
+		<SimpleData name="longitude">-76.760766</SimpleData>
+		<SimpleData name="enrollment">5,421</SimpleData>
+		<SimpleData name="grades_deg">Bachelor's, Master's &amp; Doctorates</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-76.7607665629999,39.018459455</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#EDUC_HigherEducationPublicFourYear_MHEC">
+		<SimpleData name="OBJECTID">2</SimpleData>
+		<SimpleData name="sitename">Coppin State University</SimpleData>
+		<SimpleData name="sitedesc">An urban, comprehensive institution offering quality undergraduate and graduate programs in education, the liberal arts, mathematics, sciences, technology and professional disciplines.</SimpleData>
+		<SimpleData name="streetaddr">2500 West North Avenue</SimpleData>
+		<SimpleData name="building_s"></SimpleData>
+		<SimpleData name="city">Baltimore</SimpleData>
+		<SimpleData name="county">Baltimore City</SimpleData>
+		<SimpleData name="state">MD</SimpleData>
+		<SimpleData name="zip">21216</SimpleData>
+		<SimpleData name="phonenumbe">410-951-3000</SimpleData>
+		<SimpleData name="tollfree_n">1-800-635-3674</SimpleData>
+		<SimpleData name="website">http://www.coppin.edu</SimpleData>
+		<SimpleData name="latitude">39.311788</SimpleData>
+		<SimpleData name="longitude">-76.658787</SimpleData>
+		<SimpleData name="enrollment">3,612</SimpleData>
+		<SimpleData name="grades_deg">Certificates, Bachelor's &amp; Master's</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-76.658787597,39.31178842</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#EDUC_HigherEducationPublicFourYear_MHEC">
+		<SimpleData name="OBJECTID">3</SimpleData>
+		<SimpleData name="sitename">Frostburg State University</SimpleData>
+		<SimpleData name="sitedesc">Located on a 260-acre campus in Western Maryland and is part of the University System of Maryland. FSU is accredited by the Middle States Commission of Higher Education. Offering a wide range of undergraduate and graduate programs.</SimpleData>
+		<SimpleData name="streetaddr">101 Braddock Road</SimpleData>
+		<SimpleData name="building_s"></SimpleData>
+		<SimpleData name="city">Frostburg</SimpleData>
+		<SimpleData name="county">Allegany</SimpleData>
+		<SimpleData name="state">MD</SimpleData>
+		<SimpleData name="zip">21532</SimpleData>
+		<SimpleData name="phonenumbe">301-687-4000</SimpleData>
+		<SimpleData name="tollfree_n">--</SimpleData>
+		<SimpleData name="website">http://www.frostburg.edu</SimpleData>
+		<SimpleData name="latitude">39.649503</SimpleData>
+		<SimpleData name="longitude">-78.932751</SimpleData>
+		<SimpleData name="enrollment">5,421</SimpleData>
+		<SimpleData name="grades_deg">Bachelor's &amp; Master's</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-78.9327512839999,39.649503032</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#EDUC_HigherEducationPublicFourYear_MHEC">
+		<SimpleData name="OBJECTID">4</SimpleData>
+		<SimpleData name="sitename">Salisbury University</SimpleData>
+		<SimpleData name="sitedesc">A member of the University System of Maryland, regionally accredited and offering 56 distinct graduate and undergraduate programs. Located on the Eastern Shore, 30 miles from the Atlantic Ocean beaches and 2.5 hours from Baltimore and Washington, D.C.</SimpleData>
+		<SimpleData name="streetaddr">1101 Camden Ave</SimpleData>
+		<SimpleData name="building_s"></SimpleData>
+		<SimpleData name="city">Salisbury</SimpleData>
+		<SimpleData name="county">Wicomico</SimpleData>
+		<SimpleData name="state">MD</SimpleData>
+		<SimpleData name="zip">21801</SimpleData>
+		<SimpleData name="phonenumbe">410-543-6000</SimpleData>
+		<SimpleData name="tollfree_n">--</SimpleData>
+		<SimpleData name="website">http://www.salisbury.edu</SimpleData>
+		<SimpleData name="latitude">38.343398</SimpleData>
+		<SimpleData name="longitude">-75.607368</SimpleData>
+		<SimpleData name="enrollment">--</SimpleData>
+		<SimpleData name="grades_deg">Certificates, Bachelor's, Master's &amp; Doctorates</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-75.607368793,38.343398752</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#EDUC_HigherEducationPublicFourYear_MHEC">
+		<SimpleData name="OBJECTID">5</SimpleData>
+		<SimpleData name="sitename">Towson University</SimpleData>
+		<SimpleData name="sitedesc">Among the largest public universities in Maryland with nearly 22,000 students. As a metropolitan university, TU combines research-based learning with practical application and provides opportunities for research, internships and jobs.</SimpleData>
+		<SimpleData name="streetaddr">8000 York Road</SimpleData>
+		<SimpleData name="building_s"></SimpleData>
+		<SimpleData name="city">Towson</SimpleData>
+		<SimpleData name="county">Baltimore</SimpleData>
+		<SimpleData name="state">MD</SimpleData>
+		<SimpleData name="zip">21252</SimpleData>
+		<SimpleData name="phonenumbe">410-704-2000</SimpleData>
+		<SimpleData name="tollfree_n">--</SimpleData>
+		<SimpleData name="website">http://www.towson.edu</SimpleData>
+		<SimpleData name="latitude">39.394852</SimpleData>
+		<SimpleData name="longitude">-76.616388</SimpleData>
+		<SimpleData name="enrollment">21,960</SimpleData>
+		<SimpleData name="grades_deg">Certificates, Bachelor's, Master's &amp; Doctorates</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-76.616388155,39.394852411</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#EDUC_HigherEducationPublicFourYear_MHEC">
+		<SimpleData name="OBJECTID">6</SimpleData>
+		<SimpleData name="sitename">University of Baltimore</SimpleData>
+		<SimpleData name="sitedesc">A public undergraduate, graduate and professional university located in the heart of the state's largest city. UB's schools and colleges provide real-world education in business, law, public affairs and the applied arts and sciences.</SimpleData>
+		<SimpleData name="streetaddr">1420 North Charles Street</SimpleData>
+		<SimpleData name="building_s"></SimpleData>
+		<SimpleData name="city">Baltimore</SimpleData>
+		<SimpleData name="county">Baltimore City</SimpleData>
+		<SimpleData name="state">MD</SimpleData>
+		<SimpleData name="zip">21201</SimpleData>
+		<SimpleData name="phonenumbe">410-837-4200</SimpleData>
+		<SimpleData name="tollfree_n">--</SimpleData>
+		<SimpleData name="website">http://www.ubalt.edu</SimpleData>
+		<SimpleData name="latitude">39.305858</SimpleData>
+		<SimpleData name="longitude">-76.616591</SimpleData>
+		<SimpleData name="enrollment">6,558</SimpleData>
+		<SimpleData name="grades_deg">Certificates, Bachelor's &amp; Master's</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-76.616591226,39.3058587560001</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#EDUC_HigherEducationPublicFourYear_MHEC">
+		<SimpleData name="OBJECTID">7</SimpleData>
+		<SimpleData name="sitename">University of Maryland, Baltimore</SimpleData>
+		<SimpleData name="sitedesc">Maryland's only public health, law and human services university. Seven professional and graduate schools train the majority of the state's physicians, nurses, dentists, lawyers, social workers and pharmacists.</SimpleData>
+		<SimpleData name="streetaddr">620 West Lexington Street</SimpleData>
+		<SimpleData name="building_s"></SimpleData>
+		<SimpleData name="city">Baltimore</SimpleData>
+		<SimpleData name="county">Baltimore City</SimpleData>
+		<SimpleData name="state">MD</SimpleData>
+		<SimpleData name="zip">21201</SimpleData>
+		<SimpleData name="phonenumbe">410-706-3100</SimpleData>
+		<SimpleData name="tollfree_n">--</SimpleData>
+		<SimpleData name="website">http://www.umaryland.edu</SimpleData>
+		<SimpleData name="latitude">39.291695</SimpleData>
+		<SimpleData name="longitude">-76.625031</SimpleData>
+		<SimpleData name="enrollment">6,368</SimpleData>
+		<SimpleData name="grades_deg">Bachelor's, Master's &amp; Doctorates</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-76.625031312,39.291695825</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#EDUC_HigherEducationPublicFourYear_MHEC">
+		<SimpleData name="OBJECTID">8</SimpleData>
+		<SimpleData name="sitename">University of Maryland, Baltimore County</SimpleData>
+		<SimpleData name="sitedesc">Established as part of the University System of Maryland in 1966. A honors university specializing in science, engineering, information technology, human services and public policy to benefit the citizens of Maryland.</SimpleData>
+		<SimpleData name="streetaddr">1000 Hilltop Circle</SimpleData>
+		<SimpleData name="building_s"></SimpleData>
+		<SimpleData name="city">Baltimore</SimpleData>
+		<SimpleData name="county">Baltimore</SimpleData>
+		<SimpleData name="state">MD</SimpleData>
+		<SimpleData name="zip">21250</SimpleData>
+		<SimpleData name="phonenumbe">410-455-1000</SimpleData>
+		<SimpleData name="tollfree_n">--</SimpleData>
+		<SimpleData name="website">http://www.umbc.edu</SimpleData>
+		<SimpleData name="latitude">39.253028</SimpleData>
+		<SimpleData name="longitude">-76.713549</SimpleData>
+		<SimpleData name="enrollment">13,637</SimpleData>
+		<SimpleData name="grades_deg">Certificates, Bachelor's, Master's &amp; Doctorates</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-76.713549477,39.2530286690001</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#EDUC_HigherEducationPublicFourYear_MHEC">
+		<SimpleData name="OBJECTID">9</SimpleData>
+		<SimpleData name="sitename">University of Maryland, College Park</SimpleData>
+		<SimpleData name="sitedesc">As the state's flagship campus of the University System of Maryland, UMCP educates students from Maryland and beyond. Ranked 13th among all public U.S. universities and 38th worldwide in a recent international survey.</SimpleData>
+		<SimpleData name="streetaddr">University of Maryland</SimpleData>
+		<SimpleData name="building_s"></SimpleData>
+		<SimpleData name="city">College Park</SimpleData>
+		<SimpleData name="county">Prince George's</SimpleData>
+		<SimpleData name="state">MD</SimpleData>
+		<SimpleData name="zip">20742</SimpleData>
+		<SimpleData name="phonenumbe">301-405-1000</SimpleData>
+		<SimpleData name="tollfree_n">--</SimpleData>
+		<SimpleData name="website">http://www.maryland.edu/</SimpleData>
+		<SimpleData name="latitude">38.986014</SimpleData>
+		<SimpleData name="longitude">-76.945023</SimpleData>
+		<SimpleData name="enrollment">37,248</SimpleData>
+		<SimpleData name="grades_deg">Certificates, Bachelor's, Master's &amp; Doctorates</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-76.9450237189999,38.98601488</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#EDUC_HigherEducationPublicFourYear_MHEC">
+		<SimpleData name="OBJECTID">10</SimpleData>
+		<SimpleData name="sitename">University of Maryland Eastern Shore</SimpleData>
+		<SimpleData name="sitedesc">Located on 776 acres in Princess Anne, MD. This university is a member of the University System of Maryland. Offering bachelor's, master's and doctoral degrees in 38 disciplines in the arts and sciences, professional studies and agricultural sciences.</SimpleData>
+		<SimpleData name="streetaddr">30665 Student Services Center</SimpleData>
+		<SimpleData name="building_s"></SimpleData>
+		<SimpleData name="city">Princess Anne</SimpleData>
+		<SimpleData name="county">Somerset</SimpleData>
+		<SimpleData name="state">MD</SimpleData>
+		<SimpleData name="zip">21853</SimpleData>
+		<SimpleData name="phonenumbe">410-651-7747</SimpleData>
+		<SimpleData name="tollfree_n">--</SimpleData>
+		<SimpleData name="website">http://www.umes.edu</SimpleData>
+		<SimpleData name="latitude">38.207360</SimpleData>
+		<SimpleData name="longitude">-75.686898</SimpleData>
+		<SimpleData name="enrollment">4,454</SimpleData>
+		<SimpleData name="grades_deg">Bachelor's, Master's &amp; Doctorates</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-75.688294587,38.2115854940001</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#EDUC_HigherEducationPublicFourYear_MHEC">
+		<SimpleData name="OBJECTID">11</SimpleData>
+		<SimpleData name="sitename">University of Maryland University College</SimpleData>
+		<SimpleData name="sitedesc">Serving more than 95,000 students worldwide. Offering 100 academic programs in instructor-led and online classes, including bachelor's, master's and doctoral degrees, as well as, undergraduate and graduate certificates.</SimpleData>
+		<SimpleData name="streetaddr">3501 University Boulevard East</SimpleData>
+		<SimpleData name="building_s"></SimpleData>
+		<SimpleData name="city">Adelphi</SimpleData>
+		<SimpleData name="county">Prince George's</SimpleData>
+		<SimpleData name="state">MD</SimpleData>
+		<SimpleData name="zip">20783</SimpleData>
+		<SimpleData name="phonenumbe">800-888-UMUC (8682)</SimpleData>
+		<SimpleData name="tollfree_n">--</SimpleData>
+		<SimpleData name="website">http://www.umuc.edu</SimpleData>
+		<SimpleData name="latitude">38.986069</SimpleData>
+		<SimpleData name="longitude">-76.953905</SimpleData>
+		<SimpleData name="enrollment">--</SimpleData>
+		<SimpleData name="grades_deg">Certificates, Associate's, Bachelor's, Master's &amp; Doctorates</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-76.9539058459999,38.986069582</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#EDUC_HigherEducationPublicFourYear_MHEC">
+		<SimpleData name="OBJECTID">12</SimpleData>
+		<SimpleData name="sitename">Morgan State University</SimpleData>
+		<SimpleData name="sitedesc">An important part of the higher education system in Baltimore City for over 140 years. Its designation as Maryland's Public Urban University assures that Morgan will continue to play a prominent role in the future of education in Maryland.</SimpleData>
+		<SimpleData name="streetaddr">1700 East Cold Spring Lane</SimpleData>
+		<SimpleData name="building_s"></SimpleData>
+		<SimpleData name="city">Baltimore</SimpleData>
+		<SimpleData name="county">Baltimore City</SimpleData>
+		<SimpleData name="state">MD</SimpleData>
+		<SimpleData name="zip">21251</SimpleData>
+		<SimpleData name="phonenumbe">443-885-3333</SimpleData>
+		<SimpleData name="tollfree_n">--</SimpleData>
+		<SimpleData name="website">http://www.morgan.edu</SimpleData>
+		<SimpleData name="latitude">39.339212</SimpleData>
+		<SimpleData name="longitude">-76.581519</SimpleData>
+		<SimpleData name="enrollment">7,952</SimpleData>
+		<SimpleData name="grades_deg">Bachelor's, Master's &amp; Doctorates</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-76.581519027,39.3392123690001</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#EDUC_HigherEducationPublicFourYear_MHEC">
+		<SimpleData name="OBJECTID">13</SimpleData>
+		<SimpleData name="sitename">St. Mary's College of Maryland</SimpleData>
+		<SimpleData name="sitedesc">A public, secular liberal arts college, established in 1840. A member of the Council of Public Liberal Arts Colleges and designated as a Public Honors College (the only one in the state of MD and one of few around the U.S.).</SimpleData>
+		<SimpleData name="streetaddr">47645 College Drive</SimpleData>
+		<SimpleData name="building_s"></SimpleData>
+		<SimpleData name="city">St. Mary's City</SimpleData>
+		<SimpleData name="county">St. Mary's</SimpleData>
+		<SimpleData name="state">MD</SimpleData>
+		<SimpleData name="zip">20686</SimpleData>
+		<SimpleData name="phonenumbe">240-895-2000</SimpleData>
+		<SimpleData name="tollfree_n">--</SimpleData>
+		<SimpleData name="website">http://www.smcm.edu</SimpleData>
+		<SimpleData name="latitude">38.190922</SimpleData>
+		<SimpleData name="longitude">-76.429065</SimpleData>
+		<SimpleData name="enrollment">1,933</SimpleData>
+		<SimpleData name="grades_deg">Bachelor's &amp; Master's</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-76.429065684,38.190922625</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#EDUC_HigherEducationPublicFourYear_MHEC">
+		<SimpleData name="OBJECTID">14</SimpleData>
+		<SimpleData name="sitename">United States Naval Academy</SimpleData>
+		<SimpleData name="sitedesc">Founded in 1845, USNA provides midshipmen with up-to-date academic and professional training that they need to be effective naval officers in their assignments after graduation.</SimpleData>
+		<SimpleData name="streetaddr">121 Blake Road</SimpleData>
+		<SimpleData name="building_s"></SimpleData>
+		<SimpleData name="city">Annapolis</SimpleData>
+		<SimpleData name="county">Anne Arundel</SimpleData>
+		<SimpleData name="state">MD</SimpleData>
+		<SimpleData name="zip">21402</SimpleData>
+		<SimpleData name="phonenumbe">410-293-1000</SimpleData>
+		<SimpleData name="tollfree_n">--</SimpleData>
+		<SimpleData name="website">http://www.usna.edu</SimpleData>
+		<SimpleData name="latitude">38.981700</SimpleData>
+		<SimpleData name="longitude">-76.486290</SimpleData>
+		<SimpleData name="enrollment">N/A</SimpleData>
+		<SimpleData name="grades_deg">Bachelor's</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-76.4862903869999,38.981700453</coordinates></Point>
+  </Placemark>
+</Folder>
+</Document></kml>

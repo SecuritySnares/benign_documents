@@ -1,0 +1,263 @@
+{\rtf1\ansi\deff3\adeflang1025
+{\fonttbl{\f0\froman\fprq2\fcharset0 Times New Roman;}{\f1\froman\fprq2\fcharset2 Symbol;}{\f2\fswiss\fprq2\fcharset0 Arial;}{\f3\froman\fprq2\fcharset0 Liberation Serif{\*\falt Times New Roman};}{\f4\froman\fprq2\fcharset0 Helvetica{\*\falt Arial};}{\f5\fswiss\fprq2\fcharset0 Liberation Sans{\*\falt Arial};}{\f6\fnil\fprq2\fcharset0 Microsoft YaHei;}{\f7\fnil\fprq2\fcharset0 Lucida Sans;}{\f8\fswiss\fprq0\fcharset128 Lucida Sans;}}
+{\colortbl;\red0\green0\blue0;\red0\green0\blue255;\red0\green255\blue255;\red0\green255\blue0;\red255\green0\blue255;\red255\green0\blue0;\red255\green255\blue0;\red255\green255\blue255;\red0\green0\blue128;\red0\green128\blue128;\red0\green128\blue0;\red128\green0\blue128;\red128\green0\blue0;\red128\green128\blue0;\red128\green128\blue128;\red192\green192\blue192;}
+{\stylesheet{\s0\snext0\hich\af3\dbch\af9\langfe2052\dbch\af7\afs24\alang1081\nowidctlpar\hyphpar0\ltrpar\cf0\loch\f3\fs24\lang16393\kerning1 Normal;}
+{\s15\sbasedon0\snext16\dbch\af6\dbch\af7\afs28\sb240\sa120\keepn\loch\f5\fs28 Heading;}
+{\s16\sbasedon0\snext16\sl276\slmult1\sb0\sa140 Text Body;}
+{\s17\sbasedon16\snext17\dbch\af8\sl276\slmult1\sb0\sa140 List;}
+{\s18\sbasedon0\snext18\dbch\af8\afs24\ai\sb120\sa120\noline\fs24\i Caption;}
+{\s19\sbasedon0\snext19\dbch\af8\noline Index;}
+}{\*\generator LibreOffice/6.3.2.2$Windows_X86_64 LibreOffice_project/98b30e735bda24bc04ab42594c85f7fd8be07b9c}{\info{\creatim\yr0\mo0\dy0\hr0\min0}{\revtim\yr2020\mo7\dy21\hr9\min8}{\printim\yr0\mo0\dy0\hr0\min0}}{\*\userprops}\deftab720
+\viewscale95
+{\*\pgdsctbl
+{\pgdsc0\pgdscuse451\pgwsxn11906\pghsxn16838\marglsxn1440\margrsxn1440\margtsxn1440\margbsxn1440\pgdscnxt0 Default Style;}}
+\formshade{\*\pgdscno0}\paperh16838\paperw11906\margl1440\margr1440\margt1440\margb1440\sectd\sbknone\sectunlocked1\pgndec\pgwsxn11906\pghsxn16838\marglsxn1440\margrsxn1440\margtsxn1440\margbsxn1440\ftnbj\ftnstart1\ftnrstcont\ftnnar\aenddoc\aftnrstcont\aftnstart1\aftnnrlc
+{\*\ftnsep\chftnsep}\pgndec\pard\plain \s0\hich\af3\dbch\af9\langfe2052\dbch\af7\afs24\alang1081\nowidctlpar\hyphpar0\ltrpar\cf0\loch\f3\fs24\lang16393\kerning1\ql\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\ltrpar{\rtlch\hich\af4 \ltrch\cf0\fs24\loch\f4\loch
+#Input vectors to Principle Component Analysis}
+\par \pard\plain \s0\hich\af3\dbch\af9\langfe2052\dbch\af7\afs24\alang1081\nowidctlpar\hyphpar0\ltrpar\cf0\loch\f3\fs24\lang16393\kerning1\ql\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\ltrpar\rtlch\hich\af4 \ltrch\cf0\fs24\loch\f4\loch
+
+\par \pard\plain \s0\hich\af3\dbch\af9\langfe2052\dbch\af7\afs24\alang1081\nowidctlpar\hyphpar0\ltrpar\cf0\loch\f3\fs24\lang16393\kerning1\ql\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\ltrpar{\rtlch\hich\af4 \ltrch\cf0\fs24\loch\f4\loch
+#Demographical}
+\par \pard\plain \s0\hich\af3\dbch\af9\langfe2052\dbch\af7\afs24\alang1081\nowidctlpar\hyphpar0\ltrpar\cf0\loch\f3\fs24\lang16393\kerning1\ql\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\ltrpar{\rtlch\hich\af4 \ltrch\cf0\fs24\loch\f4\loch
+Age (Yrs)}
+\par \pard\plain \s0\hich\af3\dbch\af9\langfe2052\dbch\af7\afs24\alang1081\nowidctlpar\hyphpar0\ltrpar\cf0\loch\f3\fs24\lang16393\kerning1\ql\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\ltrpar{\rtlch\hich\af4 \ltrch\cf0\fs24\loch\f4\loch
+Gender (Male | Female)}
+\par \pard\plain \s0\hich\af3\dbch\af9\langfe2052\dbch\af7\afs24\alang1081\nowidctlpar\hyphpar0\ltrpar\cf0\loch\f3\fs24\lang16393\kerning1\ql\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\ltrpar{\rtlch\hich\af4 \ltrch\cf0\fs24\loch\f4\loch
+Age of onset (Yrs)}
+\par \pard\plain \s0\hich\af3\dbch\af9\langfe2052\dbch\af7\afs24\alang1081\nowidctlpar\hyphpar0\ltrpar\cf0\loch\f3\fs24\lang16393\kerning1\ql\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\ltrpar{\rtlch\hich\af4 \ltrch\cf0\fs24\loch\f4\loch
+Duration of symptoms (Yrs)}
+\par \pard\plain \s0\hich\af3\dbch\af9\langfe2052\dbch\af7\afs24\alang1081\nowidctlpar\hyphpar0\ltrpar\cf0\loch\f3\fs24\lang16393\kerning1\ql\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\ltrpar\rtlch\hich\af4 \ltrch\cf0\fs24\loch\f4\loch
+
+\par \pard\plain \s0\hich\af3\dbch\af9\langfe2052\dbch\af7\afs24\alang1081\nowidctlpar\hyphpar0\ltrpar\cf0\loch\f3\fs24\lang16393\kerning1\ql\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\ltrpar{\rtlch\hich\af4 \ltrch\cf0\fs24\loch\f4\loch
+#Stool frequency measures}
+\par \pard\plain \s0\hich\af3\dbch\af9\langfe2052\dbch\af7\afs24\alang1081\nowidctlpar\hyphpar0\ltrpar\cf0\loch\f3\fs24\lang16393\kerning1\ql\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\ltrpar{\rtlch\hich\af4 \ltrch\cf0\fs24\loch\f4\loch
+Stool frequency (without laxative) *}
+\par \pard\plain \s0\hich\af3\dbch\af9\langfe2052\dbch\af7\afs24\alang1081\nowidctlpar\hyphpar0\ltrpar\cf0\loch\f3\fs24\lang16393\kerning1\ql\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\ltrpar{\rtlch\hich\af4 \ltrch\cf0\fs24\loch\f4\loch
+Stool frequency (with laxative) *}
+\par \pard\plain \s0\hich\af3\dbch\af9\langfe2052\dbch\af7\afs24\alang1081\nowidctlpar\hyphpar0\ltrpar\cf0\loch\f3\fs24\lang16393\kerning1\ql\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\ltrpar{\rtlch\hich\af4 \ltrch\cf0\fs24\loch\f4\loch
+Frequency of laxative use \u8224\'86}
+\par \pard\plain \s0\hich\af3\dbch\af9\langfe2052\dbch\af7\afs24\alang1081\nowidctlpar\hyphpar0\ltrpar\cf0\loch\f3\fs24\lang16393\kerning1\ql\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\ltrpar{\rtlch\hich\af4 \ltrch\cf0\fs24\loch\f4\loch
+Time on toilet per defecatory attempt \u8225\'87}
+\par \pard\plain \s0\hich\af3\dbch\af9\langfe2052\dbch\af7\afs24\alang1081\nowidctlpar\hyphpar0\ltrpar\cf0\loch\f3\fs24\lang16393\kerning1\ql\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\ltrpar{\rtlch\hich\af4 \ltrch\cf0\fs24\loch\f4\loch
+Frequency of straining \u8224\'86}
+\par \pard\plain \s0\hich\af3\dbch\af9\langfe2052\dbch\af7\afs24\alang1081\nowidctlpar\hyphpar0\ltrpar\cf0\loch\f3\fs24\lang16393\kerning1\ql\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\ltrpar{\rtlch\hich\af4 \ltrch\cf0\fs24\loch\f4\loch
+[PAC-sym 11] Severity of straining \u182\'b6}
+\par \pard\plain \s0\hich\af3\dbch\af9\langfe2052\dbch\af7\afs24\alang1081\nowidctlpar\hyphpar0\ltrpar\cf0\loch\f3\fs24\lang16393\kerning1\ql\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\ltrpar{\rtlch\hich\af4 \ltrch\cf0\fs24\loch\f4\loch
+Requirement to digitate \u8224\'86}
+\par \pard\plain \s0\hich\af3\dbch\af9\langfe2052\dbch\af7\afs24\alang1081\nowidctlpar\hyphpar0\ltrpar\cf0\loch\f3\fs24\lang16393\kerning1\ql\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\ltrpar{\rtlch\hich\af4 \ltrch\cf0\fs24\loch\f4\loch
+Patient reported treatment effect of laxatives ||}
+\par \pard\plain \s0\hich\af3\dbch\af9\langfe2052\dbch\af7\afs24\alang1081\nowidctlpar\hyphpar0\ltrpar\cf0\loch\f3\fs24\lang16393\kerning1\ql\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\ltrpar{\rtlch\hich\af4 \ltrch\cf0\fs24\loch\f4\loch
+[PAC-sym 9] Severity of stools being too hard \u182\'b6}
+\par \pard\plain \s0\hich\af3\dbch\af9\langfe2052\dbch\af7\afs24\alang1081\nowidctlpar\hyphpar0\ltrpar\cf0\loch\f3\fs24\lang16393\kerning1\ql\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\ltrpar{\rtlch\hich\af4 \ltrch\cf0\fs24\loch\f4\loch
+[PAC-sym 10] Severity of stools being too small \u182\'b6}
+\par \pard\plain \s0\hich\af3\dbch\af9\langfe2052\dbch\af7\afs24\alang1081\nowidctlpar\hyphpar0\ltrpar\cf0\loch\f3\fs24\lang16393\kerning1\ql\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\ltrpar\rtlch\hich\af4 \ltrch\cf0\fs24\loch\f4\loch
+
+\par \pard\plain \s0\hich\af3\dbch\af9\langfe2052\dbch\af7\afs24\alang1081\nowidctlpar\hyphpar0\ltrpar\cf0\loch\f3\fs24\lang16393\kerning1\ql\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\ltrpar{\rtlch\hich\af4 \ltrch\cf0\fs24\loch\f4\loch
+#Pain directed measures}
+\par \pard\plain \s0\hich\af3\dbch\af9\langfe2052\dbch\af7\afs24\alang1081\nowidctlpar\hyphpar0\ltrpar\cf0\loch\f3\fs24\lang16393\kerning1\ql\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\ltrpar{\rtlch\hich\af4 \ltrch\cf0\fs24\loch\f4\loch
+Binary pain on defecation (Yes | No)}
+\par \pard\plain \s0\hich\af3\dbch\af9\langfe2052\dbch\af7\afs24\alang1081\nowidctlpar\hyphpar0\ltrpar\cf0\loch\f3\fs24\lang16393\kerning1\ql\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\ltrpar{\rtlch\hich\af4 \ltrch\cf0\fs24\loch\f4\loch
+Frequency of pain on defecation \u8224\'86}
+\par \pard\plain \s0\hich\af3\dbch\af9\langfe2052\dbch\af7\afs24\alang1081\nowidctlpar\hyphpar0\ltrpar\cf0\loch\f3\fs24\lang16393\kerning1\ql\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\ltrpar{\rtlch\hich\af4 \ltrch\cf0\fs24\loch\f4\loch
+[PAC-sym 5] Severity of pain on defecation \u182\'b6}
+\par \pard\plain \s0\hich\af3\dbch\af9\langfe2052\dbch\af7\afs24\alang1081\nowidctlpar\hyphpar0\ltrpar\cf0\loch\f3\fs24\lang16393\kerning1\ql\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\ltrpar{\rtlch\hich\af4 \ltrch\cf0\fs24\loch\f4\loch
+Frequency of abdominal pain \u167\'a7}
+\par \pard\plain \s0\hich\af3\dbch\af9\langfe2052\dbch\af7\afs24\alang1081\nowidctlpar\hyphpar0\ltrpar\cf0\loch\f3\fs24\lang16393\kerning1\ql\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\ltrpar{\rtlch\hich\af4 \ltrch\cf0\fs24\loch\f4\loch
+Severity of abdominal pain (/10)}
+\par \pard\plain \s0\hich\af3\dbch\af9\langfe2052\dbch\af7\afs24\alang1081\nowidctlpar\hyphpar0\ltrpar\cf0\loch\f3\fs24\lang16393\kerning1\ql\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\ltrpar{\rtlch\hich\af4 \ltrch\cf0\fs24\loch\f4\loch
+Pain related to frequency of bowel movement (Yes | No)}
+\par \pard\plain \s0\hich\af3\dbch\af9\langfe2052\dbch\af7\afs24\alang1081\nowidctlpar\hyphpar0\ltrpar\cf0\loch\f3\fs24\lang16393\kerning1\ql\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\ltrpar{\rtlch\hich\af4 \ltrch\cf0\fs24\loch\f4\loch
+Pain related to appearance of bowel movement (Yes | No)}
+\par \pard\plain \s0\hich\af3\dbch\af9\langfe2052\dbch\af7\afs24\alang1081\nowidctlpar\hyphpar0\ltrpar\cf0\loch\f3\fs24\lang16393\kerning1\ql\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\ltrpar{\rtlch\hich\af4 \ltrch\cf0\fs24\loch\f4\loch
+[PAC-sym 1] Severity of stomach discomfort \u182\'b6}
+\par \pard\plain \s0\hich\af3\dbch\af9\langfe2052\dbch\af7\afs24\alang1081\nowidctlpar\hyphpar0\ltrpar\cf0\loch\f3\fs24\lang16393\kerning1\ql\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\ltrpar{\rtlch\hich\af4 \ltrch\cf0\fs24\loch\f4\loch
+[PAC-sym 2] Severity of stomach pain \u182\'b6}
+\par \pard\plain \s0\hich\af3\dbch\af9\langfe2052\dbch\af7\afs24\alang1081\nowidctlpar\hyphpar0\ltrpar\cf0\loch\f3\fs24\lang16393\kerning1\ql\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\ltrpar{\rtlch\hich\af4 \ltrch\cf0\fs24\loch\f4\loch
+[PAC-sym 4] Severity of stomach cramps \u182\'b6}
+\par \pard\plain \s0\hich\af3\dbch\af9\langfe2052\dbch\af7\afs24\alang1081\nowidctlpar\hyphpar0\ltrpar\cf0\loch\f3\fs24\lang16393\kerning1\ql\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\ltrpar\rtlch\hich\af4 \ltrch\cf0\fs24\loch\f4\loch
+
+\par \pard\plain \s0\hich\af3\dbch\af9\langfe2052\dbch\af7\afs24\alang1081\nowidctlpar\hyphpar0\ltrpar\cf0\loch\f3\fs24\lang16393\kerning1\ql\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\ltrpar{\rtlch\hich\af4 \ltrch\cf0\fs24\loch\f4\loch
+#GI sensory measures}
+\par \pard\plain \s0\hich\af3\dbch\af9\langfe2052\dbch\af7\afs24\alang1081\nowidctlpar\hyphpar0\ltrpar\cf0\loch\f3\fs24\lang16393\kerning1\ql\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\ltrpar{\rtlch\hich\af4 \ltrch\cf0\fs24\loch\f4\loch
+Frequency of tenesmus \u8224\'86}
+\par \pard\plain \s0\hich\af3\dbch\af9\langfe2052\dbch\af7\afs24\alang1081\nowidctlpar\hyphpar0\ltrpar\cf0\loch\f3\fs24\lang16393\kerning1\ql\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\ltrpar{\rtlch\hich\af4 \ltrch\cf0\fs24\loch\f4\loch
+[PAC-sym 8] Severity of tenesmus \u182\'b6}
+\par \pard\plain \s0\hich\af3\dbch\af9\langfe2052\dbch\af7\afs24\alang1081\nowidctlpar\hyphpar0\ltrpar\cf0\loch\f3\fs24\lang16393\kerning1\ql\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\ltrpar{\rtlch\hich\af4 \ltrch\cf0\fs24\loch\f4\loch
+Frequency of bloating \u8224\'86}
+\par \pard\plain \s0\hich\af3\dbch\af9\langfe2052\dbch\af7\afs24\alang1081\nowidctlpar\hyphpar0\ltrpar\cf0\loch\f3\fs24\lang16393\kerning1\ql\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\ltrpar{\rtlch\hich\af4 \ltrch\cf0\fs24\loch\f4\loch
+[PAC-sym 3] Severity of bloating \u182\'b6}
+\par \pard\plain \s0\hich\af3\dbch\af9\langfe2052\dbch\af7\afs24\alang1081\nowidctlpar\hyphpar0\ltrpar\cf0\loch\f3\fs24\lang16393\kerning1\ql\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\ltrpar{\rtlch\hich\af4 \ltrch\cf0\fs24\loch\f4\loch
+Frequency of nausea / vomiting \u8224\'86}
+\par \pard\plain \s0\hich\af3\dbch\af9\langfe2052\dbch\af7\afs24\alang1081\nowidctlpar\hyphpar0\ltrpar\cf0\loch\f3\fs24\lang16393\kerning1\ql\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\ltrpar{\rtlch\hich\af4 \ltrch\cf0\fs24\loch\f4\loch
+[PAC-sym 6] Severity of rectal burning during/after bowel movement \u182\'b6}
+\par \pard\plain \s0\hich\af3\dbch\af9\langfe2052\dbch\af7\afs24\alang1081\nowidctlpar\hyphpar0\ltrpar\cf0\loch\f3\fs24\lang16393\kerning1\ql\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\ltrpar{\rtlch\hich\af4 \ltrch\cf0\fs24\loch\f4\loch
+[PAC-sym 7] Severity of rectal bleeding/tearing during bowel movement \u182\'b6}
+\par \pard\plain \s0\hich\af3\dbch\af9\langfe2052\dbch\af7\afs24\alang1081\nowidctlpar\hyphpar0\ltrpar\cf0\loch\f3\fs24\lang16393\kerning1\ql\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\ltrpar{\rtlch\hich\af4 \ltrch\cf0\fs24\loch\f4\loch
+[PAC-sym 12] Severity of urge to pass stool but unable to \u182\'b6}
+\par \pard\plain \s0\hich\af3\dbch\af9\langfe2052\dbch\af7\afs24\alang1081\nowidctlpar\hyphpar0\ltrpar\cf0\loch\f3\fs24\lang16393\kerning1\ql\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\ltrpar\rtlch\hich\af4 \ltrch\cf0\fs24\loch\f4\loch
+
+\par \pard\plain \s0\hich\af3\dbch\af9\langfe2052\dbch\af7\afs24\alang1081\nowidctlpar\hyphpar0\ltrpar\cf0\loch\f3\fs24\lang16393\kerning1\ql\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\ltrpar{\rtlch\hich\af4 \ltrch\cf0\fs24\loch\f4\loch
+#Non-GI sensory measures}
+\par \pard\plain \s0\hich\af3\dbch\af9\langfe2052\dbch\af7\afs24\alang1081\nowidctlpar\hyphpar0\ltrpar\cf0\loch\f3\fs24\lang16393\kerning1\ql\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\ltrpar{\rtlch\hich\af4 \ltrch\cf0\fs24\loch\f4\loch
+Urinary frequency (Never | Sometimes | Commonly)}
+\par \pard\plain \s0\hich\af3\dbch\af9\langfe2052\dbch\af7\afs24\alang1081\nowidctlpar\hyphpar0\ltrpar\cf0\loch\f3\fs24\lang16393\kerning1\ql\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\ltrpar{\rtlch\hich\af4 \ltrch\cf0\fs24\loch\f4\loch
+Nocturia (Never | Sometimes | Commonly)}
+\par \pard\plain \s0\hich\af3\dbch\af9\langfe2052\dbch\af7\afs24\alang1081\nowidctlpar\hyphpar0\ltrpar\cf0\loch\f3\fs24\lang16393\kerning1\ql\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\ltrpar{\rtlch\hich\af4 \ltrch\cf0\fs24\loch\f4\loch
+Stress incontinence (Never | Sometimes | Commonly)}
+\par \pard\plain \s0\hich\af3\dbch\af9\langfe2052\dbch\af7\afs24\alang1081\nowidctlpar\hyphpar0\ltrpar\cf0\loch\f3\fs24\lang16393\kerning1\ql\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\ltrpar\rtlch\hich\af4 \ltrch\cf0\fs24\loch\f4\loch
+
+\par \pard\plain \s0\hich\af3\dbch\af9\langfe2052\dbch\af7\afs24\alang1081\nowidctlpar\hyphpar0\ltrpar\cf0\loch\f3\fs24\lang16393\kerning1\ql\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\ltrpar{\rtlch\hich\af4 \ltrch\cf0\fs24\loch\f4\loch
+#Composite Symptom Burden / Quality of Life Domains}
+\par \pard\plain \s0\hich\af3\dbch\af9\langfe2052\dbch\af7\afs24\alang1081\nowidctlpar\hyphpar0\ltrpar\cf0\loch\f3\fs24\lang16393\kerning1\ql\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\ltrpar{\rtlch\hich\af4 \ltrch\cf0\fs24\loch\f4\loch
+Total PAC-sym score}
+\par \pard\plain \s0\hich\af3\dbch\af9\langfe2052\dbch\af7\afs24\alang1081\nowidctlpar\hyphpar0\ltrpar\cf0\loch\f3\fs24\lang16393\kerning1\ql\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\ltrpar{\rtlch\hich\af4 \ltrch\cf0\fs24\loch\f4\loch
+Total PAC-qol score}
+\par \pard\plain \s0\hich\af3\dbch\af9\langfe2052\dbch\af7\afs24\alang1081\nowidctlpar\hyphpar0\ltrpar\cf0\loch\f3\fs24\lang16393\kerning1\ql\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\ltrpar\rtlch\hich\af4 \ltrch\cf0\fs24\loch\f4\loch
+
+\par \pard\plain \s0\hich\af3\dbch\af9\langfe2052\dbch\af7\afs24\alang1081\nowidctlpar\hyphpar0\ltrpar\cf0\loch\f3\fs24\lang16393\kerning1\ql\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\ltrpar{\rtlch\hich\af4 \ltrch\cf0\fs24\loch\f4\loch
+#Quality of life sub-domains}
+\par \pard\plain \s0\hich\af3\dbch\af9\langfe2052\dbch\af7\afs24\alang1081\nowidctlpar\hyphpar0\ltrpar\cf0\loch\f3\fs24\lang16393\kerning1\ql\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\ltrpar{\rtlch\hich\af4 \ltrch\cf0\fs24\loch\f4\loch
+[PAC-qol 1] Frequency of bloating \u8216\'91to the point of bursting\u8217\'92 \u182\'b6\u182\'b6}
+\par \pard\plain \s0\hich\af3\dbch\af9\langfe2052\dbch\af7\afs24\alang1081\nowidctlpar\hyphpar0\ltrpar\cf0\loch\f3\fs24\lang16393\kerning1\ql\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\ltrpar{\rtlch\hich\af4 \ltrch\cf0\fs24\loch\f4\loch
+[PAC-qol 2] Frequency of heaviness from constipation \u182\'b6\u182\'b6}
+\par \pard\plain \s0\hich\af3\dbch\af9\langfe2052\dbch\af7\afs24\alang1081\nowidctlpar\hyphpar0\ltrpar\cf0\loch\f3\fs24\lang16393\kerning1\ql\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\ltrpar{\rtlch\hich\af4 \ltrch\cf0\fs24\loch\f4\loch
+[PAC-qol 3] Frequency of any physical discomfort \u182\'b6\u182\'b6}
+\par \pard\plain \s0\hich\af3\dbch\af9\langfe2052\dbch\af7\afs24\alang1081\nowidctlpar\hyphpar0\ltrpar\cf0\loch\f3\fs24\lang16393\kerning1\ql\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\ltrpar{\rtlch\hich\af4 \ltrch\cf0\fs24\loch\f4\loch
+[PAC-qol 4] Frequency of need to open bowels but unable to \u182\'b6\u182\'b6}
+\par \pard\plain \s0\hich\af3\dbch\af9\langfe2052\dbch\af7\afs24\alang1081\nowidctlpar\hyphpar0\ltrpar\cf0\loch\f3\fs24\lang16393\kerning1\ql\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\ltrpar{\rtlch\hich\af4 \ltrch\cf0\fs24\loch\f4\loch
+[PAC-qol 5] Frequency of embarrassment when with others \u182\'b6\u182\'b6}
+\par \pard\plain \s0\hich\af3\dbch\af9\langfe2052\dbch\af7\afs24\alang1081\nowidctlpar\hyphpar0\ltrpar\cf0\loch\f3\fs24\lang16393\kerning1\ql\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\ltrpar{\rtlch\hich\af4 \ltrch\cf0\fs24\loch\f4\loch
+[PAC-qol 6] Frequency of decreased appetite due to bowel habit \u182\'b6\u182\'b6}
+\par \pard\plain \s0\hich\af3\dbch\af9\langfe2052\dbch\af7\afs24\alang1081\nowidctlpar\hyphpar0\ltrpar\cf0\loch\f3\fs24\lang16393\kerning1\ql\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\ltrpar{\rtlch\hich\af4 \ltrch\cf0\fs24\loch\f4\loch
+[PAC-qol 7] Frequency of needing to be careful about diet \u182\'b6\u182\'b6}
+\par \pard\plain \s0\hich\af3\dbch\af9\langfe2052\dbch\af7\afs24\alang1081\nowidctlpar\hyphpar0\ltrpar\cf0\loch\f3\fs24\lang16393\kerning1\ql\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\ltrpar{\rtlch\hich\af4 \ltrch\cf0\fs24\loch\f4\loch
+[PAC-qol 8] Frequency of decreased appetite \u182\'b6\u182\'b6}
+\par \pard\plain \s0\hich\af3\dbch\af9\langfe2052\dbch\af7\afs24\alang1081\nowidctlpar\hyphpar0\ltrpar\cf0\loch\f3\fs24\lang16393\kerning1\ql\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\ltrpar{\rtlch\hich\af4 \ltrch\cf0\fs24\loch\f4\loch
+[PAC-qol 9] Frequency of worry about not being able to choose what to eat \u182\'b6\u182\'b6}
+\par \pard\plain \s0\hich\af3\dbch\af9\langfe2052\dbch\af7\afs24\alang1081\nowidctlpar\hyphpar0\ltrpar\cf0\loch\f3\fs24\lang16393\kerning1\ql\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\ltrpar{\rtlch\hich\af4 \ltrch\cf0\fs24\loch\f4\loch
+[PAC-qol 10] Frequency of embarrassment about time on toilet \u182\'b6\u182\'b6}
+\par \pard\plain \s0\hich\af3\dbch\af9\langfe2052\dbch\af7\afs24\alang1081\nowidctlpar\hyphpar0\ltrpar\cf0\loch\f3\fs24\lang16393\kerning1\ql\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\ltrpar{\rtlch\hich\af4 \ltrch\cf0\fs24\loch\f4\loch
+[PAC-qol 11] Frequency of embarrassment about toileting frequency \u182\'b6\u182\'b6}
+\par \pard\plain \s0\hich\af3\dbch\af9\langfe2052\dbch\af7\afs24\alang1081\nowidctlpar\hyphpar0\ltrpar\cf0\loch\f3\fs24\lang16393\kerning1\ql\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\ltrpar{\rtlch\hich\af4 \ltrch\cf0\fs24\loch\f4\loch
+[PAC-qol 12] Frequency of worry about having to change routine \u182\'b6\u182\'b6}
+\par \pard\plain \s0\hich\af3\dbch\af9\langfe2052\dbch\af7\afs24\alang1081\nowidctlpar\hyphpar0\ltrpar\cf0\loch\f3\fs24\lang16393\kerning1\ql\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\ltrpar{\rtlch\hich\af4 \ltrch\cf0\fs24\loch\f4\loch
+[PAC-qol 13] Frequency of feeling irritable from condition \u182\'b6\u182\'b6}
+\par \pard\plain \s0\hich\af3\dbch\af9\langfe2052\dbch\af7\afs24\alang1081\nowidctlpar\hyphpar0\ltrpar\cf0\loch\f3\fs24\lang16393\kerning1\ql\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\ltrpar{\rtlch\hich\af4 \ltrch\cf0\fs24\loch\f4\loch
+[PAC-qol 14] Frequency of being upset by condition \u182\'b6\u182\'b6}
+\par \pard\plain \s0\hich\af3\dbch\af9\langfe2052\dbch\af7\afs24\alang1081\nowidctlpar\hyphpar0\ltrpar\cf0\loch\f3\fs24\lang16393\kerning1\ql\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\ltrpar{\rtlch\hich\af4 \ltrch\cf0\fs24\loch\f4\loch
+[PAC-qol 15] Frequency of feeling obsessed by condition \u182\'b6\u182\'b6}
+\par \pard\plain \s0\hich\af3\dbch\af9\langfe2052\dbch\af7\afs24\alang1081\nowidctlpar\hyphpar0\ltrpar\cf0\loch\f3\fs24\lang16393\kerning1\ql\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\ltrpar{\rtlch\hich\af4 \ltrch\cf0\fs24\loch\f4\loch
+[PAC-qol 16] Frequency of feeling stressed by condition \u182\'b6\u182\'b6}
+\par \pard\plain \s0\hich\af3\dbch\af9\langfe2052\dbch\af7\afs24\alang1081\nowidctlpar\hyphpar0\ltrpar\cf0\loch\f3\fs24\lang16393\kerning1\ql\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\ltrpar{\rtlch\hich\af4 \ltrch\cf0\fs24\loch\f4\loch
+[PAC-qol 17] Frequency of feeling less self-confident due to condition \u182\'b6\u182\'b6}
+\par \pard\plain \s0\hich\af3\dbch\af9\langfe2052\dbch\af7\afs24\alang1081\nowidctlpar\hyphpar0\ltrpar\cf0\loch\f3\fs24\lang16393\kerning1\ql\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\ltrpar{\rtlch\hich\af4 \ltrch\cf0\fs24\loch\f4\loch
+[PAC-qol 18] Frequency of feeling in control of situation \u182\'b6\u182\'b6}
+\par \pard\plain \s0\hich\af3\dbch\af9\langfe2052\dbch\af7\afs24\alang1081\nowidctlpar\hyphpar0\ltrpar\cf0\loch\f3\fs24\lang16393\kerning1\ql\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\ltrpar{\rtlch\hich\af4 \ltrch\cf0\fs24\loch\f4\loch
+[PAC-qol 19] Frequency of worry about not knowing when able to open bowels \u182\'b6\u182\'b6}
+\par \pard\plain \s0\hich\af3\dbch\af9\langfe2052\dbch\af7\afs24\alang1081\nowidctlpar\hyphpar0\ltrpar\cf0\loch\f3\fs24\lang16393\kerning1\ql\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\ltrpar{\rtlch\hich\af4 \ltrch\cf0\fs24\loch\f4\loch
+[PAC-qol 20] Frequency of worry about not being able to open bowels when needed \u182\'b6\u182\'b6}
+\par \pard\plain \s0\hich\af3\dbch\af9\langfe2052\dbch\af7\afs24\alang1081\nowidctlpar\hyphpar0\ltrpar\cf0\loch\f3\fs24\lang16393\kerning1\ql\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\ltrpar{\rtlch\hich\af4 \ltrch\cf0\fs24\loch\f4\loch
+[PAC-qol 21] Frequency of being more bothered about not being able to open bowels \u182\'b6\u182\'b6}
+\par \pard\plain \s0\hich\af3\dbch\af9\langfe2052\dbch\af7\afs24\alang1081\nowidctlpar\hyphpar0\ltrpar\cf0\loch\f3\fs24\lang16393\kerning1\ql\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\ltrpar{\rtlch\hich\af4 \ltrch\cf0\fs24\loch\f4\loch
+[PAC-qol 22] Frequency of fear that condition will worsen \u182\'b6\u182\'b6}
+\par \pard\plain \s0\hich\af3\dbch\af9\langfe2052\dbch\af7\afs24\alang1081\nowidctlpar\hyphpar0\ltrpar\cf0\loch\f3\fs24\lang16393\kerning1\ql\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\ltrpar{\rtlch\hich\af4 \ltrch\cf0\fs24\loch\f4\loch
+[PAC-qol 23] Frequency of feeling body not working properly \u182\'b6\u182\'b6}
+\par \pard\plain \s0\hich\af3\dbch\af9\langfe2052\dbch\af7\afs24\alang1081\nowidctlpar\hyphpar0\ltrpar\cf0\loch\f3\fs24\lang16393\kerning1\ql\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\ltrpar{\rtlch\hich\af4 \ltrch\cf0\fs24\loch\f4\loch
+[PAC-qol 24] Frequency of having fewer bowel movements than would like \u182\'b6\u182\'b6}
+\par \pard\plain \s0\hich\af3\dbch\af9\langfe2052\dbch\af7\afs24\alang1081\nowidctlpar\hyphpar0\ltrpar\cf0\loch\f3\fs24\lang16393\kerning1\ql\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\ltrpar{\rtlch\hich\af4 \ltrch\cf0\fs24\loch\f4\loch
+[PAC-qol 25] Frequency of satisfaction to stool frequency \u182\'b6\u182\'b6}
+\par \pard\plain \s0\hich\af3\dbch\af9\langfe2052\dbch\af7\afs24\alang1081\nowidctlpar\hyphpar0\ltrpar\cf0\loch\f3\fs24\lang16393\kerning1\ql\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\ltrpar{\rtlch\hich\af4 \ltrch\cf0\fs24\loch\f4\loch
+[PAC-qol 26] Frequency of satisfaction to bowel habit regularity \u182\'b6\u182\'b6}
+\par \pard\plain \s0\hich\af3\dbch\af9\langfe2052\dbch\af7\afs24\alang1081\nowidctlpar\hyphpar0\ltrpar\cf0\loch\f3\fs24\lang16393\kerning1\ql\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\ltrpar{\rtlch\hich\af4 \ltrch\cf0\fs24\loch\f4\loch
+[PAC-qol 27] Frequency of satisfaction with bowel function \u182\'b6\u182\'b6}
+\par \pard\plain \s0\hich\af3\dbch\af9\langfe2052\dbch\af7\afs24\alang1081\nowidctlpar\hyphpar0\ltrpar\cf0\loch\f3\fs24\lang16393\kerning1\ql\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\ltrpar{\rtlch\hich\af4 \ltrch\cf0\fs24\loch\f4\loch
+[PAC-qol 28] Frequency of satisfaction with treatment \u182\'b6\u182\'b6}
+\par \pard\plain \s0\hich\af3\dbch\af9\langfe2052\dbch\af7\afs24\alang1081\nowidctlpar\hyphpar0\ltrpar\cf0\loch\f3\fs24\lang16393\kerning1\ql\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\ltrpar\rtlch\hich\af4 \ltrch\cf0\fs24\loch\f4\loch
+
+\par \pard\plain \s0\hich\af3\dbch\af9\langfe2052\dbch\af7\afs24\alang1081\nowidctlpar\hyphpar0\ltrpar\cf0\loch\f3\fs24\lang16393\kerning1\ql\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\ltrpar{\rtlch\hich\af4 \ltrch\cf0\fs24\loch\f4\loch
+#PR Examination findings}
+\par \pard\plain \s0\hich\af3\dbch\af9\langfe2052\dbch\af7\afs24\alang1081\nowidctlpar\hyphpar0\ltrpar\cf0\loch\f3\fs24\lang16393\kerning1\ql\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\ltrpar{\rtlch\hich\af4 \ltrch\cf0\fs24\loch\f4\loch
+Sensation (Normal | Reduced)}
+\par \pard\plain \s0\hich\af3\dbch\af9\langfe2052\dbch\af7\afs24\alang1081\nowidctlpar\hyphpar0\ltrpar\cf0\loch\f3\fs24\lang16393\kerning1\ql\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\ltrpar{\rtlch\hich\af4 \ltrch\cf0\fs24\loch\f4\loch
+Anal tone (Normal | Reduced)}
+\par \pard\plain \s0\hich\af3\dbch\af9\langfe2052\dbch\af7\afs24\alang1081\nowidctlpar\hyphpar0\ltrpar\cf0\loch\f3\fs24\lang16393\kerning1\ql\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\ltrpar{\rtlch\hich\af4 \ltrch\cf0\fs24\loch\f4\loch
+Anal coordination (Normal | Impaired | Absent)}
+\par \pard\plain \s0\hich\af3\dbch\af9\langfe2052\dbch\af7\afs24\alang1081\nowidctlpar\hyphpar0\ltrpar\cf0\loch\f3\fs24\lang16393\kerning1\ql\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\ltrpar{\rtlch\hich\af4 \ltrch\cf0\fs24\loch\f4\loch
+Rectocoele (Absent | Small | Large)}
+\par \pard\plain \s0\hich\af3\dbch\af9\langfe2052\dbch\af7\afs24\alang1081\nowidctlpar\hyphpar0\ltrpar\cf0\loch\f3\fs24\lang16393\kerning1\ql\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\ltrpar{\rtlch\hich\af4 \ltrch\cf0\fs24\loch\f4\loch
+Rectal loading (Empty | Soft | Hard)}
+\par \pard\plain \s0\hich\af3\dbch\af9\langfe2052\dbch\af7\afs24\alang1081\nowidctlpar\hyphpar0\ltrpar\cf0\loch\f3\fs24\lang16393\kerning1\ql\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\ltrpar\rtlch\hich\af4 \ltrch\cf0\fs24\loch\f4\loch
+
+\par \pard\plain \s0\hich\af3\dbch\af9\langfe2052\dbch\af7\afs24\alang1081\nowidctlpar\hyphpar0\ltrpar\cf0\loch\f3\fs24\lang16393\kerning1\ql\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\ltrpar{\rtlch\hich\af4 \ltrch\cf0\fs24\loch\f4\loch
+#Investigatory Measures}
+\par \pard\plain \s0\hich\af3\dbch\af9\langfe2052\dbch\af7\afs24\alang1081\nowidctlpar\hyphpar0\ltrpar\cf0\loch\f3\fs24\lang16393\kerning1\ql\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\ltrpar{\rtlch\hich\af4 \ltrch\cf0\fs24\loch\f4\loch
+Transit study (Total count)}
+\par \pard\plain \s0\hich\af3\dbch\af9\langfe2052\dbch\af7\afs24\alang1081\nowidctlpar\hyphpar0\ltrpar\cf0\loch\f3\fs24\lang16393\kerning1\ql\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\ltrpar{\rtlch\hich\af4 \ltrch\cf0\fs24\loch\f4\loch
+Transit study (Left count)}
+\par \pard\plain \s0\hich\af3\dbch\af9\langfe2052\dbch\af7\afs24\alang1081\nowidctlpar\hyphpar0\ltrpar\cf0\loch\f3\fs24\lang16393\kerning1\ql\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\ltrpar{\rtlch\hich\af4 \ltrch\cf0\fs24\loch\f4\loch
+Transit study (Right count)}
+\par \pard\plain \s0\hich\af3\dbch\af9\langfe2052\dbch\af7\afs24\alang1081\nowidctlpar\hyphpar0\ltrpar\cf0\loch\f3\fs24\lang16393\kerning1\ql\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\ltrpar{\rtlch\hich\af4 \ltrch\cf0\fs24\loch\f4\loch
+Transit study (Rectosigmoid count)}
+\par \pard\plain \s0\hich\af3\dbch\af9\langfe2052\dbch\af7\afs24\alang1081\nowidctlpar\hyphpar0\ltrpar\cf0\loch\f3\fs24\lang16393\kerning1\ql\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\ltrpar\rtlch\hich\af4 \ltrch\cf0\fs24\loch\f4\loch
+
+\par \pard\plain \s0\hich\af3\dbch\af9\langfe2052\dbch\af7\afs24\alang1081\nowidctlpar\hyphpar0\ltrpar\cf0\loch\f3\fs24\lang16393\kerning1\ql\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\ltrpar{\rtlch\hich\af4 \ltrch\cf0\fs24\loch\f4\loch
+# *Groupings: Everyday | Every 2-3 days | Every 3-4 days | Every 5-6 days | Every 7-14 days | Every > 14 days}
+\par \pard\plain \s0\hich\af3\dbch\af9\langfe2052\dbch\af7\afs24\alang1081\nowidctlpar\hyphpar0\ltrpar\cf0\loch\f3\fs24\lang16393\kerning1\ql\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\ltrpar{\rtlch\hich\af4 \ltrch\cf0\fs24\loch\f4\loch
+# \u8224\'86Groupings: Never | Rarely | Sometimes | Usually | Always}
+\par \pard\plain \s0\hich\af3\dbch\af9\langfe2052\dbch\af7\afs24\alang1081\nowidctlpar\hyphpar0\ltrpar\cf0\loch\f3\fs24\lang16393\kerning1\ql\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\ltrpar{\rtlch\hich\af4 \ltrch\cf0\fs24\loch\f4\loch
+# \u8225\'87Groupings: <5 mins | 5-10 mins | 10-20 mins | 20-30 mins | >30 mins}
+\par \pard\plain \s0\hich\af3\dbch\af9\langfe2052\dbch\af7\afs24\alang1081\nowidctlpar\hyphpar0\ltrpar\cf0\loch\f3\fs24\lang16393\kerning1\ql\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\ltrpar{\rtlch\hich\af4 \ltrch\cf0\fs24\loch\f4\loch
+# \u167\'a7Groupings: Never | 1-2 times per month | 3 times per month | Once per week | Several times per week | Everyday}
+\par \pard\plain \s0\hich\af3\dbch\af9\langfe2052\dbch\af7\afs24\alang1081\nowidctlpar\hyphpar0\ltrpar\cf0\loch\f3\fs24\lang16393\kerning1\ql\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\ltrpar{\rtlch\hich\af4 \ltrch\cf0\fs24\loch\f4\loch
+# \u182\'b6Groupings: Absent | Mild | Moderate | Severe | Very Severe}
+\par \pard\plain \s0\hich\af3\dbch\af9\langfe2052\dbch\af7\afs24\alang1081\nowidctlpar\hyphpar0\ltrpar\cf0\loch\f3\fs24\lang16393\kerning1\ql\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\ltrpar{\rtlch\hich\af4 \ltrch\cf0\fs24\loch\f4\loch
+# \u182\'b6\u182\'b6Groupings: Not at all | A little bit | Moderately | Quite a bit | Extremely}
+\par \pard\plain \s0\hich\af3\dbch\af9\langfe2052\dbch\af7\afs24\alang1081\nowidctlpar\hyphpar0\ltrpar\cf0\loch\f3\fs24\lang16393\kerning1\ql\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\ltrpar{\rtlch\hich\af4 \ltrch\cf0\fs24\loch\f4\loch
+# ||Groupings: Much better | A little better | No effect | Worse | Much worse}
+\par \pard\plain \s0\hich\af3\dbch\af9\langfe2052\dbch\af7\afs24\alang1081\nowidctlpar\hyphpar0\ltrpar\cf0\loch\f3\fs24\lang16393\kerning1\ql\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\ltrpar\loch
+
+\par \pard\plain \s0\hich\af3\dbch\af9\langfe2052\dbch\af7\afs24\alang1081\nowidctlpar\hyphpar0\ltrpar\cf0\loch\f3\fs24\lang16393\kerning1\ql\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\ltrpar\loch
+
+\par \pard\plain \s0\hich\af3\dbch\af9\langfe2052\dbch\af7\afs24\alang1081\nowidctlpar\hyphpar0\ltrpar\cf0\loch\f3\fs24\lang16393\kerning1\ql\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\ltrpar{\rtlch\hich\af4 \ltrch\cf0\fs24\loch\f4\loch
+PC2: Viscerosensory | Raw components (in order of loading importance)}
+\par \pard\plain \s0\hich\af3\dbch\af9\langfe2052\dbch\af7\afs24\alang1081\nowidctlpar\hyphpar0\ltrpar\cf0\loch\f3\fs24\lang16393\kerning1\ql\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\ltrpar{\rtlch\hich\af4 \ltrch\cf0\fs24\loch\f4\loch
+Pacsym2 - stomach pain}
+\par \pard\plain \s0\hich\af3\dbch\af9\langfe2052\dbch\af7\afs24\alang1081\nowidctlpar\hyphpar0\ltrpar\cf0\loch\f3\fs24\lang16393\kerning1\ql\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\ltrpar{\rtlch\hich\af4 \ltrch\cf0\fs24\loch\f4\loch
+Pacsym1 - stomach discomfort }
+\par \pard\plain \s0\hich\af3\dbch\af9\langfe2052\dbch\af7\afs24\alang1081\nowidctlpar\hyphpar0\ltrpar\cf0\loch\f3\fs24\lang16393\kerning1\ql\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\ltrpar{\rtlch\hich\af4 \ltrch\cf0\fs24\loch\f4\loch
+Pacsym4 - stomach cramps}
+\par \pard\plain \s0\hich\af3\dbch\af9\langfe2052\dbch\af7\afs24\alang1081\nowidctlpar\hyphpar0\ltrpar\cf0\loch\f3\fs24\lang16393\kerning1\ql\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\ltrpar{\rtlch\hich\af4 \ltrch\cf0\fs24\loch\f4\loch
+Abdominal pain severity /10}
+\par \pard\plain \s0\hich\af3\dbch\af9\langfe2052\dbch\af7\afs24\alang1081\nowidctlpar\hyphpar0\ltrpar\cf0\loch\f3\fs24\lang16393\kerning1\ql\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\ltrpar{\rtlch\hich\af4 \ltrch\cf0\fs24\loch\f4\loch
+Frequency of abdominal pain}
+\par \pard\plain \s0\hich\af3\dbch\af9\langfe2052\dbch\af7\afs24\alang1081\nowidctlpar\hyphpar0\ltrpar\cf0\loch\f3\fs24\lang16393\kerning1\ql\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\ltrpar{\rtlch\hich\af4 \ltrch\cf0\fs24\loch\f4\loch
+Presence of abdominal pain within the last 6 months}
+\par \pard\plain \s0\hich\af3\dbch\af9\langfe2052\dbch\af7\afs24\alang1081\nowidctlpar\hyphpar0\ltrpar\cf0\loch\f3\fs24\lang16393\kerning1\ql\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\ltrpar{\rtlch\hich\af4 \ltrch\cf0\fs24\loch\f4\loch
+Pacqol3 - physical discomfort}
+\par \pard\plain \s0\hich\af3\dbch\af9\langfe2052\dbch\af7\afs24\alang1081\nowidctlpar\hyphpar0\ltrpar\cf0\loch\f3\fs24\lang16393\kerning1\ql\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\ltrpar{\rtlch\hich\af4 \ltrch\cf0\fs24\loch\f4\loch
+Pacsym3 - stomach bloating}
+\par \pard\plain \s0\hich\af3\dbch\af9\langfe2052\dbch\af7\afs24\alang1081\nowidctlpar\hyphpar0\ltrpar\cf0\loch\f3\fs24\lang16393\kerning1\ql\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\ltrpar{\rtlch\hich\af4 \ltrch\cf0\fs24\loch\f4\loch
+Pacqol1- sensation of bloating to the point of bursting}
+\par \pard\plain \s0\hich\af3\dbch\af9\langfe2052\dbch\af7\afs24\alang1081\nowidctlpar\hyphpar0\ltrpar\cf0\loch\f3\fs24\lang16393\kerning1\ql\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\ltrpar{\rtlch\hich\af4 \ltrch\cf0\fs24\loch\f4\loch
+Frequency of nausea and vomiting}
+\par \pard\plain \s0\hich\af3\dbch\af9\langfe2052\dbch\af7\afs24\alang1081\nowidctlpar\hyphpar0\ltrpar\cf0\loch\f3\fs24\lang16393\kerning1\ql\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\ltrpar{\rtlch\hich\af4 \ltrch\cf0\fs24\loch\f4\loch
+Frequency of abdominal bloating}
+\par \pard\plain \s0\hich\af3\dbch\af9\langfe2052\dbch\af7\afs24\alang1081\nowidctlpar\hyphpar0\ltrpar\cf0\loch\f3\fs24\lang16393\kerning1\ql\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\ltrpar{\rtlch\hich\af4 \ltrch\cf0\fs24\loch\f4\loch
+Pacqol8 - decreased appetite}
+\par \pard\plain \s0\hich\af3\dbch\af9\langfe2052\dbch\af7\afs24\alang1081\nowidctlpar\hyphpar0\ltrpar\cf0\loch\f3\fs24\lang16393\kerning1\ql\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\ltrpar\loch
+
+\par \pard\plain \s0\hich\af3\dbch\af9\langfe2052\dbch\af7\afs24\alang1081\nowidctlpar\hyphpar0\ltrpar\cf0\loch\f3\fs24\lang16393\kerning1\ql\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\ltrpar\loch
+
+\par \pard\plain \s0\hich\af3\dbch\af9\langfe2052\dbch\af7\afs24\alang1081\nowidctlpar\hyphpar0\ltrpar\cf0\loch\f3\fs24\lang16393\kerning1\ql\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\ltrpar{\rtlch\hich\af4 \ltrch\cf0\fs24\loch\f4\loch
+PC6: Abdominal Pain | Raw components (in order of loading importance)}
+\par \pard\plain \s0\hich\af3\dbch\af9\langfe2052\dbch\af7\afs24\alang1081\nowidctlpar\hyphpar0\ltrpar\cf0\loch\f3\fs24\lang16393\kerning1\ql\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\ltrpar{\rtlch\hich\af4 \ltrch\cf0\fs24\loch\f4\loch
+Abdominal pain related to the frequency of bowel movements}
+\par \pard\plain \s0\hich\af3\dbch\af9\langfe2052\dbch\af7\afs24\alang1081\nowidctlpar\hyphpar0\ltrpar\cf0\loch\f3\fs24\lang16393\kerning1\ql\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\ltrpar{\rtlch\hich\af4 \ltrch\cf0\fs24\loch\f4\loch
+Abdominal pain related to appearance of bowel movement}
+\par \pard\plain \s0\hich\af3\dbch\af9\langfe2052\dbch\af7\afs24\alang1081\nowidctlpar\hyphpar0\ltrpar\cf0\loch\f3\fs24\lang16393\kerning1\ql\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\ltrpar{\rtlch\hich\af4 \ltrch\cf0\fs24\loch\f4\loch
+Abdominal pain related to defecation}
+\par \pard\plain \s0\hich\af3\dbch\af9\langfe2052\dbch\af7\afs24\alang1081\nowidctlpar\hyphpar0\ltrpar\cf0\loch\f3\fs24\lang16393\kerning1\ql\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\ltrpar{\rtlch\hich\af4 \ltrch\cf0\fs24\loch\f4\loch
+Abdominal pain within the last 6 month}
+\par \pard\plain \s0\hich\af3\dbch\af9\langfe2052\dbch\af7\afs24\alang1081\nowidctlpar\hyphpar0\ltrpar\cf0\loch\f3\fs24\lang16393\kerning1\ql\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\ltrpar{\rtlch\hich\af4 \ltrch\cf0\fs24\loch\f4\loch
+Abdominal pain frequency}
+\par }

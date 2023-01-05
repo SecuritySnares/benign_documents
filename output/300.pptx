@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>Paper Download</title>
+
+	
+	<link rel="stylesheet" href="https://conference.pkp.sfu.ca/lib/pkp/styles/common.css" type="text/css" />
+	<link rel="stylesheet" href="https://conference.pkp.sfu.ca/styles/common.css" type="text/css" />
+	<link rel="stylesheet" href="https://conference.pkp.sfu.ca/styles/paperView.css" type="text/css" />
+
+			<link rel="stylesheet" href="https://conference.pkp.sfu.ca/public/site/sitestyle.css" type="text/css" />
+			<link rel="stylesheet" href="https://conference.pkp.sfu.ca/lib/pkp/styles/jqueryUi.css" type="text/css" />
+			<link rel="stylesheet" href="https://conference.pkp.sfu.ca/lib/pkp/styles/jquery.pnotify.default.css" type="text/css" />
+			<link rel="stylesheet" href="https://conference.pkp.sfu.ca/lib/pkp/styles/themes/default/pnotify.css" type="text/css" />
+	
+	<script type="text/javascript" src="https://conference.pkp.sfu.ca/lib/pkp/js/general.js"></script>
+	<meta http-equiv="refresh" content="2;URL=https://conference.pkp.sfu.ca/index.php/pkp2013/pkp2013/paper/download/354/300"/>
+	
+</head>
+<body>
+
+<div id="container">
+<div id="body">
+<div id="main">
+<div id="content">
+		<h3>Paper Download</h3>
+
+<p>The file you selected should begin downloading automatically. If it does not, click the link below. Note that this file may require a special viewer or plugin to view.<br /><br />If the file does not download automatically, <a href="https://conference.pkp.sfu.ca/index.php/pkp2013/pkp2013/paper/download/354/300">click here</a>.</p>
+
+<!-- Google Analytics -->
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-33430329-2");
+pageTracker._initData();
+pageTracker._trackPageview();
+</script>
+<!-- /Google Analytics -->
+
+</div>
+</div>
+</div>
+</div>
+</body>
+</html>

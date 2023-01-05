@@ -1,0 +1,4289 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+ <Style id="KIGicon">
+  <IconStyle>
+   <Icon>
+    <href>https://kigcentral.keystoneinsgrp.com/images/AgencyMap/KIG-Pin.png</href>
+   </Icon>
+  </IconStyle>
+ </Style>
+  <Placemark>
+    <description><![CDATA[<B>Wilson, Timmons & Wallerstein Inc.</B><BR>2570-A Gaskins Road<BR>Richmond, VA<BR>Phone: 804-346-3100<BR>www.wtwinsurance.com]]></description>
+    <Point>
+      <coordinates>-77.579284,37.630864,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Crissman, Mendenhall Steelman, LLC</B><BR>825 North Bridge Street<BR>Elkin, NC<BR>Phone: 336-835-4288<BR>www.cms-insurance.com]]></description>
+    <Point>
+      <coordinates>-80.848296,36.257502,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Farley Insurance Services, Inc.</B><BR>139 E Main StreetPO Box 790<BR>Robbinsville, NC<BR>Phone: 828-479-6448<BR>www.farleyagency.com]]></description>
+    <Point>
+      <coordinates>-83.804956,35.322439,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Fortner Insurance Agency, Inc.</B><BR>TD Bank Building600 West Bypass, Suite 201<BR>Burnsville, NC<BR>Phone: 828-682-2147<BR>]]></description>
+    <Point>
+      <coordinates>-82.300961,35.917336,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Fortner Insurance Agency, Inc.</B><BR>156 Main Street EastPO Box 808<BR>Banner Elk, NC<BR>Phone: 828-898-6366<BR>]]></description>
+    <Point>
+      <coordinates>-81.870518,36.163681,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Fortner Insurance Agency, Inc.</B><BR>205 Linville StreetPO Box 189<BR>Newland, NC<BR>Phone: 828-733-2061<BR>www.fortnerinsurance.com]]></description>
+    <Point>
+      <coordinates>-81.927457,36.084974,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Insurance Consultants of Pinehurst, Inc.</B><BR>303 Monroe StreetPO Box 425<BR>Carthage, NC<BR>Phone: 910-947-2957<BR>www.pinehurstinsurance.com]]></description>
+    <Point>
+      <coordinates>-79.414286,35.344304,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Main Street Financial Group, Inc. D.B.A. Main Street Insurance Group</B><BR>22-A N. Trade Street<BR>Tryon, NC<BR>Phone: 828-859-9252<BR>www.mainstreetfinancialgroup.com]]></description>
+    <Point>
+      <coordinates>-82.238449,35.20884,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>McDowell Insurance Agency</B><BR>246 South Main Street<BR>Marion, NC<BR>Phone: 828-652-6212<BR>www.morrowinsurance.com]]></description>
+    <Point>
+      <coordinates>-82.007331,35.680953,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>G.W. Mountcastle Agency, Inc.</B><BR>138 S. Cherry StreetSuite 300<BR>Winston Salem, NC<BR>Phone: 336-245-2529<BR>www.mountcastleinsurance.com]]></description>
+    <Point>
+      <coordinates>-80.246547,36.092873,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Wayah Insurance Group, Inc.</B><BR>472 Carolina WayPO Box 607<BR>Highlands, NC<BR>Phone: 828-526-3713<BR>www.wayah.com]]></description>
+    <Point>
+      <coordinates>-83.195169,35.0538,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>John F. Graff Insurance Agency</B><BR>213 Market Street<BR>Kittanning, PA<BR>Phone: 724-543-2204<BR>www.graffinsurance.com]]></description>
+    <Point>
+      <coordinates>-79.520776,40.815203,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>CA Jones Insurance</B><BR>20 S. Front Street<BR>Philipsburg, PA<BR>Phone: 814-342-1880<BR>www.centralinsgrp.com]]></description>
+    <Point>
+      <coordinates>-78.222268,40.895579,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>HC Kerstetter</B><BR>21 Monument Square<BR>Lewistown, PA<BR>Phone: 717-248-6789<BR>www.centralinsgrp.com]]></description>
+    <Point>
+      <coordinates>-77.574869,40.597282,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Landy & Kilmer Insurance, Inc.</B><BR>120 West Packer Avenue<BR>Sayre, PA<BR>Phone: 570-888-8250<BR>www.thekilmergroup.com]]></description>
+    <Point>
+      <coordinates>-76.516222,41.980678,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Lehman Insurance Agency, Inc.</B><BR>650 East Main Street<BR>New Holland, PA<BR>Phone: 610-286-0956<BR>www.lehmanins.com]]></description>
+    <Point>
+      <coordinates>-75.90263,40.152123,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>The Metz Agency</B><BR>4005 East Main Street<BR>Belleville, PA<BR>Phone: 717-935-2153<BR>www.centralinsgrp.com]]></description>
+    <Point>
+      <coordinates>-77.721047,40.6068,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Wharton Agency, The</B><BR>13 S. Jefferson Street<BR>Mt. Union, PA<BR>Phone: 814-542-4372<BR>www.centralinsgrp.com]]></description>
+    <Point>
+      <coordinates>-77.884131,40.385613,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Willow Insurance Agency</B><BR>795 Fellsburg Road<BR>Belle Vernon, PA<BR>Phone: 724-379-6002<BR>]]></description>
+    <Point>
+      <coordinates>-79.824295,40.183849,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Snipes Insurance Service, Inc.</B><BR>617 Oberlin Road<BR>Raleigh, NC<BR>Phone: 919-571-4335<BR>www.snipesinsurance.com]]></description>
+    <Point>
+      <coordinates>-78.663261,35.792854,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Richard S. Miller & Sons, Inc. D.B.A. Miller Insurance Group</B><BR>116 N. Main StreetPO Box 150<BR>Culver, IN<BR>Phone: 574-842-4400<BR>]]></description>
+    <Point>
+      <coordinates>-86.423698,41.216829,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Jack H. Port Agency</B><BR>319 8th Street<BR>Huntingdon, PA<BR>Phone: 814-643-6310<BR>www.centralinsgrp.com]]></description>
+    <Point>
+      <coordinates>-78.016009,40.487151,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Jack H. Port Agency</B><BR>105 W. Shirley Street<BR>Mt. Union, PA<BR>Phone: 814-542-2514<BR>www.centralinsgrp.com]]></description>
+    <Point>
+      <coordinates>-77.88495,40.385136,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Reef-Michael-Eikenberry, Inc. D.B.A. RME Insurance, Inc.</B><BR>2812 Main Street<BR>Lafayette, IN<BR>Phone: 765-742-5411<BR>www.rmeinsurance.com]]></description>
+    <Point>
+      <coordinates>-86.886742,40.420679,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>South Boston Insurance Agency, Inc.</B><BR>549 N. Main StreetPO Box 563<BR>South Boston, VA<BR>Phone: 434 572 4989<BR>]]></description>
+    <Point>
+      <coordinates>-78.900416,36.699499,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Morgan Group, Inc. D.B.A. Morgan Insurance Group</B><BR>1464 S. State Road 135<BR>Greenwood, IN<BR>Phone: 317-889-1000<BR>www.mcins.com]]></description>
+    <Point>
+      <coordinates>-86.433199,39.415433,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Oakley Flory Insurance Agency D.B.A. Roselius Insurance Agency</B><BR>209 East Main Street<BR>Eaton, OH<BR>Phone: 937-456-3773<BR>www.roseliusinsurance.com]]></description>
+    <Point>
+      <coordinates>-84.634193,39.743528,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Schultheis Insurance Group</B><BR>100 North Weinbach Ave.<BR>Evansville, IN<BR>Phone: 812 479 8651<BR>www.schultheis-ins.com]]></description>
+    <Point>
+      <coordinates>-87.529664,37.978837,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Schultheis Insurance Group</B><BR>1688 Stonegate DriveSuite 22<BR>Greenwood, IN<BR>Phone: 317-885-4841<BR>www.schultheis-ins.com]]></description>
+    <Point>
+      <coordinates>-86.157935,39.631741,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Schultheis Insurance Group</B><BR>220 East Fourth Street<BR>Mount Vernon, IN<BR>Phone: 812-479-8651<BR>www.schultheis-ins.com]]></description>
+    <Point>
+      <coordinates>-87.893544,37.932388,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Montgomery Insurance and Investments Agency, Inc.</B><BR>1 West Washington Street<BR>Jamestown, OH<BR>Phone: 937-675-9321<BR>www.montgomeryii.com]]></description>
+    <Point>
+      <coordinates>-83.735037,39.658359,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Independent Insurance Center</B><BR>1825 Plaza Drive<BR>Winchester, VA<BR>Phone: 540-722-7228<BR>www.iicfiremark.com]]></description>
+    <Point>
+      <coordinates>-78.174829,39.166728,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Herndon-Reston Insurance Agency, Inc D.B.A. Downs and Associates, Inc.</B><BR>718 Pine Street<BR>Herndon, VA<BR>Phone: 703-435-3500<BR>www.hriassociates.com]]></description>
+    <Point>
+      <coordinates>-77.384811,38.971226,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Riverland Insurers -Mechanicsville</B><BR>6372 Mechanicsville TurnpikeSuite 102<BR>Mechanicsville, VA<BR>Phone: 804-723-4952<BR>www.riverlandinsurers.com]]></description>
+    <Point>
+      <coordinates>-77.323788,37.616286,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>CM Moore Insurance Agency, Inc.</B><BR>1009 State Street<BR>Bowling Green, KY<BR>Phone: 270-843-0106<BR>www.cmmoore.com]]></description>
+    <Point>
+      <coordinates>-86.442144,36.991871,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>CM Moore Insurance Agency, Inc.</B><BR>417 N. Main Street<BR>Franklin, KY<BR>Phone: 270-586-4757<BR>www.cmmoore.com]]></description>
+    <Point>
+      <coordinates>-86.577885,36.727147,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>C.M. Moore Insurance Agency, Inc.</B><BR>932 Happy Valley Road<BR>Glasgow, KY<BR>Phone: 270-651-1044<BR>www.cmmoore.com]]></description>
+    <Point>
+      <coordinates>-85.924494,37.01127,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Limestone Agency, LLC</B><BR>500 Main Street<BR>Paris, KY<BR>Phone: 859-987-1667<BR>www.limestoneagency.com]]></description>
+    <Point>
+      <coordinates>-84.250532,38.211545,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Rowland Insurance Agency, Inc.</B><BR>201 East Main Street<BR>Glasgow, KY<BR>Phone: 270-629-5010<BR>www.rowland.webagent4u.com]]></description>
+    <Point>
+      <coordinates>-85.910722,36.995444,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Rudd Insurance, Inc.</B><BR>411 N. Main StreetPO Box 609<BR>Madisonville, KY<BR>Phone: 270-821-3366<BR>www.ruddinsurance.com]]></description>
+    <Point>
+      <coordinates>-87.497857,37.334412,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Jacobs Vanaman Agency, Inc.- Alliance Office</B><BR>614 West State Street<BR>Alliance, OH<BR>Phone: 330-821-2122<BR>www.jacobsvanaman.com]]></description>
+    <Point>
+      <coordinates>-81.113541,40.901504,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Jacobs Vanaman Agency, Inc.- Dresden Office</B><BR>815 Main Street<BR>Dresden, OH<BR>Phone: 740-754-2471<BR>www.jacobsvanaman.com]]></description>
+    <Point>
+      <coordinates>-82.011134,40.1209,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>London Insurance Agency</B><BR>309 N. Broad Street<BR>London, KY<BR>Phone: 606-864-5152<BR>www.londoninsuranceagency.com]]></description>
+    <Point>
+      <coordinates>-84.085389,37.129453,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Mountain Valley Insurance</B><BR>400 S. Main Street<BR>London, KY<BR>Phone: 606-878-0100<BR>www.mtnvalleyins.com]]></description>
+    <Point>
+      <coordinates>-84.077629,37.122029,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Mountain Valley Insurance</B><BR>3620 Walden Dr.,Suite 100Suite B-215<BR>Lexington, KY<BR>Phone: 859-223-3800<BR>www.mtnvalleyins.com]]></description>
+    <Point>
+      <coordinates>-84.54591,38.021067,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Mountain Valley Insurance</B><BR>86 Hwy 638<BR>Manchester, KY<BR>Phone: 606-598-5980<BR>www.mtnvalleyins.com]]></description>
+    <Point>
+      <coordinates>-83.720013,37.113666,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Hummel Insurance Inc.</B><BR>142 Walnut Street<BR>Lawrenceburg, IN<BR>Phone: 812-537-1785<BR>]]></description>
+    <Point>
+      <coordinates>-84.847982,39.092931,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Hummel Insurance Group, LLC</B><BR>110 East US 50 P.O. Box 746<BR>Versailles, IN<BR>Phone: (812) 689-4840<BR>www.hummelinsurancegroup.com]]></description>
+    <Point>
+      <coordinates>-85.253861,39.069704,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Hummel Vevay Insurance Inc. D.B.A. Cole Bakes Insurance</B><BR>415 Ferry Street<BR>Vevay, IN<BR>Phone: 812-427-3511<BR>www.hummelinsurance-milan.com]]></description>
+    <Point>
+      <coordinates>-85.068838,38.749093,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Greene Insurance Agency, Inc.</B><BR>300 Statesville Blvd<BR>Salisbury, NC<BR>Phone: 704-636-2923<BR>www.fishergreene.com]]></description>
+    <Point>
+      <coordinates>-80.486273,35.687623,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Miller Insurance, Inc. D.B.A. Frances Roberts Agency</B><BR>3914 Miami RoadSuite 302<BR>Mariemont, OH<BR>Phone: 877-494-5221<BR>www.millerinsinc.com]]></description>
+    <Point>
+      <coordinates>-84.373656,39.145727,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Miller Insurance, Inc.</B><BR>7100 Muirfield DriveSuite 100<BR>Dublin, OH<BR>Phone: <BR>www.millerinsinc.com]]></description>
+    <Point>
+      <coordinates>-83.15377,40.112487,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Anderson Insurance Group, Inc. D.B.A. Specialty Insurance Agency</B><BR>P.O. Box 116<BR>Slippery Rock, PA<BR>Phone: 724-794-5081<BR>www.specialtyinsuranceagency.net]]></description>
+    <Point>
+      <coordinates>-80.056447,41.063951,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Teeter Insurance Agency, Inc. D.B.A. Teeter Group</B><BR>3375 Lynnwood Drive<BR>Altoona, PA<BR>Phone: 814-793-2161<BR>www.teetergroup.com]]></description>
+    <Point>
+      <coordinates>-78.32515,40.311378,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Bennett & Edwards</B><BR>255 Broad StreetSte 302<BR>Kingsport, TN<BR>Phone: 423-245-3101<BR>www.herinsgrp.com]]></description>
+    <Point>
+      <coordinates>-82.559923,36.547239,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Swallows Insurance Agency</B><BR>1120 W. Main Street<BR>Livingston, TN<BR>Phone: 931-823-5641<BR>www.swallowsinsurance.com]]></description>
+    <Point>
+      <coordinates>-85.239645,36.444574,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Swallows Insurance Agency</B><BR>308 West Broad Street<BR>Smithville, TN<BR>Phone: 615-215-4455<BR>www.swallowsinsurance.com]]></description>
+    <Point>
+      <coordinates>-85.813902,35.960614,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Linville Insurance Agency, Inc.</B><BR>1060 Center Drive<BR>Richmond, KY<BR>Phone: 859-626-5252<BR>www.linvilleinsurance.com]]></description>
+    <Point>
+      <coordinates>-84.32024,37.77699,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Brown & Hammack Insurance</B><BR>9061 State Route 132W<BR>Clay, KY<BR>Phone: 270-664-2240<BR>www.ruddinsurance.com]]></description>
+    <Point>
+      <coordinates>-87.8236,37.474343,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Kunkle Insurance Group, Inc.</B><BR>3217 East Market Street<BR>York, PA<BR>Phone: 717-854-0300<BR>www.kigyork.com]]></description>
+    <Point>
+      <coordinates>-76.661726,39.978816,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Dumbaugh Insurance Agency, Inc.</B><BR>13 E. Winter Street<BR>Delaware, OH<BR>Phone: 740-369-0123<BR>www.dumbaughinsurance.com]]></description>
+    <Point>
+      <coordinates>-83.066879,40.300361,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Dumbaugh Insurance Agency, Inc.</B><BR>66 North Chestnut Street<BR>Fredericktown, OH<BR>Phone: 740-694-1234<BR>www.dumbaughinsurance.com]]></description>
+    <Point>
+      <coordinates>-82.544153,40.482776,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Coverage, Inc.</B><BR>2046 Nickerson Blvd.<BR>Hampton, VA<BR>Phone: 757-850-4000<BR>www.coverageinc.com]]></description>
+    <Point>
+      <coordinates>-76.309903,37.048718,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Wyatt Insurance Services, Inc.</B><BR>25 Jefferson StreetSuite 200- D<BR>Clarksville, TN<BR>Phone: 931-802-6048<BR>www.wyattinsurance.com]]></description>
+    <Point>
+      <coordinates>-87.362687,36.531514,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>G. Hummel, Inc. D.B.A. Siekman Stearns Gregory</B><BR>7134 State Road 56 N<BR>Aurora, IN<BR>Phone: 812-438-2630<BR>]]></description>
+    <Point>
+      <coordinates>-84.852508,38.948712,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Watkins Insurance Agency, Inc.</B><BR>312 South Chestnut Street<BR>Henderson, NC<BR>Phone: 434-447-3544<BR>www.watkinsinsurance.com]]></description>
+    <Point>
+      <coordinates>-78.296925,36.533944,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Joe M. Welborn, Inc D.B.A. Ash/Welborn Insurance</B><BR>73 First Street<BR>Hoschton, GA<BR>Phone: (706)510-0221<BR>www.ashwelborninsurance.com]]></description>
+    <Point>
+      <coordinates>-83.565009,34.080846,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Zorn Insurance Agency, Inc</B><BR>1422 Green Road Suite L<BR>Chatsworth, GA<BR>Phone: 706-695-4689<BR>www.zorninsight.com]]></description>
+    <Point>
+      <coordinates>-84.756898,34.824088,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Dinnin & Parkins Associates D.B.A. Newton Lehman Agency</B><BR>3808 McKnight East Drive<BR>Pittsburgh, PA<BR>Phone: 412-364-4000<BR>www.dpainsurance.com]]></description>
+    <Point>
+      <coordinates>-80.006178,40.537885,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Hummel and Leibel Insurance Agency Inc.</B><BR>505 E. Main Street<BR>Warsaw, KY<BR>Phone: 859-567-4141<BR>www.hummelinsurancewarsaw.com]]></description>
+    <Point>
+      <coordinates>-84.894857,38.786369,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Westan Insurance Group, Inc. - Martin</B><BR>298 Broadway Street<BR>Martin, TN<BR>Phone: 731-587-9993<BR>www.westan.net]]></description>
+    <Point>
+      <coordinates>-88.850338,36.343397,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Consolidated Insurance Services</B><BR>64 Commerce Street<BR>Paris, TN<BR>Phone: 731-642-5281<BR>www.westan.net]]></description>
+    <Point>
+      <coordinates>-88.311859,36.302153,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Westan Insurance Group, Inc. - Bradford</B><BR>149 East Main Street<BR>Bradford, TN<BR>Phone: 731-742-3581<BR>www.westan.net]]></description>
+    <Point>
+      <coordinates>-88.811241,36.076245,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Carroll Insurance Agency</B><BR>49 Broadway Street<BR>McKenzie, TN<BR>Phone: 731-352-5307<BR>www.westan.net]]></description>
+    <Point>
+      <coordinates>-88.518443,36.131849,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Dresden Insurance Agency</B><BR>123 North Popular Street<BR>Dresden, TN<BR>Phone: 731-364-3117<BR>www.westan.net]]></description>
+    <Point>
+      <coordinates>-88.708112,36.291451,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Holloman Insurance Agency</B><BR>111 East College Street<BR>Kenton, TN<BR>Phone: 731-749-5636<BR>www.westan.net]]></description>
+    <Point>
+      <coordinates>-89.011877,36.202796,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Jack & Jack Insurance Agency D.B.A. Barger Insurance Agency, Inc.</B><BR>2395 N Main St<BR>Jamestown, KY<BR>Phone: 270-343-5363<BR>www.bargerins.com]]></description>
+    <Point>
+      <coordinates>-85.072546,36.999503,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Education Risk Solutions, LLC</B><BR>1007 State Street<BR>Bowling Green, KY<BR>Phone: 270-843-9054<BR>www.cmmoore.com]]></description>
+    <Point>
+      <coordinates>-86.442081,36.991913,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Lake Barkley Insurance</B><BR>67 Main Street<BR>Cadiz, KY<BR>Phone: 270-522-9964<BR>www.lakebarkleyins.com/]]></description>
+    <Point>
+      <coordinates>-87.838276,36.861163,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>LB Benefits, Inc. D.B.A. Lohman Companies</B><BR>935 S.Oakwood Ave<BR>Geneseo, IL<BR>Phone: 309-944-3227<BR>www.lohman-companies.com]]></description>
+    <Point>
+      <coordinates>-90.154015,41.441841,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Deibler Straub & Troutman t/a Pfeiffer-Naginey Insurance</B><BR>205 Front StPO Box 72<BR>Northumberland, PA<BR>Phone: 570-473-3563<BR>www.p-ninsurance.com]]></description>
+    <Point>
+      <coordinates>-76.79551,40.888531,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Williamsburg Insurance Coverage Insurance Agency, LLC dba</B><BR>211 Bulifants Blvd, Suite C<BR>Williamsburg, VA<BR>Phone: 757-253-0240<BR>www.coverageinc.com]]></description>
+    <Point>
+      <coordinates>-76.739087,37.262281,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Hamler-Gingrich Insurance Agency- Tipp City</B><BR>115 S Tippecanoe DriveSuite C<BR>Tipp City, OH<BR>Phone: 937-667-2454<BR>www.hgiai.com]]></description>
+    <Point>
+      <coordinates>-84.185025,39.957826,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Lehman Insurance Agency, Inc.</B><BR>968 East Main St<BR>Mount Joy, PA<BR>Phone: 717-653-2990<BR>www.lehmanins.com]]></description>
+    <Point>
+      <coordinates>-76.479508,40.109807,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>SB&T Insurance</B><BR>199 N Renfro St<BR>Mt Airy, NC<BR>Phone: 336-783-3939<BR>www.sbandtinsurance.com]]></description>
+    <Point>
+      <coordinates>-80.606339,36.501610,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>InSouth Insurance Services, LLC</B><BR>PO Box 769<BR>Mooresville, NC<BR>Phone: 704-663-6444<BR>]]></description>
+    <Point>
+      <coordinates>-80.849763,35.548106,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Lester Insurance Group, Inc</B><BR>1037 South Main Street<BR>Burlington, NC<BR>Phone: 336-227-4271<BR>www.kigcentral.keystoneinsgrp.com/cgi-bin/Company]]></description>
+    <Point>
+      <coordinates>-79.445975,36.088426,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Joseph M.Wiedemann and Sons, Inc.</B><BR>303 East Main Street<BR>St. Charles, IL<BR>Phone: (630) 377-0500<BR>www.jmwsons.com]]></description>
+    <Point>
+      <coordinates>-88.310171,41.913866,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Hummel Hatfield Agency Inc.</B><BR>3215 Dixie Highway<BR>Erlanger, KY<BR>Phone: (859) 261-0761<BR>www.hummelhatfield.com]]></description>
+    <Point>
+      <coordinates>-84.595096,39.018781,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Barker Phillips Jackson</B><BR>401 West Fifth Street<BR>Rolla, MO<BR>Phone: (573) 364-8888<BR>]]></description>
+    <Point>
+      <coordinates>-91.774098,37.9476,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Barker Phillips Jackson</B><BR>1520 Imperial Center<BR>West Plains, MO<BR>Phone: (417) 256-6162<BR>]]></description>
+    <Point>
+      <coordinates>-91.873152,36.744239,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Winter-Dent & Company</B><BR>3610 Buttonwood Suite 310<BR>Columbia, MO<BR>Phone: 573-634-2122<BR>]]></description>
+    <Point>
+      <coordinates>-92.364653,38.923959,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Custom Insurance Services, Inc.</B><BR>103 N. Mine St.<BR>Potosi, MO<BR>Phone: (636) 931-1188<BR>]]></description>
+    <Point>
+      <coordinates>-90.788454,37.936905,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Hawkins Insurance Group</B><BR>112 East Main Street<BR>Kahoka, MO<BR>Phone: (660) 727-2127<BR>]]></description>
+    <Point>
+      <coordinates>-91.719215,40.420214,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>First America Security Agency D.B.A. Hawkins Insurance Group</B><BR>119 East Walnut StreetPO Box 645<BR>Shelbina, MO<BR>Phone: (573) 588-2125<BR>]]></description>
+    <Point>
+      <coordinates>-92.040481,39.69187,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Hawkins Insurance Group</B><BR>105 North Main Street<BR>Marceline, MO<BR>Phone: (660) 376-3581<BR>]]></description>
+    <Point>
+      <coordinates>-92.951187,39.714685,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>First America Security Agency D.B.A. Hawkins Insurance Group</B><BR>514 East Briggs DriveSte. A<BR>Macon, MO<BR>Phone: (660) 385-2143<BR>]]></description>
+    <Point>
+      <coordinates>-92.465858,39.751843,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Golden Rule Insurance</B><BR>4065 Osage Beach Parkway<BR>Osage Beach, MO<BR>Phone: (573) 348-1731<BR>www.goldenruleinsurance.com]]></description>
+    <Point>
+      <coordinates>-92.608939,38.155121,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>McLain-Harrison Insurance</B><BR>627 West Ohio<BR>Butler, MO<BR>Phone: (660) 679-0071<BR>]]></description>
+    <Point>
+      <coordinates>-94.341559,38.258892,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Risk Advisors & Managers LLC D.B.A. RAM Insurance Agency</B><BR>16614 West 159th Street        Unit 303<BR>Lockport, IL<BR>Phone: (815) 893-8280<BR>]]></description>
+    <Point>
+      <coordinates>-88.021973,41.599617,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Bill Nickels Insurance, LLC</B><BR>107 E. McLean Street<BR>Manchester, TN<BR>Phone: 931-728-9623<BR>]]></description>
+    <Point>
+      <coordinates>-86.087879,35.482266,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Scott Agency, Inc.</B><BR>604 E Veterans Memorial Parkway<BR>Warrenton, MO<BR>Phone: (636) 456-8633<BR>www.scottagencyins.com/]]></description>
+    <Point>
+      <coordinates>-91.14127,38.818275,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Melahn Insurance</B><BR>101 S Washington Street<BR>Mexico, MO<BR>Phone: (573) 581-2400<BR>]]></description>
+    <Point>
+      <coordinates>-91.88376,39.172069,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Huesman Schmid D.B.A. Interstate Insurance</B><BR>1012 Harrison Ave 1<BR>Harrison, OH<BR>Phone: 513-367-0700<BR>www.huesmanschmid.com]]></description>
+    <Point>
+      <coordinates>-84.804291,39.258262,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Todd & Scarboro, Inc.</B><BR>2499 Wendell Blvd<BR>Wendell, NC<BR>Phone: 919-365-7255<BR>www.toddandscarboro.com]]></description>
+    <Point>
+      <coordinates>-78.387403,35.799508,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>CM Moore Insurance Agency, Inc.</B><BR>238 Veterans Memorial Highway<BR>Scottsville, KY<BR>Phone: 270-237-3184<BR>]]></description>
+    <Point>
+      <coordinates>-86.198859,36.751279,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Sheeley Insurance Agency</B><BR>1114 Texas Palmyra Highway Suite 6<BR>Honesdale, PA<BR>Phone: 570-253-2634<BR>]]></description>
+    <Point>
+      <coordinates>-75.255845,41.574291,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Sheeley Insurance Agency</B><BR>106 Broad Street<BR>Milford, PA<BR>Phone: 570-296-5588<BR>]]></description>
+    <Point>
+      <coordinates>-74.804562,41.32183,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Sheeley Insurance Agency</B><BR>146 Chestnut Street<BR>Dunmore, <BR>Phone: 570-342-9121<BR>]]></description>
+    <Point>
+      <coordinates>-75.630013,41.420071,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>RWR West, Inc.</B><BR>473 Main Street<BR>Longmont, CO<BR>Phone: 303-834-1001<BR>www.rwrinsurance.com]]></description>
+    <Point>
+      <coordinates>-105.102686,40.166876,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Hartland Insurance Agency, Inc.</B><BR>6155 West Pierson Road<BR>Flushing, MI<BR>Phone: (810) 720-0900<BR>]]></description>
+    <Point>
+      <coordinates>-83.798582,43.058456,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Spire America Holdings, Inc. D.B.A. Top O Michigan Insurance Solutions</B><BR>150 State St<BR>Hillman, MI<BR>Phone: (989) 742-4574<BR>www.TOMIA247.com]]></description>
+    <Point>
+      <coordinates>-83.900356,45.062479,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Spire America Holdings, Inc. D.B.A. Top O Michigan Insurance Solutions</B><BR>117 S State St<BR>Oscoda, MI<BR>Phone: (989) 739-1461<BR>www.TOMIA247.com]]></description>
+    <Point>
+      <coordinates>-83.331461,44.408521,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Spire America Holdings, Inc. D.B.A. Top O Michigan Insurance Solutions</B><BR>3183 Logan Valley Rd<BR>Traverse City, MI<BR>Phone: (231) 947-1164<BR>www.TOMIA247.com]]></description>
+    <Point>
+      <coordinates>-85.617688,44.732181,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Spire America Holdings, Inc. D.B.A. Top O Michigan Insurance Solutions</B><BR>117 W Genesee St, Ste 1<BR>Iron River, MI<BR>Phone: (906) 265-5137<BR>www.TOMIA247.com]]></description>
+    <Point>
+      <coordinates>-88.639665,46.091359,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Spire America Holdings, Inc. D.B.A. Top O Michigan Insurance Solutions</B><BR>455 Bay St, Ste C<BR>Petoskey, MI<BR>Phone: (231) 347-4610<BR>www.TOMIA247.com]]></description>
+    <Point>
+      <coordinates>-84.952841,45.376151,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Spire America Holdings, Inc. D.B.A. Top O Michigan Insurance Solutions</B><BR>440 W Main St, Ste F<BR>Gaylord, MI<BR>Phone: (989) 705-8664<BR>www.TOMIA247.com]]></description>
+    <Point>
+      <coordinates>-84.679077,45.027236,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Findley Lake Insurance Agency, A Division of Calvert Pearson Insurance Agency D.B.A. Findley Lake Insurance Agency</B><BR>10361 Main Street<BR>Findley Lake, NY<BR>Phone: 716-769-2270<BR>www.findleylakeinsuranceagency.com/]]></description>
+    <Point>
+      <coordinates>-79.732631,42.119073,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Ison Insurance Agency, Inc. D.B.A. C. Roger Lewis Agency, Inc.</B><BR>129 E. Main Street<BR>Morehead, KY<BR>Phone: 606-784-4168<BR>www.crogerlewisins.com]]></description>
+    <Point>
+      <coordinates>-83.434969,38.182621,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Anderson Insurance Group, Inc. D.B.A. Garman Murray Insurance</B><BR>525 Perry Way<BR>Zelienople, PA<BR>Phone: 724-452-4060<BR>]]></description>
+    <Point>
+      <coordinates>-80.134191,40.784983,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Griffin and Company, Inc.</B><BR>707-C East Lake Drive<BR>Decatur, GA<BR>Phone: 229-432-9892<BR>www.griffin-company.com]]></description>
+    <Point>
+      <coordinates>-84.303234,33.759082,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Hall, Hunt & Clark Insurance, LLC</B><BR>611 Hambley Blvd.<BR>Pikeville, KY<BR>Phone: 606-432-4144<BR>www.hhcins.com]]></description>
+    <Point>
+      <coordinates>-82.521915,37.484433,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Farley Insurance Services, Inc.</B><BR>264 US HWY 19<BR>Bryson City, NC<BR>Phone: 828-366-2555<BR>]]></description>
+    <Point>
+      <coordinates>-83.452126,35.424362,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Latta Insurance Services, Inc D.B.A. Field and Main Insurance</B><BR>5401 Vogel Road, Suite 840<BR>Evansville, IN<BR>Phone: 812-473-8960<BR>]]></description>
+    <Point>
+      <coordinates>-87.488516,37.978005,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Schumacher Insurance Agency, Inc.</B><BR>58 South Main StreetPO Box 359<BR>Mt. Olivet, KY<BR>Phone: 606-724-5321<BR>]]></description>
+    <Point>
+      <coordinates>-84.038167,38.531117,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Schumacher Insurance Agency, Inc.</B><BR>129 West Miami StreetPO Box 125<BR>Brooksville, KY<BR>Phone: 606-735-3555<BR>]]></description>
+    <Point>
+      <coordinates>-84.066857,38.683767,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Ickes Insurance Group, LLC</B><BR>419 Main Street<BR>Boswell, PA<BR>Phone: 814-629-5607<BR>www.ickesoffice.com]]></description>
+    <Point>
+      <coordinates>-79.028410,40.160315,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Integrity Benefits Solutions, LLC</B><BR>44 Sturges Ave<BR>Mansfield, OH<BR>Phone: 419-524-8598<BR>www.rfmeins.com]]></description>
+    <Point>
+      <coordinates>-82.523178,40.757989,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Hughes, Gregory, & Wells Insurance A Division of Watkins Insurance Agency</B><BR>120 N Main Street<BR>Chase City, VA<BR>Phone: 434-372-4879<BR>]]></description>
+    <Point>
+      <coordinates>-78.458791,36.798152,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Morgan Insurance Group</B><BR>990 W Main Street Suite 125<BR>Plainfield, IN<BR>Phone: 317-839-6548<BR>www.mcins.com]]></description>
+    <Point>
+      <coordinates>-86.416844,39.69855,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>McIntire Insurance, LLC D.B.A. Insurance Incorporated</B><BR>2551 Georgetown Road<BR>Cleveland, TN<BR>Phone: 473-472-5058<BR>www.rssins.com]]></description>
+    <Point>
+      <coordinates>-84.885986,35.190331,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Colonial Johnson LLC</B><BR>300 S Green St<BR>Wadesboro, NC<BR>Phone: 704-888-3232<BR>]]></description>
+    <Point>
+      <coordinates>-80.077507,34.963655,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Richard S. Miller & Sons, Inc. D.B.A. Countryside Insurance</B><BR>111 E. Waterford Street<BR>Wakarusa, IN<BR>Phone: 574-862-2715<BR>]]></description>
+    <Point>
+      <coordinates>-86.021614,41.535884,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>J & R Insurance Group, Inc D.B.A. Bishop and Bishop Insurance Agency</B><BR>116 South Public Square<BR>Glasgow, KY<BR>Phone: 270-651-5135<BR>]]></description>
+    <Point>
+      <coordinates>-85.913129,36.994781,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Odessa Office</B><BR>301 N 2nd Street<BR>Odessa, MO<BR>Phone: 816-633-7591<BR>]]></description>
+    <Point>
+      <coordinates>-93.953694,39.003251,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Higginsville Office</B><BR>1904 Main Street<BR>Higginsville, MO<BR>Phone: 660-584-3151<BR>]]></description>
+    <Point>
+      <coordinates>-93.717413,39.075781,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Warrensburg Office</B><BR>123 E. Gay Street<BR>Warrensburg, MO<BR>Phone: 660-747-3151<BR>]]></description>
+    <Point>
+      <coordinates>-93.739251,38.766467,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Farley Insurance Services D.B.A. Burch Insurance a division of Farley Insurance Services</B><BR>34 Waldroup Rd<BR>Hayesville, NC<BR>Phone: (828) 837-7447<BR>]]></description>
+    <Point>
+      <coordinates>-83.8249879,35.032643,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Farley Insurance Services D.B.A. Burch Insurance a division of Farley Insurance Services</B><BR>232 A Chatuge Way<BR>Hiawassee, GA<BR>Phone: 706-896-6442<BR>www.farleyagency.com]]></description>
+    <Point>
+      <coordinates>-83.752263,34.943181,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Hartland Insurance Agency</B><BR>206 E. Grand River<BR>Fowlerville, MI<BR>Phone: 810-632-5161<BR>]]></description>
+    <Point>
+      <coordinates>-84.071346,42.660373,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>DPD Holdings, LLC D.B.A. Joe Young Insurance</B><BR>3451 KY 2565<BR>Louisa, KY<BR>Phone: 606-638-9441<BR>]]></description>
+    <Point>
+      <coordinates>-82.607464,38.110773,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Walker Agency, Inc.</B><BR>120 Central Ave<BR>Montello, WI<BR>Phone: (608) 297-8422<BR>]]></description>
+    <Point>
+      <coordinates>-89.331556,43.792919,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Family Insurance Center</B><BR>N1788 Lily of the Valley DrSuite 5<BR>Greenville, WI<BR>Phone: (920) 757-1010<BR>]]></description>
+    <Point>
+      <coordinates>-88.54399,44.305263,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Family Insurance Center</B><BR>217 N Military Road<BR>Stockbridge, WI<BR>Phone: (920) 439-1777<BR>]]></description>
+    <Point>
+      <coordinates>-88.3,44.0727,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Family Insurance Center</B><BR>N3980 Columbia Avenue<BR>Freedom, WI<BR>Phone: (920) 788-4800<BR>]]></description>
+    <Point>
+      <coordinates>-88.292376,44.382489,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Family Insurance Center</B><BR>105 Southside Shopping Center<BR>Chilton, WI<BR>Phone: (920) 849-4534<BR>]]></description>
+    <Point>
+      <coordinates>-88.1816,44.0235,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Family Insurance Center</B><BR>2595 Development DriveSuite 13<BR>Green Bay, WI<BR>Phone: (920) 494-7036<BR>]]></description>
+    <Point>
+      <coordinates>-87.999607,44.456787,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Family Insurance Center</B><BR>430 3rd StSuite B<BR>Menasha, WI<BR>Phone: (920) 722-2799<BR>]]></description>
+    <Point>
+      <coordinates>-88.447249,44.205079,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Anderson Insurance Group, Inc.</B><BR>3280 South Main Street<BR>Sandy Lake, PA<BR>Phone: 724-376-7255<BR>]]></description>
+    <Point>
+      <coordinates>-80.081899,41.350773,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Fee Insurance Group</B><BR>1617 N. Waterfront PkwySuite 250<BR>Wichita, KS<BR>Phone: (316) 869-0636<BR>www.feeinsurance.com]]></description>
+    <Point>
+      <coordinates>-97.240769,37.722216,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Fee Insurance Group</B><BR>110 E. Elizabeth Ste 1<BR>McPherson, KS<BR>Phone: (620) 245-0404<BR>www.feeinsurance.com]]></description>
+    <Point>
+      <coordinates>-97.666354,38.368133,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Fee Insurance Group</B><BR>100 Military Plaza Suite 213<BR>Dodge City, KS<BR>Phone: (620) 371-6127<BR>www.feeinsurance.com]]></description>
+    <Point>
+      <coordinates>-100.016208,37.754078,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Sheward-Fulks Insurance</B><BR>10735 State Route 139<BR>Minford, OH<BR>Phone: 740-820-6200<BR>]]></description>
+    <Point>
+      <coordinates>-82.865079,38.741098,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>J.E. Fisher Insurance Agency, Inc. D.B.A. Fisher-Greene Insurance Agency, Inc.</B><BR>426 Hwy 29N<BR>China Grove, NC<BR>Phone: 704-856-0250<BR>]]></description>
+    <Point>
+      <coordinates>-80.575253,35.566564,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Jessie Insurance Lebanon LLC</B><BR>101 S Spalding Avenue<BR>Lebanon, KY<BR>Phone: 270-595-0000<BR>]]></description>
+    <Point>
+      <coordinates>-85.252204,37.569727,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Insurpro Inc D.B.A. Hawkins Harrison Insurance Agency</B><BR>103 W Monroe Street<BR>Memphis, MO<BR>Phone: 660-465-8533<BR>]]></description>
+    <Point>
+      <coordinates>-92.17075,40.457602,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Insurpro Inc D.B.A. Hawkins Harrison Insurance Agency</B><BR>118 W Jackson Street<BR>Lancaster, MO<BR>Phone: 660-457-3020<BR>]]></description>
+    <Point>
+      <coordinates>-92.5275,40.5228,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Insurpro Inc D.B.A. Hawkins Harrison Insurance Agency</B><BR>2412 S. Franklin Street<BR>Kirksville, MO<BR>Phone: 660-665-1212<BR>]]></description>
+    <Point>
+      <coordinates>-92.577337,40.17382,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>RWR WV LLC</B><BR>245 S Washington StSuite B<BR>Berkeley Springs, WV<BR>Phone: 304-500-2812<BR>www.rwrwv.com]]></description>
+    <Point>
+      <coordinates>-78.237579,39.608772,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Horak Insurance, Inc.</B><BR>213 Main St<BR>Columbus Junction, IA<BR>Phone: 319-728-2414<BR>]]></description>
+    <Point>
+      <coordinates>-91.360284,41.279717,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Horak Insurance, Inc.</B><BR>115 East Marion<BR>Sigourney, IA<BR>Phone: 641-622-2851<BR>]]></description>
+    <Point>
+      <coordinates>-92.204396,41.332487,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Insurance Associates, Inc.</B><BR>204 W. Jefferson Street<BR>La Grange, KY<BR>Phone: (502) 222-9558<BR>www.insassociatesinc.com/]]></description>
+    <Point>
+      <coordinates>-85.380805,38.408312,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Insurance Associates, Inc.</B><BR>531 Highland Ave<BR>Carrollton, KY<BR>Phone: (502) 732-6653<BR>www.insuranceassociatesky.com]]></description>
+    <Point>
+      <coordinates>-85.178607,38.681322,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Insurance Associates, Inc.</B><BR>41 N Main Street<BR>New Castle, KY<BR>Phone: (502) 845-2608<BR>www.insuranceassociatesky.com]]></description>
+    <Point>
+      <coordinates>-85.170099,38.43362,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Montgomery Insurance & Investments Agency, Inc.</B><BR>3938 Dayton-Xenia Road A<BR>Beavercreek, OH<BR>Phone: 937-426-7786<BR>www.montgomeryii.com]]></description>
+    <Point>
+      <coordinates>-84.08119,39.737132,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Jessie Insurance Danville LLC D.B.A. Johnson Pohlmann Insurance</B><BR>129 South Fourth Street<BR>Danville, KY<BR>Phone: 859-236-5922<BR>]]></description>
+    <Point>
+      <coordinates>-84.774383,37.644953,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Richard S. Miller & Sons, Inc. D.B.A. Miller Insurance Group</B><BR>5420 N. College Avenue, Ste. L-2<BR>Indianapolis, IN<BR>Phone: 317-419-2429<BR>]]></description>
+    <Point>
+      <coordinates>-86.146429,39.851718,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Triangle Insurance Agency D.B.A. MSH Insurance Agency</B><BR>72 Azimuth Ct.<BR>Rocky Mount, NC<BR>Phone: (252) 446-7188<BR>]]></description>
+    <Point>
+      <coordinates>-77.864668,35.962701,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Triangle Insurance & Associates, LLC D.B.A. Whitehurst Strategic Partners</B><BR>4909 Unicon Drive Suite 200<BR>Wake Forest, NC<BR>Phone: 919-488-5240 <BR>]]></description>
+    <Point>
+      <coordinates>-78.5389,35.921776,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>McGowan Insurance Group, LLC</B><BR>210 E Main Street<BR>Lebanon, IN<BR>Phone: 765-482-3730<BR>www.mcgowaninsgrp.com]]></description>
+    <Point>
+      <coordinates>-86.466416,40.047832,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>McGowan Insurance Group, LLC</B><BR>3613 S. 18th Suite E<BR>Lafeyette, IN<BR>Phone: 765-471-0660<BR>www.mcgowaninsgrp.com]]></description>
+    <Point>
+      <coordinates>-86.876004,40.366734,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Maddox Insurance LLC</B><BR>15035 Highland Drive<BR>McKenzie, TN<BR>Phone: 731-352-5700<BR>www.maddoxinsurance.com]]></description>
+    <Point>
+      <coordinates>-88.520758,36.121644,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Maddox Insurance LLC</B><BR>120 Highway 641 South<BR>Camden, TN<BR>Phone: 731-584-2425<BR>www.maddoxinsurance.com]]></description>
+    <Point>
+      <coordinates>-88.114018,36.054368,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Cochran Insurance & Realty, Inc.</B><BR>128 North Second Street<BR>Cochran, GA<BR>Phone: 478-934-7000<BR>]]></description>
+    <Point>
+      <coordinates>-83.356622,32.388437,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>The Cornerstone Agency, Inc.</B><BR>102 W Main St<BR>Morrison, IL<BR>Phone: (815) 772-2793<BR>]]></description>
+    <Point>
+      <coordinates>-89.966815,41.809618,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Maritt Vogler Insurance</B><BR>4753 Cornell Rd.<BR>Cincinnati, OH<BR>Phone: (513) 896-5555<BR>www.uhins.com/]]></description>
+    <Point>
+      <coordinates>-84.375905,39.268489,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>McCormick-Klessig and Associates, LTD.</B><BR>522 Clermont Street<BR>Antigo, WI<BR>Phone: 715-627-4302<BR>]]></description>
+    <Point>
+      <coordinates>-89.154667,45.139881,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>River City Insurance, Inc.</B><BR>206 Main Street<BR>New Madrid, MO<BR>Phone: 573-748-5215<BR>]]></description>
+    <Point>
+      <coordinates>-89.526868,36.584324,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Spire America Holdings, Inc. D.B.A. Spire Insurance Solutions</B><BR>514 N Ripley Blvd<BR>Alpena, MI<BR>Phone: 989-356-6133<BR>]]></description>
+    <Point>
+      <coordinates>-83.451936,45.058298,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Kingsgate Insurance Center, Inc.</B><BR>1405 North Elm Street<BR>Jefferson, IA<BR>Phone: 515-386-5551<BR>]]></description>
+    <Point>
+      <coordinates>-94.37752,42.028153,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Smith & Eddy Insurance, Inc.</B><BR>1554 US 31 South<BR>Manistee, MI<BR>Phone: 231-845-1481<BR>www.smith-eddy.com]]></description>
+    <Point>
+      <coordinates>-86.311275,44.226283,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Smith & Eddy Insurance, Inc.</B><BR>119 S Rath Avenue<BR>Ludington, MI<BR>Phone: 231-845-1481<BR>www.smith-eddy.com]]></description>
+    <Point>
+      <coordinates>-86.448926,43.954672,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>KAI Garrett Insurance Agency, LLC</B><BR>108 Theodore Specht Drive<BR>Fredericksburg, TX<BR>Phone: 830-896-6600<BR>www.garrettinsurance.com]]></description>
+    <Point>
+      <coordinates>-98.878200,30.270400,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>McGowan Insurance Group, LLC</B><BR>1220 Broad Street P.O. Box 506<BR>New Castle, IN<BR>Phone: 765-529-6400<BR>www.mcgowaninsgrp.com]]></description>
+    <Point>
+      <coordinates>-85.3694,39.9294,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>The Peoples Agency, LLC</B><BR>3901 Clemson Blvd<BR>Anderson, SC<BR>Phone: 864-224-7444<BR>]]></description>
+    <Point>
+      <coordinates>-82.684651,34.555343,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Layman Hummel Insurance Inc.</B><BR>29 E Poplar Street<BR>North Vernon, IN<BR>Phone: (812)352-6174<BR>www.laymaninsurance.com]]></description>
+    <Point>
+      <coordinates>-85.627644,39.005628,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Hummel and Leibel Insurance Agency Inc.</B><BR>835 Monmouth Street<BR>Newport, KY<BR>Phone: (859) 261-4141<BR>www.hummelinsurancenewport.com/]]></description>
+    <Point>
+      <coordinates>-84.490276,39.088752,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Seltzer Group Partners LLC</B><BR>1010 Windsor Road<BR>Red Lion, PA<BR>Phone: (717) 840-1985<BR>https://www.jeffersinsuranceagency.com/]]></description>
+    <Point>
+      <coordinates>-76.624047,39.938371,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Duncan Insurance Group, LLC D.B.A. Indiana Insurance</B><BR>823 Rose Street<BR>Indiana, PA<BR>Phone: 724-349-8780<BR>www.duncangrp.com]]></description>
+    <Point>
+      <coordinates>-79.17138,40.612696,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Rick Leet Agency LLC D.B.A. Rick Leet Agency</B><BR>321 Main Street<BR>Hallstead, PA<BR>Phone: 570-465-3296<BR>www.leetinsurance.com]]></description>
+    <Point>
+      <coordinates>-75.743205,41.952984,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Shelbyville Insurance Agency LTD D.B.A. Shelbyville Insurance Services</B><BR>210 N Morgan<BR>Shelbyville, IL<BR>Phone: 217-774-2155<BR>www.shelbyvilleins.com/]]></description>
+    <Point>
+      <coordinates>-88.792285,39.407978,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Kevin Brewer & Associates, Inc.</B><BR>101 Oakley Drive<BR>Harrisburg, NC<BR>Phone: 704-549-1222<BR>www.kevinbrewerassociates.com/]]></description>
+    <Point>
+      <coordinates>-80.659947,35.320201,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Granite Insurance Agency</B><BR>895 State Farm RoadSte 402<BR>Boone, NC<BR>Phone: (828) 396-3342<BR>www.graniteinsurance.com/]]></description>
+    <Point>
+      <coordinates>-81.674822,36.21152,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Team Andy Agency, Inc. D.B.A. Kind Insurance</B><BR>10379 U.S 522 South<BR>Lewistown, PA<BR>Phone: 717-739-4639<BR>www.teamandyagency.com]]></description>
+    <Point>
+      <coordinates>-77.614081,40.580492,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Harold D. Miller Insurance</B><BR>415 Main Street<BR>Greenup, KY<BR>Phone: 606-473-6211<BR>www.charlesadamsins.com/]]></description>
+    <Point>
+      <coordinates>-82.835748,38.577596,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Harold D. Miler Insurance</B><BR>2017 29th Street<BR>Ashland, KY<BR>Phone: 606-324-1295<BR>www.charlesadamsins.com/]]></description>
+    <Point>
+      <coordinates>-82.64152,38.460486,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Baily Sprowls Benefits LLC</B><BR>55 S Washington St<BR>Waynesburg, PA<BR>Phone: 724-627-6121<BR>www.bailyagency.com]]></description>
+    <Point>
+      <coordinates>-80.187097,39.896037,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Middendorf Insurance Associates, Inc.</B><BR>5526 NW 86th St. Suite B<BR>Johnston, IA<BR>Phone: 515-252-1414<BR>www.middendorfins.com]]></description>
+    <Point>
+      <coordinates>-93.736449,41.660338,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Seltzer Group Partners LLC</B><BR>894 Gordon Nagle Trail<BR>Pottsville, PA<BR>Phone: 888-366-1000<BR>www.seltzergrp.com]]></description>
+    <Point>
+      <coordinates>-76.235352,40.672530,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Seltzer Group Partners LLC</B><BR>901 Chestnut Street<BR>Emmaus, PA<BR>Phone: 888-366-1000<BR>www.seltzergrp.com]]></description>
+    <Point>
+      <coordinates>-75.509964,40.526608,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Seltzer Group Partners LLC</B><BR>3 East Lincoln Ave.<BR>Myerstown, PA<BR>Phone: 888-366-1000<BR>www.seltzergrp.com]]></description>
+    <Point>
+      <coordinates>-76.304837,40.379767,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Seltzer Group Partners LLC</B><BR>2447 Perkiomen Ave.<BR>Reading, PA<BR>Phone: 888-366-1000<BR>www.seltzergrp.com]]></description>
+    <Point>
+      <coordinates>-75.888168,40.328139,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Richard W. Leet D.B.A. Rick Leet Agency</B><BR>18 Como RoadPO Box 300<BR>Lakewood, PA<BR>Phone: (570) 798-2666<BR>]]></description>
+    <Point>
+      <coordinates>-75.360200,41.835500,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Rick Leet Agency LLC D.B.A. Little & Nelson</B><BR>66 Public Ave.<BR>Montrose, PA<BR>Phone: 570-278-1151<BR>www.littleandnelson.com]]></description>
+    <Point>
+      <coordinates>-75.877503,41.833472,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Rick Leet Agency LLC D.B.A. Little & Nelson</B><BR>1344 Main Steet<BR>Susquehanna, PA<BR>Phone: 570-853-3144<BR>www.littleandnelson.com]]></description>
+    <Point>
+      <coordinates>-75.592600,41.944600,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>United Heartland Insurance Agencies of Butler County D.B.A. United Heartland Insurance Agencies</B><BR>2909 Washington Street<BR>Burlington, KY<BR>Phone: 859-534-1456<BR>www.uhins.com]]></description>
+    <Point>
+      <coordinates>-84.722017,39.027707,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Norris Leighton Hall Insurance Agency</B><BR>1066 Summit Drive<BR>Middletown, OH<BR>Phone: (513) 423-9455<BR>www.cai-insurance.com]]></description>
+    <Point>
+      <coordinates>-84.352446,39.525696,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Lakeview Insurance Agency</B><BR>3438 N. Southport Avenue<BR>Chicago, IL<BR>Phone: 773-871-8000<BR>www.lakeviewins.com]]></description>
+    <Point>
+      <coordinates>-87.664105,41.944182,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>VanDort Insurance Agency, Inc.</B><BR>1054 Washington Ave<BR>Grand Haven, MI<BR>Phone: 231-757-4743<BR>www.smith-eddy.com]]></description>
+    <Point>
+      <coordinates>-86.216841,43.060921,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Richard S. Miller & Sons, Inc. D.B.A. Morrow Insurance</B><BR>850 E. Jefferson Street P.O. Box 1501<BR>Plymouth, IN<BR>Phone: 574-936-2400<BR>www.morrowinsuranceagency.com]]></description>
+    <Point>
+      <coordinates>-86.298442,41.343798,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Capstone Insurance Group</B><BR>5990 Kingstowne Towne Center<BR>Alexandria, VA<BR>Phone: 703-848-2300<BR>www.capstoneinsgroup.com]]></description>
+    <Point>
+      <coordinates>-77.148700,38.761200,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Moncure Insurance Agency Inc</B><BR>117 East Carolina Street<BR>Crewe, VA<BR>Phone: 434-292-3012<BR>www.moncureins.com]]></description>
+    <Point>
+      <coordinates>-78.122346,37.173949,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Baily Insurance Agency, Inc</B><BR>232 N Market St<BR>Ligonier, PA<BR>Phone: 724-238-9508<BR>www.bailyagency.com]]></description>
+    <Point>
+      <coordinates>-79.236068,40.244335,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>KAI Yurconic Insurance Agency, LLC D.B.A. The Yurconic Agency</B><BR>25th Street Shopping Center 2471 Nazareth Road<BR>Easton, PA<BR>Phone: 610-438-4500<BR>www.yurconic.com]]></description>
+    <Point>
+      <coordinates>-75.267900,40.682500,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>KAI Yurconic Insurance Agency, LLC D.B.A. The Yurconic Agency</B><BR>1710 Hoover Avenue<BR>Allentown, PA<BR>Phone: 610-266-6800<BR>www.yurconic.com]]></description>
+    <Point>
+      <coordinates>-75.427777,40.635658,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>KAI Yurconic Insurance Agency, LLC D.B.A. The Yurconic Agency</B><BR>2098 Center Street<BR>Northampton, PA<BR>Phone: 610-261-3300<BR>www.yurconic.com]]></description>
+    <Point>
+      <coordinates>-75.500684,40.690486,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>KAI Yurconic Insurance Agency, LLC D.B.A. The Yurconic Agency</B><BR>Sharp Mountain Plaza 892 Gordon Nagle Trail<BR>Pottsville, PA<BR>Phone: 570-622-5700<BR>www.yurconic.com]]></description>
+    <Point>
+      <coordinates>-76.212800,40.683700,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>KAI Yurconic Insurance Agency, LLC D.B.A. The Yurconic Agency</B><BR>835 Heisters Lane<BR>Reading, PA<BR>Phone: 610-929-8250<BR>www.yurconic.com]]></description>
+    <Point>
+      <coordinates>-75.936400,40.390900,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>KAI Yurconic Insurance Agency, LLC D.B.A. The Yurconic Agency</B><BR>3657 Penn Avenue<BR>Sinking Spring, PA<BR>Phone: 610-670-0721<BR>www.yurconic.com]]></description>
+    <Point>
+      <coordinates>-76.037287,40.326578,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>KAI Yurconic Insurance Agency, LLC D.B.A. The Yurconic Agency</B><BR>101 N. Cedar Crest Blvd.<BR>Allentown, PA<BR>Phone: 610-770-6606<BR>www.yurconic.com]]></description>
+    <Point>
+      <coordinates>-75.525306,40.590737,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>KAI Yurconic Insurance Agency, LLC D.B.A. The Yurconic Agency</B><BR>5 American Parkway<BR>Alletown, PA<BR>Phone: 610-434-2500<BR>www.yurconinc.com]]></description>
+    <Point>
+      <coordinates>-75.460378,40.618073,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>KAI Yurconic Insurance Agency, LLC D.B.A. The Yurconic Agency</B><BR>216 Nazareth Pike<BR>Bethlehem, PA<BR>Phone: 610-614-1117<BR>www.yurconic.com]]></description>
+    <Point>
+      <coordinates>-75.368945,40.633772,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>KAI Yurconic Insurance Agency, LLC D.B.A. The Yurconic Agency</B><BR>1403 Blakeslee Blvd<BR>Lehighton, PA<BR>Phone: 570-386-2722<BR>www.yurconic.com]]></description>
+    <Point>
+      <coordinates>-75.688400,40.838100,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>KAI Yurconic Insurance Agency, LCC D.B.A. The Yurconic Agency</B><BR>273 Airport Road, Suite 102<BR>Hazle Township, PA<BR>Phone: 570-455-5836<BR>www.yurconic.com]]></description>
+    <Point>
+      <coordinates>-75.990047,40.992371,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>KAI Yurconic Insurance Agency, LLC D.B.A. The Yurconic Agency</B><BR>612 Delaware Ave.<BR>Palmerton, PA<BR>Phone: 610-826-2397<BR>www.yurconic.com]]></description>
+    <Point>
+      <coordinates>-75.601339,40.805341,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Loman-Ray Insurance Group, LLC</B><BR>110 N Main Street<BR>Atwood, IL<BR>Phone: 217-578-2551<BR>www.lomanray.com]]></description>
+    <Point>
+      <coordinates>-88.528446,39.799824,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Loman-Ray Insurance Group, LLC</B><BR>107 N Watson<BR>Tolono, IL<BR>Phone: 217-485-5626<BR>www.lomanray.com]]></description>
+    <Point>
+      <coordinates>-88.262613,39.987441,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Loman-Ray Insurance Group, LLC</B><BR>15 S Main Street<BR>Villa Grove, IL<BR>Phone: 217-832-4141<BR>www.lomanray.com]]></description>
+    <Point>
+      <coordinates>-88.161352,39.862174,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Loman-Ray Insurance Group, LLC</B><BR>125 W Garfield St.<BR>Cissna Park, IL<BR>Phone: 815-457-3737<BR>www.lomanray.com]]></description>
+    <Point>
+      <coordinates>-87.894006,40.563793,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Loman-Ray Insurance Group, LLC</B><BR>17 E Liberty Lane<BR>Danville, IL<BR>Phone: 217-442-7303<BR>www.lomanray.com]]></description>
+    <Point>
+      <coordinates>-87.628405,40.174975,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Loman-Ray Insurance Group, LLC</B><BR>1016 W Orange Street<BR>Hoopeston, IL<BR>Phone: 217-283-5031<BR>www.lomanray.com]]></description>
+    <Point>
+      <coordinates>-87.657123,40.459451,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Loman-Ray Insurance Group, LLC</B><BR>145 E 5th Ave<BR>Clifton, IL<BR>Phone: 815-694-2512<BR>www.lomanray.com]]></description>
+    <Point>
+      <coordinates>-87.934438,40.932939,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Loman-Ray Insurance Group, LLC</B><BR>13 S Main Street<BR>Sullivan, IL<BR>Phone: 217-728-2323<BR>www.lomanray.com]]></description>
+    <Point>
+      <coordinates>-88.607578,39.599248,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Koehler Insurance, Inc. D.B.A. Shomo-Madsen-Krause Insurance</B><BR>610 Main Street<BR>Jewell, IA<BR>Phone: 515-827-5650<BR>www.shomo-madsen.com]]></description>
+    <Point>
+      <coordinates>-93.640131,42.307056,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Koehler Insurance, Inc. D.B.A. Shomo-Madsen-Stayner Insurance</B><BR>128 N Walnut Street<BR>Colfax, IA<BR>Phone: 515-674-3722<BR>www.shomo-madsen.com]]></description>
+    <Point>
+      <coordinates>-93.245438,41.677853,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Koehler Insurance, Inc. D.B.A. Shomo-Madsen-Umble Insurance</B><BR>402 W 2nd Street<BR>Prairie City, IA<BR>Phone: 515-994-2446<BR>www.shomo-madsen.com]]></description>
+    <Point>
+      <coordinates>-93.239698,41.596527,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Koehler Insurance, Inc. D.B.A. Shomo-Madsen-Woythaler Insurance</B><BR>1802 S 12th Avenue W<BR>Newton, IA<BR>Phone: 641-792-6226<BR>www.shomo-madsen.com]]></description>
+    <Point>
+      <coordinates>-93.076682,41.68834,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Koehler Insurance, Inc. D.B.A. Shomo-Madsen-Umble Insurance</B><BR>111 E Sherman Street<BR>Monroe, IA<BR>Phone: 641-259-3076<BR>www.shomo-madsen.com]]></description>
+    <Point>
+      <coordinates>-93.105504,41.517243,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Loman-Ray Insurance Group, LLC</B><BR>113 S State Street<BR>Monticello, IL<BR>Phone: 217-762-2182<BR>www.lomanray.com]]></description>
+    <Point>
+      <coordinates>-88.572216,40.025118,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Loman-Ray Insurance Group, LLC</B><BR>1123 Main Street<BR>Windsor, IL<BR>Phone: 217-459-2740<BR>www.lomanray.com]]></description>
+    <Point>
+      <coordinates>-90.446884,41.20275,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Koehler Insurance, Inc. D.B.A. Shomo-Madsen-Stayner Insurance</B><BR>100 North Station Street<BR>Mingo, IA<BR>Phone: 641-363-4516<BR>www.shomo-madsen.com]]></description>
+    <Point>
+      <coordinates>-93.283542,41.767299,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Loman-Ray Insurance Group, LLC</B><BR>208 N Gray P.O. Box 80<BR>Sidell, IL<BR>Phone: 217-288-9021<BR>www.lomanray.com]]></description>
+    <Point>
+      <coordinates>-87.821263,39.907848,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>KAI Garrett Insurance Agency, LLC</B><BR>3190 Executive Drive<BR>San Angelo, TX<BR>Phone: 325-658-3071<BR>www.garrettinsurance.com]]></description>
+    <Point>
+      <coordinates>-100.463720,31.422010,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Lantzy Insurance Agency</B><BR>123 S Main St PO Box 448<BR>Carolltown, PA<BR>Phone: 814-344-6536<BR>www.lantzyins.com]]></description>
+    <Point>
+      <coordinates>-78.709734,40.601355,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>D.B. Mackey Insurance Agency</B><BR>720 E Ninth St PO Box 70<BR>Bellwood, PA<BR>Phone: 814-742-8765<BR>www.dbmackey.com]]></description>
+    <Point>
+      <coordinates>-78.333000,40.602100,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Seltzer Group Partners LLC</B><BR>105 Berwick Street<BR>White Haven, PA<BR>Phone: 570-443-7880<BR>www.suitchinsurance.com/]]></description>
+    <Point>
+      <coordinates>-75.773084,41.060863,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Forward Bank D.B.A. Forward Insurance Agency</B><BR>105 S. Washington St<BR>Thorp, WI<BR>Phone: 715-669-5528<BR>www.forward.bank/insurance]]></description>
+    <Point>
+      <coordinates>-90.800325,44.959116,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Forward Bank D.B.A. Forward Insurance Agency</B><BR>172 N. Lake Avenue<BR>Phillips, WI<BR>Phone: 715-339-6511<BR>www.forward.bank/insurance]]></description>
+    <Point>
+      <coordinates>-90.395756,45.688747,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Forward Bank D.B.A. Forward Insurance Agency</B><BR>109 Alfred Street<BR>Athens, WI<BR>Phone: 715-257-7707<BR>www.forward.bank/insurance]]></description>
+    <Point>
+      <coordinates>-90.073738,45.034128,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Forward Bank D.B.A. Forward Insurance Agency</B><BR>240 S. Broadway St<BR>Stanley, WI<BR>Phone: 715-644-2566<BR>www.forward.bank/insurance]]></description>
+    <Point>
+      <coordinates>-90.937650,44.958280,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Seltzer Group Partners LLC</B><BR>25 East Ridge Street<BR>Lansford, PA<BR>Phone: 800-536-6425<BR>www.suitchinsurance.com/]]></description>
+    <Point>
+      <coordinates>-75.884205,40.832275,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Forward Bank D.B.A. Forward Insurance Agency</B><BR>410 Division Street<BR>Withee, WI<BR>Phone: 715-229-2188<BR>www.forward.bank/insurance]]></description>
+    <Point>
+      <coordinates>-90.597849,44.952715,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Lander Van Gundy Agency, Inc. D.B.A. Van Gundy Insurance</B><BR>314 Center Street<BR>Gridley, IL<BR>Phone: 309-747-2133<BR>www.vangundy.com]]></description>
+    <Point>
+      <coordinates>-88.881177,40.738697,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Forward Bank D.B.A. Forward Insurance Agency</B><BR>W4995 State Hwy 86<BR>Ogema, WI<BR>Phone: 715-767-5115<BR>www.forward.bank/insurance]]></description>
+    <Point>
+      <coordinates>-90.256400,45.435400,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Dillon Insurance Agency</B><BR>2611 Riverside DrivePO Box 549<BR>Bassett, VA<BR>Phone: 276-629-5304<BR>https://fieldaleinsurance.com/]]></description>
+    <Point>
+      <coordinates>-79.991747,36.757375,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Triangle Insurance & Associates, LLC D.B.A. Independent Insurance Group</B><BR>921 S. McPherson Church Road<BR>Fayetteville, NC<BR>Phone: 910-867-9500<BR>www.triangleinsurance.com]]></description>
+    <Point>
+      <coordinates>-78.938281,35.049089,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Masters & Associates Insurance LLC</B><BR>24 East Linden Avenue<BR>Miamisburg, OH<BR>Phone: 937-866-3361<BR>www.mastersins.com]]></description>
+    <Point>
+      <coordinates>-84.289294,39.640058,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Middendorf Insurance Associates, Inc.</B><BR>517 8th Street SE<BR>Altonna, IA<BR>Phone: 515-967-4427<BR>www.middendorfins.com]]></description>
+    <Point>
+      <coordinates>-93.459594,41.644106,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>RJD Insurance LLC D.B.A. Benchmark Insurance Solutions</B><BR>80 South Columbus StreetSuite 140<BR>Westerville, OH<BR>Phone: 614-662-1010<BR>]]></description>
+    <Point>
+      <coordinates>-83.021075,40.171693,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Seltzer Group Partners LLC</B><BR>P.O. Box 640<BR>Honey Brook, PA<BR>Phone: 610-273-3756<BR>www.kniesinsurance.com]]></description>
+    <Point>
+      <coordinates>-75.878600,40.081000,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>KAI Garrett Insurance Agency, LLC</B><BR>416 Main Street<BR>Stockton, KS<BR>Phone: 785-425-6734<BR>www.garrettinsurance.com]]></description>
+    <Point>
+      <coordinates>-99.274881,39.436674,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>KAI Garrett Insurance Agency, LLC</B><BR>238 E. Wichita Avenue<BR>Russell, KS<BR>Phone: 785-483-6633<BR>https://www.garrettinsurance.com]]></description>
+    <Point>
+      <coordinates>-98.858450,38.885720,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>KAI Garrett Insurance Agency, LLC</B><BR>685 3rd Street<BR>Phillipsburg, KS<BR>Phone: 785-543-2448<BR>www.garrettinsurance.com]]></description>
+    <Point>
+      <coordinates>-99.324587,39.755729,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Anderson Insurance Group, Inc. D.B.A. Williams-Cleaveland Company</B><BR>2815 Wilmington RoadSuite 1<BR>New Castle, PA<BR>Phone: 724-652-6605<BR>www.williams-cleaveland.com]]></description>
+    <Point>
+      <coordinates>-80.355160,41.033467,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Teeter Insurance Agency, Inc. D.B.A. Teeter Group</B><BR>3375 Lynnwood Drive<BR>Altoona, PA<BR>Phone: 814-944-5900<BR>www.teetergroup.com]]></description>
+    <Point>
+      <coordinates>-78.391200,40.502500,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Triangle Insurance & Associates, LLC D.B.A. Insurance Center of Nashville</B><BR>333 W. Washington Street<BR>Nashville, NC<BR>Phone: (252) 459-3025<BR>www.triangleinsurance.com]]></description>
+    <Point>
+      <coordinates>-77.971968,35.970635,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Triangle Insurance & Associates, LLC D.B.A. Dew Insurance Agency</B><BR>3301 Nash Street NSuite A<BR>Wilson, NC<BR>Phone: (252) 291-2595<BR>www.triangleinsurance.com]]></description>
+    <Point>
+      <coordinates>-77.938095,35.766771,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Iott Insurance Agency, Inc.</B><BR>141 Saline Street<BR>Petersburg, MI<BR>Phone: 734-279-2111<BR>www.iott.com]]></description>
+    <Point>
+      <coordinates>-83.714918,41.900342,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Iott Insurance Agency, Inc.</B><BR>3558 Sterns Road Suite 1<BR>Lambertville, MI<BR>Phone: 734-854-4688<BR>www.iott.com]]></description>
+    <Point>
+      <coordinates>-83.631140,41.749006,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Seltzer Group Partners LLC</B><BR>60 West Broad Street, 302<BR>Bethlehem, PA<BR>Phone: 610-419-1535<BR>www.stuartbc.com/]]></description>
+    <Point>
+      <coordinates>-75.381365,40.622347,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Island Breeze Insurance Agency, LLC</B><BR>3639 Cortez Road West, Suite 105<BR>Bradenton, FL<BR>Phone: 888-590-9215<BR>www.islandbreezeinsurance.com/]]></description>
+    <Point>
+      <coordinates>-82.598173,27.462373,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>KAI Garrett Insurance Agency, LLC</B><BR>211 West Montgomery Street<BR>Willis, TX<BR>Phone: 936-228-9704<BR>www.garrettinsurance.com]]></description>
+    <Point>
+      <coordinates>-95.480941,30.423703,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Langhurst Insurance Solutions, LLC</B><BR>121 S Myrtle Ave<BR>Willard, OH<BR>Phone: 419-935-5521<BR>www.rfmeins.com]]></description>
+    <Point>
+      <coordinates>-82.725882,41.057003,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Rowland Insurance Agency, Inc.</B><BR>526 Courthouse Square<BR>Burkesville, KY<BR>Phone: 270-864-3800<BR>www.rowlandinsurance.com]]></description>
+    <Point>
+      <coordinates>-85.381700,36.782400,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Arachas Group LLC</B><BR>84 South Prairie Street<BR>Galesburg, IL<BR>Phone: 309-343-1149<BR>www.arachasgroup.com]]></description>
+    <Point>
+      <coordinates>-90.367847,40.946655,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>McGowan Insurance Group LLC</B><BR>54081 North Ironwood Rd PO Box 6458<BR>South Bend, IN<BR>Phone: 574-277-0234<BR>www.hollandinsurancegroup.com]]></description>
+    <Point>
+      <coordinates>-86.217017,41.727688,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>PCE Insurance Group</B><BR>220 South Harrison Street<BR>Shelbyville, IN<BR>Phone: 317-398-9797<BR>www.pceinsure.com]]></description>
+    <Point>
+      <coordinates>-85.777028,39.522732,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>McGowan Insurance Group LLC</B><BR>30 W. 11th StreetPO Box 1137<BR>Anderson, IN<BR>Phone: 765-400-5594<BR>www.mentorins.com]]></description>
+    <Point>
+      <coordinates>-85.679605,40.105101,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Legacy Insurance Partners D.B.A. Faw Insurance Agency</B><BR>902 West D Street<BR>North Wilkesborow, NC<BR>Phone: 336-667-7125<BR>www.legacyinspartners.com]]></description>
+    <Point>
+      <coordinates>-81.154557,36.158942,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Legacy Insurance Partners D.B.A. Broome Associates</B><BR>630 4th Street SW<BR>Hickory, NC<BR>Phone: 828-328-5671<BR>www.legacyinspartners.com]]></description>
+    <Point>
+      <coordinates>-81.344968,35.724763,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Arachas Group LLC</B><BR>501 N Riverside Drive 117<BR>Gurnee, IL<BR>Phone: 847-249-6600<BR>www.arachasgroup.com]]></description>
+    <Point>
+      <coordinates>-87.938267,42.352998,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Walker Insurance</B><BR>134 E. Sharpe StreetPO Box 9<BR>Statesville, NC<BR>Phone: 704-871-1111<BR>www.walkerinsurance.com]]></description>
+    <Point>
+      <coordinates>-80.886115,35.781758,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Business Insurers of the Carolinas LLC</B><BR>501 Eastowne Drive, Suite 250PO Box 2536<BR>Chapel Hill, NC<BR>Phone: 919-968-4611<BR>www.business-insurers.com]]></description>
+    <Point>
+      <coordinates>-79.040000,35.937100,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Business Insurers of the Carolinas, LLC D.B.A. Dominick Huckabee Noblin & Trent Insurance</B><BR>3604 Shannon Rd. Ste. 105<BR>Durham, NC<BR>Phone: 919-286-7473<BR>www.business-insurers.com]]></description>
+    <Point>
+      <coordinates>-78.954758,35.959447,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>MKINS, LLC D.B.A. Mudron Kane Insurance Group</B><BR>5100 Main Street Suite 101<BR>Downers Grove, IL<BR>Phone: 630-545-2001<BR>www.mkiins.com]]></description>
+    <Point>
+      <coordinates>-88.010385,41.795011,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Boley-Featherston & Lalani Insurance</B><BR>PO Box 97513<BR>Wichita Falls, TX<BR>Phone: 254-340-6097<BR>https://www.bflitexas.com/]]></description>
+    <Point>
+      <coordinates>-97.188500,31.534300,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>KAI Strategic Insurance Partners D.B.A. Strategic Insurance Partners</B><BR>1783 Friends Way<BR>Camden, DE<BR>Phone: 302-273-0446<BR>www.siprisk.com]]></description>
+    <Point>
+      <coordinates>-75.596400,39.093700,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Duncan Insurance Group, LLC D.B.A. DeLucia and DeZomba Insurance Agency, Inc.</B><BR>201 South Johnson Rd201<BR>Houston, PA<BR>Phone: 724-222-7720<BR>https://deluciaanddezomba.com/]]></description>
+    <Point>
+      <coordinates>-80.210148,40.23975,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Ratcliff & Blake Insurance Professionals, Inc.</B><BR>700 Main Street 100<BR>Pella, IA<BR>Phone: 641-628-4904<BR>www.ratcliffblake.com]]></description>
+    <Point>
+      <coordinates>-92.916427,41.405298,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Ratcliff & Blake Insurance Professionals, Inc.</B><BR>202 Main Street<BR>Melbourne, IA<BR>Phone: 641-569-8776<BR>www.ratcliffblake.com]]></description>
+    <Point>
+      <coordinates>-93.103147,41.943265,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Winter-Dent & Company</B><BR>4600 Executive Center Parkway<BR>St. Peters, MO<BR>Phone: 636-542-9180<BR>https://winter-dent.com/]]></description>
+    <Point>
+      <coordinates>-90.58059,38.794985,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Trimble-Batjer Insurance Associates, LLP</B><BR>6011 Broadway, Suite 201<BR>San Antonio, TX<BR>Phone: 210-308-9438<BR>https://trimble-batjer.com/]]></description>
+    <Point>
+      <coordinates>-98.465724,29.482158,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>McGowan Insurance Group LLC</B><BR>1126 East Main St<BR>Richmond, IN<BR>Phone: 765-962-9502<BR>www.mcgowaninsgrp.com]]></description>
+    <Point>
+      <coordinates>-84.887294,39.829173,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Guy Hurley, LLC D.B.A. Farmington Insurance Agency, LLC</B><BR>33215 Grand River Ave<BR>Farmington, MI<BR>Phone: 248-474-3511<BR>www.ghbh.com]]></description>
+    <Point>
+      <coordinates>-83.374307,42.463998,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Seltzer Group Partners, LLC</B><BR>1480 Delta Rd<BR>Red Lion, PA<BR>Phone: 717-244-8529<BR>www.seltzergrp.com]]></description>
+    <Point>
+      <coordinates>-76.545032,39.885409,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>The Nulty Agency LLC</B><BR>354 West Allegan Street<BR>Otsego, MI<BR>Phone: 269-694-9445<BR>www.nulty.com]]></description>
+    <Point>
+      <coordinates>-85.703627,42.461234,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>The Nulty Agency LLC</B><BR>324 East Dewey Street<BR>Buchanan, MI<BR>Phone: 269-695-1567<BR>www.nulty.com]]></description>
+    <Point>
+      <coordinates>-86.357940,41.828475,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Mande Insurance and Investments & Solutions</B><BR>1125 River Avenue<BR>Iron Mountain, MI<BR>Phone: 906-774-5200<BR>www.nulty.com]]></description>
+    <Point>
+      <coordinates>-88.065879,45.811433,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Arachas Group LLC</B><BR>7317 Capitol Drive<BR>Darien, IL<BR>Phone: 630-738-6000<BR>www.arachasgroup.com]]></description>
+    <Point>
+      <coordinates>-87.945953,41.756197,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Seltzer Group Partners LLC</B><BR>500 Office Center Drive<BR>Fort Washington, PA<BR>Phone: 215-643-2009<BR>www.seltergrp.com]]></description>
+    <Point>
+      <coordinates>-75.171419,40.140709,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Arachas Group LLC</B><BR>1001 Twelve Oaks Center Dr 117<BR>Wayzata, MN<BR>Phone: 952-449-0089<BR>www.arachasgroup.com]]></description>
+    <Point>
+      <coordinates>-93.474140,44.971799,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>KAI Garrett Insurance Agency, Inc.</B><BR>301 E. San Antonio Avenue<BR>Boerne, TX<BR>Phone: 830-896-6600<BR>www.garrettinsurance.com]]></description>
+    <Point>
+      <coordinates>-98.730194,29.794618,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>KAI Garrett Insurance Agency, LLC</B><BR>2202 Timberloch PlaceSuite 219<BR>The Woodlands, TX<BR>Phone: 936-756-2222<BR>www.garrettinsurance.com]]></description>
+    <Point>
+      <coordinates>-95.459786,30.158517,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Main Street Financial Group, Inc. D.B.A. Main Street Insurance Group</B><BR>1523 Elizabeth Ave., Ste. 300<BR>Charlotte, NC<BR>Phone:  877-872-4578<BR>www.mainstreetins.com]]></description>
+    <Point>
+      <coordinates>-80.827633,35.214538,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Golden Rule Insurance Agency, Inc. D.B.A. Teeple Insurance Agency</B><BR>807 West Newton<BR>Versailles, MO<BR>Phone: 573-378-4246<BR>www.goldenruleinsurance.com]]></description>
+    <Point>
+      <coordinates>-92.850413,38.431583,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>McGowan Insurance Group LLC</B><BR>221 W. Main Street, Suite A<BR>Cambridge City, IN<BR>Phone: 765-416-6447<BR>www.mcgowaninsgrp.com]]></description>
+    <Point>
+      <coordinates>-85.165189,39.812784,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>McGowan Insurance Group LLC</B><BR>204 N. College Avenue<BR>Greencastle, IN<BR>Phone: 765-653-2641<BR>www.mcgowaninsgrp.com]]></description>
+    <Point>
+      <coordinates>-86.862569,39.645535,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Spire America Holding, Inc. D.B.A. Spire Insurance Solutions</B><BR>3183 Logan Valley Road<BR>Traverse City, MI<BR>Phone: (231)-947-1164<BR>www.TOMIA247.com]]></description>
+    <Point>
+      <coordinates>-85.618137,44.731947,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Pro Cap Risk Management, LLC</B><BR>2100 Valley Vista Road<BR>Knoxville, TN<BR>Phone: 865-212-3364<BR>procaprisk.com]]></description>
+    <Point>
+      <coordinates>-89.068800,36.426000,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Tulip City Agency Ltd.</B><BR>225 Otley St<BR>Leighton, IA<BR>Phone: 641-628-1270<BR>www.tulipcity.com]]></description>
+    <Point>
+      <coordinates>-92.787522,41.337222,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Arachas Group LLC</B><BR>200 E 5th Ave<BR>Naperville, IL<BR>Phone: 630-428-9905<BR>www.arachasgrp.com]]></description>
+    <Point>
+      <coordinates>-88.144652,41.780983,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>McGowan Insurance Group, LLC</B><BR>PO Box 528<BR>Greencastle, IN<BR>Phone: 765-653-2641<BR>www.mcgowaninsgrp.com]]></description>
+    <Point>
+      <coordinates>-86.868400,39.649800,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>McGowan Insurance Group, LLC</B><BR>947 N Washington St<BR>Montezuma, IN<BR>Phone: 765-245-2127<BR>www.mcgowaninsgrp.com]]></description>
+    <Point>
+      <coordinates>-87.372466,39.793829,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>McGowan Insurance Group, LLC</B><BR>112 S Market St<BR>Rockville, IN<BR>Phone: 765-280-6900<BR>www.mcgowaninsgrp.com]]></description>
+    <Point>
+      <coordinates>-87.229126,39.762398,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>McGowan Insurance Group, LLC</B><BR>904 E National Avenue<BR>Brazil, IN<BR>Phone: 812-446-2561<BR>www.mcgowaninsgrp.com]]></description>
+    <Point>
+      <coordinates>-87.115111,39.526052,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>KAI Midwest Risk Partners LLC D.B.A. Arnold Insurance</B><BR>12647 Olive Boulevard, Suite 400<BR>St Louis, MO<BR>Phone: 573-651-0509<BR>www.arnoldic.com]]></description>
+    <Point>
+      <coordinates>-90.468380,38.677698,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>KAI Midwest Risk Partners LLC D.B.A. Arnold Insurance</B><BR>2210 Main Street<BR>Scott City, MO<BR>Phone: 573-264-2107<BR>wwwarnoldic.com]]></description>
+    <Point>
+      <coordinates>-89.535384,37.214831,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>KAI Midwest Risk Partners LLC D.B.A. Arnold Insurance</B><BR>729 East Jackson Boulevard<BR>Jackson, MO<BR>Phone: 573-204-0300<BR>www.arnoldic.com]]></description>
+    <Point>
+      <coordinates>-89.661078,37.375158,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>KAI Midwest Risk Partners LLC D.B.A. Arnold Insurance</B><BR>713 Tanner Street<BR>Sikeston, MO<BR>Phone: 573-471-5555<BR>www,arnoldic.com]]></description>
+    <Point>
+      <coordinates>-89.581790,36.881599,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Ozark Hills Insurance, Inc.</B><BR>490 Third Street<BR>Gainesville, MO<BR>Phone: 417-679-3331<BR>www.ozarkhillsinsurance.com]]></description>
+    <Point>
+      <coordinates>-92.428000,36.604400,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Seltzer Group Partners LLC</B><BR>425 S Lehigh Street<BR>Frackville, PA<BR>Phone: 570-974-3800<BR>www.seltzergrouppartners.com]]></description>
+    <Point>
+      <coordinates>-76.228062,40.778409,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Triangle Insurance & Associates, LLC D.B.A. Cline Hall Agency</B><BR>905 E. Arlington Blvd., Suite B<BR>Greenville, NC<BR>Phone: 252-756-5200<BR>http://clinehallagency.com]]></description>
+    <Point>
+      <coordinates>-77.363152,35.578316,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Loftis & Wetzel Corporation</B><BR>410 East Grand Avenue<BR>Ponca City, OK<BR>Phone: 580-765-5566<BR>loftiswetzel.com/]]></description>
+    <Point>
+      <coordinates>-97.079775,36.703596,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Loftis & Wetzel Corporation</B><BR>112 West Hall of Fame<BR>Stillwater, OK<BR>Phone: 405-334-5477<BR>loftiswetzel.com]]></description>
+    <Point>
+      <coordinates>-97.058973,36.126841,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Loftis & Wetzel Corporation</B><BR>2901 Northwest 156th<BR>Edmond, OK<BR>Phone: 405-879-3434<BR>loftiswetzel.com]]></description>
+    <Point>
+      <coordinates>-97.496500,35.623500,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>The Beckman Company</B><BR>6601 Broadway Ext Suite 130<BR>Oklahoma City, OK<BR>Phone: 405-842-2337<BR>www.beckmancompany.com]]></description>
+    <Point>
+      <coordinates>-97.514417,35.539016,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Richmond Insurance Agency, Inc.</B><BR>212 Market Street<BR>West Union, OH<BR>Phone: 937-544-2326<BR>www.richmond-insurance.com]]></description>
+    <Point>
+      <coordinates>-83.545956,38.792543,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Ozark Hills Insurance, Inc.</B><BR>405 Highway 5 North<BR>Mountain Home, AR<BR>Phone: 870-425-4444<BR>www.ozarkhillsinsurance.com]]></description>
+    <Point>
+      <coordinates>-92.390476,36.343159,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Crissman Mendenhall Steelman, LLP</B><BR>201 North State StreetPO Box 1456<BR>Yadkinville, NC<BR>Phone: 336-679-8816<BR>www.cms-insurance.com]]></description>
+    <Point>
+      <coordinates>-80.663557,36.141685,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Farley Insurance Services, Inc.</B><BR>1004 Hwy 64 WestPO Box 640<BR>Murphy, NC<BR>Phone: 828-837-7447<BR>www.farleyagency.com]]></description>
+    <Point>
+      <coordinates>-83.973741,35.077558,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Fisher Greene Insurance</B><BR>115 Brown Street, Suite 103PO Box 275<BR>Granite Quarry, NC<BR>Phone: 704-279-7234<BR>www.fishergreene.com]]></description>
+    <Point>
+      <coordinates>-80.445414,35.614657,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Fortner Insurance Agency, Inc.</B><BR>311 Oak AvenuePO Box 39<BR>Spruce Pine, NC<BR>Phone: 828-765-6121<BR>www.fortnerinsurance.com]]></description>
+    <Point>
+      <coordinates>-82.067989,35.916018,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Granite Insurance Agency, Inc.</B><BR>56 N. Main Street<BR>Granite Falls, NC<BR>Phone: 828-396-3342<BR>www.graniteinsurance.com]]></description>
+    <Point>
+      <coordinates>-81.436894,35.800711,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Insurance Consultants of Pinehurst, Inc.</B><BR>94 Aviemore Drive<BR>Pinehurst, NC<BR>Phone: 910-295-1431<BR>www.pinehurstinsurance.com]]></description>
+    <Point>
+      <coordinates>-79.452643,35.202825,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Johnson Insurance Services, Inc.</B><BR>127 Marketplace Drive<BR>Mocksville, NC<BR>Phone: 336-751-6281<BR>www.gojohnsoninsurance.com]]></description>
+    <Point>
+      <coordinates>-80.579572,35.905952,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Jones & Peacock, Inc.</B><BR>1812 Eastchester Drive<BR>High Point, NC<BR>Phone: 336-889-8282<BR>www.jonesandpeacock.com]]></description>
+    <Point>
+      <coordinates>-79.988081,36.005496,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Main Street Financial Group, Inc. D.B.A. Main Street Insurance Group</B><BR>123 E. Main Street<BR>Forest City, NC<BR>Phone: 828-245-6467<BR>]]></description>
+    <Point>
+      <coordinates>-81.864326,35.333961,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Mimosa Insurance</B><BR>207 N. Sterling StreetPO Drawer 310<BR>Morganton, NC<BR>Phone: 828-437-5357<BR>www.mimosains.com]]></description>
+    <Point>
+      <coordinates>-81.69,35.75,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Morrow Insurance Agency, Inc.</B><BR>800 Beverly-Hanks Centre<BR>Hendersonville, NC<BR>Phone: 828-693-5396<BR>www.morrowinsurance.com]]></description>
+    <Point>
+      <coordinates>-82.466186,35.331558,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>G.W. Mountcastle Agency, Inc. D.B.A. Mountcastle Insurance</B><BR>307 West Center StreetP O Box 1937<BR>Lexington, NC<BR>Phone: 336-249-4951<BR>www.mountcastleinsurance.com]]></description>
+    <Point>
+      <coordinates>-80.25902,35.828278,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Patton, Morgan & Clark Insurance Agency, Inc.</B><BR>70 Academy StreetPO Box 1027<BR>Canton, NC<BR>Phone: 828-648-2632<BR>www.pattonmorganclark.com]]></description>
+    <Point>
+      <coordinates>-82.837417,35.531446,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Wayah Insurance Group, Inc.</B><BR>295 East Palmer Street<BR>Franklin, NC<BR>Phone: 828-524-4442<BR>www.wayah.com]]></description>
+    <Point>
+      <coordinates>-83.379998,35.181203,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>White Insurance Agency, Inc.</B><BR>17 Sunset Dr.<BR>Black Mountain, NC<BR>Phone: 828-669-7912<BR>www.whiteinsurance.com]]></description>
+    <Point>
+      <coordinates>-82.317725,35.607915,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Advanced Financial Security, Inc. D.B.A. AFS Insurance & Financial Services</B><BR>11001 Anthony Highway<BR>Waynesboro, PA<BR>Phone: 717-762-5780<BR>www.afsagent.com]]></description>
+    <Point>
+      <coordinates>-77.568836,39.772205,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Affolder & Associates Inc.</B><BR>8700 Perry Highway<BR>Pittsburgh, PA<BR>Phone: 412-366-9100<BR>www.affolderinsurance.com]]></description>
+    <Point>
+      <coordinates>-80.039159,40.562332,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Anderson Insurance Group, Inc.</B><BR>220 South Broad St.<BR>Grove City, PA<BR>Phone: 724-458-8240<BR>www.andersoninsgrp.com]]></description>
+    <Point>
+      <coordinates>-80.086583,41.159241,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Associated Insurance Management, Inc.</B><BR>974 Bloom Road<BR>Danville, PA<BR>Phone: (570) 275-0100<BR>www.kig-aim.com/]]></description>
+    <Point>
+      <coordinates>-76.592079,40.965551,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Baily Insurance Agency, Inc.</B><BR>55 S. Washington StreetPO Box 1070<BR>Waynesburg, PA<BR>Phone: 724-627-6121<BR>www.bailyagency.com]]></description>
+    <Point>
+      <coordinates>-80.187156,39.895796,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Dasher Associates, Inc. D.B.A. Bowmans Insurance Group</B><BR>P.O. Box 47<BR>Palmyra, PA<BR>Phone: 717-838-5464<BR>www.bowmansinsurance.com]]></description>
+    <Point>
+      <coordinates>-76.596015,40.30829,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Brett Insurance Agency, Inc.</B><BR>P.O. Box 69<BR>Johnstown, PA<BR>Phone: 814-535-8649<BR>www.brettinsurance.com]]></description>
+    <Point>
+      <coordinates>-78.923828,40.325668,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>C McMath Insurance Group, Inc. D.B.A. Brown & Walters Insurance Agency</B><BR>718 Elliot Street<BR>Orbisonia, PA<BR>Phone: 814-447-5568<BR>www.BrownWalters.com]]></description>
+    <Point>
+      <coordinates>-77.893071,40.242791,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Central Insurers Group</B><BR>1360 North Atherton Street<BR>State College, PA<BR>Phone: 814-234-6667<BR>www.centralinsgrp.com]]></description>
+    <Point>
+      <coordinates>-77.885993,40.804577,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Connor-Helring Associates, Inc.</B><BR>1906 Sanderson Avenue<BR>Scranton, PA<BR>Phone: 570-344-7060<BR>www.connor-helring.com]]></description>
+    <Point>
+      <coordinates>-75.647713,41.433471,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>CVIV, Inc. D.B.A. Cumberland Valley Insurance</B><BR>19 East Main StreetP.O. Box 451<BR>New Kingstown, PA<BR>Phone: 717-697-1958<BR>www.cvinsurance.com]]></description>
+    <Point>
+      <coordinates>-77.078276,40.234726,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>DST Strategies, LLC</B><BR>P.O. Box 828<BR>Elizabethville, PA<BR>Phone: 717-362-8600<BR>www.dstinsurance.com]]></description>
+    <Point>
+      <coordinates>-76.811827,40.548906,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Dinnin & Parkins Associates</B><BR>300 Allegheny River Blvd.<BR>Oakmont, PA<BR>Phone: 412-828-5122<BR>www.dpainsurance.com]]></description>
+    <Point>
+      <coordinates>-79.842752,40.515436,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Merritt I. Edner Agency, Inc D.B.A. Kness & Associates Insurance & Investments</B><BR>407 S Main Street<BR>Dubois, PA<BR>Phone: 814-371-6756<BR>www.ednerkness.com]]></description>
+    <Point>
+      <coordinates>-78.769937,41.116795,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>FIFS, LLC D.B.A. Franconia Insurance & Financial Services</B><BR>199 Telford Pike<BR>Telford, PA<BR>Phone: 267-384-5300<BR>www.fifs.com]]></description>
+    <Point>
+      <coordinates>-75.343079,40.318729,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Gilberts Risk Solutions</B><BR>30 East State Street<BR>Sharon, PA<BR>Phone: 724-342-6832<BR>www.gilbertsrisksolutions.com]]></description>
+    <Point>
+      <coordinates>-80.508687,41.232867,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>The Guthrie Agency, LLC</B><BR>217 First Street<BR>Apollo, PA<BR>Phone: 724-478-4381<BR>www.guthrieinsuranceagency.com]]></description>
+    <Point>
+      <coordinates>-79.566459,40.581201,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Koontz Hollern & Seese Inc. D.B.A. Hollern and Koontz Agency</B><BR>1421 Graham Ave.<BR>Windber, PA<BR>Phone: 814-467-9600<BR>www.hollernkoontzins.com]]></description>
+    <Point>
+      <coordinates>-78.831574,40.235829,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Insurance Offices, Ltd</B><BR>1 Greenwood Mall<BR>Wyomissing, PA<BR>Phone: 610-926-5060<BR>www.insuranceofficesltd.com]]></description>
+    <Point>
+      <coordinates>-75.949208,40.44179,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Keppel Insurance Agency</B><BR>1004 Brodhead Road<BR>Moon Township, PA<BR>Phone: 412-264-8072<BR>]]></description>
+    <Point>
+      <coordinates>-80.223796,40.524719,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Kilmer Insurance Agency, Inc. D.B.A. The Kilmer Group</B><BR>25 Homet Cross RoadP.O. Box 337<BR>Wyalusing, PA<BR>Phone: 570-746-1007<BR>www.thekilmergroup.com]]></description>
+    <Point>
+      <coordinates>-76.271451,41.678332,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Kocman Insurance Group</B><BR>3217 East Market Street<BR>York, PA<BR>Phone: 717-854-0300<BR>www.kigyork.com]]></description>
+    <Point>
+      <coordinates>-76.661726,39.978816,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Lehman Insurance Agency, Inc.</B><BR>1020 Sharp Avenue<BR>Ephrata, PA<BR>Phone: 717-733-2050<BR>www.lehmanins.com]]></description>
+    <Point>
+      <coordinates>-76.213576,40.203772,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Front Porch Insurance Corp D.B.A. Meixell Diehl Agency</B><BR>433 Market StreetPO Box 626<BR>Lewisburg, PA<BR>Phone: 570-523-3295<BR>www.meixelldiehl.com]]></description>
+    <Point>
+      <coordinates>-76.886604,40.963005,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Miller Insurance Agency</B><BR>5 North Market Street<BR>Selinsgrove, PA<BR>Phone: 570-374-2611<BR>]]></description>
+    <Point>
+      <coordinates>-76.861555,40.799517,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Mitchell Insurance, Inc.</B><BR>400 North Main Street<BR>Butler, PA<BR>Phone: 724-283-7900<BR>www.since1849.com]]></description>
+    <Point>
+      <coordinates>-79.895616,40.8652,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Myers & Lynch Insurance, Inc.</B><BR>129 E. Independence StreetP.O. Box 585<BR>Shamokin, PA<BR>Phone: 570-644-0371<BR>www.myersandlynch.com]]></description>
+    <Point>
+      <coordinates>-76.554684,40.792028,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>RWR Group, Inc</B><BR>P O Box 640<BR>Bedford, PA<BR>Phone: 814-623-1111<BR>www.rwrinsurance.com]]></description>
+    <Point>
+      <coordinates>-78.516419,40.022807,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Rosensteel Insurance, Inc.</B><BR>360 Main Street<BR>McSherrystown, PA<BR>Phone: 717-632-1216<BR>www.rosensteelins.com]]></description>
+    <Point>
+      <coordinates>-77.01766,39.804283,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>B. Titus Rutt Agency, Inc.</B><BR>83 East Main StreetPO Box 357<BR>Mt. Joy, PA<BR>Phone: 717-653-1816<BR>www.ruttinsurance.com]]></description>
+    <Point>
+      <coordinates>-76.499559,40.109621,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Sheeley Insurance Agency</B><BR>900 Scott Street<BR>Stroudsburg, PA<BR>Phone: 570-421-1191<BR>www.sheeleyinsurance.com]]></description>
+    <Point>
+      <coordinates>-75.194625,40.986761,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>WR Sims Agency, Inc.</B><BR>1036 Washington Blvd.<BR>Williamsport, PA<BR>Phone: 570-326-4188<BR>www.wrsimsagency.com]]></description>
+    <Point>
+      <coordinates>-76.984632,41.249143,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Robert Snyder Agency</B><BR>101 Lincoln Way EastP.O. Box 717<BR>McConnellsburg, PA<BR>Phone: 717-485-4220<BR>]]></description>
+    <Point>
+      <coordinates>-77.999008,39.932539,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Snyder-Eyster Agency, Inc.</B><BR>250 N. Main Street<BR>Herndon, PA<BR>Phone: 570-758-2321<BR>www.snydereyster.com]]></description>
+    <Point>
+      <coordinates>-76.839812,40.714263,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Sprowls Insurance Group</B><BR>217 West Main StreetP.O. Box 1447<BR>Uniontown, PA<BR>Phone: 724-437-9812<BR>www.sprowlsinsurance.com]]></description>
+    <Point>
+      <coordinates>-79.733704,39.902212,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Steely & Smith, LLC</B><BR>3662 Route 202<BR>Doylestown, PA<BR>Phone: 215-345-9410<BR>www.steelyandsmith.com]]></description>
+    <Point>
+      <coordinates>-75.100879,40.316131,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Teeter Insurance Agency, Inc D.B.A. Teeter Group</B><BR>3375 Lynnwood Drive<BR>Altoona, PA<BR>Phone: 814-944-5900<BR>www.teetergroup.com]]></description>
+    <Point>
+      <coordinates>-78.415032,40.492048,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Walters Associates, Inc.</B><BR>1174 Wyoming Avenue<BR>Forty Fort, PA<BR>Phone: 570-283-3148<BR>https://waltersassociatesinc.com/]]></description>
+    <Point>
+      <coordinates>-75.878753,41.284783,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Whitford Insurance Network, Inc.</B><BR>503 Gordon Drive<BR>Exton, PA<BR>Phone: 610-524-7860<BR>www.whitfordinsurance.com]]></description>
+    <Point>
+      <coordinates>-75.651328,40.064177,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Browns Insurance Agency, Inc.</B><BR>9170 Prince William Street<BR>Manassas, VA<BR>Phone: 703-368-0333<BR>www.brownsinsurance.com]]></description>
+    <Point>
+      <coordinates>-77.475654,38.749558,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>GHT Insurance Agency, Inc.</B><BR>8253 Crown Colony PkwySuite 101<BR>Mechanicsville, VA<BR>Phone: 804-428-0000<BR>www.ghtinsurance.com]]></description>
+    <Point>
+      <coordinates>-77.357548,37.514197,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Virginia Commonwealth Corporation</B><BR>6243-1 River Road<BR>Henrico, VA<BR>Phone: 804-282-6723<BR>www.vccinsurance.com]]></description>
+    <Point>
+      <coordinates>-77.579284,37.630864,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Snipes Insurance Service, Inc.</B><BR>105 N Wilson AveP O Box 1165<BR>Dunn, NC<BR>Phone: 910-892-2121<BR>www.snipesinsurance.com]]></description>
+    <Point>
+      <coordinates>-78.609346,35.307937,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Harwood & Son Insurance</B><BR>1404 S. Main Street<BR>Farmville, VA<BR>Phone: 434-392-5405<BR>www.harwoodins.com]]></description>
+    <Point>
+      <coordinates>-78.396214,37.28549,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Fieldale Insurance Agency, Inc.</B><BR>51 Marshall WayPO Box 158<BR>Fieldale, VA<BR>Phone: 276-673-6701<BR>www.fieldaleinsurance.com]]></description>
+    <Point>
+      <coordinates>-79.938097,36.699959,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>William H. Talley & Son, Inc.</B><BR>146 N. Sycamore StreetPO Drawer 751<BR>Petersburg, VA<BR>Phone: 804-733-2011<BR>www.whtsinsurance.com]]></description>
+    <Point>
+      <coordinates>-77.4,37.23,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>NxtGen, LLC D.B.A. The DeHayes Group</B><BR>11118 Coldwater Road<BR>Fort Wayne, IN<BR>Phone: 260-424-5600<BR>www.dehayes.com]]></description>
+    <Point>
+      <coordinates>-85.209025,41.062822,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Knapp Miller Brown Insurance Services, Inc.</B><BR>8 Public SquarePO Box 368<BR>Salem, IN<BR>Phone: 812-883-4700<BR>www.kmbis.com]]></description>
+    <Point>
+      <coordinates>-86.100552,38.605314,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Brown Insurance Group</B><BR>9105A Indianapolis Boulevard, Suite 300<BR>Highland, IN<BR>Phone: 219-972-6060<BR>www.browninsgrp.com]]></description>
+    <Point>
+      <coordinates>-87.4708,41.548165,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Matchett & Company, Inc. D.B.A. Matchett & Ward Insurance</B><BR>107 W. Franklin Street<BR>Winchester, IN<BR>Phone: 765-584-1261<BR>www.matchettandward.com]]></description>
+    <Point>
+      <coordinates>-84.981688,40.171457,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Richard S. Miller & Sons Inc. D.B.A. Miller Insurance Group</B><BR>109 W. Plymouth StreetPO Box 229<BR>Bremen, IN<BR>Phone: 574-546-3341<BR>www.millerinsurancegrp.com]]></description>
+    <Point>
+      <coordinates>-86.146904,41.446536,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Callistus Smith Agency, Inc.</B><BR>3415 Paoli Pike<BR>Floyds Knob, IN<BR>Phone: 812-944-7711<BR>www.callistussmith.com]]></description>
+    <Point>
+      <coordinates>-85.862678,38.324436,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Harrison Agency, Inc.</B><BR>2100 Whitegate Dr<BR>Columbia, MO<BR>Phone: (573) 474-9537<BR>www.harrisonagencyinc.com]]></description>
+    <Point>
+      <coordinates>-92.307227,38.967933,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Winter-Dent & Company</B><BR>101 E McCarty St.<BR>Jefferson City, MO<BR>Phone: (573) 634-2122<BR>www.winter-dent.com]]></description>
+    <Point>
+      <coordinates>-92.17318,38.575961,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>TRB Enterprises, Inc. D.B.A. SBInsure Agency</B><BR>2 Williams Drive<BR>Union, MO<BR>Phone: (636) 583-2313<BR>https://sbi.insure/]]></description>
+    <Point>
+      <coordinates>-91.020755,38.460277,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Barker Phillips Jackson</B><BR>1637 S Enterprise<BR>Springfield, MO<BR>Phone: (417) 887-3550<BR>www.bpj.com]]></description>
+    <Point>
+      <coordinates>-93.251657,37.18382,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>InSouth Insurance Services, LLC</B><BR>119 N. Maxwell Ave.<BR>Huntersville, NC<BR>Phone: 704-948-7730<BR>www.insouthins.com]]></description>
+    <Point>
+      <coordinates>-80.842397,35.415062,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Suffolk Insurance Corporation</B><BR>202 Market Street<BR>Suffolk, VA<BR>Phone: 757-539-9988<BR>www.suffolkinsurance.com]]></description>
+    <Point>
+      <coordinates>-76.583798,36.730625,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Alexander Insurance Agency</B><BR>9251 Rutland Commonds DriveSuite A<BR>Mechanicsville, VA<BR>Phone: 804-730-8323<BR>www.alexanderins.com]]></description>
+    <Point>
+      <coordinates>-77.402285,37.653888,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Independent Insurance Center</B><BR>19465 Deerfield AvenueSuite 210<BR>Lansdowne, VA<BR>Phone: 703-777-7774<BR>www.iicfiremark.com]]></description>
+    <Point>
+      <coordinates>-77.478486,39.078155,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Colonial Insurance Services, Inc.</B><BR>4285 Hwy 24 27 E., Suite APO Box 170<BR>Midland, NC<BR>Phone: 704-888-3232<BR>www.insidecolonial.com]]></description>
+    <Point>
+      <coordinates>-80.501469,35.251542,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>High and Rubish Insurance</B><BR>6015 Farrington Road 101<BR>Chapel Hill, NC<BR>Phone: 919-913-1144<BR>www.highandrubish.com]]></description>
+    <Point>
+      <coordinates>-79.055845,35.9132,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Spreng-Smith Agency, Inc.</B><BR>320 College Avenue<BR>Ashland, OH<BR>Phone: 419-289-3310<BR>www.spreng-smith.com]]></description>
+    <Point>
+      <coordinates>-82.318532,40.862506,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Hamler-Gingrich Insurance Agency, Inc.</B><BR>102 North Miami Street<BR>West Milton, OH<BR>Phone: 937-698-4101<BR>www.hgiai.com]]></description>
+    <Point>
+      <coordinates>-84.327837,39.963825,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Montgomery Insurance and Investments Agency, Inc.</B><BR>114 South Detroit StreetPO Box 670<BR>Xenia, OH<BR>Phone: 937-372-7646<BR>www.montgomeryii.com]]></description>
+    <Point>
+      <coordinates>-83.929451,39.683363,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>The Wiseman Agency, Inc.</B><BR>451 Second AvenuePO Box 359<BR>Gallipolis, OH<BR>Phone: 740-446-3643<BR>www.wisemanagency.com]]></description>
+    <Point>
+      <coordinates>-82.204264,38.808599,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Beatty Insurance, Inc.</B><BR>111 North Poplar Street PO Box 345<BR>Seymour, IN<BR>Phone: 812-522-5640<BR>www.beattyinsurance.com]]></description>
+    <Point>
+      <coordinates>-85.893137,38.958217,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Huesman-Schmid Insurance Agency, Inc.</B><BR>5670 Cheviot Road<BR>Cincinnati, OH<BR>Phone: 513-521-8590<BR>www.huesmanschmid.com]]></description>
+    <Point>
+      <coordinates>-84.598298,39.195586,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>CAI Insurance Agency, Inc.</B><BR>2035 Reading Road<BR>Cincinnati, OH<BR>Phone: 513-221-1140<BR>www.cai-insurance.com]]></description>
+    <Point>
+      <coordinates>-84.500891,39.11871,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Reef-Michael-Eikenberry, Inc. D.B.A. RME Insurance, Inc.</B><BR>45 South Center Street<BR>Flora, IN<BR>Phone: 574-967-4547<BR>www.rmeinsurance.com]]></description>
+    <Point>
+      <coordinates>-86.523781,40.547638,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Somers Agency, LLC</B><BR>5311 Leavitt RoadSuite 100<BR>Lorain, OH<BR>Phone: 440-324-3447<BR>www.somersagency.com]]></description>
+    <Point>
+      <coordinates>-82.150962,41.417819,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Thomas-Fenner-Woods Agency, Inc.</B><BR>1500 Lakeshore Drive, Suite 400<BR>Columbus, OH<BR>Phone: 614-481-4300<BR>www.tfwinsurance.com]]></description>
+    <Point>
+      <coordinates>-83.067997,39.986262,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Roby, Foster, Miller, Earick Insurance Agency, Inc.</B><BR>44 Sturges Avenue<BR>Mansfield, OH<BR>Phone: 419-524-8411<BR>www.rfmeins.com]]></description>
+    <Point>
+      <coordinates>-82.523843,40.757663,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Roselius Insurance Agency, Inc.</B><BR>55 E Dayton St<BR>West Alexandria, OH<BR>Phone: 937-839-4661<BR>www.roseliusinsurance.com]]></description>
+    <Point>
+      <coordinates>-84.532085,39.744088,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Wester Realty and Insurance Agency, Inc.</B><BR>1020 S. Garnett St.PO Box 769<BR>Henderson, NC<BR>Phone: 252-438-8165<BR>www.westerinsurance.com]]></description>
+    <Point>
+      <coordinates>-78.399164,36.329591,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Towe Insurance Service, Inc.</B><BR>304 E. Jefferson Street<BR>Charlottesville, VA<BR>Phone: 434-295-5191<BR>www.toweinsurance.com]]></description>
+    <Point>
+      <coordinates>-78.478868,38.031538,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Nansemond Insurance Agency, Inc.</B><BR>453 West Washington Street<BR>Suffolk, VA<BR>Phone: 757-539-3421<BR>www.niains.net]]></description>
+    <Point>
+      <coordinates>-76.590092,36.72946,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Watkins Insurance Agency, Inc.</B><BR>133 N Mecklenburg AvenuePO Box 360<BR>South Hill, VA<BR>Phone: 434-447-3544<BR>www.watkinsinsurance.com]]></description>
+    <Point>
+      <coordinates>-78.128767,36.727633,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Brown Insurance</B><BR>100 Hubbard Street, Suite A<BR>Blacksburg, VA<BR>Phone: 540-552-5331<BR>www.LLBrown.net]]></description>
+    <Point>
+      <coordinates>-80.3997,37.2098,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Preferred-Protectors Insurance Agency</B><BR>P.O. Box 18033<BR>Fairfield, OH<BR>Phone: 513-829-3300<BR>www.preferredprotectors.com]]></description>
+    <Point>
+      <coordinates>-84.538494,39.338044,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>L. Calvin Jones & Company</B><BR>3744 Starrs Centre DrivePO Box 159<BR>Canfield, OH<BR>Phone: 330-533-1195<BR>www.lcalvinjones.com]]></description>
+    <Point>
+      <coordinates>-80.714998,41.025765,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Herndon-Reston Insurance Agency, Inc. D.B.A. HRI Associates</B><BR>718 Pine Street<BR>Herndon, VA<BR>Phone: 703-435-3500<BR>www.hriassociates.com]]></description>
+    <Point>
+      <coordinates>-77.384011,38.971226,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Jones Insurance Agency, Inc.</B><BR>820 Benson Road<BR>Garner, NC<BR>Phone: 919-772-0233<BR>www.jones-insurance.com]]></description>
+    <Point>
+      <coordinates>-78.612201,35.700042,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>K. & J. Flickinger Insurance Agency D.B.A. Flickinger Insurance Agency</B><BR>30 East Main Street<BR>Norwalk, OH<BR>Phone: 419-668-4406<BR>www.flickinger-ins.com]]></description>
+    <Point>
+      <coordinates>-82.614395,41.242886,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Hayes Insurance Agency, Inc.</B><BR>202 Union Street<BR>Marietta, OH<BR>Phone: 740-373-2347<BR>]]></description>
+    <Point>
+      <coordinates>-81.45354,39.415591,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>The Foley Insurance Agency, Inc. D.B.A. Capstone Insurance Group</B><BR>8 Spring House Innovation Park,Suite 202<BR>Lower Gwynedd, PA<BR>Phone: 215-542-8030<BR>www.capstoneinsgroup.com]]></description>
+    <Point>
+      <coordinates>-75.261391,40.227697,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Crowder Insurance Agency, Inc.</B><BR>1064 Virginia Ave.PO Box 1757<BR>Clarksville, VA<BR>Phone: 434-374-2145<BR>]]></description>
+    <Point>
+      <coordinates>-78.580689,36.615742,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Morgan Group, Inc. D.B.A. Morgan Insurance Group</B><BR>1100 State Road 39 BypassPO Box 1496<BR>Martinsville, IN<BR>Phone: 765-342-6619<BR>www.mcins.com]]></description>
+    <Point>
+      <coordinates>-86.433634,39.416104,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Schultheis Insurance Agency</B><BR>32 N. Weinbach AvenuePO Box 2728<BR>Evansville, IN<BR>Phone: 812 479 8651<BR>www.schultheis-ins.com]]></description>
+    <Point>
+      <coordinates>-87.529664,37.978256,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Spivey Insurance Group, Inc.</B><BR>251 Post Office Drive, Suite A3<BR>Indian Trail, NC<BR>Phone: 704-821-4460<BR>www.spiveyinsurancegroup.com]]></description>
+    <Point>
+      <coordinates>-80.661361,35.080552,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>B&D Insurance Services D.B.A. Miller Insurance Agency</B><BR>107 S. Jefferson Avenue<BR>West Jefferson, NC<BR>Phone: 336-246-7151<BR>www.millerinsurance.org]]></description>
+    <Point>
+      <coordinates>-81.491621,36.401046,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Coverage, Inc.</B><BR>14130-J Sullyfield Circle<BR>Chantilly, VA<BR>Phone: 703-631-8000<BR>www.coverageinc.com]]></description>
+    <Point>
+      <coordinates>-77.44259,38.883367,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Christie Insurance, Inc.</B><BR>Executive Commons110 Roessler Road, Suite 200C<BR>Pittsburgh, PA<BR>Phone: 412-563-7828<BR>www.christie-associates.com]]></description>
+    <Point>
+      <coordinates>-80.062076,40.393561,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Preferred Insurance Center</B><BR>809 W. Main St.Suite 2<BR>Coldwater, OH<BR>Phone: 419-678-2326<BR>www.preferredcenter.com]]></description>
+    <Point>
+      <coordinates>-84.624095,40.479508,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Al Torstrick Insurance Agency, Inc.</B><BR>343 Waller Avenue<BR>Lexington, KY<BR>Phone: 859-233-1461<BR>www.altorstrick.com]]></description>
+    <Point>
+      <coordinates>-84.516901,38.030276,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>CM Moore Insurance Agency, Inc.</B><BR>1007 State Street<BR>Bowling Green, KY<BR>Phone: 270-843-9054<BR>www.cmmoore.com]]></description>
+    <Point>
+      <coordinates>-86.442081,36.991913,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Wallace & Turner Agency, Inc.</B><BR>30 Warder Street, Suite 200<BR>Springfield, OH<BR>Phone: 937-324-8492<BR>www.wtins.com]]></description>
+    <Point>
+      <coordinates>-83.808908,39.930031,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Limestone Agency LLC</B><BR>46 BroadwayPO Box 347<BR>Mt. Sterling, KY<BR>Phone: 859-498-3410<BR>www.limestoneagency.com]]></description>
+    <Point>
+      <coordinates>-83.94294,38.056866,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Lexington Insurance Agency, Inc.</B><BR>465 East High Street, Suite 101PO Box 320<BR>Lexington, KY<BR>Phone: 859-253-6570<BR>www.lexingtoninsuranceagency.com]]></description>
+    <Point>
+      <coordinates>-84.492823,38.038008,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Insuramax, Inc.</B><BR>805 N. Whittington Pkwy, Ste 150<BR>Louisville, KY<BR>Phone: 502-459-7500<BR>www.insuramax.com]]></description>
+    <Point>
+      <coordinates>-85.599167,38.215208,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Durrett Insurance Agency, LLP</B><BR>6004 Brownsboro Park Blvd, Ste C<BR>Louisville, KY<BR>Phone: 502-895-5665<BR>www.durrettinsurance.com]]></description>
+    <Point>
+      <coordinates>-85.639098,38.28077,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Riverland Insurance Corporation</B><BR>636 Church Lane<BR>Tappahannock, VA<BR>Phone: 804-443-3307<BR>www.riverlandinsurers.com]]></description>
+    <Point>
+      <coordinates>-76.862652,37.930812,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Houk Insurance Agency, Inc.</B><BR>313 South Dixie Street<BR>Horse Cave, KY<BR>Phone: (270) 786-2724<BR>www.houkinsuranceagency.com]]></description>
+    <Point>
+      <coordinates>-85.908365,37.176229,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Moore Insurance Agency, LLC</B><BR>200 N. Main StreetP.O. Box 176<BR>Russellville, KY<BR>Phone: 270-726-3136<BR>www.mooreinsuranceagency.com]]></description>
+    <Point>
+      <coordinates>-86.887904,36.846411,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Cambridge Insurance</B><BR>2300 Regency Road<BR>Lexington, KY<BR>Phone: 859-252-0381<BR>www.cambridgeinsurance.net]]></description>
+    <Point>
+      <coordinates>-84.523928,38.006648,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Jessie Insurance LLC</B><BR>103 Central PlazaPO Box 569<BR>Campbellsville, KY<BR>Phone: 270-465-5502<BR>www.jessieinsurance.com]]></description>
+    <Point>
+      <coordinates>-85.346809,37.341107,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Rowland Insurance Agency, Inc.</B><BR>101 West First StreetPO Box 398<BR>Tompkinsville, KY<BR>Phone: 270-487-6192<BR>www.rowlandinsurance.com]]></description>
+    <Point>
+      <coordinates>-85.693633,36.699965,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Jacobs Vanaman Agency, Inc.</B><BR>530 Main Street<BR>Coshocton, OH<BR>Phone: 740-622-1796<BR>www.jacobsvanaman.com]]></description>
+    <Point>
+      <coordinates>-81.862398,40.273642,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Insurance Service Center of Corbin</B><BR>100 N. Kentucky Street<BR>Corbin, KY<BR>Phone: 606-528-5151<BR>www.insuranceservicecenter.net]]></description>
+    <Point>
+      <coordinates>-84.097295,36.946971,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Walbeck Insurance</B><BR>137 S. Main Street<BR>Homer City, PA<BR>Phone: 724-479-9378<BR>www.walbeckinsurance.com]]></description>
+    <Point>
+      <coordinates>-79.160371,40.540763,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Mountain Valley Insurance</B><BR>267 Terrell Lane<BR>Barbourville, KY<BR>Phone: 606-546-4132<BR>www.mtnvalleyins.com]]></description>
+    <Point>
+      <coordinates>-83.870986,36.85504,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Miller & Miller Insurance Agency</B><BR>599 Monroe Street<BR>Dover, OH<BR>Phone: 330-364-6641<BR>www.millerandmillerins.com/]]></description>
+    <Point>
+      <coordinates>-81.456281,40.508632,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>C.A.R. Insurance, Inc. D.B.A. Rosemeyer Agency</B><BR>704 E. Locust Street<BR>Fort Branch, IN<BR>Phone: 812-753-4471<BR>www.rosemeyeragency.com]]></description>
+    <Point>
+      <coordinates>-87.571632,38.247264,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Latta Insurance Services, Inc. D.B.A. Field and Main Insurance</B><BR>140 North Main Street, Suite A<BR>Henderson, KY<BR>Phone: 270-827-3543<BR>www.fieldandmaininsurance.com]]></description>
+    <Point>
+      <coordinates>-87.59167,37.840803,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Hummel Steinmetz Agency, Inc D.B.A. Hummel Winters Insurance</B><BR>118 W. Indian Trail Unit 1<BR>Milan, IN<BR>Phone: 812-654-2071<BR>www.hummelinsurance-milan.com]]></description>
+    <Point>
+      <coordinates>-85.131346,39.121166,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Whitesides and Company, Inc.</B><BR>1355 C. East Garrison Blvd.<BR>Gastonia, NC<BR>Phone: 704-865-3455<BR>www.whitesidesinsurance.com]]></description>
+    <Point>
+      <coordinates>-81.160718,35.252379,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Ison Insurance Agency, Inc.</B><BR>346 Riverside Drive<BR>West Liberty, KY<BR>Phone: 606-743-4472<BR>www.isoninsurance.com]]></description>
+    <Point>
+      <coordinates>-83.261939,37.91724,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Hall & Clark Insurance Agency, Inc.</B><BR>132 South Lake DriveSte 101<BR>Prestonsburg, KY<BR>Phone: 606-886-2318<BR>www.hall-clark.com]]></description>
+    <Point>
+      <coordinates>-82.734809,37.667498,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Miller Insurance, Inc.</B><BR>36 S. Breiel Blvd<BR>Middletown, OH<BR>Phone: 513-422-3621<BR>www.millerinsinc.com]]></description>
+    <Point>
+      <coordinates>-84.355286,39.509157,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Ritchie Insurance, Inc.</B><BR>3804 N Wheeling Avenue<BR>Muncie, IN<BR>Phone: 765-282-2872<BR>www.ritchieinsurance.com]]></description>
+    <Point>
+      <coordinates>-85.405179,40.224004,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Linville Insurance Agency, Inc.</B><BR>302 Richmond RoadP.O. Box 428<BR>Berea, KY<BR>Phone: 859-986-1056<BR>www.linvilleinsurance.com]]></description>
+    <Point>
+      <coordinates>-84.284275,37.580109,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Harbor Insurance Agency, LLC</B><BR>307 North Drive<BR>Hopkinsville, KY<BR>Phone: 270-881-1022<BR>www.harborinsagency.com]]></description>
+    <Point>
+      <coordinates>-87.503557,36.863933,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Art E. Gernt Insurance, Inc.</B><BR>171 Lantana Road<BR>Crossville, TN<BR>Phone: 931-484-3448<BR>www.gerntinsurance.com]]></description>
+    <Point>
+      <coordinates>-85.026427,35.94383,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Strate Insurance Group, Inc.</B><BR>1750 W. Andrew Johnson Highway<BR>Morristown, TN<BR>Phone: 423-318-5800<BR>www.strateinsurance.com]]></description>
+    <Point>
+      <coordinates>-83.315391,36.207144,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Swallows Insurance Agency, Inc</B><BR>480 Neal StreetSuite 100<BR>Cookeville, TN<BR>Phone: 931-526-4025<BR>www.swallowsinsurance.com]]></description>
+    <Point>
+      <coordinates>-85.49792,36.138447,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Custom Insurance Services, Inc.</B><BR>200 Mississippi Ave.<BR>Crystal City, MO<BR>Phone: (636) 931-1200<BR>www.custom-ins.com]]></description>
+    <Point>
+      <coordinates>-90.377425,38.221426,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Missouri General Insurance Agency, Inc. D.B.A. MGI Risk Advisors</B><BR>1227 Fern Ridge Pkwy<BR>St Louis, MO<BR>Phone: (314) 432-6464<BR>https://mgi-risk.com/]]></description>
+    <Point>
+      <coordinates>-90.472584,38.683699,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Porch-Stribling-Webb, Inc.</B><BR>132 E. Main St.<BR>Waverly, TN<BR>Phone: 931-296-4271<BR>www.pswins.com]]></description>
+    <Point>
+      <coordinates>-87.792456,36.08295,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Heritage Insurance Group, Inc.</B><BR>532 Princeton Road<BR>Johnson City, TN<BR>Phone: 423-283-9811<BR>www.herinsgrp.com]]></description>
+    <Point>
+      <coordinates>-82.366687,36.355793,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>First Insurance Group</B><BR>215 North Cumberland Street<BR>Lebanon, TN<BR>Phone: 615-443-4778<BR>www.firstinsgroup.com]]></description>
+    <Point>
+      <coordinates>-86.290302,36.209891,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Holman & Holman Agency</B><BR>611 Main Street<BR>Springfield, TN<BR>Phone: 615-384-0261<BR>www.holmanandholmanins.com]]></description>
+    <Point>
+      <coordinates>-86.885393,36.508192,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Joseph M.Wiedemann and Sons, Inc.</B><BR>505 East Golf Road<BR>Arlington Heights, IL<BR>Phone: 847-228-8400<BR>www.jmwsons.com]]></description>
+    <Point>
+      <coordinates>-87.976898,42.050881,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Hawkins Insurance Group D.B.A. Hawkins Harrison Insurance</B><BR>103 South First St.<BR>Edina, MO<BR>Phone: (660) 397-2251<BR>www.hawkinsharrison.com]]></description>
+    <Point>
+      <coordinates>-92.17492,40.166966,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Dumbaugh Insurance Agency, Inc.</B><BR>122 South Main Street<BR>Mount Vernon, OH<BR>Phone: 740-397-1234<BR>www.dumbaughinsurance.com]]></description>
+    <Point>
+      <coordinates>-82.485196,40.39205,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Evarts Tremaine</B><BR>1111 Superior AvenueSuite 420<BR>Cleveland, OH<BR>Phone: 216-621-7183<BR>www.evartstremaine.com]]></description>
+    <Point>
+      <coordinates>-81.686161,41.503467,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Hosket Ulen Insurance Solutions LLC</B><BR>6640 Riverside DriveSuite 400<BR>Dublin, OH<BR>Phone: 614-339-1771<BR>www.hosketulen.com]]></description>
+    <Point>
+      <coordinates>-83.131168,40.095149,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>United Heartland Insurance Agencies</B><BR>150 High Street<BR>Hamilton, OH<BR>Phone: 513-896-5555<BR>www.uhins.com]]></description>
+    <Point>
+      <coordinates>-84.585596,39.423217,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Schumacher Insurance Agency, Inc.</B><BR>1428 US Route 68<BR>Maysville, KY<BR>Phone: 606-759-5663<BR>]]></description>
+    <Point>
+      <coordinates>-83.794579,38.631945,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Chappell, Smith & Associates, Inc.</B><BR>1006 Merylinger Court<BR>Franklin, TN<BR>Phone: 615-435-8300<BR>www.chappellsmith.com]]></description>
+    <Point>
+      <coordinates>-86.829858,35.940581,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Joe M. Welborn Insurance, Inc D.B.A. Ash/Welborn Insurance</B><BR>103 Midway Drive Suite A<BR>Cornelia, GA<BR>Phone: (706)510-0221<BR>www.ashwelborninsurance.com]]></description>
+    <Point>
+      <coordinates>-83.548083,34.545788,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Wyatt Insurance Services, Inc.</B><BR>312 Prosperity RdSuite 105<BR>Knoxville, TN<BR>Phone: 865-470-9654<BR>www.wyattinsurance.com]]></description>
+    <Point>
+      <coordinates>-84.078352,35.923781,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Robins Insurance Agency, Inc.</B><BR>11 Music Circle S<BR>Nashville, TN<BR>Phone: 615-665-9200<BR>www.robinsins.com]]></description>
+    <Point>
+      <coordinates>-86.822976,36.095434,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>William Blount & Associates, Inc.</B><BR>1016 Gettysvue Way<BR>Knoxville, TN<BR>Phone: 865-588-7000<BR>www.williamblountinc.com]]></description>
+    <Point>
+      <coordinates>-84.081033,35.885666,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>RPA Insurance, LLC D.B.A. RSS Insurance</B><BR>6236 Airpark Drive, Suite B<BR>Chattanooga, TN<BR>Phone: 423-954-9100<BR>www.rssins.com]]></description>
+    <Point>
+      <coordinates>-85.184934,35.036143,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>The Sheward-Fulks Insurance Agency, Inc.</B><BR>738 E. Main Street<BR>Jackson, OH<BR>Phone: 740-286-1708<BR>www.shewardinsurance.com]]></description>
+    <Point>
+      <coordinates>-82.62805,39.042134,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Bernard Williams & Company</B><BR>6001 Chatham Center Drive Suite 100<BR>Savannah, GA<BR>Phone: 912-234-4476<BR>www.thepoweroftheshield.com]]></description>
+    <Point>
+      <coordinates>-81.108859,32.046598,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Turner & Associates Insurance, Inc.</B><BR>One St Andrews Court<BR>Brunswick, GA<BR>Phone: 912-265-2840<BR>www.turn2us.com]]></description>
+    <Point>
+      <coordinates>-81.49858,31.149845,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>The Harbin Agency, Inc</B><BR>215 Greencastle Road<BR>Tyrone, GA<BR>Phone: 770-461-4315<BR>www.harbinagency.com]]></description>
+    <Point>
+      <coordinates>-84.454778,33.459164,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Boswell Insurance Group, LLC</B><BR>788 Prince Avenue<BR>Athens, GA<BR>Phone: 706-546-8100<BR>www.boswellgroupathens.com]]></description>
+    <Point>
+      <coordinates>-83.39048,33.962006,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>BOA Insurance Agency</B><BR>154 N. Henderson Avenue<BR>Sevierville, TN<BR>Phone: 865-453-4675<BR>www.boainsurance.net]]></description>
+    <Point>
+      <coordinates>-83.551312,35.86755,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Thompson & Smith Insurance</B><BR>380 Carriage House Drive<BR>Jackson, TN<BR>Phone: 731-664-4750<BR>www.thompsonandsmith.com]]></description>
+    <Point>
+      <coordinates>-88.843608,35.66596,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Meybohm Scarborough Insurance, LLC D.B.A. MAI Risk Advisors</B><BR>3512 Wheeler Road<BR>Augusta, GA<BR>Phone: 706-722-8338<BR>www.mairiskadvisors.com]]></description>
+    <Point>
+      <coordinates>-82.074035,33.486772,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Zorn & Son Insurance</B><BR>603 W First Street<BR>Vidalia, GA<BR>Phone: 912-537-7951<BR>www.zorninsight.com]]></description>
+    <Point>
+      <coordinates>-82.40534,32.217265,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Raborn Insurance Agency, Inc.</B><BR>200 South Lowry Street<BR>Smyrna, TN<BR>Phone: 615-459-4145<BR>www.raborn.net]]></description>
+    <Point>
+      <coordinates>-86.514385,35.97738,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Skelton-Morris Associates, LLC</B><BR>26 Chandler Center<BR>Hartwell, GA<BR>Phone: 706-376-8035<BR>www.skelton-morris.com]]></description>
+    <Point>
+      <coordinates>-82.935213,34.362527,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Westan Insurance Group, Inc.</B><BR>315 South Second Street<BR>Union City, TN<BR>Phone: 731-885-5453<BR>www.westan.net]]></description>
+    <Point>
+      <coordinates>-89.058524,36.42401,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Barger Insurance Agency, Inc.</B><BR>326 Public SquareSuite 100<BR>Columbia, KY<BR>Phone: 270-384-2457<BR>www.bargerins.com]]></description>
+    <Point>
+      <coordinates>-85.306059,37.102611,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Hunt-Miller Insurance Agency, Inc. D.B.A. HM Advisors</B><BR>211 Independence Drive<BR>Warner Robins, GA<BR>Phone: 478-922-8531<BR>www.hunt-miller.com]]></description>
+    <Point>
+      <coordinates>-83.640814,32.592382,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Lee, Hill & Johnston Insurors</B><BR>212 Savannah Avenue<BR>Statesboro, GA<BR>Phone: 912-764-9896<BR>www.lhjins.com]]></description>
+    <Point>
+      <coordinates>-81.777286,32.44637,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Hart, McConahy & Martz, Inc.</B><BR>2562 West 12th StreetSuite 250<BR>Erie, PA<BR>Phone: 814-455-0987<BR>www.hmm-ins.com]]></description>
+    <Point>
+      <coordinates>-80.170766,42.094865,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Calvert Pearson Insurance Group</B><BR>712 Pennsylvania Avenue W<BR>Warren, PA<BR>Phone: 814-726-5610<BR>www.calvertagency.com]]></description>
+    <Point>
+      <coordinates>-79.156737,41.845204,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Orr Insurance Agency, Inc.</B><BR>904 Bellevue Avenue<BR>Dublin, GA<BR>Phone: 478-272-0915<BR>www.orrinsuranceagency.com]]></description>
+    <Point>
+      <coordinates>-82.919167,32.536673,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>LB Benefits, Inc. D.B.A. Lohman Companies</B><BR>3901 15th Street D<BR>Moline, IL<BR>Phone: 309-764-8331<BR>www.lohman-companies.com]]></description>
+    <Point>
+      <coordinates>-90.513617,41.473597,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Lester Insurance Group Inc.</B><BR>165 W. Main Street<BR>Wytheville, VA<BR>Phone: 276-663-1568<BR>www.lesterins.net]]></description>
+    <Point>
+      <coordinates>-81.084451,36.949097,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Griffin & Griffin Financial Services, Inc. D.B.A. Collegeville Insurance Group</B><BR>41 West Main Street<BR>Collegeville, PA<BR>Phone: 610-454-0300<BR>www.griffingriffin.net]]></description>
+    <Point>
+      <coordinates>-75.465783,40.194743,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Karp & Lohmeyer Inc. D.B.A. Anderson Insurance</B><BR>570 Vale Park Road, Suite A<BR>Valparaiso, IN<BR>Phone: 219-462-5178<BR>www.aiwmi.com]]></description>
+    <Point>
+      <coordinates>-87.06715,41.494278,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Park Avenue Service Corporation D.B.A. GTPS Insurance Agency</B><BR>1311 S. Neil Street<BR>Champaign, IL<BR>Phone: 217-359-9000<BR>www.gtpsins.com]]></description>
+    <Point>
+      <coordinates>-88.244554,40.101032,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Brennan & Stuart, Inc.</B><BR>222 Bucklin Street<BR>La Salle, IL<BR>Phone: 815-223-0137<BR>www.brennanstuart.com]]></description>
+    <Point>
+      <coordinates>-89.099787,41.329094,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Winters LLP</B><BR>201 South 5th Street<BR>Quincy, IL<BR>Phone: 217-223-4080<BR>www.wintersins.com]]></description>
+    <Point>
+      <coordinates>-91.408257,39.930402,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Vince Konen Insurance Agency, Inc. D.B.A. Konen Insurance</B><BR>2570 Beverly DriveSuite 100<BR>Aurora, IL<BR>Phone: 630-897-4239<BR>www.konen.com]]></description>
+    <Point>
+      <coordinates>-88.274503,41.807133,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Dasco Insurance Agency, Inc.</B><BR>628 Academy Drive<BR>Northbrook, IL<BR>Phone: 847-291-0660<BR>www.dascoins.com]]></description>
+    <Point>
+      <coordinates>-87.856866,42.14232,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Fallaize Insurance Agency, Inc.</B><BR>754-758 Holcomb Bridge Road<BR>Norcross, GA<BR>Phone: 770-242-8842<BR>www.fallaize.com]]></description>
+    <Point>
+      <coordinates>-84.223725,33.946063,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Jamieson & Fisher, Inc.</B><BR>114 West Liberty Avenue<BR>Covington, TN<BR>Phone: 901-476-8644<BR>www.jamiesonandfisher.com]]></description>
+    <Point>
+      <coordinates>-89.646935,35.564601,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Lander Van Gundy Agency, Inc. D.B.A. Van Gundy Insurance</B><BR>101 South Towanda Ave<BR>Normal, IL<BR>Phone: 309-452-1156<BR>www.vangundy.com]]></description>
+    <Point>
+      <coordinates>-88.960676,40.510678,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Resource Insurance Agency D.B.A. Resource Insurance</B><BR>555 Bethany Road<BR>DeKalb, IL<BR>Phone: 815-748-1489<BR>www.resourcebank.com/insurance]]></description>
+    <Point>
+      <coordinates>-88.726908,41.966562,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Moore Insurance Agency</B><BR>1009 Jernigan Street<BR>Perry, GA<BR>Phone: 478-987-1832<BR>www.mooreins.net]]></description>
+    <Point>
+      <coordinates>-83.734569,32.457592,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Pufalt-Pauley Insurance Agency, Inc.</B><BR>315 N. Illinois Street<BR>Belleville, IL<BR>Phone: 618-233-0034<BR>www.pufalt-pauleyinsurance.com]]></description>
+    <Point>
+      <coordinates>-89.984631,38.517174,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Buttrey-Wulff-Mamminga Agency, Inc.</B><BR>355 First Street<BR>Batavia, IL<BR>Phone: 630-879-0111<BR>www.bwmins.com]]></description>
+    <Point>
+      <coordinates>-88.313612,41.848357,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Bradshaw & Company Insurors</B><BR>421 West Court Street<BR>Dyersburg, TN<BR>Phone: 731-285-5767<BR>www.bradshawandcompanyinsurors.com]]></description>
+    <Point>
+      <coordinates>-89.389774,36.032892,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Mike Keith Insurance, Inc.</B><BR>103 W Franklin St<BR>Clinton, MO<BR>Phone: (660) 885-5581<BR>www.mkeithins.com]]></description>
+    <Point>
+      <coordinates>-93.776372,38.370959,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>HAWK Advisers, Inc.</B><BR>206 Williamson RoadSuite 100<BR>Roanoke, VA<BR>Phone: 540-343-4309<BR>www.hawkadvisers.com]]></description>
+    <Point>
+      <coordinates>-79.937486,37.270359,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>The Rockwood Company</B><BR>20 N Wacker DriveSuite 600<BR>Chicago, IL<BR>Phone: 312-621-2200<BR>www.rockwoodco.com]]></description>
+    <Point>
+      <coordinates>-87.637513,41.882534,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Scott Agency</B><BR>408 N Sturgeon St<BR>Montgomery City, MO<BR>Phone: (573) 564-2237<BR>www.scottagencyins.com/]]></description>
+    <Point>
+      <coordinates>-91.506809,38.979996,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Saginaw Bay Underwriters</B><BR>1258 S Washington Ave<BR>Saginaw, MI<BR>Phone: 989-752-8600<BR>www.sbuins.com]]></description>
+    <Point>
+      <coordinates>-83.94562,43.419601,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Smith & Eddy Insurance, Inc.</B><BR>201 South Main St<BR>Scottville, MI<BR>Phone: 231-757-4743<BR>www.smith-eddy.com]]></description>
+    <Point>
+      <coordinates>-86.279052,43.952794,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Spire America Holdings, Inc. D.B.A. Top O Michigan Insurance Solutions</B><BR>514 N Ripley Blvd<BR>Alpena, MI<BR>Phone: 989-356-6133<BR>www.TOMIA247.COM]]></description>
+    <Point>
+      <coordinates>-83.452102,45.057219,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Hartland Insurance Agency, Inc.</B><BR>2532 N Old US-23<BR>Hartland, MI<BR>Phone: 810-632-5161<BR>www.hartlandinsurance.com]]></description>
+    <Point>
+      <coordinates>-83.7201,42.6413,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Lester, Greene & McCord Insurance Agency, Inc. D.B.A. Lester, Greene, McCord & Thoma Insurance Inc.</B><BR>115 West Lauderdale Street<BR>Tullahoma, TN<BR>Phone: 931-455-3453<BR>www.lester-greene-mccord-thoma.com]]></description>
+    <Point>
+      <coordinates>-86.209779,35.360831,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>MLL Insurance Agency</B><BR>2760 E Lansing Drive<BR>East Lansing, MI<BR>Phone: 517-351-9117<BR>www.mllins.com]]></description>
+    <Point>
+      <coordinates>-84.452105,42.749687,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Triangle Insurance & Associates, LLC</B><BR>222 N. Bickett Blvd.<BR>Louisburg, NC<BR>Phone: (919) 496-2239<BR>www.triangleinsurance.com]]></description>
+    <Point>
+      <coordinates>-78.293708,36.100686,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Mills-Shellhammer & Associates, Inc. D.B.A. Mills-Shellhammer-Puetz & Associates</B><BR>117 Pierce Street 200<BR>Sioux City, IA<BR>Phone: (712) 258-2580<BR>www.mspinsurance.com]]></description>
+    <Point>
+      <coordinates>-96.405626,42.491731,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Fee Insurance Group, Inc.</B><BR>2920 N. Plum Street<BR>Hutchinson, KS<BR>Phone: (620) 662-2381<BR>www.feeinsurance.com/]]></description>
+    <Point>
+      <coordinates>-97.921874,38.085644,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Griffin and Company Inc.</B><BR>2543 Lafayette Plaza DrivePO BOX 71725<BR>Albany, GA<BR>Phone: 229-432-9892<BR>www.griffin-company.com]]></description>
+    <Point>
+      <coordinates>-84.222386,31.612793,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Arachas Group, LLC</B><BR>852 W. Bartlett Rd.<BR>Bartlett, IL<BR>Phone: 630-289-4410<BR>www.arachasgroup.com]]></description>
+    <Point>
+      <coordinates>-88.202158,41.994767,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Olsick Insurance Group</B><BR>50 75th Street Suite 216<BR>Willowbrook, IL<BR>Phone: 630-325-9199<BR>www.olsick.com]]></description>
+    <Point>
+      <coordinates>-87.946638,41.752913,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Boley-Featherston-Huffman & Deal Co</B><BR>701 Lamar StPO Box 97513<BR>Wichita Falls, TX<BR>Phone: 940-723-7111<BR>https://www.boleyfeatherston.com]]></description>
+    <Point>
+      <coordinates>-98.502071,33.922185,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>The Nulty Agency LLC</B><BR>5579 Stadium Drive<BR>Kalamazoo, MI<BR>Phone: 269-372-9200<BR>www.nulty.com]]></description>
+    <Point>
+      <coordinates>-85.659467,42.267357,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Middendorf Insurance Associates Inc.</B><BR>8400 Hickman Rd<BR>Clive, IA<BR>Phone: 515-252-1414<BR>www.middendorfins.com]]></description>
+    <Point>
+      <coordinates>-93.733251,41.614810,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>GREATER INSURANCE SERVICE OF NORTHEASTERN MINNESOTA INC</B><BR>407 S POKEGAMA AVE  1<BR>GRAND RAPIDS, MN<BR>Phone: (218) 327-1854<BR>www.gismn.com]]></description>
+    <Point>
+      <coordinates>-93.529154,47.227684,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>CARTIER AGENCY INC D.B.A. Cartier Insurance</B><BR>310 E Superior Street<BR>Duluth, MN<BR>Phone: (218) 727-5992<BR>www.caduluth.com/]]></description>
+    <Point>
+      <coordinates>-92.131841,46.761537,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Kingsgate Insurance Center, Inc. D.B.A. Kingsgate Insurance</B><BR>924 Central Ave<BR>Fort Dodge, IA<BR>Phone: 515-576-4321<BR>www.kingsgateinsurance.com]]></description>
+    <Point>
+      <coordinates>-94.185074,42.505646,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Koehler Insurance, Inc. D.B.A. Shomo-Madsen Insurance</B><BR>22 E. Main StreetPO Box 129<BR>Marshalltown, IA<BR>Phone: 641-753-6691<BR>www.shomo-madsen.com]]></description>
+    <Point>
+      <coordinates>-92.911928,42.049484,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Hughes, Brennan & Wirtz, Inc.</B><BR>3685 450th AvePO Box 97<BR>Emmetsburg, IA<BR>Phone: (712) 852-2523<BR>www.hughesbrennanwirtz.com/]]></description>
+    <Point>
+      <coordinates>-94.697946,43.114603,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Horak Insurance, Inc</B><BR>115 E Washington St<BR>Washington, IA<BR>Phone: 319-653-2116<BR>www.horakinsurance.com/]]></description>
+    <Point>
+      <coordinates>-91.690924,41.298098,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Shoreline Insurance Agency, Inc.</B><BR>875 W. Broadway Ave.<BR>Muskegon, MI<BR>Phone: 231-755-1919<BR>www.shorelineagency.com]]></description>
+    <Point>
+      <coordinates>-86.265145,43.200973,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Walker Agency, Inc.</B><BR>103 E. Huron St<BR>Berlin, WI<BR>Phone: (920) 361-4444<BR>www.walkeragencyinc.com]]></description>
+    <Point>
+      <coordinates>-88.946491,43.968887,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Green Bay Insurance Center</B><BR>417 S Monroe Ave<BR>Green Bay, WI<BR>Phone: (920) 437-9281<BR>www.gbic.com]]></description>
+    <Point>
+      <coordinates>-88.012514,44.508098,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Charis Insurance Group, Inc.</B><BR>7 North Lane<BR>Lititz, PA<BR>Phone: 717-202-8860<BR>www.charisins.com]]></description>
+    <Point>
+      <coordinates>-76.298,40.1567,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Burns Insurance Agency LLC</B><BR>500 South Central Avenue<BR>Marshfield, WI<BR>Phone: (715) 387-0002<BR>www.burns-insurance.com/]]></description>
+    <Point>
+      <coordinates>-90.176552,44.66298,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Combined Insurance Agencies</B><BR>720 St. Joseph Drive<BR>St.Joseph, MI<BR>Phone: 269-983-7161<BR>www.ciainsurancemi.com]]></description>
+    <Point>
+      <coordinates>-86.486461,42.081511,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Family Insurance Center</B><BR>1017 Orchard Drive<BR>Seymour, WI<BR>Phone: (920) 833-6802<BR>www.familyinsctr.com]]></description>
+    <Point>
+      <coordinates>-88.325996,44.501473,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Tillman Insurance Agency, Inc.</B><BR>3964 Old US Highway 41 N<BR>Valdosta, GA<BR>Phone: (229) 242-5377<BR>www.tia-ins.com]]></description>
+    <Point>
+      <coordinates>-83.338746,30.904398,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Roland, Abbott & DeZoort Insurance Agency, LLC</B><BR>2200 Northside Crossing<BR>Macon, GA<BR>Phone: (478) 745-7200<BR>www.radinsagency.com]]></description>
+    <Point>
+      <coordinates>-83.704022,32.897506,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>McDonald Insurance Services, LLC D.B.A. McDonald Insurance Agency</B><BR>1810 Crest View DriveSuite 1A<BR>Hudson, WI<BR>Phone: (715) 386-9494<BR>www.mcdonaldagencyhudson.com/]]></description>
+    <Point>
+      <coordinates>-92.733195,44.962165,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Dansig, Inc.</B><BR>111 E Decatur St<BR>Decatur, IL<BR>Phone: 217-423-3311<BR>www.dansig.com]]></description>
+    <Point>
+      <coordinates>-88.955419,39.837123,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Sneed Insurance</B><BR>4515 Poplar Ave Suite 322<BR>Memphis, TN<BR>Phone: (901) 372-4580<BR>www.sneedinsurance.com]]></description>
+    <Point>
+      <coordinates>-89.911644,35.117574,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Maddox Insurance, LLC</B><BR>21290 E. Main Street<BR>Huntingdon, TN<BR>Phone: (731) 986-4432<BR>www.maddoxinsurance.com]]></description>
+    <Point>
+      <coordinates>-88.40111,36.008583,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Moores Insurance Management Inc.</B><BR>PO Box 18120<BR>Minneapolis, MN<BR>Phone: (651) 255-6800<BR>www.mooresinsurance.com]]></description>
+    <Point>
+      <coordinates>-93.095714,44.945667,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>McGowan Insurance Group, LLC</B><BR>355 Indiana Ave. Suite 200<BR>Indianapolis, IN<BR>Phone: 317-464-5000<BR>www.mcgowaninsgrp.com]]></description>
+    <Point>
+      <coordinates>-86.156400,39.770800,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Cowell James Forge Insurance Group</B><BR>10525 N Ambassador Drive301<BR>Kansas City, MO<BR>Phone: (816) 471-4245<BR>www.cjfig.com/]]></description>
+    <Point>
+      <coordinates>-94.673606,39.283844,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Charlson Wilson Insurance D.B.A. C & W Insurance</B><BR>555 Poyntz Ave 205<BR>Manhattan, KS<BR>Phone: (785) 537-1600<BR>www.charlsonwilson.com]]></description>
+    <Point>
+      <coordinates>-96.56438,39.179041,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>SFD Insurance, LLC D.B.A. Sheets Forrest Draper Insurance</B><BR>631 9th St<BR>Marion, IA<BR>Phone: 319-377-4861<BR>www.marioniowainsurance.com]]></description>
+    <Point>
+      <coordinates>-91.599691,42.032593,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Catawba First Insurance Associates, Inc.</B><BR>232 West A Street<BR>Newton, NC<BR>Phone: (828) 464-3829<BR>www.catawbafirstinsurance.com/]]></description>
+    <Point>
+      <coordinates>-81.226179,35.664,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Charles C Adams Insurance Inc.</B><BR>221 20th Street<BR>Ashland, KY<BR>Phone: (606) 325-9709<BR>www.charlesadamsins.com/]]></description>
+    <Point>
+      <coordinates>-82.634683,38.477052,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>The Cornerstone Agency, Inc.</B><BR>P.O. Box 185<BR>Tampico, IL<BR>Phone: 815-438-3923<BR>www.2cornerstone.com/]]></description>
+    <Point>
+      <coordinates>-89.785606,41.631109,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>B. Morris Insurance Inc. D.B.A. Public Risk Placement</B><BR>22 Court Street<BR>New Castle, KY<BR>Phone: 502-845-2884<BR>www.insuranceassociatesky.com]]></description>
+    <Point>
+      <coordinates>-85.168837,38.434024,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Rathbun Agency Inc</B><BR>529 W Saginaw Street<BR>Lansing, MI<BR>Phone: 517-482-1316<BR>www.rathbunagency.com]]></description>
+    <Point>
+      <coordinates>-84.559586,42.740661,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Lewis & Wallace Associates, Inc. D.B.A. Lewis and Wallace</B><BR>1857 W McIntosh Road<BR>Griffin, GA<BR>Phone: (770) 879-6060<BR>www.lewisandwallaceassociates.com]]></description>
+    <Point>
+      <coordinates>-84.303158,33.274027,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Sedlak, LLC D.B.A. Schmale Insurance Agency</B><BR>305 Carlyle Avenue<BR>Belleville, IL<BR>Phone: 618-233-0193<BR>www.schmaleinsurance.com]]></description>
+    <Point>
+      <coordinates>-89.961188,38.515909,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>5Kidds, LLC D.B.A. North Georgia Insurance Services</B><BR>4997 Highway 53<BR>Braselton, GA<BR>Phone: 706-654-5353<BR>]]></description>
+    <Point>
+      <coordinates>-83.762888,34.106991,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Forward Insurance Agency</B><BR>1001 N. Central Avenue<BR>Marshfield, WI<BR>Phone: 715-389-6370<BR>www.forward.bank/insurance]]></description>
+    <Point>
+      <coordinates>-90.166872,44.676055,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Bay Area Insurance Group, LLC</B><BR>1 Annapolis Street, Suite 100<BR>Annapolis, MD<BR>Phone: (410) 647-7333<BR>www.bayareains.com]]></description>
+    <Point>
+      <coordinates>-76.442224,39.027032,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Ratcliff & Blake Insurance Professionals, Inc.</B><BR>107 High Ave W<BR>Oskaloosa, IA<BR>Phone: 641-673-8603<BR>www.ratcliffblake.com]]></description>
+    <Point>
+      <coordinates>-92.643478,41.29461,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Rob Hill Insurance, Inc. D.B.A. Rob Hill Insurance Group</B><BR>2800 Shallowford Road, Building A, Suite B<BR>Atlanta, GA<BR>Phone: 678-791-7132<BR>https://www.robhillgroup.com/]]></description>
+    <Point>
+      <coordinates>-84.2907,33.869799,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Team Andy Agency, Inc. D.B.A. Kind Insurance</B><BR>875 Market StreetSuite100<BR>Lemoyne, PA<BR>Phone: 717-739-4639<BR>www.teamandyagency.com]]></description>
+    <Point>
+      <coordinates>-76.8996,40.2474,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Legacy Insurance Partners, Inc.</B><BR>630 4th Street SW<BR>Hickory, NC<BR>Phone: 844-235-0677<BR>n/a]]></description>
+    <Point>
+      <coordinates>-81.3233,35.7426,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Tulip City Agency Ltd.</B><BR>700 Washington Street<BR>Pella, IA<BR>Phone: (641) 628-1270<BR>www.tulipcity.com]]></description>
+    <Point>
+      <coordinates>-92.916591,41.408381,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Kevin Brewer & Associates, Inc</B><BR>1981 J N Pease Place, Suite 202<BR>Charlotte, NC<BR>Phone: 704-549-1222<BR>www.kevinbrewerassociates.com/]]></description>
+    <Point>
+      <coordinates>-80.754558,35.300293,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Rick Leet Agency LLC D.B.A. Rick Leet Agency</B><BR>18 Como Road PO Box 300<BR>Lakewood, PA<BR>Phone: 570-798-2666<BR>www.leetinsurance.com]]></description>
+    <Point>
+      <coordinates>-75.373165,41.852304,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Whitenack & Souder Insurance, Inc.</B><BR>204 South Main Street<BR>Harrodsburg, KY<BR>Phone: (859) 734-4358<BR>www.whitenacksouder.com/]]></description>
+    <Point>
+      <coordinates>-84.843625,37.761002,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Oaklane Insurance Agency, Inc.</B><BR>333 IL-83 200<BR>Mundelein, IL<BR>Phone: 847-393-7922<BR>www.oaklaneins.com]]></description>
+    <Point>
+      <coordinates>-88.000355,42.238888,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Duncan Insurance Group, LLC</B><BR>311 Main Street<BR>Irwin, PA<BR>Phone: 724-863-3420<BR>www.duncangrp.com]]></description>
+    <Point>
+      <coordinates>-79.713263,40.322582,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Seltzer Group Partners LLC</B><BR>610 Route 61 SouthP.O. Box 219<BR>Orwigsburg, PA<BR>Phone: 888-366-1000<BR>www.seltzergrp.com]]></description>
+    <Point>
+      <coordinates>-76.114127,40.642846,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Spring Ridge Insurance Services, LLC</B><BR>1290 Broadcasting RoadSte. 152<BR>Wyomissing, PA<BR>Phone: 610-685-2992<BR>www.springridgeinsurance.com/]]></description>
+    <Point>
+      <coordinates>-75.985552,40.351609,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Loman-Ray Insurance Group, LLC</B><BR>108 S Lincoln<BR>Broadlands, IL<BR>Phone: 217-834-3309<BR>www.lomanray.com]]></description>
+    <Point>
+      <coordinates>-87.996168,39.910896,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Guy Hurley, LLC</B><BR>989 E. South BlvdSuite 200<BR>Rochester Hills, MI<BR>Phone: (248) 519-1400<BR>www.ghbh.com]]></description>
+    <Point>
+      <coordinates>-83.111573,42.623679,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Trego Insurance Agency, LLC</B><BR>3564 Penn Ave, Ste 5<BR>Sinking Spring, PA<BR>Phone: (484) 388-4400<BR>www.tregoinsurance.com]]></description>
+    <Point>
+      <coordinates>-76.037287,40.326578,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Synergy LLC D.B.A. Synergy Insurance Group</B><BR>13800 Jackson Road<BR>Mishawaka, IN<BR>Phone: 574-258-5555<BR>www.synergyinsurancegroup.com]]></description>
+    <Point>
+      <coordinates>-86.134384,41.622355,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>KAI Garrett Insurance Agency, LLC</B><BR>212 Sidney Baker St S<BR>Kerrville, TX<BR>Phone: 830-896-6600<BR>www.garrettinsurance.com]]></description>
+    <Point>
+      <coordinates>-99.145286,30.042694,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Moncure Insurance Agency Inc</B><BR>203 S Main Street<BR>Blackstone, VA<BR>Phone: 434-292-3012<BR>www.moncureins.com/]]></description>
+    <Point>
+      <coordinates>-77.997942,37.079569,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>KAI Yurconic Insurance Agency, LLC D.B.A. The Yurconic Agency</B><BR>5910 Hamilton Blvd<BR>Allentown, PA<BR>Phone: 610-770-6600<BR>www.yurconic.com]]></description>
+    <Point>
+      <coordinates>-75.571841,40.558703,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Trimble-Batjer Insurance Associates</B><BR>201 S. Chadbourne<BR>San Angelo, TX<BR>Phone: (325) 653-6733<BR>www.trimble-batjer.com]]></description>
+    <Point>
+      <coordinates>-100.436270,31.461261,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Conner Insurance Group, Inc.</B><BR>861 N Pontiac TrailSte 200<BR>Walled Lake, MI<BR>Phone: 248-427-9400<BR>www.connerinsgrp.com]]></description>
+    <Point>
+      <coordinates>-83.480610,42.538990,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>KAI Mason-McBride LLC</B><BR>3155 W. Big Beaver Road, Suite 125<BR>Troy, MI<BR>Phone: 248-822-7170<BR>www.mason-mcbride.com/]]></description>
+    <Point>
+      <coordinates>-83.190073,42.559049,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Ebensburg Insurance Agency</B><BR>129 E High St PO Box 90<BR>Ebensburg, PA<BR>Phone: 814-472-9557<BR>www.ebensburgins.com]]></description>
+    <Point>
+      <coordinates>-78.724625,40.485182,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>MKINS, LLC D.B.A. Mudron Kane Insurance Group</B><BR>113 Republic Ave<BR>Joliet, IL<BR>Phone: 815-744-0111<BR>www.mkiins.com]]></description>
+    <Point>
+      <coordinates>-88.140015,41.5247,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Loftis & Wetzel Insurance</B><BR>115 West Blackwell Ave<BR>Blackwell, OK<BR>Phone: 580-363-3434<BR>www.loftiswetzel.com]]></description>
+    <Point>
+      <coordinates>-97.283204,36.804232,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Iott Insurance Agency, Inc.</B><BR>9017 E. US 223<BR>Blissfield, MI<BR>Phone: 517-486-4381<BR>www.iott.com]]></description>
+    <Point>
+      <coordinates>-83.867700,41.825900,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>MFINS, Inc. D.B.A. Milam Felker Insurance</B><BR>401 E 7th Street<BR>Odessa, TX<BR>Phone: 432-332-0771<BR>www.mfins.com]]></description>
+    <Point>
+      <coordinates>-102.367,31.852,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Allbright & Duncan Insurance Agency, Inc</B><BR>3527 Billy Hext Road Building A<BR>Odessa, TX<BR>Phone: 432 362 6361<BR>www.allbrightduncan.com]]></description>
+    <Point>
+      <coordinates>-102.295359,31.887223,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Fullenkamp Insurance Agency, Inc.</B><BR>307 5th St PO Box 367<BR>West Point, IA<BR>Phone: 319-837-6178<BR>www.fullenkampins.com]]></description>
+    <Point>
+      <coordinates>-91.452446,40.717958,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Ozark Hills Insurance, Inc.</B><BR>1701 Porter Wagoner Boulevard<BR>West Plains, MO<BR>Phone: 417-257-1285<BR>www.ozarkhillsinsurance.com]]></description>
+    <Point>
+      <coordinates>-91.872622,36.746012,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Cole Paine & Carlin Insurance Agency, Inc. D.B.A. CPC Insurance</B><BR>1140 NW 50th<BR>Oklahoma City, OK<BR>Phone: 405-843-5678<BR>www.cpcinsurance.com]]></description>
+    <Point>
+      <coordinates>-97.530697,35.522358,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Earnie Cornelius Insurance Agency, Inc. D.B.A. ECI Agency, Inc.</B><BR>1213 Piedmont Road N, Suite B<BR>Piedmont, OK<BR>Phone: 405-373-2977<BR>www.eciagency.com]]></description>
+    <Point>
+      <coordinates>-97.745346,35.649802,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>The Beckman Company</B><BR>118 N. 16th Street<BR>Muskogee, OK<BR>Phone: 918-683-7844<BR>www.beckmancompany.com]]></description>
+    <Point>
+      <coordinates>-95.387599,35.754653,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>Somers Insurance Agency, Inc.</B><BR>112 South Main Street<BR>Lindsay, OK<BR>Phone: 405-756-3116<BR>www.somers-insurance.com]]></description>
+    <Point>
+      <coordinates>-97.778793,34.911856,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>KAI Strategic Insurance Partners LLC D.B.A. Strategic Insurance Partners</B><BR>492 Franklin Ave,<BR>Nutley, NJ<BR>Phone: 973-816-2953<BR>siprisk.com]]></description>
+    <Point>
+      <coordinates>-74.155736,40.823297,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+  <Placemark>
+    <description><![CDATA[<B>KAI Midwest Risk Partners LLC D.B.A. Arnold Insurance</B><BR>875 Northkingshighway Street<BR>Cape Girardeau, MO<BR>Phone: 573-651-0509<BR>www.arnoldic.com]]></description>
+    <Point>
+      <coordinates>-95.716800,37.225300,0</coordinates>
+    </Point>
+    <styleUrl>#KIGicon</styleUrl>
+  </Placemark>
+</Document>
+</kml>

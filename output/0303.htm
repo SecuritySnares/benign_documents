@@ -1,0 +1,101 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html lang="en-GB">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta http-equiv="Content-Script-Type" content="text/javascript">
+<meta http-equiv="Content-Style-Type" content="text/css">
+<script type="text/javascript" language="JavaScript1.2">
+if (navigator.userAgent.indexOf("ricoh_mfpapnl") > -1) {
+  document.write('<meta name="viewport" content="initial-scale=1.15">');
+} else {
+  <!-- Do Nothing -->
+}
+</script>
+<title>Configuring the WINS Server</title>
+<script type="text/javascript" language="JavaScript1.2">
+if (navigator.userAgent.indexOf("ricoh_mfpapnl") > -1) {
+  document.write('<link rel="stylesheet" title="Standard" href="../../web/css/def_exp_body_i_cheetah.css" type="text/css">');
+} else {
+  document.write('<link rel="stylesheet" title="Standard" href="../../web/css/def_exp_body_i.css" type="text/css">');
+}
+</script>
+<noscript><link rel="stylesheet" title="Standard" href="../../web/css/def_exp_body_i.css" type="text/css"></noscript>
+<!--[if IE 6]>
+<style>
+body.bodypage {
+   font-size : 80%;
+}
+div.bodypage {
+   font-size : 125%;
+}
+</style>
+<![endif]-->
+<link rel="contents" href="index.htm">
+<link rel="prev" href="0302.htm"><link rel="next" href="0304.htm">
+<script type="text/javascript" language="JavaScript1.2" src="../../booklist/js/split.js"></script>
+<script type="text/javascript" language="JavaScript1.2" src="../../booklist/js/jquery-1.4.3.min.js"></script>
+<script type="text/javascript" language="JavaScript1.2" src="../js/cookie.js"></script>
+<script type="text/javascript" language="JavaScript1.2" src="../js/honbun-i.js"></script>
+<script type="text/javascript" language="JavaScript1.2" src="../js/summary.js"></script>
+<script type="text/javascript" language="JavaScript1.2">
+<!--
+read_css();
+// -->
+</script>
+</head>
+<body class="bodypage" onLoad="initialize();">
+<noscript><div id="noscript">To use this manual, please enable JavaScript in your Web Browser.</div></noscript>
+<div class="bodypage">
+<div id="headertable">
+<div class="header" id="jump"><a href="#headerend"><img src="../../web/gen/jump_space.gif" alt="Skip header" width="1" height="52"></a></div>
+<div class="header" id="logo"><img src="../../manual_common_image/logo_nb.gif" alt="" width="4" height="54"><img src="../../common/image/logo-p.gif" alt="image" width="380" height="54"></div>
+<div class="header" id="search"><form name="search" onSubmit="SearchWord(); return false;"><label class="headersearchtext" for="seek" accesskey="0"><input class="headersearchtext" type="text" id="seek" name="seek" value="" size="16" maxlength="128" tabindex="0"></label><a class="linkimage" href="javascript:SearchWord();"><input type="image" src="../../web/gen/search.gif" title="Start search" alt="Search" name="btnsea1" ></a></form></div>
+<div class="header" id="pref"><a href="help.htm" title="Help">Help</a></div>
+<div class="header" id="headerend">&nbsp;</div>
+</div>
+<p class="breadcrumbs" id="breadCrumb"><a href="../../booklist/int/index_book.htm" title="Manuals for this product">Top Page</a>&nbsp;&gt;&nbsp;<a href="javascript:back_to_index()" title="Contents">Operating Instructions</a>&nbsp;&gt;&nbsp;<a href="index_chap_07.htm">Maintenance and Specifications</a>&nbsp;&gt;&nbsp;<a href="0296.htm">Appendix</a>&nbsp;&gt;&nbsp;Configuring the WINS Server</p>
+<div class="moduleh1" id="replace">
+<div class="buttonArea" id="insideTitle"><h1>Configuring the WINS Server</h1><div class="movement" id="prevnext"><a href="0302.htm" title="Previous topic"><span class="headernavitext"><img src="../../web/gen/i_prev.gif" alt="" width="13" height="15">Previous</span></a><a href="0304.htm" title="Next topic"><span class="headernavitext">Next<img src="../../web/gen/i_next.gif" alt="" width="13" height="15"></span></a></div></div><p>This section explains how to configure the WINS server.</p><p>The printer can be configured to register its NetBIOS name with a WINS server when the power is turned on. This enables the NetBIOS name of the printer to be specified from SmartDeviceMonitor for Admin even in a DHCP environment.</p><div class="note">
+<p><img src="../../web/gen/en-i_not.gif" alt="Note" width="73" height="16"></p><ul>
+<li><p>The WINS server is supported by Windows Server 2003 or later.</p></li>
+<li><p>For details about the WINS server settings, see Windows Help.</p></li>
+<li><p>If there is no reply from the WINS server, the NetBIOS name is registered by broadcast.</p></li>
+<li><p>The NetBIOS name can be entered using up to 15 alphanumeric characters.</p></li>
+</ul>
+</div>
+<div class="listterm">
+<p class="term">Using Web Image Monitor</p><div class="listitem"><div class="procedure">
+<div>
+<p class="operation"><img src="../../web/int/numb01.gif" alt="1" class="opnumber" width="25" height="16">Start your Web browser.</p></div>
+<div>
+<p class="operation"><img src="../../web/int/numb02.gif" alt="2" class="opnumber" width="25" height="16">Enter &quot;http://(machine's IP address or host name) /&quot; in the address bar to access the printer whose settings you want to change.</p></div>
+<div>
+<p class="operation"><img src="../../web/int/numb03.gif" alt="3" class="opnumber" width="25" height="16">Click <span class="softkeypc">[Login]</span>.</p><p class="supplement">The dialog box for entering the user name and password appears.</p></div>
+<div>
+<p class="operation"><img src="../../web/int/numb04.gif" alt="4" class="opnumber" width="25" height="16">Enter the user name and password, and then click <span class="softkeypc">[Login]</span>.</p><p class="supplement">Contact your administrator for information about the settings.</p><p class="supplement">Depending on the configuration of your Web browser, the login user name and password might be saved. If you do not want to save them, configure your Web browser's settings so that this information is not saved.</p></div>
+<div>
+<p class="operation"><img src="../../web/int/numb05.gif" alt="5" class="opnumber" width="25" height="16">In the menu area, click. Click <span class="softkeypc">[Configuration]</span> on the <span class="softkeypc">[Device Management]</span> menu.</p></div>
+<div>
+<p class="operation"><img src="../../web/int/numb06.gif" alt="6" class="opnumber" width="25" height="16">Under <samp class="screenmessagepc">“Network”</samp>, click <span class="softkeypc">[IPv4]</span>.</p></div>
+<div>
+<p class="operation"><img src="../../web/int/numb07.gif" alt="7" class="opnumber" width="25" height="16">Check that <span class="softkeypc">[Active]</span> is selected for <span class="softkeypc">[WINS]</span> in the <span class="softkeypc">[Ethernet]</span> column, and then enter the WINS server IPv4 address in <span class="softkeypc">[Primary WINS Server]</span> and <span class="softkeypc">[Secondary WINS Server]</span>.</p></div>
+<div>
+<p class="operation"><img src="../../web/int/numb08.gif" alt="8" class="opnumber" width="25" height="16">Click <span class="softkeypc">[OK]</span>.</p></div>
+<div>
+<p class="operation"><img src="../../web/int/numb09.gif" alt="9" class="opnumber" width="25" height="16"><samp class="screenmessagepc">“Updating...”</samp> appears. Wait for about one or two minutes, and then click <span class="softkeypc">[OK]</span>.</p></div>
+<div>
+<p class="operation"><img src="../../web/int/numb10.gif" alt="10" class="opnumber" width="25" height="16">Quit Web Image Monitor.</p></div>
+</div>
+</div></div>
+<div class="note">
+<p><img src="../../web/gen/en-i_not.gif" alt="Note" width="73" height="16"></p><ul>
+<li><p>For details about Web Image Monitor, see <a href="./0202.htm">Using Web Image Monitor</a>.</p></li>
+</ul>
+</div>
+</div>
+<div id="footertable">
+<div class="footer" id="move"><a href="#headertable" title="Top of page"><img src="../../web/gen/i_top.gif" alt="" width="21" height="15"><span class="footertext">Top</span></a></div><div class="footernavi"><a href="0302.htm" title="Previous topic"><img src="../../web/gen/i_prev.gif" alt="" width="13" height="15"><span class="footertext">Previous</span></a><img src="../../web/gen/i_dot.gif" alt="" width="14" height="15"><a href="0304.htm" title="Next topic"><span class="footertext">Next</span><img src="../../web/gen/i_next.gif" alt="" width="13" height="15"></a></div>
+<div class="footer" id="line"><img src="../../web/gen/bg_f.gif" alt="" width="760" height="1"></div>
+<div class="footer" id="copy"><address>Copyright &copy; 2012-2014</address></div>
+</div>
+</div></body></html>

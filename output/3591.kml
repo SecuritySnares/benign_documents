@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+  
+    <Document>
+
+      <name>Panoramas</name>
+      <open>1</open>
+
+      <Style id="panoramaStyle">
+        <IconStyle>
+          <Icon><href>http://gigapan.com/images/ge_icon.png</href></Icon>
+        </IconStyle>
+        <BalloonStyle>
+          <text>$[description]</text>
+        </BalloonStyle>
+      </Style>
+
+      
+  <PhotoOverlay id="gigapan_3591">
+  <name>Columbia Market , Columbia Pa.</name>
+  <Snippet maxLines="1">
+    <![CDATA[<a href="#gigapan_3591">Enter panorama</a>]]>
+  </Snippet>
+
+  
+    <description>
+      <![CDATA[
+
+        <div align="center">
+
+          <table width="500">
+            <tr>
+              <td>
+                <a href="http://gigapan.com">
+                  <img alt="Logo" src='http://gigapan.com/images/logo.png?1380820263/' />
+                </a>
+              </td>
+              <td>
+                <font size="10">$[name]</font>
+                <hr>
+                <a href="#gigapan_3591;flyto">Enter Panorama</a> |
+                <a href="http://gigapan.com/gigapans/3591">
+                  "Panorama at GigaPan.com"</a>
+              </td>
+            </tr>
+            <tr>
+              <td colspan="2" align="center">
+                <a href="#gigapan_3591"><img alt="Columbia Market , Columbia Pa." class="thumbnail" src="//static.gigapan.com/gigapans0/3591/images/3591-499x256.jpg" title="Columbia Market , Columbia Pa." /></a>
+              </td>
+            </tr>
+            <tr>
+              <td colspan="2">
+                <p>Columbia’s Historic Market House is located at the corner of Third and Locust Streets in Historic Downtown Columbia. The Columbia Market House is the oldest market house in Lancaster County; it blends both Federal and Greek Revival architectural styles.
+
+Panorama by Alan Chaffee Photography</p>
+                <p>Explore Score: $[score]</p>
+                <p align="right">
+                  <b>Author</b>:
+                  <a href="http://gigapan.com/profiles/CivilWarTrails">
+                    CivilWarTrails
+                  </a>
+                </p>
+              </td>
+            </tr>
+          </table>
+        </div>
+      ]]>
+    </description>
+  
+
+  <Camera id="gigapan_3591_camera">
+    <longitude>-76.501724</longitude>
+    <latitude>40.031706</latitude>
+    <altitude>4.0</altitude>
+    <heading>250.0</heading>
+    <tilt>90.0</tilt>
+    <roll>0.0</roll>
+  </Camera>
+
+  <styleUrl>#panoramaStyle</styleUrl>
+
+  <ExtendedData>
+    <Data name="score">
+      <value>1.0</value>
+    </Data>
+  </ExtendedData>
+
+  <color>feffffff</color>
+
+  <Icon>
+    <href>http://gigapan.com/get_ge_tile/3591/$[level]/$[y]/$[x]</href>
+  </Icon>
+
+  <rotation>0.0</rotation>
+
+  <ViewVolume id="gigapan_3591_viewvolume">
+    <leftFov>-100.0</leftFov>
+    <rightFov>100.0</rightFov>
+    <bottomFov>-30.0</bottomFov>
+    <topFov>72.7132179789086</topFov>
+    <near>8.0</near>
+  </ViewVolume>
+
+  <ImagePyramid>
+    <tileSize>256</tileSize>
+    <maxWidth>48835</maxWidth>
+    <maxHeight>25080</maxHeight>
+    <gridOrigin>upperLeft</gridOrigin>
+  </ImagePyramid>
+
+  <Point id="gigapan_3591_point">
+    <coordinates>-76.501724,40.031706</coordinates>
+  </Point>
+
+  <shape>sphere</shape>
+
+</PhotoOverlay>
+
+
+
+
+    </Document>
+  
+</kml>

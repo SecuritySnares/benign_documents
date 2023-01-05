@@ -1,0 +1,1772 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+<name>My 2019 Full Timeing Adventures</name>
+<Style id="s_ylw-pushpin">
+<IconStyle>
+<scale>1.1</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/paddle/grn-diamond.png</href>
+</Icon>
+<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+</IconStyle>
+<ListStyle>
+<ItemIcon>
+<href>http://maps.google.com/mapfiles/kml/paddle/grn-diamond-lv.png</href>
+</ItemIcon>
+</ListStyle>
+</Style>
+<Style id="s_ylw-pushpin_hl">
+<IconStyle>
+<scale>1.3</scale>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/paddle/grn-diamond.png</href>
+</Icon>
+<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+</IconStyle>
+<ListStyle>
+<ItemIcon>
+<href>http://maps.google.com/mapfiles/kml/paddle/grn-diamond-lv.png</href>
+</ItemIcon>
+</ListStyle>
+</Style>
+
+<StyleMap id="m_ylw-pushpin">
+<Pair>
+<key>normal</key>
+<styleUrl>#s_ylw-pushpin</styleUrl>
+</Pair>
+<Pair>
+<key>highlight</key>
+<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+</Pair>
+</StyleMap>
+
+<Placemark>
+<name>1/1-7/2019</name>
+<description>
+<![CDATA[<table style="margin: 25px;"><tr><td style="text-align: center; font-family: Arial, Helvetica, sans-serif;">
+	<div style="font-size: xx-large; font-weight: bold; padding-top: 15px;">Dodge City KOA</div>
+	Dodge City, KS
+	<br />
+	<img src="http://CowboyFrank.net/travel/CampPhotos/2019/2019-01-01.JPG" alt="" style="border: 1px solid Black; box-shadow: 10px 10px 10px #757575; margin: 15px; margin-right: 35px;">
+	</td></tr></table>]]>
+</description>
+<styleUrl>#m_ylw-pushpin</styleUrl>
+<Point>
+<altitudeMode>clampToGround</altitudeMode>
+<coordinates>-100.02503,37.74706,755.2</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>1/8-23/2019</name>
+<description>
+<![CDATA[<table style="margin: 25px;"><tr><td style="text-align: center; font-family: Arial, Helvetica, sans-serif;">
+	<div style="font-size: xx-large; font-weight: bold; padding-top: 15px;">New Horizons RV</div>
+	Junction City, KS<br>Getting warrenty work done
+	<br />
+	<img src="http://CowboyFrank.net/travel/CampPhotos/2019/2019-01-08.JPG" alt="" style="border: 1px solid Black; box-shadow: 10px 10px 10px #757575; margin: 15px; margin-right: 35px;">
+	</td></tr></table>]]>
+</description>
+<styleUrl>#m_ylw-pushpin</styleUrl>
+<Point>
+<altitudeMode>clampToGround</altitudeMode>
+<coordinates>-96.87319,39.00338,357.0</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>1/24/2019</name>
+<description>
+<![CDATA[<table style="margin: 25px;"><tr><td style="text-align: center; font-family: Arial, Helvetica, sans-serif;">
+	<div style="font-size: xx-large; font-weight: bold; padding-top: 15px;">Ellis Lakeside Campground (City park)</div>
+	Ellis, KS<br>Free Internet supplyed by local phone company
+	<br />
+	<img src="http://CowboyFrank.net/travel/CampPhotos/2019/2019-01-24.JPG" alt="" style="border: 1px solid Black; box-shadow: 10px 10px 10px #757575; margin: 15px; margin-right: 35px;">
+	</td></tr></table>]]>
+</description>
+<styleUrl>#m_ylw-pushpin</styleUrl>
+<Point>
+<altitudeMode>clampToGround</altitudeMode>
+<coordinates>-99.55741033405663,38.94033565430672,0</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>1/25/2019</name>
+<description>
+<![CDATA[<table style="margin: 25px;"><tr><td style="text-align: center; font-family: Arial, Helvetica, sans-serif;">
+	<div style="font-size: xx-large; font-weight: bold; padding-top: 15px;">Kit Carson RV Park</div>
+	Kit Carson, CO<br>$35.00<br>Over priced, junky, no water in winter, only 30 amp service at my site
+	<br />
+	<img src="http://CowboyFrank.net/travel/CampPhotos/2019/2019-01-25.JPG" alt="" style="border: 1px solid Black; box-shadow: 10px 10px 10px #757575; margin: 15px; margin-right: 35px;">
+	</td></tr></table>]]>
+</description>
+<styleUrl>#m_ylw-pushpin</styleUrl>
+<Point>
+<altitudeMode>clampToGround</altitudeMode>
+<coordinates>-102.79004,38.76399,1311.5</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>1/26-30/2019</name>
+<description>
+<![CDATA[<table style="margin: 25px;"><tr><td style="text-align: center; font-family: Arial, Helvetica, sans-serif;">
+	<div style="font-size: xx-large; font-weight: bold; padding-top: 15px;">Jan 26-30</div>
+	Chatfield State Park, Denver, CO<br>$35
+	<br />
+	<img src="http://CowboyFrank.net/travel/CampPhotos/2019/2019-01-26.JPG" alt="" style="border: 1px solid Black; box-shadow: 10px 10px 10px #757575; margin: 15px; margin-right: 35px;">
+	</td></tr></table>]]>
+</description>
+<styleUrl>#m_ylw-pushpin</styleUrl>
+<Point>
+<altitudeMode>clampToGround</altitudeMode>
+<coordinates>-105.06746,39.53783,1685.2</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>1/31-2/4/2019</name>
+<description>
+<![CDATA[<table style="margin: 25px;"><tr><td style="text-align: center; font-family: Arial, Helvetica, sans-serif;">
+	<div style="font-size: xx-large; font-weight: bold; padding-top: 15px;">Peregrine Pines Famcamp</div>
+	Air Force Academy<br>
+	Colorado Springs, CO<br>$22
+	<br />
+	<img src="http://CowboyFrank.net/travel/CampPhotos/2019/2019-01-31.JPG" alt="" style="border: 1px solid Black; box-shadow: 10px 10px 10px #757575; margin: 15px; margin-right: 35px;">
+	</td></tr></table>]]>
+</description>
+<styleUrl>#m_ylw-pushpin</styleUrl>
+<Point>
+<altitudeMode>clampToGround</altitudeMode>
+<coordinates>-104.83713,39.00609,2027.3</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>2/5/2019</name>
+<description>
+<![CDATA[<table style="margin: 25px;"><tr><td style="text-align: center; font-family: Arial, Helvetica, sans-serif;">
+	<div style="font-size: xx-large; font-weight: bold; padding-top: 15px;">Raton KOA</div>
+	Raton, NM<br>$40.74
+	<br />
+	<img src="http://CowboyFrank.net/travel/CampPhotos/2019/2019-02-05.JPG" alt="" style="border: 1px solid Black; box-shadow: 10px 10px 10px #757575; margin: 15px; margin-right: 35px;">
+	</td></tr></table>]]>
+</description>
+<styleUrl>#m_ylw-pushpin</styleUrl>
+<Point>
+<altitudeMode>clampToGround</altitudeMode>
+<coordinates>-104.441856571639,36.87872874678546,0</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>2/6-7/2019</name>
+<description>
+<![CDATA[<table style="margin: 25px;"><tr><td style="text-align: center; font-family: Arial, Helvetica, sans-serif;">
+	<div style="font-size: xx-large; font-weight: bold; padding-top: 15px;">Santa Fe Skies Campground</div>
+	Santa Fe, NM<br>$52, most expensive campground of this year
+	<br />
+	<img src="http://CowboyFrank.net/travel/CampPhotos/2019/2019-02-06.JPG" alt="" style="border: 1px solid Black; box-shadow: 10px 10px 10px #757575; margin: 15px; margin-right: 35px;">
+	</td></tr></table>]]>
+</description>
+<styleUrl>#m_ylw-pushpin</styleUrl>
+<Point>
+<altitudeMode>clampToGround</altitudeMode>
+<coordinates>-106.04362,35.58925,1948.1</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>2/8-9/2019</name>
+<description>
+<![CDATA[<table style="margin: 25px;"><tr><td style="text-align: center; font-family: Arial, Helvetica, sans-serif;">
+	<div style="font-size: xx-large; font-weight: bold; padding-top: 15px;">USA RV Park</div>
+	Gallup, NM<br>$33.72
+	<br />
+	<img src="http://CowboyFrank.net/travel/CampPhotos/2019/2019-02-08.JPG" alt="" style="border: 1px solid Black; box-shadow: 10px 10px 10px #757575; margin: 15px; margin-right: 35px;">
+	</td></tr></table>]]>
+</description>
+<styleUrl>#m_ylw-pushpin</styleUrl>
+<Point>
+<altitudeMode>clampToGround</altitudeMode>
+<coordinates>-108.81089,35.50663,1976.8</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>2/14-17/2019</name>
+<description>
+<![CDATA[<table style="margin: 25px;"><tr><td style="text-align: center; font-family: Arial, Helvetica, sans-serif;">
+	<div style="font-size: xx-large; font-weight: bold; padding-top: 15px;">Arizona Gay Rodeo Grounds</div>
+	Lavine, AZ<br>$20.00, no hookups this year
+	<br />
+	<img src="http://CowboyFrank.net/travel/CampPhotos/2019/2019-02-14.JPG" alt="" style="border: 1px solid Black; box-shadow: 10px 10px 10px #757575; margin: 15px; margin-right: 35px;">
+	</td></tr></table>]]>
+</description>
+<styleUrl>#m_ylw-pushpin</styleUrl>
+<Point>
+<altitudeMode>clampToGround</altitudeMode>
+<coordinates>-112.122412322905,33.37624581262072,0</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>2/18/2019</name>
+<description>
+<![CDATA[<table style="margin: 25px;"><tr><td style="text-align: center; font-family: Arial, Helvetica, sans-serif;">
+	<div style="font-size: xx-large; font-weight: bold; padding-top: 15px;">Flagstaff KOA</div>
+	Flagstaff, AZ<br>$48.93, quite expensive for off season<br>Photo was taken by Fuzzy on his phone on the 22.<br>Fuzzy and I staid in Flagstaff one night, then went to Monument Valley leaving his rental car in Flagstaff.<br>I returned him to Flagstaff to pick up his car and Flagstaff had a record snow the night before.<br>I got the truck stuck in that snow drift, took several hours to get it out.
+	<br />
+	<img src="http://CowboyFrank.net/travel/CampPhotos/2019/2019-02-18.JPG" alt="" style="border: 1px solid Black; box-shadow: 10px 10px 10px #757575; margin: 15px; margin-right: 35px;">
+	</td></tr></table>]]>
+</description>
+<styleUrl>#m_ylw-pushpin</styleUrl>
+<Point>
+<altitudeMode>clampToGround</altitudeMode>
+<coordinates>-111.5771170637737,35.23454225809061,0</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>2/19-21/2019</name>
+<description>
+<![CDATA[<table style="margin: 25px;"><tr><td style="text-align: center; font-family: Arial, Helvetica, sans-serif;">
+	<div style="font-size: xx-large; font-weight: bold; padding-top: 15px;">Goulding's RV Park</div>
+	Mounument Valley, UT<br>$20.00
+	<br />
+	<img src="http://CowboyFrank.net/travel/CampPhotos/2019/2019-02-19.JPG" alt="" style="border: 1px solid Black; box-shadow: 10px 10px 10px #757575; margin: 15px; margin-right: 35px;">
+	</td></tr></table>]]>
+</description>
+<styleUrl>#m_ylw-pushpin</styleUrl>
+<Point>
+<altitudeMode>clampToGround</altitudeMode>
+<coordinates>-110.21543,37.00661,1629.3</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>2/22/2019</name>
+<description>
+<![CDATA[<table style="margin: 25px;"><tr><td style="text-align: center; font-family: Arial, Helvetica, sans-serif;">
+	<div style="font-size: xx-large; font-weight: bold; padding-top: 15px;">Camerian's RV Park</div>
+	Camerian, AZ<br>$33.67
+	<br />
+	<img src="http://CowboyFrank.net/travel/CampPhotos/2019/2019-02-22.JPG" alt="" style="border: 1px solid Black; box-shadow: 10px 10px 10px #757575; margin: 15px; margin-right: 35px;">
+	</td></tr></table>]]>
+</description>
+<styleUrl>#m_ylw-pushpin</styleUrl>
+<Point>
+<altitudeMode>clampToGround</altitudeMode>
+<coordinates>-111.41120,35.87460,1285.7</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>2/23-24/2019</name>
+<description>
+<![CDATA[<table style="margin: 25px;"><tr><td style="text-align: center; font-family: Arial, Helvetica, sans-serif;">
+	<div style="font-size: xx-large; font-weight: bold; padding-top: 15px;">USA RV Park</div>
+	Gallup, NM<br>$33.73
+	<br />
+	<img src="http://CowboyFrank.net/travel/CampPhotos/2019/2019-02-23.JPG" alt="" style="border: 1px solid Black; box-shadow: 10px 10px 10px #757575; margin: 15px; margin-right: 35px;">
+	</td></tr></table>]]>
+</description>
+<styleUrl>#m_ylw-pushpin</styleUrl>
+<Point>
+<altitudeMode>clampToGround</altitudeMode>
+<coordinates>-108.81086,35.50656,1976.3</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>2/25/2019</name>
+<description>
+<![CDATA[<table style="margin: 25px;"><tr><td style="text-align: center; font-family: Arial, Helvetica, sans-serif;">
+	<div style="font-size: xx-large; font-weight: bold; padding-top: 15px;">Rhondas Place</div>
+	Bluewater, NM
+	<br />
+	<img src="http://CowboyFrank.net/travel/CampPhotos/2019/2019-02-25.JPG" alt="" style="border: 1px solid Black; box-shadow: 10px 10px 10px #757575; margin: 15px; margin-right: 35px;">
+	</td></tr></table>]]>
+</description>
+<styleUrl>#m_ylw-pushpin</styleUrl>
+<Point>
+<altitudeMode>clampToGround</altitudeMode>
+<coordinates>-107.9788381845752,35.24918774150049,0</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>2/26-3/14/2019</name>
+<description>
+<![CDATA[<table style="margin: 25px;"><tr><td style="text-align: center; font-family: Arial, Helvetica, sans-serif;">
+	<div style="font-size: xx-large; font-weight: bold; padding-top: 15px;">Bar S RV Park</div>
+	Milan, NM<br>$17.40, Free Internet very good
+	<br />
+	<img src="http://CowboyFrank.net/travel/CampPhotos/2019/2019-02-26.JPG" alt="" style="border: 1px solid Black; box-shadow: 10px 10px 10px #757575; margin: 15px; margin-right: 35px;">
+	</td></tr></table>]]>
+</description>
+<styleUrl>#m_ylw-pushpin</styleUrl>
+<Point>
+<altitudeMode>clampToGround</altitudeMode>
+<coordinates>-107.90047,35.18698,1995.4</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>3/15-23/2019</name>
+<description>
+<![CDATA[<table style="margin: 25px;"><tr><td style="text-align: center; font-family: Arial, Helvetica, sans-serif;">
+	<div style="font-size: xx-large; font-weight: bold; padding-top: 15px;">Kirtland AFB Famcamp</div>
+	Albuquerque, NM<br>$18.00, Internet was down while I was there. Facility waiting for a part
+	<br />
+	<img src="http://CowboyFrank.net/travel/CampPhotos/2019/2019-03-15.JPG" alt="" style="border: 1px solid Black; box-shadow: 10px 10px 10px #757575; margin: 15px; margin-right: 35px;">
+	</td></tr></table>]]>
+</description>
+<styleUrl>#m_ylw-pushpin</styleUrl>
+<Point>
+<altitudeMode>clampToGround</altitudeMode>
+<coordinates>-106.53911,35.05585,1664.8</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>3/24-26/2019</name>
+<description>
+<![CDATA[<table style="margin: 25px;"><tr><td style="text-align: center; font-family: Arial, Helvetica, sans-serif;">
+	<div style="font-size: xx-large; font-weight: bold; padding-top: 15px;">Valley of Fire recreation area (BLM)</div>
+	Carrizozo, NM<br>$9.00 with Golden Access card
+	<br />
+	<img src="http://CowboyFrank.net/travel/CampPhotos/2019/2019-03-24.JPG" alt="" style="border: 1px solid Black; box-shadow: 10px 10px 10px #757575; margin: 15px; margin-right: 35px;">
+	</td></tr></table>]]>
+</description>
+<styleUrl>#m_ylw-pushpin</styleUrl>
+<Point>
+<altitudeMode>clampToGround</altitudeMode>
+<coordinates>-105.92494,33.68071,1608.6</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>3/27/2019</name>
+<description>
+<![CDATA[<table style="margin: 25px;"><tr><td style="text-align: center; font-family: Arial, Helvetica, sans-serif;">
+	<div style="font-size: xx-large; font-weight: bold; padding-top: 15px;">Bottomless Lakes State Park</div>
+	Roswell, NM<br>$14.00, Free Internet supplyed but will be slow if campground is busy
+	<br />
+	<img src="http://CowboyFrank.net/travel/CampPhotos/2019/2019-03-27.JPG" alt="" style="border: 1px solid Black; box-shadow: 10px 10px 10px #757575; margin: 15px; margin-right: 35px;">
+	</td></tr></table>]]>
+</description>
+<styleUrl>#m_ylw-pushpin</styleUrl>
+<Point>
+<altitudeMode>clampToGround</altitudeMode>
+<coordinates>-104.33017,33.31686,1056.9</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>3/28-30/2019</name>
+<description>
+<![CDATA[<table style="margin: 25px;"><tr><td style="text-align: center; font-family: Arial, Helvetica, sans-serif;">
+	<div style="font-size: xx-large; font-weight: bold; padding-top: 15px;">Mesa Verde RV Park</div>
+	Wolfforth, TX (suburb of Lubbock)<br>$34.00
+	<br />
+	<img src="http://CowboyFrank.net/travel/CampPhotos/2019/2019-03-28.JPG" alt="" style="border: 1px solid Black; box-shadow: 10px 10px 10px #757575; margin: 15px; margin-right: 35px;">
+	</td></tr></table>]]>
+</description>
+<styleUrl>#m_ylw-pushpin</styleUrl>
+<Point>
+<altitudeMode>clampToGround</altitudeMode>
+<coordinates>-101.99785,33.51422,1005.9</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>3/31/2019</name>
+<description>
+<![CDATA[<table style="margin: 25px;"><tr><td style="text-align: center; font-family: Arial, Helvetica, sans-serif;">
+	<div style="font-size: xx-large; font-weight: bold; padding-top: 15px;">Copper Breaks State Park</div>
+	Quanah, TX<br>$23.00, No Internet or Verizon coverage
+	<br />
+	<img src="http://CowboyFrank.net/travel/CampPhotos/2019/2019-03-31.JPG" alt="" style="border: 1px solid Black; box-shadow: 10px 10px 10px #757575; margin: 15px; margin-right: 35px;">
+	</td></tr></table>]]>
+</description>
+<styleUrl>#m_ylw-pushpin</styleUrl>
+<Point>
+<altitudeMode>clampToGround</altitudeMode>
+<coordinates>-99.75462,34.10743,436.5</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>4/1-3/2019</name>
+<description>
+<![CDATA[<table style="margin: 25px;"><tr><td style="text-align: center; font-family: Arial, Helvetica, sans-serif;">
+	<div style="font-size: xx-large; font-weight: bold; padding-top: 15px;">River Bend RV Park</div>
+	Wichita Falls, TX<br>$17.00, 3 day max stay
+	<br />
+	<img src="http://CowboyFrank.net/travel/CampPhotos/2019/2019-04-01.JPG" alt="" style="border: 1px solid Black; box-shadow: 10px 10px 10px #757575; margin: 15px; margin-right: 35px;">
+	</td></tr></table>]]>
+</description>
+<styleUrl>#m_ylw-pushpin</styleUrl>
+<Point>
+<altitudeMode>clampToGround</altitudeMode>
+<coordinates>-98.51112,33.91647,284.9</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>4/4/2019</name>
+<description>
+<![CDATA[<table style="margin: 25px;"><tr><td style="text-align: center; font-family: Arial, Helvetica, sans-serif;">
+	<div style="font-size: xx-large; font-weight: bold; padding-top: 15px;">Wichita Falls RV Park</div>
+	Wichita Falls, TX<br>$45.00
+	<br />
+	<img src="http://CowboyFrank.net/travel/CampPhotos/2019/2019-04-04.JPG" alt="" style="border: 1px solid Black; box-shadow: 10px 10px 10px #757575; margin: 15px; margin-right: 35px;">
+	</td></tr></table>]]>
+</description>
+<styleUrl>#m_ylw-pushpin</styleUrl>
+<Point>
+<altitudeMode>clampToGround</altitudeMode>
+<coordinates>-98.52446,33.91211,288.8</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>4/5-8/2019</name>
+<description>
+<![CDATA[<table style="margin: 25px;"><tr><td style="text-align: center; font-family: Arial, Helvetica, sans-serif;">
+	<div style="font-size: xx-large; font-weight: bold; padding-top: 15px;">Southside RV Park</div>
+	Shamrock, TX<br>$15.00
+	<br />
+	<img src="http://CowboyFrank.net/travel/CampPhotos/2019/2019-04-05.JPG" alt="" style="border: 1px solid Black; box-shadow: 10px 10px 10px #757575; margin: 15px; margin-right: 35px;">
+	</td></tr></table>]]>
+</description>
+<styleUrl>#m_ylw-pushpin</styleUrl>
+<Point>
+<altitudeMode>clampToGround</altitudeMode>
+<coordinates>-100.24976,35.19479,688.7</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>4/9/2019</name>
+<description>
+<![CDATA[<table style="margin: 25px;"><tr><td style="text-align: center; font-family: Arial, Helvetica, sans-serif;">
+	<div style="font-size: xx-large; font-weight: bold; padding-top: 15px;">Little Elm Campground</div>
+	Laverne, OK<br>$22.00, Decent Internet
+	<br />
+	<img src="http://CowboyFrank.net/travel/CampPhotos/2019/2019-04-09.JPG" alt="" style="border: 1px solid Black; box-shadow: 10px 10px 10px #757575; margin: 15px; margin-right: 35px;">
+	</td></tr></table>]]>
+</description>
+<styleUrl>#m_ylw-pushpin</styleUrl>
+<Point>
+<altitudeMode>clampToGround</altitudeMode>
+<coordinates>-99.89295,36.69811,651.0</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>4/10-11/2019</name>
+<description>
+<![CDATA[<table style="margin: 25px;"><tr><td style="text-align: center; font-family: Arial, Helvetica, sans-serif;">
+	<div style="font-size: xx-large; font-weight: bold; padding-top: 15px;">Dodge City KOA</div>
+	Dodge City, KS<br>$40.36, Very good Internet
+	<br />
+	<img src="http://CowboyFrank.net/travel/CampPhotos/2019/none.JPG" alt="" style="border: 1px solid Black; box-shadow: 10px 10px 10px #757575; margin: 15px; margin-right: 35px;">
+	</td></tr></table>]]>
+</description>
+<styleUrl>#m_ylw-pushpin</styleUrl>
+<Point>
+<altitudeMode>clampToGround</altitudeMode>
+<coordinates>-100.02503,37.74746,10.67</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>4/12-13/2019</name>
+<description>
+<![CDATA[<table style="margin: 25px;"><tr><td style="text-align: center; font-family: Arial, Helvetica, sans-serif;">
+	<div style="font-size: xx-large; font-weight: bold; padding-top: 15px;">All Seasons RV Park</div>
+	Wichita, KS<br>$36.00
+	<br />
+	<img src="http://CowboyFrank.net/travel/CampPhotos/2019/2019-04-12.JPG" alt="" style="border: 1px solid Black; box-shadow: 10px 10px 10px #757575; margin: 15px; margin-right: 35px;">
+	</td></tr></table>]]>
+</description>
+<styleUrl>#m_ylw-pushpin</styleUrl>
+<Point>
+<altitudeMode>clampToGround</altitudeMode>
+<coordinates>-97.52068,37.67952,431.8</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>4/14-15/2019</name>
+<description>
+<![CDATA[<table style="margin: 25px;"><tr><td style="text-align: center; font-family: Arial, Helvetica, sans-serif;">
+	<div style="font-size: xx-large; font-weight: bold; padding-top: 15px;">Downstream Casino Resort</div>
+	Quapaw, OK<br>$30.00
+	<br />
+	<img src="http://CowboyFrank.net/travel/CampPhotos/2019/2019-04-14.JPG" alt="" style="border: 1px solid Black; box-shadow: 10px 10px 10px #757575; margin: 15px; margin-right: 35px;">
+	</td></tr></table>]]>
+</description>
+<styleUrl>#m_ylw-pushpin</styleUrl>
+<Point>
+<altitudeMode>clampToGround</altitudeMode>
+<coordinates>-94.62422,37.00122,315.6</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>4/16-18/2019</name>
+<description>
+<![CDATA[<table style="margin: 25px;"><tr><td style="text-align: center; font-family: Arial, Helvetica, sans-serif;">
+	<div style="font-size: xx-large; font-weight: bold; padding-top: 15px;">Lake Fort Smith, State Park</div>
+	Mountainburg, AR<br>$37.33, Very week to no Verizon coverage
+	<br />
+	<img src="http://CowboyFrank.net/travel/CampPhotos/2019/2019-04-16.JPG" alt="" style="border: 1px solid Black; box-shadow: 10px 10px 10px #757575; margin: 15px; margin-right: 35px;">
+	</td></tr></table>]]>
+</description>
+<styleUrl>#m_ylw-pushpin</styleUrl>
+<Point>
+<altitudeMode>clampToGround</altitudeMode>
+<coordinates>-94.11411,35.69609,306.6</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>4/19-24/2019</name>
+<description>
+<![CDATA[<table style="margin: 25px;"><tr><td style="text-align: center; font-family: Arial, Helvetica, sans-serif;">
+	<div style="font-size: xx-large; font-weight: bold; padding-top: 15px;">Riverside RV Park</div>
+	Little Rock, AR<br>$28.35, Very good free Internet supplyed by Comcast cable
+	<br />
+	<img src="http://CowboyFrank.net/travel/CampPhotos/2019/2019-04-19.JPG" alt="" style="border: 1px solid Black; box-shadow: 10px 10px 10px #757575; margin: 15px; margin-right: 35px;">
+	</td></tr></table>]]>
+</description>
+<styleUrl>#m_ylw-pushpin</styleUrl>
+<Point>
+<altitudeMode>clampToGround</altitudeMode>
+<coordinates>-92.259531,34.751583,0</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>4/25-28/2019</name>
+<description>
+<![CDATA[<table style="margin: 25px;"><tr><td style="text-align: center; font-family: Arial, Helvetica, sans-serif;">
+	<div style="font-size: xx-large; font-weight: bold; padding-top: 15px;">Arkansas State Fairgrouds</div>
+	Little Rock, AR<br>$30.00, Full hookups, only 30 amp service along fence sites
+	<br />
+	<img src="http://CowboyFrank.net/travel/CampPhotos/2019/2019-04-25.JPG" alt="" style="border: 1px solid Black; box-shadow: 10px 10px 10px #757575; margin: 15px; margin-right: 35px;">
+	</td></tr></table>]]>
+</description>
+<styleUrl>#m_ylw-pushpin</styleUrl>
+<Point>
+<altitudeMode>clampToGround</altitudeMode>
+<coordinates>-92.29778,34.71861,86.7</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>4/29-30/2019</name>
+<description>
+<![CDATA[<table style="margin: 25px;"><tr><td style="text-align: center; font-family: Arial, Helvetica, sans-serif;">
+	<div style="font-size: xx-large; font-weight: bold; padding-top: 15px;">Shady Pines RV Park</div>
+	Texarkana, TX<br>$36.00, Good Internet
+	<br />
+	<img src="http://CowboyFrank.net/travel/CampPhotos/2019/2019-04-29.JPG" alt="" style="border: 1px solid Black; box-shadow: 10px 10px 10px #757575; margin: 15px; margin-right: 35px;">
+	</td></tr></table>]]>
+</description>
+<styleUrl>#m_ylw-pushpin</styleUrl>
+<Point>
+<altitudeMode>clampToGround</altitudeMode>
+<coordinates>-94.19520,33.38994,98.8</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>5/1/2019</name>
+<description>
+<![CDATA[<table style="margin: 25px;"><tr><td style="text-align: center; font-family: Arial, Helvetica, sans-serif;">
+	<div style="font-size: xx-large; font-weight: bold; padding-top: 15px;">Dallas NE Campground</div>
+	Caddo Mills, TX<br>$39.06
+	<br />
+	<img src="http://CowboyFrank.net/travel/CampPhotos/2019/2019-05-01.JPG" alt="" style="border: 1px solid Black; box-shadow: 10px 10px 10px #757575; margin: 15px; margin-right: 35px;">
+	</td></tr></table>]]>
+</description>
+<styleUrl>#m_ylw-pushpin</styleUrl>
+<Point>
+<altitudeMode>clampToGround</altitudeMode>
+<coordinates>-96.20768,33.02377,156.9</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>5/2/2019</name>
+<description>
+<![CDATA[<table style="margin: 25px;"><tr><td style="text-align: center; font-family: Arial, Helvetica, sans-serif;">
+	<div style="font-size: xx-large; font-weight: bold; padding-top: 15px;">Luckies RV Park</div>
+	Temple, TX<br>$35.00, No internet supplied
+	<br />
+	<img src="http://CowboyFrank.net/travel/CampPhotos/2019/2019-05-02.JPG" alt="" style="border: 1px solid Black; box-shadow: 10px 10px 10px #757575; margin: 15px; margin-right: 35px;">
+	</td></tr></table>]]>
+</description>
+<styleUrl>#m_ylw-pushpin</styleUrl>
+<Point>
+<altitudeMode>clampToGround</altitudeMode>
+<coordinates>-97.32579596867716,31.1542641262048,0</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>5/3-4/2019</name>
+<description>
+<![CDATA[<table style="margin: 25px;"><tr><td style="text-align: center; font-family: Arial, Helvetica, sans-serif;">
+	<div style="font-size: xx-large; font-weight: bold; padding-top: 15px;">Road Runner RV Park</div>
+	Johnson City, TX<br>$40.00, Internet through Time Warner Cable. Very poor bandwidth with only 9 users connected
+	<br />
+	<img src="http://CowboyFrank.net/travel/CampPhotos/2019/2019-05-03.JPG" alt="" style="border: 1px solid Black; box-shadow: 10px 10px 10px #757575; margin: 15px; margin-right: 35px;">
+	</td></tr></table>]]>
+</description>
+<styleUrl>#m_ylw-pushpin</styleUrl>
+<Point>
+<altitudeMode>clampToGround</altitudeMode>
+<coordinates>-98.39688,30.26988,358.0</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>5/5-12/2019</name>
+<description>
+<![CDATA[<table style="margin: 25px;"><tr><td style="text-align: center; font-family: Arial, Helvetica, sans-serif;">
+	<div style="font-size: xx-large; font-weight: bold; padding-top: 15px;">Buckhorn Lake Resort</div>
+	Kerrville, TX<br>$29.44 (weekly rate) Wireless Internet available also dedicated DSL available to site. $13 a week. You get your own modem ($45 deposit required) Internet through Hill County Telephone Coop.
+	<br />
+	<img src="http://CowboyFrank.net/travel/CampPhotos/2019/2019-05-05.JPG" alt="" style="border: 1px solid Black; box-shadow: 10px 10px 10px #757575; margin: 15px; margin-right: 35px;">
+	</td></tr></table>]]>
+</description>
+<styleUrl>#m_ylw-pushpin</styleUrl>
+<Point>
+<altitudeMode>clampToGround</altitudeMode>
+<coordinates>-99.20033,30.11916,539.7</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>5/13-19/2019</name>
+<description>
+<![CDATA[<table style="margin: 25px;"><tr><td style="text-align: center; font-family: Arial, Helvetica, sans-serif;">
+	<div style="font-size: xx-large; font-weight: bold; padding-top: 15px;">Buck Creek RV Park</div>
+	Abilene, TX<br>$35.00, Good Internet, very wide and long sites. Neat and clean.
+	<br />
+	<img src="http://CowboyFrank.net/travel/CampPhotos/2019/2019-05-13.JPG" alt="" style="border: 1px solid Black; box-shadow: 10px 10px 10px #757575; margin: 15px; margin-right: 35px;">
+	</td></tr></table>]]>
+</description>
+<styleUrl>#m_ylw-pushpin</styleUrl>
+<Point>
+<altitudeMode>clampToGround</altitudeMode>
+<coordinates>-99.60727,32.43687,563.2</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>5/20-22/2019</name>
+<description>
+<![CDATA[<table style="margin: 25px;"><tr><td style="text-align: center; font-family: Arial, Helvetica, sans-serif;">
+	<div style="font-size: xx-large; font-weight: bold; padding-top: 15px;">River Bend RV Park</div>
+	Wichita Falls, TX<br>$17.00, County run park, no Internet, good cell phone coverage all providers.<br>Very clean and well kept. Water, 30 or 50 amp sites.
+	<br />
+	<img src="http://CowboyFrank.net/travel/CampPhotos/2019/2019-05-20.JPG" alt="" style="border: 1px solid Black; box-shadow: 10px 10px 10px #757575; margin: 15px; margin-right: 35px;">
+	</td></tr></table>]]>
+</description>
+<styleUrl>#m_ylw-pushpin</styleUrl>
+<Point>
+<altitudeMode>clampToGround</altitudeMode>
+<coordinates>-98.51113,33.91648,287.6</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>5/23-26/2019</name>
+<description>
+<![CDATA[<table style="margin: 25px;"><tr><td style="text-align: center; font-family: Arial, Helvetica, sans-serif;">
+	<div style="font-size: xx-large; font-weight: bold; padding-top: 15px;">North Texas State Fair and Rodeo</div>
+	Denton, TX<br>$25.00 (only available with event)
+	<br />
+	<img src="http://CowboyFrank.net/travel/CampPhotos/2019/2019-05-23.JPG" alt="" style="border: 1px solid Black; box-shadow: 10px 10px 10px #757575; margin: 15px; margin-right: 35px;">
+	</td></tr></table>]]>
+</description>
+<styleUrl>#m_ylw-pushpin</styleUrl>
+<Point>
+<altitudeMode>clampToGround</altitudeMode>
+<coordinates>-97.13753068907482,33.23368286676927,0</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>5/27/2019</name>
+<description>
+<![CDATA[<table style="margin: 25px;"><tr><td style="text-align: center; font-family: Arial, Helvetica, sans-serif;">
+	<div style="font-size: xx-large; font-weight: bold; padding-top: 15px;">Hidden Lake / Red River Rose campground</div>
+	Ardmore, OK<br>$33.42
+	<br />
+	<img src="http://CowboyFrank.net/travel/CampPhotos/2019/2019-05-27.JPG" alt="" style="border: 1px solid Black; box-shadow: 10px 10px 10px #757575; margin: 15px; margin-right: 35px;">
+	</td></tr></table>]]>
+</description>
+<styleUrl>#m_ylw-pushpin</styleUrl>
+<Point>
+<altitudeMode>clampToGround</altitudeMode>
+<coordinates>-97.15936,34.11897,242.8</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>5/28-29/2019</name>
+<description>
+<![CDATA[<table style="margin: 25px;"><tr><td style="text-align: center; font-family: Arial, Helvetica, sans-serif;">
+	<div style="font-size: xx-large; font-weight: bold; padding-top: 15px;">Road Runner RV Park</div>
+	Oklahoma City, OK<br>$36.00
+	<br />
+	<img src="http://CowboyFrank.net/travel/CampPhotos/2019/2019-05-28.JPG" alt="" style="border: 1px solid Black; box-shadow: 10px 10px 10px #757575; margin: 15px; margin-right: 35px;">
+	</td></tr></table>]]>
+</description>
+<styleUrl>#m_ylw-pushpin</styleUrl>
+<Point>
+<altitudeMode>clampToGround</altitudeMode>
+<coordinates>-97.48639,35.41927,380.6</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>5/30-31/2019</name>
+<description>
+<![CDATA[<table style="margin: 25px;"><tr><td style="text-align: center; font-family: Arial, Helvetica, sans-serif;">
+	<div style="font-size: xx-large; font-weight: bold; padding-top: 15px;">ABC RV Park</div>
+	Blackwell, OK<br>$25.00
+	<br />
+	<img src="http://CowboyFrank.net/travel/CampPhotos/2019/2019-05-30.JPG" alt="" style="border: 1px solid Black; box-shadow: 10px 10px 10px #757575; margin: 15px; margin-right: 35px;">
+	</td></tr></table>]]>
+</description>
+<styleUrl>#m_ylw-pushpin</styleUrl>
+<Point>
+<altitudeMode>clampToGround</altitudeMode>
+<coordinates>-97.29744,36.81721,311.9</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>6/01/2019</name>
+<description>
+<![CDATA[<table style="margin: 25px;"><tr><td style="text-align: center; font-family: Arial, Helvetica, sans-serif;">
+	<div style="font-size: xx-large; font-weight: bold; padding-top: 15px;">Wagon Wheel Campground</div>
+	Yoder, KS<br>$25.00
+	<br />
+	<img src="http://CowboyFrank.net/travel/CampPhotos/2019/2019-06-01.JPG" alt="" style="border: 1px solid Black; box-shadow: 10px 10px 10px #757575; margin: 15px; margin-right: 35px;">
+	</td></tr></table>]]>
+</description>
+<styleUrl>#m_ylw-pushpin</styleUrl>
+<Point>
+<altitudeMode>clampToGround</altitudeMode>
+<coordinates>-97.86941,37.93879,471.9</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>6/03-20/2019</name>
+<description>
+<![CDATA[<table style="margin: 25px;"><tr><td style="text-align: center; font-family: Arial, Helvetica, sans-serif;">
+	<div style="font-size: xx-large; font-weight: bold; padding-top: 15px;">New Horizons</div>
+	Junction City, KS
+	<br />
+	<img src="http://CowboyFrank.net/travel/CampPhotos/2019/2019-06-03.JPG" alt="" style="border: 1px solid Black; box-shadow: 10px 10px 10px #757575; margin: 15px; margin-right: 35px;">
+	</td></tr></table>]]>
+</description>
+<styleUrl>#m_ylw-pushpin</styleUrl>
+<Point>
+<altitudeMode>clampToGround</altitudeMode>
+<coordinates>-96.87383,39.00251,363.5</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>6/21/2019</name>
+<description>
+<![CDATA[<table style="margin: 25px;"><tr><td style="text-align: center; font-family: Arial, Helvetica, sans-serif;">
+	<div style="font-size: xx-large; font-weight: bold; padding-top: 15px;">Fairway Campground</div>
+	Ellsworth, KS<br>$25.00
+	<br />
+	<img src="http://CowboyFrank.net/travel/CampPhotos/2019/2019-06-21.JPG" alt="" style="border: 1px solid Black; box-shadow: 10px 10px 10px #757575; margin: 15px; margin-right: 35px;">
+	</td></tr></table>]]>
+</description>
+<styleUrl>#m_ylw-pushpin</styleUrl>
+<Point>
+<altitudeMode>clampToGround</altitudeMode>
+<coordinates>-98.21617,38.72719,485.5</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>6/22-23/2019</name>
+<description>
+<![CDATA[<table style="margin: 25px;"><tr><td style="text-align: center; font-family: Arial, Helvetica, sans-serif;">
+	<div style="font-size: xx-large; font-weight: bold; padding-top: 15px;">Fort Dodge KOA</div>
+	Dodge City, KS<br>$44.86
+	<br />
+	<img src="http://CowboyFrank.net/travel/CampPhotos/2019/2019-06-22.JPG" alt="" style="border: 1px solid Black; box-shadow: 10px 10px 10px #757575; margin: 15px; margin-right: 35px;">
+	</td></tr></table>]]>
+</description>
+<styleUrl>#m_ylw-pushpin</styleUrl>
+<Point>
+<altitudeMode>clampToGround</altitudeMode>
+<coordinates>-100.02500,37.74719,758.4</coordinates>
+</Point>
+</Placemark>
+
+
+<Placemark>
+<name>6/24/2019</name>
+<description>
+<![CDATA[<table style="margin: 25px;"><tr><td style="text-align: center; font-family: Arial, Helvetica, sans-serif;">
+	<div style="font-size: xx-large; font-weight: bold; padding-top: 15px;">Western Star RV Ranch</div>
+	Liberal KS<br>$34.00, Very nice campground, great owner, good Internet
+	<br />
+	<img src="http://CowboyFrank.net/travel/CampPhotos/2019/2019-06-24.JPG" alt="" style="border: 1px solid Black; box-shadow: 10px 10px 10px #757575; margin: 15px; margin-right: 35px;">
+	</td></tr></table>]]>
+</description>
+<styleUrl>#m_ylw-pushpin</styleUrl>
+<Point>
+<altitudeMode>clampToGround</altitudeMode>
+<coordinates>-100.83299,37.08256,848.8</coordinates>
+</Point>
+</Placemark>
+
+
+<Placemark>
+<name>6/25/2019</name>
+<description>
+<![CDATA[<table style="margin: 25px;"><tr><td style="text-align: center; font-family: Arial, Helvetica, sans-serif;">
+	<div style="font-size: xx-large; font-weight: bold; padding-top: 15px;">Wild Bill's Campground</div>
+	Bosie City, OK<br>$25.00
+	<br />
+	<img src="http://CowboyFrank.net/travel/CampPhotos/2019/2019-06-25.JPG" alt="" style="border: 1px solid Black; box-shadow: 10px 10px 10px #757575; margin: 15px; margin-right: 35px;">
+	</td></tr></table>]]>
+</description>
+<styleUrl>#m_ylw-pushpin</styleUrl>
+<Point>
+<altitudeMode>clampToGround</altitudeMode>
+<coordinates>-102.51375,36.74022,1274.0</coordinates>
+</Point>
+</Placemark>
+
+
+<Placemark>
+<name>6/26/2019</name>
+<description>
+<![CDATA[<table style="margin: 25px;"><tr><td style="text-align: center; font-family: Arial, Helvetica, sans-serif;">
+	<div style="font-size: xx-large; font-weight: bold; padding-top: 15px;">Old Santa Fe Trail RV Park</div>
+	Springer, NM<br>$18.00, most sites only 30 amp service
+	<br />
+	<img src="http://CowboyFrank.net/travel/CampPhotos/2019/2019-06-26.JPG" alt="" style="border: 1px solid Black; box-shadow: 10px 10px 10px #757575; margin: 15px; margin-right: 35px;">
+	</td></tr></table>]]>
+</description>
+<styleUrl>#m_ylw-pushpin</styleUrl>
+<Point>
+<altitudeMode>clampToGround</altitudeMode>
+<coordinates>-104.60011,36.36938,1784.1</coordinates>
+</Point>
+</Placemark>
+
+
+<Placemark>
+<name>6/27-30/2019</name>
+<description>
+<![CDATA[<table style="margin: 25px;"><tr><td style="text-align: center; font-family: Arial, Helvetica, sans-serif;">
+	<div style="font-size: xx-large; font-weight: bold; padding-top: 15px;">Rodeo De Santa Fe</div>
+	Santa Fe, NM
+	<br />
+	<img src="http://CowboyFrank.net/travel/CampPhotos/2019/2019-06-27.JPG" alt="" style="border: 1px solid Black; box-shadow: 10px 10px 10px #757575; margin: 15px; margin-right: 35px;">
+	</td></tr></table>]]>
+</description>
+<styleUrl>#m_ylw-pushpin</styleUrl>
+<Point>
+<altitudeMode>clampToGround</altitudeMode>
+<coordinates>-105.999327,35.641215,0</coordinates>
+</Point>
+</Placemark>
+
+
+<Placemark>
+<name>7/01/2019</name>
+<description>
+<![CDATA[<table style="margin: 25px;"><tr><td style="text-align: center; font-family: Arial, Helvetica, sans-serif;">
+	<div style="font-size: xx-large; font-weight: bold; padding-top: 15px;">Old Santa Fe Trail RV Park</div>
+	Springer, NM<br>$18.00, most sites only 30 amp service
+	<br />
+	<img src="http://CowboyFrank.net/travel/CampPhotos/2019/2019-07-01.JPG" alt="" style="border: 1px solid Black; box-shadow: 10px 10px 10px #757575; margin: 15px; margin-right: 35px;">
+	</td></tr></table>]]>
+</description>
+<styleUrl>#m_ylw-pushpin</styleUrl>
+<Point>
+<altitudeMode>clampToGround</altitudeMode>
+<coordinates>-104.60003,36.36924,1783.8</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>7/02-07/2019</name>
+<description>
+<![CDATA[<table style="margin: 25px;"><tr><td style="text-align: center; font-family: Arial, Helvetica, sans-serif;">
+	<div style="font-size: xx-large; font-weight: bold; padding-top: 15px;">Jefferson County Fairgrounds</div>
+	Golden, CO<br>$40.00, only available for events
+	<br />
+	<img src="http://CowboyFrank.net/travel/CampPhotos/2019/2019-07-07.JPG" alt="" style="border: 1px solid Black; box-shadow: 10px 10px 10px #757575; margin: 15px; margin-right: 35px;">
+	</td></tr></table>]]>
+</description>
+<styleUrl>#m_ylw-pushpin</styleUrl>
+<Point>
+<altitudeMode>clampToGround</altitudeMode>
+<coordinates>-105.1725717950546,39.72310567646059,0</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>7/12-15/2019</name>
+<description>
+<![CDATA[<table style="margin: 25px;"><tr><td style="text-align: center; font-family: Arial, Helvetica, sans-serif;">
+	<div style="font-size: xx-large; font-weight: bold; padding-top: 15px;">High Plains Camping</div>
+	Oakley, KS<br>$39.60
+	<br />
+	<img src="http://CowboyFrank.net/travel/CampPhotos/2019/2019-07-12.JPG" alt="" style="border: 1px solid Black; box-shadow: 10px 10px 10px #757575; margin: 15px; margin-right: 35px;">
+	</td></tr></table>]]>
+</description>
+<styleUrl>#m_ylw-pushpin</styleUrl>
+<Point>
+<altitudeMode>clampToGround</altitudeMode>
+<coordinates>-100.87287,39.18774,932.3</coordinates>
+</Point>
+</Placemark>
+
+
+<Placemark>
+<name>7/16/2019</name>
+<description>
+<![CDATA[<table style="margin: 25px;"><tr><td style="text-align: center; font-family: Arial, Helvetica, sans-serif;">
+	<div style="font-size: xx-large; font-weight: bold; padding-top: 15px;">Tripple J RV Park</div>
+	Russell, KS<br>$43.50
+	<br />
+	<img src="http://CowboyFrank.net/travel/CampPhotos/2019/2019-07-16.JPG" alt="" style="border: 1px solid Black; box-shadow: 10px 10px 10px #757575; margin: 15px; margin-right: 35px;">
+	</td></tr></table>]]>
+</description>
+<styleUrl>#m_ylw-pushpin</styleUrl>
+<Point>
+<altitudeMode>clampToGround</altitudeMode>
+<coordinates>-98.8588306250967,38.86672732118854,0</coordinates>
+</Point>
+</Placemark>
+
+
+<Placemark>
+<name>7/17-22/2019</name>
+<description>
+<![CDATA[<table style="margin: 25px;"><tr><td style="text-align: center; font-family: Arial, Helvetica, sans-serif;">
+	<div style="font-size: xx-large; font-weight: bold; padding-top: 15px;">New Horizons RV</div>
+	Junction City, Ks
+	<br />
+	<img src="http://CowboyFrank.net/travel/CampPhotos/2019/none.JPG" alt="" style="border: 1px solid Black; box-shadow: 10px 10px 10px #757575; margin: 15px; margin-right: 35px;">
+	</td></tr></table>]]>
+</description>
+<styleUrl>#m_ylw-pushpin</styleUrl>
+<Point>
+<altitudeMode>clampToGround</altitudeMode>
+<coordinates>-96.87319,39.00338,357.0</coordinates>
+</Point>
+</Placemark>
+
+
+<Placemark>
+<name>7/23/2019</name>
+<description>
+<![CDATA[<table style="margin: 25px;"><tr><td style="text-align: center; font-family: Arial, Helvetica, sans-serif;">
+	<div style="font-size: xx-large; font-weight: bold; padding-top: 15px;">ABC RV Park</div>
+	Blackwell, OK<br>$25.00, Internet not asigning IP address, seems to be a continueing problem
+	<br />
+	<img src="http://CowboyFrank.net/travel/CampPhotos/2019/none.JPG" alt="" style="border: 1px solid Black; box-shadow: 10px 10px 10px #757575; margin: 15px; margin-right: 35px;">
+	</td></tr></table>]]>
+</description>
+<styleUrl>#m_ylw-pushpin</styleUrl>
+<Point>
+<altitudeMode>clampToGround</altitudeMode>
+<coordinates>-97.298409580483,36.81751936854405,0</coordinates>
+</Point>
+</Placemark>
+
+
+<Placemark>
+<name>7/24-27/2019</name>
+<description>
+<![CDATA[<table style="margin: 25px;"><tr><td style="text-align: center; font-family: Arial, Helvetica, sans-serif;">
+	<div style="font-size: xx-large; font-weight: bold; padding-top: 15px;">Road Runner RV Park</div>
+	Oklahoma City, OK$36.00
+	<br />
+	<img src="http://CowboyFrank.net/travel/CampPhotos/2019/2019-07-24.JPG" alt="" style="border: 1px solid Black; box-shadow: 10px 10px 10px #757575; margin: 15px; margin-right: 35px;">
+	</td></tr></table>]]>
+</description>
+<styleUrl>#m_ylw-pushpin</styleUrl>
+<Point>
+<altitudeMode>clampToGround</altitudeMode>
+<coordinates>-97.48632499999999,35.41911,0</coordinates>
+</Point>
+</Placemark>
+
+
+<Placemark>
+<name>7/28-30/2019</name>
+<description>
+<![CDATA[<table style="margin: 25px;"><tr><td style="text-align: center; font-family: Arial, Helvetica, sans-serif;">
+	<div style="font-size: xx-large; font-weight: bold; padding-top: 15px;">River Bend RV Park</div>
+	Wichita Falls, TX<br>$17.00, 3 day max stay
+	<br />
+	<img src="http://CowboyFrank.net/travel/CampPhotos/2019/2019-07-28.JPG" alt="" style="border: 1px solid Black; box-shadow: 10px 10px 10px #757575; margin: 15px; margin-right: 35px;">
+	</td></tr></table>]]>
+</description>
+<styleUrl>#m_ylw-pushpin</styleUrl>
+<Point>
+<altitudeMode>clampToGround</altitudeMode>
+<coordinates>-98.51125456872227,33.91649230088753,0</coordinates>
+</Point>
+</Placemark>
+
+
+<Placemark>
+<name>7/31/2019</name>
+<description>
+<![CDATA[<table style="margin: 25px;"><tr><td style="text-align: center; font-family: Arial, Helvetica, sans-serif;">
+	<div style="font-size: xx-large; font-weight: bold; padding-top: 15px;">County Park</div>
+	Wellington, TX<br>Free but I gave a donation. Electric hookups only, water and dump station available
+	<br />
+	<img src="http://CowboyFrank.net/travel/CampPhotos/2019/2019-07-31.JPG" alt="" style="border: 1px solid Black; box-shadow: 10px 10px 10px #757575; margin: 15px; margin-right: 35px;">
+	</td></tr></table>]]>
+</description>
+<styleUrl>#m_ylw-pushpin</styleUrl>
+<Point>
+<altitudeMode>clampToGround</altitudeMode>
+<coordinates>-100.22383,34.95788,597.7</coordinates>
+</Point>
+</Placemark>
+
+
+<Placemark>
+<name>8/1-5/2019</name>
+<description>
+<![CDATA[<table style="margin: 25px;"><tr><td style="text-align: center; font-family: Arial, Helvetica, sans-serif;">
+	<div style="font-size: xx-large; font-weight: bold; padding-top: 15px;">Oasis RV Park</div>
+	Amarillo, TX<br>$53.10
+	<br />
+	<img src="http://CowboyFrank.net/travel/CampPhotos/2019/2019-08-01.JPG" alt="" style="border: 1px solid Black; box-shadow: 10px 10px 10px #757575; margin: 15px; margin-right: 35px;">
+	</td></tr></table>]]>
+</description>
+<styleUrl>#m_ylw-pushpin</styleUrl>
+<Point>
+<altitudeMode>clampToGround</altitudeMode>
+<coordinates>-102.0089451779528,35.1841993350939,0</coordinates>
+</Point>
+</Placemark>
+
+
+<Placemark>
+<name>8/6-7/2019</name>
+<description>
+<![CDATA[<table style="margin: 25px;"><tr><td style="text-align: center; font-family: Arial, Helvetica, sans-serif;">
+	<div style="font-size: xx-large; font-weight: bold; padding-top: 15px;">Wild Bill RV Park</div>
+	Bosie City, OK<br>$25.00, price higher than earler due to campground almost full of workers for nearby wind farm construction
+	<br />
+	<img src="http://CowboyFrank.net/travel/CampPhotos/2019/2019-08-06.JPG" alt="" style="border: 1px solid Black; box-shadow: 10px 10px 10px #757575; margin: 15px; margin-right: 35px;">
+	</td></tr></table>]]>
+</description>
+<styleUrl>#m_ylw-pushpin</styleUrl>
+<Point>
+<altitudeMode>clampToGround</altitudeMode>
+<coordinates>-102.51344,36.740647,0</coordinates>
+</Point>
+</Placemark>
+
+
+<Placemark>
+<name>8/8-9/2019</name>
+<description>
+<![CDATA[<table style="margin: 25px;"><tr><td style="text-align: center; font-family: Arial, Helvetica, sans-serif;">
+	<div style="font-size: xx-large; font-weight: bold; padding-top: 15px;">Western Star RV Park</div>
+	Liberal, KS$34.00, Internet not asigning IP address, continueing problem not resolved from last visit
+	<br />
+	<img src="http://CowboyFrank.net/travel/CampPhotos/2019/2019-08-08.JPG" alt="" style="border: 1px solid Black; box-shadow: 10px 10px 10px #757575; margin: 15px; margin-right: 35px;">
+	</td></tr></table>]]>
+</description>
+<styleUrl>#m_ylw-pushpin</styleUrl>
+<Point>
+<altitudeMode>clampToGround</altitudeMode>
+<coordinates>-100.83288,37.08255,850.8</coordinates>
+</Point>
+</Placemark>
+
+
+<Placemark>
+<name>8/10-18/2019</name>
+<description>
+<![CDATA[<table style="margin: 25px;"><tr><td style="text-align: center; font-family: Arial, Helvetica, sans-serif;">
+	<div style="font-size: xx-large; font-weight: bold; padding-top: 15px;">Fort Dodge KOA</div>
+	Dodge City, KS<br>$47.56
+	<br />
+	<img src="http://CowboyFrank.net/travel/CampPhotos/2019/2019-08-10.JPG" alt="" style="border: 1px solid Black; box-shadow: 10px 10px 10px #757575; margin: 15px; margin-right: 35px;">
+	</td></tr></table>]]>
+</description>
+<styleUrl>#m_ylw-pushpin</styleUrl>
+<Point>
+<altitudeMode>clampToGround</altitudeMode>
+<coordinates>-100.02500,37.74719,758.4</coordinates>
+</Point>
+</Placemark>
+
+
+<Placemark>
+<name>8/19/2019</name>
+<description>
+<![CDATA[<table style="margin: 25px;"><tr><td style="text-align: center; font-family: Arial, Helvetica, sans-serif;">
+	<div style="font-size: xx-large; font-weight: bold; padding-top: 15px;">Hoisington, Campground</div>
+	Hoisington, KS<br>$15.00, Water and 50 amp service, dump station
+	<br />
+	<img src="http://CowboyFrank.net/travel/CampPhotos/2019/2019-08-19.JPG" alt="" style="border: 1px solid Black; box-shadow: 10px 10px 10px #757575; margin: 15px; margin-right: 35px;">
+	</td></tr></table>]]>
+</description>
+<styleUrl>#m_ylw-pushpin</styleUrl>
+<Point>
+<altitudeMode>clampToGround</altitudeMode>
+<coordinates>-98.77196,38.52454,569.6</coordinates>
+</Point>
+</Placemark>
+
+
+<Placemark>
+<name>8/20-21/2019</name>
+<description>
+<![CDATA[<table style="margin: 25px;"><tr><td style="text-align: center; font-family: Arial, Helvetica, sans-serif;">
+	<div style="font-size: xx-large; font-weight: bold; padding-top: 15px;">New Horizons RV</div>
+	Junction City, Ks
+	<br />
+	<img src="http://CowboyFrank.net/travel/CampPhotos/2019/none.JPG" alt="" style="border: 1px solid Black; box-shadow: 10px 10px 10px #757575; margin: 15px; margin-right: 35px;">
+	</td></tr></table>]]>
+</description>
+<styleUrl>#m_ylw-pushpin</styleUrl>
+<Point>
+<altitudeMode>clampToGround</altitudeMode>
+<coordinates>-96.87319,39.00338,357.0</coordinates>
+</Point>
+</Placemark>
+
+
+<Placemark>
+<name>8/22/2019</name>
+<description>
+<![CDATA[<table style="margin: 25px;"><tr><td style="text-align: center; font-family: Arial, Helvetica, sans-serif;">
+	<div style="font-size: xx-large; font-weight: bold; padding-top: 15px;">Hoisington, Campground</div>
+	Hoisington, KS<br>$15.00, Water and 50 amp service, dump station
+	<br />
+	<img src="http://CowboyFrank.net/travel/CampPhotos/2019/2019-08-22.JPG" alt="" style="border: 1px solid Black; box-shadow: 10px 10px 10px #757575; margin: 15px; margin-right: 35px;">
+	</td></tr></table>]]>
+</description>
+<styleUrl>#m_ylw-pushpin</styleUrl>
+<Point>
+<altitudeMode>clampToGround</altitudeMode>
+<coordinates>-98.77194,38.52454,570.5</coordinates>
+</Point>
+</Placemark>
+
+
+<Placemark>
+<name>8/23/2019</name>
+<description>
+<![CDATA[<table style="margin: 25px;"><tr><td style="text-align: center; font-family: Arial, Helvetica, sans-serif;">
+	<div style="font-size: xx-large; font-weight: bold; padding-top: 15px;">Fort Dodge KOA</div>
+	Dodge City, KS<br>$44.86
+	<br />
+	<img src="http://CowboyFrank.net/travel/CampPhotos/2019/2019-08-10.JPG" alt="" style="border: 1px solid Black; box-shadow: 10px 10px 10px #757575; margin: 15px; margin-right: 35px;">
+	</td></tr></table>]]>
+</description>
+<styleUrl>#m_ylw-pushpin</styleUrl>
+<Point>
+<altitudeMode>clampToGround</altitudeMode>
+<coordinates>-100.02502,37.74711,760.7</coordinates>
+</Point>
+</Placemark>
+
+
+<Placemark>
+<name>8/24/2019</name>
+<description>
+<![CDATA[<table style="margin: 25px;"><tr><td style="text-align: center; font-family: Arial, Helvetica, sans-serif;">
+	<div style="font-size: xx-large; font-weight: bold; padding-top: 15px;">Western Star RV Park</div>
+	Liberal, KS<br>$34.00, still no Internet, not asigning IP address
+	<br />
+	<img src="http://CowboyFrank.net/travel/CampPhotos/2019/2019-08-24.JPG" alt="" style="border: 1px solid Black; box-shadow: 10px 10px 10px #757575; margin: 15px; margin-right: 35px;">
+	</td></tr></table>]]>
+</description>
+<styleUrl>#m_ylw-pushpin</styleUrl>
+<Point>
+<altitudeMode>clampToGround</altitudeMode>
+<coordinates>-100.83324,37.08257,850.5</coordinates>
+</Point>
+</Placemark>
+
+
+<Placemark>
+<name>8/25/2019</name>
+<description>
+<![CDATA[<table style="margin: 25px;"><tr><td style="text-align: center; font-family: Arial, Helvetica, sans-serif;">
+	<div style="font-size: xx-large; font-weight: bold; padding-top: 15px;">Texhoma Park (city park)</div>
+	Dumas, TX<br>Free, Electric hookup only, water and dump station available
+	<br />
+	<img src="http://CowboyFrank.net/travel/CampPhotos/2019/2019-08-25.JPG" alt="" style="border: 1px solid Black; box-shadow: 10px 10px 10px #757575; margin: 15px; margin-right: 35px;">
+	</td></tr></table>]]>
+</description>
+<styleUrl>#m_ylw-pushpin</styleUrl>
+<Point>
+<altitudeMode>clampToGround</altitudeMode>
+<coordinates>-101.97938,35.86712,1119.6</coordinates>
+</Point>
+</Placemark>
+
+
+<Placemark>
+<name>8/26-27/2019</name>
+<description>
+<![CDATA[<table style="margin: 25px;"><tr><td style="text-align: center; font-family: Arial, Helvetica, sans-serif;">
+	<div style="font-size: xx-large; font-weight: bold; padding-top: 15px;">Sundance-High Plains RV Park</div>
+	Lamar, CO<br>$37.07
+	<br />
+	<img src="http://CowboyFrank.net/travel/CampPhotos/2019/2019-08-26.JPG" alt="" style="border: 1px solid Black; box-shadow: 10px 10px 10px #757575; margin: 15px; margin-right: 35px;">
+	</td></tr></table>]]>
+</description>
+<styleUrl>#m_ylw-pushpin</styleUrl>
+<Point>
+<altitudeMode>clampToGround</altitudeMode>
+<coordinates>-102.61776,38.06093,1129.4</coordinates>
+</Point>
+</Placemark>
+
+
+<Placemark>
+<name>8/28/2019</name>
+<description>
+<![CDATA[<table style="margin: 25px;"><tr><td style="text-align: center; font-family: Arial, Helvetica, sans-serif;">
+	<div style="font-size: xx-large; font-weight: bold; padding-top: 15px;">Genoa RV Park</div>
+	Genoa, CO<br>$38.00, over priced for what is offered, never able to access Internet
+	<br />
+	<img src="http://CowboyFrank.net/travel/CampPhotos/2019/2019-08-28.JPG" alt="" style="border: 1px solid Black; box-shadow: 10px 10px 10px #757575; margin: 15px; margin-right: 35px;">
+	</td></tr></table>]]>
+</description>
+<styleUrl>#m_ylw-pushpin</styleUrl>
+<Point>
+<altitudeMode>clampToGround</altitudeMode>
+<coordinates>-103.49616,39.27919,1712.1</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>8/29-09/4/2019</name>
+<description>
+<![CDATA[<table style="margin: 25px;"><tr><td style="text-align: center; font-family: Arial, Helvetica, sans-serif;">
+	<div style="font-size: xx-large; font-weight: bold; padding-top: 15px;">Dick Bower Farm</div>
+	Erie, CO
+	<br />
+	<img src="http://CowboyFrank.net/travel/CampPhotos/2019/2019-08-29.JPG" alt="" style="border: 1px solid Black; box-shadow: 10px 10px 10px #757575; margin: 15px; margin-right: 35px;">
+	</td></tr></table>]]>
+</description>
+<styleUrl>#m_ylw-pushpin</styleUrl>
+<Point>
+<altitudeMode>clampToGround</altitudeMode>
+<coordinates>-105.00376,40.06612,1559.4</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>9/5-6/2019</name>
+<description>
+<![CDATA[<table style="margin: 25px;"><tr><td style="text-align: center; font-family: Arial, Helvetica, sans-serif;">
+	<div style="font-size: xx-large; font-weight: bold; padding-top: 15px;">Glendo Lakeside RV Park</div>
+	Glendo, WY<br>$37.28
+	<br />
+	<img src="http://CowboyFrank.net/travel/CampPhotos/2019/2019-09-05.JPG" alt="" style="border: 1px solid Black; box-shadow: 10px 10px 10px #757575; margin: 15px; margin-right: 35px;">
+	</td></tr></table>]]>
+</description>
+<styleUrl>#m_ylw-pushpin</styleUrl>
+<Point>
+<altitudeMode>clampToGround</altitudeMode>
+<coordinates>-105.01471,42.51048,1441.2</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>9/7-13/2019</name>
+<description>
+<![CDATA[<table style="margin: 25px;"><tr><td style="text-align: center; font-family: Arial, Helvetica, sans-serif;">
+	<div style="font-size: xx-large; font-weight: bold; padding-top: 15px;">Beaver Lake Campground</div>
+	Custer, SD<br>$22.49 weekly rate, Ameri-Camp Rally
+	<br />
+	<img src="http://CowboyFrank.net/travel/CampPhotos/2019/2019-09-07.JPG" alt="" style="border: 1px solid Black; box-shadow: 10px 10px 10px #757575; margin: 15px; margin-right: 35px;">
+	</td></tr></table>]]>
+</description>
+<styleUrl>#m_ylw-pushpin</styleUrl>
+<Point>
+<altitudeMode>clampToGround</altitudeMode>
+<coordinates>-103.65733,43.73787,1661.9</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>9/14/2019</name>
+<description>
+<![CDATA[<table style="margin: 25px;"><tr><td style="text-align: center; font-family: Arial, Helvetica, sans-serif;">
+	<div style="font-size: xx-large; font-weight: bold; padding-top: 15px;">Rivers Edge RV Park</div>
+	Casper, WY<br>$46.53
+	<br />
+	<img src="http://CowboyFrank.net/travel/CampPhotos/2019/2019-09-14.JPG" alt="" style="border: 1px solid Black; box-shadow: 10px 10px 10px #757575; margin: 15px; margin-right: 35px;">
+	</td></tr></table>]]>
+</description>
+<styleUrl>#m_ylw-pushpin</styleUrl>
+<Point>
+<altitudeMode>clampToGround</altitudeMode>
+<coordinates>-106.2137584264163,42.85836956721735,0</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>9/15/2019</name>
+<description>
+<![CDATA[<table style="margin: 25px;"><tr><td style="text-align: center; font-family: Arial, Helvetica, sans-serif;">
+	<div style="font-size: xx-large; font-weight: bold; padding-top: 15px;">Rock Springs KOA</div>
+	Rock Springs, WY<br>$43.94
+	<br />
+	<img src="http://CowboyFrank.net/travel/CampPhotos/2019/2019-09-15.JPG" alt="" style="border: 1px solid Black; box-shadow: 10px 10px 10px #757575; margin: 15px; margin-right: 35px;">
+	</td></tr></table>]]>
+</description>
+<styleUrl>#m_ylw-pushpin</styleUrl>
+<Point>
+<altitudeMode>clampToGround</altitudeMode>
+<coordinates>-109.29198,41.56803,1907.3</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>9/16/2019</name>
+<description>
+<![CDATA[<table style="margin: 25px;"><tr><td style="text-align: center; font-family: Arial, Helvetica, sans-serif;">
+	<div style="font-size: xx-large; font-weight: bold; padding-top: 15px;">Phillips RV Park</div>
+	Evanston, WY<br>$35.00
+	<br />
+	<img src="http://CowboyFrank.net/travel/CampPhotos/2019/2019-09-16.JPG" alt="" style="border: 1px solid Black; box-shadow: 10px 10px 10px #757575; margin: 15px; margin-right: 35px;">
+	</td></tr></table>]]>
+</description>
+<styleUrl>#m_ylw-pushpin</styleUrl>
+<Point>
+<altitudeMode>clampToGround</altitudeMode>
+<coordinates>-110.94702,41.27073,2066.9</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>9/17/2019</name>
+<description>
+<![CDATA[<table style="margin: 25px;"><tr><td style="text-align: center; font-family: Arial, Helvetica, sans-serif;">
+	<div style="font-size: xx-large; font-weight: bold; padding-top: 15px;">Minersville Lake, County Park</div>
+	Minersville, UT<br>$20.00
+	<br />
+	<img src="http://CowboyFrank.net/travel/CampPhotos/2019/2019-09-17.JPG" alt="" style="border: 1px solid Black; box-shadow: 10px 10px 10px #757575; margin: 15px; margin-right: 35px;">
+	</td></tr></table>]]>
+</description>
+<styleUrl>#m_ylw-pushpin</styleUrl>
+<Point>
+<altitudeMode>clampToGround</altitudeMode>
+<coordinates>-112.82689,38.21867,1682.8</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>9/18/2019</name>
+<description>
+<![CDATA[<table style="margin: 25px;"><tr><td style="text-align: center; font-family: Arial, Helvetica, sans-serif;">
+	<div style="font-size: xx-large; font-weight: bold; padding-top: 15px;">Hurricane KOA</div>
+	Hurricane, UT<br>$45.89, Internet through T-Mobile, odd IP addressing which is probably why the connection is useless.
+	<br />
+	<img src="http://CowboyFrank.net/travel/CampPhotos/2019/2019-09-18.JPG" alt="" style="border: 1px solid Black; box-shadow: 10px 10px 10px #757575; margin: 15px; margin-right: 35px;">
+	</td></tr></table>]]>
+</description>
+<styleUrl>#m_ylw-pushpin</styleUrl>
+<Point>
+<altitudeMode>clampToGround</altitudeMode>
+<coordinates>-113.39306,37.20441,919.3</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>9/19-22/2019</name>
+<description>
+<![CDATA[<table style="margin: 25px;"><tr><td style="text-align: center; font-family: Arial, Helvetica, sans-serif;">
+	<div style="font-size: xx-large; font-weight: bold; padding-top: 15px;">Horsemans Park</div>
+	Las Vegas, NV
+	<br />
+	<img src="http://CowboyFrank.net/travel/CampPhotos/2019/2019-09-19.JPG" alt="" style="border: 1px solid Black; box-shadow: 10px 10px 10px #757575; margin: 15px; margin-right: 35px;">
+	</td></tr></table>]]>
+</description>
+<styleUrl>#m_ylw-pushpin</styleUrl>
+<Point>
+<altitudeMode>clampToGround</altitudeMode>
+<coordinates>-115.05033,36.11272,510.9</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>9/23-10/3/2019</name>
+<description>
+<![CDATA[<table style="margin: 25px;"><tr><td style="text-align: center; font-family: Arial, Helvetica, sans-serif;">
+	<div style="font-size: xx-large; font-weight: bold; padding-top: 15px;">Sams Town, KOA</div>
+	Las Vegas, NV<br>$47.99, Free Internet slow, $20 a week for 5 meg service through Cox cable
+	<br />
+	<img src="http://CowboyFrank.net/travel/CampPhotos/2019/2019-09-23.JPG" alt="" style="border: 1px solid Black; box-shadow: 10px 10px 10px #757575; margin: 15px; margin-right: 35px;">
+	</td></tr></table>]]>
+</description>
+<styleUrl>#m_ylw-pushpin</styleUrl>
+<Point>
+<altitudeMode>clampToGround</altitudeMode>
+<coordinates>-115.05786,36.10963,514.1</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>10/4-17/2019</name>
+<description>
+<![CDATA[<table style="margin: 25px;"><tr><td style="text-align: center; font-family: Arial, Helvetica, sans-serif;">
+	<div style="font-size: xx-large; font-weight: bold; padding-top: 15px;">Sams Town Nellis KOA</div>
+	Las Vegas, NV
+	<br />
+	<img src="http://CowboyFrank.net/travel/CampPhotos/2019/2019-10-04.JPG" alt="" style="border: 1px solid Black; box-shadow: 10px 10px 10px #757575; margin: 15px; margin-right: 35px;">
+	</td></tr></table>]]>
+</description>
+<styleUrl>#m_ylw-pushpin</styleUrl>
+<Point>
+<altitudeMode>clampToGround</altitudeMode>
+<coordinates>-115.06384,36.11830,518.5</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>10/18-21/2019</name>
+<description>
+<![CDATA[<table style="margin: 25px;"><tr><td style="text-align: center; font-family: Arial, Helvetica, sans-serif;">
+	<div style="font-size: xx-large; font-weight: bold; padding-top: 15px;">Las Vegas RV Resort</div>
+	Las Vegas, NV
+	<br />
+	<img src="http://CowboyFrank.net/travel/CampPhotos/2019/2019-10-18.JPG" alt="" style="border: 1px solid Black; box-shadow: 10px 10px 10px #757575; margin: 15px; margin-right: 35px;">
+	</td></tr></table>]]>
+</description>
+<styleUrl>#m_ylw-pushpin</styleUrl>
+<Point>
+<altitudeMode>clampToGround</altitudeMode>
+<coordinates>-115.0626410015108,36.12110592831143,0</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>10/22/2019</name>
+<description>
+<![CDATA[<table style="margin: 25px;"><tr><td style="text-align: center; font-family: Arial, Helvetica, sans-serif;">
+	<div style="font-size: xx-large; font-weight: bold; padding-top: 15px;">Dazzo's RV Park</div>
+	Wikieup, AZ<br>30 amp only, slummy trailer park
+	<br />
+	<img src="http://CowboyFrank.net/travel/CampPhotos/2019/2019-10-22.JPG" alt="" style="border: 1px solid Black; box-shadow: 10px 10px 10px #757575; margin: 15px; margin-right: 35px;">
+	</td></tr></table>]]>
+</description>
+<styleUrl>#m_ylw-pushpin</styleUrl>
+<Point>
+<altitudeMode>clampToGround</altitudeMode>
+<coordinates>-113.6154048148639,34.71298244874981,0</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>10/23-27/2019</name>
+<description>
+<![CDATA[<table style="margin: 25px;"><tr><td style="text-align: center; font-family: Arial, Helvetica, sans-serif;">
+	<div style="font-size: xx-large; font-weight: bold; padding-top: 15px;">WestWorld Equestrian Center</div>
+	Scotsdale, AZ<br>2019 World Gay Ropdeo Finals
+	<br />
+	<img src="http://CowboyFrank.net/travel/CampPhotos/2019/2019-10-23.JPG" alt="" style="border: 1px solid Black; box-shadow: 10px 10px 10px #757575; margin: 15px; margin-right: 35px;">
+	</td></tr></table>]]>
+</description>
+<styleUrl>#m_ylw-pushpin</styleUrl>
+<Point>
+<altitudeMode>clampToGround</altitudeMode>
+<coordinates>-111.87604,33.63210,466.7</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>10/28-29/2019</name>
+<description>
+<![CDATA[<table style="margin: 25px;"><tr><td style="text-align: center; font-family: Arial, Helvetica, sans-serif;">
+	<div style="font-size: xx-large; font-weight: bold; padding-top: 15px;">WestWorld Equestrian Center</div>
+	Scotsdale, AZ<br>Moved to a diferent site
+	<br />
+	<img src="http://CowboyFrank.net/travel/CampPhotos/2019/2019-10-28.JPG" alt="" style="border: 1px solid Black; box-shadow: 10px 10px 10px #757575; margin: 15px; margin-right: 35px;">
+	</td></tr></table>]]>
+</description>
+<styleUrl>#m_ylw-pushpin</styleUrl>
+<Point>
+<altitudeMode>clampToGround</altitudeMode>
+<coordinates>-111.8812366726583,33.63078505382807,0</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>10/30-31/2019</name>
+<description>
+<![CDATA[<table style="margin: 25px;"><tr><td style="text-align: center; font-family: Arial, Helvetica, sans-serif;">
+	<div style="font-size: xx-large; font-weight: bold; padding-top: 15px;">Holbrook KOA</div>
+	Holbrook, Arizona
+	<br />
+	<img src="http://CowboyFrank.net/travel/CampPhotos/2019/2019-10-30.JPG" alt="" style="border: 1px solid Black; box-shadow: 10px 10px 10px #757575; margin: 15px; margin-right: 35px;">
+	</td></tr></table>]]>
+</description>
+<styleUrl>#m_ylw-pushpin</styleUrl>
+<Point>
+<altitudeMode>clampToGround</altitudeMode>
+<coordinates>-110.14263,34.92328,1601.5</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>11/1/2019</name>
+<description>
+<![CDATA[<table style="margin: 25px;"><tr><td style="text-align: center; font-family: Arial, Helvetica, sans-serif;">
+	<div style="font-size: xx-large; font-weight: bold; padding-top: 15px;">Bar S RV Park</div>
+	Milan, NM
+	<br />
+	<img src="http://CowboyFrank.net/travel/CampPhotos/2019/2019-11-01.JPG" alt="" style="border: 1px solid Black; box-shadow: 10px 10px 10px #757575; margin: 15px; margin-right: 35px;">
+	</td></tr></table>]]>
+</description>
+<styleUrl>#m_ylw-pushpin</styleUrl>
+<Point>
+<altitudeMode>clampToGround</altitudeMode>
+<coordinates>-107.9005413559819,35.18691808433967,0</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>11/2-13/2019</name>
+<description>
+<![CDATA[<table style="margin: 25px;"><tr><td style="text-align: center; font-family: Arial, Helvetica, sans-serif;">
+	<div style="font-size: xx-large; font-weight: bold; padding-top: 15px;">Kirklan AFB Famcamp</div>
+	Albuquerque, NM
+	<br />
+	<img src="http://CowboyFrank.net/travel/CampPhotos/2019/2019-11-02.JPG" alt="" style="border: 1px solid Black; box-shadow: 10px 10px 10px #757575; margin: 15px; margin-right: 35px;">
+	</td></tr></table>]]>
+</description>
+<styleUrl>#m_ylw-pushpin</styleUrl>
+<Point>
+<altitudeMode>clampToGround</altitudeMode>
+<coordinates>-106.53871,35.05553,1666.4</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>11/14/2019</name>
+<description>
+<![CDATA[<table style="margin: 25px;"><tr><td style="text-align: center; font-family: Arial, Helvetica, sans-serif;">
+	<div style="font-size: xx-large; font-weight: bold; padding-top: 15px;">Las Vegas KOA New Mexico</div>
+	Las Vegas, NM
+	<br />
+	<img src="http://CowboyFrank.net/travel/CampPhotos/2019/2019-11-14.JPG" alt="" style="border: 1px solid Black; box-shadow: 10px 10px 10px #757575; margin: 15px; margin-right: 35px;">
+	</td></tr></table>]]>
+</description>
+<styleUrl>#m_ylw-pushpin</styleUrl>
+<Point>
+<altitudeMode>clampToGround</altitudeMode>
+<coordinates>-105.25289,35.51161,1981.8</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>11/15/2019</name>
+<description>
+<![CDATA[<table style="margin: 25px;"><tr><td style="text-align: center; font-family: Arial, Helvetica, sans-serif;">
+	<div style="font-size: xx-large; font-weight: bold; padding-top: 15px;">Raton KOA</div>
+	Raton, NM<br>To get Internet you have to give the company phone, email, address etc. Not likely.
+	<br />
+	<img src="http://CowboyFrank.net/travel/CampPhotos/2019/2019-11-15.JPG" alt="" style="border: 1px solid Black; box-shadow: 10px 10px 10px #757575; margin: 15px; margin-right: 35px;">
+	</td></tr></table>]]>
+</description>
+<styleUrl>#m_ylw-pushpin</styleUrl>
+<Point>
+<altitudeMode>clampToGround</altitudeMode>
+<coordinates>-104.44204,36.87837,2005.7</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>11/16-18/2019</name>
+<description>
+<![CDATA[<table style="margin: 25px;"><tr><td style="text-align: center; font-family: Arial, Helvetica, sans-serif;">
+	<div style="font-size: xx-large; font-weight: bold; padding-top: 15px;">Peregrine Pines FamCamp</div>
+	US Air Force Academy, Colorado Springs, CO
+	<br />
+	<img src="http://CowboyFrank.net/travel/CampPhotos/2019/2019-11-16.JPG" alt="" style="border: 1px solid Black; box-shadow: 10px 10px 10px #757575; margin: 15px; margin-right: 35px;">
+	</td></tr></table>]]>
+</description>
+<styleUrl>#m_ylw-pushpin</styleUrl>
+<Point>
+<altitudeMode>clampToGround</altitudeMode>
+<coordinates>-104.83812,39.00639,2026.6</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>11/19-31/2019</name>
+<description>
+<![CDATA[<table style="margin: 25px;"><tr><td style="text-align: center; font-family: Arial, Helvetica, sans-serif;">
+	<div style="font-size: xx-large; font-weight: bold; padding-top: 15px;">Chatfield State Park</div>
+	Denver, CO
+	<br />
+	<img src="http://CowboyFrank.net/travel/CampPhotos/2019/2019-11-19.JPG" alt="" style="border: 1px solid Black; box-shadow: 10px 10px 10px #757575; margin: 15px; margin-right: 35px;">
+	</td></tr></table>]]>
+</description>
+<styleUrl>#m_ylw-pushpin</styleUrl>
+<Point>
+<altitudeMode>clampToGround</altitudeMode>
+<coordinates>-105.06619,39.53400,1689.4</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>12/1/2019</name>
+<description>
+<![CDATA[<table style="margin: 25px;"><tr><td style="text-align: center; font-family: Arial, Helvetica, sans-serif;">
+	<div style="font-size: xx-large; font-weight: bold; padding-top: 15px;">Marshall Ash Village Campground</div>
+	Stratford, CO<br>50 amp full hookups
+	<br />
+	<img src="http://CowboyFrank.net/travel/CampPhotos/2019/2019-12-01.JPG" alt="" style="border: 1px solid Black; box-shadow: 10px 10px 10px #757575; margin: 15px; margin-right: 35px;">
+	</td></tr></table>]]>
+</description>
+<styleUrl>#m_ylw-pushpin</styleUrl>
+<Point>
+<altitudeMode>clampToGround</altitudeMode>
+<coordinates>-102.60607,39.29654,1356.0</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>12/2/2019</name>
+<description>
+<![CDATA[<table style="margin: 25px;"><tr><td style="text-align: center; font-family: Arial, Helvetica, sans-serif;">
+	<div style="font-size: xx-large; font-weight: bold; padding-top: 15px;">Ellis City Park</div>
+	Ellis, KS
+	<br />
+	<img src="http://CowboyFrank.net/travel/CampPhotos/2019/2019-12-02.JPG" alt="" style="border: 1px solid Black; box-shadow: 10px 10px 10px #757575; margin: 15px; margin-right: 35px;">
+	</td></tr></table>]]>
+</description>
+<styleUrl>#m_ylw-pushpin</styleUrl>
+<Point>
+<altitudeMode>clampToGround</altitudeMode>
+<coordinates>-99.55757,38.94028,648.0</coordinates>
+</Point>
+</Placemark>
+
+
+<Placemark>
+<name>12/3- /2019</name>
+<description>
+<![CDATA[<table style="margin: 25px;"><tr><td style="text-align: center; font-family: Arial, Helvetica, sans-serif;">
+	<div style="font-size: xx-large; font-weight: bold; padding-top: 15px;">New Horizons RV</div>
+	Junction City, KS
+	<br />
+	<img src="http://CowboyFrank.net/travel/CampPhotos/2019/2019-12-03.JPG" alt="" style="border: 1px solid Black; box-shadow: 10px 10px 10px #757575; margin: 15px; margin-right: 35px;">
+	</td></tr></table>]]>
+</description>
+<styleUrl>#m_ylw-pushpin</styleUrl>
+<Point>
+<altitudeMode>clampToGround</altitudeMode>
+<coordinates>-96.87321,39.00332,357.3</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>12/22-23/2019</name>
+<description>
+<![CDATA[<table style="margin: 25px;"><tr><td style="text-align: center; font-family: Arial, Helvetica, sans-serif;">
+	<div style="font-size: xx-large; font-weight: bold; padding-top: 15px;">Hoisington, Campground</div>
+	Hoisington, KS<br>$15.00, Water and 50 amp service, dump station
+	<br />
+	<img src="http://CowboyFrank.net/travel/CampPhotos/2019/2019-12-22.JPG" alt="" style="border: 1px solid Black; box-shadow: 10px 10px 10px #757575; margin: 15px; margin-right: 35px;">
+	</td></tr></table>]]>
+</description>
+<styleUrl>#m_ylw-pushpin</styleUrl>
+<Point>
+<altitudeMode>clampToGround</altitudeMode>
+<coordinates>-98.77195,38.52417,567.6</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>12/24-25/2019</name>
+<description>
+<![CDATA[<table style="margin: 25px;"><tr><td style="text-align: center; font-family: Arial, Helvetica, sans-serif;">
+	<div style="font-size: xx-large; font-weight: bold; padding-top: 15px;">Dodge City, KOA</div>
+	Dodge City, KS<br />
+	<a href="https://koa.com/campgrounds/dodge-city/">Website</a>
+	<br />
+	<img src="http://CowboyFrank.net/travel/CampPhotos/2019/2019-12-24.JPG" alt="" style="border: 1px solid Black; box-shadow: 10px 10px 10px #757575; margin: 15px; margin-right: 35px;">
+	</td></tr></table>]]>
+</description>
+<styleUrl>#m_ylw-pushpin</styleUrl>
+<Point>
+<altitudeMode>clampToGround</altitudeMode>
+<coordinates>-100.02504,37.74759,755.6</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>12/26-28/2019</name>
+<description>
+<![CDATA[<table style="margin: 25px;"><tr><td style="text-align: center; font-family: Arial, Helvetica, sans-serif;">
+	<div style="font-size: xx-large; font-weight: bold; padding-top: 15px;">Star Of Texas RV Park</div>
+	Stratford, TX<br>Very few other campers in winter, Good internet, full hookups<br><a href="http://www.staroftexasrv.com/">website</a>
+	<br />
+	<img src="http://CowboyFrank.net/travel/CampPhotos/2019/2019-12-26.JPG" alt="" style="border: 1px solid Black; box-shadow: 10px 10px 10px #757575; margin: 15px; margin-right: 35px;">
+	</td></tr></table>]]>
+</description>
+<styleUrl>#m_ylw-pushpin</styleUrl>
+<Point>
+<altitudeMode>clampToGround</altitudeMode>
+<coordinates>-102.06730,36.32631,1124.0</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+<name>12/29-31/2-19/2019</name>
+<description>
+<![CDATA[<table style="margin: 25px;"><tr><td style="text-align: center; font-family: Arial, Helvetica, sans-serif;">
+	<div style="font-size: xx-large; font-weight: bold; padding-top: 15px;">Blaze-In-Saddle RV Park</div>
+	Tucumcari, NM<br><a href="https://www.blaze-in-saddle.com/">website</a>
+	<br />
+	<img src="http://CowboyFrank.net/travel/CampPhotos/2019/2019-12-29.JPG" alt="" style="border: 1px solid Black; box-shadow: 10px 10px 10px #757575; margin: 15px; margin-right: 35px;">
+	</td></tr></table>]]>
+</description>
+<styleUrl>#m_ylw-pushpin</styleUrl>
+<Point>
+<altitudeMode>clampToGround</altitudeMode>
+<coordinates>-103.69459,35.17097,1223.8</coordinates>
+</Point>
+</Placemark>
+
+</Document>
+</kml>

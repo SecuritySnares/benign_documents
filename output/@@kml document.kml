@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+  
+  <Document>
+
+    
+           
+        <Style id="defaultStyle">
+          <IconStyle>
+            <scale>0.7</scale>
+           <Icon>
+            <href>https://apgreenjobs.ilo.org/img/marker.png</href>
+           </Icon>
+           <hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+          </IconStyle>
+          <LineStyle>
+           <color>3c0000ff</color>
+           <width>2.0</width>
+          </LineStyle>
+          <PolyStyle>
+            <color>3c0000ff</color>
+          </PolyStyle>
+        </Style>
+      
+    
+
+    <name>Decent Work in Garment Supply Chains Asia Project</name>
+    <visibility>1</visibility>
+    <open>0</open>
+
+    
+      
+
+      
+        
+      <Placemark>
+        <name>Decent Work in Garment Supply Chains Asia Project</name>
+        <atom:author>
+           <atom:name>greenjobsap@ilo.org</atom:name>
+        </atom:author>
+        <atom:link href="https://apgreenjobs.ilo.org/project/copy_of_greener-business-asia"/>
+        
+            
+        <description>
+          <![CDATA[
+          <div class="placemark-data">
+            
+              
+            
+            <p>TBC</p>
+
+            
+              
+            
+          </div>
+
+          
+            <p class="placemark-url">
+                <a href="https://apgreenjobs.ilo.org/project/copy_of_greener-business-asia">See the original resource</a>
+            </p>
+          
+
+          ]]>
+        </description>
+      
+          
+
+        
+            
+            
+              
+        <Style>
+          
+          
+          <PolyStyle>
+            <color>3c0000ff</color>
+          </PolyStyle>
+        </Style>
+      
+            
+          
+
+        
+        
+        <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <coordinates>122.934448,21.628998,0.0 125.395385,15.212277,0.0 129.526245,6.066445,0.0 125.746948,3.351289,0.0 119.506714,4.753988,0.0 117.133667,20.068479,0.0 122.934448,21.628998,0.0</coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+        </Polygon>
+        
+        
+        
+      </Placemark>
+      
+
+      
+    
+  </Document>
+</kml>

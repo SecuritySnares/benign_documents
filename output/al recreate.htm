@@ -1,0 +1,1612 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<script type="text/javascript" src="/a/j/product_details.js"></script>
+				
+<script type="text/javascript" src="/a/j/vzoom.js"></script>
+<link type="text/css" rel="stylesheet" href="/a/c/vzoom.css" />
+				<title>How to Recreate logo to Vector - Vector Logo Recreate Service</title>
+<meta name="description" content="Finally an easy way to professionally convert your non-vector logo (JPG, GIF, TIF, BMP, etc) to Illustrator Vector art, let us do it." />
+<meta name="keywords" content="how to recreate logo, recreare logo, vector logo recreate service" />
+<meta property="og:title" content="How to Recreate logo to Vector - Vector Logo Recreate Service" />
+<meta property="og:type" content="product" />
+<meta property="og:description" content="Finally an easy way to professionally convert your non-vector logo (JPG, GIF, TIF, BMP, etc) to Illustrator Vector art, let us do it." />
+<meta property="og:site_name" content="www.tradeshow-stuff.com" />
+<meta property="og:url" content="https://www.tradeshow-stuff.com/product-p/al-recreate.htm" />
+<meta property="og:image" content="https://www.tradeshow-stuff.com/v/vspfiles/photos/AL-RECREATE-2T.gif" />
+
+<link rel="canonical" href="https://www.tradeshow-stuff.com/Vector-Logo-Recreate-Service-p/al-recreate.htm" />
+		
+<link type="text/css" href="//ajax.googleapis.com/ajax/libs/jqueryui/1.8.4/themes/base/jquery-ui.css" rel="stylesheet" />
+<link type="text/css" href="/a/c/default.css" rel="stylesheet" />
+
+
+
+<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jqueryui/1.8.4/jquery-ui.min.js"></script>
+
+
+
+<script type="text/javascript">
+	var Config_VCompare_MaxProducts = '5';
+	var PageText_783 = "Compare";
+	var PageText_784 = "Change Selections";
+	var PageText_785 = "You've attempted to select more than {0} items. Click {1} to continue with your initial {0} items or {2} to change your selections.";
+	var PageText_819 = "Product Comparison";
+    var PageText_822 = "Compare";
+    var PageText_840 = "Create Password";
+    var PageText_841 = "Retype Password";
+    var PageText_842 = "Added to cart";
+    var PageText_843 = "Subtotal";
+    var PageText_844 = "items in cart";
+</script>
+<script type="text/javascript" src="/a/j/volusion.js?7.216.9.4897"></script>
+<script type="text/javascript">
+    (function ($) {
+        volusion.ready(function () {
+            if (volusion.cart.isObservingCount()) {
+                var ts = new Date().getTime();
+                $.getJSON('/ajaxcart.asp?cachebust=' + ts, function (data) {
+                    var quantityTotal = 0;
+                    $.each(data.Products, function (key, val) {
+                        if (val.IsProduct === 'Y') {
+                            quantityTotal += parseInt(val.Quantity);
+                        } else if (val.IsAccessory === 'Y') {
+                            quantityTotal += parseInt(val.Quantity);
+                        }
+                    });
+                    quantityTotal = quantityTotal || '0';
+                    volusion.cart.itemCount(quantityTotal);
+                });
+            }
+        });
+    } (jQuery));
+</script>
+<link type="text/css" rel="stylesheet" href="/a/contentbuilder/assets/default/content.css" />
+<script type="text/javascript" src="../../a/j/paypal-rest-default-buttons.js"></script>
+
+	<script type="text/javascript" src="/a/j/soft_add.js"></script>
+
+	<!-- Support for multi-product add to soft cart missing from product details page and possibly others -->
+	<script type="text/javascript" src="/a/j/soft_add_mult.js"></script>
+
+
+<link type="text/css" rel="stylesheet" href="/a/c/soft_add.css" />
+<script type="text/javascript">
+	var global_Config_EnableDisplayOptionProducts = 'False';
+	var global_Config_ForceSecureShoppingCartPage = false;
+	var global_PageText_OtherItemsAdded = '(All other items have been added to the cart)';
+	var Config_EnableSoftAddToCart = true;
+</script>
+<script type="text/javascript" src="/a/j/javascripts.js?6_5_7.216.9.4897"></script>
+
+<script type="text/javascript">
+	var Config_Search_Auto_Complete = false;
+</script>
+
+<script type="text/javascript">
+/* New Checkout JS */
+
+if (!String.prototype.includes) {
+    String.prototype.includes = function() {
+        'use strict';
+        return String.prototype.indexOf.apply(this, arguments) !== -1;
+    };
+}
+
+if (!Array.prototype.includes) {
+  Object.defineProperty(Array.prototype, "includes", {
+    enumerable: false,
+    value: function(obj) {
+        var newArr = this.filter(function(el) {
+          return el == obj;
+        });
+        return newArr.length > 0;
+      }
+  });
+}
+
+var whichCheckoutToGoTo = "new"
+
+console.log("whichCheckoutToGoTo:", whichCheckoutToGoTo)
+
+function setWhichCheckoutToGoTo(choice) {
+	whichCheckoutToGoTo = choice
+	console.log("setWhichCheckoutToGoTo:", choice)
+}
+
+function goToCheckout() {
+	var IsAGift = $('#IsAGift').val();
+	console.log("goToCheckout: whichCheckoutToGoTo:", whichCheckoutToGoTo)
+	if (whichCheckoutToGoTo === "new") {
+		console.log("going to new checkout")
+		proceedToNewCheckout(IsAGift)
+	} else {
+		console.log("going to old checkout")
+		proceedToOldCheckout()
+	}
+}
+
+function proceedToOldCheckout() {
+  console.log("fired proceedToOldCheckout()")
+  window.location.href = "/one-page-checkout.asp";
+}
+
+function proceedToNewCheckout(IsAGift) {
+	console.log("fired proceedToNewCheckout()")
+    if (IsAGift == "Y") {
+		window.location.href = "/GiftOptions.asp";
+    } else {
+		window.location.href = "/checkout/";
+    }
+}
+
+function linkCheckoutButtonsToNewCheckout() {
+	/* Replace links to one-page-checkout.asp to instead open new checkout modal */
+	var anchors = document.getElementsByTagName("a");
+	for (var i = 0; i < anchors.length; i++) {
+		if (anchors[i].href.includes("/one-page-checkout.asp")) {
+			console.log("found " + anchors[i].href + " and replaced it")
+			anchors[i].href = "javascript:void(0);"
+			anchors[i].setAttribute("onclick","goToCheckout()")
+		}
+	}
+	/* Also look for the patterns we see for proceed to checkout buttons on shoppingcart.asp */
+	var inputs = document.getElementsByTagName("input");
+	for (var i = 0; i < inputs.length; i++) {
+		if (inputs[i].name.includes("btn_checkout_guest")) {
+			console.log("found " + inputs[i].name + " and added onClick goToCheckout()")
+			inputs[i].setAttribute("onclick","goToCheckout()")
+		}
+	}
+
+	if (document.Proceed_To_Checkout_Form) {
+		document.Proceed_To_Checkout_Form.action = "javascript:void(0);"
+	}
+}
+document.addEventListener("DOMContentLoaded", linkCheckoutButtonsToNewCheckout); /* this one runs super fast right away on page load */
+window.addEventListener("load", linkCheckoutButtonsToNewCheckout); /* this one is important to run after credo template does its replacements */
+</script>
+<style type="text/css">
+/* New Checkout CSS */
+
+.new-secure-checkout-modal {
+  background: linear-gradient(45deg, rgba(0, 0, 0, 0.5), rgba(54, 54, 54, 0.5));
+  backdrop-filter: blur(3px);
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1000; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  text-align: center;
+}
+
+.new-secure-checkout-modal-content {
+  margin: auto;
+  width: 100%;
+  height: 100%;
+  background: none;
+}
+
+.new-secure-checkout-iframe {
+  height:calc(100vh - 4px);
+  width:calc(100vw - 4px);
+  box-sizing: border-box;
+}
+</style>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-1399167-37"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-1399167-37');
+</script>
+<script src="https://www.googleoptimize.com/optimize.js?id=OPT-WDZXWGG"></script>
+
+<script type="text/javascript" src="https://js-cdn.dynatrace.com/jstag/17052aca8bb/bf64226adg/f2c8c7e93216e073_complete.js" crossorigin="anonymous"></script>
+
+    <script src="https://www.paypal.com/sdk/js?client-id=AeDWFs5RFH33pB3skuP1M57jTWgMHSuKFMxJtkMddpYsR7SSEBanfqI1RN7LlRaQ_Jmjxb8-L_1dbIJW&merchant-id=8X2YNH758EXTN&currency=USD&commit=false&intent=capture&disable-funding=card&components=buttons,messages,hosted-fields&enable-funding=venmo,paylater"></script>
+
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-WF6NQQ4');</script>
+<!-- End Google Tag Manager -->
+
+<script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "WebSite",
+        "url": "https://www.tradeshow-stuff.com/",
+        "potentialAction": {
+          "@type": "SearchAction",
+          "target": "www.tradeshow-stuff.com/searchresults.asp?Search={query}",
+          "query-input": "required name=query"
+        }
+    }
+    </script>
+
+<script type="application/ld+json">{"@context":"https://schema.org/",
+"@type":"Organization",
+"url":"https://www.tradeshow-stuff.com/",
+"logo":"https://www.tradeshow-stuff.com/v/vspfiles/templates/neon/images/template/header_bg.png",
+"legalName":"Allegro Marketing",
+"telephone":"800-969-9913",
+"email":"questions@tradeshow-stuff.com",
+
+"address":{"@type":"PostalAddress",
+"addressCountry":"United States",
+"addressLocality":"Perham",
+"addressRegion":"MN",
+"postalCode":"56573",
+"streetAddress":"PO Box 256",
+"postOfficeBoxNumber":"256"}}</script>
+
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta id="v65-layout-mode" data-cart="storedot" data-checkout="storedot" data-use-simplified-checkout="true">
+        <meta id="v65-logo-dimensions" data-width="250" data-height="78">
+        <link href="/v/vspfiles/templates/neon/css/framework.css" rel="stylesheet">
+        <link href="/v/vspfiles/templates/neon/css/template.css" rel="stylesheet">
+        <link href="/v/vspfiles/templates/neon/css/storefront.css" rel="stylesheet">
+        <script src="/v/vspfiles/templates/neon/js/design-toolkit_min.js"></script>
+        <script>DTK.loadCSS("neon");</script>
+        <script>document.createElement("picture");</script>
+        <script src="/v/vspfiles/templates/neon/js/picturefill.min.js" async></script>
+        <script>$(function(){$("#svgIncludes").load("/v/vspfiles/templates/neon/images/svg/svg-defs.svg");});</script>
+        <!--[if lt IE 9]><script src="/v/vspfiles/templates/neon/js/html5shiv.js"></script><![endif]-->
+
+<meta name="google-site-verification" content="sLIyY3Q8TIpfPNyobNieGNB2ou211h6O-1LfkZbYog4" />
+<meta name="msvalidate.01" content="DAB6CEA53BDFC2FAD643BBAF986B54EC" />
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-1411360-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-1411360-1');
+</script>
+<meta name="p:domain_verify" content="1eb96fdce004f5d90670450c28e2e13d"/>
+    </head>
+
+    <!-- ========== neon ======================
+        DESIGNER: CH
+        DEVELOPER: AAM
+        CODE DATE: 2014-10
+    ========================================= -->
+
+<body>
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WF6NQQ4"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+<noscript id="no-js-notice"> To take full advantage of this site, please enable your browser's JavaScript feature. <a href="https://www.activatejavascript.org/" target="_blank" rel="nofollow">Learn how</a></noscript>
+    <span style="display:none;" id="svgIncludes"></span>
+
+<style>
+.button {
+    background-color: #F32735; /* Gray */
+    border: none;
+    color: white;
+    padding: 2px 14px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 8px 14px;
+    -webkit-transition-duration: 1.4s; /* Safari */
+    transition-duration: 1.4s;
+    cursor: pointer;
+}
+
+.buttonS {
+    background-color: F32735; 
+    color: white; 
+    border: 2px solid #231F20;
+}
+
+.buttonS:hover {
+    background-color: #e7e7e7;
+    color: black;
+}
+
+
+.buttonL {
+    background-color: white;
+    color: black;
+    border: 2px solid #A7A9AC;
+}
+
+.buttonL:hover {
+background-color: #FF9E18;
+color: black;
+}
+</style>
+
+
+    <nav class="menu push-menu push-menu-left" id="push-menu">
+        <!-- CLOSE BUTTON -->
+        <div class="push-menu__close-btn close-menu">
+            <span class="close-menu__inner glyphicon glyphicon-remove"></span>
+        </div>
+
+        <!-- USEFULE LINKS -->
+        <ul class="useful-links">
+            <li>
+                <a href="/myaccount.asp" title="My Account">
+                    <svg viewBox="0 0 1024 1024" class="menu-icon">
+                        <use xmlns:xlink="https://www.w3.org/1999/xlink" xlink:href="#user"></use>
+                    </svg>
+                    <span class="text">My Account</span>
+                </a>
+            </li>
+        </ul>
+
+        <hr>
+
+        <!-- MAIN MENU -->
+        <div id="display_menu_1"><script type="text/javascript">var breadCrumb="||";</script>
+<link rel='stylesheet' type='text/css' href='/a/c/vnav.css'>
+<script src='/a/j/vnav.js?1'></script>
+<ul class='vnav vnav--horizontal vnav--level1'>
+<li class='vnav__item'><a href='https://www.tradeshow-stuff.com' class='vnav__link'>Products <i class="icon ion-chevron-down"></i></a>
+<ul class='vnav vnav__subnav vnav--level2'>
+<li class='vnav__item'><a href='https://www.tradeshow-stuff.com/stretch-table-covers-with-logo-s/82.htm' class='vnav__link'>Stretch Table Covers with Logo</a>
+</li><li class='vnav__item'><a href='https://www.tradeshow-stuff.com/trade-show-table-covers-s/49.htm' class='vnav__link'>Trade Show Table Covers</a>
+</li><li class='vnav__item'><a href='https://www.tradeshow-stuff.com/Trade-Show-Flooring-s/55.htm' class='vnav__link'>Trade Show Flooring</a>
+</li><li class='vnav__item'><a href='https://www.tradeshow-stuff.com/Trade-Show-Tents-s/306.htm' class='vnav__link'>Event & Trade Show Tents</a>
+</li><li class='vnav__item'><a href='https://www.tradeshow-stuff.com/Trade-Show-TV-Stands-s/423.htm' class='vnav__link'>Trade Show TV Stands</a>
+</li><li class='vnav__item'><a href='https://www.tradeshow-stuff.com/banner-displays-s/48.htm' class='vnav__link'>Banner Displays</a>
+</li><li class='vnav__item'><a href='https://www.tradeshow-stuff.com/Trade-Show-Counters-s/54.htm' class='vnav__link'>Portable Counters</a>
+</li><li class='vnav__item'><a href='https://www.tradeshow-stuff.com/kiosks-s/53.htm' class='vnav__link'>Kiosks</a>
+</li><li class='vnav__item'><a href='https://www.tradeshow-stuff.com/Tabletop-Display-Stands-s/50.htm' class='vnav__link'>Tabletop Display Stands</a>
+</li><li class='vnav__item'><a href='https://www.tradeshow-stuff.com/floor-displays-s/51.htm' class='vnav__link'>Floor Displays</a>
+</li><li class='vnav__item'><a href='https://www.tradeshow-stuff.com/outdoor-displays-s/242.htm' class='vnav__link'>Outdoor Displays</a>
+</li><li class='vnav__item'><a href='https://www.tradeshow-stuff.com/sign-displays-s/553.htm' class='vnav__link'>Sign Displays</a>
+</li><li class='vnav__item'><a href='https://www.tradeshow-stuff.com/accessories-s/57.htm' class='vnav__link'>Accessories</a>
+</li><li class='vnav__item'><a href='/Hybrid-Displays-s/196.htm' class='vnav__link'>Custom Displays</a>
+</li><li class='vnav__item'><a href='https://www.tradeshow-stuff.com/category-s/1650.htm' class='vnav__link'>Closeout Savings</a>
+</li></ul>
+</li>
+<li class='vnav__item'><a href='https://spaces.hightail.com/uplink/allegrodisplay' class='vnav__link'>send us your files <i class="icon ion-paper-airplane"></i></a>
+</li>
+<li class='vnav__item'><a href='https://www.tradeshow-stuff.com/contact-us-s/73.htm' class='vnav__link'>contact us <i class="icon ion-person-stalker"></i></a>
+<ul class='vnav vnav__subnav vnav--level2'>
+<li class='vnav__item'><a href='/contact-us-s/73.htm' class='vnav__link'>Live Chat (M-F; 9-5 CT)</a>
+</li><li class='vnav__item'><a href='/contact-us-s/73.htm' class='vnav__link'>800.969.9913 (US, CA)</a>
+</li><li class='vnav__item'><a href='/contact-us-s/73.htm' class='vnav__link'>by email</a>
+</li></ul>
+</li>
+</ul>
+</div>
+
+        <!-- UTILITY -->
+        <ul class="utility">
+            <li><a href="tel:+1-800-969-9913" title="Call Us"><i class="icon ion-ios-telephone"></i> 800.969.9913</a></li>
+            <li><a href="https://www.tradeshow-stuff.com/contact-us-s/73.htm" title="Contact Us"><i class="icon ion-chatbubbles"></i> Contact Us</a></li>
+            <li><a href="/myaccount.asp" title="My Account">My Account</a></li>
+            <li><a href="/kb_results.asp" title="Help">Help</a></li>
+        </ul>
+
+        <hr>
+
+        <!-- CONTACT INFO -->
+        <div class="contact-info">
+            <span class="info">
+                <svg viewBox="0 0 1024 1024" class="map-icon">
+                    <use xmlns:xlink="https://www.w3.org/1999/xlink" xlink:href="#map"></use>
+                </svg>
+                <span data-v-edit-region="Push Menu Address">Perham, MN</span>
+            </span>
+            <br class="visible-xs-block">
+
+            <span class="info">
+                <svg viewBox="0 0 1024 1024" class="phone-icon">
+                    <use xmlns:xlink="https://www.w3.org/1999/xlink" xlink:href="#phone"></use>
+                </svg>
+                <span data-v-edit-region="Push Menu Number"><a href="tel:18009699913">800.969.9913</a></span>
+            </span>
+            <br class="visible-xs-block">
+
+            <span class="info">
+                <svg viewBox="0 0 1024 1024" class="mail-icon">
+                    <use xmlns:xlink="https://www.w3.org/1999/xlink" xlink:href="#mail"></use>
+                </svg>
+                <span><a href="/contact-us-s/73.htm" title="Contact www.tradeshow-stuff.com">orders@tradeshow-stuff.com</a></span>
+            </span>
+        </div>
+
+        <hr>
+
+        <!-- SOCIAL MEDIA -->
+        <div class="social">
+            <div class="column-title social-title">Let's Stay In Touch</div>
+            <a class="socicon fb" href="https://www.facebook.com/tradeshowstuff" target="_blank" rel="noopener">
+                Facebook
+                <svg viewBox="0 0 1024 1024" class="svg-icon fb-icon">
+                    <use xmlns:xlink="https://www.w3.org/1999/xlink" xlink:href="#facebook"></use>
+                </svg>
+            </a>
+            <a class="socicon tw" href="https://twitter.com/tradeshowstuff" target="_blank" rel="noopener">
+                Twitter
+                <svg viewBox="0 0 1024 1024" class="svg-icon tw-icon">
+                    <use xmlns:xlink="https://www.w3.org/1999/xlink" xlink:href="#twitter"></use>
+                </svg>
+            </a>
+            <a class="socicon pi" href="https://www.pinterest.com/tradeshowstuff/" target="_blank" rel="noopener">
+                Pinterest
+                <svg viewBox="0 0 1024 1024" class="svg-icon pi-icon">
+                    <use xmlns:xlink="https://www.w3.org/1999/xlink" xlink:href="#pinterest"></use>
+                </svg>
+            </a>
+            <a class="socicon yt" href="https://www.youtube.com/tradeshowstuff" target="_blank" rel="noopener">
+                Instagram
+                <svg viewBox="0 0 1024 1024" class="svg-icon yt-icon">
+                    <use xmlns:xlink="https://www.w3.org/1999/xlink" xlink:href="#youtube"></use>
+                </svg>
+            </a>
+ <a class="socicon bl" href="https://blog.tradeshow-stuff.com/" target="_blank">
+               Blog
+                <svg viewBox="0 0 1024 1024" class="svg-icon bl-icon">
+                    <use xmlns:xlink="https://www.w3.org/1999/xlink" xlink:href="#blog"></use>
+                </svg>
+            </a>
+
+        </div>
+    </nav><!-- /slide menu left -->
+
+    <div class="page-wrap">
+        <div class="inner-wrap">
+
+
+
+        <header class="header">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-9 col-md-3 no-padding-xs">
+                        <!-- TOGGLE BTN -->
+                        <button type="button" class="nav-toggler menu-icon-btn pull-left toggle-push-left hidden-md hidden-lg">
+                            <svg viewBox="0 0 1024 1024" class="menu-icon">
+                                <use xmlns:xlink="https://www.w3.org/1999/xlink" xlink:href="#menu"></use>
+                            </svg>
+                        </button>
+
+                        <!-- LOGO 
+                        <div class="logo">
+                       <span class="vol-logo vol-logo--graphic" itemscope itemtype='http://schema.org/Store'><meta itemprop='name' content='www.tradeshow-stuff.com'><a class="vol-logo__link" href="https://www.tradeshow-stuff.com/default.asp" title="www.tradeshow-stuff.com">www.tradeshow-stuff.com</a></span>
+                        </div>-->
+                        <div class="logo">
+                       <span class="vol-logo vol-logo--graphic" ><a class="vol-logo__link" href="https://www.tradeshow-stuff.com/default.asp" title="www.tradeshow-stuff.com"><img class="logo__img img-responsive" src="https://www.tradeshow-stuff.com/v/vspfiles/templates/neon/images/template/header_bg.png"></a></span>
+                        </div>
+                    </div>
+
+                    <div class="col-xs-3 col-md-9 no-padding-xs">
+                        <!-- CART -->
+                        <div class="cart-summary tool pull-right" data-v-anchor="cart">
+                            <a href="/shoppingcart.asp" class="cart-summary__link"></a>
+                            <div class="cart-text">
+                                <svg viewBox="0 0 1024 1024" class="cart-icon">
+                                    <use xmlns:xlink="https://www.w3.org/1999/xlink" xlink:href="#cart"></use>
+                                </svg>
+                                <span class="cart-summary__count visible-md-inline-block visible-lg-inline-block" data-v-observable="cart-count">0</span>
+                            </div>
+                        </div>
+
+                        <!-- SEARCH -->
+                        <div class="site-search tool pull-right">
+                            <button class="open-search" value="Submit">
+                                <svg viewBox="0 0 1024 1024" class="search-icon">
+                                    <use xmlns:xlink="https://www.w3.org/1999/xlink" xlink:href="#search"></use>
+                                </svg>
+                            </button>
+
+                            <!-- SEARCH copy #1 (visible tablet only) -->
+                            <div class="hidden-xs">
+                                <div class="search-block tablet">
+                                    <form class="search-form" action="/searchresults.asp" method="get" name="SearchBoxForm">
+                                        <input type="text" name="Search" class="site-search__input" value="" placeholder="What can we help you find?">
+                                        <input type="submit" name="Submit" class="site-search__submit" value="Submit"/>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Site Tools -->
+                        <nav class="site-tools pull-right visible-md-block visible-lg-block">
+                            <ul>
+                                <li><a href="tel:+1-800-969-9913" title="Call Us"><i class="icon ion-ios-telephone"></i> 800.969.9913</a></li>
+                                <li><a href="https://www.tradeshow-stuff.com/contact-us-s/73.htm" title="Contact Us"><i class="icon ion-chatbubbles"></i> Contact Us</a></li>
+                                <li><a href="/myaccount.asp" title="My Account">My Account</a></li>
+                                <li><a href="/kb_results.asp" title="Help">Help</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+
+            <!-- SEARCH copy #2 (visible mobile only) -->
+            <div class="visible-xs-block">
+                <div class="search-block mobile">
+                    <form class="search-form" action="/searchresults.asp" method="get" name="SearchBoxForm">
+                        <input type="text" name="Search" class="site-search__input" value="" placeholder="What can we help you find?">
+                        <input type="submit" name="Submit" class="site-search__submit" value="Submit"/>
+                    </form>
+                </div>
+            </div>
+        </header>
+
+        <!-- MENU -->
+        <div class="top-bar">
+            <div class="container no-padding">
+                <div class="collapse navbar-collapse" id="navbar-collapse">
+                    <div class="main-menu">
+                        <div id="display_menu_1" class="menu"><ul class='vnav vnav--horizontal vnav--level1'>
+<li class='vnav__item'><a href='https://www.tradeshow-stuff.com' class='vnav__link'>Products <i class="icon ion-chevron-down"></i></a>
+<ul class='vnav vnav__subnav vnav--level2'>
+<li class='vnav__item'><a href='https://www.tradeshow-stuff.com/stretch-table-covers-with-logo-s/82.htm' class='vnav__link'>Stretch Table Covers with Logo</a>
+</li><li class='vnav__item'><a href='https://www.tradeshow-stuff.com/trade-show-table-covers-s/49.htm' class='vnav__link'>Trade Show Table Covers</a>
+</li><li class='vnav__item'><a href='https://www.tradeshow-stuff.com/Trade-Show-Flooring-s/55.htm' class='vnav__link'>Trade Show Flooring</a>
+</li><li class='vnav__item'><a href='https://www.tradeshow-stuff.com/Trade-Show-Tents-s/306.htm' class='vnav__link'>Event & Trade Show Tents</a>
+</li><li class='vnav__item'><a href='https://www.tradeshow-stuff.com/Trade-Show-TV-Stands-s/423.htm' class='vnav__link'>Trade Show TV Stands</a>
+</li><li class='vnav__item'><a href='https://www.tradeshow-stuff.com/banner-displays-s/48.htm' class='vnav__link'>Banner Displays</a>
+</li><li class='vnav__item'><a href='https://www.tradeshow-stuff.com/Trade-Show-Counters-s/54.htm' class='vnav__link'>Portable Counters</a>
+</li><li class='vnav__item'><a href='https://www.tradeshow-stuff.com/kiosks-s/53.htm' class='vnav__link'>Kiosks</a>
+</li><li class='vnav__item'><a href='https://www.tradeshow-stuff.com/Tabletop-Display-Stands-s/50.htm' class='vnav__link'>Tabletop Display Stands</a>
+</li><li class='vnav__item'><a href='https://www.tradeshow-stuff.com/floor-displays-s/51.htm' class='vnav__link'>Floor Displays</a>
+</li><li class='vnav__item'><a href='https://www.tradeshow-stuff.com/outdoor-displays-s/242.htm' class='vnav__link'>Outdoor Displays</a>
+</li><li class='vnav__item'><a href='https://www.tradeshow-stuff.com/sign-displays-s/553.htm' class='vnav__link'>Sign Displays</a>
+</li><li class='vnav__item'><a href='https://www.tradeshow-stuff.com/accessories-s/57.htm' class='vnav__link'>Accessories</a>
+</li><li class='vnav__item'><a href='/Hybrid-Displays-s/196.htm' class='vnav__link'>Custom Displays</a>
+</li><li class='vnav__item'><a href='https://www.tradeshow-stuff.com/category-s/1650.htm' class='vnav__link'>Closeout Savings</a>
+</li></ul>
+</li>
+<li class='vnav__item'><a href='https://spaces.hightail.com/uplink/allegrodisplay' class='vnav__link'>send us your files <i class="icon ion-paper-airplane"></i></a>
+</li>
+<li class='vnav__item'><a href='https://www.tradeshow-stuff.com/contact-us-s/73.htm' class='vnav__link'>contact us <i class="icon ion-person-stalker"></i></a>
+<ul class='vnav vnav__subnav vnav--level2'>
+<li class='vnav__item'><a href='/contact-us-s/73.htm' class='vnav__link'>Live Chat (M-F; 9-5 CT)</a>
+</li><li class='vnav__item'><a href='/contact-us-s/73.htm' class='vnav__link'>800.969.9913 (US, CA)</a>
+</li><li class='vnav__item'><a href='/contact-us-s/73.htm' class='vnav__link'>by email</a>
+</li></ul>
+</li>
+</ul>
+</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        
+
+        <div class="content-wrap">
+            <main class="container" role="main">
+                <div id="content_area"><link rel='stylesheet' type='text/css' href='/a/j/shadowbox/shadowbox.css' />
+<script type='text/javascript' src='/a/j/shadowbox/shadowbox.js'></script>
+
+   <div id="fb-root"></div>
+   <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v12.0&appId=1962798183964904&autoLogAppEvents=1" nonce="qz9crs76"></script>
+   
+<script type="text/javascript">
+    var global_Config_StoreFolderName = '//cdn3.volusion.com/eavmr.ehsew/';
+    var global_Config_ProductPhotosFolder = 'v/vspfiles/photos';
+    var global_Current_ProductCode = 'AL-Recreate';
+    var global_SEOImage = '/PhotoDetails.asp';
+    var global_URL_Encode_Current_ProductCode = 'AL%2DRECREATE';
+    var global_src_part_Config_ProductPhotosFolder = 'v%2Fvspfiles%2Fphotos';
+    var global_ImageSeed = '1515505986';
+    if (global_ImageSeed) {
+        global_ImageSeed = '?' + global_ImageSeed;
+    }
+
+    var global_Config_EnablePhotosPopup = true;
+    var global_SEOImage_PhotoGallery = '/PhotoGallery.asp';
+</script>
+<script type="text/javascript" src="/a/j/product_details.js"></script>
+
+<script type="text/javascript" src="/a/j/product_details.js"></script>
+
+
+<script type="text/javascript">
+
+    //module variable set from Qty: text box {ENTER} and read from <form> onsubmit event
+    var IESuppressFormSubmit = false;
+
+    function QtyEnabledAddToCart_SuppressFormIE() {
+        //Only target Internet Explorer
+        if (/Internet Explorer/gi.test(navigator.appName)) { return (!IESuppressFormSubmit); }
+        return true;
+    }
+
+    //Enter Key const
+    var ENTER_KEY = 13;
+
+    //determine if the {ENTER} key was pressed from the Qty: text box
+    function QtyEnabledAddToCart(e) {
+
+        //Only target Internet Explorer
+        if (/Internet Explorer/gi.test(navigator.appName) == false) { return; }
+
+        var evt = (e) ? e : (window.event) ? window.event : null;
+
+        if (!evt) { return; }
+
+        var keycode = evt.keyCode ? evt.keyCode : evt.charCode;
+
+        if (keycode != ENTER_KEY) { return; }
+
+        var el = document.getElementById('btnaddtocart');
+
+        if (!el) { return; }
+
+        //flag key press
+        IESuppressFormSubmit = true;
+
+        //suppress immediate form submits and then click "AddToCart"        
+        window.setTimeout(QtyEnabledAddToCartManualClick, 250);
+
+    }
+
+    function QtyEnabledAddToCartManualClick() {
+        IESuppressFormSubmit = false;
+        document.getElementById('btnaddtocart').click();
+    }
+
+</script>
+
+<div itemscope itemtype="http://schema.org/Product">
+
+<form id="vCSS_mainform" method="post" name="MainForm" action="/ProductDetails.asp?ProductCode=AL%2DRECREATE" onsubmit="javascript:return QtyEnabledAddToCart_SuppressFormIE();">
+
+        <img src="/v/vspfiles/templates/neon/images/clear1x1.gif" width="5" height="5" alt="" /><br />
+      <table width="100%" cellpadding="0" cellspacing="0" border="0" id="v65-product-parent">
+        <tr>
+          <td colspan="2" class="vCSS_breadcrumb_td"><b>
+&nbsp; 
+<a href="http://www.tradeshow-stuff.com/">Home</a> > 
+
+            </b>
+      <br /><img src="/v/vspfiles/templates/neon/images/clear1x1.gif" width="5" height="5" alt="" /><br />
+            <font class="productnamecolorLARGE colors_productname"><span itemprop="name">Recreate your non-vector logo (JPG, PNG, GIF, TIF, PDF, etc) in vector art</span></font><br />
+      <img src="/v/vspfiles/templates/neon/images/clear1x1.gif" width="5" height="5" alt="" />
+      </td>
+        </tr>
+        <tr> 
+          <td align="center" valign="top">
+            <table width="100%" cellpadding="0" cellspacing="0" border="0">
+            <tr> 
+        <!--<td>&nbsp;</td>-->
+            <td align="center">
+      <meta itemprop="manufacturer" content="Allegro Display & Graphics">
+            <script type='text/javascript'>Shadowbox.init({ modal: false, animate: false, counterType: 'skip', continuous: true, counterLimit: 5, overlayOpacity: '0.75' });</script>
+<a id='product_photo_zoom_url' rel='shadowbox[ProductImages]' title='Recreate your non-vector logo (JPG, PNG, GIF, TIF, PDF, etc) in vector art' href='//cdn3.volusion.com/eavmr.ehsew/v/vspfiles/photos/AL-Recreate-2.gif?v-cache=1515505986'>
+<img class="vCSS_img_product_photo" itemprop='image' id="product_photo" src="//cdn3.volusion.com/eavmr.ehsew/v/vspfiles/photos/AL-Recreate-2T.gif?v-cache=1515505986" border="0" title="Vector Logo Recreate Service" alt="Vector Logo Recreate Service" onload="vZoom.add(this, '//cdn3.volusion.com/eavmr.ehsew/v/vspfiles/photos/AL-Recreate-2.gif?v-cache=1515505986');" /></a>
+<br /><a id='product_photo_zoom_url2' rel='shadowbox[ProductImages]' title='Recreate your non-vector logo (JPG, PNG, GIF, TIF, PDF, etc) in vector art' href='//cdn3.volusion.com/eavmr.ehsew/v/vspfiles/photos/AL-Recreate-2.gif?v-cache=1515505986'><img class="vCSS_img_larger_photo" src="/v/vspfiles/templates/neon/images/buttons/btn_largerphoto.gif" border="0"></a>
+        <a href="/EmailaFriend.asp?ProductCode=AL%2DRecreate">
+        <img class="vCSS_img_email_a_friend" src="/v/vspfiles/templates/neon/images/buttons/btn_emailafriend.gif" border="0" alt="" /></a>
+      
+        <br /><br />
+        <table>
+                    <tr>        
+            <td id="v65-share-buttons-cell" style="white-space: nowrap; padding-bottom: 10px;">
+                            <div id="v65-share-buttons-container"> <!--style="border: 1px solid #000000;">-->
+                            
+                  <!-- AddThis Button BEGIN -->
+                                <div id="btn_vsharethis" style="float: left; margin: 0px 0px 0px 0px;; vertical-align: top;">
+                                    <div class="addthis_toolbox addthis_default_style">
+                                         <a href="http://www.tradeshow-stuff.com:80/Vector-Logo-Recreate-Service-p/al-recreate.htm" class="addthis_button_facebook"></a> 
+                                        <a href="http://www.tradeshow-stuff.com:80/Vector-Logo-Recreate-Service-p/al-recreate.htm" class="addthis_button_twitter" title="(Opens new window) Send product link in a Tweet"></a>
+                                        <a href="http://www.tradeshow-stuff.com:80/Vector-Logo-Recreate-Service-p/al-recreate.htm" class="addthis_button_email" title="(Opens new window) Send product link in an email"></a>
+                                       <a href="http://www.tradeshow-stuff.com:80/Vector-Logo-Recreate-Service-p/al-recreate.htm" class="pin-it-button" style="margin: 0px -1px 0px 2px;" count-layout="horizontal" onclick="window.open('http://pinterest.com/pin/create/button/?url=http://www.tradeshow-stuff.com:80/Vector-Logo-Recreate-Service-p/al-recreate.htm&media=http://cdn3.volusion.com/eavmr.ehsew/v/vspfiles/photos/AL-Recreate-2T.gif?v-cache=1515505986', '', 'toolbar=0,scrollbars=1,location=0,statusbar=0,menubar=0,resizable=1,width=675,height=550,left=50,top=50'); return false;" target="_blank" title="(Opens new window) Pin product link on Pinterest">
+                                        <img alt="" src="../a/i/small-p-button.png" style="border: 0;" /></a>
+                                     </div>
+                  </div>
+                                <script type="text/javascript">
+                                    var addthis_config = {
+                                        data_track_clickback: true
+                                    };
+                                    var addthis_share = {
+                                        url: "http://www.tradeshow-stuff.com:80/Vector-Logo-Recreate-Service-p/al-recreate.htm"
+                                    };
+                                </script>
+                  <script type="text/javascript" src="//s7.addthis.com/js/250/addthis_widget.js?pub=volusion"></script>
+                                <script type="text/javascript" src="//assets.pinterest.com/js/pinit.js"></script>
+                  <!-- AddThis Button END -->
+                
+                            </div>
+
+                        </td>
+                    </tr>
+                </table>                
+                    
+        </td>
+        <td>&nbsp;</td></tr></table>
+
+<span id='altviews'><br>Alternative Views:<br><br /><br />
+<a href='//cdn3.volusion.com/eavmr.ehsew/v/vspfiles/photos/AL-Recreate-2.gif?v-cache=1515505986' rel='shadowbox[ProductImages]' title='Recreate your non-vector logo (JPG, PNG, GIF, TIF, PDF, etc) in vector art' data-sbkey='1'><img class="vCSS_img_alternate_product_photo" id="alternate_product_photo_2" style="border-color:#666666;" src="//cdn3.volusion.com/eavmr.ehsew/v/vspfiles/photos/AL-Recreate-2S.gif?v-cache=1515505986" border="1" onmouseover='javascript:change_product_photo(2);return false;'></a>
+<a href='//cdn3.volusion.com/eavmr.ehsew/v/vspfiles/photos/AL-Recreate-3.gif?v-cache=1515505986' rel='shadowbox[ProductImages]' title='Recreate your non-vector logo (JPG, PNG, GIF, TIF, PDF, etc) in vector art' data-sbkey='2'><img class="vCSS_img_alternate_product_photo" id="alternate_product_photo_3" style="border-color:#666666;" src="//cdn3.volusion.com/eavmr.ehsew/v/vspfiles/photos/AL-Recreate-3S.gif?v-cache=1515505986" border="1" onmouseover='javascript:change_product_photo(3);return false;'></a>
+<a href='//cdn3.volusion.com/eavmr.ehsew/v/vspfiles/photos/AL-Recreate-4.gif?v-cache=1515505986' rel='shadowbox[ProductImages]' title='Recreate your non-vector logo (JPG, PNG, GIF, TIF, PDF, etc) in vector art' data-sbkey='3'><img class="vCSS_img_alternate_product_photo" id="alternate_product_photo_4" style="border-color:#666666;" src="//cdn3.volusion.com/eavmr.ehsew/v/vspfiles/photos/AL-Recreate-4S.gif?v-cache=1515505986" border="1" onmouseover='javascript:change_product_photo(4);return false;'></a>
+<a href='//cdn3.volusion.com/eavmr.ehsew/v/vspfiles/photos/AL-Recreate-5.gif?v-cache=1515505986' rel='shadowbox[ProductImages]' title='Recreate your non-vector logo (JPG, PNG, GIF, TIF, PDF, etc) in vector art' data-sbkey='4'><img class="vCSS_img_alternate_product_photo" id="alternate_product_photo_5" style="border-color:#666666;" src="//cdn3.volusion.com/eavmr.ehsew/v/vspfiles/photos/AL-Recreate-5S.gif?v-cache=1515505986" border="1" onmouseover='javascript:change_product_photo(5);return false;'></a>
+<br /></span>
+
+      </td>
+          <td valign="top" align="right">
+
+      <span id="listOfErrorsSpan">
+      
+      </span>
+
+            <table width="100%" border="0" cellspacing="0" cellpadding="0" class="colors_pricebox">
+              <tr> 
+            <td>
+
+            <table width="100%" border="0" cellspacing="0" cellpadding="0">
+              <tr> 
+                <td valign="top" width="1" align="left"><img src="/v/vspfiles/templates/neon/images/PBox_Border_Left_Top.gif" alt="" /></td>
+                <td width="100%" valign="top" background="/v/vspfiles/templates/neon/images/PBox_Border_Top.gif"><img src="/v/vspfiles/templates/neon/images/clear1x1.gif" width="1" height="1" alt="" /></td>
+                <td width="1" valign="top"><img src="/v/vspfiles/templates/neon/images/PBox_Border_Right_Top.gif" alt="" /></td>
+              </tr>
+              <tr> 
+                <td width="1" background="/v/vspfiles/templates/neon/images/PBox_Border_Left.gif"><img src="/v/vspfiles/templates/neon/images/clear1x1.gif" width="1" height="1" alt="" /></td>
+                <td width="100%" valign="top"> 
+                        <table width="100%" cellpadding="0" cellspacing="0" border="0">
+                          <tr> 
+                            <td>
+<span itemprop='description'>
+<b>Vector logo artwork (Illustrator .ai or .eps only) is required</b> for imprinting all table coverings and table runners. But if that's not what you have... the good news is we're able to recreate virtually any non-vector logo into usable vector art and when completed, you get copies to use everywhere else.
+<br /><br /><img alt="Why Vector Art?" src="/v/vspfiles/assets/images/headings/why_vector.gif" align="" border="0px" />
+</span>
+<div itemprop="offers" itemscope itemtype="http://schema.org/Offer">
+    <meta itemprop='priceCurrency' content='USD' >
+                          <table border="0" cellspacing="0" cellpadding="0">
+                            <tr>
+                              <td>
+
+<font class="text colors_text">    <div class="product_productprice">Reg Price: $99.00     </div></font><b><font class="pricecolor colors_productprice">    <div class="product_saleprice">Your Discount Price (w/purchase): $<span itemprop='price' content='58.00'>58.00</span>     </div></font></b>
+
+                            </tr>
+                          </table>
+
+
+                              <b>Stock Status:</b> Custom Made to Order<br />
+<meta itemprop='availability' content='InStock'>
+                <br /><b>Availability:</b> ChatLive for current production turnaround time.
+                              <br />
+                <i><font color="#999999"><span class="product_code_title">Product Code:</span> <span class="product_code">AL-RECREATE</span> </font></i> 
+                <meta itemprop='itemCondition' content='new'>
+                             </div>
+                            </td>
+                            <td align="right" valign="top" class="v65-productdetail-options" id="v65-productdetail-action-wrapper">
+
+                            </td>
+            </tr>
+            <tr>
+            <td colspan="2">
+
+            
+            
+            
+            
+            </td>
+            </tr>
+                        </table>
+                </td>
+                <td width="1" background="/v/vspfiles/templates/neon/images/PBox_Border_Right.gif" valign="middle"><img src="/v/vspfiles/templates/neon/images/clear1x1.gif" width="1" height="1" alt="" /></td>
+              </tr>
+              <tr> 
+                <td width="1" valign="top"><img src="/v/vspfiles/templates/neon/images/PBox_Border_Left_Bottom.gif" alt="" /></td>
+                <td width="100%" valign="top" background="/v/vspfiles/templates/neon/images/PBox_Border_Bottom.gif"><img src="/v/vspfiles/templates/neon/images/clear1x1.gif" width="1" height="1" alt="" /></td>
+                <td width="1" valign="top"><img src="/v/vspfiles/templates/neon/images/PBox_Border_Right_Bottom.gif" alt="" /></td>
+              </tr>
+            </table>
+      </td></tr></table>
+
+      <img src="/v/vspfiles/templates/neon/images/clear1x1.gif" width="1" height="17" alt="" />
+      <br />
+            <table width="100%" border="0" cellspacing="0" cellpadding="0" class="colors_pricebox">
+              <tr> 
+            <td>
+
+            <table width="100%" border="0" cellspacing="0" cellpadding="0">
+              <tr id="product_options_heading"> 
+                <td width="1" valign="top" background="/v/vspfiles/templates/neon/images/PBox_Opt_Back.gif"><img src="/v/vspfiles/templates/neon/images/OBox_Border_Left_Top_Opt.gif" alt="" /></td>
+                <td width="100%" valign="top" background="/v/vspfiles/templates/neon/images/PBox_Opt_Back.gif"><img src="/v/vspfiles/templates/neon/images/Options_Text_Choose.gif" alt="" /></td>
+                <td width="1" valign="top" background="/v/vspfiles/templates/neon/images/PBox_Opt_Back.gif"><img src="/v/vspfiles/templates/neon/images/OBox_Border_Right_Top_Opt.gif" alt="" /></td>
+              </tr>
+              <tr> 
+                <td width="1" valign="top"><img src="/v/vspfiles/templates/neon/images/PBox_Border_Left_Top_Opt.gif" alt="" /></td>
+                <td width="100%" valign="top" background="/v/vspfiles/templates/neon/images/PBox_Border_Top.gif"><img src="/v/vspfiles/templates/neon/images/clear1x1.gif" width="1" height="1" alt="" /></td>
+                <td width="1" valign="top"><img src="/v/vspfiles/templates/neon/images/PBox_Border_Right_Top_Opt.gif" alt="" /></td>
+              </tr>
+              <tr> 
+                <td width="1" background="/v/vspfiles/templates/neon/images/PBox_Border_Left.gif"><img src="/v/vspfiles/templates/neon/images/clear1x1.gif" width="1" height="1" alt="" /></td>
+                <td width="100%" valign="top"> 
+                  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+                    <tr> 
+                      <td> 
+                        <table id='options_table'>
+<tr>
+<td align="right" vAlign="top">
+<img src="/v/vspfiles/templates/neon/images/clear1x1.gif" width="1" height="4" border="0" alt=""><br />
+</td><td></td><td>
+<input name="SELECT___AL-RECREATE___241" type="radio" value="1255" checked="checked" onclick="change_option('SELECT___AL-RECREATE___241',this.value); AutoUpdatePriceWithSelectedOptions(this.value,241)" title="Detail">
+Recreate (1) logo in vector art (adds 2-bus. days)<br /></td></tr>
+</table>
+<script language="JavaScript">
+function TCN_reload(from){
+}
+</script>
+
+              <br />
+              <table cellspacing="0" cellpadding="3" border="0"><tr><td>
+                              Qty: <input type="text" class="v65-productdetail-cartqty" name="QTY.AL-RECREATE" size="3" maxlength="8" onkeydown="javascript:QtyEnabledAddToCart();" value="1" title="Quantity">
+
+                </td><td>
+                              <input class="vCSS_input_addtocart" type="image" src="/v/vspfiles/templates/neon/images/buttons/btn_addtocart.gif" name="btnaddtocart" alt="Add to cart" border="0" onclick="return addToCart(this.form, this);">
+
+                <input type="hidden" name="ReplaceCartID" value="" />
+                <input type="hidden" name="ProductCode" value="AL-RECREATE" />
+                <input type="hidden" name="e" value="" />
+                
+                  <input type="hidden" name="ReturnTo" value="ShoppingCart.asp" />
+                
+                </td></tr>
+                 
+                             <!--  -->
+                </table>
+
+
+
+                      </td>
+                    </tr>
+                  </table>
+                </td>
+                <td width="1" background="/v/vspfiles/templates/neon/images/PBox_Border_Right.gif" valign="middle"><img src="/v/vspfiles/templates/neon/images/clear1x1.gif" width="1" height="1" alt="" /></td>
+              </tr>
+              <tr> 
+                <td width="1" valign="bottom"><img src="/v/vspfiles/templates/neon/images/PBox_Border_Left_Bottom.gif" alt="" /></td>
+                <td width="100%" valign="top" background="/v/vspfiles/templates/neon/images/PBox_Border_Bottom.gif"><img src="/v/vspfiles/templates/neon/images/clear1x1.gif" width="1" height="1" alt="" /></td>
+                <td width="1" valign="bottom"><img src="/v/vspfiles/templates/neon/images/PBox_Border_Right_Bottom.gif" alt="" /></td>
+              </tr>
+            </table>
+      </td>
+              </tr>
+            </table>
+                              
+          </td>
+        </tr>
+        <tr> 
+          <td colspan="2"><img src="/v/vspfiles/templates/neon/images/clear1x1.gif" width="5" height="5" alt="" /></td>
+        </tr>
+      </table>
+
+      <table width="100%" border="0" cellspacing="0" cellpadding="0">
+        <tr> 
+          <td valign="top">
+
+
+            <table width="100%" border="0" cellspacing="0" cellpadding="0">
+              <tr> 
+                <td valign="top"> 
+                  <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                    <tr> 
+                 
+                 
+            <td background="/v/vspfiles/templates/neon/images/expand_tab_left.gif" width="1">
+              <img src="/v/vspfiles/templates/neon/images/clear1x1.gif" width="8" height="17" alt="" />
+            </td>
+            <td background="/v/vspfiles/templates/neon/images/expand_tab_back.gif" id="Header_ProductDetail_ProductDetails" onclick="javascript:ProductDetail_ProductDetails();" class="vCSS_tab_selected">
+              <nobr>
+                <span class="productnamecolorSMALL colors_productname" id="Header_ProductDetail_ProductDetails_span" style="font-weight:bold;">
+                        <div class="col-xs-1 no-padding"><img alt="" src="/v/vspfiles/assets/images/descriptiontab.gif" align="absBottom" border="0" /><span style="font-size: 12pt;">Description<br /></span></div>
+                </span>
+              </nobr>
+            </td>
+
+            <td background="/v/vspfiles/templates/neon/images/expand_tab_right.gif" width="1">
+              <img src="/v/vspfiles/templates/neon/images/clear1x1.gif" width="17" height="17" alt="" />
+            </td>
+                      
+                      
+                      
+                      
+                      
+                      <td width="90%"><img src="/v/vspfiles/templates/neon/images/clear1x1.gif" width="1" height="1" alt="" /></td>
+                    </tr>
+                  </table>
+                </td>
+                <td width="1" valign="bottom">&nbsp;</td>
+              </tr>
+            </table>
+            
+
+            <table width="100%" border="0" cellspacing="0" cellpadding="0" class="colors_descriptionbox">
+              <tr> 
+                <td valign="top" width="1" align="left"><img src="/v/vspfiles/templates/neon/images/DBox_Border_Left_Top.gif" alt="" /></td>
+                <td width="100%" valign="top" background="/v/vspfiles/templates/neon/images/DBox_Border_Top.gif"><img src="/v/vspfiles/templates/neon/images/clear1x1.gif" width="1" height="1" alt="" /></td>
+                <td valign="top" width="1" align="left"><img src="/v/vspfiles/templates/neon/images/DBox_Border_Right_Top.gif" alt="" /></td>
+              </tr>
+              <tr> 
+                <td width="1" background="/v/vspfiles/templates/neon/images/DBox_Border_Left.gif" valign="middle"><img src="/v/vspfiles/templates/neon/images/clear1x1.gif" width="1" height="1" alt="" /></td>
+                <td width="100%" valign="top"> 
+                  <table width="100%" cellpadding="0" cellspacing="0"  border="0">
+                    <tr> 
+                      <td>
+              <div id="ProductDetail_ProductDetails_div">
+                            <span id="product_description">
+<h1>How to Recreate logo to Vector - Vector Logo Recreate Service</h1>Finally an easy way to professionally convert your non-vector logo (JPG, GIF, TIF, BMP, etc) to Illustrator Vector art, let us do it.<br />
+<b>Our team of professional artists</b> will precisely redraw your artwork by hand in high quality vector format. No automatic tracing software is used, in short eliminating all the problems associated with software produced vector art.
+            <span style="font-style: italic;"> If your artwork is not production-ready (<a href="https://www.tradeshow-stuff.com/kb_results.asp?cat=12" title="Frequently asked questions" target="_blank">ie: a jpg</a>) we can recreate it in vectors for you in 24-48 hours. When completed you'll receive a copy for future use.</span> (<a href="https://www.tradeshow-stuff.com/kb_results.asp?cat=12" target="_blank">what is vector art?</a>)<br />
+            [<a href="https://spaces.hightail.com/uplink/allegrodisplay" title="Email your logo for review/recreation" target="_blank">click here to email us your logo for review and/or recreation</a>]
+<br /><span style="font-weight: bold;"><br />What is vector art?</span> Vector art (commonly known as line 
+art) is made up of lines and curves defined by mathematical objects 
+called vectors (thus the name). Vector art is resolution independent and
+ can be scaled to any size (ie: as big as a house) without loss of 
+quality. All text (fonts) must also be converted to vectors (sometimes 
+called outlines, paths or curves) before uploading to our production 
+department.<br /><br /><span style="font-weight: bold;">Why do I need vector art?</span> To print large banners, embroider shirts or put your logo on promotional items you will need to provide the printer with Vector art. We are no different. However, with our logo recreation service we are able to recreate most bitmap files to Vector format and we will provide you with a copy of your logo in Vector art for your own future use.<br />
+<br /><span style="font-weight: bold;">Can you recreate all artwork?</span> Unfortunately not. However, we are able to recreate over 90% of all the bitmap logos we receive. If your logo was originally created in vector art, and then simply saved to a bitmap format (ie: GIF, PNG, JPG), it's likely that we can. We're not able to recreate detailed illustrations or complex original artwork, 3D effects, photos, paintings, clipart or from very small, low resolution files.<br /></span>
+
+                                <div style="height: 15px;"></div>
+                            
+                            <div style="clear: both;"></div>
+              </div>   
+              <div id="ProductDetail_TechSpecs_div" style="display:none;">
+              
+              </div>                      
+              <div id="ProductDetail_ExtInfo_div" style="display:none;">
+              
+              </div>
+                      </td>
+                    </tr>
+                  </table>
+                </td>
+                <td width="1" background="/v/vspfiles/templates/neon/images/DBox_Border_Right.gif" valign="middle"><img src="/v/vspfiles/templates/neon/images/clear1x1.gif" width="1" height="1" alt="" /></td>
+              </tr>
+              <tr id="ProductDetails_MainBorder" style="display:none;"> 
+                <td valign="bottom" width="1"><img src="/v/vspfiles/templates/neon/images/DBox_Border_Left_Bottom.gif" alt="" /></td>
+                <td width="100%" valign="top" background="/v/vspfiles/templates/neon/images/DBox_Border_Bottom.gif"><img src="/v/vspfiles/templates/neon/images/clear1x1.gif" width="1" height="1" alt="" /></td>
+                <td valign="bottom" width="1" align="left"><img src="/v/vspfiles/templates/neon/images/DBox_Border_Right_Bottom.gif" alt="" /></td>
+              </tr>
+            </table>
+
+            <div id="ProductDetail_ProductDetails_div2">
+        <table width="100%" border="0" cellspacing="0" cellpadding="0" class="colors_descriptionbox">
+              
+        
+          <tr> 
+          <td valign="bottom" width="1"><img src="/v/vspfiles/templates/neon/images/DBox_Border_Left_Bottom.gif" alt="" /></td>
+          <td width="100%" valign="top" background="/v/vspfiles/templates/neon/images/DBox_Border_Bottom.gif"><img src="/v/vspfiles/templates/neon/images/clear1x1.gif" width="1" height="1" alt="" /></td>
+          <td valign="bottom" width="1" align="left"><img src="/v/vspfiles/templates/neon/images/DBox_Border_Right_Bottom.gif" alt="" /></td>
+          </tr>
+        </table>
+            </div>
+
+      
+
+<img src="/v/vspfiles/templates/neon/images/clear1x1.gif" width="17" height="17" alt="" /><br /> 
+  
+      <table width="100%" border="0" cellspacing="0" cellpadding="10" id="v65-product-reviews" class="v-reviews">
+        <tr class="v65-product-reviews-row">
+          <td class="v65-product-reviews-cell"> 
+            <div id="product_reviews_aggregate" class="v-reviews__aggregate" itemprop="aggregateRating" itemscope itemtype="http://schema.org/AggregateRating">
+                <span class="v-reviews__item">
+                    <span class="v-reviews__avg-text">Average Customer Review:</span>
+                    <img class="vCSS_img_star_avg_rating v-reviews__star-img" src="/v/vspfiles/templates/neon/images/star5.gif" alt="Average Customer Review: 5 of 5" />
+                    <span class="v-reviews__avg-rating">
+                        <span itemprop="ratingValue">5</span> of 5
+                    </span>
+                </span>
+                <span class="v-reviews__item">
+                    <span class="v-reviews__total-text">Total Reviews: <span itemprop="reviewCount">4</span></span>
+                </span>
+                <a href="/ReviewNew.asp?ProductCode=AL%2DRECREATE" class="v-reviews__write-review">Write a review.</a>
+            </div>
+      </td>
+        </tr>
+      </table>
+      
+
+          </td>
+
+        </tr>
+      </table>
+
+      
+</form>
+
+    
+      <br>
+      <table width="100%" border="0" cellspacing="0" cellpadding="0">
+        <tr> 
+          <td width="1%">&nbsp;</td>
+          <td width="100%" id="product_reviews_helpful">
+		    0 of 0 people found the following review helpful:
+		  </td>
+        </tr>
+      </table>
+      <table width="100%" border="0" cellspacing="0" cellpadding="0">
+        <tr> 
+          <td width="1%">&nbsp;</td>
+          <td width="100%"> 
+            <table width=100% border=0 cellspacing=0 cellpadding=0 id="product_reviews_description_box">
+              <tr> 
+                <td  width=1px valign=top><img src="/v/vspfiles/templates/neon/images/RBox_Border_Left_Top.gif" alt=""></td>
+                <td width=100% valign=top background="/v/vspfiles/templates/neon/images/DBox_Border_Top.gif"><img src="/v/vspfiles/templates/neon/images/clear1x1.gif" width=1 height=1 alt=""></td>
+                <td  width=1px valign=top><img src="/v/vspfiles/templates/neon/images/DBox_Border_Right_Top.gif" alt=""></td>
+              </tr>
+              <tr> 
+                <td width=1px background="/v/vspfiles/templates/neon/images/DBox_Border_Left.gif"><img src="/v/vspfiles/templates/neon/images/clear1x1.gif" width=1 height=1></td>
+                <td width=100% valign=top> 
+                  <table width=100% cellpadding=0 cellspacing=0  border=0>
+                    <tr> 
+                      <td>
+                      <b><img src="/v/vspfiles/templates/neon/images/star5.gif" alt="5 of 5"> 
+                     
+                        Happy Customer</b> </td>
+                      <td align="right"><i>April 24, 2015</i></td>
+                    </tr>
+                    <tr> 
+                      <td><i>Reviewer: 
+                         Dwayne Lee from Santa Fe Springs, CA United States
+
+                        </i></td>
+                      <td align="right">&nbsp;</td>
+                    </tr>
+                  </table>
+                  Table covers are of very good quality and the print is very nice. &nbsp;I will be ordering some more.<br>
+                  <br>
+                  Was this review helpful to you? <a href="/reviewhelpful.asp?ProductCode=AL%2DRECREATE&ID=521&yes=yes"><img src="/v/vspfiles/templates/neon/images/buttons/btn_reviews_yes.gif" align="absmiddle" border="0"></a> 
+                  <a href="/reviewhelpful.asp?ProductCode=AL%2DRECREATE&ID=521&yes=no"><img src="/v/vspfiles/templates/neon/images/buttons/btn_reviews_no.gif" align="absmiddle" border="0"></a> 
+                  
+                </td>
+                <td width=1px background="/v/vspfiles/templates/neon/images/DBox_Border_Right.gif"><img src="/v/vspfiles/templates/neon/images/clear1x1.gif" width=1 height=1 alt=""></td>
+              <tr> 
+                <td  width=1px valign=top><img src="/v/vspfiles/templates/neon/images/DBox_Border_Left_Bottom.gif"></td>
+                <td width=100% valign=top background="/v/vspfiles/templates/neon/images/DBox_Border_Bottom.gif"><img src="/v/vspfiles/templates/neon/images/clear1x1.gif" width=1 height=1 alt=""></td>
+                <td  width=1px valign=top><img src="/v/vspfiles/templates/neon/images/DBox_Border_Right_Bottom.gif"></td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+      </table>
+      
+      <br>
+      <table width="100%" border="0" cellspacing="0" cellpadding="0">
+        <tr> 
+          <td width="1%">&nbsp;</td>
+          <td width="100%" id="product_reviews_helpful">
+		    0 of 0 people found the following review helpful:
+		  </td>
+        </tr>
+      </table>
+      <table width="100%" border="0" cellspacing="0" cellpadding="0">
+        <tr> 
+          <td width="1%">&nbsp;</td>
+          <td width="100%"> 
+            <table width=100% border=0 cellspacing=0 cellpadding=0 id="product_reviews_description_box">
+              <tr> 
+                <td  width=1px valign=top><img src="/v/vspfiles/templates/neon/images/RBox_Border_Left_Top.gif" alt=""></td>
+                <td width=100% valign=top background="/v/vspfiles/templates/neon/images/DBox_Border_Top.gif"><img src="/v/vspfiles/templates/neon/images/clear1x1.gif" width=1 height=1 alt=""></td>
+                <td  width=1px valign=top><img src="/v/vspfiles/templates/neon/images/DBox_Border_Right_Top.gif" alt=""></td>
+              </tr>
+              <tr> 
+                <td width=1px background="/v/vspfiles/templates/neon/images/DBox_Border_Left.gif"><img src="/v/vspfiles/templates/neon/images/clear1x1.gif" width=1 height=1></td>
+                <td width=100% valign=top> 
+                  <table width=100% cellpadding=0 cellspacing=0  border=0>
+                    <tr> 
+                      <td>
+                      <b><img src="/v/vspfiles/templates/neon/images/star5.gif" alt="5 of 5"> 
+                     
+                        Table Cover</b> </td>
+                      <td align="right"><i>June 5, 2012</i></td>
+                    </tr>
+                    <tr> 
+                      <td><i>Reviewer: 
+                         Carrie Pfistner, Pres from Torrington, CT United States
+
+                        </i></td>
+                      <td align="right">&nbsp;</td>
+                    </tr>
+                  </table>
+                  Excellent correspondence and service prior to the order.<br>
+                  <br>
+                  Was this review helpful to you? <a href="/reviewhelpful.asp?ProductCode=AL%2DRECREATE&ID=153&yes=yes"><img src="/v/vspfiles/templates/neon/images/buttons/btn_reviews_yes.gif" align="absmiddle" border="0"></a> 
+                  <a href="/reviewhelpful.asp?ProductCode=AL%2DRECREATE&ID=153&yes=no"><img src="/v/vspfiles/templates/neon/images/buttons/btn_reviews_no.gif" align="absmiddle" border="0"></a> 
+                  
+                </td>
+                <td width=1px background="/v/vspfiles/templates/neon/images/DBox_Border_Right.gif"><img src="/v/vspfiles/templates/neon/images/clear1x1.gif" width=1 height=1 alt=""></td>
+              <tr> 
+                <td  width=1px valign=top><img src="/v/vspfiles/templates/neon/images/DBox_Border_Left_Bottom.gif"></td>
+                <td width=100% valign=top background="/v/vspfiles/templates/neon/images/DBox_Border_Bottom.gif"><img src="/v/vspfiles/templates/neon/images/clear1x1.gif" width=1 height=1 alt=""></td>
+                <td  width=1px valign=top><img src="/v/vspfiles/templates/neon/images/DBox_Border_Right_Bottom.gif"></td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+      </table>
+      
+      <br>
+      <table width="100%" border="0" cellspacing="0" cellpadding="0">
+        <tr> 
+          <td width="1%">&nbsp;</td>
+          <td width="100%" id="product_reviews_helpful">
+		    0 of 0 people found the following review helpful:
+		  </td>
+        </tr>
+      </table>
+      <table width="100%" border="0" cellspacing="0" cellpadding="0">
+        <tr> 
+          <td width="1%">&nbsp;</td>
+          <td width="100%"> 
+            <table width=100% border=0 cellspacing=0 cellpadding=0 id="product_reviews_description_box">
+              <tr> 
+                <td  width=1px valign=top><img src="/v/vspfiles/templates/neon/images/RBox_Border_Left_Top.gif" alt=""></td>
+                <td width=100% valign=top background="/v/vspfiles/templates/neon/images/DBox_Border_Top.gif"><img src="/v/vspfiles/templates/neon/images/clear1x1.gif" width=1 height=1 alt=""></td>
+                <td  width=1px valign=top><img src="/v/vspfiles/templates/neon/images/DBox_Border_Right_Top.gif" alt=""></td>
+              </tr>
+              <tr> 
+                <td width=1px background="/v/vspfiles/templates/neon/images/DBox_Border_Left.gif"><img src="/v/vspfiles/templates/neon/images/clear1x1.gif" width=1 height=1></td>
+                <td width=100% valign=top> 
+                  <table width=100% cellpadding=0 cellspacing=0  border=0>
+                    <tr> 
+                      <td>
+                      <b><img src="/v/vspfiles/templates/neon/images/star5.gif" alt="5 of 5"> 
+                     
+                        Affordable Checks</b> </td>
+                      <td align="right"><i>April 20, 2012</i></td>
+                    </tr>
+                    <tr> 
+                      <td><i>Reviewer: 
+                         Craig Pace from Dry Ridge, KY United States
+
+                        </i></td>
+                      <td align="right">&nbsp;</td>
+                    </tr>
+                  </table>
+                  Very reasonable pricing. Amazingly quick turnaround. Great customer service.<br>
+                  <br>
+                  Was this review helpful to you? <a href="/reviewhelpful.asp?ProductCode=AL%2DRECREATE&ID=134&yes=yes"><img src="/v/vspfiles/templates/neon/images/buttons/btn_reviews_yes.gif" align="absmiddle" border="0"></a> 
+                  <a href="/reviewhelpful.asp?ProductCode=AL%2DRECREATE&ID=134&yes=no"><img src="/v/vspfiles/templates/neon/images/buttons/btn_reviews_no.gif" align="absmiddle" border="0"></a> 
+                  
+                </td>
+                <td width=1px background="/v/vspfiles/templates/neon/images/DBox_Border_Right.gif"><img src="/v/vspfiles/templates/neon/images/clear1x1.gif" width=1 height=1 alt=""></td>
+              <tr> 
+                <td  width=1px valign=top><img src="/v/vspfiles/templates/neon/images/DBox_Border_Left_Bottom.gif"></td>
+                <td width=100% valign=top background="/v/vspfiles/templates/neon/images/DBox_Border_Bottom.gif"><img src="/v/vspfiles/templates/neon/images/clear1x1.gif" width=1 height=1 alt=""></td>
+                <td  width=1px valign=top><img src="/v/vspfiles/templates/neon/images/DBox_Border_Right_Bottom.gif"></td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+      </table>
+      
+      <br>
+      <table width="100%" border="0" cellspacing="0" cellpadding="0">
+        <tr> 
+          <td width="1%">&nbsp;</td>
+          <td width="100%" id="product_reviews_helpful">
+		    0 of 0 people found the following review helpful:
+		  </td>
+        </tr>
+      </table>
+      <table width="100%" border="0" cellspacing="0" cellpadding="0">
+        <tr> 
+          <td width="1%">&nbsp;</td>
+          <td width="100%"> 
+            <table width=100% border=0 cellspacing=0 cellpadding=0 id="product_reviews_description_box">
+              <tr> 
+                <td  width=1px valign=top><img src="/v/vspfiles/templates/neon/images/RBox_Border_Left_Top.gif" alt=""></td>
+                <td width=100% valign=top background="/v/vspfiles/templates/neon/images/DBox_Border_Top.gif"><img src="/v/vspfiles/templates/neon/images/clear1x1.gif" width=1 height=1 alt=""></td>
+                <td  width=1px valign=top><img src="/v/vspfiles/templates/neon/images/DBox_Border_Right_Top.gif" alt=""></td>
+              </tr>
+              <tr> 
+                <td width=1px background="/v/vspfiles/templates/neon/images/DBox_Border_Left.gif"><img src="/v/vspfiles/templates/neon/images/clear1x1.gif" width=1 height=1></td>
+                <td width=100% valign=top> 
+                  <table width=100% cellpadding=0 cellspacing=0  border=0>
+                    <tr> 
+                      <td>
+                      <b><img src="/v/vspfiles/templates/neon/images/star5.gif" alt="5 of 5"> 
+                     
+                        WOW!!!</b> </td>
+                      <td align="right"><i>April 9, 2012</i></td>
+                    </tr>
+                    <tr> 
+                      <td><i>Reviewer: 
+                         Ben, Char, & Adam Holzer from Perham, MN United States
+
+                        </i></td>
+                      <td align="right">&nbsp;</td>
+                    </tr>
+                  </table>
+                  Thank you to the wonderful work you did for us! We feel you went above and beyond to meet our needs!<br>
+                  <br>
+                  Was this review helpful to you? <a href="/reviewhelpful.asp?ProductCode=AL%2DRECREATE&ID=124&yes=yes"><img src="/v/vspfiles/templates/neon/images/buttons/btn_reviews_yes.gif" align="absmiddle" border="0"></a> 
+                  <a href="/reviewhelpful.asp?ProductCode=AL%2DRECREATE&ID=124&yes=no"><img src="/v/vspfiles/templates/neon/images/buttons/btn_reviews_no.gif" align="absmiddle" border="0"></a> 
+                  
+                </td>
+                <td width=1px background="/v/vspfiles/templates/neon/images/DBox_Border_Right.gif"><img src="/v/vspfiles/templates/neon/images/clear1x1.gif" width=1 height=1 alt=""></td>
+              <tr> 
+                <td  width=1px valign=top><img src="/v/vspfiles/templates/neon/images/DBox_Border_Left_Bottom.gif"></td>
+                <td width=100% valign=top background="/v/vspfiles/templates/neon/images/DBox_Border_Bottom.gif"><img src="/v/vspfiles/templates/neon/images/clear1x1.gif" width=1 height=1 alt=""></td>
+                <td  width=1px valign=top><img src="/v/vspfiles/templates/neon/images/DBox_Border_Right_Bottom.gif"></td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+      </table>
+      
+      <br />
+    
+    
+</div>
+
+    <script>
+        function AutoUpdatePricingWithCheckboxes(arg_selected_option_value, arg_optcat_id) {
+            return false;
+        }
+        function AutoUpdatePriceWithSelectedOptions(arg_selected_option_value, arg_optcat_id) {
+            return false;   
+        }
+    </script>
+</div><!-- #content_area -->
+            </main>
+        </div>
+
+        </div><!-- .inner-wrap -->
+
+
+        <!-- NEWSLETTER copy #1 (only shown on mobile and tablet) -->
+        <div class="container">
+            <div class="newsletter visible-xs-block visible-sm-block">
+                <div class="row">
+                    <div class="col-xs-12 col-sm-7 no-padding">
+                        <div class="main-title"><strong>Get on the list</strong> &amp; get exclusive deals</div>
+                        <div class="text">Enter your email address for special offers from TradeShow-Stuff</div>
+                    </div>
+
+                    <div class="col-xs-12 col-sm-5 no-padding">
+                        <div class="elist">
+                            <form name="MailingList" method="post" action="/mailinglist_subscribe.asp">
+                                <input type="text" class="elist__input" name="emailaddress" value="" placeholder="Type your email here" />
+                                <input type="submit" name="Submit" class="elist__submit" value="Sign Up" />
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- FOOTER -->
+        <footer class="footer">
+            <div class="container">
+                <div class="row">
+                    <!-- LINKS LIST -->
+                    <div class="col-xs-12 col-sm-9 col-md-7">
+                        <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+                            <div class="panel panel-default col-sm-4">
+                                <div class="panel-heading" role="tab" id="headingOne">
+                                    <h4 class="panel-title column-title">
+                                        <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                            <span data-v-edit-region="Column 1 Title">Company</span>
+
+                                            <svg viewBox="0 0 100 100" class="plus-circle circle-icon visible-xs-block">
+                                                <use xmlns:xlink="https://www.w3.org/1999/xlink" xlink:href="#plus-circle"></use>
+                                            </svg>
+
+                                            <svg viewBox="0 0 100 100" class="minus-circle circle-icon visible-xs-block">
+                                                <use xmlns:xlink="https://www.w3.org/1999/xlink" xlink:href="#minus-circle"></use>
+                                            </svg>
+                                        </a>
+                                    </h4>
+                                </div>
+                                <div id="collapseOne" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
+                                    <div class="panel-body">
+                                        <ul class="column column-1" data-v-edit-region="Company">
+                                            <li><a href="/contact-us-s/73.htm" title="Contact www.tradeshow-stuff.com">Contact Us</a></li>
+                                            <li><a href="/terms_privacy.asp" title="Privacy Policy">Privacy Policy</a></li>
+                                            <li><a href="/terms.asp" title="Terms &amp; Conditions">Terms &amp; Conditions</a></li>
+                                             <li><a href="https://www.flickr.com/photos/tradeshow-stuff/" title="Image Gallery">Image Gallery</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="panel panel-default col-sm-4">
+                                <div class="panel-heading" role="tab" id="headingTwo">
+                                    <h4 class="panel-title column-title">
+                                        <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                            <span data-v-edit-region="Column 2 Title">Account</span>
+
+                                            <svg viewBox="0 0 100 100" class="plus-circle circle-icon visible-xs-block">
+                                                <use xmlns:xlink="https://www.w3.org/1999/xlink" xlink:href="#plus-circle"></use>
+                                            </svg>
+
+                                            <svg viewBox="0 0 100 100" class="minus-circle circle-icon visible-xs-block">
+                                                <use xmlns:xlink="https://www.w3.org/1999/xlink" xlink:href="#minus-circle"></use>
+                                            </svg>
+                                        </a>
+                                    </h4>
+                                </div>
+                                <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+                                    <div class="panel-body">
+                                        <ul class="column column-2" data-v-edit-region="Account">
+                                            <li><a href="/login.asp" title="Sign in">Sign in</a> / <a href="/register.asp" title="Register">Register</a></li>
+                                            <li><a href="/shoppingcart.asp" title="View My Cart">View My Cart</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="panel panel-default col-sm-4">
+                                <div class="panel-heading" role="tab" id="headingThree">
+                                    <h4 class="panel-title column-title">
+                                        <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                            <span data-v-edit-region="Column 3 Title">Customer Care</span>
+
+                                            <svg viewBox="0 0 100 100" class="plus-circle circle-icon visible-xs-block">
+                                                <use xmlns:xlink="https://www.w3.org/1999/xlink" xlink:href="#plus-circle"></use>
+                                            </svg>
+
+                                            <svg viewBox="0 0 100 100" class="minus-circle circle-icon visible-xs-block">
+                                                <use xmlns:xlink="https://www.w3.org/1999/xlink" xlink:href="#minus-circle"></use>
+                                            </svg>
+                                        </a>
+                                    </h4>
+                                </div>
+                                <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+                                    <div class="panel-body">
+                                        <ul class="column column-3" data-v-edit-region="Customer Care">
+                                            <li><a href="/kb_results.asp" title="Help / FAQ">Help / FAQ</a></li>
+                                            <li><a href="https://www.tradeshow-stuff.com/Articles.asp?ID=298" title="Returns &amp; Exchanges">Returns &amp; Exchanges</a></li>
+                                           <li><a href="https://www.tradeshow-stuff.com/Articles.asp?ID=297" title="Warranty">Warranty</a></li>
+                                           <li><a href="https://www.tradeshow-stuff.com/Articles.asp?ID=280" title="Order Cancellation">Order Cancellation</a></li>
+                                          <li><a href="https://www.tradeshow-stuff.com/kb_results.asp" title="Knowledge Base">Knowledge Base</a></li>
+                                          <li><a href="https://www.tradeshow-stuff.com/Articles.asp?ID=311" title="Color Policies">Color Policies</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- NEWSLETTER copy #2 (only shown on desktop) -->
+                    <div class="col-xs-12 col-sm-5 visible-md-block visible-lg-block">
+                        <div class="newsletter visible-md-block visible-lg-block">
+                            <div class="main-title" data-v-edit-region="Newsletter Signup Title"><strong>Get on the list</strong> &amp; get exclusive deals</div>
+                            <div class="text" data-v-edit-region="Newsletter Signup Text">Enter your email address for special offers from TradeShow-Stuff</div>
+
+                            <div class="elist">
+                                <form name="MailingList" method="post" action="/mailinglist_subscribe.asp">
+                                    <input type="text" class="elist__input" name="emailaddress" value="" placeholder="Type your email here" />
+                                    <input type="submit" name="Submit" class="elist__submit" value="Sign Up" />
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- CONTACT INFO -->
+                    <div class="col-xs-12 col-md-7">
+                        <span class="info">
+                            <svg viewBox="0 0 1024 1024" class="map-icon">
+                                <use xmlns:xlink="https://www.w3.org/1999/xlink" xlink:href="#map"></use>
+                            </svg>
+                            <span data-v-edit-region="address"><a href="https://goo.gl/maps/kXvRiHifArx">Perham, MN</a></span>
+                        </span>
+                        <br class="visible-xs-block">
+
+                        <span class="info">
+                            <svg viewBox="0 0 1024 1024" class="phone-icon">
+                                <use xmlns:xlink="https://www.w3.org/1999/xlink" xlink:href="#phone"></use>
+                            </svg>
+                            <span data-v-edit-region="number"><a href="tel:18009699913">800.969.9913</a></span>
+                        </span>
+                        <br class="visible-xs-block">
+
+                        <span class="info">
+                            <svg viewBox="0 0 1024 1024" class="mail-icon">
+                                <use xmlns:xlink="https://www.w3.org/1999/xlink" xlink:href="#mail"></use>
+                            </svg>
+                            <span><a href="https://www.tradeshow-stuff.com/contact-us-s/73.htm" title="Contact www.tradeshow-stuff.com">Email Us</a></span>
+                        </span>
+                    </div>
+
+                    <!-- SOCIAL copy #2 (only shown on desktop)-->
+                    <div class="col-xs-12 col-sm-5 visible-md-block visible-lg-block">
+                        <div class="social">
+                            <div class="column-title social-title">Let's Stay In Touch</div>
+                            <a class="socicon fb" href="https://www.facebook.com/tradeshowstuff" target="_blank" rel="noopener">
+                                Facebook
+                                <svg viewBox="0 0 1024 1024" class="svg-icon fb-icon">
+                                    <use xmlns:xlink="https://www.w3.org/1999/xlink" xlink:href="#facebook"></use>
+                                </svg>
+                            </a>
+                            <a class="socicon tw" href="https://twitter.com/tradeshowstuff/" target="_blank" rel="noopener">
+                                Twitter
+                                <svg viewBox="0 0 1024 1024" class="svg-icon tw-icon">
+                                    <use xmlns:xlink="https://www.w3.org/1999/xlink" xlink:href="#twitter"></use>
+                                </svg>
+                            </a>
+                            <a class="socicon pi" href="https://www.pinterest.com/tradeshowstuff/" target="_blank" rel="noopener">
+                                Pinterest
+                                <svg viewBox="0 0 1024 1024" class="svg-icon pi-icon">
+                                    <use xmlns:xlink="https://www.w3.org/1999/xlink" xlink:href="#pinterest"></use>
+                                </svg>
+                            </a>
+                            <a class="socicon yt" href="https://www.youtube.com/tradeshowstuff" target="_blank" rel="noopener">
+                                Instagram
+                                <svg viewBox="0 0 1024 1024" class="svg-icon yt-icon">
+                                    <use xmlns:xlink="https://www.w3.org/1999/xlink" xlink:href="#youtube"></use>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <!-- COPYRIGHT -->
+        <div class="container">
+            <div class="copyright">
+                <div class="align-left">
+                    <a href="javascript:void(0);" onclick="window.open('https://www.volusion.com/ssl.asp?url=www.tradeshow-stuff.com', 'VolusionSSL', 'top=10,left=10,menubar=0,resizable=0,scrollbars=0,width=467,height=467')"><img src="/v/vspfiles/templates/neon/images/template/vsecure.png" alt="YourDomain.com is a Volusion Secure Site"/></a>
+
+                    <img src="/v/vspfiles/templates/neon/images/template/ccards.png" alt="" class="ccards">
+
+                </div>
+
+                <div class="align-right">
+                    &copy; Copyright <span class="insertYear">2016</span>, www.tradeshow-stuff.com. All Rights Reserved.
+                    Online store by <a href="https://www.volusion.com" target="_blank" rel="nofollow">Volusion</a>.
+                </div>
+            </div>
+        </div>
+
+    </div><!-- .page-wrap -->
+
+    <script>
+        $(document).ready(function() {
+            $('.open-search').click(function(){
+                $('.open-search, .search-block').toggleClass('opened');
+            });
+        });
+    </script>
+
+    <script src="/v/vspfiles/templates/neon/js/vol-buttons.js"></script>
+
+    <script src="/v/vspfiles/templates/neon/js/jquery-1.11.1.min.js"></script>
+
+    
+
+    <script>
+        var $jQueryModern = jQuery.noConflict(true);
+    </script>
+
+    <script src="/v/vspfiles/templates/neon/js/framework/bootstrap.min.js"></script>
+    <script src="/v/vspfiles/templates/neon/js/push-menu/min/nav-min.js"></script>
+
+<!--    <script type="text/javascript">
+        /**
+        * When a customer selects the "Graphic" option for their logo in the Volusion admin, the image they upload is set as a background image on an `<a>` element inside the `#display_homepage_title` div.
+        * If a graphic logo is being used, this script reads the background image URL from the element's css, and inserts an `img` element pointing to that URL.
+        * This allows us to style the logo image responsively without breaking the admin logo upload tool.
+        */
+
+        (function($) {
+            var siteLogo = $('meta[itemprop="name"] + a');
+            var siteLogoURL = siteLogo.css('background-image');
+
+            siteLogoURL = siteLogoURL.replace('url', ''); // Remove "url"
+            siteLogoURL = siteLogoURL.replace('(', ''); // Remove opening parentheses around URL
+            siteLogoURL = siteLogoURL.replace(')', ''); // Remove closing parentheses around URL
+            siteLogoURL = siteLogoURL.replace(/['"]/, ''); // Remove both single and double quotes.
+            if (!siteLogo.hasClass('colors_homepage_title')) {
+                siteLogo.html('<img class="logo__img img-responsive" src="' + siteLogoURL + '">');
+            }
+        })($jQueryModern);
+    </script>-->
+
+    
+
+        <!-- PUSH MENU -->
+        <link href="/v/vspfiles/templates/neon/css/push-menu.css" rel="stylesheet">
+        <script src="/v/vspfiles/templates/neon/js/push-menu.js"></script>
+
+    <!--
+    <script type="text/javascript" src="/v/vspfiles/assets/quickview/js/quickview.min.js"></script>
+    <script>(function($){$('body').quickview();})($jQueryModern)</script>
+    -->
+<script type="text/javascript">
+var $zoho=$zoho || {};$zoho.salesiq = $zoho.salesiq || {widgetcode:"9bdb12533b3a85c8c09f89f89e13745894800b972c78de8061349af97bb172b77cadf734714070366e2b29d9bd1f165b", values:{},ready:function(){}};var d=document;s=d.createElement("script");s.type="text/javascript";s.id="zsiqscript";s.defer=true;s.src="https://salesiq.zoho.com/widget";t=d.getElementsByTagName("script")[0];t.parentNode.insertBefore(s,t);d.write("<div id='zsiqwidget'></div>");
+</script>
+</div>
+
+
+
+<script type="text/javascript">function store_init(event){vZoom.preloadImage('//cdn3.volusion.com/eavmr.ehsew/v/vspfiles/photos/AL-Recreate-2T.gif?v-cache=1515505986','//cdn3.volusion.com/eavmr.ehsew/v/vspfiles/photos/AL-Recreate-2.gif?v-cache=1515505986');vZoom.preloadImage('//cdn3.volusion.com/eavmr.ehsew/v/vspfiles/photos/AL-Recreate-3T.gif?v-cache=1515505986','//cdn3.volusion.com/eavmr.ehsew/v/vspfiles/photos/AL-Recreate-3.gif?v-cache=1515505986');vZoom.preloadImage('//cdn3.volusion.com/eavmr.ehsew/v/vspfiles/photos/AL-Recreate-4T.gif?v-cache=1515505986','//cdn3.volusion.com/eavmr.ehsew/v/vspfiles/photos/AL-Recreate-4.gif?v-cache=1515505986');vZoom.preloadImage('//cdn3.volusion.com/eavmr.ehsew/v/vspfiles/photos/AL-Recreate-5T.gif?v-cache=1515505986','//cdn3.volusion.com/eavmr.ehsew/v/vspfiles/photos/AL-Recreate-5.gif?v-cache=1515505986');} AttachEvent(window, 'load', store_init);</script>
+
+<script type="text/javascript">
+    if (!/\/shoppingcart\.asp/i.test(window.location.pathname)) {
+        jQuery(document).ready(function() {
+            jQuery('a').each(AddCartLink)
+        });
+    }
+</script>
+
+<script type="text/javascript">
+    volusion.cbExtendSnippets = true;
+</script>
+
+<!-- BEGIN GCR Language Code -->
+<script>
+  window.___gcfg = {
+    lang: 'en_US'
+  };
+</script>
+<!-- END GCR Language Code -->
+
+
+<!-- BEGIN GCR Badge Code -->
+<script src="https://apis.google.com/js/platform.js?onload=renderBadge" async defer>
+</script>
+
+<script>
+  window.renderBadge = function() {
+    var ratingBadgeContainer = document.createElement("div");
+      document.body.appendChild(ratingBadgeContainer);
+      window.gapi.load('ratingbadge', function() {
+        window.gapi.ratingbadge.render(
+          ratingBadgeContainer, {
+            "merchant_id": 8050103,
+            "position": "BOTTOM_LEFT"
+          });
+     });
+  }
+</script>
+<!-- END GCR Badge Code -->
+
+
+  <script>
+     if (document.getElementsByName("MailingList")[0]) {
+        var emailSubscribeForm = document.getElementsByName("MailingList")[0];
+        disableSubscribeSubmit = function() {
+          emailSubscribeButton.removeAttribute("type");
+        }
+        forwardToMailingList = function(e) {
+            var subscribeEmail = emailSubscribeForm.querySelector("input").value;
+          sessionStorage.setItem("subEmailAddress", subscribeEmail);
+          emailSubscribeForm.submit();
+        }
+
+        if (emailSubscribeForm.querySelector("button")) {
+            var emailSubscribeButton = emailSubscribeForm.querySelector("button");
+            emailSubscribeButton.addEventListener("click", forwardToMailingList);
+        }
+    }
+  </script>
+
+
+<script type="text/javascript">
+    window.isUsingPpcp = true;
+</script>
+
+<script type="text/javascript">
+    window.useNewCheckout = true;
+</script>
+
+<script src="/a/j/paypal-push-cart.js" defer ></script>
+
+</body>
+</html>

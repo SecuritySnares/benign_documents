@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document id="4a5b24e8ccf0fe59c4f336922e8548d1">
+    <Style id="TR-Orange-Marker">
+      <IconStyle>
+        <Icon>
+          <href>https://cdn.superlawyers.com/image/upload/q_auto,f_auto/v20201015/resources/shared/tr-marker.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="TR-Grey-Marker">
+      <IconStyle>
+        <Icon>
+          <href>https://cdn.superlawyers.com/image/upload/q_auto,f_auto/v20201015/resources/shared/tr-marker-grey.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Placemark>
+      <name>Tina L. Izadi</name>
+      <address>16354 Muirfield Pl, Suite B, Edmond, OK, 73013</address>
+      <phoneNumber>tel:+14054716492</phoneNumber>
+      <description><![CDATA[Phone: 405-471-6492<br/>16354 Muirfield Pl, Suite B, Edmond, OK, 73013<br/><a href="https://profiles.superlawyers.com/oklahoma/edmond/lawyer/tina-l-izadi/0340a20b-e818-45de-b14c-f82e7d23969e.html">Learn more about this attorney...</a>]]></description>
+      <Point>
+        <coordinates>-97.568082,35.626563</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Elaine R. Turner</name>
+      <address>100 N Broadway Ave, Suite 2900, Oklahoma City, OK, 73102</address>
+      <phoneNumber>tel:+14055532804</phoneNumber>
+      <description><![CDATA[Phone: 405-553-2804<br/>100 N Broadway Ave, Suite 2900, Oklahoma City, OK, 73102<br/><a href="https://profiles.superlawyers.com/oklahoma/oklahoma-city/lawyer/elaine-r-turner/99c4b2d1-cb24-4d30-90f8-c22578fc5673.html">Learn more about this attorney...</a>]]></description>
+      <Point>
+        <coordinates>-97.513979,35.468025</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Elizabeth Bowersox</name>
+      <address>Two Leadership Square, 211 North Robinson Ave, 8th Floor, Oklahoma City, OK, 73102</address>
+      <phoneNumber>tel:+14052706019</phoneNumber>
+      <description><![CDATA[Phone: 405-270-6019<br/>Two Leadership Square, 211 North Robinson Ave, 8th Floor, Oklahoma City, OK, 73102<br/><a href="https://profiles.superlawyers.com/oklahoma/oklahoma-city/lawyer/elizabeth-bowersox/302e1129-d6b2-4474-b5fc-ced174402e58.html">Learn more about this attorney...</a>]]></description>
+      <Point>
+        <coordinates>-97.516450,35.469010</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Cara S. Nicklas</name>
+      <address>15 E. 15th Street, Suite 200, Edmond, OK, 73013</address>
+      <phoneNumber>tel:+14053590701</phoneNumber>
+      <description><![CDATA[Phone: 405-359-0701<br/>15 E. 15th Street, Suite 200, Edmond, OK, 73013<br/><a href="https://profiles.superlawyers.com/oklahoma/edmond/lawyer/cara-s-nicklas/a59628e1-cfef-4ff5-8a55-19d1616bd34d.html">Learn more about this attorney...</a>]]></description>
+      <Point>
+        <coordinates>-97.482870,35.638300</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Paula Williams</name>
+      <address>499 W Sheridan Ave, BOK Park Plaza, Suite 2200, Oklahoma City, OK, 73102</address>
+      <phoneNumber>tel:+14052355500</phoneNumber>
+      <description><![CDATA[Phone: 405-235-5500<br/>499 W Sheridan Ave, BOK Park Plaza, Suite 2200, Oklahoma City, OK, 73102<br/><a href="https://profiles.superlawyers.com/oklahoma/oklahoma-city/lawyer/paula-williams/b98426ea-de11-4d42-adfe-7489495c00f0.html">Learn more about this attorney...</a>]]></description>
+      <Point>
+        <coordinates>-97.516450,35.469010</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Tanya Bryant</name>
+      <address>324 N Robinson Ave, Suite 100, Oklahoma City, OK, 73102</address>
+      <phoneNumber>tel:+14052357720</phoneNumber>
+      <description><![CDATA[Phone: 405-235-7720<br/>324 N Robinson Ave, Suite 100, Oklahoma City, OK, 73102<br/><a href="https://profiles.superlawyers.com/oklahoma/oklahoma-city/lawyer/tanya-bryant/ed16f5ab-7d46-4e21-9f21-8bbc94e18578.html">Learn more about this attorney...</a>]]></description>
+      <Point>
+        <coordinates>-97.516390,35.470580</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Paul A. Ross</name>
+      <address>Two Leadership Square, 211 North Robinson Ave, 8th Floor, Oklahoma City, OK, 73102</address>
+      <phoneNumber>tel:+14055522383</phoneNumber>
+      <description><![CDATA[Phone: 405-552-2383<br/>Two Leadership Square, 211 North Robinson Ave, 8th Floor, Oklahoma City, OK, 73102<br/><a href="https://profiles.superlawyers.com/oklahoma/oklahoma-city/lawyer/paul-a-ross/af24433c-bfd9-4902-b322-990746bd9ff5.html">Learn more about this attorney...</a>]]></description>
+      <Point>
+        <coordinates>-97.516450,35.469010</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Leah M. Avey</name>
+      <address>1503 East 19th Street, Edmond, OK, 73013</address>
+      <phoneNumber>tel:+14053401900</phoneNumber>
+      <description><![CDATA[Phone: 405-340-1900<br/>1503 East 19th Street, Edmond, OK, 73013<br/><a href="https://profiles.superlawyers.com/oklahoma/edmond/lawyer/leah-m-avey/82ab63af-276e-403e-bca8-958065a7c153.html">Learn more about this attorney...</a>]]></description>
+      <Point>
+        <coordinates>-97.459270,35.635190</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Roberta B. Fields</name>
+      <address>Two Leadership Square, 211 North Robinson Ave, 8th Floor, Oklahoma City, OK, 73102</address>
+      <phoneNumber>tel:+14055522366</phoneNumber>
+      <description><![CDATA[Phone: 405-552-2366<br/>Two Leadership Square, 211 North Robinson Ave, 8th Floor, Oklahoma City, OK, 73102<br/><a href="https://profiles.superlawyers.com/oklahoma/oklahoma-city/lawyer/roberta-b-fields/d4cb10c3-b485-4b77-a967-242196131b9b.html">Learn more about this attorney...</a>]]></description>
+      <Point>
+        <coordinates>-97.516450,35.469010</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Kristin M. Simpsen</name>
+      <address>Two Leadership Square, 211 North Robinson Ave, 8th Floor, Oklahoma City, OK, 73102</address>
+      <phoneNumber>tel:+14055522395</phoneNumber>
+      <description><![CDATA[Phone: 405-552-2395<br/>Two Leadership Square, 211 North Robinson Ave, 8th Floor, Oklahoma City, OK, 73102<br/><a href="https://profiles.superlawyers.com/oklahoma/oklahoma-city/lawyer/kristin-m-simpsen/07b49ec3-d458-4973-9071-e86116a01e6c.html">Learn more about this attorney...</a>]]></description>
+      <Point>
+        <coordinates>-97.516450,35.469010</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Sam R. Fulkerson</name>
+      <address>621 N. Robinson Ave, 4th Floor, Oklahoma City, OK, 73102</address>
+      <phoneNumber>tel:+14055463751</phoneNumber>
+      <description><![CDATA[Phone: 405-546-3751<br/>621 N. Robinson Ave, 4th Floor, Oklahoma City, OK, 73102<br/><a href="https://profiles.superlawyers.com/oklahoma/oklahoma-city/lawyer/sam-r-fulkerson/0e5c6b16-71ea-465a-b2b5-e34e898c4387.html">Learn more about this attorney...</a>]]></description>
+      <Point>
+        <coordinates>-97.516284,35.473182</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Elizabeth Scott Wood</name>
+      <address>Two Leadership Square, 211 North Robinson Ave, 8th Floor, Oklahoma City, OK, 73102</address>
+      <phoneNumber>tel:+14055522270</phoneNumber>
+      <description><![CDATA[Phone: 405-552-2270<br/>Two Leadership Square, 211 North Robinson Ave, 8th Floor, Oklahoma City, OK, 73102<br/><a href="https://profiles.superlawyers.com/oklahoma/oklahoma-city/lawyer/elizabeth-scott-wood/cde3c31d-b7c9-42fc-b0f0-7e23aa904608.html">Learn more about this attorney...</a>]]></description>
+      <Point>
+        <coordinates>-97.516450,35.469010</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Leah Roper</name>
+      <address>1133 N Portland Ave, Oklahoma City, OK, 73107</address>
+      <phoneNumber>tel:+14052521180</phoneNumber>
+      <description><![CDATA[Phone: 405-252-1180<br/>1133 N Portland Ave, Oklahoma City, OK, 73107<br/><a href="https://profiles.superlawyers.com/oklahoma/oklahoma-city/lawyer/leah-roper/03dd689e-1ac2-4e3f-8885-f92dbd885eb8.html">Learn more about this attorney...</a>]]></description>
+      <Point>
+        <coordinates>-97.583312,35.479943</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Leonard Court</name>
+      <address>324 N Robinson Ave, Suite 100, Oklahoma City, OK, 73102</address>
+      <phoneNumber>tel:+14052357706</phoneNumber>
+      <description><![CDATA[Phone: 405-235-7706<br/>324 N Robinson Ave, Suite 100, Oklahoma City, OK, 73102<br/><a href="https://profiles.superlawyers.com/oklahoma/oklahoma-city/lawyer/leonard-court/0fce6c47-0de1-4ee7-a987-4067a476b7a0.html">Learn more about this attorney...</a>]]></description>
+      <Point>
+        <coordinates>-97.516390,35.470580</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>D. Colby Addison</name>
+      <address>2113 Riverwalk Dr, Moore, OK, 73160</address>
+      <phoneNumber>tel:+14056983125</phoneNumber>
+      <description><![CDATA[Phone: 405-698-3125<br/>2113 Riverwalk Dr, Moore, OK, 73160<br/><a href="https://profiles.superlawyers.com/oklahoma/moore/lawyer/d-colby-addison/331c0e8d-1f02-462a-9e93-80de54c733a7.html">Learn more about this attorney...</a>]]></description>
+      <Point>
+        <coordinates>-97.493332,35.319710</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Tony G. Puckett</name>
+      <address>Two Leadership Square, 211 North Robinson Ave, 8th Floor, Oklahoma City, OK, 73102</address>
+      <phoneNumber>tel:+14055522251</phoneNumber>
+      <description><![CDATA[Phone: 405-552-2251<br/>Two Leadership Square, 211 North Robinson Ave, 8th Floor, Oklahoma City, OK, 73102<br/><a href="https://profiles.superlawyers.com/oklahoma/oklahoma-city/lawyer/tony-g-puckett/fffd23a1-78cf-4968-a50f-5f112089e6ed.html">Learn more about this attorney...</a>]]></description>
+      <Point>
+        <coordinates>-97.516450,35.469010</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Anne E. Zachritz</name>
+      <address>1214 N Hudson Ave, Oklahoma City, OK, 73103</address>
+      <phoneNumber>tel:+14052358756</phoneNumber>
+      <description><![CDATA[Phone: 405-235-8756<br/>1214 N Hudson Ave, Oklahoma City, OK, 73103<br/><a href="https://profiles.superlawyers.com/oklahoma/oklahoma-city/lawyer/anne-e-zachritz/4ddf8fb7-fd3e-4468-b9a8-eab638edb132.html">Learn more about this attorney...</a>]]></description>
+      <Point>
+        <coordinates>-97.510670,35.465930</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Shannon F. Davies</name>
+      <address>9400 North Broadway Extension, Suite 600, Oklahoma City, OK, 73114</address>
+      <phoneNumber>tel:+14058449900</phoneNumber>
+      <description><![CDATA[Phone: 405-844-9900<br/>9400 North Broadway Extension, Suite 600, Oklahoma City, OK, 73114<br/><a href="https://profiles.superlawyers.com/oklahoma/oklahoma-city/lawyer/shannon-f-davies/b64bbe02-9693-4853-9b38-7327e29d8337.html">Learn more about this attorney...</a>]]></description>
+      <Point>
+        <coordinates>-97.512580,35.566050</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Andre B. Caldwell</name>
+      <address>621 N. Robinson Ave, 4th Floor, Oklahoma City, OK, 73102</address>
+      <phoneNumber>tel:+18443659779</phoneNumber>
+      <description><![CDATA[Phone: 844-365-9779<br/>621 N. Robinson Ave, 4th Floor, Oklahoma City, OK, 73102<br/><a href="https://profiles.superlawyers.com/oklahoma/oklahoma-city/lawyer/andre-b-caldwell/76ee8797-8f10-434a-9327-dd606a92b384.html">Learn more about this attorney...</a>]]></description>
+      <Point>
+        <coordinates>-97.516284,35.473182</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Paige Hoster Good</name>
+      <address>Two Leadership Square, 211 North Robinson Ave, 8th Floor, Oklahoma City, OK, 73102</address>
+      <phoneNumber>tel:+14052359621</phoneNumber>
+      <description><![CDATA[Phone: 405-235-9621<br/>Two Leadership Square, 211 North Robinson Ave, 8th Floor, Oklahoma City, OK, 73102<br/><a href="https://profiles.superlawyers.com/oklahoma/oklahoma-city/lawyer/paige-hoster-good/f1e26af1-c74f-4169-b3f1-efc645717c30.html">Learn more about this attorney...</a>]]></description>
+      <Point>
+        <coordinates>-97.516450,35.469010</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>James R. Moore</name>
+      <address>2212 NW 50th St., Suite 249C, Oklahoma City, OK, 73112</address>
+      <phoneNumber>tel:+14058439675</phoneNumber>
+      <description><![CDATA[Phone: 405-843-9675<br/>2212 NW 50th St., Suite 249C, Oklahoma City, OK, 73112<br/><a href="https://profiles.superlawyers.com/oklahoma/oklahoma-city/lawyer/james-r-moore/ae58053a-ecb1-4ff3-9f8a-2da83a543670.html">Learn more about this attorney...</a>]]></description>
+      <Point>
+        <coordinates>-97.550960,35.522240</coordinates>
+      </Point>
+    </Placemark>
+  </Document>
+</kml>

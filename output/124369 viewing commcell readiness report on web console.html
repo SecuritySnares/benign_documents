@@ -1,0 +1,1413 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- Google Tag Manager -->
+<!--<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':-->
+<!--new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],-->
+<!--j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=-->
+<!--'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);-->
+<!--})(window,document,'script','dataLayer','GTM-ML2R3GQ');</script>-->
+<!-- End Google Tag Manager -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <meta name="google-translate-customization" content="ba5d5e6a0ea958a6-60a46c244c5014f7-g58bfaa1085f39975-12">
+    
+    <meta name="cv-major-version" content="11">
+    <meta name="cv-minor-version" content="28">
+    <meta name="cv-nav-slug" content="essential">
+    <meta name="cv-oem-slug" content="commvault">
+    <meta name="cv-variant-id" content="124369">
+    <meta name="cv-primary-id" content="124369">
+    <meta name="cv-topic-type" content="task">
+    <meta name="cv-last-modified" content="2020-09-09T20:13:30Z">
+    <meta name="cv-logicalpath" content="Essential/Reports/Available Reports/Command Center and Web Console Reports/CommCell Readiness Report/Viewing the CommCell Readiness Report on the Web Console">
+    <meta name="cv-physicalpath" content="124369.htm">
+    <meta name="search-vendor" content="coveo">
+    <title>Viewing the CommCell Readiness Report on the Web Console</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+    <link rel="stylesheet" media="screen" href="/static/main.css">
+    <link rel="stylesheet" media="print" href="/static/printstyles.css">
+    
+    <link rel="icon" href="https://www.commvault.com/wp-content/uploads/2019/08/cropped-favicon-260.png?w=32" sizes="32x32">
+    <link rel="icon" href="https://www.commvault.com/wp-content/uploads/2019/08/cropped-favicon-260.png?w=192" sizes="192x192">
+    <link rel="apple-touch-icon" href="https://www.commvault.com/wp-content/uploads/2019/08/cropped-favicon-260.png?w=180">
+    
+</head>
+<body class="commvault-oem essential-oem">
+<!-- Google Tag Manager (noscript) -->
+<!--<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-ML2R3GQ"-->
+<!--height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>-->
+<!-- End Google Tag Manager (noscript) -->
+<div class="site-container" data-load-async>
+    <header class="header">
+        <div class="navtoggle collapse-toggle" data-collapse-toggle="nav-drawer">
+            <i class="fa fa-bars"></i>
+        </div>
+        <a href="https://documentation.commvault.com/commvault" class="brand on-dark-bg"></a>
+        
+        <div class="translate btn dropdown-toggle">
+            <span class="language-label">English</span>
+            <span class="language-label-small">en</span>
+            <i class="fas fa-angle-down"></i>
+            <div class="dropdown align-right dont-dismiss" style="margin-top:.5rem">
+                <div id="google_translate_element"></div>
+            </div>
+        </div>
+        <div class="auth btn dropdown-toggle">
+            
+            <i class="far fa-user-circle"></i>
+            
+            <ul class="dropdown align-right">
+                
+                
+                <a class="auth-url" href="/auth/login"><span class="text">Sign in</span></a>
+                
+            </ul>
+        </div>
+        
+        <form class="searchbar" autocomplete="off" action="/11.28/essential/search">
+            
+            <div class="version btn dropdown-toggle">
+                <span class="color-white"></span>
+                
+                    2022E (11.28)
+                </span>
+                <i class="fas fa-angle-right color-white"></i>
+                <ul class="dropdown">
+                    
+                        
+                        <a class="version-redirect" href="/versions/topic/2023 (11.30)"><span class="text">2023 (11.30)</span></a>
+                        
+                    
+                        
+                        <a class="version-redirect" href="/versions/topic/2022E (11.28)"><span class="text">2022E (11.28)</span></a>
+                        
+                    
+                        
+                        <a class="version-redirect" href="/versions/topic/11.26"><span class="text">11.26</span></a>
+                        
+                    
+                        
+                        <a class="version-redirect" href="/versions/topic/11.25"><span class="text">11.25</span></a>
+                        
+                    
+                        
+                        <a class="version-redirect" href="/versions/topic/11.24"><span class="text">11.24</span></a>
+                        
+                    
+                        
+                        <a class="version-redirect" href="/versions/topic/11.23"><span class="text">11.23</span></a>
+                        
+                    
+                        
+                        <a class="version-redirect" href="/versions/topic/11.22"><span class="text">11.22</span></a>
+                        
+                    
+                        
+                        <a class="version-redirect" href="/versions/topic/11.21"><span class="text">11.21</span></a>
+                        
+                    
+                        
+                        <a class="version-redirect" href="/versions/topic/11.20"><span class="text">11.20</span></a>
+                        
+                    
+                        
+                        <a class="version-redirect" href="/versions/topic/11.19"><span class="text">11.19</span></a>
+                        
+                    
+                        
+                        <a class="version-redirect" href="/versions/topic/11.18"><span class="text">11.18</span></a>
+                        
+                    
+                </ul>
+            </div>
+            
+            <div class="search-input-wrapper">
+                <input id="search-input" name="q" class="search-input" type="text" placeholder="search the docs..." value="">
+                <label for="search-input" hidden aria-hidden="false">Documentation search</label>
+                <ul class="suggestions dropdown collapsed"></ul>
+            </div>
+            <div class="search-loader loader"></div>
+            <button class="btn search-btn color-peacoat-hover" type="reset"><i class="fa fa-times"></i></button>
+            <button class="btn search-btn color-peacoat-hover" type="submit"><i class="fa fa-search"></i></button>
+        </form>
+    </header>
+    <div id="nav-drawer" class="nav-drawer expanded nav-w2">
+        <div class="nav-drawer-expand collapse-toggle" data-collapse-toggle="nav-drawer">
+            <button class="btn btn-md">
+                <i class="fa fa-bars"></i>
+            </button>
+        </div>
+        <nav class="nav nav-w2">
+            <button class="btn btn-md nav-drawer-collapse collapse-toggle" data-collapse-toggle="nav-drawer">
+                <i class="fa fa-times"></i>
+            </button>
+            <ul class="tabs tabs-horizontal nav-tabs">
+            
+                <li class="active"><a href="../essential/index.html">Essential</a></li>
+            
+                <li><a href="../expert/index.html">Expert</a></li>
+            
+            </ul>
+            <ul class="main-toc">
+
+    
+    
+        <li data-fetched="true" class="nav-parent expanded">
+    
+
+    <p class="nav-link-wrapper">
+        <input class="pdf-checkbox" type="checkbox">
+        <a class="nav-link" href="../essential/index.html">Essential</a>
+        <i class="nav-link-icon">&gt;</i>
+    </p>
+
+    <ul>
+            
+                
+    
+    
+        <li data-fetched="false" class="nav-parent collapsed">
+    
+
+    <p class="nav-link-wrapper">
+        <input class="pdf-checkbox" type="checkbox">
+        <a class="nav-link" href="../essential/1477_whats_new.html">What&#39;s New</a>
+        <i class="nav-link-icon">&gt;</i>
+    </p>
+
+    <ul>
+    </ul>
+
+</li>
+
+            
+                
+    
+    
+        <li data-fetched="false" class="nav-parent collapsed">
+    
+
+    <p class="nav-link-wrapper">
+        <input class="pdf-checkbox" type="checkbox">
+        <a class="nav-link" href="../essential/86625_quick_start_guide.html">Quick Start Guide</a>
+        <i class="nav-link-icon">&gt;</i>
+    </p>
+
+    <ul>
+    </ul>
+
+</li>
+
+            
+                
+    
+    
+        <li data-fetched="false" class="nav-parent collapsed">
+    
+
+    <p class="nav-link-wrapper">
+        <input class="pdf-checkbox" type="checkbox">
+        <a class="nav-link" href="../essential/116837_storage.html">Storage</a>
+        <i class="nav-link-icon">&gt;</i>
+    </p>
+
+    <ul>
+    </ul>
+
+</li>
+
+            
+                
+    
+    <li>
+
+    <p class="nav-link-wrapper">
+        <input class="pdf-checkbox" type="checkbox">
+        <a class="nav-link" href="../essential/144850_cloud_products_supported_by_command_center_andor_commcell_console.html">Cloud</a>
+        
+    </p>
+
+</li>
+
+            
+                
+    
+    
+        <li data-fetched="false" class="nav-parent collapsed">
+    
+
+    <p class="nav-link-wrapper">
+        <input class="pdf-checkbox" type="checkbox">
+        <a class="nav-link" href="../essential/119353_protecting_virtualized_workloads_in_command_center.html">Virtualization</a>
+        <i class="nav-link-icon">&gt;</i>
+    </p>
+
+    <ul>
+    </ul>
+
+</li>
+
+            
+                
+    
+    
+        <li data-fetched="false" class="nav-parent collapsed">
+    
+
+    <p class="nav-link-wrapper">
+        <input class="pdf-checkbox" type="checkbox">
+        <a class="nav-link" href="../essential/123634_protecting_kubernetes_with_commvault.html">Kubernetes</a>
+        <i class="nav-link-icon">&gt;</i>
+    </p>
+
+    <ul>
+    </ul>
+
+</li>
+
+            
+                
+    
+    
+        <li data-fetched="false" class="nav-parent collapsed">
+    
+
+    <p class="nav-link-wrapper">
+        <input class="pdf-checkbox" type="checkbox">
+        <a class="nav-link" href="../essential/87294_file_servers.html">File Servers </a>
+        <i class="nav-link-icon">&gt;</i>
+    </p>
+
+    <ul>
+    </ul>
+
+</li>
+
+            
+                
+    
+    
+        <li data-fetched="false" class="nav-parent collapsed">
+    
+
+    <p class="nav-link-wrapper">
+        <input class="pdf-checkbox" type="checkbox">
+        <a class="nav-link" href="../essential/86671_laptop.html">Laptop</a>
+        <i class="nav-link-icon">&gt;</i>
+    </p>
+
+    <ul>
+    </ul>
+
+</li>
+
+            
+                
+    
+    
+        <li data-fetched="false" class="nav-parent collapsed">
+    
+
+    <p class="nav-link-wrapper">
+        <input class="pdf-checkbox" type="checkbox">
+        <a class="nav-link" href="../essential/146028_databases.html">Databases</a>
+        <i class="nav-link-icon">&gt;</i>
+    </p>
+
+    <ul>
+    </ul>
+
+</li>
+
+            
+                
+    
+    
+        <li data-fetched="false" class="nav-parent collapsed">
+    
+
+    <p class="nav-link-wrapper">
+        <input class="pdf-checkbox" type="checkbox">
+        <a class="nav-link" href="../essential/93232_applications.html">Applications</a>
+        <i class="nav-link-icon">&gt;</i>
+    </p>
+
+    <ul>
+    </ul>
+
+</li>
+
+            
+                
+    
+    
+        <li data-fetched="false" class="nav-parent collapsed">
+    
+
+    <p class="nav-link-wrapper">
+        <input class="pdf-checkbox" type="checkbox">
+        <a class="nav-link" href="../essential/124829_big_data_apps.html">Big Data</a>
+        <i class="nav-link-icon">&gt;</i>
+    </p>
+
+    <ul>
+    </ul>
+
+</li>
+
+            
+                
+    
+    
+        <li data-fetched="false" class="nav-parent collapsed">
+    
+
+    <p class="nav-link-wrapper">
+        <input class="pdf-checkbox" type="checkbox">
+        <a class="nav-link" href="../essential/114965_object_storage.html">Object Storage</a>
+        <i class="nav-link-icon">&gt;</i>
+    </p>
+
+    <ul>
+    </ul>
+
+</li>
+
+            
+                
+    
+    
+        <li data-fetched="false" class="nav-parent collapsed">
+    
+
+    <p class="nav-link-wrapper">
+        <input class="pdf-checkbox" type="checkbox">
+        <a class="nav-link" href="../essential/106167_snapshots.html">Snapshots</a>
+        <i class="nav-link-icon">&gt;</i>
+    </p>
+
+    <ul>
+    </ul>
+
+</li>
+
+            
+                
+    
+    
+        <li data-fetched="false" class="nav-parent collapsed">
+    
+
+    <p class="nav-link-wrapper">
+        <input class="pdf-checkbox" type="checkbox">
+        <a class="nav-link" href="../essential/113647_disaster_recovery_and_replication.html">Disaster Recovery and Replication</a>
+        <i class="nav-link-icon">&gt;</i>
+    </p>
+
+    <ul>
+    </ul>
+
+</li>
+
+            
+                
+    
+    
+        <li data-fetched="false" class="nav-parent collapsed">
+    
+
+    <p class="nav-link-wrapper">
+        <input class="pdf-checkbox" type="checkbox">
+        <a class="nav-link" href="../essential/111901_commcell_configuration.html">CommCell Configuration</a>
+        <i class="nav-link-icon">&gt;</i>
+    </p>
+
+    <ul>
+    </ul>
+
+</li>
+
+            
+                
+    
+    
+        <li data-fetched="false" class="nav-parent collapsed">
+    
+
+    <p class="nav-link-wrapper">
+        <input class="pdf-checkbox" type="checkbox">
+        <a class="nav-link" href="../essential/43723_activate.html">Activate</a>
+        <i class="nav-link-icon">&gt;</i>
+    </p>
+
+    <ul>
+    </ul>
+
+</li>
+
+            
+                
+    
+    
+        <li data-fetched="true" class="nav-parent expanded">
+    
+
+    <p class="nav-link-wrapper">
+        <input class="pdf-checkbox" type="checkbox">
+        <a class="nav-link" href="../essential/37684_reports_overview.html">Reports</a>
+        <i class="nav-link-icon">&gt;</i>
+    </p>
+
+    <ul>
+            
+                
+    
+    
+        <li data-fetched="true" class="nav-parent expanded">
+    
+
+    <p class="nav-link-wrapper">
+        <input class="pdf-checkbox" type="checkbox">
+        <a class="nav-link" href="../essential/130996_available_reports.html">Available Reports</a>
+        <i class="nav-link-icon">&gt;</i>
+    </p>
+
+    <ul>
+            
+                
+    
+    
+        <li data-fetched="true" class="nav-parent expanded">
+    
+
+    <p class="nav-link-wrapper">
+        <input class="pdf-checkbox" type="checkbox">
+        <a class="nav-link" href="../essential/130995_command_center_and_web_console_reports.html">Command Center and Web Console Reports</a>
+        <i class="nav-link-icon">&gt;</i>
+    </p>
+
+    <ul>
+            
+                
+    
+    
+        <li data-fetched="false" class="nav-parent collapsed">
+    
+
+    <p class="nav-link-wrapper">
+        <input class="pdf-checkbox" type="checkbox">
+        <a class="nav-link" href="../essential/37985_as_built_guide.html">As Built Guide</a>
+        <i class="nav-link-icon">&gt;</i>
+    </p>
+
+    <ul>
+    </ul>
+
+</li>
+
+            
+                
+    
+    
+        <li data-fetched="false" class="nav-parent collapsed">
+    
+
+    <p class="nav-link-wrapper">
+        <input class="pdf-checkbox" type="checkbox">
+        <a class="nav-link" href="../essential/38015_audit_trail_report.html">Audit Trail Report</a>
+        <i class="nav-link-icon">&gt;</i>
+    </p>
+
+    <ul>
+    </ul>
+
+</li>
+
+            
+                
+    
+    
+        <li data-fetched="false" class="nav-parent collapsed">
+    
+
+    <p class="nav-link-wrapper">
+        <input class="pdf-checkbox" type="checkbox">
+        <a class="nav-link" href="../essential/106811_aux_copy_job_details_report.html">Aux Copy Job Details Report</a>
+        <i class="nav-link-icon">&gt;</i>
+    </p>
+
+    <ul>
+    </ul>
+
+</li>
+
+            
+                
+    
+    
+        <li data-fetched="false" class="nav-parent collapsed">
+    
+
+    <p class="nav-link-wrapper">
+        <input class="pdf-checkbox" type="checkbox">
+        <a class="nav-link" href="../essential/104349_amazon_rds_snapshot_backup_tracking_report_01.html">Amazon RDS Snapshot Backup Tracking Report</a>
+        <i class="nav-link-icon">&gt;</i>
+    </p>
+
+    <ul>
+    </ul>
+
+</li>
+
+            
+                
+    
+    
+        <li data-fetched="false" class="nav-parent collapsed">
+    
+
+    <p class="nav-link-wrapper">
+        <input class="pdf-checkbox" type="checkbox">
+        <a class="nav-link" href="../essential/38065_backup_job_summary_report_web_overview.html">Backup Job Summary Report (Web)</a>
+        <i class="nav-link-icon">&gt;</i>
+    </p>
+
+    <ul>
+    </ul>
+
+</li>
+
+            
+                
+    
+    
+        <li data-fetched="true" class="nav-parent expanded">
+    
+
+    <p class="nav-link-wrapper">
+        <input class="pdf-checkbox" type="checkbox">
+        <a class="nav-link" href="../essential/124367_commcell_readiness_report.html">CommCell Readiness Report</a>
+        <i class="nav-link-icon">&gt;</i>
+    </p>
+
+    <ul>
+            
+                
+    
+    <li>
+
+    <p class="nav-link-wrapper">
+        <input class="pdf-checkbox" type="checkbox">
+        <a class="nav-link" href="../essential/124368_viewing_commcell_readiness_report_on_command_center.html">Viewing the CommCell Readiness Report on the Command Center</a>
+        
+    </p>
+
+</li>
+
+            
+                
+    
+    <li class="active">
+
+    <p class="nav-link-wrapper">
+        <input class="pdf-checkbox" type="checkbox">
+        <a class="nav-link" href="../essential/124369_viewing_commcell_readiness_report_on_web_console.html">Viewing the CommCell Readiness Report on the Web Console</a>
+        
+    </p>
+
+</li>
+
+            
+                
+    
+    <li>
+
+    <p class="nav-link-wrapper">
+        <input class="pdf-checkbox" type="checkbox">
+        <a class="nav-link" href="../essential/124370_data_views_for_commcell_readiness_report.html">Data Views for the CommCell Readiness Report</a>
+        
+    </p>
+
+</li>
+
+            
+                
+    
+    <li>
+
+    <p class="nav-link-wrapper">
+        <input class="pdf-checkbox" type="checkbox">
+        <a class="nav-link" href="../essential/124395_running_readiness_check_from_commcell_readiness_report.html">Running a Readiness Check</a>
+        
+    </p>
+
+</li>
+
+            
+                
+    
+    <li>
+
+    <p class="nav-link-wrapper">
+        <input class="pdf-checkbox" type="checkbox">
+        <a class="nav-link" href="../essential/124394_sending_log_files_from_commcell_readiness_report.html">Sending Log Files from the CommCell Readiness Report</a>
+        
+    </p>
+
+</li>
+
+            
+        
+    </ul>
+
+</li>
+
+            
+                
+    
+    
+        <li data-fetched="false" class="nav-parent collapsed">
+    
+
+    <p class="nav-link-wrapper">
+        <input class="pdf-checkbox" type="checkbox">
+        <a class="nav-link" href="../essential/38470_storage_utilization_report_overview.html">Storage Utilization Report</a>
+        <i class="nav-link-icon">&gt;</i>
+    </p>
+
+    <ul>
+    </ul>
+
+</li>
+
+            
+                
+    
+    
+        <li data-fetched="false" class="nav-parent collapsed">
+    
+
+    <p class="nav-link-wrapper">
+        <input class="pdf-checkbox" type="checkbox">
+        <a class="nav-link" href="../essential/38480_ediscovery_exception_report_overview.html">eDiscovery Exception Report</a>
+        <i class="nav-link-icon">&gt;</i>
+    </p>
+
+    <ul>
+    </ul>
+
+</li>
+
+            
+                
+    
+    
+        <li data-fetched="false" class="nav-parent collapsed">
+    
+
+    <p class="nav-link-wrapper">
+        <input class="pdf-checkbox" type="checkbox">
+        <a class="nav-link" href="../essential/112742_file_search_report.html">File Search Report</a>
+        <i class="nav-link-icon">&gt;</i>
+    </p>
+
+    <ul>
+    </ul>
+
+</li>
+
+            
+                
+    
+    
+        <li data-fetched="false" class="nav-parent collapsed">
+    
+
+    <p class="nav-link-wrapper">
+        <input class="pdf-checkbox" type="checkbox">
+        <a class="nav-link" href="../essential/38637_health_report_overview.html">Health Report</a>
+        <i class="nav-link-icon">&gt;</i>
+    </p>
+
+    <ul>
+    </ul>
+
+</li>
+
+            
+                
+    
+    
+        <li data-fetched="false" class="nav-parent collapsed">
+    
+
+    <p class="nav-link-wrapper">
+        <input class="pdf-checkbox" type="checkbox">
+        <a class="nav-link" href="../essential/126691_index_servers_usage_report.html">Index Servers Usage Report</a>
+        <i class="nav-link-icon">&gt;</i>
+    </p>
+
+    <ul>
+    </ul>
+
+</li>
+
+            
+                
+    
+    
+        <li data-fetched="false" class="nav-parent collapsed">
+    
+
+    <p class="nav-link-wrapper">
+        <input class="pdf-checkbox" type="checkbox">
+        <a class="nav-link" href="../essential/102759_infrastructure_load_report.html">Infrastructure Load Report</a>
+        <i class="nav-link-icon">&gt;</i>
+    </p>
+
+    <ul>
+    </ul>
+
+</li>
+
+            
+                
+    
+    
+        <li data-fetched="false" class="nav-parent collapsed">
+    
+
+    <p class="nav-link-wrapper">
+        <input class="pdf-checkbox" type="checkbox">
+        <a class="nav-link" href="../essential/135668_multisite_conflicting_array_information_report.html">Multisite Conflicting Array Information Report</a>
+        <i class="nav-link-icon">&gt;</i>
+    </p>
+
+    <ul>
+    </ul>
+
+</li>
+
+            
+                
+    
+    
+        <li data-fetched="false" class="nav-parent collapsed">
+    
+
+    <p class="nav-link-wrapper">
+        <input class="pdf-checkbox" type="checkbox">
+        <a class="nav-link" href="../essential/124162_license_server_usage_summary_report.html">License Server Usage Summary Report</a>
+        <i class="nav-link-icon">&gt;</i>
+    </p>
+
+    <ul>
+    </ul>
+
+</li>
+
+            
+                
+    
+    
+        <li data-fetched="false" class="nav-parent collapsed">
+    
+
+    <p class="nav-link-wrapper">
+        <input class="pdf-checkbox" type="checkbox">
+        <a class="nav-link" href="../essential/105350_license_summary_report.html">License Summary Report</a>
+        <i class="nav-link-icon">&gt;</i>
+    </p>
+
+    <ul>
+    </ul>
+
+</li>
+
+            
+                
+    
+    
+        <li data-fetched="false" class="nav-parent collapsed">
+    
+
+    <p class="nav-link-wrapper">
+        <input class="pdf-checkbox" type="checkbox">
+        <a class="nav-link" href="../essential/98087_restore_job_summary_report_on_web_console.html">Restore Job Summary Report on the Web Console</a>
+        <i class="nav-link-icon">&gt;</i>
+    </p>
+
+    <ul>
+    </ul>
+
+</li>
+
+            
+                
+    
+    
+        <li data-fetched="false" class="nav-parent collapsed">
+    
+
+    <p class="nav-link-wrapper">
+        <input class="pdf-checkbox" type="checkbox">
+        <a class="nav-link" href="../essential/39082_sla_report.html">SLA Report</a>
+        <i class="nav-link-icon">&gt;</i>
+    </p>
+
+    <ul>
+    </ul>
+
+</li>
+
+            
+                
+    
+    
+        <li data-fetched="false" class="nav-parent collapsed">
+    
+
+    <p class="nav-link-wrapper">
+        <input class="pdf-checkbox" type="checkbox">
+        <a class="nav-link" href="../essential/132077_storage_cost_optimization_report_overview.html">Storage Cost Optimization Report</a>
+        <i class="nav-link-icon">&gt;</i>
+    </p>
+
+    <ul>
+    </ul>
+
+</li>
+
+            
+                
+    
+    
+        <li data-fetched="false" class="nav-parent collapsed">
+    
+
+    <p class="nav-link-wrapper">
+        <input class="pdf-checkbox" type="checkbox">
+        <a class="nav-link" href="../essential/39206_user_and_user_group_permissions_report_overview.html">User and User Group Permissions Report Overview</a>
+        <i class="nav-link-icon">&gt;</i>
+    </p>
+
+    <ul>
+    </ul>
+
+</li>
+
+            
+        
+    </ul>
+
+</li>
+
+            
+                
+    
+    
+        <li data-fetched="false" class="nav-parent collapsed">
+    
+
+    <p class="nav-link-wrapper">
+        <input class="pdf-checkbox" type="checkbox">
+        <a class="nav-link" href="../essential/116478_email_reports.html">Email Reports</a>
+        <i class="nav-link-icon">&gt;</i>
+    </p>
+
+    <ul>
+    </ul>
+
+</li>
+
+            
+                
+    
+    
+        <li data-fetched="false" class="nav-parent collapsed">
+    
+
+    <p class="nav-link-wrapper">
+        <input class="pdf-checkbox" type="checkbox">
+        <a class="nav-link" href="../essential/107829_available_metrics_reports.html">Metrics Reports</a>
+        <i class="nav-link-icon">&gt;</i>
+    </p>
+
+    <ul>
+    </ul>
+
+</li>
+
+            
+                
+    
+    
+        <li data-fetched="false" class="nav-parent collapsed">
+    
+
+    <p class="nav-link-wrapper">
+        <input class="pdf-checkbox" type="checkbox">
+        <a class="nav-link" href="../essential/112991_reports_on_commvault_store.html">Downloads from the Commvault Store</a>
+        <i class="nav-link-icon">&gt;</i>
+    </p>
+
+    <ul>
+    </ul>
+
+</li>
+
+            
+        
+    </ul>
+
+</li>
+
+            
+                
+    
+    
+        <li data-fetched="false" class="nav-parent collapsed">
+    
+
+    <p class="nav-link-wrapper">
+        <input class="pdf-checkbox" type="checkbox">
+        <a class="nav-link" href="../essential/95306_dashboards.html">Dashboards</a>
+        <i class="nav-link-icon">&gt;</i>
+    </p>
+
+    <ul>
+    </ul>
+
+</li>
+
+            
+                
+    
+    
+        <li data-fetched="false" class="nav-parent collapsed">
+    
+
+    <p class="nav-link-wrapper">
+        <input class="pdf-checkbox" type="checkbox">
+        <a class="nav-link" href="../essential/37728_access_and_configuration_for_reports.html">Access and Configuration</a>
+        <i class="nav-link-icon">&gt;</i>
+    </p>
+
+    <ul>
+    </ul>
+
+</li>
+
+            
+                
+    
+    
+        <li data-fetched="false" class="nav-parent collapsed">
+    
+
+    <p class="nav-link-wrapper">
+        <input class="pdf-checkbox" type="checkbox">
+        <a class="nav-link" href="../essential/39287_managing_reports.html">Managing Reports</a>
+        <i class="nav-link-icon">&gt;</i>
+    </p>
+
+    <ul>
+    </ul>
+
+</li>
+
+            
+                
+    
+    
+        <li data-fetched="false" class="nav-parent collapsed">
+    
+
+    <p class="nav-link-wrapper">
+        <input class="pdf-checkbox" type="checkbox">
+        <a class="nav-link" href="../essential/37690_metrics_reporting.html">Metrics Reporting</a>
+        <i class="nav-link-icon">&gt;</i>
+    </p>
+
+    <ul>
+    </ul>
+
+</li>
+
+            
+        
+    </ul>
+
+</li>
+
+            
+                
+    
+    
+        <li data-fetched="false" class="nav-parent collapsed">
+    
+
+    <p class="nav-link-wrapper">
+        <input class="pdf-checkbox" type="checkbox">
+        <a class="nav-link" href="../essential/121337_running_workflows_and_completing_actions.html">Workflows</a>
+        <i class="nav-link-icon">&gt;</i>
+    </p>
+
+    <ul>
+    </ul>
+
+</li>
+
+            
+                
+    
+    
+        <li data-fetched="false" class="nav-parent collapsed">
+    
+
+    <p class="nav-link-wrapper">
+        <input class="pdf-checkbox" type="checkbox">
+        <a class="nav-link" href="../essential/138042_download_center.html">Download Center</a>
+        <i class="nav-link-icon">&gt;</i>
+    </p>
+
+    <ul>
+    </ul>
+
+</li>
+
+            
+                
+    
+    
+        <li data-fetched="false" class="nav-parent collapsed">
+    
+
+    <p class="nav-link-wrapper">
+        <input class="pdf-checkbox" type="checkbox">
+        <a class="nav-link" href="../essential/117290_software_upgrades_updates_and_uninstallation.html">Software Upgrades, Updates, and Uninstallation</a>
+        <i class="nav-link-icon">&gt;</i>
+    </p>
+
+    <ul>
+    </ul>
+
+</li>
+
+            
+                
+    
+    
+        <li data-fetched="false" class="nav-parent collapsed">
+    
+
+    <p class="nav-link-wrapper">
+        <input class="pdf-checkbox" type="checkbox">
+        <a class="nav-link" href="../essential/87430_monitor_backups_and_other_operations.html">Monitor Backups</a>
+        <i class="nav-link-icon">&gt;</i>
+    </p>
+
+    <ul>
+    </ul>
+
+</li>
+
+            
+                
+    
+    
+        <li data-fetched="false" class="nav-parent collapsed">
+    
+
+    <p class="nav-link-wrapper">
+        <input class="pdf-checkbox" type="checkbox">
+        <a class="nav-link" href="../essential/43507_commcell_recovery.html">CommCell Recovery</a>
+        <i class="nav-link-icon">&gt;</i>
+    </p>
+
+    <ul>
+    </ul>
+
+</li>
+
+            
+                
+    
+    
+        <li data-fetched="false" class="nav-parent collapsed">
+    
+
+    <p class="nav-link-wrapper">
+        <input class="pdf-checkbox" type="checkbox">
+        <a class="nav-link" href="../essential/41163_solutions_and_use_cases.html">Solutions and Use Cases</a>
+        <i class="nav-link-icon">&gt;</i>
+    </p>
+
+    <ul>
+    </ul>
+
+</li>
+
+            
+                
+    
+    
+        <li data-fetched="false" class="nav-parent collapsed">
+    
+
+    <p class="nav-link-wrapper">
+        <input class="pdf-checkbox" type="checkbox">
+        <a class="nav-link" href="../essential/145704_ransomware_recovery_application.html">Ransomware Recovery Application</a>
+        <i class="nav-link-icon">&gt;</i>
+    </p>
+
+    <ul>
+    </ul>
+
+</li>
+
+            
+                
+    
+    
+        <li data-fetched="false" class="nav-parent collapsed">
+    
+
+    <p class="nav-link-wrapper">
+        <input class="pdf-checkbox" type="checkbox">
+        <a class="nav-link" href="../essential/87419_commvault_for_managed_service_providers_msps.html">Commvault for Managed Service Providers (MSPs)</a>
+        <i class="nav-link-icon">&gt;</i>
+    </p>
+
+    <ul>
+    </ul>
+
+</li>
+
+            
+                
+    
+    
+        <li data-fetched="false" class="nav-parent collapsed">
+    
+
+    <p class="nav-link-wrapper">
+        <input class="pdf-checkbox" type="checkbox">
+        <a class="nav-link" href="../essential/113618_end_user_access.html">End User Access</a>
+        <i class="nav-link-icon">&gt;</i>
+    </p>
+
+    <ul>
+    </ul>
+
+</li>
+
+            
+                
+    
+    
+        <li data-fetched="false" class="nav-parent collapsed">
+    
+
+    <p class="nav-link-wrapper">
+        <input class="pdf-checkbox" type="checkbox">
+        <a class="nav-link" href="../essential/44541_developer_tools_overview.html">Developer Tools</a>
+        <i class="nav-link-icon">&gt;</i>
+    </p>
+
+    <ul>
+    </ul>
+
+</li>
+
+            
+                
+    
+    
+        <li data-fetched="false" class="nav-parent collapsed">
+    
+
+    <p class="nav-link-wrapper">
+        <input class="pdf-checkbox" type="checkbox">
+        <a class="nav-link" href="../essential/6839_license_administration.html">License Administration</a>
+        <i class="nav-link-icon">&gt;</i>
+    </p>
+
+    <ul>
+    </ul>
+
+</li>
+
+            
+                
+    
+    
+        <li data-fetched="false" class="nav-parent collapsed">
+    
+
+    <p class="nav-link-wrapper">
+        <input class="pdf-checkbox" type="checkbox">
+        <a class="nav-link" href="../essential/40671_commvault_cloud_services.html">Commvault Cloud Services</a>
+        <i class="nav-link-icon">&gt;</i>
+    </p>
+
+    <ul>
+    </ul>
+
+</li>
+
+            
+                
+    
+    
+        <li data-fetched="false" class="nav-parent collapsed">
+    
+
+    <p class="nav-link-wrapper">
+        <input class="pdf-checkbox" type="checkbox">
+        <a class="nav-link" href="../essential/49959_documentation_overview.html">About Documentation</a>
+        <i class="nav-link-icon">&gt;</i>
+    </p>
+
+    <ul>
+    </ul>
+
+</li>
+
+            
+        
+    </ul>
+
+</li>
+</ul>
+        </nav>
+    </div>
+    <div class="main">
+        
+        <div id="export-pdf" class="export-pdf collapsed tile">
+            <p class="info-text">Select checkboxes from the left navigation to add pages to your PDF</p>
+            <button class="pdf-done btn btn-white collapse-toggle" data-collapse-toggle="export-pdf">
+                <span>Create PDF</span>
+            </button>
+            <button class="pdf-dismiss btn btn-md collapse-toggle color-white" data-collapse-toggle="export-pdf">
+                <i class="fa fa-times"></i>
+            </button>
+        </div>
+        <nav class="breadcrumbs">
+    
+        <a href="../essential/index.html">Essential</a>
+    
+
+    
+        <a href="../essential/37684_reports_overview.html">Reports</a>
+    
+
+    
+        <a href="../essential/130996_available_reports.html">Available Reports</a>
+    
+
+    
+        <a href="../essential/130995_command_center_and_web_console_reports.html">Command Center and Web Console Reports</a>
+    
+
+    
+        <a href="../essential/124367_commcell_readiness_report.html">CommCell Readiness Report</a>
+    
+
+    
+        <span class="active">Viewing the CommCell Readiness Report on the Web Console</span>
+    
+</nav>
+        <h1 class="topic-heading display-font">Viewing the CommCell Readiness Report on the Web Console</h1>
+        
+        <div class="topic-actions">
+            <button title="Print this page" type="button" class="btn btn-md btn-circle-hover print-btn"><i class="fas fa-print"></i></button>
+            <a title="Submit feedback" href="/feedback" target="_blank" class="btn btn-md btn-circle-hover feedback-btn"><i class="fas fa-comment-alt"></i></a>
+
+            <a title="Email this page" href="/share" target="_blank" class="btn btn-md btn-circle-hover share-btn"><i class="fas fa-envelope"></i></a>
+            
+            <div  title="Save as PDF" type="button" class="btn btn-md btn-circle-hover pdf-btn dropdown-toggle">
+                <i class="fas fa-file-pdf"></i>
+                <ul class="dropdown align-right" style="text-align:right">
+                    <a class="create-pdf" data-pdf-pages="single" href="#"><span class="text">PDF this page</span></a>
+                    <a class="create-pdf collapse-toggle" data-collapse-toggle="export-pdf" data-pdf-pages="multi" href="#"><span class="text">PDF more pages</span></a>
+                </ul>
+                <input type="text" id="pdfid" value="" hidden>
+            </div>
+            
+        </div>
+        
+        <p class="modified-time">
+            <i class="far fa-clock"></i>Updated <time datetime="2020-09-09T20:13:30Z">Wednesday, September 09, 2020</time>
+        </p>
+        <!--Quick Feedback section Begin-->
+        
+        <!--Quck Feedback section end-->
+        <div id="in-page-toc" class="tile in-page-toc-tile expanded"><h2 class="tile-heading in-page-toc-heading collapse-toggle" data-collapse-toggle="in-page-toc">On this page <i class="fa fa-angle-down collapse-toggle-rotate"></i></h2>
+<nav class="in-page-toc">
+
+    <a class="level-2" href="#before-you-begin">Before You Begin</a>
+
+    <a class="level-2" href="#procedure">Procedure</a>
+
+</nav></div>
+        <div class="tile content"><article class="content" data-variant-id="124369"><p>You can view the CommCell Readiness Report on the <span data-variable-name="WebConsole">Web Console</span>. </p><h2 class="heading-2" id="before-you-begin">Before You Begin</h2><p>To view the default reports on the <span data-variable-name="WebConsole">Web Console</span>, your CommCell user account requires:</p><ul><li><p>A role that has the Report Management permission</p></li><li><p>An association with the CommCell entity, the client group, or the client computer</p></li></ul><p><span data-embed-variant-id="55967">For more information about users, permissions, and associations, see <a href="../expert/8051_user_administration_and_security_overview.html">User Administration and Security - Overview</a>.</span></p><h2 class="heading-2" id="procedure">Procedure</h2><ol><li><p><span data-embed-variant-id="119343">Log on to the <a href="../essential/4376_accessing_web_console.html"><span data-variable-name="WebConsole">Web Console</span></a>.</span></p></li><li><p><span data-embed-variant-id="119343">Click <span class="ui-label">Reports</span>.</span></p><p><span data-embed-variant-id="119343">The <span class="ui-label">Reports </span>page appears.</span></p></li><li><p><span data-embed-variant-id="124396">Click <span class="ui-label">CommCell Readiness</span>.</span></p><p><span data-embed-variant-id="124396">The <span class="ui-label">CommCell Readiness Report</span> appears.</span></p></li></ol></article></div>
+        
+        <footer class="footer">
+        
+            <p>&copy; 1997-<script type="text/javascript">document.write(new Date().getFullYear());</script> Commvault Systems&reg; Inc. All Rights Reserved.</p>
+        
+        </footer>
+    </div>
+</div>
+<div class="modal site-loader-modal">
+    <div class="site-loader loader"></div>
+</div>
+<div class="modal pdf-modal">
+    <div class="tile">
+        <h2>Creating your PDF</h2>
+        <p class="pdf-create-text">Your PDF is being created and will be ready soon.</p>
+        <p class="pdf-create-text">We can send you a link when your PDF is ready to download.</p>
+        <form class="pdf-email-form">
+            <div class="input-group input-group-horizontal">
+                <input id="pdf_email" name="pdf_email" type="email" value="">
+                <label for="pdf_email">Email</label>
+                <button class="btn btn-raspberry" type="submit"><span class="text">Email me</span></button>
+            </div>
+            <input id="pdf_id" value="" hidden>
+        </form>
+        <a id="pdf-download-link" href="" target="_blank" hidden download></a>
+    </div>
+</div>
+<script src="/static/main.js"></script>
+
+
+<script>
+    (function(i, s, o, g, r, a, m) {
+        i['GoogleAnalyticsObject'] = r;
+        i[r] = i[r] || function() {
+            (i[r].q = i[r].q || []).push(arguments)
+        }, i[r].l = 1 * new Date();
+        a = s.createElement(o), m = s.getElementsByTagName(o)[0];
+        a.async = 1;
+        a.src = g;
+        m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+    ga('create', 'UA-46063296-1', 'commvault.com');
+    ga('send', 'pageview');
+</script>
+
+<script type="text/javascript">
+    function googleTranslateElementInit() {
+        new google.translate.TranslateElement({
+            pageLanguage : 'en'
+        }, 'google_translate_element');
+    }
+</script>
+<script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+</body>
+</html>

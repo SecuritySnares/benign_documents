@@ -1,0 +1,2889 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<!--webbot bot="Include" U-Include="../../metatg.htm"  TAG="HEAD" startspan -->
+
+ 
+  
+ 
+ 
+<meta HTTP-EQUIV="Content-Type" content="text/html; charset=utf-8"> 
+
+<meta name="classification" content="machine embroidery, embroidery software, embroidery digitizing, embroidery designs"> 
+<meta name="rating" content="general"> 
+<meta name="robots" content="all"> 
+<meta name ="revisit-after" content="2 days"> 
+ 
+<meta name="author" content="BALARAD, s.r.o."> 
+ 
+ 
+ 
+<link rel="apple-touch-icon" href="https://www.embird.net/grpx/appicon57.png">
+<link rel="icon" type="image/png" href="https://www.embird.net/grpx/favicon.png">
+ 
+ 
+<meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=yes"> 
+<meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+
+<!-- 
+<link rel="alternate" type="application/rss+xml"  href="https://www.embird.net/rss.xml" title="Embird embroidery software RSS Feed">   
+-->
+
+<meta name="google-site-verification" content="UyAKT82bqGDcYo31s3qNU_5Tv1fiPEzN55qdJoiOW2E">
+<meta name="google-site-verification" content="JM9wU1dsBcqbCsxoHDpMa7jZx6AkPJEE2oNIw7BdPDw" > 
+<meta name="google-site-verification" content="tbLJrUjD-XEGXdvtassmr1ya8btmhJ_BqgNqEORGOWs">
+<meta name="facebook-domain-verification" content="xxd1u14nduh3pvn4n4x614iox7tklf">
+<meta name="wot-verification" content="dd80d5322325219b9eb7">  
+ 
+
+
+<!--  open graph data -->
+<meta property="og:title" content="Embird - Embroidery Software for Machine Embroidery">
+<meta property="og:type" content="product">
+<meta property="og:description" content="Embroidery software for designs digitizing, lettering, cross stitch, customizing & conversion. 70+ file formats for home & industrial embroidery machines">
+<meta property="og:url" content="https://www.embird.net/index.htm">
+<meta property="og:image" content="https://www.embird.net/grpx/embird2017.jpg">
+<meta property="og:locale" content="en_US" />
+<meta property="og:site_name" content="Embird Machine Embroidery and Digitizing Software" />
+<meta property="fb:app_id" content="1208713422964535" />
+<!--  -->
+
+<!--  -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@EmbirdSoftware">
+<meta name="twitter:title" content="Embird - Embroidery Software for Machine Embroidery">
+<meta name="twitter:description" content="Embroidery software for designs digitizing, lettering, cross stitch, customizing & conversion. 70+ file formats for home & industrial embroidery machines">
+<meta name="twitter:image" content="https://wwww.embird.net/grpx/embird2017.jpg">
+<meta name="twitter:image:alt" content="Embird Machine Embroidery and Digitizing Software">
+<!--  -->
+
+<!-- -->
+<meta name="theme-color" content="#8800FF"/>
+<!-- -->
+ 
+ 
+<!-- Global site tag (gtag.js) - Google Ads: 1069207694 --> 
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-1069207694"></script> 
+<script> 
+  window.dataLayer = window.dataLayer || []; 
+  function gtag(){dataLayer.push(arguments);} 
+  gtag('js', new Date()); 
+ 
+  gtag('config', 'AW-1069207694'); 
+</script> 
+ 
+ 
+<script> 
+ 
+  var _gaq = _gaq || []; 
+  _gaq.push(['_setAccount', 'UA-17573337-3']); 
+  _gaq.push(['_trackPageview']); 
+ 
+  (function() { 
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true; 
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js'; 
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s); 
+  })(); 
+ 
+</script> 
+
+ 
+
+
+ 
+ 
+<!--webbot bot="Include" endspan i-checksum="22847" -->
+
+ 
+  
+ 
+ 
+<!--webbot bot="Include" U-Include="../../sw/embird/tutorial/inlinecss.htm" TAG="HEAD" startspan --> 
+
+
+<style>
+
+
+body {
+    color: rgb(45,45,45);
+    font-family: "Lucida Grande","Lucida Sans Unicode",Helvetica,Arial,Verdana,sans-serif;
+    overflow-x:hidden;
+}
+h1 {
+    margin-top:1em;
+    padding:0;
+    color: rgb(0,0,0);
+    font-size: 220%;
+}
+h2 {
+    margin-top:2em;
+    padding:0;
+    color: rgb(25,25,25);
+    font-size: 140%;
+}
+h3 {
+    color: rgb(40,40,40);
+    font-size: 110%;
+}
+h3.red {
+    color: rgb(90,50,50);
+    font-size: 110%;
+}
+h4 {
+    color: rgb(50,50,50);
+    margin-bottom: 0em;
+}
+
+h5 {
+    color: rgb(50,50,50);
+    font-weight:normal;
+    display:inline;
+}
+
+
+
+@media screen and (max-width: 480px){ 
+h1 {font-size:170%;}
+h2 {font-size:130%;}
+h3 {font-size:110%;}
+}
+
+
+@media screen and (min-width: 481px){ 
+h1 {font-size:220%;}
+h2 {font-size:140%;}
+h3 {font-size:110%;}
+}
+
+@media screen and (max-width: 600px){
+.q_header_upgrade {display:none;}
+.q_header_center {display:none;}
+}
+
+@media screen and (min-width: 601px){
+.q_header_upgrade {display:block;}
+.q_header_center {display:block;}
+}
+
+
+.mTextField {padding-left:2em; padding-right:2em;}
+@media screen and (max-width: 800px){ 
+.mTextField {padding-left:0em; padding-right:0em;}
+}
+
+.yi {float:left; width:20px; height:20px; background-image: url("https://www.embird.net/grpx/yes.gif"); }
+.ni {float:left; width:20px; height:20px; background-image: url("https://www.embird.net/grpx/no.gif"); }
+
+.mybold {font-weight:bold;}
+.talgnCenter {text-align:center;}
+.talgnLeft {text-align:left;}
+.talgnRight {text-align:right;}
+
+.mbutton {cursor:pointer; position:absolute; left:50%; top:50%; width:80%; max-width:10em; height:3em; margin-left:-40%; margin-top:-1.5em; 
+          text-align:center; line-height:3em; vertical-align:middle;  background-color:rgb(50,50,50); color:rgb(235, 246, 179); }
+
+.mbuttonrel {cursor:pointer; width:100px; height:36px; position:absolute; left:50%; top:50%; margin-left:-50px; margin-top:-18px;
+          text-align:center; line-height:36px; vertical-align:middle;  background-color:rgb(50,50,50); color:rgb(235, 246, 179); }
+
+.navbtn {background-color:rgb(80,130,70); color:rgb(240,245,240); height:40px; width:20em; cursor:pointer; vertical-align:middle; line-height:40px; font-size:18px; position:absolute; left:50%; top:50%; margin-left:-10em; margin-top:-20px; background-repeat:no-repeat; border-style:outset; border-color:rgb(110,160,100); border-width:3px; border-radius:5px; }
+.navbtnhome {background-image:url('grpx/bird_s.png');  background-position:16px 7px; text-align:left; padding-left:44px; }
+.navbtntext {text-align:center; padding-left:22px; padding-right:22px;}
+
+.clight {color:rgb(60,60,60);}
+.cmedium {color:rgb(45,45,45);}
+.cdark {color:rgb(25,25,25);} 
+.cblack {color:rgb(0,0,0);} 
+
+.w100 {width:100%;}
+
+.mrg025 {margin:0.25em;}
+.mrg050 {margin:0.5em;}
+.mrg1 {margin:1em;}
+.mrg2 {margin:2em;}
+
+.mrgL0 {margin-left:0em;}
+.mrgL025 {margin-left:0.25em;}
+.mrgL050 {margin-left:0.5em;}
+.mrgL075 {margin-left:0.75em;}
+.mrgL100 {margin-left:1.0em;}
+.mrgL200 {margin-left:2.0em;}
+
+.mrgR025 {margin-right:0.25em;}
+.mrgR050 {margin-right:0.5em;}
+.mrgR075 {margin-right:0.75em;}
+.mrgR100 {margin-right:1.0em;}
+.mrgR200 {margin-right:2.0em;}
+
+.mrgT0 {margin-top:0em;}
+.mrgT025 {margin-top:0.25em;}
+.mrgT050 {margin-top:0.5em;}
+.mrgT100 {margin-top:1.0em;}
+.mrgT200 {margin-top:2.0em;}
+
+.mrgB0 {margin-bottom:0em;}
+.mrgB025 {margin-bottom:0.25em;}
+.mrgB100 {margin-bottom:1em;}
+.mrgB200 {margin-bottom:2em;}
+
+.pdT1 {padding-top:1em;}
+.pdT2 {padding-top:2em;}
+
+.doubleCaptionH1 {margin-bottom:0em; margin-top:1em;}
+.doubleCaptionH2 {margin-top:0em;}
+
+.submenu {float:right; margin-top:1em; font-size:120%;}
+.submenuitem {float:left; margin-left:1em; margin-right:1em; color:rgb(0,100,200);}
+.submenufooter {clear:both; margin-bottom:1em;}
+
+.xln {
+      display:inline;
+      }
+
+p {
+   color: rgb(45,45,45);
+   margin-top:0em;
+   font-weight:normal;
+   }
+
+.myplblock {float:left; width:13%;}
+.myplblock2 {float:left; width:19%;}
+
+
+.ex {
+   color: rgb(100,100,100);
+   font-size: 100%;
+   margin-top:0em;
+   margin-bottom:0em;
+   }
+.doginfo {
+   color: rgb(0,0,0);
+   font-size: 100%;
+   margin-top:0px;
+   margin-bottom:0px;
+   }
+.doginfo:first-line {font-weight: bold;}
+
+.answer {
+   color: rgb(0,0,0);
+   margin-top:1em;
+   margin-left: 1.5em;
+   margin-right: 1.5em;
+   line-height:110%;
+   font-size: 100%;
+   }
+.question {
+   color: rgb(0,100,150);
+   font-weight: bold;
+   font-size:120%;
+   margin-left: 0.5em;
+   margin-right: 0.5em;
+   margin-top:1.5em;
+   }
+.captionspace{
+   color: rgb(129,83,3);
+   font-size: 110%;
+   font-weight: bold;
+  margin-top:1em;
+  margin-bottom:1.5em;
+ }
+.alphalink{
+ margin-right:0.5em; 
+ height:1.3em;
+ }
+
+
+.question a:link {color: rgb(0,100,150);}
+.question a:visited {color: rgb(70,20,180);}
+.question a:focus {text-decoration: underline; color: rgb(0,100,150);}
+.question a:active {text-decoration: underline; color: rgb(50,0,180);}
+.question a:hover {text-decoration: underline; color: rgb(238,145,13);}
+
+.captionspace a {
+   color: rgb(129,83,3);
+   font-size: 110%;
+   font-weight: bold;
+  padding-top:1em;
+  padding-bottom:1.5em;
+ }
+
+.navigation {
+   /*color: rgb(100,100,150);*/
+   color: rgb(0,0,0);
+   font-size: 100%;
+   margin-top:0em;
+   margin-bottom:0em;
+   text-decoration: none;
+   }
+
+p.hd {
+   color: rgb(255,255,255);
+   font-weight: bold;
+   }
+p.hd2 {
+   color: rgb(0,0,0);
+   font-weight: bold;
+   }
+p.note {
+   color: rgb(120,0,0);
+   }
+p.large {
+   color: rgb(0,0,0);
+   font-size: 110%;
+   font-weight: bold;
+   }
+.large {
+   color: rgb(0,0,0);
+   font-size: 110%;
+   font-weight: bold;
+   }
+p.largered {
+   color: rgb(0,0,0);
+   font-size: 110%;
+   font-weight: bold;
+   }
+p.normbold {
+   color: rgb(0,0,0);
+   font-weight: bold;
+   }
+
+a:link {color: rgb(0,0,0); font-weight:bold;}
+a:visited {color: rgb(90,80,110); font-weight:bold;}
+a:active {text-decoration: underline; color: rgb(238,145,13); font-weight:bold;}
+a:focus {text-decoration: underline; color: rgb(255,0,0); font-weight:bold;}
+a:hover {text-decoration: underline; color: rgb(238,145,13); font-weight:bold;}
+
+.atut a:link {text-decoration: none; color: rgb(0,0,0); font-weight:normal;}
+.atut a:visited {text-decoration: none;color: rgb(150,150,150); font-weight:normal;}
+.atut a:active {text-decoration: none; color: rgb(238,145,13); font-weight:normal;}
+.atut a:focus {text-decoration: none; color: rgb(255,0,0); font-weight:normal;}
+.atut a:hover {text-decoration: none; color: rgb(238,145,13); font-weight:normal;}
+
+.atutn a:link {text-decoration: none; color: rgb(80,80,160); font-weight:normal;}
+.atutn a:visited {text-decoration: none;color: rgb(150,150,150); font-weight:normal;}
+.atutn a:active {text-decoration: none; color: rgb(238,145,13); font-weight:normal;}
+.atutn a:focus {text-decoration: none; color: rgb(255,0,0); font-weight:normal;}
+.atutn a:hover {text-decoration: none; color: rgb(238,145,13); font-weight:normal;}
+
+.navigation a:link {text-decoration: none; color: rgb(0,0,0); font-weight:normal;}
+.navigation a:visited {text-decoration: none; color: rgb(120,100,140); font-weight:normal;}
+.navigation a:active {text-decoration: underline; color: rgb(238,145,13); font-weight:normal;}
+.navigation a:focus {text-decoration: underline; color: rgb(255,0,0); font-weight:normal;}
+.navigation a:hover {text-decoration: underline; color: rgb(238,145,13); font-weight:normal;}
+
+.nav {float:left; padding-left:0.6em; white-space:nowrap; padding-right:0.6em;}
+.navlink {font-weight:normal; text-decoration:none; padding:0em;}
+.nav a:link {font-weight:normal; color: rgb(60,50,80);}
+.nav a:visited {font-weight:normal; color: rgb(140,130,160);}
+.nav a:focus {font-weight:normal; text-decoration: underline; color: rgb(250,0,120);}
+.nav a:active {font-weight:normal; text-decoration: underline; color: rgb(250,0,120);}
+.nav a:hover {font-weight:normal; text-decoration: underline; color: rgb(230,120,0);}
+
+li {
+    margin: 0 auto;
+    padding: 0;
+   line-height: 150%;
+}
+
+li.rootnode a {font-weight:bold; font-size:large; text-decoration:none;}
+li.topnode {margin-left:2em;}
+li.topnode a {font-weight:bold; font-size:130%; text-decoration:none;}
+li.sub {margin-left:4em;}
+li.sub a { font-size:110%; text-decoration:none;  color:rgb(60,60,60);}
+li.subsub {margin-left:6em;}
+li.subsub a { font-size:100%; text-decoration:none;  color:rgb(80,80,80);}
+li.subsubsub {margin-left:8em;}
+li.subsubsub a { font-size:100%; text-decoration:none; color:rgb(100,100,100);}
+
+/* My Table ---------------------------------------------------------------------------------------------------------------------------- */
+
+.mytab {
+	background-color: rgb(77,83,111);
+              border-radius: 1em 1em 0em 0em; 
+              margin-bottom: 1.5em;
+}
+
+.mytab-hd {          
+              font-size: 100%;
+              color: rgb(255,255,255);
+              font-weight: bold;
+              text-align: center;
+              padding:0.6em;
+}
+
+.mytab-body {
+              background-color: rgb(250,250,252);
+              border-width:1px;
+              border-style:solid;
+              border-color: rgb(107,113,141);
+              padding:1em;
+}
+
+/* multi columns page layout ----------------------------------------------------------------------------------------------------------------------------*/
+.wrap {
+margin:0.4em auto;
+/*border: 1px solid rgb(255,200,255);*/
+}
+.myleftcmn {
+padding: 0.4em 0.4em 0.4em 0.4em;
+float: left;
+/*border: 1 solid rgb(107,113,141);*/
+}
+.mycentercmn {
+padding: 0.4em 0.4em 0.4em 0.4em;
+float: left;
+/*border: 1 solid rgb(107,113,141);*/
+}
+.myrightcmn {
+padding: 0.4em 0.4em 0.4em 0.4em;
+float: right;
+/*border: 1 solid rgb(107,113,141);*/
+}
+.footer {
+clear:both;
+padding: 0.4em 0.4em 0.4em 0.4em;
+/*border: 1 solid rgb(255,0,0);*/
+}
+.myleftcmn2 {
+float: left;
+/*border: 1 solid rgb(107,113,141);*/
+}
+.myrightcmn2 {
+float: right;
+/*border: 1 solid rgb(107,113,141);*/
+}
+
+/* images ======================================================*/
+.myimg{
+           display: block;
+           margin-top: 0px;
+           margin-bottom: 0px;
+           margin-right: 0px;
+           padding: 0px 0px 0px 0px;
+           /*border: 1px solid rgb(200,200,255); */
+           }
+
+/* inline SPAN elements ====================================*/
+.myln{
+        display: block;
+        /*border: 1px solid rgb(200,200,255);*/
+        padding: 0px 0px 0px 0px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        margin-left: 0px;
+        margin-right: 0px;
+        }
+.mylnspac{
+        display: block;
+        clear: both;
+        /*border: 1px solid rgb(200,200,255);*/
+        padding: 5px 5px 5px 5px;
+        }
+.inln {
+	display: inline;
+              vertical-align: middle;
+	/*border: 1px solid rgb(255,200,200);*/
+              padding: 0px 0px 0px 5px;
+	margin-top: 0px;
+              margin-bottom: 0px;
+              margin-left: 0px;
+              margin-right: 0px;
+}
+.inlnspac {
+              display:block;
+	/*display: inline;*/
+              /*vertical-align: middle;*/
+	/*border: 1px solid rgb(180,255,180);*/
+              padding: 5px 5px 5px 5px;
+              margin-top: 0px;
+              margin-bottom: 0px;
+              margin-left: 0px;
+              margin-right: 0px;
+}
+
+.hfrow {clear:both; width:100%; padding-top:0.8em; padding-bottom:0.8em;}
+.hfleftcmn {float:left; display:inline; width:20%; }
+.hfleftcmn h3 {margin:0em; padding:0em;}
+.hfrightcmn {float:left; display:inline; width:78%; padding-left:1em;}
+.hficoncmn2 {float:left; display:inline; width:15%; }
+.hfleftcmn2 {float:left; display:inline; width:30%; }
+.hfrightcmn2 {float:left; display:inline; width:51%; padding-left:1em;}
+.hficoncmn3 {float:left; display:inline; width:5%; }
+.hfleftcmn3 {float:left; display:inline; width:30%; }
+.hfrightcmn3 {float:left; display:inline; width:61%; padding-left:1em;}
+.hfshrtrow {clear:both; width:100%; border-bottom:1px solid rgb(200,200,200);}
+.hfshrtleftcmn {float:left; display:inline; width:50%; }
+.hfshrtrightcmn {float:left; display:inline; width:48%; }
+.hftable {width:100%; font-size:100%; padding:1em;}
+.hftable p {font-size:100%;}
+.hfnavbar {padding-bottom:0.5em; margin-bottom:0.5em; margin-top:1em; border-bottom:2px solid rgb(200,200,200);}
+.hftabcell {border: 1px solid rgb(100,100,100); padding:0.4em; width:100%; height:100%;}
+
+/* ===================== shopping ===============================*/
+.ebrditem{clear:both; float:left; width:100%; background-color:rgb(255,255,214); font-size:100%; }
+.ebrditem2{clear:both; float:left; width:100%; background-color:rgb(255,255,244);  font-size:100%; }
+.ebrdcost{float:left; color:rgb(110,130,100); font-weight:bold; text-align:right; font-size:110%; width:13%; padding:0.5em;}
+.ebrdsel{float:left; width:7%; padding:0.5em;}
+.ebrdcom{float:left; text-align:left; padding:1em;}
+.ebrdcom2{float:left; text-align:left; padding:1em;}
+.alphaitem{float:left; width:23%; text-align:center; font-weight:normal; padding:0.5em;}
+
+/*===================== menu ==========================*/
+.mainmenu {
+float:left; 
+line-height:2em;
+padding-left:0.5em;
+padding-right:0.5em;
+vertical-align:middle;
+text-align:center;
+font-size:130%;
+}
+.mainmenusel {
+background-color:rgb(0,0,0);
+color:rgb(255,255,255);
+}
+.mainmenuover {color:rgb(238,145,13);}
+.mainmenuitem {font-size:130%; line-height:150%; margin-top:15px; margin-bottom:15px;}
+.mainmenulink {text-decoration:none;}
+.mainmenuitem a {font-weight:normal;}
+.mainmenuitem a:hover {color: rgb(238,145,13); font-weight:normal;}
+.mainmenuitem a:link {color: rgb(0,0,0); font-weight:normal;}
+.mainmenuitem a:visited {color: rgb(115,100,130); font-weight:normal;}
+.mainmenuitem a:active {color: rgb(238,145,13); font-weight:normal;}
+.mainmenuitem a:focus {color: rgb(238,145,13); font-weight:normal;}
+
+/*===================== help ==========================*/
+.manualnavlink {width:100%; color:rgb(0,100,200); font-weight:bold; text-align:right; padding-top:0.5em; cursor:pointer;}
+.crsp {cursor:pointer;}
+.hlight {color:rgb(100,0,200);}
+.hlightD {color:rgb(90,70,140);}
+.tip {color:rgb(110,90,170);}
+
+/*=============== panel ============*/
+.mw8A {float:left; margin-left:3px; margin-right:3px; margin-top:3px; margin-bottom:3px;}
+
+.w8c {float:left; position:relative; font-size:100%; width:140px; height:160px; overflow:hidden;}
+.w9c {float:left; position:relative; font-size:100%; width:286px; height:165px; overflow:hidden;}
+.w8ci {position:absolute; bottom:10%; width:100%;}
+.w8c h3 {font-weight:normal; margin-top:0.25em; margin-bottom:0em;}
+.w8c h3 a {color:rgb(255,255,255); text-decoration:none; font-weight:normal;}
+.w9c h3 {font-weight:normal; margin-top:0.25em; margin-bottom:0em;}
+.w9c h3 a {color:rgb(255,255,255); text-decoration:none; font-weight:normal;}
+.w8d {margin:3px;}
+.w8c a:link {color: rgb(255,255,255);}
+.w8c a:visited {color: rgb(255,255,255);}
+.w8c a:focus {text-decoration: none; color: rgb(255,255,255); font-weight:normal;}
+.w8c a:active {text-decoration: none; color: rgb(255,255,255); font-weight:normal;}
+.w8c a:hover {text-decoration: none; color: rgb(255,255,255); font-weight:normal;}
+.w9c a:link {color: rgb(255,255,255);}
+.w9c a:visited {color: rgb(255,255,255);}
+.w9c a:focus {text-decoration: none; color: rgb(255,255,255); font-weight:normal;}
+.w9c a:active {text-decoration: none; color: rgb(255,255,255); font-weight:normal;}
+.w9c a:hover {text-decoration: none; color: rgb(255,255,255); font-weight:normal;}
+
+
+.bordTab {border:3px solid rgb(200,200,220);}
+.noDeco {text-decoration:none;}
+.hiddenLink:link {text-decoration:none; color:rgb(70,90,140);}
+.hiddenLink:visited {text-decoration:none; color:rgb(70,90,140);}
+.hiddenLink:focus {text-decoration:none; color:rgb(238,145,13);}
+.hiddenLink:active {text-decoration:none; color:rgb(70,90,140);}
+.hiddenLink:hover {text-decoration:none; color:rgb(238,145,13);}
+.hiddenLink2:link {text-decoration:none; color:rgb(240,255,225);}
+.hiddenLink2:visited {text-decoration:none; color:rgb(220,255,205);}
+.hiddenLink2:focus {text-decoration:none; color:rgb(255,255,255);}
+.hiddenLink2:active {text-decoration:none; color:rgb(240,255,225);}
+.hiddenLink2:hover {text-decoration:none; color:rgb(255,255,255);}
+.noBold {font-weight:normal;}
+.noBord {border:none;}
+.Bord1 {border:1px solid rgb(0,0,0);}
+.myClear {clear:both;}
+.infoCenter400 {width:100%; max-width:400px; margin-left:auto; margin-right:auto;}
+.infoCenter600 {width:100%; max-width:600px; margin-left:auto; margin-right:auto;}
+.infoCenter800 {width:100%; max-width:800px; margin-left:auto; margin-right:auto;}
+.infoCenter1000 {width:100%; max-width:1000px; margin-left:auto; margin-right:auto;}
+
+
+.xmain {width:100%; max-width:1000px; margin-left:auto; margin-right:auto;}
+.xclear{clear:both;}
+.xleft{float:left;}
+.xbold{font-weight:bold;}
+.xclearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.xfleft{float:left;}
+.xfright{float:right;}
+a.xlink {text-decoration:none; font-weight:normal;}
+.xblock{display:block;}
+.xshadow{text-shadow: 0.07em 0.07em 0.05em rgba(110,110,110,0.5);}
+
+
+.xbilboard {clear: both; background-color: rgb(250,248,255); border:3px solid rgb(220,220,240); border-radius:1em;}
+.xpointer {cursor:pointer;}
+.xpanel {clear: both; background-color: rgb(252,252,252); 
+         border:1px solid rgba(0,0,0,0.10); 
+         border-radius:1em; 
+         box-shadow:0.25em 0.25em 0.5em rgba(0,0,0,0.05);
+         padding-left:2em; padding-right:2em; padding-bottom:1em;}
+         
+.xnote {background-color:rgba(235,220,255,0.4); padding:1em; padding-left:2em;
+       border-left:0.5em solid rgba(0,0,0,0.15);}         
+
+
+.xbc{font-size:100%;}
+ul.xbc { list-style: none; }
+ul.xbc li { display: inline; }
+ul.xbc li+li:before {
+    content: ">";
+    padding: 1em;
+}
+ul.xbc li a { text-decoration: none; }
+ul.xbc li a:hover { text-decoration: underline; }
+
+
+.iconbefore {padding-left:1.5em;
+             /*display: inline-block;*/
+
+             background-image: url("https://www.embird.net/grpx/embirdicon2012.gif");
+             background-origin: padding-box;
+             background-position: left;
+             background-repeat: no-repeat;
+             background-size: 1em 1em;
+             }
+
+.embirdicon {
+            background-image: url("https://www.embird.net/svg/bird.svg");
+            background-size: 1.3em 1.3em;
+            padding-left: 1.4em;
+            }
+.downloadicon {
+            background-image: url("https://www.embird.net/svg/download.svg");
+            background-size: 1.2em 1.2em;
+            padding-left: 1.4em;
+            }
+.tutorialicon {
+            background-image: url("https://www.embird.net/svg/tutorial_icon.svg");
+            background-size: 1.2em 1.2em;
+            padding-left: 1.4em;
+            }
+.studioicon {
+            background-image: url("https://www.embird.net/svg/studio_icon.svg");
+            background-size: 1.2em 1.2em;
+            padding-left: 1.4em;
+            }
+.infoicon {
+            background-image: url("https://www.embird.net/svg/icon_info.svg");
+            background-size: 1.2em 1.2em;
+            padding-left: 1.4em;
+            }         
+.bagicon {
+            background-image: url("https://www.embird.net/svg/bag.svg");
+            background-size: 1.2em 1.2em;
+            padding-left: 1.4em;
+            }                 
+.bagicon2 {
+            background-image: url("https://www.embird.net/svg/bag2.svg");
+            background-size: 1.2em 1.2em;
+            padding-left: 1.4em;
+            }             
+.puzzleicon2 {
+            background-image: url("https://www.embird.net/svg/puzzle2.svg");
+            background-size: 1.2em 1.2em;
+            padding-left: 1.4em;
+            }             
+.upgradeicon {
+            background-image: url("https://www.embird.net/svg/upgrade.svg");
+            background-size: 1.2em 1.2em;
+            padding-left: 1.4em;
+            }             
+.keyicon {
+            background-image: url("https://www.embird.net/svg/key.svg");
+            background-size: 1.2em 1.2em;
+            padding-left: 1.4em;
+            }   
+.carticon {
+            background-image: url("https://www.embird.net/svg/cart.svg");
+            background-size: 1.2em 1.2em;
+            padding-left: 1.4em;
+            }      
+.globeicon {
+            background-image: url("https://www.embird.net/svg/globe.svg");
+            background-size: 1.2em 1.2em;
+            padding-left: 1.4em;
+            }                                  
+            
+            
+            
+
+            
+@media screen and (max-width: 800px){
+.q_menu_line {display:none;}
+.q_menu_button {display:block;}
+.xfeatures{padding:1em 1em 1em 1em;}
+.xlist p:before {content: "\2022"; display: inline-block;
+               margin-right:0.5em; color:rgb(0,220,0); clear: both;}
+.xlist {margin-bottom:2em;}
+.xlist p{color:rgb(200,200,220); margin:0; margin-left:0.5em;}
+}
+
+@media screen and (max-width: 800px){
+img {max-width:750px;}
+.xbc {font-size:80%;}
+}
+
+@media screen and (max-width: 750px){
+img {max-width:700px;}
+}
+
+@media screen and (max-width: 700px){
+img {max-width:650px;}
+}
+
+@media screen and (max-width: 650px){
+img {max-width:600px;}
+}
+
+@media screen and (max-width: 600px){
+img {max-width:550px;}
+}
+
+@media screen and (max-width: 550px){
+img {max-width:500px;}
+}
+
+@media screen and (max-width: 500px){
+img {max-width:450px;}
+}
+
+@media screen and (max-width: 450px){
+img {max-width:400px;}
+}
+
+@media screen and (max-width: 400px){
+img {max-width:350px;}
+}
+
+
+@media screen and (min-width: 801px){
+.q_menu_line {display:block;}
+.q_menu_button {display:none;}
+.xfeatures{padding:1em 2em 3em 4em;}
+.xlist p:before {content: "\2022"; display: inline-block;
+               margin-right:1em; color:rgb(0,220,0); clear: both;}
+.xlist {margin-bottom:3em;}
+.xlist p{color:rgb(200,200,220); margin:0; margin-left:2em;}
+}
+
+@media screen and (max-width: 1500px){
+.xDecor{}
+}
+
+
+@media screen and (min-width: 1501px){
+.xDecor{
+background-image: url("grpx/elephant.jpg");
+background-origin: padding-box;
+background-position: right;
+background-attachment: fixed;
+background-repeat: no-repeat;}
+}
+
+
+
+@media screen and (max-width: 1200px){
+.xbookmark {display:none;}
+}
+
+@media screen and (min-width: 1201px){
+.xbookmark {display:block;}
+}
+
+@media print {
+.xbookmark {display:none;}
+.xmainmenu {display:none;}
+.xbc {display:none;}
+.xfooter {display:none;}
+}
+
+.linemenuitem {
+font-size:150%; line-height:150%; margin-top:0.5em; margin-bottom:0.5em; margin-left:1em; margin-right:1em;
+}
+
+@keyframes colanim {
+ 0% {color: rgb(155,0,0);}
+ 25% {color: rgb(245,150,0);}
+ 50% {color: rgb(50,155,0);}
+ 75% {color: rgb(0,100,255);}
+ 100% {color: rgb(255,0,255);}
+}
+
+.xanim {
+color:rgb(0,100,255);
+animation-name: colanim;
+animation-duration: 3s;
+animation-direction: alternate;
+animation-iteration-count: infinite;
+animation-timing-function: linear;
+}
+
+
+/* css loader */
+
+.circular-loader2 {
+  width:100%; 
+  height:100%;
+  -webkit-animation: rotate 2s linear infinite;
+          animation: rotate 2s linear infinite;
+  -webkit-transform-origin: center center;
+      -ms-transform-origin: center center;
+          transform-origin: center center;
+  margin: auto;
+}
+
+.loader-path {  
+  stroke-dasharray: 150,200;
+  stroke-dashoffset: -10;
+  -webkit-animation: dash 1.5s ease-in-out infinite; 
+          animation: dash 1.5s ease-in-out infinite;
+  stroke-linecap: round;
+  fill:none;
+  stroke:#228844;
+  stroke-width:2; 
+}
+
+@-webkit-keyframes rotate {
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+@keyframes rotate {
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+@-webkit-keyframes dash {
+  0% {
+    stroke-dasharray: 1,200;
+    stroke-dashoffset: 0;
+  }
+  50% {
+    stroke-dasharray: 89,200;
+    stroke-dashoffset: -35;
+  }
+  100% {
+    stroke-dasharray: 89,200;
+    stroke-dashoffset: -124;
+  }
+}
+@keyframes dash {
+  0% {
+    stroke-dasharray: 1,200;
+    stroke-dashoffset: 0;
+  }
+  50% {
+    stroke-dasharray: 89,200;
+    stroke-dashoffset: -35;
+  }
+  100% {
+    stroke-dasharray: 89,200;
+    stroke-dashoffset: -124;
+  }
+}
+
+</style>
+
+
+
+<!--webbot bot="Include" endspan i-checksum="54929" --> 
+
+
+<link rel="canonical" href="https://www.embird.net/studio/manual/0700hw_vectorgraphics.htm" />
+<title>Vector Graphics</title>
+<meta name="description" content="Embird Digitizing Studio - Tutorial - Vector Graphics">
+
+</head>
+
+<body>
+
+<!--webbot bot="Include" U-Include="../../sw/embird/tutorial/lazyloader.htm" TAG="BODY" startspan --> 
+
+
+<script>
+
+var myDomain='www.embird.net';
+var myHomeURL='https://' + myDomain;
+var xmlhttp=false;
+var mcustomer='';
+var mcost=0;
+var mnum=0;
+var mID=[];
+
+
+
+/*@cc_on @*/
+
+/*@if (@_jscript_version >= 5)
+
+	try {
+		xmlhttp = new ActiveXObject("Msxml2.XMLHTTP");
+	} catch (e) {
+		try {
+			xmlhttp = new ActiveXObject("Microsoft.XMLHTTP");
+		} catch (E) {
+			xmlhttp = false;
+		}
+	}
+
+@else
+
+	xmlhttp = false;
+
+@end @*/
+
+if (!xmlhttp && typeof XMLHttpRequest!='undefined') {
+
+	try {
+      xmlhttp = new XMLHttpRequest();
+    } catch (e) {xmlhttp = false;}
+
+}
+
+//******************************************
+function vancartEnabled()
+  {
+  return true;
+  }
+
+//*************************************************************************
+
+function showhide(showEl,hideEl)
+ {
+ var me=document.getElementById(showEl);
+ if (me)
+  {
+  me.style.visibility="visible";
+  me.style.display="block";
+  }
+ var me2=document.getElementById(hideEl);
+ if (me2)
+  {
+  me2.style.visibility="hidden";
+  me2.style.display="none";
+  }
+ }
+ 
+//*************************************************************************
+
+function selectPlugin(plugid)
+{
+var me=document.getElementById(plugid);
+if (me)
+  {
+  me.style.color="rgb(225,100,0)";
+  me.style.backgroundColor="rgb(255,240,180)";
+  //me.style.border="2px solid rgb(255,180,60)";
+  //me.style.marginTop="0.5em";
+  //me.style.marginBottom="0.5em";
+  }
+}
+
+	
+//*****************************************************
+
+function insertLikeButtons()
+{
+var xid='like';
+var me=document.getElementById(xid);
+if (me)
+  {
+ //var xitem='<a href="http://twitter.com/share" class="twitter-share-button" data-url="http://www.embird.net/sw/embird/index.htm" data-text="What is new in Embird ?" data-count="vertical">Tweet</a>'+'\n';
+ //xitem+='&nbsp;&nbsp;'+'\n';
+  var xitem='<iframe src="http://www.facebook.com/plugins/like.php?href=http%3A%2F%2Fwww.embird.net%2Fsw%2Fembird%2Findex.htm&amp;layout=box_count&amp;show_faces=false&amp;width=50&amp;action=like&amp;colorscheme=light&amp;height=65" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:50px; height:65px;" allowTransparency="true"></iframe>'+'\n';
+  me.innerHTML=xitem;
+  }
+}
+
+//*****************************************************
+function addClass(el, clname)
+{
+    var tem, C= el.className.split(/\s+/), A=[];
+    while(C.length){
+        tem= C.shift();
+        if(tem && tem!= clname) A[A.length]= tem;
+    }
+    A[A.length]= clname;
+    return el.className= A.join(' ');
+};
+
+  
+function removeClass(el, clname)
+{
+    var tem, C= el.className.split(/\s+/), A=[];
+    while(C.length){
+        tem= C.shift();
+        if(tem && tem!= clname) A[A.length]= tem;
+    }
+    return el.className= A.join(' ');
+};
+
+//*****************************************************
+
+var defaultPanelWidth="25em";
+
+var iex=document.all && !window.opera;
+var nsc=document.getElementById;
+var mysrcel=null;
+
+function findPos(obj) {
+ var obj2 = obj;
+ var curtop = 0;
+ var curleft = 0;
+ if (document.getElementById || document.all) {
+  do  {
+   curleft += obj.offsetLeft-obj.scrollLeft;
+   curtop += obj.offsetTop-obj.scrollTop;
+   obj = obj.offsetParent;
+   obj2 = obj2.parentNode;
+   while (obj2!=obj) {
+    curleft -= obj2.scrollLeft;
+    curtop -= obj2.scrollTop;
+    obj2 = obj2.parentNode;
+   }
+  } while (obj.offsetParent)
+ } else if (document.layers) {
+  curtop += obj.y;
+  curleft += obj.x;
+ }
+ return [curleft, curtop];
+};
+
+//if (iex||nsc)
+//   document.write('<div id="hintpanel" onMouseover="clearhidemenu();" onMouseout="dynamichide(event)"></div>');
+
+function mygetwindow(){
+return (document.compatMode  &&  document.compatMode.indexOf("CSS")!=-1)? document.documentElement : document.body
+}
+
+function showHint(e, xid, mytype, optWidth){
+
+if (!document.all && !document.getElementById) return;
+
+ if (!e) var e = window.event;
+ e.cancelBubble = true;
+ if (e.stopPropagation) e.stopPropagation();
+
+var me=document.getElementById("hintpanel");
+if (!me)
+  {
+  var newnode=document.createElement("div");
+  if (newnode)
+     {
+      newnode.id="hintpanel";
+      newnode.onmouseover="clearhidemenu();";
+      //newnode.onmouseout="dynamichide(event)";
+      document.body.appendChild(newnode);
+     };
+  };
+var me3=document.getElementById("rootpanel");
+if (!me3)
+  {
+  var newnode3=document.createElement("div");
+  if (newnode3)
+     {
+      newnode3.id="rootpanel";
+      newnode3.onmouseover="clearhidemenu();";
+      //newnode3.onmouseout="dynamichide(event)";
+      document.body.appendChild(newnode3);
+     };
+  };
+
+if (mytype=="root")
+ {
+  hintobj = document.getElementById("rootpanel");
+  hintobj.style.zIndex="98";
+ }
+else
+ {
+  hintobj = document.getElementById("hintpanel");
+  hintobj.style.zIndex="100";
+ };
+ 
+hintobj.style.boxShadow="4px 4px 8px rgba(0,0,0,0.25)";
+
+clearhidemenu();
+
+if (hintobj.style.visibility=="visible" && mytype!="menu" && mytype!="v_menu") {hidemenu(); return};  //nezobrazovat
+
+
+//if (iex) {hintobj = document.all.hintpanel}
+//   else  {hintobj = document.getElementById("hintpanel")};
+
+var which=document.getElementById(xid);
+if (which)
+  {var myhtml=which.innerHTML;
+   if (myhtml)
+     {
+     hintobj.innerHTML = myhtml;
+     };
+  };
+
+if (typeof optWidth!="undefined") {hintobj.style.width = optWidth}
+   else {hintobj.style.width = defaultPanelWidth};
+//hintobj.style.zIndex="100";
+hintobj.style.position="absolute";
+hintobj.style.visibility="hidden";
+
+if (mytype=="copy") //copy from div
+  {
+   hintobj.style.cssText=which.style.cssText;
+   hintobj.style.display="block";
+   hintobj.style.zIndex="100";
+   hintobj.style.position="absolute";
+   hintobj.style.visibility="hidden";
+  }
+else if (mytype=="menu" || mytype=="v_menu" || mytype=="root") //predefined menu style
+  {
+   hintobj.style.width="auto";
+   hintobj.style.color="rgb(0,0,0)";
+   hintobj.style.backgroundColor="rgb(255,255,210)";
+   hintobj.style.border="1px solid rgb(0,0,0)";
+   hintobj.style.padding="1em";
+   hintobj.style.fontSize="small";
+  }
+ else //predefined hint style
+  {
+   hintobj.style.color="rgb(0,0,100)";
+   hintobj.style.backgroundColor="rgb(255,250,235)";
+   hintobj.style.border="8px solid rgb(25,50,100)";
+   hintobj.style.padding="1em";
+   hintobj.style.fontSize="small";
+  };
+hintobj.contentwidth=hintobj.offsetWidth;
+hintobj.contentheight=hintobj.offsetHeight;
+
+
+if (mysrcel && mytype=="menu") {mysrcel.className="mainmenu";}  //for menu only
+
+
+
+if (mytype=="menu" || mytype=="root")
+  {
+   mysrcel=iex? event.srcElement : e.target;
+
+   var mypos=findPos(mysrcel);
+   
+   atX = mypos[0];
+   atY = mypos[1] + mysrcel.offsetHeight;
+   if (iex) {atX = atX-mygetwindow().scrollLeft;
+             atY = atY-mygetwindow().scrollTop;}
+      else  {atX = atX-window.pageXOffset;
+             atY = atY-window.pageYOffset;};
+             
+   if (mytype=="menu") {mysrcel.className="mainmenu mainmenusel";};
+
+  }
+ else
+  {
+   atX=iex? event.clientX : e.clientX;
+   atY=iex? event.clientY : e.clientY;
+   mysrcel = null;
+
+  };
+
+
+//dist to window edges
+//var rightspace = iex? mygetwindow().clientWidth-atX : window.innerWidth-atX;
+//var bottomspace = iex? mygetwindow().clientHeight-atY : window.innerHeight-atY;
+
+var rightspace = mygetwindow().clientWidth-atX;
+var bottomspace = mygetwindow().clientHeight-atY;
+var myleft=0;
+var mytop=0;
+
+//test horizontal position
+if (rightspace<(hintobj.contentwidth+14))
+  {
+//move panel to left
+  if (iex) {myleft = mygetwindow().scrollLeft+atX-(hintobj.contentwidth+14-rightspace)}
+     else  {myleft = window.pageXOffset+atX-(hintobj.contentwidth+14-rightspace)};
+  }
+else
+  {
+//pop-up point - horizontal
+   if (iex) {myleft = mygetwindow().scrollLeft+atX}
+      else  {myleft = window.pageXOffset+atX};
+  };
+
+//vertical position
+if (bottomspace<(hintobj.contentheight+14))
+  {
+   if (iex) {mytop = mygetwindow().scrollTop+atY-(hintobj.contentheight+14-bottomspace)}
+      else  {mytop = window.pageYOffset+atY-hintobj.contentheight-14+bottomspace};
+  }
+else
+  {
+  if (iex) {mytop = mygetwindow().scrollTop+atY}
+     else  {mytop = window.pageYOffset+atY};
+  };
+  
+
+
+hintobj.style.left=myleft+"px";
+hintobj.style.top=mytop+"px";
+  
+hintobj.style.visibility="visible"
+
+
+hintobj.onclick=function (){};
+
+if (iex||nsc) {document.onclick=hidemenu};
+
+return false;
+};
+
+
+function contains_nsc(a, b) {
+ while (b.parentNode)
+  if ((b = b.parentNode) == a)
+   {
+    return true;
+   }
+ return false;
+};
+
+
+
+function dynamichide(e){
+if (iex && !hintobj.contains(e.toElement))
+  {hidemenu()}
+  else if (nsc && e.currentTarget!= e.relatedTarget &&  !contains_nsc(e.currentTarget, e.relatedTarget))
+    {hidemenu()};
+};
+
+function hidemenu(){
+ if (iex||nsc) {document.onclick=null};
+ if (mysrcel) {mysrcel.className="mainmenu";}  //for menu only
+ //if (window.hintobj) {hintobj.style.visibility="hidden"};
+ //if (window.hintshd) {hintshd.style.visibility="hidden"};
+ 
+ var obj1 = document.getElementById("rootpanel");
+ if (obj1) {obj1.style.visibility="hidden"};
+ var obj3 = document.getElementById("hintpanel");
+ if (obj3) {obj3.style.visibility="hidden"};
+}
+
+function hideHint(){
+  delayhide=setTimeout("hidemenu()",750)
+};
+
+function clearhidemenu(){
+ if (window.delayhide) {clearTimeout(delayhide)};
+};
+
+//if (iex||nsc) {document.onclick=hidemenu};
+
+//******************************************************
+
+function codeStr2(s)
+ {
+ return s;
+ };
+
+
+//*****************************************************
+
+function blogItem(j)
+{
+var xitem="";
+xitem+='          '+codeStr2(mid[j]+'  '+'<a href="'+myHomeURL+'/index.htm"><img border="0" src="'+myHomeURL+'/newmin/'+murlmin1[j]+'.gif" alt="'+mname[j]+'"></a>'+'  '+mname[j]+'<br>');
+xitem+='\n'; //end of line
+return xitem;
+};
+
+//*****************************************************
+
+function genEmbirdBlog(ds)
+{
+  var Hditem='<html>';
+  var Bditem='';
+  Bditem+='  '+codeStr2('<div style="margin-left:32px; width:100%; text-align:left">')+'\n';
+  Bditem+='  '+codeStr2('<div style="text-align:center">');
+  Bditem+='  '+codeStr2('<img border="0" src="'+myHomeURL+'/grpx/embirdicon2012.gif" alt="Embird">');
+  Bditem+='  '+codeStr2('</div>')+'\n';
+  Bditem+='  '+codeStr2('<div style="width:100%;">')+'\n';
+  Bditem+=ds;
+  Bditem+='  '+codeStr2('</div>')+'\n';
+  Bditem+='  '+codeStr2('<p align="center">Copyright &#169; BALARAD, s.r.o. All Rights Reserved.</p>')+'\n';
+  //Bditem+='  '+codeStr2('<p align="center">www.embird.net</p>')+'\n';
+  Bditem+='  '+codeStr2('</div>')+'\n';
+  var Editem='</html>';
+  //var fname='c:/'+blogname;
+  //makeFile(fname, Hditem+Bditem+Editem);
+  //alert('Blog is stored in '+fname);
+  writeConsole(Hditem+Bditem+Editem);
+};
+
+//***************************************************************************************************************
+
+function HTMLtoBlog(fname){
+loadHTMLforBlog(fname);
+};
+
+//***************************************************************************************************************
+
+function loadHTMLforBlog(docname) {
+
+   if (xmlhttp)
+     {
+       xmlhttp.open("GET", docname,true);
+       xmlhttp.onreadystatechange=function()
+         {
+            if (xmlhttp.readyState==4)
+               {
+                  //alert(xmlhttp.responseText);
+                  genEmbirdBlog(xmlhttp.responseText);
+               }
+         }
+         xmlhttp.send(null)
+    }
+}
+
+
+
+
+//*************************************************************************
+function genEmbirdRSS(rssname,ds)
+  {
+  var Hditem=rssHead(rssname);
+  var Bditem='';
+  var scan=false;
+  
+  Bditem+='    <item>'+'\n';
+  Bditem+='       <title>New version of Embird released!</title>'+'\n';
+  Bditem+='       <link>'+myHomeURL+'/index.htm</link>'+'\n';
+  Bditem+='       <guid>'+myHomeURL+'/index.htm</guid>'+'\n';
+  Bditem+='       <description>'+'\n';
+  Bditem+='          '+codeStr('<div style="width:80%; margin-left:32px; text-align:left">')+'\n';
+  Bditem+='          '+codeStr('<div style="margin-left:0;">')+'\n';
+
+  var items=ds.split('\n');
+  for(i=0; i<items.length; i++)
+  {
+
+  if (items[i].indexOf('</body')>=0) {scan=false};
+  if (scan==true) {
+   Bditem+=codeStr(items[i]);
+   };
+  if (items[i].indexOf('<body')>=0) {scan=true};
+   
+  }
+
+  Bditem+='          '+codeStr('</div>')+'\n';
+  Bditem+='          '+codeStr('<p align="center">Copyright &#169; BALARAD, s.r.o. All Rights Reserved.</p>')+'\n';
+  Bditem+='          '+codeStr('</div>')+'\n';
+  Bditem+='       </description>'+'\n';
+  Bditem+='       <pubDate>'+getRSSdate()+'</pubDate>'+'\n';
+  Bditem+='    </item>'+'\n';
+  var Editem=rssEnd();
+  var fname='c:/'+rssname;
+  //makeFile(fname, Hditem+Bditem+Editem);
+
+  //alert(Hditem+Editem);
+  writeConsole(Hditem+Bditem+Editem);
+  };
+  
+//***************************************************************************************************************
+
+
+function writeConsole(content) {
+ top.consoleRef=window.open('','myconsole',
+  'width=350,height=250'
+   +',menubar=0'
+   +',toolbar=1'
+   +',status=0'
+   +',scrollbars=1'
+   +',resizable=1')
+ top.consoleRef.document.writeln(
+  '<html><head><title>Console</title></head>'
+   +'<body bgcolor=white onLoad="self.focus()">'
+   +content
+   +'</body></html>'
+ )
+ top.consoleRef.document.close()
+}
+//***************************************************************************************************************
+
+function HTMLtoRSS(fname,rssname){
+loadHTMLspec(fname,rssname);
+};
+
+//***************************************************************************************************************
+
+function loadHTMLspec(docname,rssname) {
+
+   if (xmlhttp)
+     {
+       xmlhttp.open("GET", docname,true);
+       xmlhttp.onreadystatechange=function()
+         {
+            if (xmlhttp.readyState==4)
+               {
+                  //alert(xmlhttp.responseText);
+                  genEmbirdRSS(rssname,xmlhttp.responseText);
+               }
+         }
+         xmlhttp.send(null)
+    }
+}
+  
+//*****************************************************
+function rssHead(rssname)
+{
+var xitem='';
+xitem+='<?xml version="1.0" ?>'+'\n';
+xitem+='<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">'+'\n';
+xitem+='  <channel>'+'\n';
+xitem+='    <atom:link href="'+myHomeURL+'/'+rssname+'" rel="self" type="application/rss+xml" />'+'\n';
+xitem+='    <title>Embird Embroidery Software</title>'+'\n';
+xitem+='    <link>'+myHomeURL+'</link>'+'\n';
+xitem+='    <description>Embroidery designs digitizing, editing and management.</description>'+'\n';
+xitem+='    <lastBuildDate>'+getRSSdate()+'</lastBuildDate>'+'\n';
+xitem+='    <language>en-us</language>'+'\n';
+xitem+='    <copyright>Copyright BALARAD, s.r.o.</copyright>'+'\n';
+xitem+='    <image>'+'\n';
+xitem+='        <title>Embird Embroidery Software</title>'+'\n';
+xitem+='        <url>'+myHomeURL+'/grpx/embirdicon2012.gif</url>'+'\n';
+xitem+='        <link>'+myHomeURL+'</link>'+'\n';
+xitem+='    </image>'+'\n';
+//alert(xitem);
+return xitem;
+};
+
+//*********************************************************
+function rssEnd()
+{
+var xitem='';
+xitem+='  </channel>'+'\n';
+xitem+='</rss>'+'\n';
+return xitem;
+};
+
+//******************************************
+function codeStr(s)
+ {
+ var q=s.replace(/</g,'&lt;');
+ q=q.replace(/>/g,'&gt;');
+ return q;
+ };
+
+//******************************************************
+function getRSSdate()
+  {
+  var d="";
+  var day_name=new Array(7);
+  day_name[0]="Sun"
+  day_name[1]="Mon"
+  day_name[2]="Tue"
+  day_name[3]="Wed"
+  day_name[4]="Thu"
+  day_name[5]="Fri"
+  day_name[6]="Sat"
+
+  var month_name=new Array(12);
+  month_name[0]="Jan"
+  month_name[1]="Feb"
+  month_name[2]="Mar"
+  month_name[3]="Apr"
+  month_name[4]="May"
+  month_name[5]="Jun"
+  month_name[6]="Jul"
+  month_name[7]="Aug"
+  month_name[8]="Sep"
+  month_name[9]="Oct"
+  month_name[10]="Nov"
+  month_name[11]="Dec"
+
+  var mdate=new Date();
+  d+=day_name[mdate.getDay()]+', ';
+  d+=mdate.getDate()+' ';
+  d+=month_name[mdate.getMonth()]+' ';
+  d+=mdate.getFullYear()+' ';
+  d+=mdate.getHours()+':';
+  var min=mdate.getMinutes().toString();
+  if (min.length<2) {min='0'+min};
+  d+=min+':';
+  var sec=mdate.getSeconds().toString();
+  if (sec.length<2) {sec='0'+sec};
+  d+=sec+' +0100';
+
+  //var d2 = new Date()
+  //var s=d2.toUTCString();
+
+  //alert(d);
+  return d;
+  };
+
+ 
+//***************************************
+function makeFile(fname,fcontent){
+    fso = new ActiveXObject("Scripting.FileSystemObject");
+
+    var TristateFalse = 0;
+    var ForWriting = 2;
+    thepage = fname;
+    fso.CreateTextFile(thepage,true);
+    a = fso.GetFile(thepage);
+    b = a.OpenAsTextStream(ForWriting, TristateFalse);
+    b.Write(fcontent);
+    b.Close();
+    return false;
+}
+
+//*****************************************************************************
+// Read a page's GET URL variables and return them as an associative array
+ function getUrlVars()
+  {
+  var map = {};
+  var parts = window.location.search.replace(/[?&]+([^=&]+)(=[^&]*)?/gi, function(m,key,value) { map[key] = (value === undefined) ? true : value.substring(1); });
+  return map;
+ }
+
+
+//***************************************************************************************************************
+
+function loadFile(fname){
+loadspec(fname);
+};
+
+//***************************************************************************************************************
+
+function loadspec(docname) {
+
+   if (xmlhttp)
+     {
+       xmlhttp.open("GET", docname,true);
+       xmlhttp.onreadystatechange=function()
+         {
+            if (xmlhttp.readyState==4)
+               {
+                  //alert(xmlhttp.responseText);
+                  DecodeFile(xmlhttp.responseText);
+
+               }
+         }
+         xmlhttp.send(null)
+
+    }
+
+}
+
+//***************************************************
+
+function DecodeFile(ds) {
+  var items="";
+  var allTextLines = [];
+
+  //allTextLines = ds.split(/\r\n|\n/);
+  //alert(allTextLines.length);
+
+  items=ds.split(',');
+  mcustomer=items[0];
+  mcost=items[1];
+  mnum=0;
+  for(i=2; i<items.length; i++)
+  {
+  mID[mnum]=items[i];
+  mnum++;
+  }
+  
+  dispIDs();
+  if (mcost>0)
+      {
+       document.getElementById("buttonPP").disabled=false;
+       document.getElementById("buttonVanCart").disabled=false;
+      };
+  //alert (mcost+' '+mnum);
+}
+
+//*********************************
+
+function dispIDs()
+{
+var me=document.getElementById('units');
+if (me)
+  {
+  me.innerHTML='<div id="unitsend"></div>';
+  for(i=0; i<mnum; i++)
+    {
+    var newitem='<div>'+mID[i]+'</div>';
+    AddItem('units','unitsend',newitem);
+    }
+  };
+
+var me=document.getElementById('cost');
+if (me)
+  {
+  me.innerHTML='<div id="costend"></div>';
+  var newitem='<div>'+'US $ '+mcost+'</div>';
+  AddItem('cost','costend',newitem);
+  }
+
+var me=document.getElementById('cust');
+if (me)
+  {
+  me.innerHTML='<div id="custend"></div>';
+  var newitem='<div>'+mcustomer+'</div>';
+  AddItem('cust','custend',newitem);
+  }
+
+};
+
+//*********************************
+
+function AddItem(xid,xidend,newitem) {
+ //div=document.getElementById(xid);
+ miesto=document.getElementById(xidend);
+ if (miesto){
+ newnode=document.createElement("div");
+ newnode.innerHTML=newitem;
+ //div.insertBefore(newnode,miesto);
+ miesto.parentNode.insertBefore(newnode,miesto);
+ };
+}
+
+
+//*********************************
+
+function msetCookie(c_name,value)
+{
+var expiredays=10;
+var exdate=new Date();
+exdate.setDate(exdate.getDate()+expiredays);
+document.cookie=c_name+ "=" +escape(value)+
+((expiredays==null) ? "" : ";expires="+exdate.toUTCString());
+}
+
+//*********************************
+
+function mgetCookie(name)
+{
+//alert(document.cookie);
+var nameEQ = name + "=";
+var ca = document.cookie.split(';');
+for(var i=0;i < ca.length;i++) {
+  var c = ca[i];
+  while (c.charAt(0)==' ') {c = c.substring(1,c.length);};
+  if (c.indexOf(nameEQ) == 0) {
+     var res=c.substring(nameEQ.length,c.length);
+     //alert('return '+res);
+     return res;
+     }
+}
+//return null;
+
+
+
+//if (document.cookie.length>0)
+//  {
+//  c_start=document.cookie.indexOf(c_name + "=");
+//  if (c_start!=-1)
+//    {
+//    c_start=c_start + c_name.length+1;
+//    c_end=document.cookie.indexOf(";",c_start);
+//    if (c_end==-1) c_end=document.cookie.length;
+//    return unescape(document.cookie.substring(c_start,c_end));
+//    }
+//  }
+//return "";
+}
+
+//****************************************************************************
+function checkmail()
+ {
+ var q=document.getElementById("mysendemail");
+ if (q)
+   {
+    document.getElementById("emailadresa").value='tech@mapwel.eu';
+    document.getElementById("emailtovar").value=mcustomer+' '+mcost;
+    q.action=myHomeURL+"/sendemail.php";
+    q.submit();
+   };
+  };
+
+//***************************************************
+
+function MyGetViewportSize()
+{
+ var viewportwidth=100;
+ var viewportheight=100;
+
+ // the more standards compliant browsers (mozilla/netscape/opera/IE7) use window.innerWidth and window.innerHeight
+
+ if (typeof window.innerWidth != 'undefined')
+ {
+      viewportwidth = window.innerWidth;
+      viewportheight = window.innerHeight;
+     //alert('a '+viewportwidth);
+ }
+
+// IE6 in standards compliant mode (i.e. with a valid doctype as the first line in the document)
+
+ else if (typeof document.documentElement != 'undefined'
+      &&  typeof document.documentElement.clientWidth !=
+     'undefined'  &&  document.documentElement.clientWidth != 0)
+ {
+       viewportwidth = document.documentElement.clientWidth;
+       viewportheight = document.documentElement.clientHeight;
+      //alert('b '+viewportwidth);
+ }
+
+ // older versions of IE
+
+ else
+ {
+       viewportwidth = document.getElementsByTagName('body')[0].clientWidth;
+       viewportheight = document.getElementsByTagName('body')[0].clientHeight;
+      //alert('c '+viewportwidth +' x '+ document.documentElement.clientWidth);
+ }
+ return [viewportwidth, viewportheight];
+};
+
+//*************************************************
+function load_inclHTML(docname,divid,callNext) {
+   if (xmlhttp)
+     {
+       xmlhttp.open("GET", docname,true);
+       xmlhttp.onreadystatechange=function()
+         {
+            if (xmlhttp.readyState==4)
+               {
+                  //alert(xmlhttp.responseText);
+                  putHTMLtoDIV(divid,xmlhttp.responseText);
+                  if (callNext!=null) callNext();
+               }
+         }
+         xmlhttp.send(null)
+    }
+}
+
+//*************************************************************************
+function putHTMLtoDIV(divid,ds)
+  {
+  var Bditem='';
+  var scan=false;
+
+  var items=ds.split('\n');
+  for(i=0; i<items.length; i++)
+  {
+  if (items[i].indexOf('<'+'/'+'b'+'ody')>=0) {scan=false};
+  if (scan==true) {
+   Bditem+=items[i];
+   };
+  if (items[i].indexOf('<'+'b'+'ody')>=0) {scan=true};
+  }
+
+  var me=document.getElementById(divid);
+  if (me)
+    {
+     //alert('to DIV');
+     me.innerHTML=Bditem;
+     //alert(me.id+' '+Bditem);
+    };
+
+  };
+
+
+function GETelementsByClassName (myclassName)
+	{
+		//var hasClassName = new RegExp("(?:^|\\s)" + className + "(?:$|\\s)");
+		var allDivs = document.getElementsByTagName("div");
+		var results = [];
+
+        var element;
+		for (var i = 0; i<allDivs.length; i++)
+          {
+            element = allDivs[i];
+            var test = element.getAttribute("className"); //pre IE
+              if (!test) {test = element.getAttribute("class");} //pre firefox
+            if (test)
+              {
+               //alert ('found class');
+               if (test.indexOf(myclassName) !==-1)
+                 {
+                  results.push(element);
+                 };
+              };
+		  };
+
+		return results;
+	};
+
+//**********************************************************
+function showProduct2(productmainid, productinfoid, mswitch)
+  {
+  //alert('onclick');
+
+  var main=document.getElementById(productmainid);
+  var plussgn=document.getElementById(productmainid+"plus");
+  var minussgn=document.getElementById(productmainid+"minus");
+  if (main)
+     {
+     //alert('found main');
+
+     if (mswitch=='true')
+       {
+       if (main.style.marginTop=="0em")
+         {
+         main.style.marginTop="0px";
+         }
+        else
+         {
+         main.style.marginTop="0em";
+
+         };
+        //alert('switch '+main.style.marginTop);
+       };
+
+     var me=document.getElementById(productinfoid);
+     if (me)
+       {
+         if (main.style.marginTop=='0em')
+           {
+           me.style.display="block";
+           if (plussgn) {plussgn.style.display="none";}
+           if (minussgn) {minussgn.style.display="block";}
+           }
+         else
+           {
+           me.style.display="none";
+           if (plussgn) {plussgn.style.display="block";}
+         if (minussgn) {minussgn.style.display="none";}
+           };
+
+        };
+     };
+  };
+
+//****************************************************
+
+function inclZoznam(fname, mcaption)
+    {
+       var me5=document.getElementById("instrZoznam");
+       if (!me5)
+         {
+         var newnode=document.createElement("div");
+         if (newnode)
+           {
+            newnode.id="instrZoznam";
+            newnode.style.display="none";
+            document.body.appendChild(newnode);
+            load_inclHTML(fname,"instrZoznam",null);
+
+            var miesto=document.getElementById("zoznamhd");
+            if (miesto){
+              var newnode2=document.createElement("div");
+              newnode2.id="zoznamlist";
+              var intext2="showHint(event,'instrZoznam','hint')";
+              var intext='<div class="manualnavlink" onclick="' + intext2 + '">&lsaquo;&lsaquo; '+mcaption+'</div>';
+              newnode2.innerHTML=intext;
+              //alert(newnode2.innerHTML);
+              miesto.parentNode.insertBefore(newnode2, miesto.nextSibling);
+              };
+
+           };
+         };
+    };
+
+
+//*************
+
+function StoreRef()
+{
+if (document.referrer=="http://www.vanserv.crystalfaiola.com/embird.htm")
+  {msetCookie("siteReferrer","ref_vancart")};
+  //else
+ // {msetCookie("siteReferrer","ref_none")};
+};
+
+function ApplyRef()
+{
+var ref = mgetCookie("siteReferrer");
+//alert(ref);
+if (ref == "ref_vancart")
+ {
+ var me=document.getElementById("paypaldiv");
+ if (me)
+  {
+  me.style.visibility="hidden";
+  me.style.display="none";
+  };
+ };
+ 
+var me2=document.getElementById("paygadgetdiv");
+ if (me2)
+  {
+  me2.style.visibility="visible";
+  me2.style.display="block";
+  }
+};
+
+function installLazyLoader()
+{
+document.addEventListener("DOMContentLoaded", function()
+{
+  var lazyImages = document.querySelectorAll("div.lazy");
+  var lazyVideos = document.querySelectorAll("div.lazyvideo");
+  var lazyTimeout;
+  var lazyTimeout2;
+  var lazyCnt = 0;
+  var lazyCnt2 = 0;
+  
+  
+  function lazyload () {
+    if(lazyTimeout) {clearTimeout(lazyTimeout);}
+    lazyTimeout = setTimeout(function()
+     {
+      var scrollTop = window.pageYOffset;
+      lazyImages.forEach(function(mdiv)
+        {
+          if(mdiv.offsetTop < (window.innerHeight + scrollTop))
+           {
+             mdiv.classList.remove('lazy');
+
+             lazyCnt++;
+             var mpic=document.createElement("img");
+             var mid="lazyimage"+parseInt(lazyCnt);
+             mpic.setAttribute("id", mid);
+             mpic.setAttribute("alt", mdiv.getAttribute("title"));
+             mpic.style.opacity="0.0";
+             var mrect = mdiv.getBoundingClientRect();
+             mpic.setAttribute("width", Math.round(mrect.width));
+             if (Math.round(mrect.height)!=0) {mpic.setAttribute("height", Math.round(mrect.height));};
+             mpic.classList.add('lazyloading');
+             mpic.style.transition="opacity 0.125s";
+             mpic.onload=function()
+               {
+                var mloading = document.querySelectorAll(".lazyloading");
+                mloading.forEach(function(mel)
+                 {
+                  mel.classList.remove('lazyloading');
+                  mel.classList.add('lazyloaded');
+                  mel.style.opacity="1.0";
+                 });
+               }
+             mdiv.innerHTML="";  
+             mdiv.appendChild(mpic);
+             mpic.setAttribute("src", mdiv.dataset.src);
+           }
+       });
+
+      lazyImages = document.querySelectorAll("div.lazy");
+      if(lazyImages.length == 0)
+        {
+          document.removeEventListener("scroll", lazyload);
+          window.removeEventListener("resize", lazyload);
+          window.removeEventListener("orientationChange", lazyload);
+        }
+    }, 10);
+  }
+  
+
+  function lazyloadVideos () {
+    if(lazyTimeout2) {clearTimeout(lazyTimeout2);}
+    lazyTimeout2 = setTimeout(function()
+     {
+      var scrollTop = window.pageYOffset;
+      lazyVideos.forEach(function(mdiv)
+        {
+          if(mdiv.offsetTop < (window.innerHeight + scrollTop))
+           {
+             mdiv.classList.remove('lazyvideo');
+             
+             lazyCnt2++;
+             var mvideo=document.createElement("video");
+             var mid="lazyvideo"+parseInt(lazyCnt2);
+             mvideo.setAttribute("id", mid);
+             mvideo.setAttribute("title", mdiv.getAttribute("title"));
+             mvideo.style.opacity="0.0";
+             mvideo.style.margin="0";
+             mvideo.style.border=mdiv.dataset.border;
+             //var mrect = mdiv.getBoundingClientRect();
+             mvideo.setAttribute("width", "100%;");
+             //mvideo.setAttribute("width", Math.round(mrect.width));
+             //mvideo.setAttribute("height", Math.round(mrect.height));
+             mvideo.classList.add('lazyloadingvideo');
+             mvideo.style.transition="opacity 1s";
+             
+             mvideo.addEventListener('loadeddata', function()
+                    {
+                      var mloading = document.querySelectorAll(".lazyloadingvideo");
+                      mloading.forEach(function(mvid)
+                       {
+                         mvid.classList.remove('lazyloadingvideo');
+                         mvid.classList.add('lazyloadedvideo');
+                         mvid.style.opacity="1.0";
+                         mvid.controls=true;
+                         mvid.muted=true;
+                         mvid.loop=true;
+                         mvid.play();
+                      });
+                    }, false);
+
+             mdiv.appendChild(mvideo);
+             mvideo.setAttribute("src", mdiv.dataset.src);
+             //mvideo.load();
+        }
+       });
+
+      lazyVideos = document.querySelectorAll("div.lazyvideo");
+      if(lazyVideos.length == 0)
+        {
+          document.removeEventListener("scroll", lazyloadVideos);
+          window.removeEventListener("resize", lazyloadVideos);
+          window.removeEventListener("orientationChange", lazyloadVideos);
+        }
+    }, 10);
+  }
+
+  document.addEventListener("scroll", lazyload);
+  window.addEventListener("resize", lazyload);
+  window.addEventListener("orientationChange", lazyload);
+  
+  document.addEventListener("scroll", lazyloadVideos);
+  window.addEventListener("resize", lazyloadVideos);
+  window.addEventListener("orientationChange", lazyloadVideos);
+  
+  lazyload();
+  lazyloadVideos();
+});
+
+
+}
+
+installLazyLoader();
+</script>
+
+
+<script>
+var xmlhttp=false;
+var animPath="";
+var animDelay=1000;
+var fadeDelay="0.1s";
+var bannerLocation='';
+
+var gnum=0;
+var gidx=1;
+var gfilename=[];
+var gtitle=[];
+var gcomment=[];
+var glink=[];
+//*************************************** general variables ***************************
+
+/*@cc_on @*/
+
+/*@if (@_jscript_version >= 5)
+
+	try {
+		xmlhttp = new ActiveXObject("Msxml2.XMLHTTP");
+	} catch (e) {
+		try {
+			xmlhttp = new ActiveXObject("Microsoft.XMLHTTP");
+		} catch (E) {
+			xmlhttp = false;
+		}
+	}
+
+@else
+
+	xmlhttp = false;
+
+@end @*/
+
+if (!xmlhttp && typeof XMLHttpRequest!='undefined') {
+
+	try {
+      xmlhttp = new XMLHttpRequest();
+    } catch (e) {xmlhttp = false;}
+
+}
+
+
+
+//***************************************************
+
+//***************************************************************************************************************
+
+
+function loadCSV(aFileName) {
+   //alert(aFileName);
+   if (xmlhttp)
+     {
+       xmlhttp.open("GET", aFileName,true);
+       xmlhttp.onreadystatechange=function()
+         {
+            if (xmlhttp.readyState==4)
+               {
+                 //alert(xmlhttp.responseText);
+                  DecodeCSV(xmlhttp.responseText);
+                  anotherBannerFrame();
+             	}
+         }
+         xmlhttp.send(null)
+
+    }
+
+}
+
+//***************************************************
+
+function DecodeCSV(ds) {
+  var mln="";
+  var allTextLines = [];
+
+  allTextLines = ds.split(/\r\n|\n/);
+  //alert(allTextLines.length);
+
+   gnum=0;
+   for(i=0; i<allTextLines.length; i++) {
+      mln=allTextLines[i].split(',');
+
+      gfilename[gnum]=animPath+ '/' + mln[0];
+      gtitle[gnum]=mln[1];
+      gcomment[gnum]=mln[2];
+      glink[gnum]=mln[3];
+
+      if (mln[0]) gnum++;
+     }
+
+    //alert('gnum '+gnum);
+    //for(i=gnum; i<1; i++) {
+   // alert (gfilename[i]);
+   // }
+}
+
+//***************************************************
+
+function playBanner(aBannerDiv,aTitleDiv,aDescDiv,aBannerLocation,aBannerPath,aBannerFileName,aAnimDelay,aFadeDelay)
+{
+ if (aBannerPath){animPath=getAbsoluteURL(aBannerLocation+aBannerPath)};
+ //alert(animPath);
+
+ if (aAnimDelay){animDelay=aAnimDelay};
+ if (aFadeDelay){fadeDelay=aFadeDelay};
+ if (aBannerLocation){bannerLocation=aBannerLocation};
+
+
+mdiv=document.getElementById(aBannerDiv);
+if (mdiv)
+{
+var mContainers='';
+
+mContainers+='<div id="img_overlayholder" style="position:relative; left:0px; top:0px; width:100%; height:100%; overflow:hidden;">';
+
+mContainers+='<div id="img0holder" style="position:absolute;  top:0px; left:0px; width:100%; height:100%;"></div>';
+mContainers+='<div id="img1holder" data-var="0" style="position:absolute;  top:0px; left:0px; width:100%; height:100%;"></div>';
+
+mContainers+='</div>';
+
+//mContainers+='<div style="font-size:125%; font-weight:bold; position:absolute;  top:0.5em; left:0px; width:100%; height:4em;">';
+//mContainers+='<div id="htextholder1" style="color:rgb(255,255,255); position:absolute; top:1px; left:0px; padding-left:1em; width:100%;"></div>';
+//mContainers+='<div id="htextholder2" style="color:rgb(255,255,255); position:absolute; top:1px; left:4px; padding-left:1em; width:100%;"></div>';
+//mContainers+='<div id="htextholder3" style="color:rgb(255,255,255); position:absolute; top:-1px; left:0px; padding-left:1em; width:100%;"></div>';
+//mContainers+='<div id="htextholder4" style="color:rgb(255,255,255); position:absolute; top:-1px; left:4px; padding-left:1em; width:100%;"></div>';
+//mContainers+='<div id="htextholder5" style="color:rgb(255,255,255); position:absolute; top:0px; left:0px; padding-left:1em; width:100%;"></div>';
+//mContainers+='<div id="htextholder6" style="color:rgb(255,255,255); position:absolute; top:0px; left:4px; padding-left:1em; width:100%;"></div>';
+
+//mContainers+='<div id="htextholder0" style="color:rgb(20,50,100); text-shadow: 0.1em 0.1em 0.5em rgb(255,255,255); position:absolute; top:0px; left:2px; padding-left:1em; width:100%;"></div>';
+//mContainers+='</div>';
+
+//mContainers+='<div style="font-size:100%; text-align:center; font-weight:bold; position:absolute;  bottom:0px; left:0px; margin-top:-2em; width:100%; height:2em;">';
+//mContainers+='<div id="ltextholder1" style="color:rgb(255,255,255); position:absolute; top:1px; left:0px; width:100%;"></div>';
+//mContainers+='<div id="ltextholder2" style="color:rgb(255,255,255); position:absolute; top:1px; left:4px; width:100%;"></div>';
+//mContainers+='<div id="ltextholder3" style="color:rgb(255,255,255); position:absolute; top:-1px; left:0px; width:100%;"></div>';
+//mContainers+='<div id="ltextholder4" style="color:rgb(255,255,255); position:absolute; top:-1px; left:4px; width:100%;"></div>';
+//mContainers+='<div id="ltextholder5" style="color:rgb(255,255,255); position:absolute; top:0px; left:0px; width:100%;"></div>';
+//mContainers+='<div id="ltextholder6" style="color:rgb(255,255,255); position:absolute; top:0px; left:4px; width:100%;"></div>';
+
+//mContainers+='<div id="ltextholder0" style="color:rgb(20,50,100); text-shadow: 0.1em 0.1em 0.5em rgb(255,255,255); position:absolute; top:0px; left:2px; width:100%;"></div>';
+//mContainers+='</div>';
+
+mdiv.innerHTML=mContainers;
+};
+
+
+mdiv2=document.getElementById(aTitleDiv);
+if (mdiv2)
+{
+var mContainers2='';
+mContainers2='<div id="htextholder0" style="width:100%; height:100%; overflow:hidden;"></div>';
+mContainers2+='</div>';
+mdiv2.innerHTML=mContainers2;
+};
+
+mdiv3=document.getElementById(aDescDiv);
+if (mdiv3)
+{
+var mContainers3='';
+mContainers3='<div id="ltextholder0" style="width:100%; height:100%; overflow:hidden;"></div>';
+mContainers3+='</div>';
+mdiv3.innerHTML=mContainers3;
+};
+
+
+  loadCSV(animPath+ '/' + aBannerFileName+'.csv');
+
+};
+
+//***************************************************
+
+
+ function anotherBannerFrame()
+ {
+  var prevholder=document.getElementById("img0holder");
+  var holder=document.getElementById("img1holder");
+
+ if (holder && prevholder)
+ {
+ var mimg=document.getElementById("bannerimg");
+if (mimg)
+{
+mimg.setAttribute("id", "prevbannerimg");
+mimg.setAttribute("onload", "");
+
+
+
+while (prevholder.firstChild) {
+    prevholder.removeChild(prevholder.firstChild);
+};
+prevholder.appendChild(mimg);
+};
+
+
+while (holder.firstChild) {
+    holder.removeChild(holder.firstChild);
+};
+
+//holder.className="animg_hid";
+holder.style.transition="opacity 0s";
+holder.style.opacity="0.0";
+setTimeout(loadnewFrame, 50);
+
+ };
+ };
+
+//***************************************************
+
+ function loadnewFrame()
+ {
+ var holder=document.getElementById("img1holder");
+ var mpositionInfo = holder.getBoundingClientRect();
+ var mheight = mpositionInfo.height;
+ var mwidth = mpositionInfo.width;
+
+ var imgnum=parseInt(holder.getAttribute('data-var'));
+imgnum++;
+if (imgnum>gnum){imgnum=1};
+gidx=imgnum-1; //zero based
+
+holder.setAttribute('data-var', imgnum.toString());
+
+ var mlink=document.createElement("a");
+ mlink.setAttribute("id", "bannerlink");
+ //mlink.setAttribute("title", "");
+ //mlink.setAttribute("style", "position: absolute; top: 0; bottom: 0; margin: auto;");
+ 
+ var mpic=document.createElement("img");
+ holder.appendChild(mlink);
+ mlink.appendChild(mpic);
+
+mpic.setAttribute("id", "bannerimg");
+mpic.setAttribute("alt", "banner");
+mpic.setAttribute("onload", "makeFramevisible();");
+mpic.setAttribute("style", "position: absolute; top: 0; bottom: 0; left: 0; right: 0; margin: auto; display:block; margin: auto;");
+if (parseInt(mwidth)<parseInt(mheight))
+ {
+ mpic.setAttribute("width", mwidth);
+ mpic.setAttribute("height", mwidth);
+ }
+else
+ {
+ mpic.setAttribute("width", mheight);
+ mpic.setAttribute("height", mheight);
+ };
+
+
+//alert(gfilename[gidx]);
+
+mpic.setAttribute("src", gfilename[gidx]);
+ };
+
+//===================
+
+function getAbsoluteURL(relativeURL) {
+	var a = document.createElement('a');
+      a.href=relativeURL;
+      var mvys = a.href;
+      return mvys;
+};
+
+//======================
+
+
+ function makeFramevisible()
+ {
+ var mText=gtitle[gidx];
+
+ var textholder=document.getElementById("htextholder0");
+if (textholder){textholder.innerHTML=mText};
+
+//textholder=document.getElementById("htextholder1");
+//if (textholder){textholder.innerHTML=mText};
+//textholder=document.getElementById("htextholder2");
+//if (textholder){textholder.innerHTML=mText};
+//textholder=document.getElementById("htextholder3");
+//if (textholder){textholder.innerHTML=mText};
+//textholder=document.getElementById("htextholder4");
+//if (textholder){textholder.innerHTML=mText};
+//textholder=document.getElementById("htextholder5");
+//if (textholder){textholder.innerHTML=mText};
+//textholder=document.getElementById("htextholder6");
+//if (textholder){textholder.innerHTML=mText};
+
+ mText=gcomment[gidx];
+
+ var textholder=document.getElementById("ltextholder0");
+if (textholder){textholder.innerHTML=mText};
+//textholder=document.getElementById("ltextholder1");
+//if (textholder){textholder.innerHTML=mText};
+//textholder=document.getElementById("ltextholder2");
+//if (textholder){textholder.innerHTML=mText};
+//textholder=document.getElementById("ltextholder3");
+//if (textholder){textholder.innerHTML=mText};
+//textholder=document.getElementById("ltextholder4");
+//if (textholder){textholder.innerHTML=mText};
+//textholder=document.getElementById("ltextholder5");
+//if (textholder){textholder.innerHTML=mText};
+//textholder=document.getElementById("ltextholder6");
+//if (textholder){textholder.innerHTML=mText};
+
+
+var mLinkHref=getAbsoluteURL(bannerLocation+glink[gidx]);
+
+var mLink=document.getElementById("bannerlink");
+if (mLink){mLink.setAttribute("href", mLinkHref)};
+
+
+ var holder=document.getElementById("img1holder");
+ //if (holder){holder.className="animg_vis";};
+holder.style.transition="opacity "+fadeDelay;
+holder.style.opacity="1.0";
+
+ setTimeout(anotherBannerFrame, animDelay);
+ };
+ 
+ 
+//*********************************
+ 
+ 
+function checkCookies()
+{
+
+isCookieInfoDismissed();
+
+};
+
+//*********************************
+
+function getInfoCookie(name)
+{
+//alert(document.cookie);
+var nameEQ = name + "=";
+var ca = document.cookie.split(';');
+for(var i=0;i < ca.length;i++) {
+  var c = ca[i];
+  while (c.charAt(0)==' ') {c = c.substring(1,c.length);};
+  if (c.indexOf(nameEQ) == 0) {
+     var res=c.substring(nameEQ.length,c.length);
+     //alert('return '+res);
+     return res;
+     }
+}
+};
+
+//*********************************
+
+ function isCookieInfoDismissed()
+ {
+
+var me=document.getElementById("cookieInfo");
+   if (me)
+   {
+  var mAgreed= getInfoCookie('Embird_Cookie_Agree');
+ if (mAgreed)
+   {
+   me.style.display="none";
+  } else {me.style.display="block";};
+};
+
+ };
+ 
+ 
+//********************************* 
+ 
+function setInfoCookie()
+{
+
+
+var c_name="Embird_Cookie_Agree";
+
+//alert(c_name);
+var value="yes";
+
+var expiredays=3;
+var mDomain="www.embird.net";
+var exdate=new Date();
+exdate.setDate(exdate.getDate()+expiredays);
+document.cookie=c_name+ "=" +escape(value)+
+((expiredays==null) ? "" : ";expires="+exdate.toUTCString());
+
+//alert(document.cookie);
+
+isCookieInfoDismissed();
+}; 
+
+ 
+ 
+
+</script>
+
+
+
+<!--webbot bot="Include" endspan i-checksum="13285" --> 
+
+
+<!--webbot bot="Include" U-Include="../../sw/embird/tutorial/riadokembird.htm" TAG="BODY" startspan --> 
+
+<div class="xmainmenu">
+ <div id="globinfo">
+ </div>
+ 
+ <div class="q_menu_line" style="font-size:100%; position:relative; left:0px; top:0px; height:3em; width:100%; min-height:64px;">
+ 
+ <div style="font-size:100%; height:100%; width:25%; position:absolute; left:0%; top:0%;">
+ <div style="position:absolute; left:0.5em; bottom:5px; padding:0em; margin:0em;">
+ <a href="https://www.embird.net/index.htm" title="Embird Homepage"><img class="noBord" style="height:36px; width:204px;" src="https://www.embird.net/svg/logo2022_large.svg" alt="Embird Embroidery Software"></a>
+ </div> 
+ </div>
+ 
+ 
+ <!-- center -->
+ <div class="q_header_center" style="font-size:100%; height:100%; width:40%; position:absolute; left:50%; top:0%; margin-left:-20%;">
+ <div style="position:absolute; bottom: 0.5em; text-align:center; width:100%; line-height:1.25em;">
+ <div style="clear:both"><a href="https://www.embird.net/aboutus.htm" style="text-decoration:none; font-weight:normal; color:rgb(110,90,140);" title="Embird Software Homepage">Official Embird Website</a></div>
+ </div> 
+ </div>
+ 
+ 
+ <!-- update logo -->
+ <div class="q_header_upgrade">
+ 
+ <div style="height:100%; position:absolute; right:0%; top:0%;">
+ <a href="https://www.embird.net/sw/embird/index.htm" title="Embird Homepage"><img class="noBord" src="https://www.embird.net/svg/tab.svg" alt="Upgrade" style="height:100%;"></a>
+ </div>
+
+ <div style="font-size: 100%; height: 100%; width: 50%; position: absolute; left: 100%; top: 0%; margin-left: -50%;">
+ <div style="position: absolute; bottom: 1.0em; text-align: right; width: 100%"> 
+ <div style="margin-right:1em; line-height:1.5em;">
+ <a href="https://www.embird.net/sw/embird/index.htm" style="font-size:130%; text-decoration:none; color:rgb(255,255,255);" title="Software Upgrade">Upgrade 2022</a><br>
+ </div> 
+ </div> 
+ </div>
+ 
+ </div>
+ 
+ <!-- -->
+ 
+ </div> 
+ 
+ 
+ 
+ 
+ <div class="crsp q_menu_line"> 
+ <div style="clear:both; font-size:100%; height:0.25em; padding:0em; background-color:rgb(250,250,250); border-top:2px solid rgb(240,240,240); overflow:hidden;">
+ </div> 
+ 
+ <div class="mainmenu" onmouseover="addClass(this, 'mainmenuover');" onmouseout="removeClass(this, 'mainmenuover');" onclick="showHint(event,'menuhome','menu')">Navigate</div> 
+ <div class="mainmenu" onmouseover="addClass(this, 'mainmenuover');" onmouseout="removeClass(this, 'mainmenuover');" onclick="showHint(event,'menusoftware','menu')">Products</div> 
+ <div class="mainmenu" onmouseover="addClass(this, 'mainmenuover');" onmouseout="removeClass(this, 'mainmenuover');" onclick="showHint(event,'menudownload','menu')">Download</div>
+ <div class="mainmenu" onmouseover="addClass(this, 'mainmenuover');" onmouseout="removeClass(this, 'mainmenuover');" onclick="showHint(event,'menupurchase','menu')">eShop</div> 
+ <div class="mainmenu" onmouseover="addClass(this, 'mainmenuover');" onmouseout="removeClass(this, 'mainmenuover');" onclick="showHint(event,'menuupgrade','menu')">Upgrade</div> 
+ <div class="mainmenu" onmouseover="addClass(this, 'mainmenuover');" onmouseout="removeClass(this, 'mainmenuover');" onclick="showHint(event,'menuabout','menu')">About</div> 
+ <div class="mainmenu" onmouseover="addClass(this, 'mainmenuover');" onmouseout="removeClass(this, 'mainmenuover');" onclick="showHint(event,'menulearn','menu')">Training</div>
+ <div class="mainmenu" onmouseover="addClass(this, 'mainmenuover');" onmouseout="removeClass(this, 'mainmenuover');" onclick="showHint(event,'menusupport','menu')">Support</div>
+ 
+ <div style="clear:both; height:0.35em; padding:0em; background-color:rgb(245,245,245); border-bottom:3px solid rgb(230,230,230); overflow:hidden;">
+ </div> 
+ 
+ </div> 
+ 
+ <div class="crsp q_menu_button" style="height:32px;"> 
+ <div style="height:100%; vertical-align:middle; float:left;" onclick="showHint(event,'linemenu','root')"><img style="height:32px; width:115px;" src="https://www.embird.net/svg/menu.svg" alt="Main Menu"></div> 
+ <a href="https://www.embird.net/index.htm" title="Embird Homepage"><img src="https://www.embird.net/svg/logo2022_small.svg" alt="Main Menu" style="height:24px; width:134px; vertical-align:middle; float:right;"></a> 
+ </div> 
+ 
+ <div id="linemenu" style="display:none;" class="crsp "> 
+ <div class="linemenuitem crsp" onmouseover="addClass(this, 'mainmenuover');" onmouseout="removeClass(this, 'mainmenuover');" onclick="showHint(event,'menuhome','v_menu')">Navigate</div> 
+ <div class="linemenuitem crsp" onmouseover="addClass(this, 'mainmenuover');" onmouseout="removeClass(this, 'mainmenuover');" onclick="showHint(event,'menusoftware','v_menu')">Products</div> 
+ <div class="linemenuitem crsp" onmouseover="addClass(this, 'mainmenuover');" onmouseout="removeClass(this, 'mainmenuover');" onclick="showHint(event,'menudownload','v_menu')">Download</div>
+ <div class="linemenuitem crsp" onmouseover="addClass(this, 'mainmenuover');" onmouseout="removeClass(this, 'mainmenuover');" onclick="showHint(event,'menupurchase','v_menu')">eShop</div> 
+ <div class="linemenuitem crsp" onmouseover="addClass(this, 'mainmenuover');" onmouseout="removeClass(this, 'mainmenuover');" onclick="showHint(event,'menuupgrade','v_menu')">Upgrade</div> 
+ <div class="linemenuitem crsp" onmouseover="addClass(this, 'mainmenuover');" onmouseout="removeClass(this, 'mainmenuover');" onclick="showHint(event,'menuabout','v_menu')">About</div> 
+ <div class="linemenuitem crsp" onmouseover="addClass(this, 'mainmenuover');" onmouseout="removeClass(this, 'mainmenuover');" onclick="showHint(event,'menulearn','v_menu')">Training</div>
+ <div class="linemenuitem crsp" onmouseover="addClass(this, 'mainmenuover');" onmouseout="removeClass(this, 'mainmenuover');" onclick="showHint(event,'menusupport','v_menu')">Support</div>
+ </div> 
+
+ 
+
+
+ 
+ <div id="menuhome" style="display:none;">
+ <div class="mainmenuitem"><a class="mainmenulink" href="https://www.embird.net/index.htm" title="Home page of Embird embroidery software">Home Page</a></div>
+ <div class="mainmenuitem"><a class="mainmenulink" href="https://www.embird.net/machine-embroidery-designs" title="Machine Embroidery Designs">Machine Embroidery Designs</a></div>
+ <div class="mainmenuitem"><a class="mainmenulink" href="https://www.embird.net/custom-digitizing" title="Custom Digitizing">Custom Digitizing</a></div>
+ <div class="mainmenuitem"><a class="mainmenulink" href="https://www.embird.net/site-map" title="List of all pages">Site Map</a></div>
+ </div>
+ 
+ <div id="menuabout" style="display:none;">
+ <div class="mainmenuitem"><a class="mainmenulink" href="https://www.embird.net/aboutus.htm" title="About BALARAD, s.r.o.">About Us</a></div> 
+ <div class="mainmenuitem"><a class="mainmenulink" href="https://www.embird.net/software-compatibility" title="Software Compatibility">Software Compatibility &amp; Requirements</a></div>
+ 
+ <div class="mainmenuitem"><a class="mainmenulink" href="https://www.embird.net/what-is-new" title="New features of current version">What's New</a></div> 
+ 
+ <div class="mainmenuitem"><a class="mainmenulink" href="https://www.embird.net/machine-embroidery-formats" title="Embroidery and quilting file formats supported by Embird software">Embroidery File Formats</a></div>
+ <div class="mainmenuitem"><a class="mainmenulink" href="https://www.embird.net/machine-embroidery-hoops" title="Hoops for embroidery machines supported by Embird software">Embroidery Hoops</a></div> 
+ <div class="mainmenuitem"><a class="mainmenulink" href="https://www.embird.net/machine-embroidery-threads" title="Machine Embroidery Thread Catalogs">Thread Catalogs</a></div>
+ 
+ <div class="mainmenuitem"><a class="mainmenulink" href="https://www.embird.net/privacy.htm" title="Privacy Statement">Privacy</a></div>
+ <div class="mainmenuitem"><a class="mainmenulink" href="https://www.embird.net/software-distribution" title="Software Distribution">Software Distribution</a></div> 
+ <div class="mainmenuitem"><a class="mainmenulink" href="https://www.embird.net/refund.htm" title="Refund Policy">Refund Policy</a></div> 
+ </div>
+ 
+ <div id="menudownload" style="display:none;">
+ <div class="mainmenuitem"><a class="mainmenulink" href="https://www.embird.net/download.htm" title="Download demo/full version of Embird embroidery software">Download Embird</a></div>
+ <div class="mainmenuitem"><a class="mainmenulink" href="https://www.embird.net/software-archive" title="Download old version of Embird embroidery software">Old Files</a></div>
+ </div>
+ 
+ <div id="menupurchase" style="display:none;">
+ <div class="mainmenuitem"><a class="mainmenulink" href="https://www.embird.net/software-price" title="Price of Embird plug-ins and upgrade fee">Price Information</a></div> 
+ <div class="mainmenuitem"><a class="mainmenulink" href="https://www.embird.net/eshop.htm" title="Register Embird embroidery software to switch demo into full version">Purchase Software</a></div> 
+ </div>
+ 
+ <div id="menuupgrade" style="display:none;">
+ <div class="mainmenuitem"><a class="mainmenulink" href="https://www.embird.net/software-upgrade" title="Software Upgrade">Upgrade - How to?</a></div> 
+ <div class="mainmenuitem"><a class="mainmenulink" href="https://www.embird.net/eshop.htm" title="Purchase Software Upgrade">Purchase Upgrade</a></div> 
+ </div>
+ 
+
+<div id="menusoftware" style="display:none;"> 
+<div class="mainmenuitem"><a class="mainmenulink" href="https://www.embird.net/machine-embroidery-software" title="Embird Modular Embroidery Software">Embroidery Software</a></div> 
+
+<div class="mainmenuitem"><a class="mainmenulink" href="https://www.embird.net/embird-basic" title="Main program - features">Basic Embird - Main Program</a></div>
+<div class="mainmenuitem"><a class="mainmenulink" href="https://www.embird.net/font-engine" title="Embroidery lettering from TrueType and OpenType fonts">Font Engine</a></div>
+<div class="mainmenuitem"><a class="mainmenulink" href="https://www.embird.net/embroidery-digitizing" title="Embird Studio - Digitizing software">Embroidery Digitizing</a></div>
+<div class="mainmenuitem" style="margin-left:1em;"><a class="mainmenulink" href="https://www.embird.net/digitizing-tools" title="Digitizing Tools">&bull; Digitizing Tools</a></div>
+<div class="mainmenuitem" style="margin-left:3em;"><a class="mainmenulink" href="https://www.embird.net/studio/manual/0800trace_tut.htm" title="How to Digitize with Trace Tool">&bull; Auto Digitizing - Trace Tool</a></div>
+<div class="mainmenuitem" style="margin-left:1em;"><a class="mainmenulink" href="https://www.embird.net/sfumato-stitch" title="Photo-to-Embroidery Software">&bull; Sfumato Stitch (Photo-to-Embroidery)</a></div>
+<div class="mainmenuitem"><a class="mainmenulink" href="https://www.embird.net/cross-stitch" title="Cross stitch module for Embird software">Cross Stitch</a></div>
+<div class="mainmenuitem"><a class="mainmenulink" href="https://www.embird.net/iconizer" title="Displays icons of embroidery files in Windows Explorer and other programs">Iconizer</a></div>
+<div class="mainmenuitem"><a class="mainmenulink" href="https://www.embird.net/alphabets" title="Pre-digitized embroidery lettering">Alphabets</a></div> 
+<div class="mainmenuitem"><a class="mainmenulink" href="https://www.embird.net/free-trial" title="Free demo version">Free Trial</a></div>
+</div>
+ 
+ 
+ 
+<div id="menulearn" style="display:none;">
+<div class="mainmenuitem"><a class="mainmenulink" href="https://www.embird.net/machine-embroidery-tutorials" title="Embird tutorials in text format">Text Tutorials and Guides</a></div>
+<div class="mainmenuitem"><a class="mainmenulink" href="https://www.embird.net/machine-embroidery-videos" title="Embird Lessons on YouTube">Training Videos</a></div> 
+<div class="mainmenuitem"><a class="mainmenulink" href="https://www.embird.net/studio/manual/0050digit.htm" title="Embroidery Digitizing">Embroidery Digitizing - Get Started</a></div>
+<div class="mainmenuitem"><a class="mainmenulink" href="https://www.embird.net/studio/manual/0350hw_digitize.htm" title="How to Digitize Logo">How to Digitize a Logo - Tutorial</a></div>
+<div class="mainmenuitem"><a class="mainmenulink" href="https://www.embird.net/studio/manual/4000portrait.htm" title="How to Digitize Portrait">How to Digitize a Portrait - Tutorial</a></div>
+<div class="mainmenuitem"><a class="mainmenulink" href="https://www.embird.net/studio/manual/0700hw_vectorgraphics.htm" title="How to Digitize Vector Graphics">How to Digitize a Vector Graphics - Tutorial</a></div>
+<div class="mainmenuitem"><a class="mainmenulink" href="https://www.embird.net/studio/manual/0850text.htm" title="How to Digitize Lettering">How to Digitize Lettering - Tutorial</a></div>
+<div class="mainmenuitem"><a class="mainmenulink" href="https://www.embird.net/studio/manual/0825freehand.htm" title="How to Digitize with Freehand Tool">How to Digitize with Freehand Tool - Tutorial</a></div>
+<div class="mainmenuitem"><a class="mainmenulink" href="https://www.embird.net/sw/embird/tutorial/convert/convert.htm" title="Files Conversion">Embroidery Files Conversion - Tutorial</a></div>
+<div class="mainmenuitem"><a class="mainmenulink" href="https://www.embird.net/sw/embird/tutorial/autospl2/autospl2.htm" title="Auto Split Design">How to Auto-Split Design Along Hoop Boundaries</a></div>
+<div class="mainmenuitem"><a class="mainmenulink" href="https://www.embird.net/software-teachers" title="List of Embird teachers">Teachers</a></div>
+</div> 
+
+
+<div id="menusupport" style="display:none;">
+<div class="mainmenuitem"><a class="mainmenulink" href="https://www.embird.net/faq.htm" title="Frequently asked questions about Embird embroidery software">FAQ</a></div>
+<div class="mainmenuitem"><a class="mainmenulink" href="https://www.embird.net/messages.htm" title="Check the status of delivery to your e-mail address">Delivery Status</a></div>
+<div class="mainmenuitem"><a class="mainmenulink" href="https://www.embird.net/contact.htm" title="BALARAD, s.r.o. contact addresses">Contact Us</a></div>
+</div>
+
+</div> 
+ 
+<!--webbot bot="Include" endspan i-checksum="15690" --> 
+
+<ul class="xbc" itemscope itemtype="https://schema.org/BreadcrumbList">
+<li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+   <a itemprop="item" href="https://www.embird.net"><span itemprop="name">Machine Embroidery</span></a><!--webbot bot="Include" U-Include="../../bc_position0.htm" TAG="BODY" startspan --><span><meta itemprop="position" content="0" /></span><!--webbot bot="Include" endspan i-checksum="60386" --></li>
+<li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+   <a itemprop="item" href="https://www.embird.net/machine-embroidery-software"><span itemprop="name">Embroidery Software</span></a><!--webbot bot="Include" U-Include="../../bc_position1.htm" TAG="BODY" startspan --><span><meta itemprop="position" content="1" /></span><!--webbot bot="Include" endspan i-checksum="60388" --></li>   
+<li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+   <a itemprop="item" href="https://www.embird.net/embroidery-digitizing"><span itemprop="name">Embroidery Digitizing</span></a><!--webbot bot="Include" U-Include="../../bc_position2.htm" TAG="BODY" startspan --><span><meta itemprop="position" content="2" /></span>
+<!--webbot bot="Include" endspan i-checksum="61414" --></li>      
+<li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+   <a itemprop="item" href="https://www.embird.net/digitizing-tools"><span itemprop="name">Digitizing Tools</span></a><!--webbot bot="Include" U-Include="../../bc_position3.htm" TAG="BODY" startspan --><span><meta itemprop="position" content="3" /></span><!--webbot bot="Include" endspan i-checksum="60392" --></li>      
+<li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+   <span itemprop="name">Import Vector Graphics</span><!--webbot bot="Include" U-Include="../../bc_position4.htm" TAG="BODY" startspan --><span><meta itemprop="position" content="4" /></span><!--webbot bot="Include" endspan i-checksum="60394" --></li>
+</ul>
+
+<!--webbot bot="Include" U-Include="../../sw/embird/tutorial/bookmark.htm" TAG="BODY" startspan --> 
+  
+<div class="xbookmark" style="z-index:50; position:fixed; left:0em; top:50%; transform: translate(0%, -50%); box-shadow:4px 4px 8px rgba(0,0,0,0.15); border-bottom:1px solid rgba(0,0,0,0.25); border-right:1px solid rgba(0,0,0,0.25); padding:15px; background-color:rgb(220,220,200); border-radius:0px 20px 20px 0px;">
+
+<div>
+<a href="https://www.facebook.com/embird.software"  title="Follow Embird on Facebook" target="_blank" rel="noreferrer"><img class="noBord xclear xblock" src="https://www.embird.net/grpx/facebook.png" width="36" height="36" alt="Follow Embird on Facebook"></a>
+</div>
+
+<div>
+<a href="https://twitter.com/EmbirdSoftware"  title="Follow Embird on Twitter" target="_blank" rel="noreferrer"><img class="noBord xclear xblock" style="margin-top:0.5em;" src="https://www.embird.net/grpx/twitter.png" width="36" height="36" alt="Follow Embird on Twitter"></a>
+</div>
+
+<div>
+<a href="https://instagram.com/EmbirdSoftware"  title="Follow Embird on Instagram" target="_blank" rel="noreferrer"><img class="noBord xclear xblock" style="margin-top:0.5em;" src="https://www.embird.net/grpx/instagram.png" width="36" height="36" alt="Follow Embird on Instagram"></a>
+</div>
+
+<div>
+<a href="https://www.youtube.com/c/EmbirdEmbroiderySoftware/videos"  title="Follow Embird on YouTube" target="_blank" rel="noreferrer"><img class="noBord xclear xblock" style="margin-top:0.5em;" src="https://www.embird.net/grpx/youtube.png" width="36" height="36" alt="Follow Embird on YouTube"></a>
+</div>
+
+<div>
+<a href="https://sk.pinterest.com/embirdsoftware"  title="Follow Embird on Pinterest" target="_blank" rel="noreferrer"><img class="noBord xclear xblock" style="margin-top:0.5em;" src="https://www.embird.net/grpx/pinterest.png" width="36" height="36" alt="Follow Embird on Pinterest"></a>
+</div>
+
+
+
+</div>
+
+<!--webbot bot="Include" endspan i-checksum="59015" --> 
+  
+<div itemscope itemtype="https://schema.org/Article" class="xmain">
+<!--webbot bot="Include" U-Include="../../sw/embird/tutorial/schema_howto.htm" TAG="BODY" startspan -->
+  <div>
+
+   <meta itemprop="name" content="Tutorials for Embird Machine Embroidery and Digitizing Software" />
+   <div itemscope itemprop="author" itemtype="https://schema.org/Organization">
+      <meta itemprop="name" content="BALARAD, s.r.o." />
+   </div>
+   <meta itemprop="keywords" content="embroidery,digitizing,customizing,machine embroidery,embroidery design,embroidery digitizing,embroidery digitizer" />      
+   <div itemscope itemprop="about" itemtype="https://schema.org/SoftwareApplication">
+      <meta itemprop="name" content="Embird Modular Software Suite" />
+      <meta itemprop="applicationCategory" content="Machine Embroidery and Digitizing Software" />
+      <meta itemprop="operatingSystem" content="Windows" />
+      <div itemscope itemprop="author" itemtype="https://schema.org/Organization">
+        <meta itemprop="name" content="BALARAD, s.r.o." />
+      </div>
+      <meta itemprop="screenshot" content="https://www.embird.net/store/editorscr.png" /> 
+      
+      <!-- offers --> 
+      <div itemscope itemprop="offers" itemtype="https://schema.org/Offer">
+        <meta itemprop="url" content="https://www.embird.net/eshop.htm#!/Discounted-Embird-Embroidery-Software-Bundle/p/382973828/category=116780881" /> 
+        <meta itemprop="availability" content="https://schema.org/InStock" />        
+        <meta itemprop="itemCondition" content="https://schema.org/NewCondition"> 
+        <meta itemprop="image" content="https://www.embird.net/store/bundle.png" /> 
+        <meta itemprop="image" content="https://www.embird.net/store/editorscr.png" /> 
+        <meta itemprop="image" content="https://www.embird.net/store/studioscr.png" /> 
+        <meta itemprop="image" content="https://www.embird.net/store/fontenginescr.png" />        
+        <div itemscope itemprop="priceSpecification" itemtype="https://schema.org/PriceSpecification">
+           <meta itemprop="minPrice" content="149">
+           <meta itemprop="price" content="149">
+           <meta itemprop="maxPrice" content="484">
+           <meta itemprop="priceCurrency" content="USD">
+           <meta itemprop="valueAddedTaxIncluded" content="False">
+        </div>
+      </div>
+      <!-- -->
+   </div>
+  
+
+  </div>
+  <!--webbot bot="Include" endspan i-checksum="39778" -->
+
+<object style="display:none;" type="application/x-oleobject">
+ 	 <param name="Keyword" value="CMX">
+ 	 <param name="Keyword" value="EMF">
+ 	 <param name="Keyword" value="Font Engine">
+ 	 <param name="Keyword" value="Import">
+ 	 <param name="Keyword" value="Vector Files">
+ 	 <param name="Keyword" value="WMF">
+ 	 <param name="Keyword" value="Convert">
+ </object>
+
+<h1 itemprop="heading"><span class="iconbefore embirdicon">Import of Vector Graphics</span></h1>
+
+<p class="talgnLeft">The <a href="2000mm_design.htm">main menu &gt; Import Vector File</a> function opens the vector graphic 
+file and converts it into the embroidery design automatically. It is intended to avoid redrawing of design (logo or 
+clipart) in Studio if it is already available in a vector file. This function is available only if user has registered 
+<span class="mybold"> Font Engine plug-in</span>.</p>
+
+<p class="talgnLeft">There are many graphic programs that produce various vector file formats and most of them can export vector graphics 
+into SVG, WMF or EMF files. SVG and EMF is more advanced than WMF and it can store color palette and curve objects too. It is 
+recommended to convert graphics to SVG format directly from the native vector format of the respective graphic program 
+(Corel Draw CDR, Adobe Illustrator AI and so on). Conversion to WMF (older format) and then from WMF to SVG (new 
+format) may cause the degradation of the graphics.</p> 
+
+<p>SVG and EMF file can contain various objects (raster bitmap, fonts, shapes, 
+curves, polygons, etc.). However, Studio can import only the curves, all other objects are ignored. To achieve best 
+results, please convert all objects like fonts and shapes to curves before attempting to import the SVG file into 
+Studio.</p>
+
+<p>If there is a bitmap picture in the file, Studio ignores it. It does not auto digitize the picture. Only the 
+vector (curves) objects are transformed into embroidery objects.</p>
+
+<p class="talgnLeft"><span class="mybold">Note:</span> not all vector files can be converted into good quality embroidery designs. Some vector 
+files may be auto-traced from scanned pictures and resulting vector file can have thousands of tiny objects instead of 
+low number of solid fills or smooth lines. Such vector files are not proper for conversion into embroidery designs. </p>
+
+<p class="talgnCenter"><img alt="Embird Studio - Vector Graphics" class="noBord" src="grpx/mask.gif" width="438" height="292"></p> 
+
+<p class="talgnCenter">Left-side picture is poor quality vector graphics composed of thousands of small objects auto-traced from 
+scanned picture.</p>
+
+<p class="talgnCenter">Right-side picture is good quality vector graphics with low number of large solid areas.</p>
+
+<h3 class="talgnLeft" style="margin-top:2em;">Stitching Parameters</h3>
+
+<p class="talgnLeft">Design imported from vector file usually needs some adjustments
+  of stitching <span class="mybold"> parameters</span> and/or object <span class="mybold">layout</span>.</p>
+
+<p class="talgnCenter"><img alt="Logo imported from EMF vector file" class="noBord" src="grpx/vg1.gif" width="400" height="121"></p> 
+
+<p class="talgnCenter">Design imported from EMF vector files. Stitches are not
+  generated yet.</p> 
+
+<p class="talgnLeft">After importing of design, select all objects and use <a
+  href="2150mm_object.htm">Generate Stitches</a> command. Studio analyzes the
+  shape and size of individual objects and fills them appropriate fill type.
+  However, it cannot identify the meaning of vector objects like human
+  digitizer. For example, program cannot identify objects that belong to the
+  lettering and it may fill each letter with other style, according to this
+  letter size or width. Thin elongated objects are filled with auto-column
+  (wider objects have pattern). Large objects use plain fill, either vertical or
+  horizontal, according to their shape.</p> 
+
+<p class="talgnCenter"><img alt="Generated stitches - some letters have pattern" class="noBord" src="grpx/vg2.gif" width="400" height="121"></p> 
+
+
+<p class="talgnCenter">Design with generated stitches.
+  All objects are filled with auto-column, but some have also a pattern texture.<br>
+  The pattern is applied to wider objects (magenta arrow) to split too long
+  stitches.<br>
+  &nbsp;Green arrow marks the white fill of bird that would look better with
+  plain fill instead of auto-column.</p> 
+
+
+<p class="talgnLeft">User may need to adjust the fill type <a href="3075par_fill.htm">parameters</a>.
+  In this case, the length of stitches is near the threshold that turns on the
+  pattern.
+  This is the reason why some letters have pattern and some do not. We should
+  either turn-on or turn-off the pattern for all letters. For later option,
+  select the letters <span class="mybold">E</span>, <span class="mybold">m</span> and <span class="mybold">r</span> and open the <a
+  href="3075par_fill.htm">Parameters window</a>.</p> 
+
+
+<p class="talgnCenter"><img alt="Parameters window - turn off the pattern option" class="noBord" src="grpx/vg3.gif" width="331" height="98"></p> 
+
+
+<p class="talgnCenter">Turning off the pattern option of auto-column fill in <a
+  href="3075par_fill.htm">Parameters window</a>.</p> 
+
+
+<p class="talgnCenter"><img alt="Parameters window - set plain fill instead of auto-column" class="noBord" src="grpx/vg4.gif" width="168" height="110"></p> 
+
+
+<p class="talgnCenter">Turning on the plain fill mode instead of auto-column mode for
+  white fill of the bird.</p> 
+
+<p class="talgnCenter"><img alt="Applying the new parameters" class="noBord" src="grpx/vg5.gif" width="400" height="121"></p> 
+
+
+<p class="talgnCenter">New parameters applied to stitches. All letters use satin
+  auto-column stitches without pattern.<br>
+  White fill of bird is now a plain fill, not auto-column.</p> 
+  
+<h3 class="talgnLeft" style="margin-top:2em;">Overlays in Vector Graphic and Embroidery</h3> 
+  
+<p class="talgnLeft">It is important to pay attention to <span class="mybold"> layers and overlays</span> of
+  objects imported from vector files. Unlike graphic, embroidery is very
+  sensitive to use of layers. On places with multiple layers (overlays), the
+  stitches are sewn on top of the previous stitches and may spoil the embroidery
+  if density becomes to high.&nbsp;</p> 
+  
+<p class="talgnLeft"> You should visually check the overlapped areas for too many
+  layers. The largest part of design should be single layer only. Where
+  different objects overlap, try to keep 2 layers overlay on most places, or 3 layers
+  overlay maximum if it is not possible to avoid it.&nbsp;</p> 
+  
+<p class="talgnLeft">Layers in this case mean dense cover stitching, not underlays or
+  connection paths. Underlay is loose stitching that helps to stabilize the
+  design against thread pull and push effect, but it does not contribute to
+  overall density very much. <a href="0225connection.htm">Connections</a> are
+  stitch paths (often hidden beneath the other objects) used to avoid trims
+  between objects. Both underlays and connections can be regarded as layers, but
+  they are usually not significant when investigating density of cover layers.</p> 
+  
+<p class="talgnCenter"><img alt="Overlays of areas on imported vector graphic" class="noBord" src="grpx/vg6.gif" width="400" height="150"></p>   
+
+
+<p class="talgnCenter">Illustration of overlays in imported design.<br>
+  Left: white fill (highlighted) sticks out under the black, orange and blue
+  objects.<br>
+  Center: orange and blue objects (highlighted) overlap the white fill.<br>
+  Right: black objects (highlighted) overlap the white fill and on a very small
+  area also the blue and orange objects.</p>   
+
+
+<p class="talgnLeft">Missing or very small overlay is an error just as the too heavy
+  overlay. Pull of the thread causes gaps between objects on places with
+  insufficient overlay.</p>   
+
+<p class="talgnLeft">If there are too many layers or too large overlays in the
+  design, they should be removed or edited to achieve good sew-out of design.
+  Studio provides a quick way to check the density of stitches. Use tabs at
+  bottom of the Studio screen to switch to <a href="0325displaymodes.htm">D-map
+  (density map) or X-ray view mode</a> to analyze the density layout. Stitches
+  must be generated first, otherwise these view modes do not work.</p>   
+
+<p class="talgnCenter"><img alt="X-ray view of design to detect high density areas" class="noBord" src="grpx/vg7.gif" width="292" height="124"></p>  
+
+<p class="talgnCenter">The <a href="0325displaymodes.htm">X-ray view mode</a> allows
+  to detect areas of critical (too high) density.</p>  
+
+<p class="talgnLeft"><span class="mybold">Please note:</span> it is also possible to export design from Studio to graphic vector format to avoid 
+redrawing of design in graphic software. Please use <a href="2000mm_design.htm">main menu &gt; Design &gt; Export</a> 
+command.</p>
+
+</div>
+<!-- main -->
+
+<!--webbot bot="Include" U-Include="../../sw/embird/tutorial/tutfooter.htm" TAG="BODY" startspan --> 
+  
+<div id="tutorialcontents" class="mrgT200">
+ <p class="talgnCenter"><a href="https://www.embird.net/machine-embroidery-tutorials" title="Embird Tutorials">Back to Embird Tutorial Contents</a></p>
+</div>
+
+
+<!--webbot bot="Include" endspan i-checksum="53078" --> 
+  
+</body>
+
+</html>

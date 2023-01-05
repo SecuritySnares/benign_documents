@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" lang="en-us" xml:lang="en-us" class="_Skins_SideNavigationSkin2021" data-mc-search-type="Stem" data-mc-help-system-file-name="OnlineHelp.xml" data-mc-path-to-help-system="../../../../" data-mc-output-analytics-server="https://api.madcapcentral.com/" data-mc-output-analytics-topic-id="1xBCeJNnhjBcwlFchbzi6HejSJlsMbFfnLyhRMlkEff31qHThRMGy9zRpWENixWFOb6K1sEDZ/lzbHMYGA9f2A/IQWXxT7UEwHWsNX4VtGEcv3R8PE8BGeR3njMgQR6hzkSFKyBzDTb4TWRgDrj+A+PUA0muY34mdbD9EChwQ67P64vZAp8qSDrufiGMHbXQQol6ueQldno=" data-mc-has-content-body="True" data-mc-toc-path="General Features (Core)|Universal Profile|Actions" data-mc-target-type="WebHelp2" data-mc-runtime-file-type="Topic;Default" data-mc-preload-images="false" data-mc-in-preview-mode="false">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="msapplication-config" content="../../../../Skins/Favicons/browserconfig.xml" />
+        <link rel="apple-touch-icon" sizes="180x180" href="../../../../Skins/Favicons/apple-touch-icon.png" />
+        <link rel="shortcut icon" href="../../../../Skins/Favicons/favicon-32x32.png" />
+        <link rel="icon" sizes="96x96" href="../../../../Skins/Favicons/favicon-96x96.png" />
+        <link rel="icon" sizes="32x32" href="../../../../Skins/Favicons/favicon-32x32.png" />
+        <link rel="icon" sizes="558x558" href="../../../../Skins/Favicons/C_Logo.png" /><title>Action Item - Forms</title>
+        <!-- WalkMe Snippet -->
+        <!-- Project Information
+		*
+		* Tracking for Google Analytics
+		*
+		* Tracking script for Google Analytics in order to:
+		* - Get some statistics
+		* - Create some reports
+		*
+		* Compatible HTML5 / CSS3 / Javascript / JQuery
+		*
+		* LICENSE: This source file is subject to version v2.1.1 of the Microsoft JQuery license
+		* that is available through the world-wide-web at the following URI:
+		* http://ajax.aspnetcdn.com/ajax/jQuery/jquery-2.1.1.js.   immediately.
+		*
+		* @category   Google Analytics tracking
+		* @package    Online Help Master Page
+		* @author     Laurent Bordier <lbordier@csod.com>
+		* @author     Another Author <another@example.com>
+		* @copyright  2014 Cornerstone OnDemand
+		* @license    TBD
+		* @version    SVN: v1.0.a
+		* @link       https://help.csod.com
+		* @see        
+		* @since      File available since Release v1.0.a
+		* @deprecated File deprecated in release: N/A
+		* 
+		*
+		* ===== Comments =====
+		* Open the Master Page in the text editor and paste 
+		* the Tracking Code before the </head> tag and save.
+		-->
+        <!--The below is added for Google Indexing-->
+        <!-- removed per David Flor on 8/14
+        <noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-W3HV97" height="0" width="0" style="display:none;visibility:hidden"></iframe>
+        </noscript>
+		-->
+        <!-- End Google Tag Manager -->
+        <!-- Added per David Flor on 8/14/2019-->
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <link href="../../../../Skins/Default/Stylesheets/Slideshow.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../../../Skins/Default/Stylesheets/TextEffects.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../../../Skins/Default/Stylesheets/Topic.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../../../Skins/Default/Stylesheets/Components/Styles.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../../../Skins/Default/Stylesheets/Components/Tablet.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../../../Skins/Default/Stylesheets/Components/Mobile.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../../../Skins/Fluid/Stylesheets/foundation.6.2.3.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../../../Skins/Fluid/Stylesheets/Styles.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../../../Skins/Fluid/Stylesheets/Tablet.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../../../Skins/Fluid/Stylesheets/Mobile.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../../Resources/Stylesheets/MasterStylesheet2021.css" rel="stylesheet" type="text/css" />
+        <style>/*&lt;meta /&gt;*/
+
+.button.print-button
+{
+	-pie-background: url('../../../../Skins/Default/Stylesheets/Images/Print Icon 2021 - 30.png') no-repeat center center, linear-gradient(transparent, transparent);
+}
+
+.button.expand-all-button
+{
+	-pie-background: url('../../../../Skins/Default/Stylesheets/Images/Expand Icon 2021 - 30.png') no-repeat center center, linear-gradient(transparent, transparent);
+}
+
+.button.remove-highlight-button
+{
+	-pie-background: url('../../../../Skins/Default/Stylesheets/Images/Remove Highlight Icon 2021 - 30.png') no-repeat center center, linear-gradient(transparent, transparent);
+}
+
+.button.separator-button
+{
+	-pie-background: linear-gradient(transparent, transparent);
+}
+
+.button.previous-topic-button
+{
+	-pie-background: url('../../../../Skins/Default/Stylesheets/Images/Left Icon 2021 - 30.png') no-repeat center center, linear-gradient(transparent, transparent);
+}
+
+.button.next-topic-button
+{
+	-pie-background: url('../../../../Skins/Default/Stylesheets/Images/Right Icon 2021 - 30.png') no-repeat center center, linear-gradient(transparent, transparent);
+}
+
+.button.collapse-all-button
+{
+	-pie-background: url('../../../../Skins/Default/Stylesheets/Images/Collapse Icon 2021 - 30.png') no-repeat center center, linear-gradient(transparent, transparent);
+}
+
+.needs-pie
+{
+	behavior: url('../../../../Resources/Scripts/PIE-no-motw.htc');
+}
+
+</style>
+        <link href="../../../Resources/TableStyles/PermissionTableHeaderStyle2019.css" rel="stylesheet" data-mc-stylesheet-type="table" />
+        <link href="../../../Resources/TableStyles/PermissionTableRowStyle.css" rel="stylesheet" data-mc-stylesheet-type="table" />
+        <link rel="apple-touch-icon" sizes="180x180" href="../../../../Skins/Favicons/apple-touch-icon.png" />
+        <link rel="shortcut icon" href="../../../../Skins/Favicons/favicon-32x32.png" />
+        <link rel="icon" sizes="96x96" href="../../../../Skins/Favicons/favicon-96x96.png" />
+        <link rel="icon" sizes="32x32" href="../../../../Skins/Favicons/favicon-32x32.png" />
+        <link rel="icon" sizes="558x558" href="../../../../Skins/Favicons/C_Logo.png" />
+        <script src="../../../../Resources/Scripts/jquery.min.js" type="text/javascript">
+        </script>
+        <script src="../../../../Resources/Scripts/purify.min.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../../../../Resources/Scripts/require.min.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../../../../Resources/Scripts/require.config.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../../../../Resources/Scripts/foundation.6.2.3_custom.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../../../../Resources/Scripts/plugins.min.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../../../../Resources/Scripts/MadCapAll.js" type="text/javascript" defer="defer">
+        </script>
+        <script type="text/javascript">/* <![CDATA[ */(function() {var walkme = document.createElement('script'); walkme.type = 'text/javascript'; walkme.async = true; walkme.src = 'https://cdn.walkme.com/users/0917eccc53bd427a92a91a128ac883f5/walkme_0917eccc53bd427a92a91a128ac883f5_https.js'; var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(walkme, s); window._walkmeConfig = {smartLoad:true}; })();/* ]]> */</script>
+        <script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-653401-51">
+        </script>
+        <script>/* <![CDATA[ */
+			window.dataLayer = window.dataLayer || [];
+			function gtag(){dataLayer.push(arguments);}
+			gtag('js', new Date());
+			gtag('config', 'UA-653401-51');
+		/* ]]> */</script>
+    </head>
+    <body>
+        <div class="foundation-wrap off-canvas-wrapper">
+            <div class="off-canvas-wrapper-inner" data-off-canvas-wrapper="">
+                <aside class="off-canvas position-right" role="navigation" id="offCanvas" data-off-canvas="" data-position="right" data-mc-ignore="true">
+                    <ul class="off-canvas-accordion vertical menu off-canvas-list" data-accordion-menu="" data-mc-back-link="Back" data-mc-css-tree-node-expanded="is-accordion-submenu-parent" data-mc-css-tree-node-collapsed="is-accordion-submenu-parent" data-mc-css-sub-menu="vertical menu is-accordion-submenu nested" data-mc-include-indicator="False" data-mc-include-icon="False" data-mc-include-parent-link="True" data-mc-include-back="False" data-mc-defer-expand-event="True" data-mc-expand-event="click.zf.accordionMenu" data-mc-toc="True">
+                    </ul>
+                </aside>
+                <div class="off-canvas-content inner-wrap" data-off-canvas-content="">
+                    <div data-sticky-container="" class="title-bar-container">
+                        <nav class="title-bar tab-bar sticky" role="banner" data-sticky="" data-options="marginTop:0" style="width:100%" data-sticky-on="only screen and (max-width: 1279px)" data-mc-ignore="true"><a class="skip-to-content fluid-skip showOnFocus" href="#">Skip To Main Content</a>
+                            <div class="middle title-bar-section outer-row clearfix">
+                                <div class="menu-icon-container relative clearfix">
+                                    <div class="central-account-wrapper">
+                                        <div class="central-dropdown"><a class="central-account-drop"><span class="central-account-image"></span><span class="central-account-text">Account</span></a>
+                                            <div class="central-dropdown-content"><a class="MCCentralLink central-dropdown-content-settings">Settings</a>
+                                                <hr class="central-separator" /><a class="MCCentralLink central-dropdown-content-logout">Logout</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <button class="menu-icon" aria-label="Show Navigation Panel" data-toggle="offCanvas"><span></span>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="title-bar-layout outer-row">
+                                <div class="logo-wrapper"><a class="logo" href="../../../Resources/Homepage/Homepage_2021.htm" title="Cornerstone Online Help Homepage" alt="Cornerstone Online Help Homepage"></a>
+                                </div>
+                                <div class="navigation-wrapper nocontent">
+                                    <ul class="navigation clearfix" role="navigation" data-mc-css-tree-node-has-children="has-children" data-mc-css-sub-menu="sub-menu" data-mc-expand-event="mouseenter" data-mc-top-nav-menu="True" data-mc-max-depth="3" data-mc-include-icon="False" data-mc-include-indicator="False" data-mc-include-children="True" data-mc-include-siblings="True" data-mc-include-parent="True" data-mc-toc="True">
+                                        <li class="placeholder" style="visibility:hidden"><a>placeholder</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="central-account-wrapper">
+                                    <div class="central-dropdown"><a class="central-account-drop"><span class="central-account-image"></span><span class="central-account-text">Account</span></a>
+                                        <div class="central-dropdown-content"><a class="MCCentralLink central-dropdown-content-settings">Settings</a>
+                                            <hr class="central-separator" /><a class="MCCentralLink central-dropdown-content-logout">Logout</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="nav-search-wrapper">
+                                    <div class="nav-search row">
+                                        <form class="search" action="#">
+                                            <div class="search-bar search-bar-container needs-pie">
+                                                <input class="search-field needs-pie" type="search" aria-label="Search Field" placeholder="Search" />
+                                                <div class="search-filter-wrapper"><span class="invisible-label" id="search-filters-label">Filter: </span>
+                                                    <div class="search-filter" aria-haspopup="true" aria-controls="sf-content" aria-expanded="false" aria-label="Search Filter" title="All Files" role="button" tabindex="0">
+                                                    </div>
+                                                    <div class="search-filter-content" id="sf-content">
+                                                        <ul>
+                                                            <li>
+                                                                <button class="mc-dropdown-item" aria-labelledby="search-filters-label filterSelectorLabel-00001"><span id="filterSelectorLabel-00001">All Files</span>
+                                                                </button>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                                <div class="search-submit-wrapper" dir="ltr">
+                                                    <div class="search-submit" title="Search" role="button" tabindex="0"><span class="invisible-label">Submit Search</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </nav>
+                    </div>
+                    <div class="main-section">
+                        <div class="row outer-row sidenav-layout">
+                            <nav class="sidenav-wrapper">
+                                <div class="sidenav-container">
+                                    <ul class="off-canvas-accordion vertical menu sidenav" data-accordion-menu="" data-mc-css-tree-node-expanded="is-accordion-submenu-parent" data-mc-css-tree-node-collapsed="is-accordion-submenu-parent" data-mc-css-sub-menu="vertical menu accordion-menu is-accordion-submenu nested" data-mc-include-indicator="False" data-mc-include-icon="False" data-mc-include-parent-link="False" data-mc-include-back="False" data-mc-defer-expand-event="True" data-mc-expand-event="click.zf.accordionMenu" data-mc-toc="True" data-mc-side-nav-menu="True">
+                                    </ul>
+                                </div>
+                            </nav>
+                            <div class="body-container">
+                                <div data-mc-content-body="True">
+                                    <!--The below is added for Google Indexing-->
+                                    <!-- Google Tag Manager -->
+                                    <!-- removed per David Flor on 8/14
+        <script>/*<![CDATA[*/(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+			new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+			j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+			'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+		})(window,document,'script','dataLayer','GTM-W3HV97');/*]]>*/</script>
+		-->
+                                    <!-- End Google Tag Manager -->
+                                    <!-- The below is the AdRoll tracking pixel to exclude referral traffic from help.csod.com -->
+                                    <!--REMOVED with approval from David Flor on 8/14/2019
+        <script type="text/javascript">/*<![CDATA[*/		
+			adroll_adv_id = "LRPEQNF2JJE3DG6YXKHH6W";
+			adroll_pix_id = "7WTGIGWMMBBLJIAAOWRM2W";
+			/* OPTIONAL: provide email to improve user identification */
+			/* adroll_email = "username@example.com"; */
+			(function () {
+			var _onload = function(){
+			if (document.readyState && !/loaded|complete/.test(document.readyState)){setTimeout(_onload, 10);return}
+			if (!window.__adroll_loaded){__adroll_loaded=true;setTimeout(_onload, 50);return}
+			var scr = document.createElement("script");
+			var host = (("https:" == document.location.protocol) ? "https://s.adroll.com" : "http://a.adroll.com");
+			scr.setAttribute('async', 'true');
+			scr.type = "text/javascript";
+			scr.src = host + "/j/roundtrip.js";
+			((document.getElementsByTagName('head') || [null])[0] ||
+			document.getElementsByTagName('script')[0].parentNode).appendChild(scr);
+			};
+			if (window.addEventListener) {window.addEventListener('load', _onload, false);}
+			else {window.attachEvent('onload', _onload)}
+			}());/*]]>*/</script>
+-->
+                                    <div class="userID"><a name="kanchor9268"></a>User Topic</div>
+                                    <div class="nocontent">
+                                        <div class="MCBreadcrumbsBox_0 breadcrumbs" role="navigation" aria-label="Breadcrumbs" data-mc-breadcrumbs-divider=" &gt; " data-mc-breadcrumbs-count="10" data-mc-toc="True"><span class="MCBreadcrumbsPrefix"> </span>
+                                        </div>
+                                    </div>
+                                    <div class="buttons popup-container clearfix topicToolbarProxy _Skins_SideNavigation_TopicToolbar_Admin2021 mc-component nocontent" style="mc-topic-toolbar-items: ;">
+                                        <div class="button-group-container-left">
+                                            <button class="button needs-pie print-button" title="Print">
+                                                <img alt="Print" src="../../../../Skins/Default/Stylesheets/Images/transparent.gif" class="invisible-label" />
+                                            </button>
+                                            <button class="button needs-pie expand-all-button" data-state1-class="expand-all-button" data-state2-class="collapse-all-button" data-state2-title="Collapse all" title="Expand all" data-state1-title="Expand all">
+                                                <img alt="Expand all" src="../../../../Skins/Default/Stylesheets/Images/transparent.gif" class="invisible-label" />
+                                            </button>
+                                            <button class="button needs-pie remove-highlight-button" title="Remove Highlights">
+                                                <img src="../../../../Skins/Default/Stylesheets/Images/transparent.gif" class="invisible-label" />
+                                            </button>
+                                            <div class="button-separator">
+                                            </div>
+                                            <button class="button needs-pie previous-topic-button" title="Navigate previous">
+                                                <img alt="Navigate previous" src="../../../../Skins/Default/Stylesheets/Images/transparent.gif" class="invisible-label" />
+                                            </button>
+                                            <button class="button needs-pie next-topic-button" title="Navigate next">
+                                                <img alt="Navigate next" src="../../../../Skins/Default/Stylesheets/Images/transparent.gif" class="invisible-label" />
+                                            </button>
+                                        </div>
+                                    </div>
+                                    <div role="main" id="mc-main-content">
+                                        <h1>Action Item - Forms</h1>
+                                        <p>For organizations using Forms, the Action Items page displays the form tasks for the user to complete. </p>
+                                        <p style="text-align: left;"><a name="kanchor9269"></a>Forms are available to organizations that are using Onboarding or Cornerstone HR. For information on Training Forms, select the following link: <a href="../../../Certifications_and_Forms/Forms/Forms_Management.htm" class="MCXref xref">See Training Forms Administration.</a></p>
+                                        <p>To access the Action Items, go to <span class="navinstructions"><a name="kanchor9270"></a>Universal Profile &gt; Actions</span>. <span class="note"><b>Note:</b> The location of this link is configurable by your system administrator.</span></p>
+                                        <div class="MCDropDown MCDropDown_Closed dropDown dropDownPermissions"><span class="MCDropDownHead dropDownHead"><a href="#" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCDropDownHotSpot_Permissions MCHotSpotImage" aria-expanded="false"><img class="MCDropDown_Image_Icon" src="../../../../Skins/Default/Stylesheets/Images/transparent.gif" height="16" width="16" alt="Closed" data-mc-alt2="Open" />Permissions</a></span>
+                                            <div class="MCDropDownBody dropDownBody">
+                                                <table style="width: 100%;mc-table-style: url('../../../Resources/TableStyles/PermissionTableHeaderStyle2019.css');" class="TableStyle-PermissionTableHeaderStyle2019" cellspacing="0">
+                                                    <col class="TableStyle-PermissionTableHeaderStyle2019-Column-Column1" style="width: 25%;" />
+                                                    <col class="TableStyle-PermissionTableHeaderStyle2019-Column-Column2" style="width: 60%;" />
+                                                    <col class="TableStyle-PermissionTableHeaderStyle2019-Column-Column3" style="width: 15%;" />
+                                                    <tbody>
+                                                        <tr class="TableStyle-PermissionTableHeaderStyle2019-Body-Body1">
+                                                            <td class="TableStyle-PermissionTableHeaderStyle2019-BodyB-Column1-Body1">PERMISSION NAME</td>
+                                                            <td class="TableStyle-PermissionTableHeaderStyle2019-BodyB-Column2-Body1">PERMISSION DESCRIPTION</td>
+                                                            <td class="TableStyle-PermissionTableHeaderStyle2019-BodyA-Column3-Body1">CATEGORY</td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+                                                <table style="width: 100%;mc-table-style: url('../../../Resources/TableStyles/PermissionTableRowStyle.css');" class="TableStyle-PermissionTableRowStyle" cellspacing="0">
+                                                    <col class="TableStyle-PermissionTableRowStyle-Column-Column1" />
+                                                    <col class="TableStyle-PermissionTableRowStyle-Column-Column2" />
+                                                    <col class="TableStyle-PermissionTableRowStyle-Column-Column3" />
+                                                    <tbody>
+                                                        <tr class="TableStyle-PermissionTableRowStyle-Body-Body1">
+                                                            <td class="TableStyle-PermissionTableRowStyle-BodyB-Column1-Body1">Action Items - View</td>
+                                                            <td class="TableStyle-PermissionTableRowStyle-BodyB-Column2-Body1"><a name="kanchor9271"></a><a name="kanchor9272"></a><a name="kanchor9273"></a>Grants ability to view action items on the Action Items page and in the Your Action Items widget. Users without this permission cannot access the Action Items page. This permission can be constrained by Employee Relationship, OU, User's OU, User's Self and Subordinates, and User's Self. This is an end user permission.</td>
+                                                            <td class="TableStyle-PermissionTableRowStyle-BodyA-Column3-Body1">Universal Profile</td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+                                                <table style="width: 100%;mc-table-style: url('../../../Resources/TableStyles/PermissionTableRowStyle.css');" class="TableStyle-PermissionTableRowStyle" cellspacing="0">
+                                                    <col class="TableStyle-PermissionTableRowStyle-Column-Column1" />
+                                                    <col class="TableStyle-PermissionTableRowStyle-Column-Column2" />
+                                                    <col class="TableStyle-PermissionTableRowStyle-Column-Column3" />
+                                                    <tbody>
+                                                        <tr class="TableStyle-PermissionTableRowStyle-Body-Body1">
+                                                            <td class="TableStyle-PermissionTableRowStyle-BodyB-Column1-Body1">Action Items - Forms</td>
+                                                            <td class="TableStyle-PermissionTableRowStyle-BodyB-Column2-Body1">Grants ability to view Form actions via the Universal Profile - Actions page or the Welcome/Custom page Actions widget. This permission cannot be constrained.</td>
+                                                            <td class="TableStyle-PermissionTableRowStyle-BodyA-Column3-Body1">Universal Profile</td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+                                                <table style="width: 100%;mc-table-style: url('../../../Resources/TableStyles/PermissionTableRowStyle.css');" class="TableStyle-PermissionTableRowStyle" cellspacing="0">
+                                                    <col class="TableStyle-PermissionTableRowStyle-Column-Column1" />
+                                                    <col class="TableStyle-PermissionTableRowStyle-Column-Column2" />
+                                                    <col class="TableStyle-PermissionTableRowStyle-Column-Column3" />
+                                                    <tbody>
+                                                        <tr class="TableStyle-PermissionTableRowStyle-Body-Body1">
+                                                            <td class="TableStyle-PermissionTableRowStyle-BodyB-Column1-Body1">Form Completion - View and Edit OU and Employee Relation Fields</td>
+                                                            <td class="TableStyle-PermissionTableRowStyle-BodyB-Column2-Body1"><a name="kanchor9274"></a>Allow users to view and modify organizational unit (OU) and employee relation fields when completing a form that contains the fields. The constraints on this permission determine which fields the user can view and edit when completing a form. This permission can be constrained by OU, User's OU, User, User Self and Subordinates, and User Subordinates. This is an end user permission.</td>
+                                                            <td class="TableStyle-PermissionTableRowStyle-BodyA-Column3-Body1">Core</td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+                                                <table style="width: 100%;mc-table-style: url('../../../Resources/TableStyles/PermissionTableRowStyle.css');" class="TableStyle-PermissionTableRowStyle" cellspacing="0">
+                                                    <col class="TableStyle-PermissionTableRowStyle-Column-Column1" />
+                                                    <col class="TableStyle-PermissionTableRowStyle-Column-Column2" />
+                                                    <col class="TableStyle-PermissionTableRowStyle-Column-Column3" />
+                                                    <tbody>
+                                                        <tr class="TableStyle-PermissionTableRowStyle-Body-Body1">
+                                                            <td class="TableStyle-PermissionTableRowStyle-BodyB-Column1-Body1"><a name="kanchor9275"></a>Snapshot Main - View</td>
+                                                            <td class="TableStyle-PermissionTableRowStyle-BodyB-Column2-Body1">Enables user to view the Snapshot page for users within their permission constraints. This permission can be constrained by Employee Relationship, OU, User's OU, User Self and Subordinates, User, User's Self, User's Manager, User's Superiors, User's Subordinates, and User's Direct Reports. <span class="note"><b>Best Practice:</b> For most users, this permission should be constrained by User Self and Subordinates.</span></td>
+                                                            <td class="TableStyle-PermissionTableRowStyle-BodyA-Column3-Body1">Universal Profile</td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+                                            </div>
+                                        </div>
+                                        <h2 class="Topic"><a name="kanchor9276"></a>View Team</h2>
+                                        <p>The View Team flyout allows managers<MadCap:conditionalText data-mc-conditions="Primary.Subscriptions-Exclude">, approvers, and custom relationships</MadCap:conditionalText> to quickly navigate between subordinates' profiles and transcripts. <MadCap:conditionalText data-mc-conditions="Primary.Subscriptions-Exclude">When enabled, the View Team flyout is available to managers </MadCap:conditionalText><MadCap:conditionalText data-mc-conditions="Primary.Subscriptions-Exclude"><MadCap:conditionalText data-mc-conditions="Primary.Subscriptions-Exclude">and dotted line managers </MadCap:conditionalText></MadCap:conditionalText><MadCap:conditionalText data-mc-conditions="Primary.Subscriptions-Exclude">on all pages of their Universal Profile and the Universal Profile of their subordinates.</MadCap:conditionalText> This flyout displays the manager's reports visually.</p>
+                                        <p data-mc-conditions="Primary.Subscriptions-Exclude">The <span class="buttonname">View Team</span> button displays if enabled in the portal. <MadCap:conditionalText data-mc-conditions="Primary.Admin"><a name="kanchor9277"></a>Administrators may enable or disable this flyout via the My Team Dropdown section within Universal Profile General Preferences. <a href="../../../Preferences/Universal_Profile_Prefs/Universal_Profile_General_Preferences.htm" class="MCXref xref">See Universal Profile General Preferences.</a></MadCap:conditionalText></p>
+                                        <p><a href="../Universal_Profile_-_My_Team_Drop-down.htm" class="MCXref xref">See Universal Profile - View Team Flyout.</a>
+                                        </p>
+                                        <h2 class="Topic">Options</h2>
+                                        <p>An <span class="buttonname">Options</span><a name="kanchor9278"></a><a name="kanchor9279"></a> drop-down may be available on various pages of the Universal Profile. This menu may include options such as Assign Training and Create Goal. <a href="../Options/Options_Drop-down_Overview.htm" class="MCXref xref">See Universal Profile Options Drop-down Overview.</a></p>
+                                        <h2 class="Topic">Form Task Conditions</h2>
+                                        <p>Conditions for the task to appear on the Action Items page:</p>
+                                        <ul>
+                                            <li><a name="aanchor855"></a>
+                                                <MadCap:concept term="Learning" />The user must meet the availability criteria for the form.</li>
+                                            <li>The task start date or assignment date has been reached.</li>
+                                            <li>The task is not expired.</li>
+                                            <li data-mc-conditions="Primary.Admin">The Employee Onboarding functionality is enabled for the portal, allowing users to access and launch onboarding tasks.<ul><li data-mc-conditions="Primary.Admin">The visibility of onboarding tasks on the Actions tab is controlled by backend settings that are disabled by default. To enable the settings, contact <span class="mc-variable Primary.Global_Customer_Support variable">Global Customer Support</span>.</li></ul></li>
+                                        </ul>
+                                        <h2 class="Topic">Form Task Action Item Details</h2>
+                                        <p><a name="kanchor9280"></a>When an event action item is displayed on the Action Items page, the following is displayed for each action item:</p>
+                                        <ul>
+                                            <li>Color Strip - The left edge of the action item icon is color coded to represent proximity to the due date of the action item. For example, if the action item due date is past due, then the color strip is red to indicate that action is required immediately. If an action item due date is not eminent, then the color strip is green to indicate that action is not required immediately. <i>See the Color Strip Key section below for additional information.</i></li>
+                                            <li>Title - This displays the action item title. Click the action item title to perform an action that corresponds with the current status.</li>
+                                            <li>Due Date - This displays the action item due date.</li>
+                                            <li>Status - This displays the current status of the action item.</li>
+                                            <li>Priority Flag - This button allows users to mark action items as high priority. Priority can be helpful as a visual indicator to users. Also, action items can be filtered by priority from the Sort drop-down at the top of the page. When the priority flag is not selected, it is gray <img src="../../../Resources/Images/Action_Item_-_Priority_Flag_-_Not_Selected122.png" />. When the priority flag is selected, the action item is high priority and the flag is red <img src="../../../Resources/Images/Action_Item_-_Priority_Flag_-_Selected122.png" />.</li>
+                                        </ul>
+                                        <h2 class="Topic">Action Item Options</h2>
+                                        <p>The following options are available from the action item drop-down menu:</p>
+                                        <ul>
+                                            <li>Launch - Click this option to open the Training Details page for the form. This page provides details about the form and includes an option to launch the form. click the <span class="buttonname">Launch</span> button to open and complete the form. Users can save forms that are partially completed and continue them at a later time. Once the form is completed, click the <span class="buttonname">Submit</span> button. Once the form is submitted, the form is removed from the Actions tab.<MadCap:conditionalText data-mc-conditions="Primary.Admin,Primary.Manager"><a name="kanchor9281"></a> The Form Complete email is triggered, if the email is configured and active in Email Management.</MadCap:conditionalText><a name="kanchor9282"></a> For onboarding form tasks, if there are dependent tasks, then the applicant must complete the dependent tasks in order to complete the workflow. Completed tasks are removed from the Actions tab.</li>
+                                            <li><a name="kanchor9283"></a>Open - This option displays for uploaded file tasks. Uploaded file tasks require the user to fill out an uploaded document, and then submit the completed document. Click the <span class="link">Open</span> option in the drop-down to open the uploaded file task document and complete the document. Once the document is completed, the applicant can click the <span class="link">Mark Complete</span> option in the options drop-down for the task and mark the task as complete. Completed tasks are removed from the Actions tab. If there are dependent tasks, then the applicant must complete the dependent tasks in order to complete the workflow.</li>
+                                        </ul>
+                                        <p><span class="note"><b>Note:</b> If the user does not meet the availability criteria for the form, then a Restricted Access page displays. Users cannot launch forms for which they do not meet the availability criteria defined by the administrator.</span>
+                                        </p>
+                                        <h2 class="Topic">Color Strip Key</h2>
+                                        <p>The following colors are available:</p>
+                                        <ul>
+                                            <li><span class="field">Red </span>- Due today or past due</li>
+                                            <li><span class="field">Orange </span>- Due within the next seven days, not including today</li>
+                                            <li><span class="field">Green </span>- Due after seven days</li>
+                                        </ul>
+                                    </div>
+                                    <p>&#160;</p>
+                                    <table style="border-spacing: 2px 4px;width: 100%;border-top-style: solid;border-top-width: 1pt;border-top-color: #404040;margin-left: auto;margin-right: auto;">
+                                        <col style="width: 33%;" />
+                                        <col style="width: 33%;" />
+                                        <col style="width: 33%;" />
+                                        <tbody>
+                                            <tr>
+                                                <td><span style="font-size: 10pt; color: #7e828d;">Last Published: </span><span style="font-size: 10pt; color: #7e828d;" class="mc-variable System.ShortDate variable">12/9/2022</span>
+                                                </td>
+                                                <td style="text-align: center;"><span style="font-size: 10pt; color: #7e828d;" data-mc-conditions="Primary.Admin"><a href="https://csod.qualtrics.com/jfe/form/SV_5d5QogIWwq0WQkd" target="_blank">If you have suggestions for this Online Help article, please select this link.</a></span>
+                                                </td>
+                                                <td style="font-size: 8pt;text-align: right;"><span style="font-size: 10pt; color: #7e828d;">© 2022, Cornerstone OnDemand</span>
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div><a data-close="true"></a>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

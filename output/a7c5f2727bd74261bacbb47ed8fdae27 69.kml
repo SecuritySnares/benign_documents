@@ -1,0 +1,1066 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="Green_Infrastructure__Storm_Public_" id="Green_Infrastructure__Storm_Public_">
+	<SimpleField name="OBJECTID" type="int"></SimpleField>
+	<SimpleField name="Webmap" type="string"></SimpleField>
+	<SimpleField name="Entry" type="string"></SimpleField>
+	<SimpleField name="Owner" type="string"></SimpleField>
+	<SimpleField name="Address" type="string"></SimpleField>
+	<SimpleField name="links" type="string"></SimpleField>
+	<SimpleField name="picture" type="string"></SimpleField>
+</Schema>
+<Folder><name>Green_Infrastructure__Storm_Public_</name>
+  <Placemark>
+	<description>The bioretention facility is positioned at the entrance to the CHS Performing Arts Center and has a surface area of ~2,600 square feet. It treats stormwater runoff from a 4 acre drainage area, including a large portion of the CHS parking lot.  A palette of native grasses and plants make this biofilter a beautiful landscape amenity.  </description>
+	<ExtendedData><SchemaData schemaUrl="#Green_Infrastructure__Storm_Public_">
+		<SimpleData name="OBJECTID">1</SimpleData>
+		<SimpleData name="Webmap">Rain Garden / Bioretention</SimpleData>
+		<SimpleData name="Entry">Charlottesville High School (CHS) Bioretention</SimpleData>
+		<SimpleData name="Owner">Public (City)</SimpleData>
+		<SimpleData name="Address">1400 Melbourne Road</SimpleData>
+		<SimpleData name="picture">https://www.charlottesville.gov/ImageRepository/Document?documentId=3637</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-78.4771996887401,38.0529345600678</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<description>Azalea Park is a 23 acre neighborhood park, located along Moores Creek in the southwest corner of the City.  The stormwater wetlands have a .8 acre footprint, and treat stormwater runoff from 40 acres of the adjacent residential neighborhood.  The wetlands provide water quality enhancement, wildlife habitat, improved aesthetic values, and augment the City's urban tree canopy. </description>
+	<ExtendedData><SchemaData schemaUrl="#Green_Infrastructure__Storm_Public_">
+		<SimpleData name="OBJECTID">2</SimpleData>
+		<SimpleData name="Webmap">Stormwater Wetlands</SimpleData>
+		<SimpleData name="Entry">Azalea Park Stormwater Wetlands</SimpleData>
+		<SimpleData name="Owner">Public (City)</SimpleData>
+		<SimpleData name="Address">398 Old Lynchburg Road</SimpleData>
+		<SimpleData name="picture">https://www.charlottesville.gov/ImageRepository/Document?documentId=3628</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-78.513104698029,38.0104445503607</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<description>The roof of the Charlottesville City Hall and Police Department building, located on the historic Downtown Pedestrian Mall, was converted to a vegetated roof in 2008 when the roof was scheduled for replacement. The total vegetated area is 9,250 square feet.  In addition to soaking up and filtering stormwater runoff, the roof helps improve air quality and mitigate the urban heat island effect.</description>
+	<ExtendedData><SchemaData schemaUrl="#Green_Infrastructure__Storm_Public_">
+		<SimpleData name="OBJECTID">3</SimpleData>
+		<SimpleData name="Webmap">Green Roof</SimpleData>
+		<SimpleData name="Entry">City Hall Vegetated Roof</SimpleData>
+		<SimpleData name="Owner">Public (City)</SimpleData>
+		<SimpleData name="Address">606 East Market Street</SimpleData>
+		<SimpleData name="picture">https://www.charlottesville.gov/ImageRepository/Document?documentId=3643</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-78.4773106878217,38.03001455573</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<description>A 50,000 gallon rainwater harvesting system was installed at this City facility.  Stormwater is collected from several of the facility’s rooftops and used to wash the City’s fleet of public transportation buses, to flush toilets inside the facility, and fuel exterior hose bibs.  The system can provide close to 500,000 gallons of water every year.</description>
+	<ExtendedData><SchemaData schemaUrl="#Green_Infrastructure__Storm_Public_">
+		<SimpleData name="OBJECTID">4</SimpleData>
+		<SimpleData name="Webmap">Rainwater Harvesting</SimpleData>
+		<SimpleData name="Entry">Charlottesville Area Transit (CAT) Rainwater Harvesting </SimpleData>
+		<SimpleData name="Owner">Public (City)</SimpleData>
+		<SimpleData name="Address">1545 Avon Street Extended</SimpleData>
+		<SimpleData name="picture">https://www.charlottesville.gov/ImageRepository/Document?documentId=3635</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-78.4873316904704,38.0119325513078</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<description>A retention pond was installed as the last feature in the treatment train of stormwater practices when the CAT facility was constructed.</description>
+	<ExtendedData><SchemaData schemaUrl="#Green_Infrastructure__Storm_Public_">
+		<SimpleData name="OBJECTID">5</SimpleData>
+		<SimpleData name="Webmap">Retention Pond</SimpleData>
+		<SimpleData name="Entry">Charlottesville Area Transit (CAT) Retention Pond</SimpleData>
+		<SimpleData name="Owner">Public (City)</SimpleData>
+		<SimpleData name="Address">1545 Avon Street Extended</SimpleData>
+		<SimpleData name="picture">https://www.charlottesville.gov/ImageRepository/Document?documentId=3634</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-78.4860716899081,38.0118385505572</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<description>Permeable pavers were installed at this 11,300 square foot parking lot.</description>
+	<ExtendedData><SchemaData schemaUrl="#Green_Infrastructure__Storm_Public_">
+		<SimpleData name="OBJECTID">6</SimpleData>
+		<SimpleData name="Webmap">Permeable Pavement</SimpleData>
+		<SimpleData name="Entry">Jaunt Parking Lot Permeable Pavers</SimpleData>
+		<SimpleData name="Owner">Public (Other)</SimpleData>
+		<SimpleData name="Address">1006 Linden Avenue</SimpleData>
+		<SimpleData name="picture">https://www.charlottesville.gov/ImageRepository/Document?documentId=3653</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-78.4705026848808,38.0151075526281</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<description>5 1,000 gallon cisterns were installed to provide water to the adjacent urban farm's drip irrigation system.</description>
+	<ExtendedData><SchemaData schemaUrl="#Green_Infrastructure__Storm_Public_">
+		<SimpleData name="OBJECTID">7</SimpleData>
+		<SimpleData name="Webmap">Rainwater Harvesting</SimpleData>
+		<SimpleData name="Entry">Friendship Court Urban Farm Rainwater Harvesting</SimpleData>
+		<SimpleData name="Owner">Public (Other)</SimpleData>
+		<SimpleData name="Address">400-426 Garrett Street</SimpleData>
+		<SimpleData name="picture">https://www.charlottesville.gov/ImageRepository/Document?documentId=3626</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-78.4811606881115,38.0259825533897</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<description>A 1,500 gallon cistern was installed to provide water to the adjacent urban farm's drip irrigation system. </description>
+	<ExtendedData><SchemaData schemaUrl="#Green_Infrastructure__Storm_Public_">
+		<SimpleData name="OBJECTID">8</SimpleData>
+		<SimpleData name="Webmap">Rainwater Harvesting</SimpleData>
+		<SimpleData name="Entry">6th Street Public Housing Rainwater Harvesting</SimpleData>
+		<SimpleData name="Owner">Public (Other)</SimpleData>
+		<SimpleData name="Address">715 6th Street SE</SimpleData>
+		<SimpleData name="picture">https://www.charlottesville.gov/ImageRepository/Document?documentId=3626</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-78.4816486880752,38.0250265541573</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<description>This bioretention facility was installed to treat parking lot and road runoff when the park was improved following a master planning process.</description>
+	<ExtendedData><SchemaData schemaUrl="#Green_Infrastructure__Storm_Public_">
+		<SimpleData name="OBJECTID">9</SimpleData>
+		<SimpleData name="Webmap">Rain Garden / Bioretention</SimpleData>
+		<SimpleData name="Entry">Rives Park Bioretention</SimpleData>
+		<SimpleData name="Owner">Public (City)</SimpleData>
+		<SimpleData name="Address">918 Rives Street</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-78.4707026847346,38.0173075524756</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<description>Two bioretention facilities were installed to treat parking lot runoff when this City park was redeveloped.</description>
+	<ExtendedData><SchemaData schemaUrl="#Green_Infrastructure__Storm_Public_">
+		<SimpleData name="OBJECTID">10</SimpleData>
+		<SimpleData name="Webmap">Rain Garden / Bioretention</SimpleData>
+		<SimpleData name="Entry">Meade Park Bioretention</SimpleData>
+		<SimpleData name="Owner">Public (City)</SimpleData>
+		<SimpleData name="Address">300 Meade Avenue</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-78.4653656844234,38.0279035559265</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<description>Two bioretention facilities were installed to treat parking lot runoff when this City park was redeveloped.</description>
+	<ExtendedData><SchemaData schemaUrl="#Green_Infrastructure__Storm_Public_">
+		<SimpleData name="OBJECTID">11</SimpleData>
+		<SimpleData name="Webmap">Rain Garden / Bioretention</SimpleData>
+		<SimpleData name="Entry">Meade Park Bioretention</SimpleData>
+		<SimpleData name="Owner">Public (City)</SimpleData>
+		<SimpleData name="Address">300 Meade Avenue</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-78.4657696844992,38.0280665545405</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<description>A bioretention facility was installed when the CHS football stadium bleachers were replaced.</description>
+	<ExtendedData><SchemaData schemaUrl="#Green_Infrastructure__Storm_Public_">
+		<SimpleData name="OBJECTID">12</SimpleData>
+		<SimpleData name="Webmap">Rain Garden / Bioretention</SimpleData>
+		<SimpleData name="Entry">Charlottesville High School (CHS) Stadium Bioretention</SimpleData>
+		<SimpleData name="Owner">Public (City)</SimpleData>
+		<SimpleData name="Address">1464 Melbourne Road</SimpleData>
+		<SimpleData name="picture">https://www.charlottesville.gov/ImageRepository/Document?documentId=3639</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-78.4713536868473,38.0519885603586</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<description>Two bioretention facilities were installed when the City's new fire station was built.</description>
+	<ExtendedData><SchemaData schemaUrl="#Green_Infrastructure__Storm_Public_">
+		<SimpleData name="OBJECTID">13</SimpleData>
+		<SimpleData name="Webmap">Rain Garden / Bioretention</SimpleData>
+		<SimpleData name="Entry">Fontaine Fire Station Bioretention</SimpleData>
+		<SimpleData name="Owner">Public (City)</SimpleData>
+		<SimpleData name="Address">2420 Fontaine Avenue</SimpleData>
+		<SimpleData name="picture">https://www.charlottesville.gov/ImageRepository/Document?documentId=3646</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-78.5198067006111,38.0258495534597</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<description>Two bioretention facilities were installed when the City's new fire station was built.</description>
+	<ExtendedData><SchemaData schemaUrl="#Green_Infrastructure__Storm_Public_">
+		<SimpleData name="OBJECTID">14</SimpleData>
+		<SimpleData name="Webmap">Rain Garden / Bioretention</SimpleData>
+		<SimpleData name="Entry">Fontaine Fire Station Bioretention</SimpleData>
+		<SimpleData name="Owner">Public (City)</SimpleData>
+		<SimpleData name="Address">2420 Fontaine Avenue</SimpleData>
+		<SimpleData name="picture">https://www.charlottesville.gov/ImageRepository/Document?documentId=3647</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-78.5203437002331,38.0253945528032</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<description>A 20,000 gallon rainwater harvesting system that provides water for toilet flushing, washing of fire apparatus, and exterior hose bibs. The system can provide 300,000 gallons of water every year. </description>
+	<ExtendedData><SchemaData schemaUrl="#Green_Infrastructure__Storm_Public_">
+		<SimpleData name="OBJECTID">15</SimpleData>
+		<SimpleData name="Webmap">Rainwater Harvesting</SimpleData>
+		<SimpleData name="Entry">Fontaine Fire Station Cistern</SimpleData>
+		<SimpleData name="Owner">Public (City)</SimpleData>
+		<SimpleData name="Address">2420 Fontaine Avenue</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-78.5201027011413,38.0254075530326</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<description>Three bioretention facilities were installed to treat parking lot and roof top runoff when this City facility was constructed.</description>
+	<ExtendedData><SchemaData schemaUrl="#Green_Infrastructure__Storm_Public_">
+		<SimpleData name="OBJECTID">16</SimpleData>
+		<SimpleData name="Webmap">Rain Garden / Bioretention</SimpleData>
+		<SimpleData name="Entry">Smith Aquatic Center Bioretention</SimpleData>
+		<SimpleData name="Owner">Public (City)</SimpleData>
+		<SimpleData name="Address">1000 Cherry Avenue</SimpleData>
+		<SimpleData name="picture">https://www.charlottesville.gov/ImageRepository/Document?documentId=3624</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-78.4975026927961,38.0276075543327</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<description>Three bioretention facilities were installed to treat parking lot and roof top runoff when this City facility was constructed.</description>
+	<ExtendedData><SchemaData schemaUrl="#Green_Infrastructure__Storm_Public_">
+		<SimpleData name="OBJECTID">17</SimpleData>
+		<SimpleData name="Webmap">Rain Garden / Bioretention</SimpleData>
+		<SimpleData name="Entry">Smith Aquatic Center Bioretention</SimpleData>
+		<SimpleData name="Owner">Public (City)</SimpleData>
+		<SimpleData name="Address">1000 Cherry Avenue</SimpleData>
+		<SimpleData name="picture">https://www.charlottesville.gov/ImageRepository/Document?documentId=3625</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-78.497166693021,38.0276285536893</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<description>Three bioretention facilities were installed to treat parking lot and roof top runoff when this City facility was constructed.</description>
+	<ExtendedData><SchemaData schemaUrl="#Green_Infrastructure__Storm_Public_">
+		<SimpleData name="OBJECTID">18</SimpleData>
+		<SimpleData name="Webmap">Rain Garden / Bioretention</SimpleData>
+		<SimpleData name="Entry">Smith Aquatic Center Bioretention</SimpleData>
+		<SimpleData name="Owner">Public (City)</SimpleData>
+		<SimpleData name="Address">1000 Cherry Avenue</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-78.4971596942746,38.0270395531653</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<description>When the CHS football field was replaced with a new synthetic turf field, an infiltration trench was installed around the perimeter of the field.</description>
+	<ExtendedData><SchemaData schemaUrl="#Green_Infrastructure__Storm_Public_">
+		<SimpleData name="OBJECTID">19</SimpleData>
+		<SimpleData name="Webmap">Infiltration</SimpleData>
+		<SimpleData name="Entry">Charlottesville High School (CHS) Stadium Infiltration</SimpleData>
+		<SimpleData name="Owner">Public (City)</SimpleData>
+		<SimpleData name="Address">1464 Melbourne Road</SimpleData>
+		<SimpleData name="picture">https://www.charlottesville.gov/ImageRepository/Document?documentId=3640</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-78.4711026871443,38.0513075595058</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<description>Two tree box filters were installed to treat runoff from an existing parking lot at the football field.  </description>
+	<ExtendedData><SchemaData schemaUrl="#Green_Infrastructure__Storm_Public_">
+		<SimpleData name="OBJECTID">21</SimpleData>
+		<SimpleData name="Webmap">Tree Box Filter</SimpleData>
+		<SimpleData name="Entry">Charlottesville High School (CHS) Stadium Tree Box Filter</SimpleData>
+		<SimpleData name="Owner">Public (City)</SimpleData>
+		<SimpleData name="Address">1464 Melbourne Road</SimpleData>
+		<SimpleData name="picture">https://www.charlottesville.gov/ImageRepository/Document?documentId=3641</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-78.4715376868266,38.0522285591499</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<description>Six bioretention facilities were installed when the City's public transportation base of operations was constructed.</description>
+	<ExtendedData><SchemaData schemaUrl="#Green_Infrastructure__Storm_Public_">
+		<SimpleData name="OBJECTID">22</SimpleData>
+		<SimpleData name="Webmap">Rain Garden / Bioretention</SimpleData>
+		<SimpleData name="Entry">Charlottesville Area Transit (CAT) Service Bioretention</SimpleData>
+		<SimpleData name="Owner">Public (City)</SimpleData>
+		<SimpleData name="Address">1545 Avon Street Extended</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-78.4878056892982,38.0126475517697</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<description>Six bioretention facilities were installed when the City's public transportation base of operations was constructed.</description>
+	<ExtendedData><SchemaData schemaUrl="#Green_Infrastructure__Storm_Public_">
+		<SimpleData name="OBJECTID">23</SimpleData>
+		<SimpleData name="Webmap">Rain Garden / Bioretention</SimpleData>
+		<SimpleData name="Entry">Charlottesville Area Transit (CAT) Service Bioretention</SimpleData>
+		<SimpleData name="Owner">Public (City)</SimpleData>
+		<SimpleData name="Address">1545 Avon Street Extended</SimpleData>
+		<SimpleData name="picture">https://www.charlottesville.gov/ImageRepository/Document?documentId=3630</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-78.4874006905409,38.0128275517954</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<description>Six bioretention facilities were installed when the City's public transportation base of operations was constructed.</description>
+	<ExtendedData><SchemaData schemaUrl="#Green_Infrastructure__Storm_Public_">
+		<SimpleData name="OBJECTID">24</SimpleData>
+		<SimpleData name="Webmap">Rain Garden / Bioretention</SimpleData>
+		<SimpleData name="Entry">Charlottesville Area Transit (CAT) Service Bioretention</SimpleData>
+		<SimpleData name="Owner">Public (City)</SimpleData>
+		<SimpleData name="Address">1545 Avon Street Extended</SimpleData>
+		<SimpleData name="picture">https://www.charlottesville.gov/ImageRepository/Document?documentId=3633</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-78.4873016886648,38.0131775510398</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<description>Six bioretention facilities were installed when the City's public transportation base of operations was constructed.</description>
+	<ExtendedData><SchemaData schemaUrl="#Green_Infrastructure__Storm_Public_">
+		<SimpleData name="OBJECTID">25</SimpleData>
+		<SimpleData name="Webmap">Rain Garden / Bioretention</SimpleData>
+		<SimpleData name="Entry">Charlottesville Area Transit (CAT) Service Bioretention</SimpleData>
+		<SimpleData name="Owner">Public (City)</SimpleData>
+		<SimpleData name="Address">1545 Avon Street Extended</SimpleData>
+		<SimpleData name="picture">https://www.charlottesville.gov/ImageRepository/Document?documentId=3632</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-78.4875356899511,38.0123755505151</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<description>Six bioretention facilities were installed when the City's public transportation base of operations was constructed.</description>
+	<ExtendedData><SchemaData schemaUrl="#Green_Infrastructure__Storm_Public_">
+		<SimpleData name="OBJECTID">26</SimpleData>
+		<SimpleData name="Webmap">Rain Garden / Bioretention</SimpleData>
+		<SimpleData name="Entry">Charlottesville Area Transit (CAT) Service Bioretention</SimpleData>
+		<SimpleData name="Owner">Public (City)</SimpleData>
+		<SimpleData name="Address">1545 Avon Street Extended</SimpleData>
+		<SimpleData name="picture">https://www.charlottesville.gov/ImageRepository/Document?documentId=3631</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-78.4878846906426,38.0121585504288</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<description>Approximately 1,500 square feet of pervious asphalt was installed as part of facility renovations.</description>
+	<ExtendedData><SchemaData schemaUrl="#Green_Infrastructure__Storm_Public_">
+		<SimpleData name="OBJECTID">27</SimpleData>
+		<SimpleData name="Webmap">Permeable Pavement</SimpleData>
+		<SimpleData name="Entry">Human Services Building Pervious Asphalt</SimpleData>
+		<SimpleData name="Owner">Public (City)</SimpleData>
+		<SimpleData name="Address">909 E Market Street</SimpleData>
+		<SimpleData name="picture">https://www.charlottesville.gov/ImageRepository/Document?documentId=3652</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-78.4745836856714,38.0297345551758</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<description>A bioretention facility was installed as part of road, drainage, and pedestrian improvements of Old Lynchburg Road. </description>
+	<ExtendedData><SchemaData schemaUrl="#Green_Infrastructure__Storm_Public_">
+		<SimpleData name="OBJECTID">28</SimpleData>
+		<SimpleData name="Webmap">Rain Garden / Bioretention</SimpleData>
+		<SimpleData name="Entry">Old Lynchburg Road Bioretention</SimpleData>
+		<SimpleData name="Owner">Public (City)</SimpleData>
+		<SimpleData name="Address">Old Lynchburg Road</SimpleData>
+		<SimpleData name="picture">https://www.charlottesville.gov/ImageRepository/Document?documentId=3656</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-78.5147026989436,38.0171075513354</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<description>Involved day-lighting 200 feet of stormwater pipe and converting it into a two-celled bioretention facility that treats runoff from approximately 13 acres of the park and adjacent neighborhood. </description>
+	<ExtendedData><SchemaData schemaUrl="#Green_Infrastructure__Storm_Public_">
+		<SimpleData name="OBJECTID">29</SimpleData>
+		<SimpleData name="Webmap">Rain Garden / Bioretention</SimpleData>
+		<SimpleData name="Entry">Forest Hills Park Bioretention</SimpleData>
+		<SimpleData name="Owner">Public (City)</SimpleData>
+		<SimpleData name="Address">1022 Forest Hills Avenue</SimpleData>
+		<SimpleData name="picture">https://www.charlottesville.gov/ImageRepository/Document?documentId=3658</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-78.4973786928809,38.0232685530613</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<description>This bioretention retrofit was installed when the parking lot at this school was expanded.</description>
+	<ExtendedData><SchemaData schemaUrl="#Green_Infrastructure__Storm_Public_">
+		<SimpleData name="OBJECTID">31</SimpleData>
+		<SimpleData name="Webmap">Rain Garden / Bioretention</SimpleData>
+		<SimpleData name="Entry">Venable Elementary School Bioretention</SimpleData>
+		<SimpleData name="Owner">Public (City)</SimpleData>
+		<SimpleData name="Address">406 14th Street NW</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-78.495902693658,38.0381075568046</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<description>1,000 gallon system provides irrigation water for the schoolyard gardens.</description>
+	<ExtendedData><SchemaData schemaUrl="#Green_Infrastructure__Storm_Public_">
+		<SimpleData name="OBJECTID">32</SimpleData>
+		<SimpleData name="Webmap">Rainwater Harvesting</SimpleData>
+		<SimpleData name="Entry">Burnley-Moran Rainwater Harvesting</SimpleData>
+		<SimpleData name="Owner">Public (City)</SimpleData>
+		<SimpleData name="Address">1300 Long Street</SimpleData>
+		<SimpleData name="picture">https://www.charlottesville.gov/ImageRepository/Document?documentId=3629</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-78.4619436827643,38.0356035573524</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<description>A 1,700 square foot bioretention facility landscaped with native plants was installed to treat 1.6 acres of the park, including an expanded parking lot.  </description>
+	<ExtendedData><SchemaData schemaUrl="#Green_Infrastructure__Storm_Public_">
+		<SimpleData name="OBJECTID">33</SimpleData>
+		<SimpleData name="Webmap">Rain Garden / Bioretention</SimpleData>
+		<SimpleData name="Entry">Azalea Park Bioretention</SimpleData>
+		<SimpleData name="Owner">Public (City)</SimpleData>
+		<SimpleData name="Address">398 Old Lynchburg Road</SimpleData>
+		<SimpleData name="picture">https://www.charlottesville.gov/ImageRepository/Document?documentId=3627</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-78.5172626994151,38.0105515498347</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<description>An ADA compliant parking stall was created and pervious concrete was employed instead of traditional asphalt.</description>
+	<ExtendedData><SchemaData schemaUrl="#Green_Infrastructure__Storm_Public_">
+		<SimpleData name="OBJECTID">34</SimpleData>
+		<SimpleData name="Webmap">Permeable Pavement</SimpleData>
+		<SimpleData name="Entry">Gordon Avenue Library Pervious Concrete</SimpleData>
+		<SimpleData name="Owner">Public (City)</SimpleData>
+		<SimpleData name="Address">1506 Gordon Avenue</SimpleData>
+		<SimpleData name="picture">https://www.charlottesville.gov/ImageRepository/Document?documentId=3648</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-78.4988386957466,38.0396125554839</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<description>A 3,000 gallon cistern was installed to provide irrigation water to the schoolyard garden.</description>
+	<ExtendedData><SchemaData schemaUrl="#Green_Infrastructure__Storm_Public_">
+		<SimpleData name="OBJECTID">35</SimpleData>
+		<SimpleData name="Webmap">Rainwater Harvesting</SimpleData>
+		<SimpleData name="Entry">Buford Middle School Rainwater Harvesting</SimpleData>
+		<SimpleData name="Owner">Public (City)</SimpleData>
+		<SimpleData name="Address">1000 Cherry Avenue</SimpleData>
+		<SimpleData name="picture">https://www.charlottesville.gov/ImageRepository/Document?documentId=3662</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-78.4980626930877,38.0261075529951</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<description>Four 110 gallon cisterns were installed to provide irrigation water for the schoolyard gardens.</description>
+	<ExtendedData><SchemaData schemaUrl="#Green_Infrastructure__Storm_Public_">
+		<SimpleData name="OBJECTID">36</SimpleData>
+		<SimpleData name="Webmap">Rainwater Harvesting</SimpleData>
+		<SimpleData name="Entry">Greenbrier Elementary School Rainwater Harvesting</SimpleData>
+		<SimpleData name="Owner">Public (City)</SimpleData>
+		<SimpleData name="Address">2205 Greenbrier Drive</SimpleData>
+		<SimpleData name="picture">https://www.charlottesville.gov/ImageRepository/Document?documentId=3649</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-78.4710026870196,38.064007561936</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<description>The rainwater harvesting system collects stormwater off of 26,000 square feet of the roof of the CHS Performing Arts Center in a 40,000 gallon underground tank.  The rainwater is used to feed an existing irrigation system for one of the school’s ball fields.</description>
+	<ExtendedData><SchemaData schemaUrl="#Green_Infrastructure__Storm_Public_">
+		<SimpleData name="OBJECTID">37</SimpleData>
+		<SimpleData name="Webmap">Rainwater Harvesting</SimpleData>
+		<SimpleData name="Entry">Charlottesville High School (CHS) Rainwater Harvesting</SimpleData>
+		<SimpleData name="Owner">Public (City)</SimpleData>
+		<SimpleData name="Address">1400 Melbourne Road</SimpleData>
+		<SimpleData name="picture">https://www.charlottesville.gov/ImageRepository/Document?documentId=3638</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-78.4776756886955,38.0524175601455</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<description>The City installed a 3,000 gallon above ground cistern to collect stormwater off the roof of the Fleet Maintenance Shop in the Public Works Yard.  The harvested rainwater is being used to fill the City’s street sweepers, displacing a potable water usage.</description>
+	<ExtendedData><SchemaData schemaUrl="#Green_Infrastructure__Storm_Public_">
+		<SimpleData name="OBJECTID">38</SimpleData>
+		<SimpleData name="Webmap">Rainwater Harvesting</SimpleData>
+		<SimpleData name="Entry">City Public Works Yard Rainwater Harvesting</SimpleData>
+		<SimpleData name="Owner">Public (City)</SimpleData>
+		<SimpleData name="Address">305 4th Street NW</SimpleData>
+		<SimpleData name="picture">https://www.charlottesville.gov/ImageRepository/Document?documentId=3623</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-78.4872446898827,38.0333195562164</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<description>The City designed and constructed a bioretention retrofit to better manage the quantity and quality of stormwater runoff from the City’s Parks Maintenance Facility located at Pen Park. </description>
+	<ExtendedData><SchemaData schemaUrl="#Green_Infrastructure__Storm_Public_">
+		<SimpleData name="OBJECTID">39</SimpleData>
+		<SimpleData name="Webmap">Rain Garden / Bioretention</SimpleData>
+		<SimpleData name="Entry">Pen Park Maintenance Yard Bioretention</SimpleData>
+		<SimpleData name="Owner">Public (City)</SimpleData>
+		<SimpleData name="Address">1300 Pen Park Road</SimpleData>
+		<SimpleData name="picture">https://www.charlottesville.gov/ImageRepository/Document?documentId=3622</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-78.4537146814271,38.0547935610171</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<description>A small rain garden was installed to mitigate for the expansion of a parking lot at the school.</description>
+	<ExtendedData><SchemaData schemaUrl="#Green_Infrastructure__Storm_Public_">
+		<SimpleData name="OBJECTID">40</SimpleData>
+		<SimpleData name="Webmap">Rain Garden / Bioretention</SimpleData>
+		<SimpleData name="Entry">Greenbrier Elementary School Bioretention</SimpleData>
+		<SimpleData name="Owner">Public (City)</SimpleData>
+		<SimpleData name="Address">2205 Greenbrier Drive</SimpleData>
+		<SimpleData name="picture">https://www.charlottesville.gov/ImageRepository/Document?documentId=3650</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-78.4713356868203,38.0638895627674</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<description>Sidewalk along a city block was retrofitted with permeable pavers in part to help protect the roots of an historic tree.</description>
+	<ExtendedData><SchemaData schemaUrl="#Green_Infrastructure__Storm_Public_">
+		<SimpleData name="OBJECTID">41</SimpleData>
+		<SimpleData name="Webmap">Permeable Pavement</SimpleData>
+		<SimpleData name="Entry">Northwood Avenue Permeable Pavers</SimpleData>
+		<SimpleData name="Owner">Public (City)</SimpleData>
+		<SimpleData name="Address">Northwood Avenue</SimpleData>
+		<SimpleData name="picture">https://www.charlottesville.gov/ImageRepository/Document?documentId=3655</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-78.4755166877026,38.0365245570966</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<description>City Parks crews created the landscape plan consisting wholly of native species and constructed the 1,200 square foot rain garden in 2005. Nearly fifty volunteers assisted in this project, from tasks such as grading, laying filter fabric, and mulching, to planting rain garden flora.</description>
+	<ExtendedData><SchemaData schemaUrl="#Green_Infrastructure__Storm_Public_">
+		<SimpleData name="OBJECTID">42</SimpleData>
+		<SimpleData name="Webmap">Rain Garden / Bioretention</SimpleData>
+		<SimpleData name="Entry">Greenleaf Park Bioretention</SimpleData>
+		<SimpleData name="Owner">Public (City)</SimpleData>
+		<SimpleData name="Address">Greenleaf Lane west of intersection with Rose Hill Drive</SimpleData>
+		<SimpleData name="picture">https://www.charlottesville.gov/ImageRepository/Document?documentId=3651</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-78.4817276904515,38.0493775589836</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<description>As part of the construction of McIntire Road Ext and the John Warner Parkway two bioretention facilities were installed.</description>
+	<ExtendedData><SchemaData schemaUrl="#Green_Infrastructure__Storm_Public_">
+		<SimpleData name="OBJECTID">47</SimpleData>
+		<SimpleData name="Webmap">Rain Garden / Bioretention</SimpleData>
+		<SimpleData name="Entry">John Warner Parkway Bioretention</SimpleData>
+		<SimpleData name="Owner">Public (City)</SimpleData>
+		<SimpleData name="Address">McIntire Road Extended and Route 250 Bypass</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-78.4746626879768,38.0432875582849</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<description>As part of the construction of McIntire Road Ext and the John Warner Parkway two bioretention facilities were installed.</description>
+	<ExtendedData><SchemaData schemaUrl="#Green_Infrastructure__Storm_Public_">
+		<SimpleData name="OBJECTID">48</SimpleData>
+		<SimpleData name="Webmap">Rain Garden / Bioretention</SimpleData>
+		<SimpleData name="Entry">John Warner Parkway Bioretention</SimpleData>
+		<SimpleData name="Owner">Public (City)</SimpleData>
+		<SimpleData name="Address">McIntire Road near the Rescue Squad</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-78.4763726881928,38.041197558044</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<description>As part of the construction of McIntire Road Ext and the John Warner Parkway a stormwater wetland was installed.</description>
+	<ExtendedData><SchemaData schemaUrl="#Green_Infrastructure__Storm_Public_">
+		<SimpleData name="OBJECTID">49</SimpleData>
+		<SimpleData name="Webmap">Stormwater Wetlands</SimpleData>
+		<SimpleData name="Entry">John Warner Parkway</SimpleData>
+		<SimpleData name="Owner">Public (City)</SimpleData>
+		<SimpleData name="Address">John Warner Parkway</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-78.4725126863967,38.0450575582949</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<description>As part of a traffic calming and streetscape project, this curb extension was outfitted as a bioretention facility.</description>
+	<ExtendedData><SchemaData schemaUrl="#Green_Infrastructure__Storm_Public_">
+		<SimpleData name="OBJECTID">50</SimpleData>
+		<SimpleData name="Webmap">Rain Garden / Bioretention</SimpleData>
+		<SimpleData name="Entry">5th Street SW &amp; Cherry Avenue</SimpleData>
+		<SimpleData name="Owner">Public (City)</SimpleData>
+		<SimpleData name="Address">5th Street SW &amp; Cherry Avenue</SimpleData>
+		<SimpleData name="picture">https://www.charlottesville.gov/ImageRepository/Document?documentId=3636</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-78.4902766914119,38.0269665542687</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Green_Infrastructure__Storm_Public_">
+		<SimpleData name="OBJECTID">52</SimpleData>
+		<SimpleData name="Webmap">Retention Pond</SimpleData>
+		<SimpleData name="Entry">The Dell Pond</SimpleData>
+		<SimpleData name="Owner">Public (UVA)</SimpleData>
+		<SimpleData name="picture">http://www.officearchitect.virginia.edu/greenguide/resources/images/26_Dell_full.jpg</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-78.508578696597,38.0361526548767</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Green_Infrastructure__Storm_Public_">
+		<SimpleData name="OBJECTID">53</SimpleData>
+		<SimpleData name="Webmap">Rain Garden / Bioretention</SimpleData>
+		<SimpleData name="Entry">The Dell Western (Mountain) Bioretention</SimpleData>
+		<SimpleData name="Owner">Public (UVA)</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-78.5111462677999,38.0364636846653</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Green_Infrastructure__Storm_Public_">
+		<SimpleData name="OBJECTID">54</SimpleData>
+		<SimpleData name="Webmap">Rain Garden / Bioretention</SimpleData>
+		<SimpleData name="Entry">The Dell Eastern (Piedmont) Bioretention</SimpleData>
+		<SimpleData name="Owner">Public (UVA)</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-78.5100311084294,38.0361150057243</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Green_Infrastructure__Storm_Public_">
+		<SimpleData name="OBJECTID">56</SimpleData>
+		<SimpleData name="Webmap">Stormwater Wetlands</SimpleData>
+		<SimpleData name="Entry">Emmet-Ivy Garage Stormwater Wetlands</SimpleData>
+		<SimpleData name="Owner">Public (UVA)</SimpleData>
+		<SimpleData name="picture">https://www.fm.virginia.edu/images/photos/operations/wetlands.jpg</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-78.5075616975905,38.0411145567648</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Green_Infrastructure__Storm_Public_">
+		<SimpleData name="OBJECTID">57</SimpleData>
+		<SimpleData name="Webmap">Infiltration</SimpleData>
+		<SimpleData name="Entry">McCue Parking Infiltration Trench</SimpleData>
+		<SimpleData name="Owner">Public (UVA)</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-78.5058261871045,38.0439464773869</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Green_Infrastructure__Storm_Public_">
+		<SimpleData name="OBJECTID">58</SimpleData>
+		<SimpleData name="Webmap">Rain Garden / Bioretention</SimpleData>
+		<SimpleData name="Entry">John Paul Jones Arena Bioretention (multiple)</SimpleData>
+		<SimpleData name="Owner">Public (UVA)</SimpleData>
+		<SimpleData name="picture">https://www.fm.virginia.edu/images/photos/operations/jpj-biofilter.jpg</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-78.5078056967881,38.0463125565241</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Green_Infrastructure__Storm_Public_">
+		<SimpleData name="OBJECTID">59</SimpleData>
+		<SimpleData name="Webmap">Grass Swales</SimpleData>
+		<SimpleData name="Entry">John Paul Jones Arena Grass Swales (multiple)</SimpleData>
+		<SimpleData name="Owner">Public (UVA)</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-78.5084386987293,38.0466365573448</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Green_Infrastructure__Storm_Public_">
+		<SimpleData name="OBJECTID">60</SimpleData>
+		<SimpleData name="Webmap">Vegetated Swale</SimpleData>
+		<SimpleData name="Entry">John Paul Jones Arena Vegatated Swale</SimpleData>
+		<SimpleData name="Owner">Public (UVA)</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-78.5073116973018,38.045570556636</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Green_Infrastructure__Storm_Public_">
+		<SimpleData name="OBJECTID">63</SimpleData>
+		<SimpleData name="Webmap">Infiltration</SimpleData>
+		<SimpleData name="Entry">JAG School Parking Infiltration Trench</SimpleData>
+		<SimpleData name="Owner">Public (UVA)</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-78.5064069786587,38.0540061295008</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Green_Infrastructure__Storm_Public_">
+		<SimpleData name="OBJECTID">64</SimpleData>
+		<SimpleData name="Webmap">Infiltration</SimpleData>
+		<SimpleData name="Entry">JAG School Parking Infiltration Trench</SimpleData>
+		<SimpleData name="Owner">Public (UVA)</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-78.5065426778586,38.0550179592655</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Green_Infrastructure__Storm_Public_">
+		<SimpleData name="OBJECTID">65</SimpleData>
+		<SimpleData name="Webmap">Infiltration</SimpleData>
+		<SimpleData name="Entry">Arlington Boulevard Infiltration Basin</SimpleData>
+		<SimpleData name="Owner">Public (UVA)</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-78.5081314476966,38.0511953387691</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Green_Infrastructure__Storm_Public_">
+		<SimpleData name="OBJECTID">66</SimpleData>
+		<SimpleData name="Webmap">Infiltration</SimpleData>
+		<SimpleData name="Entry">Malcolm Cole Child Care Infiltration Chamber 1</SimpleData>
+		<SimpleData name="Owner">Public (UVA)</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-78.4926403127121,38.0308457643494</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Green_Infrastructure__Storm_Public_">
+		<SimpleData name="OBJECTID">67</SimpleData>
+		<SimpleData name="Webmap">Infiltration</SimpleData>
+		<SimpleData name="Entry">Malcolm Cole Child Care Infiltration Chamber 2</SimpleData>
+		<SimpleData name="Owner">Public (UVA)</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-78.4928754619263,38.0303857650403</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Green_Infrastructure__Storm_Public_">
+		<SimpleData name="OBJECTID">68</SimpleData>
+		<SimpleData name="Webmap">Rain Garden / Bioretention</SimpleData>
+		<SimpleData name="Entry">South Lawn Bioretention</SimpleData>
+		<SimpleData name="Owner">Public (UVA)</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-78.5057389757406,38.0317425545254</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Green_Infrastructure__Storm_Public_">
+		<SimpleData name="OBJECTID">69</SimpleData>
+		<SimpleData name="Webmap">Rain Garden / Bioretention</SimpleData>
+		<SimpleData name="Entry">South Lawn Bioretention</SimpleData>
+		<SimpleData name="Owner">Public (UVA)</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-78.5050217067385,38.0308440747907</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Green_Infrastructure__Storm_Public_">
+		<SimpleData name="OBJECTID">70</SimpleData>
+		<SimpleData name="Webmap">Rain Garden / Bioretention</SimpleData>
+		<SimpleData name="Entry">South Lawn Bioretention</SimpleData>
+		<SimpleData name="Owner">Public (UVA)</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-78.5050294759712,38.0306392544313</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Green_Infrastructure__Storm_Public_">
+		<SimpleData name="OBJECTID">71</SimpleData>
+		<SimpleData name="Webmap">Rain Garden / Bioretention</SimpleData>
+		<SimpleData name="Entry">South Lawn Bioretention</SimpleData>
+		<SimpleData name="Owner">Public (UVA)</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-78.5051591452861,38.0305895344424</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Green_Infrastructure__Storm_Public_">
+		<SimpleData name="OBJECTID">72</SimpleData>
+		<SimpleData name="Webmap">Green Roof</SimpleData>
+		<SimpleData name="Entry">Nau Hall Green Roof</SimpleData>
+		<SimpleData name="Owner">Public (UVA)</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-78.5051436962344,38.0318145540684</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Green_Infrastructure__Storm_Public_">
+		<SimpleData name="OBJECTID">73</SimpleData>
+		<SimpleData name="Webmap">Green Roof</SimpleData>
+		<SimpleData name="Entry">Gibson Hall Green Roof</SimpleData>
+		<SimpleData name="Owner">Public (UVA)</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-78.5051056966905,38.0313455543238</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Green_Infrastructure__Storm_Public_">
+		<SimpleData name="OBJECTID">74</SimpleData>
+		<SimpleData name="Webmap">Rain Garden / Bioretention</SimpleData>
+		<SimpleData name="Entry">Bice Parking Lot Bioretention</SimpleData>
+		<SimpleData name="Owner">Public (UVA)</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-78.5048130552593,38.0299321534076</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Green_Infrastructure__Storm_Public_">
+		<SimpleData name="OBJECTID">75</SimpleData>
+		<SimpleData name="Webmap">Green Roof</SimpleData>
+		<SimpleData name="Entry">Terrace Crossing Green Roof</SimpleData>
+		<SimpleData name="Owner">Public (UVA)</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-78.5052970265384,38.0321226147941</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Green_Infrastructure__Storm_Public_">
+		<SimpleData name="OBJECTID">76</SimpleData>
+		<SimpleData name="Webmap">Green Roof</SimpleData>
+		<SimpleData name="Entry">University Hospital Green Roof</SimpleData>
+		<SimpleData name="Owner">Public (UVA)</SimpleData>
+		<SimpleData name="picture">https://www.charlottesville.gov/ImageRepository/Document?documentId=3661</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-78.499058694152,38.0315585548174</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Green_Infrastructure__Storm_Public_">
+		<SimpleData name="OBJECTID">77</SimpleData>
+		<SimpleData name="Webmap">Green Roof</SimpleData>
+		<SimpleData name="Entry">MR-5 Building Green Roof</SimpleData>
+		<SimpleData name="Owner">Public (UVA)</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-78.5012948045068,38.0309204450798</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Green_Infrastructure__Storm_Public_">
+		<SimpleData name="OBJECTID">78</SimpleData>
+		<SimpleData name="Webmap">Green Roof</SimpleData>
+		<SimpleData name="Entry">MR-6 Building Green Roof</SimpleData>
+		<SimpleData name="Owner">Public (UVA)</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-78.5007096952417,38.0305705541208</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Green_Infrastructure__Storm_Public_">
+		<SimpleData name="OBJECTID">79</SimpleData>
+		<SimpleData name="Webmap">Tree Box Filter</SimpleData>
+		<SimpleData name="Entry">PCC Annex Filterra</SimpleData>
+		<SimpleData name="Owner">Public (UVA)</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-78.5002969552576,38.0316872541127</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Green_Infrastructure__Storm_Public_">
+		<SimpleData name="OBJECTID">80</SimpleData>
+		<SimpleData name="Webmap">Retention Pond</SimpleData>
+		<SimpleData name="Entry">UVA Health Systems South Pond</SimpleData>
+		<SimpleData name="Owner">Public (UVA)</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-78.5024096961644,38.0296685543086</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Green_Infrastructure__Storm_Public_">
+		<SimpleData name="OBJECTID">81</SimpleData>
+		<SimpleData name="Webmap">Rain Garden / Bioretention</SimpleData>
+		<SimpleData name="Entry">UVA Clinical Lab Bioretention</SimpleData>
+		<SimpleData name="Owner">Public (UVA)</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-78.4956403637021,38.0321726247249</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Green_Infrastructure__Storm_Public_">
+		<SimpleData name="OBJECTID">83</SimpleData>
+		<SimpleData name="Webmap">Rain Garden / Bioretention</SimpleData>
+		<SimpleData name="Entry">Campbell Hall Rain Garden</SimpleData>
+		<SimpleData name="Owner">Public (UVA)</SimpleData>
+		<SimpleData name="picture">http://www.officearchitect.virginia.edu/greenguide/resources/images/56_raingarden_full.jpg</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-78.5045866964538,38.0387515559896</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<description>The roof was the first demonstration project of its kind in the region. The project covers over 9,000 square feet of the building with two types of green roof systems. 9,000 sedum plants have grown and spread, working to cover the roof with a layer of green foliage.</description>
+	<ExtendedData><SchemaData schemaUrl="#Green_Infrastructure__Storm_Public_">
+		<SimpleData name="OBJECTID">84</SimpleData>
+		<SimpleData name="Webmap">Green Roof</SimpleData>
+		<SimpleData name="Entry">McIntire Road County Office Building Vegetated Roof</SimpleData>
+		<SimpleData name="Owner">Public (Albemarle County)</SimpleData>
+		<SimpleData name="Address">401 McIntire Road</SimpleData>
+		<SimpleData name="links">https://www.albemarle.org/department.asp?department=water&amp;relpage=2978</SimpleData>
+		<SimpleData name="picture">http://www.albemarle.org/upload/images/Pictures/Departments/Community_Development/Pictures/Greenroof-After-homepage.jpg</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-78.4831626885847,38.0350905553832</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<description>Vegetated bioretention facility adjacent to McIntire Road that captures and treats runoff from the majority of the office building's lower parking lot.  This project was funded, in part, through the Virginia Clean Water Revolving Loan Fund.</description>
+	<ExtendedData><SchemaData schemaUrl="#Green_Infrastructure__Storm_Public_">
+		<SimpleData name="OBJECTID">85</SimpleData>
+		<SimpleData name="Webmap">Rain Garden / Bioretention</SimpleData>
+		<SimpleData name="Entry">McIntire Road County Office Building Bioretention</SimpleData>
+		<SimpleData name="Owner">Public (Albemarle County)</SimpleData>
+		<SimpleData name="Address">401 McIntire Road</SimpleData>
+		<SimpleData name="links">https://www.albemarle.org/department.asp?department=water&amp;relpage=4319</SimpleData>
+		<SimpleData name="picture">https://www.albemarle.org/upload/images/Pictures/Departments/Water_Resources/pictures/cob_constr5.jpg</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-78.4814276898355,38.0357345561862</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<description>Small rain garden that was installed as part of a rain garden workshop sponsored by the Rivanna Stormwater Education Partnership.</description>
+	<ExtendedData><SchemaData schemaUrl="#Green_Infrastructure__Storm_Public_">
+		<SimpleData name="OBJECTID">86</SimpleData>
+		<SimpleData name="Webmap">Rain Garden / Bioretention</SimpleData>
+		<SimpleData name="Entry">McIntire Road County Office Building Rain Garden</SimpleData>
+		<SimpleData name="Owner">Public (Albemarle County)</SimpleData>
+		<SimpleData name="Address">401 McIntire Road</SimpleData>
+		<SimpleData name="picture">https://www.charlottesville.gov/ImageRepository/Document?documentId=3654</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-78.4822826899354,38.0359655566172</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<description>Section of five parking stalls consisting of permeable pavers.</description>
+	<ExtendedData><SchemaData schemaUrl="#Green_Infrastructure__Storm_Public_">
+		<SimpleData name="OBJECTID">87</SimpleData>
+		<SimpleData name="Webmap">Permeable Pavement</SimpleData>
+		<SimpleData name="Entry">McIntire Road County Office Building</SimpleData>
+		<SimpleData name="Owner">Public (Albemarle County)</SimpleData>
+		<SimpleData name="Address">401 McIntire Road</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-78.4821576901605,38.0359585563307</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<description>The City and Charlottesville City Schools (CCS) partnered with the Chesapeake Bay Trust to implement a water quality improvement project on the CHS campus. The project involved retrofitting one of the existing parking lots at CHS to incorporate stormwater management facilities and entailed treatment of runoff from 2.32 acres of the CHS campus.  An approximately 12,560 square foot area of existing asphalt was replaced with a vegetated filter strip.  The existing asphalt and associated base stone was removed and compost amendments were tilled into the existing subgrade soils to a depth of twelve inches.  The filter strip was planted as a landscaped area of native riparian buffer vegetation.  In order to direct runoff from the parking lot into the vegetated filter strip for treatment, four curb channels with level spreaders were installed by making curb cuts in the existing median island of the parking lot. </description>
+	<ExtendedData><SchemaData schemaUrl="#Green_Infrastructure__Storm_Public_">
+		<SimpleData name="OBJECTID">88</SimpleData>
+		<SimpleData name="Webmap">Vegetated Filter Strip</SimpleData>
+		<SimpleData name="Entry">Charlottesville High School (CHS) Vegetated Filter Strip</SimpleData>
+		<SimpleData name="Owner">Public (City)</SimpleData>
+		<SimpleData name="Address">1400 Melbourne Road</SimpleData>
+		<SimpleData name="picture">https://www.charlottesville.gov/ImageRepository/Document?documentId=3657</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-78.4753948697569,38.0509823583321</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<description>The City and Charlottesville City Schools (CCS) partnered with the Chesapeake Bay Trust to implement a water quality improvement project on the CHS campus. The project involved retrofitting one of the existing parking lots at CHS to incorporate stormwater management facilities and entailed treatment of runoff from 2.32 acres of the CHS campus. A permeable pavement system replaced approximately 6,600 square feet of existing asphalt parking lot, and treats runoff from portions of the remaining asphalt lot. </description>
+	<ExtendedData><SchemaData schemaUrl="#Green_Infrastructure__Storm_Public_">
+		<SimpleData name="OBJECTID">89</SimpleData>
+		<SimpleData name="Webmap">Permeable Pavement</SimpleData>
+		<SimpleData name="Entry">Charlottesville High School (CHS) Permeable Pavement</SimpleData>
+		<SimpleData name="Owner">Public (City)</SimpleData>
+		<SimpleData name="Address">1400 Melbourne Road</SimpleData>
+		<SimpleData name="picture">https://www.charlottesville.gov/ImageRepository/Document?documentId=3663</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-78.4748872097731,38.0514360842286</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<description>The City partnered with the Charlottesville Redevelopment and Housing Authority (CHRA) and the Urban Agriculture Collective of Charlottesville (UACC) to install an 8' high, 2,700 gallon corrugated metal tank to collect water off the roof of CRHA's maintenance building.  The system is to supply irrigation water for the community garden at the property.</description>
+	<ExtendedData><SchemaData schemaUrl="#Green_Infrastructure__Storm_Public_">
+		<SimpleData name="OBJECTID">90</SimpleData>
+		<SimpleData name="Webmap">Rainwater Harvesting</SimpleData>
+		<SimpleData name="Entry">South First Street Rainwater Harvesting</SimpleData>
+		<SimpleData name="Owner">Public (Other)</SimpleData>
+		<SimpleData name="Address">1000 1st Street South</SimpleData>
+		<SimpleData name="picture">https://www.charlottesville.gov/ImageRepository/Document?documentId=3660</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-78.4868654768147,38.0203008575936</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Green_Infrastructure__Storm_Public_">
+		<SimpleData name="OBJECTID">91</SimpleData>
+		<SimpleData name="Webmap">Green Roof</SimpleData>
+		<SimpleData name="Entry">Thrust Theatre Green Roof</SimpleData>
+		<SimpleData name="Owner">Public (UVA)</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-78.5039548086475,38.0392839319272</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Green_Infrastructure__Storm_Public_">
+		<SimpleData name="OBJECTID">92</SimpleData>
+		<SimpleData name="Webmap">Rain Garden / Bioretention</SimpleData>
+		<SimpleData name="Entry">North Grounds Recreation Center Bioretention</SimpleData>
+		<SimpleData name="Owner">Public (UVA)</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-78.5133933073591,38.05033454669</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Green_Infrastructure__Storm_Public_">
+		<SimpleData name="OBJECTID">93</SimpleData>
+		<SimpleData name="Webmap">Rain Garden / Bioretention</SimpleData>
+		<SimpleData name="Entry">Ruffner Hall Bioretention</SimpleData>
+		<SimpleData name="Owner">Public (UVA)</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-78.510103099248,38.0355919013863</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Green_Infrastructure__Storm_Public_">
+		<SimpleData name="OBJECTID">94</SimpleData>
+		<SimpleData name="Webmap">Rain Garden / Bioretention</SimpleData>
+		<SimpleData name="Entry">Cabell Drive Bioretention</SimpleData>
+		<SimpleData name="Owner">Public (UVA)</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-78.5068635613516,38.0325767542039</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Green_Infrastructure__Storm_Public_">
+		<SimpleData name="OBJECTID">95</SimpleData>
+		<SimpleData name="Webmap">Green Roof</SimpleData>
+		<SimpleData name="Entry">Skipwith Hall (Leake II) Green Roof</SimpleData>
+		<SimpleData name="Owner">Public (UVA)</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-78.5169892220039,38.0359357100966</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Green_Infrastructure__Storm_Public_">
+		<SimpleData name="OBJECTID">96</SimpleData>
+		<SimpleData name="Webmap">Permeable Pavement</SimpleData>
+		<SimpleData name="Entry">Skipwith Hall (Leake II) Permeable Pavers</SimpleData>
+		<SimpleData name="Owner">Public (UVA)</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-78.5168108316329,38.0360520570238</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Green_Infrastructure__Storm_Public_">
+		<SimpleData name="OBJECTID">97</SimpleData>
+		<SimpleData name="Webmap">Rain Garden / Bioretention</SimpleData>
+		<SimpleData name="Entry">Skipwith Hall (Leake II) Bioretention (Large)</SimpleData>
+		<SimpleData name="Owner">Public (UVA)</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-78.5172122387372,38.0359137480133</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Green_Infrastructure__Storm_Public_">
+		<SimpleData name="OBJECTID">98</SimpleData>
+		<SimpleData name="Webmap">Rain Garden / Bioretention</SimpleData>
+		<SimpleData name="Entry">Skipwith Hall (Leake II) Bioretention (Small)</SimpleData>
+		<SimpleData name="Owner">Public (UVA)</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-78.5166866191494,38.0358642421731</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Green_Infrastructure__Storm_Public_">
+		<SimpleData name="OBJECTID">99</SimpleData>
+		<SimpleData name="Webmap">Rain Garden / Bioretention</SimpleData>
+		<SimpleData name="Entry">O'Neil Hall Bioretention</SimpleData>
+		<SimpleData name="Owner">Public (UVA)</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-78.501966097472,38.0408285014109</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Green_Infrastructure__Storm_Public_">
+		<SimpleData name="OBJECTID">100</SimpleData>
+		<SimpleData name="Webmap">Rain Garden / Bioretention</SimpleData>
+		<SimpleData name="Entry">Hereford Residential College Rain Garden</SimpleData>
+		<SimpleData name="Owner">Public (UVA)</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-78.5203501535035,38.0300306701775</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Green_Infrastructure__Storm_Public_">
+		<SimpleData name="OBJECTID">101</SimpleData>
+		<SimpleData name="Webmap">Permeable Pavement</SimpleData>
+		<SimpleData name="Entry">The Rotunda Permeable Pavers</SimpleData>
+		<SimpleData name="Owner">Public (UVA)</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-78.5032234272034,38.0359785873993</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Green_Infrastructure__Storm_Public_">
+		<SimpleData name="OBJECTID">102</SimpleData>
+		<SimpleData name="Webmap">Rain Garden / Bioretention</SimpleData>
+		<SimpleData name="Entry">Clark Hall Bioretention</SimpleData>
+		<SimpleData name="Owner">Public (UVA)</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-78.5075258375309,38.0330282046076</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Green_Infrastructure__Storm_Public_">
+		<SimpleData name="OBJECTID">103</SimpleData>
+		<SimpleData name="Webmap">Rain Garden / Bioretention</SimpleData>
+		<SimpleData name="Entry">Materials Science Bioretention</SimpleData>
+		<SimpleData name="Owner">Public (UVA)</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-78.5107343901829,38.0329246670376</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Green_Infrastructure__Storm_Public_">
+		<SimpleData name="OBJECTID">104</SimpleData>
+		<SimpleData name="Webmap">Green Roof</SimpleData>
+		<SimpleData name="Entry">Clinical Wing Green Roof</SimpleData>
+		<SimpleData name="Owner">Public (UVA)</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-78.5015728319127,38.0342695306359</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Green_Infrastructure__Storm_Public_">
+		<SimpleData name="OBJECTID">105</SimpleData>
+		<SimpleData name="Webmap">Permeable Pavement</SimpleData>
+		<SimpleData name="Entry">Thornton Hall Permeable Pavers</SimpleData>
+		<SimpleData name="Owner">Public (UVA)</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-78.5096618320455,38.0333826231014</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Green_Infrastructure__Storm_Public_">
+		<SimpleData name="OBJECTID">106</SimpleData>
+		<SimpleData name="Webmap">Infiltration</SimpleData>
+		<SimpleData name="Entry">ERC Infiltration</SimpleData>
+		<SimpleData name="Owner">Public (UVA)</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-78.4983848507331,38.0320737708201</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Green_Infrastructure__Storm_Public_">
+		<SimpleData name="OBJECTID">107</SimpleData>
+		<SimpleData name="Webmap">Rain Garden / Bioretention</SimpleData>
+		<SimpleData name="Entry">Gooch Dillard Bioretention</SimpleData>
+		<SimpleData name="Owner">Public (UVA)</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-78.5176222950891,38.029677128651</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Green_Infrastructure__Storm_Public_">
+		<SimpleData name="OBJECTID">108</SimpleData>
+		<SimpleData name="Webmap">Rain Garden / Bioretention</SimpleData>
+		<SimpleData name="Entry">Wilson Hall Bioretention</SimpleData>
+		<SimpleData name="Owner">Public (UVA)</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-78.5044422910705,38.0322739279561</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Green_Infrastructure__Storm_Public_">
+		<SimpleData name="OBJECTID">109</SimpleData>
+		<SimpleData name="Webmap">Permeable Pavement</SimpleData>
+		<SimpleData name="Entry">Wilson Hall Permeable Pavers</SimpleData>
+		<SimpleData name="Owner">Public (UVA)</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-78.5041780947924,38.032276321363</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Green_Infrastructure__Storm_Public_">
+		<SimpleData name="OBJECTID">110</SimpleData>
+		<SimpleData name="Webmap">Permeable Pavement</SimpleData>
+		<SimpleData name="Entry">Student Remembrance Garden Permeable Pavers </SimpleData>
+		<SimpleData name="Owner">Public (UVA)</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-78.5060732336986,38.0360374721557</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<description>The roof of the Charlottesville City Hall and Police Department building, located on the historic Downtown Pedestrian Mall, was converted to a vegetated roof in 2008 when the roof was scheduled for replacement. The total vegetated area is 9,250 square feet.  In addition to soaking up and filtering stormwater runoff, the roof helps improve air quality and mitigate the urban heat island effect.</description>
+	<ExtendedData><SchemaData schemaUrl="#Green_Infrastructure__Storm_Public_">
+		<SimpleData name="OBJECTID">488</SimpleData>
+		<SimpleData name="Entry">City Hall Vegetated Roof (South)</SimpleData>
+		<SimpleData name="Owner">Public (City)</SimpleData>
+		<SimpleData name="Address">606 East Market Street</SimpleData>
+		<SimpleData name="picture">https://www.charlottesville.gov/ImageRepository/Document?documentId=3644</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-78.4774728114019,38.0297957772245</coordinates></Point>
+  </Placemark>
+</Folder>
+</Document></kml>

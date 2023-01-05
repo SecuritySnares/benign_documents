@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document id="3e8a11769e74626a0737bcfd52898cf9">
+    <Style id="TR-Orange-Marker">
+      <IconStyle>
+        <Icon>
+          <href>https://cdn.superlawyers.com/image/upload/q_auto,f_auto/v20201015/resources/shared/tr-marker.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="TR-Grey-Marker">
+      <IconStyle>
+        <Icon>
+          <href>https://cdn.superlawyers.com/image/upload/q_auto,f_auto/v20201015/resources/shared/tr-marker-grey.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Placemark>
+      <name>Rebecca J. Carrillo</name>
+      <styleUrl>#TR-Orange-Marker</styleUrl>
+      <address>12915 Jones-Maltsberger Rd, Suite 524, San Antonio, TX, 78247</address>
+      <phoneNumber>tel:+12104056623</phoneNumber>
+      <description><![CDATA[Phone: 210-405-6623<br/>12915 Jones-Maltsberger Rd, Suite 524, San Antonio, TX, 78247<br/><a href="https://profiles.superlawyers.com/texas/san-antonio/lawyer/rebecca-j-carrillo/2c82c012-6858-4bb6-9d74-0a3eb9e853a3.html">Learn more about this attorney...</a>]]></description>
+      <Point>
+        <coordinates>-98.462204,29.558904</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Karen L. Marvel</name>
+      <styleUrl>#TR-Orange-Marker</styleUrl>
+      <address>310 South Saint Mary's St., Suite 1010, San Antonio, TX, 78205</address>
+      <phoneNumber>tel:+12104464561</phoneNumber>
+      <description><![CDATA[Phone: 210-446-4561<br/>310 South Saint Mary's St., Suite 1010, San Antonio, TX, 78205<br/><a href="https://profiles.superlawyers.com/texas/san-antonio/lawyer/karen-l-marvel/6699d636-eb49-4e44-a75d-985e004943e1.html">Learn more about this attorney...</a>]]></description>
+      <Point>
+        <coordinates>-98.491756,29.422965</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Stephanie Bandoske</name>
+      <styleUrl>#TR-Orange-Marker</styleUrl>
+      <address>2634 Kerrybrook Ct, Suite 201, San Antonio, TX, 78230</address>
+      <phoneNumber>tel:+12107616157</phoneNumber>
+      <description><![CDATA[Phone: 210-761-6157<br/>2634 Kerrybrook Ct, Suite 201, San Antonio, TX, 78230<br/><a href="https://profiles.superlawyers.com/texas/san-antonio/lawyer/stephanie-bandoske/70dbccfc-aece-4bd9-a902-eff51af64a29.html">Learn more about this attorney...</a>]]></description>
+      <Point>
+        <coordinates>-98.491540,29.435160</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Heather Clement Tessmer</name>
+      <styleUrl>#TR-Orange-Marker</styleUrl>
+      <address>7550 W Interstate 10, Ste 1201, San Antonio, TX, 78229</address>
+      <phoneNumber>tel:+12108122533</phoneNumber>
+      <description><![CDATA[Phone: 210-812-2533<br/>7550 W Interstate 10, Ste 1201, San Antonio, TX, 78229<br/><a href="https://profiles.superlawyers.com/texas/san-antonio/lawyer/heather-clement-tessmer/62f413cf-f1b6-4e50-8479-2ec6e4a736dd.html">Learn more about this attorney...</a>]]></description>
+      <Point>
+        <coordinates>-98.552012,29.508802</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Carmen R. Rojo</name>
+      <styleUrl>#TR-Orange-Marker</styleUrl>
+      <address>222 Main Plaza, San Antonio, TX, 78205</address>
+      <phoneNumber>tel:+12109200001</phoneNumber>
+      <description><![CDATA[Phone: 210-920-0001<br/>222 Main Plaza, San Antonio, TX, 78205<br/><a href="https://profiles.superlawyers.com/texas/san-antonio/lawyer/carmen-r-rojo/0b71ac9d-1f4d-49c8-a2ab-69d42f04a3a2.html">Learn more about this attorney...</a>]]></description>
+      <Point>
+        <coordinates>-98.491830,29.423257</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Mysti Murphy</name>
+      <styleUrl>#TR-Orange-Marker</styleUrl>
+      <address>Independence Plaza II, 14350 Northbrook - Suite 240, San Antonio, TX, 78232</address>
+      <phoneNumber>tel:+12108078227</phoneNumber>
+      <description><![CDATA[Phone: 210-807-8227<br/>Independence Plaza II, 14350 Northbrook - Suite 240, San Antonio, TX, 78232<br/><a href="https://profiles.superlawyers.com/texas/san-antonio/lawyer/mysti-murphy/75fb8552-b5ff-456c-89a2-374caa5a5961.html">Learn more about this attorney...</a>]]></description>
+      <Point>
+        <coordinates>-98.480632,29.457256</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Deanna L. Whitley</name>
+      <styleUrl>#TR-Orange-Marker</styleUrl>
+      <address>2206 E. Commerce Street, San Antonio, TX, 78203</address>
+      <phoneNumber>tel:+12106792610</phoneNumber>
+      <description><![CDATA[Phone: 210-679-2610<br/>2206 E. Commerce Street, San Antonio, TX, 78203<br/><a href="https://profiles.superlawyers.com/texas/san-antonio/lawyer/deanna-l-whitley/4422228e-8a1a-422c-bf62-c8b00a96f0fc.html">Learn more about this attorney...</a>]]></description>
+      <Point>
+        <coordinates>-98.460955,29.419279</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Robert William Johnson</name>
+      <styleUrl>#TR-Orange-Marker</styleUrl>
+      <address>310 S. St. Mary's Street, 20th Floor, San Antonio, TX, 78205</address>
+      <phoneNumber>tel:+12102271496</phoneNumber>
+      <description><![CDATA[Phone: 210-227-1496<br/>310 S. St. Mary's Street, 20th Floor, San Antonio, TX, 78205<br/><a href="https://profiles.superlawyers.com/texas/san-antonio/lawyer/robert-william-johnson/6983e5bd-3b02-416f-b259-402df10b7e0e.html">Learn more about this attorney...</a>]]></description>
+      <Point>
+        <coordinates>-98.491830,29.423257</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Matthew A. Grimshaw</name>
+      <styleUrl>#TR-Orange-Marker</styleUrl>
+      <address>1603 Babcock Rd, Suite 280, San Antonio, TX, 78229</address>
+      <phoneNumber>tel:+12109341537</phoneNumber>
+      <description><![CDATA[Phone: 210-934-1537<br/>1603 Babcock Rd, Suite 280, San Antonio, TX, 78229<br/><a href="https://profiles.superlawyers.com/texas/san-antonio/lawyer/matthew-a-grimshaw/cb53e46d-be6e-4222-9a4d-95e096612b31.html">Learn more about this attorney...</a>]]></description>
+      <Point>
+        <coordinates>-98.569561,29.492155</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Amber Liddell Alwais</name>
+      <styleUrl>#TR-Orange-Marker</styleUrl>
+      <address>310 S St. Mary's St, 26th Floor, San Antonio, TX, 78205</address>
+      <phoneNumber>tel:+12102255567</phoneNumber>
+      <description><![CDATA[Phone: 210-225-5567<br/>310 S St. Mary's St, 26th Floor, San Antonio, TX, 78205<br/><a href="https://profiles.superlawyers.com/texas/san-antonio/lawyer/amber-liddell-alwais/4325bbf2-1027-4876-921c-8875b024decb.html">Learn more about this attorney...</a>]]></description>
+      <Point>
+        <coordinates>-98.491428,29.422919</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>San Antonio City Hall</name>
+      <styleUrl>#TR-Grey-Marker</styleUrl>
+      <address>100 Military Plaza, San Antonio, TX. 78205</address>
+      <description><![CDATA[Phone: <br/>100 Military Plaza, San Antonio, TX. 78205]]></description>
+      <Point>
+        <coordinates>-98.495144,29.424592</coordinates>
+      </Point>
+    </Placemark>
+  </Document>
+</kml>

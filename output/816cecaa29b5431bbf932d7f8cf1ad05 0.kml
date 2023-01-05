@@ -1,0 +1,2128 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="VicRoads_Office_Locations" id="VicRoads_Office_Locations">
+	<SimpleField name="OBJECTID" type="int"></SimpleField>
+	<SimpleField name="STREET_NO" type="string"></SimpleField>
+	<SimpleField name="ROAD_NAME" type="string"></SimpleField>
+	<SimpleField name="ROADTYPE" type="string"></SimpleField>
+	<SimpleField name="SUBURB" type="string"></SimpleField>
+	<SimpleField name="POSTCODE" type="string"></SimpleField>
+	<SimpleField name="MELWAYS_RE" type="string"></SimpleField>
+	<SimpleField name="VCD_REF" type="string"></SimpleField>
+	<SimpleField name="OP_PROP_TY" type="string"></SimpleField>
+	<SimpleField name="OP_PROP_DE" type="string"></SimpleField>
+	<SimpleField name="RNL" type="string"></SimpleField>
+</Schema>
+<Folder><name>VicRoads_Office_Locations</name>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#VicRoads_Office_Locations">
+		<SimpleData name="OBJECTID">1</SimpleData>
+		<SimpleData name="STREET_NO"></SimpleData>
+		<SimpleData name="ROAD_NAME">BEAUCHAMP</SimpleData>
+		<SimpleData name="ROADTYPE">RD</SimpleData>
+		<SimpleData name="SUBURB">KYNETON</SimpleData>
+		<SimpleData name="POSTCODE">3444</SimpleData>
+		<SimpleData name="MELWAYS_RE"></SimpleData>
+		<SimpleData name="VCD_REF">59J5</SimpleData>
+		<SimpleData name="OP_PROP_TY">Customer Service Centres</SimpleData>
+		<SimpleData name="OP_PROP_DE">Kyneton Customer Service Centre</SimpleData>
+		<SimpleData name="RNL">Y</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>144.46307599993,-37.2434939992112</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#VicRoads_Office_Locations">
+		<SimpleData name="OBJECTID">2</SimpleData>
+		<SimpleData name="STREET_NO">CENTRAL GOLDFIELDS SHIRE OFFICE</SimpleData>
+		<SimpleData name="ROAD_NAME">NEILL</SimpleData>
+		<SimpleData name="ROADTYPE">ST</SimpleData>
+		<SimpleData name="SUBURB">MARYBOROUGH</SimpleData>
+		<SimpleData name="POSTCODE">3465</SimpleData>
+		<SimpleData name="MELWAYS_RE"></SimpleData>
+		<SimpleData name="VCD_REF">558E7</SimpleData>
+		<SimpleData name="OP_PROP_TY">VicRoads Agencies</SimpleData>
+		<SimpleData name="OP_PROP_DE">Central Goldfields Shire Council (VicRoads )</SimpleData>
+		<SimpleData name="RNL">Y</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>143.738008457523,-37.0465110931667</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#VicRoads_Office_Locations">
+		<SimpleData name="OBJECTID">3</SimpleData>
+		<SimpleData name="STREET_NO">5</SimpleData>
+		<SimpleData name="ROAD_NAME">CRAWFORD</SimpleData>
+		<SimpleData name="ROADTYPE">ST</SimpleData>
+		<SimpleData name="SUBURB">SEYMOUR</SimpleData>
+		<SimpleData name="POSTCODE">3660</SimpleData>
+		<SimpleData name="MELWAYS_RE"></SimpleData>
+		<SimpleData name="VCD_REF">61D2</SimpleData>
+		<SimpleData name="OP_PROP_TY">Customer Service Centres</SimpleData>
+		<SimpleData name="OP_PROP_DE">Seymour Customer Service Centre</SimpleData>
+		<SimpleData name="RNL">Y</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>145.139826416509,-37.0230315741878</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#VicRoads_Office_Locations">
+		<SimpleData name="OBJECTID">4</SimpleData>
+		<SimpleData name="STREET_NO">53-61</SimpleData>
+		<SimpleData name="ROAD_NAME">LANSELL</SimpleData>
+		<SimpleData name="ROADTYPE">ST</SimpleData>
+		<SimpleData name="SUBURB">BENDIGO</SimpleData>
+		<SimpleData name="POSTCODE">3550</SimpleData>
+		<SimpleData name="MELWAYS_RE"></SimpleData>
+		<SimpleData name="VCD_REF">44F6</SimpleData>
+		<SimpleData name="OP_PROP_TY">Road Management Offices</SimpleData>
+		<SimpleData name="OP_PROP_DE">Northern Regional Office</SimpleData>
+		<SimpleData name="RNL"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>144.298290900456,-36.7554034387145</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#VicRoads_Office_Locations">
+		<SimpleData name="OBJECTID">5</SimpleData>
+		<SimpleData name="STREET_NO">14</SimpleData>
+		<SimpleData name="ROAD_NAME">O'CALLAGHAN'S</SimpleData>
+		<SimpleData name="ROADTYPE">PDE</SimpleData>
+		<SimpleData name="SUBURB">HORSHAM</SimpleData>
+		<SimpleData name="POSTCODE">3400</SimpleData>
+		<SimpleData name="MELWAYS_RE"></SimpleData>
+		<SimpleData name="VCD_REF">219Q7</SimpleData>
+		<SimpleData name="OP_PROP_TY">Customer Service Centres</SimpleData>
+		<SimpleData name="OP_PROP_DE">Horsham Customer Service Centre</SimpleData>
+		<SimpleData name="RNL">Y</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>142.200948549866,-36.7201459415423</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#VicRoads_Office_Locations">
+		<SimpleData name="OBJECTID">6</SimpleData>
+		<SimpleData name="ROAD_NAME">SPRING</SimpleData>
+		<SimpleData name="ROADTYPE">ST</SimpleData>
+		<SimpleData name="SUBURB">MELBOURNE</SimpleData>
+		<SimpleData name="POSTCODE">3000</SimpleData>
+		<SimpleData name="MELWAYS_RE">43K8</SimpleData>
+		<SimpleData name="OP_PROP_TY">Road Management Offices</SimpleData>
+		<SimpleData name="OP_PROP_DE">Policy &amp; Programs, Metropolitan Projects - Central</SimpleData>
+		<SimpleData name="RNL"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>144.974429155153,-37.8151182024343</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#VicRoads_Office_Locations">
+		<SimpleData name="OBJECTID">7</SimpleData>
+		<SimpleData name="SUBURB">CHELTENHAM</SimpleData>
+		<SimpleData name="MELWAYS_RE">77H11</SimpleData>
+		<SimpleData name="OP_PROP_TY">VicRoads Agencies</SimpleData>
+		<SimpleData name="OP_PROP_DE">Australia Post - Southland</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>145.054515622689,-37.9584231159697</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#VicRoads_Office_Locations">
+		<SimpleData name="OBJECTID">8</SimpleData>
+		<SimpleData name="STREET_NO">459</SimpleData>
+		<SimpleData name="ROAD_NAME">LYGON</SimpleData>
+		<SimpleData name="ROADTYPE">ST</SimpleData>
+		<SimpleData name="SUBURB">CARLTON</SimpleData>
+		<SimpleData name="POSTCODE">3053</SimpleData>
+		<SimpleData name="MELWAYS_RE">43J2</SimpleData>
+		<SimpleData name="VCD_REF"></SimpleData>
+		<SimpleData name="OP_PROP_TY">Customer Service Centres</SimpleData>
+		<SimpleData name="OP_PROP_DE">Carlton Customer Service Centre</SimpleData>
+		<SimpleData name="RNL">Y</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>144.967940300046,-37.7934107088488</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#VicRoads_Office_Locations">
+		<SimpleData name="OBJECTID">9</SimpleData>
+		<SimpleData name="STREET_NO">79</SimpleData>
+		<SimpleData name="ROAD_NAME">Oke</SimpleData>
+		<SimpleData name="ROADTYPE">St</SimpleData>
+		<SimpleData name="SUBURB">Ouyen</SimpleData>
+		<SimpleData name="POSTCODE">3490</SimpleData>
+		<SimpleData name="MELWAYS_RE"></SimpleData>
+		<SimpleData name="VCD_REF">540G9</SimpleData>
+		<SimpleData name="OP_PROP_TY">VicRoads Agencies</SimpleData>
+		<SimpleData name="OP_PROP_DE">Mildura Rural City Council</SimpleData>
+		<SimpleData name="RNL"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>142.315122099533,-35.0688943592723</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#VicRoads_Office_Locations">
+		<SimpleData name="OBJECTID">10</SimpleData>
+		<SimpleData name="STREET_NO"></SimpleData>
+		<SimpleData name="ROAD_NAME"></SimpleData>
+		<SimpleData name="ROADTYPE"></SimpleData>
+		<SimpleData name="SUBURB">DONALD</SimpleData>
+		<SimpleData name="POSTCODE"></SimpleData>
+		<SimpleData name="MELWAYS_RE"></SimpleData>
+		<SimpleData name="VCD_REF">589N10</SimpleData>
+		<SimpleData name="OP_PROP_TY">VicRoads Agencies</SimpleData>
+		<SimpleData name="OP_PROP_DE">Donald &amp; District Community Bank Branch</SimpleData>
+		<SimpleData name="RNL"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>142.982761999662,-36.3706907590616</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#VicRoads_Office_Locations">
+		<SimpleData name="OBJECTID">11</SimpleData>
+		<SimpleData name="STREET_NO"></SimpleData>
+		<SimpleData name="ROAD_NAME"></SimpleData>
+		<SimpleData name="ROADTYPE"></SimpleData>
+		<SimpleData name="SUBURB">CASTERTON</SimpleData>
+		<SimpleData name="POSTCODE"></SimpleData>
+		<SimpleData name="MELWAYS_RE"></SimpleData>
+		<SimpleData name="VCD_REF">500F3</SimpleData>
+		<SimpleData name="OP_PROP_TY">VicRoads Agencies</SimpleData>
+		<SimpleData name="OP_PROP_DE">Glenelg Shire Council - Casterton</SimpleData>
+		<SimpleData name="RNL"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>141.405246800213,-37.5848131490619</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#VicRoads_Office_Locations">
+		<SimpleData name="OBJECTID">12</SimpleData>
+		<SimpleData name="STREET_NO">205</SimpleData>
+		<SimpleData name="ROAD_NAME">Watton</SimpleData>
+		<SimpleData name="ROADTYPE">St</SimpleData>
+		<SimpleData name="SUBURB">Werribee</SimpleData>
+		<SimpleData name="POSTCODE">3030</SimpleData>
+		<SimpleData name="MELWAYS_RE">205H9</SimpleData>
+		<SimpleData name="VCD_REF"></SimpleData>
+		<SimpleData name="OP_PROP_TY">Customer Service Centres</SimpleData>
+		<SimpleData name="OP_PROP_DE">Werribee Licence Testing Centre (appointments only)</SimpleData>
+		<SimpleData name="RNL"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>144.655363999957,-37.9048882486445</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#VicRoads_Office_Locations">
+		<SimpleData name="OBJECTID">13</SimpleData>
+		<SimpleData name="STREET_NO">180</SimpleData>
+		<SimpleData name="ROAD_NAME">Fyans</SimpleData>
+		<SimpleData name="ROADTYPE">St</SimpleData>
+		<SimpleData name="SUBURB">South Geelong</SimpleData>
+		<SimpleData name="POSTCODE">3220</SimpleData>
+		<SimpleData name="MELWAYS_RE">452D9</SimpleData>
+		<SimpleData name="VCD_REF"></SimpleData>
+		<SimpleData name="OP_PROP_TY">Road Management Offices</SimpleData>
+		<SimpleData name="OP_PROP_DE">South Western Regional Office</SimpleData>
+		<SimpleData name="RNL"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>144.368546899921,-38.1659875889129</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#VicRoads_Office_Locations">
+		<SimpleData name="OBJECTID">14</SimpleData>
+		<SimpleData name="STREET_NO">77</SimpleData>
+		<SimpleData name="ROAD_NAME">Corporate</SimpleData>
+		<SimpleData name="ROADTYPE">Drive</SimpleData>
+		<SimpleData name="SUBURB">Heatherton</SimpleData>
+		<SimpleData name="POSTCODE">3202</SimpleData>
+		<SimpleData name="MELWAYS_RE">78D9</SimpleData>
+		<SimpleData name="VCD_REF"></SimpleData>
+		<SimpleData name="OP_PROP_TY">Customer Service Centres</SimpleData>
+		<SimpleData name="OP_PROP_DE">Heatherton Customer Service Centre (Re-located from Oakleigh South)</SimpleData>
+		<SimpleData name="RNL"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>145.080914600168,-37.9477642995317</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#VicRoads_Office_Locations">
+		<SimpleData name="OBJECTID">15</SimpleData>
+		<SimpleData name="STREET_NO">72</SimpleData>
+		<SimpleData name="ROAD_NAME">Greens</SimpleData>
+		<SimpleData name="ROADTYPE">Rd</SimpleData>
+		<SimpleData name="SUBURB">Dandenong</SimpleData>
+		<SimpleData name="POSTCODE">3175</SimpleData>
+		<SimpleData name="MELWAYS_RE">95G3</SimpleData>
+		<SimpleData name="VCD_REF"></SimpleData>
+		<SimpleData name="OP_PROP_TY">Customer Service Centres</SimpleData>
+		<SimpleData name="OP_PROP_DE">Dandenong Customer Service Centre</SimpleData>
+		<SimpleData name="RNL"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>145.227548500491,-38.0162980492256</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#VicRoads_Office_Locations">
+		<SimpleData name="OBJECTID">16</SimpleData>
+		<SimpleData name="STREET_NO">250</SimpleData>
+		<SimpleData name="ROAD_NAME">Elizabeth</SimpleData>
+		<SimpleData name="ROADTYPE">St</SimpleData>
+		<SimpleData name="SUBURB">Melbourne</SimpleData>
+		<SimpleData name="POSTCODE">3000</SimpleData>
+		<SimpleData name="MELWAYS_RE">43H8</SimpleData>
+		<SimpleData name="VCD_REF"></SimpleData>
+		<SimpleData name="OP_PROP_TY">VicRoads Agencies</SimpleData>
+		<SimpleData name="OP_PROP_DE">Australia Post - Melbourne</SimpleData>
+		<SimpleData name="RNL"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>144.962609000561,-37.812893998735</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#VicRoads_Office_Locations">
+		<SimpleData name="OBJECTID">17</SimpleData>
+		<SimpleData name="STREET_NO">8</SimpleData>
+		<SimpleData name="ROAD_NAME">Graduate</SimpleData>
+		<SimpleData name="ROADTYPE">Rd</SimpleData>
+		<SimpleData name="SUBURB">Bundoora</SimpleData>
+		<SimpleData name="POSTCODE">3083</SimpleData>
+		<SimpleData name="MELWAYS_RE">10B8</SimpleData>
+		<SimpleData name="VCD_REF"></SimpleData>
+		<SimpleData name="OP_PROP_TY">Customer Service Centres</SimpleData>
+		<SimpleData name="OP_PROP_DE">Bundoora Customer Service Centre</SimpleData>
+		<SimpleData name="RNL"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>145.07025020043,-37.6836574392496</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#VicRoads_Office_Locations">
+		<SimpleData name="OBJECTID">18</SimpleData>
+		<SimpleData name="STREET_NO">191</SimpleData>
+		<SimpleData name="ROAD_NAME">Hull</SimpleData>
+		<SimpleData name="ROADTYPE">Rd</SimpleData>
+		<SimpleData name="SUBURB">Mooroolbark</SimpleData>
+		<SimpleData name="POSTCODE">3138</SimpleData>
+		<SimpleData name="MELWAYS_RE">51F1</SimpleData>
+		<SimpleData name="VCD_REF"></SimpleData>
+		<SimpleData name="OP_PROP_TY">Customer Service Centres</SimpleData>
+		<SimpleData name="OP_PROP_DE">Mooroolbark Licence Testing Centre (appointments only)</SimpleData>
+		<SimpleData name="RNL"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>145.310688800135,-37.7885617186914</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#VicRoads_Office_Locations">
+		<SimpleData name="OBJECTID">19</SimpleData>
+		<SimpleData name="STREET_NO">39</SimpleData>
+		<SimpleData name="ROAD_NAME">Station</SimpleData>
+		<SimpleData name="ROADTYPE">St</SimpleData>
+		<SimpleData name="SUBURB">Cobram</SimpleData>
+		<SimpleData name="POSTCODE">3644</SimpleData>
+		<SimpleData name="MELWAYS_RE"></SimpleData>
+		<SimpleData name="VCD_REF">667O9</SimpleData>
+		<SimpleData name="OP_PROP_TY">Customer Service Centres</SimpleData>
+		<SimpleData name="OP_PROP_DE">Cobram Customer Service Centre</SimpleData>
+		<SimpleData name="RNL"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>145.64712910023,-35.9217735989971</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#VicRoads_Office_Locations">
+		<SimpleData name="OBJECTID">20</SimpleData>
+		<SimpleData name="STREET_NO">8</SimpleData>
+		<SimpleData name="ROAD_NAME">Hancock</SimpleData>
+		<SimpleData name="ROADTYPE">St</SimpleData>
+		<SimpleData name="SUBURB">Drysdale</SimpleData>
+		<SimpleData name="POSTCODE">3222</SimpleData>
+		<SimpleData name="MELWAYS_RE">456J10</SimpleData>
+		<SimpleData name="VCD_REF"></SimpleData>
+		<SimpleData name="OP_PROP_TY">VicRoads Agencies</SimpleData>
+		<SimpleData name="OP_PROP_DE">Australia Post - Drysdale</SimpleData>
+		<SimpleData name="RNL"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>144.570651000028,-38.1722759993475</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#VicRoads_Office_Locations">
+		<SimpleData name="OBJECTID">21</SimpleData>
+		<SimpleData name="STREET_NO">Shop 49</SimpleData>
+		<SimpleData name="ROAD_NAME">Watergardens Shopping Centre</SimpleData>
+		<SimpleData name="ROADTYPE"></SimpleData>
+		<SimpleData name="SUBURB">Taylors Lakes</SimpleData>
+		<SimpleData name="POSTCODE">3038</SimpleData>
+		<SimpleData name="MELWAYS_RE">3E12</SimpleData>
+		<SimpleData name="VCD_REF"></SimpleData>
+		<SimpleData name="OP_PROP_TY">VicRoads Agencies</SimpleData>
+		<SimpleData name="OP_PROP_DE">Australia Post - Watergardens</SimpleData>
+		<SimpleData name="RNL"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>144.776040000011,-37.6976059986371</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#VicRoads_Office_Locations">
+		<SimpleData name="OBJECTID">22</SimpleData>
+		<SimpleData name="STREET_NO">3</SimpleData>
+		<SimpleData name="ROAD_NAME">Bristol</SimpleData>
+		<SimpleData name="ROADTYPE">St</SimpleData>
+		<SimpleData name="SUBURB">Essendon</SimpleData>
+		<SimpleData name="POSTCODE">3041</SimpleData>
+		<SimpleData name="MELWAYS_RE">16B8</SimpleData>
+		<SimpleData name="VCD_REF"></SimpleData>
+		<SimpleData name="OP_PROP_TY">Road Management Offices</SimpleData>
+		<SimpleData name="OP_PROP_DE">M80 Ring Road Upgrade</SimpleData>
+		<SimpleData name="RNL"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>144.891885499453,-37.7271292990659</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#VicRoads_Office_Locations">
+		<SimpleData name="OBJECTID">23</SimpleData>
+		<SimpleData name="STREET_NO">241</SimpleData>
+		<SimpleData name="ROAD_NAME">High</SimpleData>
+		<SimpleData name="ROADTYPE">St</SimpleData>
+		<SimpleData name="SUBURB">Thomastown</SimpleData>
+		<SimpleData name="POSTCODE">3074</SimpleData>
+		<SimpleData name="MELWAYS_RE">8J7</SimpleData>
+		<SimpleData name="VCD_REF"></SimpleData>
+		<SimpleData name="OP_PROP_TY">VicRoads Agencies</SimpleData>
+		<SimpleData name="OP_PROP_DE">Thomastown Discount Drug Stores</SimpleData>
+		<SimpleData name="RNL"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>145.013801600474,-37.6790742887389</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#VicRoads_Office_Locations">
+		<SimpleData name="OBJECTID">24</SimpleData>
+		<SimpleData name="STREET_NO">Shop L1</SimpleData>
+		<SimpleData name="ROAD_NAME">Eastland Shopping Centre</SimpleData>
+		<SimpleData name="ROADTYPE"></SimpleData>
+		<SimpleData name="SUBURB">Ringwood</SimpleData>
+		<SimpleData name="POSTCODE">3134</SimpleData>
+		<SimpleData name="MELWAYS_RE">49H8</SimpleData>
+		<SimpleData name="VCD_REF"></SimpleData>
+		<SimpleData name="OP_PROP_TY">VicRoads Agencies</SimpleData>
+		<SimpleData name="OP_PROP_DE">Australia Post - Eastland</SimpleData>
+		<SimpleData name="RNL"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>145.228982999918,-37.8127557994881</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#VicRoads_Office_Locations">
+		<SimpleData name="OBJECTID">25</SimpleData>
+		<SimpleData name="STREET_NO">Shop 1064</SimpleData>
+		<SimpleData name="ROAD_NAME">Fountain Gate Shopping Centre</SimpleData>
+		<SimpleData name="ROADTYPE"></SimpleData>
+		<SimpleData name="SUBURB">Fountain Gate</SimpleData>
+		<SimpleData name="POSTCODE">3805</SimpleData>
+		<SimpleData name="MELWAYS_RE">110D4</SimpleData>
+		<SimpleData name="VCD_REF"></SimpleData>
+		<SimpleData name="OP_PROP_TY">VicRoads Agencies</SimpleData>
+		<SimpleData name="OP_PROP_DE">Australia Post - Fountain Gate</SimpleData>
+		<SimpleData name="RNL"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>145.30412400016,-38.0175159991236</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#VicRoads_Office_Locations">
+		<SimpleData name="OBJECTID">26</SimpleData>
+		<SimpleData name="STREET_NO">197</SimpleData>
+		<SimpleData name="ROAD_NAME">Main</SimpleData>
+		<SimpleData name="ROADTYPE">St</SimpleData>
+		<SimpleData name="SUBURB">Bacchus Marsh</SimpleData>
+		<SimpleData name="POSTCODE">3340</SimpleData>
+		<SimpleData name="MELWAYS_RE">333K7</SimpleData>
+		<SimpleData name="VCD_REF"></SimpleData>
+		<SimpleData name="OP_PROP_TY">VicRoads Agencies</SimpleData>
+		<SimpleData name="OP_PROP_DE">Moorabool Shire Council - Bacchus Marsh</SimpleData>
+		<SimpleData name="RNL"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>144.440965400442,-37.6764598494711</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#VicRoads_Office_Locations">
+		<SimpleData name="OBJECTID">27</SimpleData>
+		<SimpleData name="STREET_NO">Shop 2090</SimpleData>
+		<SimpleData name="ROAD_NAME">Highpoint City Shopping Centre</SimpleData>
+		<SimpleData name="ROADTYPE"></SimpleData>
+		<SimpleData name="SUBURB">Maribyrnong</SimpleData>
+		<SimpleData name="POSTCODE">3032</SimpleData>
+		<SimpleData name="MELWAYS_RE">28A9</SimpleData>
+		<SimpleData name="VCD_REF"></SimpleData>
+		<SimpleData name="OP_PROP_TY">VicRoads Agencies</SimpleData>
+		<SimpleData name="OP_PROP_DE">Australia Post - Highpoint</SimpleData>
+		<SimpleData name="RNL"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>144.888610700261,-37.7734644988452</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#VicRoads_Office_Locations">
+		<SimpleData name="OBJECTID">28</SimpleData>
+		<SimpleData name="STREET_NO">70</SimpleData>
+		<SimpleData name="ROAD_NAME">Douglas</SimpleData>
+		<SimpleData name="ROADTYPE">Pde</SimpleData>
+		<SimpleData name="SUBURB">Williamstown</SimpleData>
+		<SimpleData name="POSTCODE">3016</SimpleData>
+		<SimpleData name="MELWAYS_RE">56C8</SimpleData>
+		<SimpleData name="VCD_REF"></SimpleData>
+		<SimpleData name="OP_PROP_TY">VicRoads Agencies</SimpleData>
+		<SimpleData name="OP_PROP_DE">Australia Post - Williamstown</SimpleData>
+		<SimpleData name="RNL"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>144.897823800451,-37.8567757989888</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#VicRoads_Office_Locations">
+		<SimpleData name="OBJECTID">29</SimpleData>
+		<SimpleData name="STREET_NO">Shop G024/5</SimpleData>
+		<SimpleData name="ROAD_NAME">Westfield Shoppingtown</SimpleData>
+		<SimpleData name="ROADTYPE"></SimpleData>
+		<SimpleData name="SUBURB">Doncaster</SimpleData>
+		<SimpleData name="POSTCODE">3108</SimpleData>
+		<SimpleData name="MELWAYS_RE">47D1</SimpleData>
+		<SimpleData name="VCD_REF"></SimpleData>
+		<SimpleData name="OP_PROP_TY">VicRoads Agencies</SimpleData>
+		<SimpleData name="OP_PROP_DE">Australia Post - Doncaster</SimpleData>
+		<SimpleData name="RNL"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>145.1258893,-37.7872670992211</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#VicRoads_Office_Locations">
+		<SimpleData name="OBJECTID">30</SimpleData>
+		<SimpleData name="STREET_NO">Shop F026</SimpleData>
+		<SimpleData name="ROAD_NAME">Chadstone Shopping Centre</SimpleData>
+		<SimpleData name="ROADTYPE"></SimpleData>
+		<SimpleData name="SUBURB">MALVERN EAST</SimpleData>
+		<SimpleData name="POSTCODE">3148</SimpleData>
+		<SimpleData name="MELWAYS_RE">69D4</SimpleData>
+		<SimpleData name="VCD_REF"></SimpleData>
+		<SimpleData name="OP_PROP_TY">VicRoads Agencies</SimpleData>
+		<SimpleData name="OP_PROP_DE">Australia Post - Chadstone</SimpleData>
+		<SimpleData name="RNL"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>145.08069999994,-37.8866799991246</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#VicRoads_Office_Locations">
+		<SimpleData name="OBJECTID">31</SimpleData>
+		<SimpleData name="STREET_NO">Shop 52</SimpleData>
+		<SimpleData name="ROAD_NAME">Brandon Park Shopping Centre</SimpleData>
+		<SimpleData name="ROADTYPE"></SimpleData>
+		<SimpleData name="SUBURB">Wheelers Hill</SimpleData>
+		<SimpleData name="POSTCODE">3150</SimpleData>
+		<SimpleData name="MELWAYS_RE">71C9</SimpleData>
+		<SimpleData name="VCD_REF"></SimpleData>
+		<SimpleData name="OP_PROP_TY">VicRoads Agencies</SimpleData>
+		<SimpleData name="OP_PROP_DE">Australia Post - Brandon Park</SimpleData>
+		<SimpleData name="RNL"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>145.162496000101,-37.905213998962</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#VicRoads_Office_Locations">
+		<SimpleData name="OBJECTID">32</SimpleData>
+		<SimpleData name="STREET_NO">Shop 1042</SimpleData>
+		<SimpleData name="ROAD_NAME">Knox City</SimpleData>
+		<SimpleData name="ROADTYPE"></SimpleData>
+		<SimpleData name="SUBURB">Knox</SimpleData>
+		<SimpleData name="POSTCODE">3152</SimpleData>
+		<SimpleData name="MELWAYS_RE">63K11</SimpleData>
+		<SimpleData name="VCD_REF"></SimpleData>
+		<SimpleData name="OP_PROP_TY">VicRoads Agencies</SimpleData>
+		<SimpleData name="OP_PROP_DE">Australia Post - Knox City</SimpleData>
+		<SimpleData name="RNL"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>145.240041000057,-37.8692799989616</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#VicRoads_Office_Locations">
+		<SimpleData name="OBJECTID">33</SimpleData>
+		<SimpleData name="STREET_NO">Shop W44</SimpleData>
+		<SimpleData name="ROAD_NAME">Northland Shopping Centre</SimpleData>
+		<SimpleData name="ROADTYPE"></SimpleData>
+		<SimpleData name="SUBURB">Preston</SimpleData>
+		<SimpleData name="POSTCODE">3072</SimpleData>
+		<SimpleData name="MELWAYS_RE">19C11</SimpleData>
+		<SimpleData name="VCD_REF"></SimpleData>
+		<SimpleData name="OP_PROP_TY">VicRoads Agencies</SimpleData>
+		<SimpleData name="OP_PROP_DE">Australia Post - Northland</SimpleData>
+		<SimpleData name="RNL"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>145.029521000245,-37.738656999178</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#VicRoads_Office_Locations">
+		<SimpleData name="OBJECTID">34</SimpleData>
+		<SimpleData name="STREET_NO">266</SimpleData>
+		<SimpleData name="ROAD_NAME">MAIN</SimpleData>
+		<SimpleData name="ROADTYPE">ST</SimpleData>
+		<SimpleData name="SUBURB">Lilydale</SimpleData>
+		<SimpleData name="POSTCODE">3140</SimpleData>
+		<SimpleData name="MELWAYS_RE">38F5</SimpleData>
+		<SimpleData name="VCD_REF"></SimpleData>
+		<SimpleData name="OP_PROP_TY">VicRoads Agencies</SimpleData>
+		<SimpleData name="OP_PROP_DE">Australia Post - Lilydale</SimpleData>
+		<SimpleData name="RNL"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>145.352651099796,-37.7577447989014</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#VicRoads_Office_Locations">
+		<SimpleData name="OBJECTID">35</SimpleData>
+		<SimpleData name="STREET_NO"></SimpleData>
+		<SimpleData name="ROAD_NAME"></SimpleData>
+		<SimpleData name="ROADTYPE"></SimpleData>
+		<SimpleData name="SUBURB">BENALLA</SimpleData>
+		<SimpleData name="POSTCODE"></SimpleData>
+		<SimpleData name="MELWAYS_RE"></SimpleData>
+		<SimpleData name="VCD_REF">47H2</SimpleData>
+		<SimpleData name="OP_PROP_TY">Customer Service Centres</SimpleData>
+		<SimpleData name="OP_PROP_DE">Benalla Customer Service Centre</SimpleData>
+		<SimpleData name="RNL"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>145.967705899684,-36.5551205492451</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#VicRoads_Office_Locations">
+		<SimpleData name="OBJECTID">36</SimpleData>
+		<SimpleData name="STREET_NO">6 - 8</SimpleData>
+		<SimpleData name="ROAD_NAME">HANDLEY</SimpleData>
+		<SimpleData name="ROADTYPE">ST</SimpleData>
+		<SimpleData name="SUBURB">WANGARATTA</SimpleData>
+		<SimpleData name="POSTCODE">3677</SimpleData>
+		<SimpleData name="MELWAYS_RE"></SimpleData>
+		<SimpleData name="VCD_REF">34F7</SimpleData>
+		<SimpleData name="OP_PROP_TY">Customer Service Centres</SimpleData>
+		<SimpleData name="OP_PROP_DE">Wangaratta Customer Service Centre</SimpleData>
+		<SimpleData name="RNL">Y</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>146.323682999507,-36.3548925792062</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#VicRoads_Office_Locations">
+		<SimpleData name="OBJECTID">37</SimpleData>
+		<SimpleData name="STREET_NO">UNIT 5</SimpleData>
+		<SimpleData name="ROAD_NAME">MUNDARRA</SimpleData>
+		<SimpleData name="ROADTYPE">RD</SimpleData>
+		<SimpleData name="SUBURB">ECHUCA</SimpleData>
+		<SimpleData name="POSTCODE">3564</SimpleData>
+		<SimpleData name="MELWAYS_RE"></SimpleData>
+		<SimpleData name="VCD_REF">31E4</SimpleData>
+		<SimpleData name="OP_PROP_TY">Customer Service Centres</SimpleData>
+		<SimpleData name="OP_PROP_DE">Echuca Customer Service Centre</SimpleData>
+		<SimpleData name="RNL">Y</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>144.75852916758,-36.1409568716943</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#VicRoads_Office_Locations">
+		<SimpleData name="OBJECTID">38</SimpleData>
+		<SimpleData name="STREET_NO">82-86</SimpleData>
+		<SimpleData name="ROAD_NAME">ELGIN</SimpleData>
+		<SimpleData name="ROADTYPE">ST</SimpleData>
+		<SimpleData name="SUBURB">WODONGA</SimpleData>
+		<SimpleData name="POSTCODE">3690</SimpleData>
+		<SimpleData name="MELWAYS_RE"></SimpleData>
+		<SimpleData name="VCD_REF">35G3</SimpleData>
+		<SimpleData name="OP_PROP_TY">Customer Service Centres</SimpleData>
+		<SimpleData name="OP_PROP_DE">Wodonga Customer Service Centre</SimpleData>
+		<SimpleData name="RNL">Y</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>146.88004599789,-36.1188973569296</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#VicRoads_Office_Locations">
+		<SimpleData name="OBJECTID">39</SimpleData>
+		<SimpleData name="STREET_NO"></SimpleData>
+		<SimpleData name="ROAD_NAME"></SimpleData>
+		<SimpleData name="ROADTYPE"></SimpleData>
+		<SimpleData name="SUBURB">BRIGHT</SimpleData>
+		<SimpleData name="POSTCODE"></SimpleData>
+		<SimpleData name="MELWAYS_RE"></SimpleData>
+		<SimpleData name="VCD_REF">661Q3</SimpleData>
+		<SimpleData name="OP_PROP_TY">VicRoads Agencies</SimpleData>
+		<SimpleData name="OP_PROP_DE">Alpine Shire Council - Bright</SimpleData>
+		<SimpleData name="RNL"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>146.968780000056,-36.7282379994901</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#VicRoads_Office_Locations">
+		<SimpleData name="OBJECTID">40</SimpleData>
+		<SimpleData name="STREET_NO">70</SimpleData>
+		<SimpleData name="ROAD_NAME">NYAH</SimpleData>
+		<SimpleData name="ROADTYPE">ST</SimpleData>
+		<SimpleData name="SUBURB">SWAN HILL</SimpleData>
+		<SimpleData name="POSTCODE">3585</SimpleData>
+		<SimpleData name="MELWAYS_RE"></SimpleData>
+		<SimpleData name="VCD_REF">14A7</SimpleData>
+		<SimpleData name="OP_PROP_TY">Customer Service Centres</SimpleData>
+		<SimpleData name="OP_PROP_DE">Swan Hill Customer Service Centre</SimpleData>
+		<SimpleData name="RNL">Y</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>143.561801687317,-35.3608150199765</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#VicRoads_Office_Locations">
+		<SimpleData name="OBJECTID">41</SimpleData>
+		<SimpleData name="STREET_NO">113</SimpleData>
+		<SimpleData name="ROAD_NAME">EXHIBITION </SimpleData>
+		<SimpleData name="ROADTYPE">ST</SimpleData>
+		<SimpleData name="SUBURB">MELBOURNE</SimpleData>
+		<SimpleData name="POSTCODE">3000</SimpleData>
+		<SimpleData name="MELWAYS_RE">43J8</SimpleData>
+		<SimpleData name="OP_PROP_TY">Customer Service Centres</SimpleData>
+		<SimpleData name="OP_PROP_DE">hub@exhibition</SimpleData>
+		<SimpleData name="RNL">Y</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>144.970829999926,-37.8130199993116</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#VicRoads_Office_Locations">
+		<SimpleData name="OBJECTID">42</SimpleData>
+		<SimpleData name="STREET_NO">2</SimpleData>
+		<SimpleData name="ROAD_NAME">PROSPECT HILL</SimpleData>
+		<SimpleData name="ROADTYPE">RD</SimpleData>
+		<SimpleData name="SUBURB">CAMBERWELL</SimpleData>
+		<SimpleData name="POSTCODE">3124</SimpleData>
+		<SimpleData name="MELWAYS_RE">45J12</SimpleData>
+		<SimpleData name="OP_PROP_TY">VicRoads Agencies</SimpleData>
+		<SimpleData name="OP_PROP_DE">Australia Post - Camberwell</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>145.05778900014,-37.828461998645</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#VicRoads_Office_Locations">
+		<SimpleData name="OBJECTID">43</SimpleData>
+		<SimpleData name="STREET_NO">8 - 34 </SimpleData>
+		<SimpleData name="ROAD_NAME">GLADSTONE </SimpleData>
+		<SimpleData name="ROADTYPE">DR</SimpleData>
+		<SimpleData name="SUBURB">GLADSTONE PARK</SimpleData>
+		<SimpleData name="POSTCODE">3034</SimpleData>
+		<SimpleData name="MELWAYS_RE">5K10</SimpleData>
+		<SimpleData name="OP_PROP_TY">VicRoads Agencies</SimpleData>
+		<SimpleData name="OP_PROP_DE">Australia Post - Gladstone Park
+
+</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>144.88478299998,-37.6880159995198</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#VicRoads_Office_Locations">
+		<SimpleData name="OBJECTID">44</SimpleData>
+		<SimpleData name="STREET_NO">39</SimpleData>
+		<SimpleData name="ROAD_NAME">HANSEN</SimpleData>
+		<SimpleData name="ROADTYPE">ST</SimpleData>
+		<SimpleData name="SUBURB">CORRYONG</SimpleData>
+		<SimpleData name="POSTCODE">3707</SimpleData>
+		<SimpleData name="VCD_REF">644 D3</SimpleData>
+		<SimpleData name="OP_PROP_TY">VicRoads Agencies</SimpleData>
+		<SimpleData name="OP_PROP_DE">Corryong Neighbourhood Centre</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>147.905145000253,-36.1958979990539</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#VicRoads_Office_Locations">
+		<SimpleData name="OBJECTID">45</SimpleData>
+		<SimpleData name="STREET_NO">46-48</SimpleData>
+		<SimpleData name="ROAD_NAME">VICTORIA</SimpleData>
+		<SimpleData name="ROADTYPE">ST</SimpleData>
+		<SimpleData name="SUBURB">KERANG</SimpleData>
+		<SimpleData name="POSTCODE">3579</SimpleData>
+		<SimpleData name="VCD_REF">592 C2</SimpleData>
+		<SimpleData name="OP_PROP_TY">VicRoads Agencies</SimpleData>
+		<SimpleData name="OP_PROP_DE">Bendigo Bank Kerang</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>143.920058999451,-35.7338099993088</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#VicRoads_Office_Locations">
+		<SimpleData name="OBJECTID">46</SimpleData>
+		<SimpleData name="STREET_NO">613</SimpleData>
+		<SimpleData name="ROAD_NAME">MAROONDAH</SimpleData>
+		<SimpleData name="ROADTYPE">HWY</SimpleData>
+		<SimpleData name="SUBURB">MITCHAM</SimpleData>
+		<SimpleData name="POSTCODE">3132</SimpleData>
+		<SimpleData name="MELWAYS_RE">49B9</SimpleData>
+		<SimpleData name="OP_PROP_TY">Road Management Offices</SimpleData>
+		<SimpleData name="OP_PROP_DE">Eastern Projects Office</SimpleData>
+		<SimpleData name="RNL"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>145.203775000141,-37.8160999990478</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#VicRoads_Office_Locations">
+		<SimpleData name="OBJECTID">47</SimpleData>
+		<SimpleData name="STREET_NO">499</SimpleData>
+		<SimpleData name="ROAD_NAME">BALLARAT</SimpleData>
+		<SimpleData name="ROADTYPE">RD</SimpleData>
+		<SimpleData name="SUBURB">SUNSHINE</SimpleData>
+		<SimpleData name="POSTCODE">3020</SimpleData>
+		<SimpleData name="MELWAYS_RE">26G10</SimpleData>
+		<SimpleData name="OP_PROP_TY">Road Management Offices</SimpleData>
+		<SimpleData name="OP_PROP_DE">Metropolitan North West Regional Office</SimpleData>
+		<SimpleData name="RNL"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>144.829309800135,-37.7773660788452</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#VicRoads_Office_Locations">
+		<SimpleData name="OBJECTID">48</SimpleData>
+		<SimpleData name="STREET_NO">1</SimpleData>
+		<SimpleData name="ROAD_NAME">MCNAB AVENUE</SimpleData>
+		<SimpleData name="ROADTYPE">AVE</SimpleData>
+		<SimpleData name="SUBURB">FOOTSCRAY</SimpleData>
+		<SimpleData name="POSTCODE">3011</SimpleData>
+		<SimpleData name="MELWAYS_RE">42C5</SimpleData>
+		<SimpleData name="OP_PROP_TY">Road Management Offices</SimpleData>
+		<SimpleData name="OP_PROP_DE">Metropolitan Projects - Western</SimpleData>
+		<SimpleData name="RNL"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>144.900046000444,-37.8034389987565</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#VicRoads_Office_Locations">
+		<SimpleData name="OBJECTID">49</SimpleData>
+		<SimpleData name="STREET_NO">174 - 212</SimpleData>
+		<SimpleData name="ROAD_NAME">COLAC RD</SimpleData>
+		<SimpleData name="ROADTYPE">RD</SimpleData>
+		<SimpleData name="SUBURB">HIGHTON</SimpleData>
+		<SimpleData name="POSTCODE">3216</SimpleData>
+		<SimpleData name="MELWAYS_RE">465A6</SimpleData>
+		<SimpleData name="OP_PROP_TY">Road Management Offices</SimpleData>
+		<SimpleData name="OP_PROP_DE">South Western Project Office</SimpleData>
+		<SimpleData name="RNL"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>144.31193880027,-38.2004590995123</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#VicRoads_Office_Locations">
+		<SimpleData name="OBJECTID">50</SimpleData>
+		<SimpleData name="STREET_NO"></SimpleData>
+		<SimpleData name="ROAD_NAME"></SimpleData>
+		<SimpleData name="ROADTYPE"></SimpleData>
+		<SimpleData name="SUBURB">YARRA JUNCTION </SimpleData>
+		<SimpleData name="POSTCODE"></SimpleData>
+		<SimpleData name="MELWAYS_RE">288D8</SimpleData>
+		<SimpleData name="VCD_REF"></SimpleData>
+		<SimpleData name="OP_PROP_TY">VicRoads Agencies</SimpleData>
+		<SimpleData name="OP_PROP_DE">Yarra Ranges Council Upper Yarra Family Centre</SimpleData>
+		<SimpleData name="RNL"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>145.611944300397,-37.7818281891049</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#VicRoads_Office_Locations">
+		<SimpleData name="OBJECTID">51</SimpleData>
+		<SimpleData name="STREET_NO"></SimpleData>
+		<SimpleData name="ROAD_NAME"></SimpleData>
+		<SimpleData name="ROADTYPE"></SimpleData>
+		<SimpleData name="SUBURB">KILSYTH </SimpleData>
+		<SimpleData name="POSTCODE"></SimpleData>
+		<SimpleData name="MELWAYS_RE">51E8</SimpleData>
+		<SimpleData name="VCD_REF"></SimpleData>
+		<SimpleData name="OP_PROP_TY">VicRoads Agencies</SimpleData>
+		<SimpleData name="OP_PROP_DE">Metropolitan Traffic Education Centre</SimpleData>
+		<SimpleData name="RNL"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>145.305759000074,-37.8131799994371</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#VicRoads_Office_Locations">
+		<SimpleData name="OBJECTID">52</SimpleData>
+		<SimpleData name="STREET_NO"></SimpleData>
+		<SimpleData name="ROAD_NAME"></SimpleData>
+		<SimpleData name="ROADTYPE"></SimpleData>
+		<SimpleData name="SUBURB">MONBULK </SimpleData>
+		<SimpleData name="POSTCODE"></SimpleData>
+		<SimpleData name="MELWAYS_RE">124H1</SimpleData>
+		<SimpleData name="VCD_REF"></SimpleData>
+		<SimpleData name="OP_PROP_TY">VicRoads Agencies</SimpleData>
+		<SimpleData name="OP_PROP_DE">Yarra Ranges Shire Council - Monbulk</SimpleData>
+		<SimpleData name="RNL"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>145.409136200408,-37.8761687991125</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#VicRoads_Office_Locations">
+		<SimpleData name="OBJECTID">53</SimpleData>
+		<SimpleData name="STREET_NO"></SimpleData>
+		<SimpleData name="ROAD_NAME"></SimpleData>
+		<SimpleData name="ROADTYPE"></SimpleData>
+		<SimpleData name="SUBURB">CASTLEMAINE </SimpleData>
+		<SimpleData name="POSTCODE"></SimpleData>
+		<SimpleData name="MELWAYS_RE"></SimpleData>
+		<SimpleData name="VCD_REF">628G6</SimpleData>
+		<SimpleData name="OP_PROP_TY">VicRoads Agencies</SimpleData>
+		<SimpleData name="OP_PROP_DE">Mount Alexander Shire Council - Civic Centre</SimpleData>
+		<SimpleData name="RNL"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>144.218735999676,-37.0646229992446</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#VicRoads_Office_Locations">
+		<SimpleData name="OBJECTID">54</SimpleData>
+		<SimpleData name="STREET_NO"></SimpleData>
+		<SimpleData name="ROAD_NAME"></SimpleData>
+		<SimpleData name="ROADTYPE"></SimpleData>
+		<SimpleData name="SUBURB">DAYLESFORD </SimpleData>
+		<SimpleData name="POSTCODE"></SimpleData>
+		<SimpleData name="MELWAYS_RE"></SimpleData>
+		<SimpleData name="VCD_REF">582E10</SimpleData>
+		<SimpleData name="OP_PROP_TY">VicRoads Agencies</SimpleData>
+		<SimpleData name="OP_PROP_DE">Hepburn Shire Council</SimpleData>
+		<SimpleData name="RNL"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>144.14217210006,-37.3429701193668</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#VicRoads_Office_Locations">
+		<SimpleData name="OBJECTID">55</SimpleData>
+		<SimpleData name="STREET_NO"></SimpleData>
+		<SimpleData name="ROAD_NAME"></SimpleData>
+		<SimpleData name="ROADTYPE"></SimpleData>
+		<SimpleData name="SUBURB">HEATHCOTE </SimpleData>
+		<SimpleData name="POSTCODE"></SimpleData>
+		<SimpleData name="MELWAYS_RE"></SimpleData>
+		<SimpleData name="VCD_REF">626E6</SimpleData>
+		<SimpleData name="OP_PROP_TY">VicRoads Agencies</SimpleData>
+		<SimpleData name="OP_PROP_DE">City of Greater Bendigo</SimpleData>
+		<SimpleData name="RNL"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>144.709440600518,-36.9233879386708</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#VicRoads_Office_Locations">
+		<SimpleData name="OBJECTID">56</SimpleData>
+		<SimpleData name="STREET_NO"></SimpleData>
+		<SimpleData name="ROAD_NAME"></SimpleData>
+		<SimpleData name="ROADTYPE"></SimpleData>
+		<SimpleData name="SUBURB">KILMORE </SimpleData>
+		<SimpleData name="POSTCODE"></SimpleData>
+		<SimpleData name="MELWAYS_RE">615F4</SimpleData>
+		<SimpleData name="VCD_REF"></SimpleData>
+		<SimpleData name="OP_PROP_TY">VicRoads Agencies</SimpleData>
+		<SimpleData name="OP_PROP_DE">Mitchell Shire Council</SimpleData>
+		<SimpleData name="RNL"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>144.952330999792,-37.2945899986566</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#VicRoads_Office_Locations">
+		<SimpleData name="OBJECTID">57</SimpleData>
+		<SimpleData name="STREET_NO"></SimpleData>
+		<SimpleData name="ROAD_NAME"></SimpleData>
+		<SimpleData name="ROADTYPE"></SimpleData>
+		<SimpleData name="SUBURB">GLENROWAN</SimpleData>
+		<SimpleData name="POSTCODE"></SimpleData>
+		<SimpleData name="MELWAYS_RE"></SimpleData>
+		<SimpleData name="VCD_REF">34F9</SimpleData>
+		<SimpleData name="OP_PROP_TY">VicRoads Agencies</SimpleData>
+		<SimpleData name="OP_PROP_DE">BP North Glenrowan</SimpleData>
+		<SimpleData name="RNL"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>146.259442800386,-36.4581193993248</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#VicRoads_Office_Locations">
+		<SimpleData name="OBJECTID">58</SimpleData>
+		<SimpleData name="STREET_NO"></SimpleData>
+		<SimpleData name="ROAD_NAME"></SimpleData>
+		<SimpleData name="ROADTYPE"></SimpleData>
+		<SimpleData name="SUBURB">MYRTLEFORD</SimpleData>
+		<SimpleData name="POSTCODE"></SimpleData>
+		<SimpleData name="MELWAYS_RE"></SimpleData>
+		<SimpleData name="VCD_REF">49D2</SimpleData>
+		<SimpleData name="OP_PROP_TY">VicRoads Agencies</SimpleData>
+		<SimpleData name="OP_PROP_DE">Alpine Shire Council - Myrtleford</SimpleData>
+		<SimpleData name="RNL"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>146.727280000253,-36.5568409989453</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#VicRoads_Office_Locations">
+		<SimpleData name="OBJECTID">59</SimpleData>
+		<SimpleData name="STREET_NO"></SimpleData>
+		<SimpleData name="ROAD_NAME"></SimpleData>
+		<SimpleData name="ROADTYPE"></SimpleData>
+		<SimpleData name="SUBURB">MYRTLEFORD </SimpleData>
+		<SimpleData name="POSTCODE"></SimpleData>
+		<SimpleData name="MELWAYS_RE"></SimpleData>
+		<SimpleData name="VCD_REF">49D2</SimpleData>
+		<SimpleData name="OP_PROP_TY">VicRoads Agencies</SimpleData>
+		<SimpleData name="OP_PROP_DE">Myrtleford Community Pharmacy</SimpleData>
+		<SimpleData name="RNL"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>146.726327599582,-36.5616294294589</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#VicRoads_Office_Locations">
+		<SimpleData name="OBJECTID">60</SimpleData>
+		<SimpleData name="STREET_NO"></SimpleData>
+		<SimpleData name="ROAD_NAME"></SimpleData>
+		<SimpleData name="ROADTYPE"></SimpleData>
+		<SimpleData name="SUBURB">OMEO </SimpleData>
+		<SimpleData name="POSTCODE"></SimpleData>
+		<SimpleData name="MELWAYS_RE"></SimpleData>
+		<SimpleData name="VCD_REF">690G10</SimpleData>
+		<SimpleData name="OP_PROP_TY">VicRoads Agencies</SimpleData>
+		<SimpleData name="OP_PROP_DE">East Gippsland Shire Council</SimpleData>
+		<SimpleData name="RNL"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>147.591540200378,-37.1007913689066</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#VicRoads_Office_Locations">
+		<SimpleData name="OBJECTID">61</SimpleData>
+		<SimpleData name="STREET_NO"></SimpleData>
+		<SimpleData name="ROAD_NAME"></SimpleData>
+		<SimpleData name="ROADTYPE"></SimpleData>
+		<SimpleData name="SUBURB">TRARALGON </SimpleData>
+		<SimpleData name="POSTCODE"></SimpleData>
+		<SimpleData name="MELWAYS_RE"></SimpleData>
+		<SimpleData name="VCD_REF">696H6</SimpleData>
+		<SimpleData name="OP_PROP_TY">VicRoads Agencies</SimpleData>
+		<SimpleData name="OP_PROP_DE">Findlay &amp; Weymouth Pharmacy</SimpleData>
+		<SimpleData name="RNL"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>146.536527199655,-38.1963031287381</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#VicRoads_Office_Locations">
+		<SimpleData name="OBJECTID">62</SimpleData>
+		<SimpleData name="STREET_NO"></SimpleData>
+		<SimpleData name="ROAD_NAME"></SimpleData>
+		<SimpleData name="ROADTYPE"></SimpleData>
+		<SimpleData name="SUBURB">YARRAM </SimpleData>
+		<SimpleData name="POSTCODE"></SimpleData>
+		<SimpleData name="MELWAYS_RE"></SimpleData>
+		<SimpleData name="VCD_REF">692B3</SimpleData>
+		<SimpleData name="OP_PROP_TY">VicRoads Agencies</SimpleData>
+		<SimpleData name="OP_PROP_DE">Neilson's Pharmacy</SimpleData>
+		<SimpleData name="RNL"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>146.676669499706,-38.5635362288192</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#VicRoads_Office_Locations">
+		<SimpleData name="OBJECTID">63</SimpleData>
+		<SimpleData name="STREET_NO"></SimpleData>
+		<SimpleData name="ROAD_NAME"></SimpleData>
+		<SimpleData name="ROADTYPE"></SimpleData>
+		<SimpleData name="SUBURB">DANDENONG</SimpleData>
+		<SimpleData name="POSTCODE"></SimpleData>
+		<SimpleData name="MELWAYS_RE">90A8</SimpleData>
+		<SimpleData name="VCD_REF"></SimpleData>
+		<SimpleData name="OP_PROP_TY">VicRoads Agencies</SimpleData>
+		<SimpleData name="OP_PROP_DE">Australia Post - Dandenong Plaza</SimpleData>
+		<SimpleData name="RNL"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>145.200379900522,-37.990870568659</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#VicRoads_Office_Locations">
+		<SimpleData name="OBJECTID">64</SimpleData>
+		<SimpleData name="STREET_NO">12</SimpleData>
+		<SimpleData name="ROAD_NAME">LAKESIDE</SimpleData>
+		<SimpleData name="ROADTYPE">DR</SimpleData>
+		<SimpleData name="SUBURB">BURWOOD EAST</SimpleData>
+		<SimpleData name="POSTCODE">3151</SimpleData>
+		<SimpleData name="MELWAYS_RE">62C8</SimpleData>
+		<SimpleData name="VCD_REF"></SimpleData>
+		<SimpleData name="OP_PROP_TY">Road Management Offices</SimpleData>
+		<SimpleData name="OP_PROP_DE">Metropolitan South East Regional Office</SimpleData>
+		<SimpleData name="RNL"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>145.164593900217,-37.8563417593626</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#VicRoads_Office_Locations">
+		<SimpleData name="OBJECTID">65</SimpleData>
+		<SimpleData name="STREET_NO"></SimpleData>
+		<SimpleData name="ROAD_NAME"></SimpleData>
+		<SimpleData name="ROADTYPE"></SimpleData>
+		<SimpleData name="SUBURB">WYCHEPROOF</SimpleData>
+		<SimpleData name="POSTCODE"></SimpleData>
+		<SimpleData name="MELWAYS_RE"></SimpleData>
+		<SimpleData name="VCD_REF">588B7</SimpleData>
+		<SimpleData name="OP_PROP_TY">VicRoads Agencies</SimpleData>
+		<SimpleData name="OP_PROP_DE">Wycheproof Community Resource Centre</SimpleData>
+		<SimpleData name="RNL"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>143.225123500248,-36.0752065288322</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#VicRoads_Office_Locations">
+		<SimpleData name="OBJECTID">66</SimpleData>
+		<SimpleData name="STREET_NO"></SimpleData>
+		<SimpleData name="ROAD_NAME"></SimpleData>
+		<SimpleData name="ROADTYPE"></SimpleData>
+		<SimpleData name="SUBURB">WEDDERBURN</SimpleData>
+		<SimpleData name="POSTCODE"></SimpleData>
+		<SimpleData name="MELWAYS_RE"></SimpleData>
+		<SimpleData name="VCD_REF">593R4</SimpleData>
+		<SimpleData name="OP_PROP_TY">VicRoads Agencies</SimpleData>
+		<SimpleData name="OP_PROP_DE">Weddderburn Community House Inc</SimpleData>
+		<SimpleData name="RNL"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>143.611047400141,-36.4185132094613</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#VicRoads_Office_Locations">
+		<SimpleData name="OBJECTID">67</SimpleData>
+		<SimpleData name="STREET_NO"></SimpleData>
+		<SimpleData name="ROAD_NAME"></SimpleData>
+		<SimpleData name="ROADTYPE"></SimpleData>
+		<SimpleData name="SUBURB">ST ARNAUD</SimpleData>
+		<SimpleData name="POSTCODE"></SimpleData>
+		<SimpleData name="MELWAYS_RE"></SimpleData>
+		<SimpleData name="VCD_REF">551S9</SimpleData>
+		<SimpleData name="OP_PROP_TY">VicRoads Agencies</SimpleData>
+		<SimpleData name="OP_PROP_DE">Northern Grampians Shire Council - St Arnaud</SimpleData>
+		<SimpleData name="RNL"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>143.257505299489,-36.6154290893614</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#VicRoads_Office_Locations">
+		<SimpleData name="OBJECTID">68</SimpleData>
+		<SimpleData name="STREET_NO"></SimpleData>
+		<SimpleData name="ROAD_NAME"></SimpleData>
+		<SimpleData name="ROADTYPE"></SimpleData>
+		<SimpleData name="SUBURB">BENDIGO</SimpleData>
+		<SimpleData name="POSTCODE"></SimpleData>
+		<SimpleData name="MELWAYS_RE"></SimpleData>
+		<SimpleData name="VCD_REF">608B5</SimpleData>
+		<SimpleData name="OP_PROP_TY">Customer Service Centres</SimpleData>
+		<SimpleData name="OP_PROP_DE">Bendigo Customer Service Centre</SimpleData>
+		<SimpleData name="RNL"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>144.298490899709,-36.7554034387052</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#VicRoads_Office_Locations">
+		<SimpleData name="OBJECTID">69</SimpleData>
+		<SimpleData name="STREET_NO"></SimpleData>
+		<SimpleData name="ROAD_NAME"></SimpleData>
+		<SimpleData name="ROADTYPE"></SimpleData>
+		<SimpleData name="SUBURB">BALLARAT</SimpleData>
+		<SimpleData name="POSTCODE"></SimpleData>
+		<SimpleData name="MELWAYS_RE"></SimpleData>
+		<SimpleData name="VCD_REF">565R2</SimpleData>
+		<SimpleData name="OP_PROP_TY">Customer Service Centres</SimpleData>
+		<SimpleData name="OP_PROP_DE">Ballarat Customer Service Centre</SimpleData>
+		<SimpleData name="RNL"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>143.819027500091,-37.534617699504</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#VicRoads_Office_Locations">
+		<SimpleData name="OBJECTID">70</SimpleData>
+		<SimpleData name="STREET_NO"></SimpleData>
+		<SimpleData name="ROAD_NAME"></SimpleData>
+		<SimpleData name="ROADTYPE"></SimpleData>
+		<SimpleData name="SUBURB">WENDOUREE</SimpleData>
+		<SimpleData name="POSTCODE"></SimpleData>
+		<SimpleData name="MELWAYS_RE"></SimpleData>
+		<SimpleData name="VCD_REF">561P12</SimpleData>
+		<SimpleData name="OP_PROP_TY">Road Management Offices</SimpleData>
+		<SimpleData name="OP_PROP_DE">Western Highway Project Office</SimpleData>
+		<SimpleData name="RNL"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>143.805147699629,-37.5269953587576</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#VicRoads_Office_Locations">
+		<SimpleData name="OBJECTID">71</SimpleData>
+		<SimpleData name="STREET_NO"></SimpleData>
+		<SimpleData name="ROAD_NAME"></SimpleData>
+		<SimpleData name="ROADTYPE"></SimpleData>
+		<SimpleData name="SUBURB">LAKE BOLAC</SimpleData>
+		<SimpleData name="POSTCODE"></SimpleData>
+		<SimpleData name="MELWAYS_RE"></SimpleData>
+		<SimpleData name="VCD_REF">555S8</SimpleData>
+		<SimpleData name="OP_PROP_TY">VicRoads Agencies</SimpleData>
+		<SimpleData name="OP_PROP_DE">Lake Bolac Hardware</SimpleData>
+		<SimpleData name="RNL"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>142.839762399876,-37.7136682186563</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#VicRoads_Office_Locations">
+		<SimpleData name="OBJECTID">72</SimpleData>
+		<SimpleData name="STREET_NO"></SimpleData>
+		<SimpleData name="ROAD_NAME"></SimpleData>
+		<SimpleData name="ROADTYPE"></SimpleData>
+		<SimpleData name="SUBURB">WONTHAGGI </SimpleData>
+		<SimpleData name="POSTCODE"></SimpleData>
+		<SimpleData name="MELWAYS_RE"></SimpleData>
+		<SimpleData name="VCD_REF">713R6</SimpleData>
+		<SimpleData name="OP_PROP_TY">VicRoads Agencies</SimpleData>
+		<SimpleData name="OP_PROP_DE">Foons Photographics</SimpleData>
+		<SimpleData name="RNL"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>145.591035100149,-38.607063099148</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#VicRoads_Office_Locations">
+		<SimpleData name="OBJECTID">73</SimpleData>
+		<SimpleData name="STREET_NO"></SimpleData>
+		<SimpleData name="ROAD_NAME"></SimpleData>
+		<SimpleData name="ROADTYPE"></SimpleData>
+		<SimpleData name="SUBURB">LAKES ENTRANCE </SimpleData>
+		<SimpleData name="POSTCODE"></SimpleData>
+		<SimpleData name="MELWAYS_RE"></SimpleData>
+		<SimpleData name="VCD_REF">686G6</SimpleData>
+		<SimpleData name="OP_PROP_TY">VicRoads Agencies</SimpleData>
+		<SimpleData name="OP_PROP_DE">Lakes Post and Printing</SimpleData>
+		<SimpleData name="RNL"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>147.990321899671,-37.8797901794568</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#VicRoads_Office_Locations">
+		<SimpleData name="OBJECTID">74</SimpleData>
+		<SimpleData name="STREET_NO"></SimpleData>
+		<SimpleData name="ROAD_NAME"></SimpleData>
+		<SimpleData name="ROADTYPE"></SimpleData>
+		<SimpleData name="SUBURB">ORBOST </SimpleData>
+		<SimpleData name="POSTCODE"></SimpleData>
+		<SimpleData name="MELWAYS_RE"></SimpleData>
+		<SimpleData name="VCD_REF">684B9</SimpleData>
+		<SimpleData name="OP_PROP_TY">VicRoads Agencies</SimpleData>
+		<SimpleData name="OP_PROP_DE">Orbost Authorised News</SimpleData>
+		<SimpleData name="RNL"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>148.455612299569,-37.7053960091267</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#VicRoads_Office_Locations">
+		<SimpleData name="OBJECTID">75</SimpleData>
+		<SimpleData name="STREET_NO"></SimpleData>
+		<SimpleData name="ROAD_NAME"></SimpleData>
+		<SimpleData name="ROADTYPE"></SimpleData>
+		<SimpleData name="SUBURB">ORBOST</SimpleData>
+		<SimpleData name="POSTCODE"></SimpleData>
+		<SimpleData name="MELWAYS_RE"></SimpleData>
+		<SimpleData name="VCD_REF">684B10</SimpleData>
+		<SimpleData name="OP_PROP_TY">VicRoads Agencies</SimpleData>
+		<SimpleData name="OP_PROP_DE">East Gippsland Shire Council (Orbost library and business Centre)</SimpleData>
+		<SimpleData name="RNL"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>148.455877899431,-37.707343639001</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#VicRoads_Office_Locations">
+		<SimpleData name="OBJECTID">76</SimpleData>
+		<SimpleData name="STREET_NO"></SimpleData>
+		<SimpleData name="ROAD_NAME"></SimpleData>
+		<SimpleData name="ROADTYPE"></SimpleData>
+		<SimpleData name="SUBURB">STAWELL</SimpleData>
+		<SimpleData name="POSTCODE"></SimpleData>
+		<SimpleData name="MELWAYS_RE"></SimpleData>
+		<SimpleData name="VCD_REF">550F7</SimpleData>
+		<SimpleData name="OP_PROP_TY">VicRoads Agencies</SimpleData>
+		<SimpleData name="OP_PROP_DE">Northern Grampians Shire Council - Stawell</SimpleData>
+		<SimpleData name="RNL"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>142.779350999559,-37.0569439988499</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#VicRoads_Office_Locations">
+		<SimpleData name="OBJECTID">77</SimpleData>
+		<SimpleData name="STREET_NO">499</SimpleData>
+		<SimpleData name="ROAD_NAME">BALLARAT (CNR ANDERSON)</SimpleData>
+		<SimpleData name="ROADTYPE">RD</SimpleData>
+		<SimpleData name="SUBURB">SUNSHINE</SimpleData>
+		<SimpleData name="POSTCODE">3020</SimpleData>
+		<SimpleData name="MELWAYS_RE">26G10</SimpleData>
+		<SimpleData name="VCD_REF"></SimpleData>
+		<SimpleData name="OP_PROP_TY">Customer Service Centres</SimpleData>
+		<SimpleData name="OP_PROP_DE">Sunshine Customer Service Centre</SimpleData>
+		<SimpleData name="RNL">Y</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>144.829309800135,-37.7773660788452</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#VicRoads_Office_Locations">
+		<SimpleData name="OBJECTID">78</SimpleData>
+		<SimpleData name="STREET_NO"></SimpleData>
+		<SimpleData name="ROAD_NAME"></SimpleData>
+		<SimpleData name="ROADTYPE"></SimpleData>
+		<SimpleData name="SUBURB">MALLACOOTA </SimpleData>
+		<SimpleData name="POSTCODE"></SimpleData>
+		<SimpleData name="MELWAYS_RE"></SimpleData>
+		<SimpleData name="VCD_REF">683S6</SimpleData>
+		<SimpleData name="OP_PROP_TY">VicRoads Agencies</SimpleData>
+		<SimpleData name="OP_PROP_DE">Mallacoota Community Enterprises Limited</SimpleData>
+		<SimpleData name="RNL"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>149.757584999624,-37.5574869494034</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#VicRoads_Office_Locations">
+		<SimpleData name="OBJECTID">79</SimpleData>
+		<SimpleData name="STREET_NO">109-111</SimpleData>
+		<SimpleData name="ROAD_NAME">ORANGE</SimpleData>
+		<SimpleData name="ROADTYPE">AVE</SimpleData>
+		<SimpleData name="SUBURB">MILDURA</SimpleData>
+		<SimpleData name="POSTCODE">3500</SimpleData>
+		<SimpleData name="MELWAYS_RE"></SimpleData>
+		<SimpleData name="VCD_REF">3D5</SimpleData>
+		<SimpleData name="OP_PROP_TY">Customer Service Centres</SimpleData>
+		<SimpleData name="OP_PROP_DE">Mildura Customer Service Centres</SimpleData>
+		<SimpleData name="RNL">Y</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>142.161582414975,-34.1890047295107</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#VicRoads_Office_Locations">
+		<SimpleData name="OBJECTID">80</SimpleData>
+		<SimpleData name="STREET_NO">9</SimpleData>
+		<SimpleData name="ROAD_NAME">ANDERSON</SimpleData>
+		<SimpleData name="ROADTYPE">ST</SimpleData>
+		<SimpleData name="SUBURB">LEONGATHA</SimpleData>
+		<SimpleData name="POSTCODE">3953</SimpleData>
+		<SimpleData name="MELWAYS_RE"></SimpleData>
+		<SimpleData name="VCD_REF">96H9</SimpleData>
+		<SimpleData name="OP_PROP_TY">Customer Service Centres</SimpleData>
+		<SimpleData name="OP_PROP_DE">Leongatha Customer Service Centre</SimpleData>
+		<SimpleData name="RNL">Y</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>145.942805097729,-38.4717362990832</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#VicRoads_Office_Locations">
+		<SimpleData name="OBJECTID">81</SimpleData>
+		<SimpleData name="STREET_NO">29</SimpleData>
+		<SimpleData name="ROAD_NAME">JAMIESON</SimpleData>
+		<SimpleData name="ROADTYPE">ST</SimpleData>
+		<SimpleData name="SUBURB">WARRNAMBOOL</SimpleData>
+		<SimpleData name="POSTCODE">3280</SimpleData>
+		<SimpleData name="MELWAYS_RE"></SimpleData>
+		<SimpleData name="VCD_REF">89J8</SimpleData>
+		<SimpleData name="OP_PROP_TY">Customer Service Centres</SimpleData>
+		<SimpleData name="OP_PROP_DE">Warrnambool Customer Service Centre</SimpleData>
+		<SimpleData name="RNL">Y</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>142.484618550013,-38.376058834165</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#VicRoads_Office_Locations">
+		<SimpleData name="OBJECTID">82</SimpleData>
+		<SimpleData name="STREET_NO"></SimpleData>
+		<SimpleData name="ROAD_NAME"></SimpleData>
+		<SimpleData name="ROADTYPE"></SimpleData>
+		<SimpleData name="SUBURB">CHILTERN</SimpleData>
+		<SimpleData name="POSTCODE"></SimpleData>
+		<SimpleData name="MELWAYS_RE"></SimpleData>
+		<SimpleData name="VCD_REF">658E3</SimpleData>
+		<SimpleData name="OP_PROP_TY">VicRoads Agencies</SimpleData>
+		<SimpleData name="OP_PROP_DE">Chiltern Post Office</SimpleData>
+		<SimpleData name="RNL"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>146.610212700192,-36.1490073088829</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#VicRoads_Office_Locations">
+		<SimpleData name="OBJECTID">83</SimpleData>
+		<SimpleData name="STREET_NO">72</SimpleData>
+		<SimpleData name="ROAD_NAME">Herbert</SimpleData>
+		<SimpleData name="ROADTYPE">St</SimpleData>
+		<SimpleData name="SUBURB">Robinvale</SimpleData>
+		<SimpleData name="POSTCODE">3549</SimpleData>
+		<SimpleData name="MELWAYS_RE"></SimpleData>
+		<SimpleData name="VCD_REF">7E3</SimpleData>
+		<SimpleData name="OP_PROP_TY">VicRoads Agencies</SimpleData>
+		<SimpleData name="OP_PROP_DE">Swan Hill Rural City Council</SimpleData>
+		<SimpleData name="RNL"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>142.773707900085,-34.5848720494304</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#VicRoads_Office_Locations">
+		<SimpleData name="OBJECTID">84</SimpleData>
+		<SimpleData name="STREET_NO"></SimpleData>
+		<SimpleData name="ROAD_NAME"></SimpleData>
+		<SimpleData name="ROADTYPE"></SimpleData>
+		<SimpleData name="SUBURB">HEALESVILLE </SimpleData>
+		<SimpleData name="POSTCODE"></SimpleData>
+		<SimpleData name="MELWAYS_RE">278C1</SimpleData>
+		<SimpleData name="VCD_REF"></SimpleData>
+		<SimpleData name="OP_PROP_TY">VicRoads Agencies</SimpleData>
+		<SimpleData name="OP_PROP_DE">Yarra Ranges Shire Council - Healesville</SimpleData>
+		<SimpleData name="RNL"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>145.517701000521,-37.6537129992526</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#VicRoads_Office_Locations">
+		<SimpleData name="OBJECTID">85</SimpleData>
+		<SimpleData name="STREET_NO"></SimpleData>
+		<SimpleData name="ROAD_NAME">PRINCES</SimpleData>
+		<SimpleData name="ROADTYPE">HIGHWAY</SimpleData>
+		<SimpleData name="SUBURB">COLAC</SimpleData>
+		<SimpleData name="POSTCODE">3250</SimpleData>
+		<SimpleData name="MELWAYS_RE"></SimpleData>
+		<SimpleData name="VCD_REF">520D4</SimpleData>
+		<SimpleData name="OP_PROP_TY">Customer Service Centres</SimpleData>
+		<SimpleData name="OP_PROP_DE">Colac Customer Service Centre</SimpleData>
+		<SimpleData name="RNL">Y</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>143.579241500537,-38.3391846188353</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#VicRoads_Office_Locations">
+		<SimpleData name="OBJECTID">86</SimpleData>
+		<SimpleData name="STREET_NO">UNIT 11</SimpleData>
+		<SimpleData name="ROAD_NAME">NEPEAN</SimpleData>
+		<SimpleData name="ROADTYPE">HWY</SimpleData>
+		<SimpleData name="SUBURB">DROMANA</SimpleData>
+		<SimpleData name="POSTCODE">3936</SimpleData>
+		<SimpleData name="MELWAYS_RE">160C7</SimpleData>
+		<SimpleData name="VCD_REF"></SimpleData>
+		<SimpleData name="OP_PROP_TY">Customer Service Centres</SimpleData>
+		<SimpleData name="OP_PROP_DE">Dromana Customer Service Centre</SimpleData>
+		<SimpleData name="RNL">Y</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>144.988456653401,-38.3369227047581</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#VicRoads_Office_Locations">
+		<SimpleData name="OBJECTID">87</SimpleData>
+		<SimpleData name="STREET_NO">87</SimpleData>
+		<SimpleData name="ROAD_NAME">PRINCES</SimpleData>
+		<SimpleData name="ROADTYPE">DR</SimpleData>
+		<SimpleData name="SUBURB">MORWELL</SimpleData>
+		<SimpleData name="POSTCODE">3840</SimpleData>
+		<SimpleData name="MELWAYS_RE"></SimpleData>
+		<SimpleData name="VCD_REF">340B5</SimpleData>
+		<SimpleData name="OP_PROP_TY">Customer Service Centres</SimpleData>
+		<SimpleData name="OP_PROP_DE">Morwell Customer Service Centre</SimpleData>
+		<SimpleData name="RNL">Y</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>146.386459935941,-38.2328658459836</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#VicRoads_Office_Locations">
+		<SimpleData name="OBJECTID">88</SimpleData>
+		<SimpleData name="STREET_NO">120</SimpleData>
+		<SimpleData name="ROAD_NAME">KAY</SimpleData>
+		<SimpleData name="ROADTYPE">ST</SimpleData>
+		<SimpleData name="SUBURB">TRARALGON</SimpleData>
+		<SimpleData name="POSTCODE">3844</SimpleData>
+		<SimpleData name="MELWAYS_RE"></SimpleData>
+		<SimpleData name="VCD_REF">98A5</SimpleData>
+		<SimpleData name="OP_PROP_TY">Road Management Offices</SimpleData>
+		<SimpleData name="OP_PROP_DE">Eastern Regional Office</SimpleData>
+		<SimpleData name="RNL"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>146.524510699918,-38.1930795762075</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#VicRoads_Office_Locations">
+		<SimpleData name="OBJECTID">89</SimpleData>
+		<SimpleData name="STREET_NO">LOT 5</SimpleData>
+		<SimpleData name="ROAD_NAME">NORTH</SimpleData>
+		<SimpleData name="ROADTYPE">RD</SimpleData>
+		<SimpleData name="SUBURB">WARRAGUL</SimpleData>
+		<SimpleData name="POSTCODE">3820</SimpleData>
+		<SimpleData name="MELWAYS_RE"></SimpleData>
+		<SimpleData name="VCD_REF">96H4</SimpleData>
+		<SimpleData name="OP_PROP_TY">Customer Service Centres</SimpleData>
+		<SimpleData name="OP_PROP_DE">Warragul Customer Service Centre</SimpleData>
+		<SimpleData name="RNL">Y</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>145.947679535925,-38.1659381728874</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#VicRoads_Office_Locations">
+		<SimpleData name="OBJECTID">90</SimpleData>
+		<SimpleData name="STREET_NO"></SimpleData>
+		<SimpleData name="ROAD_NAME">FYANS</SimpleData>
+		<SimpleData name="ROADTYPE">ST</SimpleData>
+		<SimpleData name="SUBURB">GEELONG</SimpleData>
+		<SimpleData name="POSTCODE">3220</SimpleData>
+		<SimpleData name="MELWAYS_RE">452D9</SimpleData>
+		<SimpleData name="VCD_REF"></SimpleData>
+		<SimpleData name="OP_PROP_TY">Customer Service Centres</SimpleData>
+		<SimpleData name="OP_PROP_DE">Geelong Customer Service Centre</SimpleData>
+		<SimpleData name="RNL">Y</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>144.368346899908,-38.1659875891135</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#VicRoads_Office_Locations">
+		<SimpleData name="OBJECTID">91</SimpleData>
+		<SimpleData name="STREET_NO">71</SimpleData>
+		<SimpleData name="ROAD_NAME">HARTNETT</SimpleData>
+		<SimpleData name="ROADTYPE">DR</SimpleData>
+		<SimpleData name="SUBURB">SEAFORD</SimpleData>
+		<SimpleData name="POSTCODE">3198</SimpleData>
+		<SimpleData name="MELWAYS_RE">99H7</SimpleData>
+		<SimpleData name="VCD_REF"></SimpleData>
+		<SimpleData name="OP_PROP_TY">Customer Service Centres</SimpleData>
+		<SimpleData name="OP_PROP_DE">Frankston Customer Service Centre</SimpleData>
+		<SimpleData name="RNL">Y</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>145.141087799783,-38.1167859986681</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#VicRoads_Office_Locations">
+		<SimpleData name="OBJECTID">92</SimpleData>
+		<SimpleData name="STREET_NO">SHOP 5 / 19</SimpleData>
+		<SimpleData name="ROAD_NAME">JOHN</SimpleData>
+		<SimpleData name="ROADTYPE">ST</SimpleData>
+		<SimpleData name="SUBURB">PAKENHAM</SimpleData>
+		<SimpleData name="POSTCODE">3810</SimpleData>
+		<SimpleData name="MELWAYS_RE">317D8</SimpleData>
+		<SimpleData name="VCD_REF"></SimpleData>
+		<SimpleData name="OP_PROP_TY">Customer Service Centres</SimpleData>
+		<SimpleData name="OP_PROP_DE">Pakenham Licence Testing Centre (appointments only)</SimpleData>
+		<SimpleData name="RNL"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>145.480479752606,-38.0751549620484</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#VicRoads_Office_Locations">
+		<SimpleData name="OBJECTID">93</SimpleData>
+		<SimpleData name="STREET_NO">40</SimpleData>
+		<SimpleData name="ROAD_NAME">BELGRAVE-HALLAM</SimpleData>
+		<SimpleData name="ROADTYPE">RD</SimpleData>
+		<SimpleData name="SUBURB">HALLAM</SimpleData>
+		<SimpleData name="POSTCODE">3805</SimpleData>
+		<SimpleData name="MELWAYS_RE">91H11</SimpleData>
+		<SimpleData name="VCD_REF"></SimpleData>
+		<SimpleData name="OP_PROP_TY">Road Management Offices</SimpleData>
+		<SimpleData name="OP_PROP_DE">South Eastern Projects Office</SimpleData>
+		<SimpleData name="RNL"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>145.275613853055,-37.9988224268259</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#VicRoads_Office_Locations">
+		<SimpleData name="OBJECTID">94</SimpleData>
+		<SimpleData name="STREET_NO">64</SimpleData>
+		<SimpleData name="ROAD_NAME">OLD GEELONG</SimpleData>
+		<SimpleData name="ROADTYPE">RD</SimpleData>
+		<SimpleData name="SUBURB">HOPPERS CROSSING</SimpleData>
+		<SimpleData name="POSTCODE">3029</SimpleData>
+		<SimpleData name="MELWAYS_RE">206K2</SimpleData>
+		<SimpleData name="VCD_REF"></SimpleData>
+		<SimpleData name="OP_PROP_TY">Customer Service Centres</SimpleData>
+		<SimpleData name="OP_PROP_DE">Hoppers Crossing Customer Service Centre</SimpleData>
+		<SimpleData name="RNL">Y</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>144.705565158796,-37.8807177568227</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#VicRoads_Office_Locations">
+		<SimpleData name="OBJECTID">95</SimpleData>
+		<SimpleData name="STREET_NO">535</SimpleData>
+		<SimpleData name="ROAD_NAME">PRINCES</SimpleData>
+		<SimpleData name="ROADTYPE">HWY</SimpleData>
+		<SimpleData name="SUBURB">BAIRNSDALE</SimpleData>
+		<SimpleData name="POSTCODE">3875</SimpleData>
+		<SimpleData name="MELWAYS_RE"></SimpleData>
+		<SimpleData name="VCD_REF">84B7</SimpleData>
+		<SimpleData name="OP_PROP_TY">Customer Service Centres</SimpleData>
+		<SimpleData name="OP_PROP_DE">Bairnsdale Customer Service Centre</SimpleData>
+		<SimpleData name="RNL">Y</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>147.600492400193,-37.8366322290248</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#VicRoads_Office_Locations">
+		<SimpleData name="OBJECTID">96</SimpleData>
+		<SimpleData name="STREET_NO">114A</SimpleData>
+		<SimpleData name="ROAD_NAME">PERCY</SimpleData>
+		<SimpleData name="ROADTYPE">ST</SimpleData>
+		<SimpleData name="SUBURB">PORTLAND</SimpleData>
+		<SimpleData name="POSTCODE">3305</SimpleData>
+		<SimpleData name="MELWAYS_RE"></SimpleData>
+		<SimpleData name="VCD_REF">503P3</SimpleData>
+		<SimpleData name="OP_PROP_TY">Customer Service Centres</SimpleData>
+		<SimpleData name="OP_PROP_DE">Portland Customer Service Centre</SimpleData>
+		<SimpleData name="RNL">Y</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>141.604245517211,-38.3446246501631</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#VicRoads_Office_Locations">
+		<SimpleData name="OBJECTID">97</SimpleData>
+		<SimpleData name="STREET_NO">32</SimpleData>
+		<SimpleData name="ROAD_NAME">PRINCES</SimpleData>
+		<SimpleData name="ROADTYPE">HWY</SimpleData>
+		<SimpleData name="SUBURB">SALE</SimpleData>
+		<SimpleData name="POSTCODE">3850</SimpleData>
+		<SimpleData name="MELWAYS_RE"></SimpleData>
+		<SimpleData name="VCD_REF">99C3</SimpleData>
+		<SimpleData name="OP_PROP_TY">Customer Service Centres</SimpleData>
+		<SimpleData name="OP_PROP_DE">Sale Customer Service Centre</SimpleData>
+		<SimpleData name="RNL">Y</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>147.070338847422,-38.0908762328051</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#VicRoads_Office_Locations">
+		<SimpleData name="OBJECTID">98</SimpleData>
+		<SimpleData name="STREET_NO">12</SimpleData>
+		<SimpleData name="ROAD_NAME">LAKESIDE</SimpleData>
+		<SimpleData name="ROADTYPE">DR</SimpleData>
+		<SimpleData name="SUBURB">BURWOOD EAST</SimpleData>
+		<SimpleData name="POSTCODE">3151</SimpleData>
+		<SimpleData name="MELWAYS_RE">62C8</SimpleData>
+		<SimpleData name="VCD_REF"></SimpleData>
+		<SimpleData name="OP_PROP_TY">Customer Service Centres</SimpleData>
+		<SimpleData name="OP_PROP_DE">Burwood East Customer Service Centre</SimpleData>
+		<SimpleData name="RNL">Y</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>145.164190000385,-37.8568849989731</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#VicRoads_Office_Locations">
+		<SimpleData name="OBJECTID">99</SimpleData>
+		<SimpleData name="STREET_NO">60</SimpleData>
+		<SimpleData name="ROAD_NAME">DENMARK</SimpleData>
+		<SimpleData name="ROADTYPE">ST</SimpleData>
+		<SimpleData name="SUBURB">KEW</SimpleData>
+		<SimpleData name="POSTCODE">3101</SimpleData>
+		<SimpleData name="MELWAYS_RE">45B7</SimpleData>
+		<SimpleData name="VCD_REF"></SimpleData>
+		<SimpleData name="OP_PROP_TY">Road Management Offices</SimpleData>
+		<SimpleData name="OP_PROP_DE">Kew Head Office</SimpleData>
+		<SimpleData name="RNL"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>145.02874639966,-37.8100806294662</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#VicRoads_Office_Locations">
+		<SimpleData name="OBJECTID">100</SimpleData>
+		<SimpleData name="STREET_NO">50-52</SimpleData>
+		<SimpleData name="ROAD_NAME">CLARKE</SimpleData>
+		<SimpleData name="ROADTYPE">ST</SimpleData>
+		<SimpleData name="SUBURB">BENALLA</SimpleData>
+		<SimpleData name="POSTCODE">3672</SimpleData>
+		<SimpleData name="MELWAYS_RE"></SimpleData>
+		<SimpleData name="VCD_REF">47H2</SimpleData>
+		<SimpleData name="OP_PROP_TY">Road Management Offices</SimpleData>
+		<SimpleData name="OP_PROP_DE">North Eastern Regional Office</SimpleData>
+		<SimpleData name="RNL"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>145.967505899827,-36.5551205489285</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#VicRoads_Office_Locations">
+		<SimpleData name="OBJECTID">101</SimpleData>
+		<SimpleData name="STREET_NO">231</SimpleData>
+		<SimpleData name="ROAD_NAME">CORIO</SimpleData>
+		<SimpleData name="ROADTYPE">ST</SimpleData>
+		<SimpleData name="SUBURB">SHEPPARTON</SimpleData>
+		<SimpleData name="POSTCODE">3630</SimpleData>
+		<SimpleData name="MELWAYS_RE"></SimpleData>
+		<SimpleData name="VCD_REF">32H8</SimpleData>
+		<SimpleData name="OP_PROP_TY">Customer Service Centres</SimpleData>
+		<SimpleData name="OP_PROP_DE">Shepparton Customer Service Centre</SimpleData>
+		<SimpleData name="RNL">Y</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>145.402921761543,-36.3861308720507</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#VicRoads_Office_Locations">
+		<SimpleData name="OBJECTID">102</SimpleData>
+		<SimpleData name="STREET_NO"></SimpleData>
+		<SimpleData name="ROAD_NAME"></SimpleData>
+		<SimpleData name="ROADTYPE"></SimpleData>
+		<SimpleData name="SUBURB">NHILL</SimpleData>
+		<SimpleData name="POSTCODE"></SimpleData>
+		<SimpleData name="MELWAYS_RE"></SimpleData>
+		<SimpleData name="VCD_REF">546D2</SimpleData>
+		<SimpleData name="OP_PROP_TY">VicRoads Agencies</SimpleData>
+		<SimpleData name="OP_PROP_DE">Hindmarsh Shire Council - Nhill</SimpleData>
+		<SimpleData name="RNL"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>141.650244000116,-36.3327739989654</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#VicRoads_Office_Locations">
+		<SimpleData name="OBJECTID">103</SimpleData>
+		<SimpleData name="STREET_NO"></SimpleData>
+		<SimpleData name="ROAD_NAME"></SimpleData>
+		<SimpleData name="ROADTYPE"></SimpleData>
+		<SimpleData name="SUBURB">DIMBOOLA</SimpleData>
+		<SimpleData name="POSTCODE"></SimpleData>
+		<SimpleData name="MELWAYS_RE"></SimpleData>
+		<SimpleData name="VCD_REF">546G10</SimpleData>
+		<SimpleData name="OP_PROP_TY">VicRoads Agencies</SimpleData>
+		<SimpleData name="OP_PROP_DE">Hindmarsh Shire Council - Dimboola</SimpleData>
+		<SimpleData name="RNL"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>142.02685460039,-36.4541143994546</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#VicRoads_Office_Locations">
+		<SimpleData name="OBJECTID">104</SimpleData>
+		<SimpleData name="STREET_NO"></SimpleData>
+		<SimpleData name="ROAD_NAME"></SimpleData>
+		<SimpleData name="ROADTYPE"></SimpleData>
+		<SimpleData name="SUBURB">JEPARIT</SimpleData>
+		<SimpleData name="POSTCODE"></SimpleData>
+		<SimpleData name="MELWAYS_RE"></SimpleData>
+		<SimpleData name="VCD_REF">545T2</SimpleData>
+		<SimpleData name="OP_PROP_TY">VicRoads Agencies</SimpleData>
+		<SimpleData name="OP_PROP_DE">Hindmarsh Shire Council - Jeparit</SimpleData>
+		<SimpleData name="RNL"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>141.987088000206,-36.1430389987374</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#VicRoads_Office_Locations">
+		<SimpleData name="OBJECTID">105</SimpleData>
+		<SimpleData name="STREET_NO">15</SimpleData>
+		<SimpleData name="ROAD_NAME">Federal</SimpleData>
+		<SimpleData name="ROADTYPE">St</SimpleData>
+		<SimpleData name="SUBURB">Rainbow</SimpleData>
+		<SimpleData name="POSTCODE">3424</SimpleData>
+		<SimpleData name="MELWAYS_RE"></SimpleData>
+		<SimpleData name="VCD_REF">545T9</SimpleData>
+		<SimpleData name="OP_PROP_TY">VicRoads Agencies</SimpleData>
+		<SimpleData name="OP_PROP_DE">Hindmarsh Shire Council - Rainbow</SimpleData>
+		<SimpleData name="RNL"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>141.994396299682,-35.8977331589546</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#VicRoads_Office_Locations">
+		<SimpleData name="OBJECTID">106</SimpleData>
+		<SimpleData name="STREET_NO">75</SimpleData>
+		<SimpleData name="ROAD_NAME">Lascelles</SimpleData>
+		<SimpleData name="ROADTYPE">St</SimpleData>
+		<SimpleData name="SUBURB">Hopetoun</SimpleData>
+		<SimpleData name="POSTCODE">3396</SimpleData>
+		<SimpleData name="MELWAYS_RE"></SimpleData>
+		<SimpleData name="VCD_REF">547S7</SimpleData>
+		<SimpleData name="OP_PROP_TY">VicRoads Agencies</SimpleData>
+		<SimpleData name="OP_PROP_DE">Gateway Beet Inc</SimpleData>
+		<SimpleData name="RNL"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>142.364850499855,-35.7277593993996</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#VicRoads_Office_Locations">
+		<SimpleData name="OBJECTID">107</SimpleData>
+		<SimpleData name="STREET_NO"></SimpleData>
+		<SimpleData name="ROAD_NAME"></SimpleData>
+		<SimpleData name="ROADTYPE"></SimpleData>
+		<SimpleData name="SUBURB">WARRACKNABEAL </SimpleData>
+		<SimpleData name="POSTCODE"></SimpleData>
+		<SimpleData name="MELWAYS_RE"></SimpleData>
+		<SimpleData name="VCD_REF">548C9</SimpleData>
+		<SimpleData name="OP_PROP_TY">VicRoads Agencies</SimpleData>
+		<SimpleData name="OP_PROP_DE">Yarriambiack Shire Council</SimpleData>
+		<SimpleData name="RNL"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>142.392836300197,-36.2530299989111</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#VicRoads_Office_Locations">
+		<SimpleData name="OBJECTID">108</SimpleData>
+		<SimpleData name="STREET_NO"></SimpleData>
+		<SimpleData name="ROAD_NAME"></SimpleData>
+		<SimpleData name="ROADTYPE"></SimpleData>
+		<SimpleData name="SUBURB">COHUNA</SimpleData>
+		<SimpleData name="POSTCODE"></SimpleData>
+		<SimpleData name="MELWAYS_RE"></SimpleData>
+		<SimpleData name="VCD_REF">590J11</SimpleData>
+		<SimpleData name="OP_PROP_TY">VicRoads Agencies</SimpleData>
+		<SimpleData name="OP_PROP_DE">Gannawarra Shire Council - Cohuna</SimpleData>
+		<SimpleData name="RNL"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>144.221033199541,-35.810425468816</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#VicRoads_Office_Locations">
+		<SimpleData name="OBJECTID">109</SimpleData>
+		<SimpleData name="STREET_NO"></SimpleData>
+		<SimpleData name="ROAD_NAME"></SimpleData>
+		<SimpleData name="ROADTYPE"></SimpleData>
+		<SimpleData name="SUBURB">BOORT</SimpleData>
+		<SimpleData name="POSTCODE"></SimpleData>
+		<SimpleData name="MELWAYS_RE"></SimpleData>
+		<SimpleData name="VCD_REF">593O10</SimpleData>
+		<SimpleData name="OP_PROP_TY">VicRoads Agencies</SimpleData>
+		<SimpleData name="OP_PROP_DE">Boort Resource &amp; Information Centre</SimpleData>
+		<SimpleData name="RNL"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>143.726588400252,-36.1163966090614</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#VicRoads_Office_Locations">
+		<SimpleData name="OBJECTID">110</SimpleData>
+		<SimpleData name="STREET_NO"></SimpleData>
+		<SimpleData name="ROAD_NAME"></SimpleData>
+		<SimpleData name="ROADTYPE"></SimpleData>
+		<SimpleData name="SUBURB">ROCHESTER</SimpleData>
+		<SimpleData name="POSTCODE"></SimpleData>
+		<SimpleData name="MELWAYS_RE"></SimpleData>
+		<SimpleData name="VCD_REF">595O10</SimpleData>
+		<SimpleData name="OP_PROP_TY">VicRoads Agencies</SimpleData>
+		<SimpleData name="OP_PROP_DE">Campaspe Shire Council - Rochester</SimpleData>
+		<SimpleData name="RNL"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>144.701407100102,-36.362035059008</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#VicRoads_Office_Locations">
+		<SimpleData name="OBJECTID">111</SimpleData>
+		<SimpleData name="STREET_NO"></SimpleData>
+		<SimpleData name="ROAD_NAME"></SimpleData>
+		<SimpleData name="ROADTYPE"></SimpleData>
+		<SimpleData name="SUBURB">KYABRAM</SimpleData>
+		<SimpleData name="POSTCODE"></SimpleData>
+		<SimpleData name="MELWAYS_RE"></SimpleData>
+		<SimpleData name="VCD_REF">599N4</SimpleData>
+		<SimpleData name="OP_PROP_TY">VicRoads Agencies</SimpleData>
+		<SimpleData name="OP_PROP_DE">Campaspe Shire Council - Kyabram</SimpleData>
+		<SimpleData name="RNL"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>145.045757099784,-36.3158841389806</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#VicRoads_Office_Locations">
+		<SimpleData name="OBJECTID">112</SimpleData>
+		<SimpleData name="STREET_NO"></SimpleData>
+		<SimpleData name="ROAD_NAME"></SimpleData>
+		<SimpleData name="ROADTYPE"></SimpleData>
+		<SimpleData name="SUBURB">EUROA </SimpleData>
+		<SimpleData name="POSTCODE"></SimpleData>
+		<SimpleData name="MELWAYS_RE"></SimpleData>
+		<SimpleData name="VCD_REF">677N10</SimpleData>
+		<SimpleData name="OP_PROP_TY">VicRoads Agencies</SimpleData>
+		<SimpleData name="OP_PROP_DE">Strathbogie Shire Council</SimpleData>
+		<SimpleData name="RNL"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>145.572665899452,-36.7531915789638</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#VicRoads_Office_Locations">
+		<SimpleData name="OBJECTID">113</SimpleData>
+		<SimpleData name="STREET_NO"></SimpleData>
+		<SimpleData name="ROAD_NAME"></SimpleData>
+		<SimpleData name="ROADTYPE"></SimpleData>
+		<SimpleData name="SUBURB">ALEXANDRA </SimpleData>
+		<SimpleData name="POSTCODE"></SimpleData>
+		<SimpleData name="MELWAYS_RE"></SimpleData>
+		<SimpleData name="VCD_REF">62D5</SimpleData>
+		<SimpleData name="OP_PROP_TY">VicRoads Agencies</SimpleData>
+		<SimpleData name="OP_PROP_DE">Murrindindi Shire Council</SimpleData>
+		<SimpleData name="RNL"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>145.710231799948,-37.1907638887973</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#VicRoads_Office_Locations">
+		<SimpleData name="OBJECTID">114</SimpleData>
+		<SimpleData name="STREET_NO"></SimpleData>
+		<SimpleData name="ROAD_NAME"></SimpleData>
+		<SimpleData name="ROADTYPE"></SimpleData>
+		<SimpleData name="SUBURB">MANSFIELD </SimpleData>
+		<SimpleData name="POSTCODE"></SimpleData>
+		<SimpleData name="MELWAYS_RE"></SimpleData>
+		<SimpleData name="VCD_REF">63C2</SimpleData>
+		<SimpleData name="OP_PROP_TY">VicRoads Agencies</SimpleData>
+		<SimpleData name="OP_PROP_DE">Mansfield Shire Council</SimpleData>
+		<SimpleData name="RNL"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>146.087334800535,-37.0536663988717</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#VicRoads_Office_Locations">
+		<SimpleData name="OBJECTID">115</SimpleData>
+		<SimpleData name="STREET_NO"></SimpleData>
+		<SimpleData name="ROAD_NAME"></SimpleData>
+		<SimpleData name="ROADTYPE"></SimpleData>
+		<SimpleData name="SUBURB">YARRAWONGA</SimpleData>
+		<SimpleData name="POSTCODE"></SimpleData>
+		<SimpleData name="MELWAYS_RE"></SimpleData>
+		<SimpleData name="VCD_REF">668D7</SimpleData>
+		<SimpleData name="OP_PROP_TY">VicRoads Agencies</SimpleData>
+		<SimpleData name="OP_PROP_DE">Yarrawonga - Mulwala Visitor Information Centre</SimpleData>
+		<SimpleData name="RNL"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>146.004571000272,-36.0081979990109</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#VicRoads_Office_Locations">
+		<SimpleData name="OBJECTID">116</SimpleData>
+		<SimpleData name="STREET_NO"></SimpleData>
+		<SimpleData name="ROAD_NAME"></SimpleData>
+		<SimpleData name="ROADTYPE"></SimpleData>
+		<SimpleData name="SUBURB">ROSEBUD</SimpleData>
+		<SimpleData name="POSTCODE"></SimpleData>
+		<SimpleData name="MELWAYS_RE">158E12</SimpleData>
+		<SimpleData name="VCD_REF"></SimpleData>
+		<SimpleData name="OP_PROP_TY">VicRoads Agencies</SimpleData>
+		<SimpleData name="OP_PROP_DE">Bants Amcal Pharmacy</SimpleData>
+		<SimpleData name="RNL"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>144.905011500569,-38.3559328991099</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#VicRoads_Office_Locations">
+		<SimpleData name="OBJECTID">117</SimpleData>
+		<SimpleData name="STREET_NO"></SimpleData>
+		<SimpleData name="ROAD_NAME"></SimpleData>
+		<SimpleData name="ROADTYPE"></SimpleData>
+		<SimpleData name="SUBURB">HASTINGS </SimpleData>
+		<SimpleData name="POSTCODE"></SimpleData>
+		<SimpleData name="MELWAYS_RE">154J11</SimpleData>
+		<SimpleData name="VCD_REF"></SimpleData>
+		<SimpleData name="OP_PROP_TY">VicRoads Agencies</SimpleData>
+		<SimpleData name="OP_PROP_DE">Kodak Express/Photo Craft Studios</SimpleData>
+		<SimpleData name="RNL"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>145.191592700063,-38.3074883088721</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#VicRoads_Office_Locations">
+		<SimpleData name="OBJECTID">118</SimpleData>
+		<SimpleData name="STREET_NO"></SimpleData>
+		<SimpleData name="ROAD_NAME"></SimpleData>
+		<SimpleData name="ROADTYPE"></SimpleData>
+		<SimpleData name="SUBURB">COWES</SimpleData>
+		<SimpleData name="POSTCODE"></SimpleData>
+		<SimpleData name="MELWAYS_RE">731K2</SimpleData>
+		<SimpleData name="VCD_REF"></SimpleData>
+		<SimpleData name="OP_PROP_TY">VicRoads Agencies</SimpleData>
+		<SimpleData name="OP_PROP_DE">Australia Post - Cowes</SimpleData>
+		<SimpleData name="RNL"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>145.239040000338,-38.4507329991779</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#VicRoads_Office_Locations">
+		<SimpleData name="OBJECTID">119</SimpleData>
+		<SimpleData name="STREET_NO"></SimpleData>
+		<SimpleData name="ROAD_NAME"></SimpleData>
+		<SimpleData name="ROADTYPE"></SimpleData>
+		<SimpleData name="SUBURB">BALLAN</SimpleData>
+		<SimpleData name="POSTCODE"></SimpleData>
+		<SimpleData name="MELWAYS_RE"></SimpleData>
+		<SimpleData name="VCD_REF">77E3</SimpleData>
+		<SimpleData name="OP_PROP_TY">VicRoads Agencies</SimpleData>
+		<SimpleData name="OP_PROP_DE">Moorabool Shire Council - Ballan</SimpleData>
+		<SimpleData name="RNL"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>144.227208100339,-37.6015474590908</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#VicRoads_Office_Locations">
+		<SimpleData name="OBJECTID">120</SimpleData>
+		<SimpleData name="STREET_NO"></SimpleData>
+		<SimpleData name="ROAD_NAME"></SimpleData>
+		<SimpleData name="ROADTYPE"></SimpleData>
+		<SimpleData name="SUBURB">BEAUFORT</SimpleData>
+		<SimpleData name="POSTCODE"></SimpleData>
+		<SimpleData name="MELWAYS_RE"></SimpleData>
+		<SimpleData name="VCD_REF">556H9</SimpleData>
+		<SimpleData name="OP_PROP_TY">VicRoads Agencies</SimpleData>
+		<SimpleData name="OP_PROP_DE">Pyrenees Shire Council</SimpleData>
+		<SimpleData name="RNL"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>143.384121399805,-37.4283285393751</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#VicRoads_Office_Locations">
+		<SimpleData name="OBJECTID">121</SimpleData>
+		<SimpleData name="STREET_NO"></SimpleData>
+		<SimpleData name="ROAD_NAME"></SimpleData>
+		<SimpleData name="ROADTYPE"></SimpleData>
+		<SimpleData name="SUBURB">HEYWOOD</SimpleData>
+		<SimpleData name="POSTCODE"></SimpleData>
+		<SimpleData name="MELWAYS_RE"></SimpleData>
+		<SimpleData name="VCD_REF">502D3</SimpleData>
+		<SimpleData name="OP_PROP_TY">VicRoads Agencies</SimpleData>
+		<SimpleData name="OP_PROP_DE">Glenelg Shire Council - Heywood</SimpleData>
+		<SimpleData name="RNL"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>141.629938499624,-38.1304751089734</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#VicRoads_Office_Locations">
+		<SimpleData name="OBJECTID">122</SimpleData>
+		<SimpleData name="STREET_NO"></SimpleData>
+		<SimpleData name="ROAD_NAME"></SimpleData>
+		<SimpleData name="ROADTYPE"></SimpleData>
+		<SimpleData name="SUBURB">TIMBOON</SimpleData>
+		<SimpleData name="POSTCODE"></SimpleData>
+		<SimpleData name="MELWAYS_RE"></SimpleData>
+		<SimpleData name="VCD_REF">516J9</SimpleData>
+		<SimpleData name="OP_PROP_TY">VicRoads Agencies</SimpleData>
+		<SimpleData name="OP_PROP_DE">Timboon Pharmacy</SimpleData>
+		<SimpleData name="RNL"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>142.981227500415,-38.4847935990111</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#VicRoads_Office_Locations">
+		<SimpleData name="OBJECTID">123</SimpleData>
+		<SimpleData name="STREET_NO"></SimpleData>
+		<SimpleData name="ROAD_NAME"></SimpleData>
+		<SimpleData name="ROADTYPE"></SimpleData>
+		<SimpleData name="SUBURB">MORTLAKE</SimpleData>
+		<SimpleData name="POSTCODE"></SimpleData>
+		<SimpleData name="MELWAYS_RE"></SimpleData>
+		<SimpleData name="VCD_REF">509S4</SimpleData>
+		<SimpleData name="OP_PROP_TY">VicRoads Agencies</SimpleData>
+		<SimpleData name="OP_PROP_DE">Moyne Shire Council</SimpleData>
+		<SimpleData name="RNL"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>142.808571099856,-38.0814764788049</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#VicRoads_Office_Locations">
+		<SimpleData name="OBJECTID">124</SimpleData>
+		<SimpleData name="STREET_NO"></SimpleData>
+		<SimpleData name="ROAD_NAME"></SimpleData>
+		<SimpleData name="ROADTYPE"></SimpleData>
+		<SimpleData name="SUBURB">CAMPERDOWN</SimpleData>
+		<SimpleData name="POSTCODE"></SimpleData>
+		<SimpleData name="MELWAYS_RE"></SimpleData>
+		<SimpleData name="VCD_REF">517O3</SimpleData>
+		<SimpleData name="OP_PROP_TY">VicRoads Agencies</SimpleData>
+		<SimpleData name="OP_PROP_DE">Corangamite Shire Council</SimpleData>
+		<SimpleData name="RNL"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>143.146410700118,-38.2328604794982</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#VicRoads_Office_Locations">
+		<SimpleData name="OBJECTID">125</SimpleData>
+		<SimpleData name="STREET_NO"></SimpleData>
+		<SimpleData name="ROAD_NAME"></SimpleData>
+		<SimpleData name="ROADTYPE"></SimpleData>
+		<SimpleData name="SUBURB">APOLLO BAY </SimpleData>
+		<SimpleData name="POSTCODE"></SimpleData>
+		<SimpleData name="MELWAYS_RE"></SimpleData>
+		<SimpleData name="VCD_REF">519M5</SimpleData>
+		<SimpleData name="OP_PROP_TY">VicRoads Agencies</SimpleData>
+		<SimpleData name="OP_PROP_DE">Colac Otway Shire Council</SimpleData>
+		<SimpleData name="RNL"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>143.664277199674,-38.758957228949</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#VicRoads_Office_Locations">
+		<SimpleData name="OBJECTID">126</SimpleData>
+		<SimpleData name="STREET_NO"></SimpleData>
+		<SimpleData name="ROAD_NAME"></SimpleData>
+		<SimpleData name="ROADTYPE"></SimpleData>
+		<SimpleData name="SUBURB">EDENHOPE</SimpleData>
+		<SimpleData name="POSTCODE"></SimpleData>
+		<SimpleData name="MELWAYS_RE"></SimpleData>
+		<SimpleData name="VCD_REF">543S5</SimpleData>
+		<SimpleData name="OP_PROP_TY">VicRoads Agencies</SimpleData>
+		<SimpleData name="OP_PROP_DE">West Wimmera Shire Council - Edenhope</SimpleData>
+		<SimpleData name="RNL"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>141.297451799808,-37.036082748733</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#VicRoads_Office_Locations">
+		<SimpleData name="OBJECTID">127</SimpleData>
+		<SimpleData name="STREET_NO"></SimpleData>
+		<SimpleData name="ROAD_NAME"></SimpleData>
+		<SimpleData name="ROADTYPE"></SimpleData>
+		<SimpleData name="SUBURB">KANIVA</SimpleData>
+		<SimpleData name="POSTCODE"></SimpleData>
+		<SimpleData name="MELWAYS_RE"></SimpleData>
+		<SimpleData name="VCD_REF">541S9</SimpleData>
+		<SimpleData name="OP_PROP_TY">VicRoads Agencies</SimpleData>
+		<SimpleData name="OP_PROP_DE">West Wimmera Shire Council - Kaniva</SimpleData>
+		<SimpleData name="RNL"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>141.241387100167,-36.3779626892468</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#VicRoads_Office_Locations">
+		<SimpleData name="OBJECTID">128</SimpleData>
+		<SimpleData name="STREET_NO"></SimpleData>
+		<SimpleData name="ROAD_NAME">RILEY</SimpleData>
+		<SimpleData name="ROADTYPE">ST</SimpleData>
+		<SimpleData name="SUBURB">HAMILTON</SimpleData>
+		<SimpleData name="POSTCODE">3300</SimpleData>
+		<SimpleData name="MELWAYS_RE"></SimpleData>
+		<SimpleData name="VCD_REF">230J7</SimpleData>
+		<SimpleData name="OP_PROP_TY">Customer Service Centres</SimpleData>
+		<SimpleData name="OP_PROP_DE">Hamilton Customer Service Centre</SimpleData>
+		<SimpleData name="RNL">Y</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>142.034606299374,-37.7408542267067</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#VicRoads_Office_Locations">
+		<SimpleData name="OBJECTID">129</SimpleData>
+		<SimpleData name="STREET_NO"></SimpleData>
+		<SimpleData name="ROAD_NAME">PASCOE VALE</SimpleData>
+		<SimpleData name="ROADTYPE">RD</SimpleData>
+		<SimpleData name="SUBURB">BROADMEADOWS</SimpleData>
+		<SimpleData name="POSTCODE">3047</SimpleData>
+		<SimpleData name="MELWAYS_RE">6F8</SimpleData>
+		<SimpleData name="VCD_REF"></SimpleData>
+		<SimpleData name="OP_PROP_TY">Customer Service Centres</SimpleData>
+		<SimpleData name="OP_PROP_DE">Broadmeadows Customer Service Centre</SimpleData>
+		<SimpleData name="RNL">Y</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>144.913911399524,-37.6838247990996</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#VicRoads_Office_Locations">
+		<SimpleData name="OBJECTID">130</SimpleData>
+		<SimpleData name="STREET_NO">232</SimpleData>
+		<SimpleData name="ROAD_NAME">HIGH</SimpleData>
+		<SimpleData name="ROADTYPE">ST</SimpleData>
+		<SimpleData name="SUBURB">MELTON</SimpleData>
+		<SimpleData name="POSTCODE">3337</SimpleData>
+		<SimpleData name="MELWAYS_RE">337B8</SimpleData>
+		<SimpleData name="VCD_REF"></SimpleData>
+		<SimpleData name="OP_PROP_TY">Customer Service Centres</SimpleData>
+		<SimpleData name="OP_PROP_DE">Melton Customer Service Centre</SimpleData>
+		<SimpleData name="RNL">Y</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>144.58485619869,-37.6831135322571</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#VicRoads_Office_Locations">
+		<SimpleData name="OBJECTID">131</SimpleData>
+		<SimpleData name="STREET_NO">36</SimpleData>
+		<SimpleData name="ROAD_NAME">MACEDON</SimpleData>
+		<SimpleData name="ROADTYPE">ST</SimpleData>
+		<SimpleData name="SUBURB">SUNBURY</SimpleData>
+		<SimpleData name="POSTCODE">3429</SimpleData>
+		<SimpleData name="MELWAYS_RE">382F4</SimpleData>
+		<SimpleData name="VCD_REF"></SimpleData>
+		<SimpleData name="OP_PROP_TY">Customer Service Centres</SimpleData>
+		<SimpleData name="OP_PROP_DE">Sunbury Customer Service Centre</SimpleData>
+		<SimpleData name="RNL">Y</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>144.73427002443,-37.5800735288662</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#VicRoads_Office_Locations">
+		<SimpleData name="OBJECTID">132</SimpleData>
+		<SimpleData name="STREET_NO"></SimpleData>
+		<SimpleData name="ROAD_NAME">LEARMONTH</SimpleData>
+		<SimpleData name="ROADTYPE">RD</SimpleData>
+		<SimpleData name="SUBURB">WENDOUREE</SimpleData>
+		<SimpleData name="POSTCODE">3355</SimpleData>
+		<SimpleData name="MELWAYS_RE"></SimpleData>
+		<SimpleData name="VCD_REF">76F2</SimpleData>
+		<SimpleData name="OP_PROP_TY">Road Management Offices</SimpleData>
+		<SimpleData name="OP_PROP_DE">Western Regional Office</SimpleData>
+		<SimpleData name="RNL"></SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>143.819154799662,-37.5347596293884</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#VicRoads_Office_Locations">
+		<SimpleData name="OBJECTID">133</SimpleData>
+		<SimpleData name="STREET_NO">SHOP 2- 56</SimpleData>
+		<SimpleData name="ROAD_NAME">HIGH</SimpleData>
+		<SimpleData name="ROADTYPE">ST</SimpleData>
+		<SimpleData name="SUBURB">ARARAT</SimpleData>
+		<SimpleData name="POSTCODE">3377</SimpleData>
+		<SimpleData name="MELWAYS_RE"></SimpleData>
+		<SimpleData name="VCD_REF">56G6</SimpleData>
+		<SimpleData name="OP_PROP_TY">Customer Service Centres</SimpleData>
+		<SimpleData name="OP_PROP_DE">Ararat Customer Service Centre</SimpleData>
+		<SimpleData name="RNL">Y</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>142.930385185167,-37.2827746978428</coordinates></Point>
+  </Placemark>
+</Folder>
+</Document></kml>

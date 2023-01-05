@@ -1,0 +1,1839 @@
+<!DOCTYPE html>
+<html lang="en" prefix="dc: http://purl.org/dc/elements/1.1/#; dcterms: http://purl.org/dc/terms/#">
+<head><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta charset="utf-8"><meta name="viewport" content="width=device-width"><script type="text/javascript" src="../../../wicket/resource/org.apache.wicket.resource.JQueryResourceReference/jquery/jquery-1.11.1.min-ver-8101D596B2B8FA35FE3A634EA342D7C3.js"></script>
+<link rel="stylesheet" type="text/css" href="/css_min/min/orcid-min.css?v=12087" />
+<script type="text/javascript" src="../../../wicket/resource/org.europepmc.account.AccountSigninPanel/AccoutSigninPanel-ver-23536C62407C81CFCDCB80EBF689D4C9.js"></script>
+<title>Europe PMC</title><link href="/css/chunk-00f8ff4e.a8744ce3.css" rel="prefetch"><link href="/css/chunk-0174ae6e.dbe6b2e6.css" rel="prefetch"><link href="/css/chunk-0e93dfce.dd3b2cb4.css" rel="prefetch"><link href="/css/chunk-295e29ee.f8971f0e.css" rel="prefetch"><link href="/css/chunk-2a369350.d9f0ba2d.css" rel="prefetch"><link href="/css/chunk-35525521.b680659e.css" rel="prefetch"><link href="/css/chunk-47525778.f2f693d5.css" rel="prefetch"><link href="/css/chunk-47c0a591.fe43186a.css" rel="prefetch"><link href="/css/chunk-517b3bcb.09aadcce.css" rel="prefetch"><link href="/css/chunk-5609bc5c.c37ed247.css" rel="prefetch"><link href="/css/chunk-5b9304ba.03921488.css" rel="prefetch"><link href="/css/chunk-65109596.53d94091.css" rel="prefetch"><link href="/css/chunk-6602419f.190a4303.css" rel="prefetch"><link href="/css/chunk-698cb8bb.6207fd84.css" rel="prefetch"><link href="/css/chunk-720193c3.adeb4bbb.css" rel="prefetch"><link href="/css/chunk-745b9968.c78a9010.css" rel="prefetch"><link href="/css/chunk-76f0c490.413cd20e.css" rel="prefetch"><link href="/css/chunk-7724a5fd.3ce2e8da.css" rel="prefetch"><link href="/css/chunk-7c0aaf82.9ba4ea01.css" rel="prefetch"><link href="/css/chunk-7d19ffa5.97a42430.css" rel="prefetch"><link href="/css/chunk-7fc48d7e.c7ea151b.css" rel="prefetch"><link href="/css/chunk-807a2bd6.b85915e5.css" rel="prefetch"><link href="/css/chunk-87669856.c795efbe.css" rel="prefetch"><link href="/css/chunk-89a70d92.cafb0726.css" rel="prefetch"><link href="/css/chunk-8bb8901a.61d525d8.css" rel="prefetch"><link href="/css/chunk-b547d4f6.ca89be19.css" rel="prefetch"><link href="/css/chunk-b744e2c0.e8f4ac41.css" rel="prefetch"><link href="/css/chunk-cac315d4.47cc104a.css" rel="prefetch"><link href="/css/chunk-d361715e.660f509f.css" rel="prefetch"><link href="/css/chunk-d5615dc8.ded582d7.css" rel="prefetch"><link href="/css/chunk-dc875800.aef99452.css" rel="prefetch"><link href="/css/chunk-e9e7d366.c4482499.css" rel="prefetch"><link href="/css/chunk-vendors.a2fcebda.css" rel="stylesheet"><link href="/css/app.4c380042.css" rel="stylesheet"><title>Europe PMC</title><script src="https://cdn.jsdelivr.net/npm/get-root-node-polyfill@1.0.0/index.min.js"></script><script id="uk-bl-ukpmc-web-pages-template-SearchBar-0">
+/*<![CDATA[*/
+// for processing latex encoding in abstract and fulltext
+window.MathJax = {
+tex: {
+inlineMath: [['$', '$'], ['\\(', '\\)']]
+}
+};
+/*]]>*/
+</script><link href="/css/chunk-00f8ff4e.a8744ce3.css" rel="prefetch"><link href="/css/chunk-0174ae6e.dbe6b2e6.css" rel="prefetch"><link href="/css/chunk-0e93dfce.dd3b2cb4.css" rel="prefetch"><link href="/css/chunk-295e29ee.f8971f0e.css" rel="prefetch"><link href="/css/chunk-2a369350.d9f0ba2d.css" rel="prefetch"><link href="/css/chunk-35525521.b680659e.css" rel="prefetch"><link href="/css/chunk-47525778.f2f693d5.css" rel="prefetch"><link href="/css/chunk-47c0a591.fe43186a.css" rel="prefetch"><link href="/css/chunk-517b3bcb.09aadcce.css" rel="prefetch"><link href="/css/chunk-5609bc5c.c37ed247.css" rel="prefetch"><link href="/css/chunk-5b9304ba.03921488.css" rel="prefetch"><link href="/css/chunk-65109596.53d94091.css" rel="prefetch"><link href="/css/chunk-6602419f.190a4303.css" rel="prefetch"><link href="/css/chunk-698cb8bb.6207fd84.css" rel="prefetch"><link href="/css/chunk-720193c3.adeb4bbb.css" rel="prefetch"><link href="/css/chunk-745b9968.c78a9010.css" rel="prefetch"><link href="/css/chunk-76f0c490.413cd20e.css" rel="prefetch"><link href="/css/chunk-7724a5fd.3ce2e8da.css" rel="prefetch"><link href="/css/chunk-7c0aaf82.9ba4ea01.css" rel="prefetch"><link href="/css/chunk-7d19ffa5.97a42430.css" rel="prefetch"><link href="/css/chunk-7fc48d7e.c7ea151b.css" rel="prefetch"><link href="/css/chunk-807a2bd6.b85915e5.css" rel="prefetch"><link href="/css/chunk-87669856.c795efbe.css" rel="prefetch"><link href="/css/chunk-89a70d92.cafb0726.css" rel="prefetch"><link href="/css/chunk-8bb8901a.61d525d8.css" rel="prefetch"><link href="/css/chunk-b547d4f6.ca89be19.css" rel="prefetch"><link href="/css/chunk-b744e2c0.e8f4ac41.css" rel="prefetch"><link href="/css/chunk-cac315d4.47cc104a.css" rel="prefetch"><link href="/css/chunk-d361715e.660f509f.css" rel="prefetch"><link href="/css/chunk-d5615dc8.ded582d7.css" rel="prefetch"><link href="/css/chunk-dc875800.aef99452.css" rel="prefetch"><link href="/css/chunk-e9e7d366.c4482499.css" rel="prefetch"><link href="/js/chunk-00f8ff4e.af74e61a.js" rel="prefetch"><link href="/js/chunk-0174ae6e.d3cacd5f.js" rel="prefetch"><link href="/js/chunk-0e93dfce.321ffb80.js" rel="prefetch"><link href="/js/chunk-295e29ee.b8a472ef.js" rel="prefetch"><link href="/js/chunk-2a369350.2147e680.js" rel="prefetch"><link href="/js/chunk-2d0b33fc.609beb49.js" rel="prefetch"><link href="/js/chunk-2d0bad09.f6760def.js" rel="prefetch"><link href="/js/chunk-2d0c95e3.58c43335.js" rel="prefetch"><link href="/js/chunk-2d0de79d.a0c7b2e2.js" rel="prefetch"><link href="/js/chunk-2d0f07fe.3dc34507.js" rel="prefetch"><link href="/js/chunk-2d213782.2843e639.js" rel="prefetch"><link href="/js/chunk-35525521.7a6c2492.js" rel="prefetch"><link href="/js/chunk-47525778.a6002a62.js" rel="prefetch"><link href="/js/chunk-47c0a591.17630c5f.js" rel="prefetch"><link href="/js/chunk-517b3bcb.184d8521.js" rel="prefetch"><link href="/js/chunk-5609bc5c.d37b3a7b.js" rel="prefetch"><link href="/js/chunk-5b9304ba.c9710dd0.js" rel="prefetch"><link href="/js/chunk-65109596.fbd51649.js" rel="prefetch"><link href="/js/chunk-6602419f.12a79d33.js" rel="prefetch"><link href="/js/chunk-698cb8bb.31b79321.js" rel="prefetch"><link href="/js/chunk-720193c3.62a49fed.js" rel="prefetch"><link href="/js/chunk-745b9968.42a25d50.js" rel="prefetch"><link href="/js/chunk-76f0c490.3ef2dfd5.js" rel="prefetch"><link href="/js/chunk-7724a5fd.265f2917.js" rel="prefetch"><link href="/js/chunk-7c0aaf82.b478f2ef.js" rel="prefetch"><link href="/js/chunk-7d19ffa5.56bb5fe0.js" rel="prefetch"><link href="/js/chunk-7fc48d7e.cef9ed0a.js" rel="prefetch"><link href="/js/chunk-807a2bd6.5d551d17.js" rel="prefetch"><link href="/js/chunk-87669856.b9a1d797.js" rel="prefetch"><link href="/js/chunk-89a70d92.f98062d6.js" rel="prefetch"><link href="/js/chunk-8bb8901a.2dd60e6f.js" rel="prefetch"><link href="/js/chunk-b547d4f6.959b9c11.js" rel="prefetch"><link href="/js/chunk-b744e2c0.45d10e41.js" rel="prefetch"><link href="/js/chunk-cac315d4.5b23dd5c.js" rel="prefetch"><link href="/js/chunk-d361715e.e7929841.js" rel="prefetch"><link href="/js/chunk-d5615dc8.573ba8a8.js" rel="prefetch"><link href="/js/chunk-dc875800.c81ff22b.js" rel="prefetch"><link href="/js/chunk-e9e7d366.6b143670.js" rel="prefetch"><link href="/css/app.4c380042.css" rel="preload" as="style"><link href="/css/chunk-vendors.a2fcebda.css" rel="preload" as="style"><link href="/js/app.81624b29.js" rel="preload" as="script"><link href="/js/chunk-vendors.22a07bda.js" rel="preload" as="script"><link href="/css/chunk-vendors.a2fcebda.css" rel="stylesheet"><link href="/css/app.4c380042.css" rel="stylesheet"><script type="text/javascript" src="../../../wicket/resource/org.apache.wicket.ajax.AbstractDefaultAjaxBehavior/res/js/wicket-event-jquery.min-ver-F070EDFAD7E5A1BD9662F385470094FF.js"></script>
+<script type="text/javascript" src="../../../wicket/resource/org.apache.wicket.ajax.AbstractDefaultAjaxBehavior/res/js/wicket-ajax-jquery.min-ver-1D4EE56166B3A1106E05B678CC2AB1EF.js"></script>
+<script type="text/javascript" src="../../../wicket/resource/org.apache.wicket.extensions.ajax.markup.html.modal.ModalWindow/res/modal.min-ver-E43C9229F7812A6259B89C7E5B5028FB.js"></script>
+<link rel="stylesheet" type="text/css" href="../../../wicket/resource/org.apache.wicket.extensions.ajax.markup.html.modal.ModalWindow/res/modal.min-ver-E99D4201F0F6C5D3081AD42ACB1F22C2.css" />
+<script type="text/javascript" id="wicket-ajax-base-url">
+/*<![CDATA[*/
+Wicket.Ajax.baseUrl="articles/pmc2559849/bin/1471-2148-8-255-s1.ods";
+/*]]>*/
+</script>
+
+<style id="uk-bl-ukpmc-web-pages-template-TemplatePage-0">
+/*<![CDATA[*/
+
+#search-feature-link {
+display: none;
+}
+@media only screen and (max-width: 800px) {
+#search-feature-link {
+display: block;
+}
+}
+
+/*]]>*/
+</style>
+<script type="text/javascript" src="../../../wicket/resource/uk.bl.ukpmc.web.pages.template.TemplatePage/TemplatePage-ver-540ECA69167ECC178EB8C919D0809EB3.js"></script>
+
+
+<meta name="dc:date" content="2008/09"/>
+
+<meta name="dcterms:isPartOf" content="BMC Evolutionary Biology 2008, 8, pp255"/>
+
+<meta name="dc:identifier" content="https://www.ncbi.nlm.nih.gov/pubmed/18808672"/>
+
+<meta name="dc:identifier" content="https://doi.org/10.1186/1471-2148-8-255"/>
+
+<meta name="dcterms:hasFormat" content="https://doi.org/10.1186/1471-2148-8-255"/>
+
+<meta name="dc:title" content="Non-homogeneous models of sequence evolution in the Bio++ suite of libraries and programs."/>
+
+<meta name="dc:Type" content="product-review"/>
+
+<meta name="dc:Type" content="Journal Article"/>
+
+<meta name="dc:creator" content="Dutheil J"/>
+
+<meta name="dc:creator" content="Boussau B"/>
+
+<meta name="dc:contributor" content="BiRC - Bioinformatics Research Center, University of Aarhus, C, F, Møllers Alle, DK-8000 Arhus C, Denmark. jdutheil@daimi.au.dk"/>
+
+<meta name="dc:language" content="en"/>
+
+<meta name="dc:subject" content="info:mesh/RNA, Ribosomal"/>
+
+<meta name="dc:subject" content="info:mesh/Likelihood Functions"/>
+
+<meta name="dc:subject" content="info:mesh/Computational Biology"/>
+
+<meta name="dc:subject" content="info:mesh/Evolution, Molecular"/>
+
+<meta name="dc:subject" content="info:mesh/Phylogeny"/>
+
+<meta name="dc:subject" content="info:mesh/Algorithms"/>
+
+<meta name="dc:subject" content="info:mesh/Models, Genetic"/>
+
+<meta name="dc:subject" content="info:mesh/Computer Simulation"/>
+
+<meta name="dc:subject" content="info:mesh/Software"/>
+
+
+
+<meta name="citation_journal_title" content="BMC evolutionary biology"/>
+
+<meta name="citation_journal_abbrev" content="BMC Evol Biol"/>
+
+<meta name="citation_publication_date" content="2008/09"/>
+
+<meta name="citation_issn" content="1471-2148"/>
+
+<meta name="citation_volume" content="8"/>
+
+<meta name="citation_firstpage" content="255"/>
+
+<meta name="citation_lastpage" content="255"/>
+
+<meta name="citation_title" content="Non-homogeneous models of sequence evolution in the Bio++ suite of libraries and programs."/>
+
+<meta name="citation_doi" content="10.1186/1471-2148-8-255"/>
+
+<meta name="citation_pmcid" content="PMC2559849"/>
+
+<meta name="citation_author" content="J Dutheil"/>
+
+<meta name="citation_author" content="B Boussau"/>
+
+<meta name="citation_keywords" content="RNA, Ribosomal; Likelihood Functions; Computational Biology; Evolution, Molecular; Phylogeny; Algorithms; Models, Genetic; Computer Simulation; Software"/>
+
+<meta name="citation_language" content="eng"/>
+
+
+
+
+
+
+
+<meta name="bioentities" content="panel"/>
+
+
+<meta name="dcterms:hasFormat" content="http://europepmc.org/articles/pmc2559849"/>
+
+<meta name="citation_fulltext_html_url" content="http://europepmc.org/articles/pmc2559849"/>
+
+<meta name="dc:identifier" content="http://europepmc.org/articles/pmc2559849"/>
+
+<meta name="dcterms:hasFormat" content="http://europepmc.org/abstract/MED/18808672"/>
+
+<meta name="citation_abstract_html_url" content="http://europepmc.org/abstract/MED/18808672"/>
+
+<meta name="dcterms:hasFormat" content="http://europepmc.org/articles/pmc2559849?pdf=render"/>
+
+<meta name="citation_pdf_url" content="http://europepmc.org/articles/pmc2559849?pdf=render"/>
+
+<script type="text/javascript" id="uk-bl-ukpmc-web-panels-navigation-FullTextMarginPanel-0">
+/*<![CDATA[*/
+
+$(function () {
+topSpace();
+});
+$(window).resize(function () {
+topSpace();
+positionLegendAnnotation(true, true, false);
+});
+function topSpace() {
+setTimeout(function () {
+if ($('#movetotop').css('position') == 'absolute') {
+$('.epmc_wideLeft').css('margin-top', $('#movetotop').height() + 'px');
+} else {
+$('.epmc_wideLeft').css('margin-top', 0);
+}
+if ($('.ui-tabs-nav').css('position') == 'absolute') {
+$('.ui-tabs').css('padding-bottom', $('.ui-tabs-nav').height() + 10 + 'px');
+} else {
+$('.ui-tabs').css('padding-bottom', 0);
+}
+});
+}
+
+/*]]>*/
+</script>
+<style id="uk-bl-ukpmc-web-panels-navigation-FullTextMarginPanel-1">
+/*<![CDATA[*/
+
+#downloadHeading {
+width:80px; text-align: center; margin-left:5px
+}
+@media screen and (max-width: 870px) {
+#downloadHeading {
+display: none !important;
+}
+#movetotop {
+padding: 0rem 2rem !important;
+}
+.articleContentPage #movetotop .vertmenu:first-child {
+margin-top: 10px !important;
+}
+.articleContentPage.citationPage .epmc_wideLeft {
+margin-top: 5.5rem !important;
+}
+}
+
+/*]]>*/
+</style>
+
+<title>Non-homogeneous models of sequence evolution in the Bio++ suite of libraries and programs - Europe PMC Article - Europe PMC</title>
+<link rel="stylesheet" href="/template/font-awesome/css/all.min.css">
+<link rel="stylesheet" href="/template/EPMC-iconfont/style.css?v=12087">
+<link rel="icon" href="/images/favicon.ico" type="image/x-icon">
+<link rel="alternate" type="application/rss+xml"
+title="Europe PMC: Popular articles"
+href="/Funders/RSS/MostViewedArticles.xml">
+<link rel="alternate" type="application/rss+xml"
+title="Europe PMC: Recent articles"
+href="/Funders/RSS/AllFunders.xml">
+<link rel="alternate" type="application/rss+xml"
+title="Europe PMC: Latest journals"
+href="/Funders/rss/NewJournals.xml">
+<link rel="alternate" type="application/rss+xml"
+title="Europe PMC: Content Holdings"
+href="/contentrss">
+<meta name="theme-color" content="#666"/>
+<meta name="author" content="Europe PMC"/>
+<meta name="owner" content="Europe PMC"/>
+<meta name="keywords"
+content="Europe PMC, Europe PubMed Central, open access, research articles, journal articles, abstracts, full text, literature search, clinical guidelines, biological patents, life sciences, bioinformatics, biomedical research, citation search, biomedical journals, ORCIDs, text mining, citation networks, REST APIs "/>
+<meta name="description" content="FULL TEXT Abstract: &lt;h4&gt;Background&lt;/h4&gt;Accurately modeling the sequence substitution process is required for the correct estimation of evolutionary parameters, be..."/>
+<meta http-equiv="X-UA-Compatible" content="IE=11" />
+
+<link rel="search" type="application/opensearchdescription+xml" title="Search Europe PMC" href="/tools_epmc/opensearch_epmc.xml">
+<link rel="stylesheet" type="text/css" media="print, screen" href="/template/jquery_ui.css?v=12087"/>
+<link rel="stylesheet" type="text/css" media="screen" href="/template/jquery_menu.css?v=12087"/>
+<script type="text/javascript" src="/template/yahoo-min.js?v=12087"></script>
+<script type="text/javascript" src="/template/dom-min.js?v=12087"></script>
+<script type="text/javascript" src="/template/enrichment.js?v=12087"></script>
+<link rel="stylesheet" type="text/css" media="print, screen" href="/template/enrichment.css?v=12087"/>
+<script type="text/javascript" src="/template/hoverIntent.js?v=12087"></script>
+<script type="text/javascript" src="/template/jquery.js?v=12087"></script>
+<link rel="stylesheet" type="text/css" href="/template/ncbi/epmc.ncbi.css?v=12087"/>
+<script type="text/javascript" src="/template/epmc.js?v=12087"></script>
+<link rel="stylesheet" type="text/css" href="/template/epmc_new.css?v=12087"/>
+<link href="/css/compromise.css" rel="stylesheet" type="text/css"/>
+
+<meta name="robots" content="INDEX,NOFOLLOW,NOARCHIVE" /><link rel="canonical" href="https://europepmc.org/articles/PMC2559849/" /><link rel="schema.DC" href="http://purl.org/DC/elements/1.0/" /><meta name="citation_journal_title" content="BMC Evolutionary Biology" /><meta name="citation_title" content="Non-homogeneous models of sequence evolution in the Bio++ suite of libraries and programs" /><meta name="citation_date" content="2008" /><meta name="citation_volume" content="8" /><meta name="citation_firstpage" content="255" /><meta name="citation_doi" content="10.1186/1471-2148-8-255" /><meta name="citation_abstract_html_url" content="/articles/PMC2559849/?report=abstract" /><meta name="citation_pmid" content="18808672" /><meta name="DC.Title" content="Non-homogeneous models of sequence evolution in the Bio++ suite of libraries and programs" /><meta name="DC.Type" content="Text" /><meta name="DC.Publisher" content="BioMed Central" /><meta name="DC.Contributor" content="Julien Dutheil" /><meta name="DC.Contributor" content="Bastien Boussau" /><meta name="DC.Date" content="2008" /><meta name="DC.Identifier" content="10.1186/1471-2148-8-255" /><meta name="DC.Language" content="en" /><meta property="og:title" content="Non-homogeneous models of sequence evolution in the Bio++ suite of libraries and programs" /><meta property="og:type" content="article" /><meta property="og:description" content="Accurately modeling the sequence substitution process is required for the correct estimation of evolutionary parameters, be they phylogenetic relationships, substitution rates or ancestral states; it is also crucial to simulate realistic data sets. Such ..." /><meta property="og:url" content="https://europepmc.org/articles/PMC2559849/" /><meta property="og:site_name" content="PubMed Central (PMC)" /><meta property="og:image" content="https://www.ncbi.nlm.nih.gov/corehtml/pmc/pmcgifs/pmc-logo-share.png" /><meta name="twitter:card" content="summary" /><meta name="twitter:site" content="@ncbi" /><meta name="ncbi_feature" content="associated_data" /><link rel="stylesheet" href="/corehtml/pmc/css/3.14.1/ncbi.min.css" type="text/css" data-apply="standalone" /><link rel="stylesheet" href="/corehtml/pmc/css/3.14.1/pmc.min.css" type="text/css" /><link rel="stylesheet" href="/corehtml/pmc/css/3.14.1/pmc_extras_prnt.min.css" type="text/css" media="print" /><script type="text/javascript">if (true || typeof jQuery === "undefined") document.write('[script type="text/javascript" src="/corehtml/pmc/jig/1.14.8/js/jig.min.js"][/script]'.replace(/\[/g,String.fromCharCode(60)).replace(/\]/g,String.fromCharCode(62)));</script><script type="text/javascript">//</script><script type="text/javascript" src="/corehtml/pmc/js/common.min.js">//</script><script type="text/javascript" src="/corehtml/pmc/js/NcbiTagServer.min.js">//</script><script type="text/javascript" src="/corehtml/pmc/MathJax-2.6-latest/MathJax.js?config=/corehtml/pmc/js/mathjax-config-classic.3.4.js"></script><script type="text/javascript">window.name="mainwindow";</script><style type="text/css">.pmc-wm {background:transparent repeat-y top left;background-image:url(/corehtml/pmc/pmcgifs/wm-bmceb.gif);background-size: auto, contain}</style><style type="text/css">.print-view{display:block}</style>
+
+
+<script type="text/javascript">
+/*<![CDATA[*/
+
+$(document).ready(function () {
+if (window.location.pathname === '/') {
+$(".page_proper").first().addClass('epmc-home-page');
+}
+$("#Highlight_head").click(function (event) {
+event.preventDefault();
+$("#Highlight_body").slideToggle();
+});
+$("#Highlight_body a").click(function (event) {
+event.preventDefault();
+$("#Highlight_body").slideUp();
+});
+var locationHost = $.cookie('location_host');
+if (typeof locationHost === 'undefined' || locationHost == null || locationHost == "") {
+$.cookie("location_host", window.location.host);
+}
+});
+
+/*]]>*/
+</script>
+
+
+<script type="text/javascript">
+/*<![CDATA[*/
+
+Wicket.Event.subscribe('/ajax/call/complete', function (jqEvent, attributes, jqXHR, errorThrown, textStatus) {
+if (jqXHR != null && jqXHR.responseText != null &&
+(jqXHR.responseText.match("ShowCitationDetails]]></redirect></ajax-response>")
+|| jqXHR.responseText.match("articles]]></redirect></ajax-response>"))) {
+var ua = window.navigator.userAgent;
+var msie = ua.indexOf("MSIE ");
+var trident = ua.indexOf("Trident/");
+if (msie > 0 || trident > 0) {
+window.document.execCommand("Stop");
+} else {
+window.stop();
+}
+}
+});
+
+/*]]>*/
+</script>
+
+
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.0.4/fuse.min.js"></script>
+<script type="text/javascript" src="/bioJs/js/sbd_tokenizer.js"></script>
+<script type="text/javascript" src="/bioJs/js/Biojs.js"></script>
+<script type="text/javascript" src="/bioJs/js/Biojs.Protein3D.js"></script>
+<script type="text/javascript" src="/bioJs/js/Biojs.Protein3DCanvas.js"></script>
+<script type="text/javascript" src="/bioJs/dependencies/jsmol-14.29.10/jsmol/JSmol.min.nojq.js"></script>
+<script type="text/javascript" src="/bioJs/dependencies/jsmol-14.29.10/jsmol/js/Jmol2.js"></script>
+<script type="text/javascript" src="/bioJs/js/Biojs.AnnotatorBase.js?v=12087"></script>
+<script type="text/javascript" src="/bioJs/js/Biojs.AnnotatorAction.js?v=12087"></script>
+<script type="text/javascript" src="/bioJs/js/AnnotatorSharedData.js?v=12087"></script>
+<script type="text/javascript" src="/bioJs/js/Biojs.AnnotatorGeneRef.js?v=12087"></script>
+<script type="text/javascript" src="/bioJs/js/Biojs.AnnotatorGreco.js?v=12087"></script>
+<script type="text/javascript" src="/bioJs/js/Biojs.AnnotatorEvent.js?v=12087"></script>
+<script type="text/javascript" src="/bioJs/js/Biojs.AnnotatorOpenTarget.js?v=12087"></script>
+<script type="text/javascript" src="/bioJs/js/Biojs.AnnotatorDisgenet.js?v=12087"></script>
+<script type="text/javascript" src="/bioJs/js/Biojs.AnnotatorNCBI.js?v=12087"></script>
+<script type="text/javascript" src="/bioJs/js/Biojs.AnnotatorIntact.js?v=12087"></script>
+<script type="text/javascript" src="/bioJs/js/Biojs.AnnotatorPheneBank.js?v=12087"></script>
+<script type="text/javascript" src="/bioJs/js/Biojs.AnnotatorOger.js?v=12087"></script>
+<link rel="stylesheet" type="text/css" src="/bioJs/css/biojs.Protein3D.css" />
+
+<link rel="stylesheet" href="../../../wicket/resource/uk.bl.ukpmc.web.pages.search.ShowText/ShowText-ver-EB8803B44F0A895378D6A75F261C7525.css">
+<script src="/Scripts/loglevel.min.js"></script>
+<script type="text/javascript" src="/Scripts/snippet_storage.js?v=12087"></script>
+<script type="text/javascript" src="../../../wicket/resource/com.googlecode.wicket.jquery.core.resource.JQueryUIResourceReference/jquery-ui.min-ver-80CBC031ED1AE0BD82C578DD2D6A4EA0.js"></script>
+<script type="text/javascript" src="/js_min/min/epmc-min.js?v=12087"></script>
+<script type="text/javascript" src="/js_min/min/responsify-analytics-min.js?v=12087"></script>
+<script type="text/javascript" src="/js_min/min/annotation_highlight-min.js?v=12087"></script>
+<script type="text/javascript" src="/js_min/min/biojs_functions-min.js?v=12087"></script>
+<link rel="stylesheet" type="text/css" href="/css_min/min/jquery-ui-min.css?v=12087" />
+<link rel="stylesheet" type="text/css" href="/css_min/min/advanced_search-min.css?v=12087" />
+<link rel="stylesheet" type="text/css" href="/css_min/min/labs_links-min.css?v=12087" />
+<link rel="stylesheet" type="text/css" href="/css_min/min/annotation_highlight-min.css?v=12087" />
+<script type="text/javascript" >
+/*<![CDATA[*/
+Wicket.Event.add(window, "domready", function(event) { 
+Wicket.Ajax.ajax({"c":"id1","u":"./1471-2148-8-255-s1.ods?0-1.IBehaviorListener.0-search-recentsearches","e":"click"});;
+Wicket.Ajax.ajax({"c":"id2","u":"./1471-2148-8-255-s1.ods?0-1.IBehaviorListener.0-search-clipboard","e":"click"});;
+Wicket.Ajax.ajax({"c":"exportPanelLink","u":"./1471-2148-8-255-s1.ods?0-1.IBehaviorListener.0-search-exportPanelLink","e":"click","coh":[function(attrs, jqXHR, textStatus){;onClickPanelLink();registerExportPanel();}]});;
+Wicket.Ajax.ajax({"c":"closeExportWindow","u":"./1471-2148-8-255-s1.ods?0-1.IBehaviorListener.0-search-closeExportWindow","e":"click"});;
+Wicket.Ajax.ajax({"c":"id3","u":"./1471-2148-8-255-s1.ods?0-1.IBehaviorListener.0-clipboard_icon-addclipboard","e":"click"});;
+Wicket.Ajax.ajax({"pre":[function(attrs){if (jQuery('#references_loading_label').length ==0){
+
+ return false;
+
+}else{
+
+ return true;
+
+}}],"c":"relatedcitation_link","u":"./1471-2148-8-255-s1.ods?0-1.IBehaviorListener.0-anchor_related_citations","e":"click","bh":[function(attrs){if ((jQuery('#annotation_legend_container') !=undefined) && (jQuery('#annotation_legend_container').length >0)){
+
+ jQuery('#annotation_legend_container').hide();
+
+}}]});;
+Wicket.Ajax.ajax({"pre":[function(attrs){if (jQuery('#rel_articles_loading_label').length ==0){
+
+ return false;
+
+}else{
+
+ return true;
+
+}}],"c":"relatedarts_link","u":"./1471-2148-8-255-s1.ods?0-1.IBehaviorListener.0-anchor_related_articles","e":"click","bh":[function(attrs){if ((jQuery('#annotation_legend_container') !=undefined) && (jQuery('#annotation_legend_container').length >0)){
+
+ jQuery('#annotation_legend_container').hide();
+
+}}]});;
+Wicket.Ajax.ajax({"pre":[function(attrs){if (jQuery('#loading_dataLinks_label').length ==0){
+
+ return false;
+
+}else{
+
+ return true;
+
+}}],"c":"datacites_link","u":"./1471-2148-8-255-s1.ods?0-1.IBehaviorListener.0-anchor_related_dataLinks","e":"click","bh":[function(attrs){if ((jQuery('#annotation_legend_container') !=undefined) && (jQuery('#annotation_legend_container').length >0)){
+
+ jQuery('#annotation_legend_container').hide();
+
+}}]});;
+Wicket.Ajax.ajax({"pre":[function(attrs){if (jQuery('#loading_bioentities_label').length ==0){
+
+ return false;
+
+}else{
+
+ return true;
+
+}}],"c":"relatedentity_link","u":"./1471-2148-8-255-s1.ods?0-1.IBehaviorListener.0-anchor_related_bioentities","e":"click","bh":[function(attrs){if ((jQuery('#annotation_legend_container') !=undefined) && (jQuery('#annotation_legend_container').length >0)){
+
+ jQuery('#annotation_legend_container').hide();
+
+}}]});;
+Wicket.Ajax.ajax({"pre":[function(attrs){if (jQuery('#loading_links_label').length ==0){
+
+ return false;
+
+}else{
+
+ return true;
+
+}}],"c":"relatedlabLinks_link","u":"./1471-2148-8-255-s1.ods?0-1.IBehaviorListener.0-anchor_related_labLinks","e":"click","bh":[function(attrs){if ((jQuery('#annotation_legend_container') !=undefined) && (jQuery('#annotation_legend_container').length >0)){
+
+ jQuery('#annotation_legend_container').hide();
+
+}}]});;
+Wicket.Ajax.ajax({"c":"id4","u":"./1471-2148-8-255-s1.ods?0-1.IBehaviorListener.0-yearlyCitationGraph"});;
+Wicket.Ajax.ajax({"pre":[function(attrs){if (jQuery('#fragment-related-labLinks').css('display') =='block'){
+
+ return true;
+
+}else{
+
+ return false;
+
+}}],"u":"./1471-2148-8-255-s1.ods?0-1.IBehaviorListener.0-anchor_related_labLinks","sh":[function(attrs, jqXHR, data, textStatus){if (jQuery('#citationDetails').length>0){
+
+ jQuery('#citationDetails').removeClass('ui-tabs-active');
+
+}
+
+if (jQuery('#fulltext').length>0){
+
+ jQuery('#fulltext').removeClass('ui-tabs-active');
+
+}
+
+}]});;
+Wicket.Ajax.ajax({"pre":[function(attrs){if (jQuery('#fragment-related-pubmedarts').css('display') =='block'){
+
+ return true;
+
+}else{
+
+ return false;
+
+}}],"u":"./1471-2148-8-255-s1.ods?0-1.IBehaviorListener.0-anchor_related_articles","sh":[function(attrs, jqXHR, data, textStatus){if (jQuery('#citationDetails').length>0){
+
+ jQuery('#citationDetails').removeClass('ui-tabs-active');
+
+}
+
+if (jQuery('#fulltext').length>0){
+
+ jQuery('#fulltext').removeClass('ui-tabs-active');
+
+}
+
+}]});;
+Wicket.Ajax.ajax({"pre":[function(attrs){if (jQuery('#fragment-related-citations').css('display') =='block'){
+
+ return true;
+
+}else{
+
+ return false;
+
+}}],"u":"./1471-2148-8-255-s1.ods?0-1.IBehaviorListener.0-anchor_related_citations","sh":[function(attrs, jqXHR, data, textStatus){if (jQuery('#citationDetails').length>0){
+
+ jQuery('#citationDetails').removeClass('ui-tabs-active');
+
+}
+
+if (jQuery('#fulltext').length>0){
+
+ jQuery('#fulltext').removeClass('ui-tabs-active');
+
+}
+
+}]});;
+Wicket.Ajax.ajax({"pre":[function(attrs){if (jQuery('#fragment-related-bioentities').css('display') =='block'){
+
+ return true;
+
+}else{
+
+ return false;
+
+}}],"u":"./1471-2148-8-255-s1.ods?0-1.IBehaviorListener.0-anchor_related_bioentities","sh":[function(attrs, jqXHR, data, textStatus){if (jQuery('#citationDetails').length>0){
+
+ jQuery('#citationDetails').removeClass('ui-tabs-active');
+
+}
+
+if (jQuery('#fulltext').length>0){
+
+ jQuery('#fulltext').removeClass('ui-tabs-active');
+
+}
+
+}]});;
+Wicket.Ajax.ajax({"pre":[function(attrs){if (jQuery('#fragment-related-dataLinks').css('display') =='block'){
+
+ return true;
+
+}else{
+
+ return false;
+
+}}],"u":"./1471-2148-8-255-s1.ods?0-1.IBehaviorListener.0-anchor_related_dataLinks","sh":[function(attrs, jqXHR, data, textStatus){if (jQuery('#citationDetails').length>0){
+
+ jQuery('#citationDetails').removeClass('ui-tabs-active');
+
+}
+
+if (jQuery('#fulltext').length>0){
+
+ jQuery('#fulltext').removeClass('ui-tabs-active');
+
+}
+
+}]});;
+;});
+/*]]>*/
+</script>
+</head>
+<body>
+<span style="display:none" id="piwikIdSite">1</span>
+<div class="page_proper" id="body">
+<noscript>
+<div style="text-align:center">
+<p><b>Europe PMC</b> requires Javascript to function effectively.</p>
+<p>Either your web browser doesn't support Javascript or it is currently turned off. In the latter case, please
+turn on Javascript support in your web browser and reload this page.</p>
+</div>
+</noscript>
+<header>
+<div id="epmc_pageHeader">
+
+
+<div class="dark-gray">
+<div class="container">
+<div>
+<span>
+
+<span id="id5">
+<span style="color: white !important;">
+<i class="fa fa-user profile-icon"></i><a id="login-bar--signin-link" class="orcid_signin_text" href="/accounts/login">Sign in</a> | <a class="orcid_signin_text" href="/accounts/registration">Create an account</a>
+</span>
+</span>
+</span>
+<iframe id="iframeId" name="aframe" style="border:none" seamless></iframe>
+<span id="orcidurlId" class="screenReader">https://orcid.org</span>
+<span style="display:none" id="plusLogoutUrl">https://plus.europepmc.org</span>
+</div>
+</div>
+</div>
+<nav class="container">
+<ul id="epmc_mainNav">
+<li>
+<div class="logo">
+<a href="/" target="_top" accesskey="U">
+<span class="screenReader">Europe PMC</span>
+</a>
+</div>
+<a id="menu_button" href="#" onclick="return navDrop(this);" class="">
+<span>Menu</span>
+</a>
+<ul class="dropdown">
+<li>
+<a href="../../../About" onclick="return navDrop(this);">
+<span>About</span>
+</a>
+<ul class="sub_menu">
+<li class="citation_navigation_unselected">
+<a href="../../../About">
+<span>About Europe PMC</span>
+</a>
+</li><li class="citation_navigation_unselected">
+<a href="../../../Preprints">
+<span>Preprints in Europe PMC</span>
+</a>
+</li><li class="citation_navigation_unselected">
+<a href="../../../Funders">
+<span>Funders</span>
+</a>
+</li><li class="citation_navigation_unselected">
+<a href="../../../Joining">
+<span>Joining Europe PMC</span>
+</a>
+</li><li class="citation_navigation_unselected">
+<a href="../../../Governance">
+<span>Governance</span>
+</a>
+</li><li class="citation_navigation_unselected">
+<a href="../../../Roadmap">
+<span>Roadmap</span>
+</a>
+</li><li class="citation_navigation_unselected">
+<a href="../../../Outreach">
+<span>Outreach</span>
+</a>
+</li>
+</ul>
+</li><li>
+<a href="../../../tools" onclick="return navDrop(this);">
+<span>Tools</span>
+</a>
+<ul class="sub_menu">
+<li class="citation_navigation_unselected">
+<a href="../../../tools">
+<span>Tools overview</span>
+</a>
+</li><li class="citation_navigation_unselected">
+<a href="../../../ArticleStatusMonitor">
+<span>Article status monitor</span>
+</a>
+</li><li class="citation_navigation_unselected">
+<a href="../../../orcid/import">
+<span>ORCID article claiming</span>
+</a>
+</li><li class="citation_navigation_unselected">
+<a href="../../../journalList">
+<span>Journal list</span>
+</a>
+</li><li class="citation_navigation_unselected">
+<a href="../../../grantfinder">
+<span>Grant finder</span>
+</a>
+</li><li class="citation_navigation_unselected">
+<a href="../../../LabsLink">
+<span>External links service</span>
+</a>
+</li><li class="citation_navigation_unselected">
+<a href="../../../RssFeeds">
+<span>RSS feeds</span>
+</a>
+</li><li class="citation_navigation_unselected">
+<a href="../../../Annotations">
+<span>Annotations</span>
+</a>
+</li><li class="citation_navigation_unselected">
+<a href="../../../AnnotationsSubmission">
+<span>Annotations submission service</span>
+</a>
+</li>
+</ul>
+</li><li>
+<a href="../../../developers" onclick="return navDrop(this);">
+<span>Developers</span>
+</a>
+<ul class="sub_menu">
+<li class="citation_navigation_unselected">
+<a href="../../../developers">
+<span>Developer resources</span>
+</a>
+</li><li class="citation_navigation_unselected">
+<a href="../../../RestfulWebService">
+<span>Articles RESTful API</span>
+</a>
+</li><li class="citation_navigation_unselected">
+<a href="../../../GristAPI">
+<span>Grants RESTful API</span>
+</a>
+</li><li class="citation_navigation_unselected">
+<a href="../../../API-case-studies">
+<span>API case studies</span>
+</a>
+</li><li class="citation_navigation_unselected">
+<a href="../../../SoapWebServices">
+<span>SOAP web service</span>
+</a>
+</li><li class="citation_navigation_unselected">
+<a href="../../../AnnotationsApi">
+<span>Annotations API</span>
+</a>
+</li><li class="citation_navigation_unselected">
+<a href="../../../OaiService">
+<span>OAI service</span>
+</a>
+</li><li class="citation_navigation_unselected">
+<a href="../../../downloads">
+<span>Bulk downloads</span>
+</a>
+</li><li class="citation_navigation_unselected">
+<a href="http://groups.google.com/a/ebi.ac.uk/forum/#!forum/epmc-webservices">
+<span>Developers Forum</span>
+</a>
+</li>
+</ul>
+</li><li>
+<a href="../../../Help" onclick="return navDrop(this);">
+<span>Help</span>
+</a>
+<ul class="sub_menu">
+<li class="citation_navigation_unselected">
+<a href="../../../Help">
+<span>Help using Europe PMC</span>
+</a>
+</li><li class="citation_navigation_unselected">
+<a href="../../../searchsyntax">
+<span>Search syntax reference</span>
+</a>
+</li><li class="citation_navigation_unselected">
+<a href="../../../ContactUs">
+<span>Contact us</span>
+</a>
+</li>
+</ul>
+</li><li class="contact-us">
+<a href="/ContactUs" onclick="return navDrop(this);">
+<span>Contact us</span>
+</a>
+<ul class="sub_menu">
+<li>
+<a href="/ContactUs">
+<span>Helpdesk</span>
+</a>
+</li>
+<li>
+<a href="/feedback?url=" onclick="var w = window.open('/feedback?url='+getReferredUrl(), 'ukpmc_feedback', 'scrollbars=no,location=no,menuBar=yes,resizable=yes,status=no,toolbar=yes,width=1050,height=810'); try {if (w.blur) w.focus();}catch(ignore){}; return false;"><span>Feedback</span></a>
+</li>
+<li>
+<a href="https://twitter.com/EuropePMC_news">
+<span>Twitter</span>
+</a>
+</li>
+<li>
+<a href="http://blog.europepmc.org">
+<span>Blog</span>
+</a>
+</li>
+<li>
+<a href="//europepmc.github.io/techblog/">
+<span>Tech blog</span>
+</a>
+</li>
+<li>
+<a href="//groups.google.com/a/ebi.ac.uk/forum/#!forum/epmc-webservices">
+<span>Developer Forum</span>
+</a>
+</li>
+</ul>
+</li><li class="last">
+<a href="https://plus.europepmc.org/" target="epmcplus" onmouseover="TipAllowed('Submit your manuscripts, manage your grants and publish your research impact using &lt;b&gt;Europe PMC plus&lt;/b&gt;')" onmouseout="UnTipAllowed()">
+<span>Europe PMC plus</span>
+</a>
+</li>
+</ul>
+<div style="clear:both"></div>
+</li>
+</ul>
+</nav>
+</div>
+<script type="text/javascript">
+/*<![CDATA[*/
+
+function openFeedbackForm() {
+var referredURL = window.location.origin + window.location.pathname + encodeURIComponent(window.location.search)
+var w = window.open(
+window.location.protocol + '//' + window.location.host + '/feedback?url=' + referredURL,
+'ukpmc_feedback',
+'scrollbars=no,location=no,menuBar=yes,resizable=yes,status=no,toolbar=yes,width=550,height=810'
+);
+try {
+if (w.blur) w.focus();
+} catch(ignore){};
+return false;
+}
+function navDrop(link){
+if ($('#epmc_pageHeader').width() < 870) {
+if ($('.nav_clicked').length > 0){
+if ($(link).hasClass('nav_clicked')) {
+$(link).removeClass('nav_clicked');
+} else {
+if ($(link).not('#menu_button')) {
+$('.nav_clicked').not('#menu_button').removeClass('nav_clicked');
+}
+$(link).addClass('nav_clicked');
+}
+} else {
+$(link).addClass('nav_clicked');
+}
+return false;
+} else {
+return true;
+}
+}
+$(document).ready(function(){
+$('#epmc_mainNav a').each(function(){
+if($(this).attr('href').replace(/\./g, '').replace(/\//g, '') == window.location.pathname.replace(/\//g, '')){
+$(this).addClass('current');
+$(this).closest('ul').closest('li').children('a').addClass('current');
+}
+if(window.location.pathname.replace(/\//g, '').indexOf($(this).attr('href').replace(/\./g, '').replace(/\//g, ''))!= -1){
+$(this).addClass('parent');
+$(this).closest('ul').closest('li').children('a').addClass('current');
+}
+});
+if (window.location.pathname.includes('AnnotationsApi')) {
+$('#epmc_mainNav .dropdown a[href="./tools"]').removeClass('current');
+}
+});
+
+/*]]>*/
+</script>
+</header>
+<div id="epmc_pageBody">
+
+<div class="articleContentPage">
+<script type="text/javascript" src="/Scripts/recaptcha_ajax.js?v=12087"></script>
+<div><div id="app" class="epmc-elements"><div data-v-7fb82372=""><div data-v-7fb82372="" id="search-panel" class=""><div data-v-7fb82372="" class="grid-row"><div data-v-7fb82372="" class="col-16"><h1 data-v-7fb82372=""><label data-v-7fb82372="" for="banner--search-input" class="semi-bold">Search life-sciences literature
+<span data-v-7fb82372="" id="article-count" class="regular">(<a data-v-7fb82372="" id="article-count-link" href="/search?query=SRC:*">41,433,338</a>
+articles, preprints and more)</span></label></h1><div data-v-7fb82372="" id="search-bar"><form data-v-7fb82372="" id="search-bar-inputs" method="get" action="/search"><input data-v-7fb82372="" id="banner--search-input" name="query" type="text"><button data-v-7fb82372="" id="banner--search-button" type="submit" class="regular"><i data-v-7fb82372="" class="fa fa-search"></i><span data-v-7fb82372="" id="search-btn-text">&nbsp;Search</span></button></form><div data-v-7fb82372=""><a data-v-7fb82372="" id="banner--advanced-search" href="/advancesearch">Advanced search</a></div></div></div></div><button data-v-7fb82372="" id="feedback-btn"><i data-v-7fb82372="" class="fas fa-comments"></i>
+Feedback
+</button><button data-v-7fb82372="" id="ask-me-later-container" style="display: none;"><i data-v-7fb82372="" class="fas fa-clipboard-list"></i><span data-v-7fb82372="" id="survey-label"> Complete Survey</span><span data-v-7fb82372="" id="mobile-survey-label"> Survey</span></button></div><div data-v-a9155804="" data-v-7fb82372="" id="data-protection-banner"><div data-v-a9155804="" class="grid-row"><div data-v-a9155804="" class="col-16"><div data-v-a9155804="" id="data-protection-banner-left">
+This website requires cookies, and the limited processing of your
+personal data in order to function. By using the site you are agreeing
+to this as outlined in our
+<a data-v-a9155804="" href="/PrivacyNoticeForEPMC?type=website">privacy notice</a>
+and <a data-v-a9155804="" href="/CookiePolicy">cookie policy</a>.
+</div><div data-v-a9155804=""><input data-v-a9155804="" id="data-protection-agree" type="button" value="I agree, dismiss this banner" class="secondary"></div></div></div></div></div><div data-v-7fb82372=""><div data-v-7fb82372="" id="search-panel" class=""><div data-v-7fb82372="" class="grid-row"><div data-v-7fb82372="" class="col-16"><h1 data-v-7fb82372=""><label data-v-7fb82372="" for="banner--search-input" class="semi-bold">Search life-sciences literature
+<span data-v-7fb82372="" id="article-count" class="regular">(<a data-v-7fb82372="" id="article-count-link" href="/search?query=SRC:*">41,433,338</a>
+articles, preprints and more)</span></label></h1><div data-v-7fb82372="" id="search-bar"><form data-v-7fb82372="" id="search-bar-inputs" method="get" action="/search"><input data-v-7fb82372="" id="banner--search-input" name="query" type="text"><button data-v-7fb82372="" id="banner--search-button" type="submit" class="regular"><i data-v-7fb82372="" class="fa fa-search"></i><span data-v-7fb82372="" id="search-btn-text">&nbsp;Search</span></button></form><div data-v-7fb82372=""><a data-v-7fb82372="" id="banner--advanced-search" href="/advancesearch">Advanced search</a></div></div></div></div><button data-v-7fb82372="" id="feedback-btn"><i data-v-7fb82372="" class="fas fa-comments"></i>
+Feedback
+</button><button data-v-7fb82372="" id="ask-me-later-container" style="display: none;"><i data-v-7fb82372="" class="fas fa-clipboard-list"></i><span data-v-7fb82372="" id="survey-label"> Complete Survey</span><span data-v-7fb82372="" id="mobile-survey-label"> Survey</span></button></div><div data-v-a9155804="" data-v-7fb82372="" id="data-protection-banner"><div data-v-a9155804="" class="grid-row"><div data-v-a9155804="" class="col-16"><div data-v-a9155804="" id="data-protection-banner-left">
+This website requires cookies, and the limited processing of your
+personal data in order to function. By using the site you are agreeing
+to this as outlined in our
+<a data-v-a9155804="" href="/PrivacyNoticeForEPMC?type=website">privacy notice</a>
+and <a data-v-a9155804="" href="/CookiePolicy">cookie policy</a>.
+</div><div data-v-a9155804=""><input data-v-a9155804="" id="data-protection-agree" type="button" value="I agree, dismiss this banner" class="secondary"></div></div></div></div></div></div><script>
+/*<![CDATA[*/
+//survey changes
+function showSurvey(){
+$(window).scroll(function(){
+if (!navigator.cookieEnabled) {
+console.log("Cookie not enabled.");
+return;
+}
+if ($.cookie('no_impact_survey_session')) {
+console.log("no_impact_survey_session set.");
+return;
+}
+if ($.cookie('no_impact_survey_app')) {
+console.log("no_impact_survey_app set.");
+return;
+}
+$("div#europepmc_impact_survey").show();
+});
+}
+function hideSurvey() {
+$("div#europepmc_impact_survey").hide();
+$('#ask-me-later-container').hide();
+}
+function registerGdprAgreeClick() {
+var gdprAgreeIntervalId = setInterval(function() {
+var gdprBannerDisplay = $('#data-protection-banner').css('display');
+if (!gdprBannerDisplay || gdprBannerDisplay === 'none') {
+console.log('No GDPR banner...')
+showSurvey();
+clearInterval(gdprAgreeIntervalId);
+return;
+}
+console.log('GDPR Interval...')
+var agreeLink = $("#data-protection-agree");
+if (agreeLink) {
+$("#data-protection-agree").click(function(){
+showSurvey();
+});
+console.log('GDPR Interval stop')
+clearInterval(gdprAgreeIntervalId)
+}
+}, 100);
+}
+function repopupSurvey() {
+setTimeout(function(){
+console.log("no_impact_survey_session set. timeout.");
+if ($.cookie('no_impact_survey_app')) {
+return;
+}
+if ($.cookie('no_impact_survey_session')) {
+$("div#europepmc_impact_survey").show();
+$('#ask-me-later-container').hide();
+$.cookie('no_impact_survey_session', null);
+}
+}, 1800000);
+}
+function askMeLater() {
+$.cookie('no_impact_survey_session', 1);
+hideSurvey();
+$('#ask-me-later-container').show();
+repopupSurvey();
+}
+function donnotShowMeAgain() {
+$.cookie('no_impact_survey_app', 1, {expires : 365});
+hideSurvey();
+}
+$(document).ready(function(){
+console.log("inside document ready");
+$("div#impact_survey_close").click(function(){
+askMeLater();
+});
+$("#europepmc_impact_survey button").bind("click", function(){
+donnotShowMeAgain();
+});
+$("#ask-me-later-container").bind("click", function(){
+donnotShowMeAgain();
+$.cookie('no_impact_survey_session', null, {path : '/'});
+});
+$("a#impact_askMeLater").click(function(){
+askMeLater();
+});
+$("a#impact_donnotShowMeAgain").click(function(){
+donnotShowMeAgain();
+});
+if ($.cookie('no_impact_survey_session')) {
+$('#ask-me-later-container').show();
+}
+registerGdprAgreeClick();
+repopupSurvey();
+})
+// can be removed when moving to Vue
+window.onload = function () {
+if (window.location.pathname !== '/') {
+changeLinks(document.querySelectorAll("#epmc_mainNav a"), "./", "/");
+changeLinks(document.querySelectorAll(".top-menu--my-account, .top-menu--manage-account"), "./", "/accounts/");
+changeLinks(document.querySelectorAll(".top-menu--my-account, .top-menu--manage-account"), "/accounts/accounts/", "/accounts/");
+function changeLinks(links, source, target) {
+if (links.length) {
+var length = links.length;
+for(var i=0; i<length; i++) {
+var link = links[i];
+var href = link.getAttribute("href");
+if (href.startsWith(source)) {
+link.setAttribute("href", href.replace(source, target));
+}
+}
+}
+}
+}
+if (window.location.href.includes('orcid/auth/autoclose?auth=true')) {
+if (window.opener === undefined) {
+localStorage.setItem(
+'ORCID_AUTH_SUCCEEDED',
+urlParams('auth', window.location.href)
+)
+if (urlParams('iesupport', window.location.href) == null)
+createHiddenIframe()
+} else {
+window.opener.postMessage(
+urlParams('auth', window.location.href),
+window.location.protocol + '//' + window.location.host
+)
+window.opener.postMessage(
+urlParams('auth', window.location.href),
+window.location.protocol + '//' + window.location.host
+)
+}
+window.close()
+}
+function urlParams(name, url) {
+const results = new RegExp('[\?&]' + name + '=([^&#]*)').exec(url)
+return results === null ? null : decodeURI(results[1]) || 0
+}
+function createHiddenIframe() {
+const iframe = document.createElement('iframe')
+const url = window.location.href + '&iesupport=true'
+iframe.setAttribute('id', 'orcid-auth-redirect')
+iframe.style.display = 'none'
+iframe.style.border = 'none'
+iframe.width = 0
+iframe.height = 0
+iframe.src =
+url.indexOf('https:') !== -1
+? url.replace('https:', 'http:')
+: url.replace('http:', 'https:')
+document.body.appendChild(iframe)
+}
+}
+/*]]>*/
+</script><script src="/js/chunk-vendors.22a07bda.js"></script><script src="/js/app.81624b29.js"></script></div>
+
+<div class="container">
+<div id="searchToolsBox">
+<div id="searchTools" style="display:none">
+<div class="epmc_searchTools">
+
+
+<a href="./1471-2148-8-255-s1.ods?0-1.ILinkListener-search-recentsearches" class="ukpmc_toolbar" onmouseover="TipAllowed(&#039;View your Recent Activity summary.&#039;, DELAY, 1000)" onmouseout="UnTipAllowed()" id="id1">
+<i class="fas fa-clock"></i>
+Recent Activity
+</a>
+<div id="id6" style="display:none">
+<div id="id7" style="display:none"></div>
+</div>
+<a style="display:none" href="#" class="ukpmc_toolbar"
+onmouseover="TipAllowed('View your Export List summary', DELAY, 1000)" onmouseout="UnTipAllowed()">
+<i class="fa fa-download"></i>Export List
+</a>
+<a style="display:none" href="./1471-2148-8-255-s1.ods?0-1.ILinkListener-search-clipboard" class="ukpmc_toolbar" onmouseover="TipAllowed(&#039;View your Clipboard summary.&lt;br/&gt;This is a temporary store for items of interest to you.&lt;br/&gt;The items may be cleared after 24 hours.&#039;, DELAY, 1000)" onmouseout="UnTipAllowed()" id="id2">
+<i class="fa fa-download"></i>
+Clipboard
+</a>
+<div id="id8" style="display:none">
+<div id="id9" style="display:none"></div>
+</div>
+<a id="exportPanelLink" href="javascript:;" class="ukpmc_toolbar" onmouseover="TipAllowed(&#039;Export citations&#039;, DELAY, 1000)" onmouseout="UnTipAllowed()">
+<i class="fa fa-download"></i>Export
+</a>
+
+<div class="social_network_buttons">
+<span id="twitter_article_button" class="social_network_button"><a href="https://twitter.com/share" onmouseover="TipAllowed('Tweet the article')" onmouseout="UnTipAllowed()" class="twitter-share-button"  data-size="medium" data-count="none" data-text="Non-homogeneous models of sequence evolution in the Bio++ suite of libraries and programs" data-url=""  data-hashtags="EuropePMC"></a><script type='text/javascript'>!function (d, s, id) {
+	var js, fjs = d.getElementsByTagName(s)[0], p = /^http:/.test(d.location) ? 'http' : 'https';
+	if (!d.getElementById(id)) {
+		js = d.createElement(s);
+		js.id = id;
+		js.src = p + '://platform.twitter.com/widgets.js';
+		js.defer = 'defer';
+		fjs.parentNode.insertBefore(js, fjs);
+
+		// @see http://stackoverflow.com/a/14644704/978320
+		if(js.readyState) {  //IE
+			js.onreadystatechange = function() {
+				if ( js.readyState === 'loaded' || js.readyState === 'complete' ) {
+					js.onreadystatechange = null;
+					twttr.widgets.load();
+				}
+			};
+		} else {  //Others
+			js.onload = function() {
+				twttr.widgets.load();
+			};
+		}
+	}
+}(document, 'script', 'twitter-wjs');
+</script></span>
+</div>
+</div>
+</div>
+</div>
+<div id="exportPanel"></div>
+<span id="closeExportWindow"></span>
+</div>
+<div id="ida">
+
+</div>
+<style>
+/*<![CDATA[*/
+
+.covid-19-find-out-more {
+float: right;
+margin-top: 32px;
+}
+@media screen and (max-width: 1000px) {
+.covid-19-find-out-more {
+float: none;
+margin-top: 16px;
+}
+}
+
+/*]]>*/
+</style>
+<script type="text/javascript">
+/*<![CDATA[*/
+
+jQuery('#banner--search-input').on('input', function () {
+if (jQuery(this).val().length >= 1500) {
+alert('The maximum allowed query length is 1500 characters');
+}
+});
+$('#searchButton').on('click', function () {
+PiwikAnalyticsTracker.track('Search', 'Keyword', 'Manual Input - ' + $('#textfield').val());
+});
+function onClickPanelLink() {
+var speed = 500;
+if ($('#exportPanel').css('display') == 'none') {
+$("#exportPanel").slideDown(speed);
+$('body').append('<div class="wicket-mask-dark export" style="z-index: 2; position: absolute; top: 0px; left: 0px; background-image: none;"></div>"');
+exportDisplaySection();
+// $(".results_pagination_range").fadeOut(speed - 100)
+$('#exportPanel').focus();
+} else {
+$("#exportPanel").slideUp(speed);
+setTimeout(function () {
+$(".wicket-mask-dark.export").remove();
+}, speed);
+// $(".results_pagination_range").fadeIn(speed + 150);
+}
+}
+$(document).ready(function() {
+$('#covid-search-example-link').click(function() {
+PiwikAnalyticsTracker.track("Search", "Covid-19", "Clicked Covid search link");
+});
+$('#covid-19-find-out-more-link').click(function() {
+PiwikAnalyticsTracker.track("Home", "Home page", "COVID-19 preprints intiative");
+});
+})
+
+/*]]>*/
+</script>
+</div>
+<div class="epmc_pageHolder articleContentPage fullPage" itemscope itemtype="http://schema.org/ScholarlyArticle">
+
+<span style="display:none" property="dc:abstract" datatype="xsd:string" itemprop="description">&lt;h4&gt;Background&lt;/h4&gt;Accurately modeling the sequence substitution process is required for the correct estimation of evolutionary parameters, be they phylogenetic relationships, substitution rates or ancestral states; it is also crucial to simulate realistic data sets. Such simulation procedures are needed to estimate the null-distribution of complex statistics, an approach referred to as parametric bootstrapping, and are also used to test the quality of phylogenetic reconstruction programs. It has often been observed that homologous sequences can vary widely in their nucleotide or amino-acid compositions, revealing that sequence evolution has changed importantly among lineages, and may therefore be most appropriately approached through non-homogeneous models. Several programs implementing such models have been developed, but they are limited in their possibilities: only a few particular models are available for likelihood optimization, and data sets cannot be easily generated using the resulting estimated parameters.&lt;h4&gt;Results&lt;/h4&gt;We hereby present a general implementation of non-homogeneous models of substitutions. It is available as dedicated classes in the Bio++ libraries and can hence be used in any C++ program. Two programs that use these classes are also presented. The first one, Bio++ Maximum Likelihood (BppML), estimates parameters of any non-homogeneous model and the second one, Bio++ Sequence Generator (BppSeqGen), simulates the evolution of sequences from these models. These programs allow the user to describe non-homogeneous models through a property file with a simple yet powerful syntax, without any programming required.&lt;h4&gt;Conclusion&lt;/h4&gt;We show that the general implementation introduced here can accommodate virtually any type of non-homogeneous models of sequence evolution, including heterotachous ones, while being computer efficient. We furthermore illustrate the use of such general models for parametric bootstrapping, using tests of non-homogeneity applied to an already published ribosomal RNA data set.</span>
+<meta itemprop="datePublished" content="2008/09"/>
+
+<div class="epmc_wideLeft">
+
+
+
+
+<div class="not_found_notification">
+<span><i class="fa fa-exclamation-triangle"></i> The snippet could not be located in the article text. This may be because the snippet appears in a figure legend, contains special characters or spans different sections of the article.</span>
+</div>
+<div id="container-1">
+
+<div class="epmc_citationName">
+<div class="clipboard_icon">
+<span>
+<a href="./1471-2148-8-255-s1.ods?0-1.ILinkListener-clipboard_icon-addclipboard" class="clipboard" id="id3">
+<i id="idb" title="Add Citation to Export list" class="far fa-square"></i>
+</a>
+</span>
+</div><h1 class="title" itemprop="headline">
+<span class="abs_citation_title" itemprop="name" datatype="xsd:string" property="dc:title">Non-homogeneous models of sequence evolution in the Bio++ suite of libraries and programs.</span>
+</h1>
+<div class="abs_nonlink_metadata">(PMID:18808672 PMCID:pmc2559849)</div>
+<div property="dc:identifier" class="abs_nonlink_metadata" style="display:none">PMID:18808672 PMCID:pmc2559849</div>
+</div>
+
+<div id ="tabs_abstract">
+<ul class="ui-tabs-nav">
+<li id="fulltext">
+<a href="#fragment-fulltext" onClick="jQuery('#annotation_legend_container').show();return true;">
+<h2>Full Text
+<img src="../../../wicket/resource/uk.bl.ukpmc.web.panels.images.UkpmcFavicon/small_logo-ver-AA65016C2A6B5C01BBEF323E29CF92AD.gif?antiCache=1672934336106" alt="" height="14" width="14" onmouseover="TipAllowed(&#039;The full text of this article is available in Europe PMC&#039;, DELAY, 1000)" onmouseout="UnTipAllowed()"/>
+</h2>
+</a>
+</li>
+<li id="relatedCitations" class="ui-tabs-enabled"><a href="#fragment-related-citations" id="relatedcitation_link"><h2>Citations</h2></a>
+</li><li id="relatedpubmedarts" class="ui-tabs-enabled"><a href="#fragment-related-pubmedarts" id="relatedarts_link"><h2>Related Articles</h2></a>
+</li><li id="dataLinksarts" class="ui-tabs-enabled"><a href="#fragment-related-dataLinks" id="datacites_link"><h2>Data</h2></a>
+</li><li id="relatedarts" class="ui-tabs-enabled"><a href="#fragment-related-bioentities" id="relatedentity_link"><h2>BioEntities</h2></a>
+</li><li id="labLinksarts" class="ui-tabs-enabled"><a href="#fragment-related-labLinks" id="relatedlabLinks_link"><h2>External Links</h2></a></li> </ul>
+<div class="ui-tabs-panel ncbi_container" id="fragment-fulltext">
+
+<div class="pmc-wm pmc-wm-column">
+<div style="text-align:left; font-size:smaller">
+<div><img src="/corehtml/pmc/pmcgifs/logo-bmceb.png" alt="Logo of bmceb" usemap="#logo-imagemap" /><map id="logo-imagemap" name="logo-imagemap"><area shape="rect" alt="BioMed Central web site" coords="0,0,99,74" href="http://www.biomedcentral.com" target="pmc_ext" /><area shape="rect" coords="100,54,172,74" alt="this article" href="//dx.doi.org/10.1186/1471-2148-8-255" target="pmc_ext" /><area shape="rect" coords="173,54,223,74" alt="Search" href="https://bmcevolbiol.biomedcentral.com//search/bmcevolbiol" target="pmc_ext" /><area shape="rect" coords="224,55,342,74" alt="Manuscript submission" href="https://bmcevolbiol.biomedcentral.com//manuscript/bmcevolbiol" target="pmc_ext" /><area shape="rect" coords="343,53,480,74" alt="Registration" href="https://bmcevolbiol.biomedcentral.com//registration" target="pmc_ext" /><area shape="rect" coords="0,0,480,74" alt="Journal front page" href="https://bmcevolbiol.biomedcentral.com//bmcevolbiol" target="pmc_ext" /></map></div> 
+</div>
+<div id="article_body" itemprop="articleBody">
+<div class="hide-overflow article lit-style content pmc-wm slang-all page-box"><!--main-content--><div class="jig-ncbiinpagenav" data-jigconfig="smoothScroll: false, allHeadingLevels: ['h2'], headingExclude: ':hidden'"><div class="fm-sec half_rhythm no_top_margin"><div class="fm-citation half_rhythm no_top_margin clearfix"><div class="inline_block eight_col va_top"><div><div><span class="cit"><span id="pmcmata">BMC Evol Biol</span>. 2008; 8: 255. </span></div><div><span class="fm-vol-iss-date">Published online 2008 Sep 22. </span>  <span class="doi">doi: <a href="//dx.doi.org/10.1186%2F1471-2148-8-255" target="pmc_ext" ref="reftype=other&amp;article-id=1188243&amp;issue-id=31273&amp;journal-id=409&amp;FROM=Article%7CFront%20Matter&amp;TO=Content%20Provider%7CCrosslink%7CDOI">10.1186/1471-2148-8-255</a></span></div></div></div><div class="inline_block four_col va_top show-overflow align_right"><div class="fm-citation-ids"><div class="fm-citation-pmcid"><span class="fm-citation-ids-label">PMCID: </span><span>PMC2559849</span></div><div class="fm-citation-pmid">PMID: <a href="http://europepmc.org/abstract/MED/18808672">18808672</a></div></div></div></div><h1 class="content-title">Non-homogeneous models of sequence evolution in the Bio++ suite of libraries and programs</h1><div class="half_rhythm"><div class="contrib-group fm-author">Reviewed by <a href="http://europepmc.org/search/?scope=fulltext&amp;page=1&amp;query=AUTH:&quot;Dutheil%20J&quot;" id="A1" class="affpopup" co-rid="_co_id715166" co-class="co-affbox">Julien Dutheil</a><sup><img src="/corehtml/pmc/pmcgifs/corrauth.gif" alt="corresponding author" /></sup><sup>1</sup> and  <a href="http://europepmc.org/search/?scope=fulltext&amp;page=1&amp;query=AUTH:&quot;Boussau%20B&quot;" id="A2" class="affpopup" co-rid="_co_id425975" co-class="co-affbox">Bastien Boussau</a><sup>2</sup></div><div style="display:none" class="contrib-group aff-tip"><div id="_co_id715166"><h3 class="no_margin">Julien Dutheil</h3><p><sup>1</sup>BiRC &#x02013; Bioinformatics Research Center &#x02013; University of Aarhus, C. F. M&#x000f8;llers Alle, Building 1110, DK-8000 &#x000c5;rhus C, Denmark</p><div>Find articles by <a href="http://europepmc.org/search/?scope=fulltext&amp;page=1&amp;query=AUTH:&quot;Dutheil%20J&quot;">Julien Dutheil</a></div></div><div id="_co_id425975"><h3 class="no_margin">Bastien Boussau</h3><p><sup>2</sup>UMR CNRS 5558 &#x02013; Laboratoire de Biom&#x000e9;trie et Biologie &#x000c9;volutive, CNRS, Universit&#x000e9; de Lyon, Universit&#x000e9; lyon 1, 43 Boulevard du 11 Novembre, 69622 Villeurbanne, France</p><div>Find articles by <a href="http://europepmc.org/search/?scope=fulltext&amp;page=1&amp;query=AUTH:&quot;Boussau%20B&quot;">Bastien Boussau</a></div></div></div></div><div class="fm-panel half_rhythm"><div class="togglers"><a href="#" class="pmctoggle" rid="id449888_ai">Author information</a> <a href="#" class="pmctoggle" rid="id449888_an">Article notes</a> <a href="#" class="pmctoggle" rid="id449888_cpl">Copyright and License information</a> <a href="/pmc/about/disclaimer/">Disclaimer</a></div><div class="fm-authors-info fm-panel hide half_rhythm" id="id449888_ai" style="display:none"><div class="fm-affl" lang="en" id="I1"><sup>1</sup>BiRC &#x02013; Bioinformatics Research Center &#x02013; University of Aarhus, C. F. M&#x000f8;llers Alle, Building 1110, DK-8000 &#x000c5;rhus C, Denmark</div><div class="fm-affl" lang="en" id="I2"><sup>2</sup>UMR CNRS 5558 &#x02013; Laboratoire de Biom&#x000e9;trie et Biologie &#x000c9;volutive, CNRS, Universit&#x000e9; de Lyon, Universit&#x000e9; lyon 1, 43 Boulevard du 11 Novembre, 69622 Villeurbanne, France</div><div><sup><img src="/corehtml/pmc/pmcgifs/corrauth.gif" alt="corresponding author" /></sup>Corresponding author.</div><div><span class="contrib-email" id="A1">Julien Dutheil: <a href="mailto:dev@null" data-email="kd.ua.imiad@liehtudj" class="oemail">kd.ua.imiad@liehtudj</a>; </span> <span class="contrib-email" id="A2">Bastien Boussau: <a href="mailto:dev@null" data-email="rf.1noyl-vinu.vresmoib@uassuob" class="oemail">rf.1noyl-vinu.vresmoib@uassuob</a></span> </div></div><div class="fm-article-notes fm-panel hide half_rhythm" id="id449888_an" style="display:none"><div class="fm-pubdate half_rhythm">Received 2008 Apr 24; Accepted 2008 Sep 22.</div></div><div class="permissions fm-panel half_rhythm hide" id="id449888_cpl" style="display:none"><div class="fm-copyright half_rhythm"><a href="/pmc/about/copyright/">Copyright</a>  &#x000a9;2008 Dutheil and Boussau; licensee BioMed Central Ltd.</div><div class="license half_rhythm">This is an Open Access article distributed under the terms of the Creative Commons Attribution License (<a href="http://creativecommons.org/licenses/by/2.0" data-ga-action="click_feat_suppl" ref="reftype=extlink&amp;article-id=1188243&amp;issue-id=31273&amp;journal-id=409&amp;FROM=Article%7CFront%20Matter&amp;TO=External%7CLink%7CURI" target="_blank">http://creativecommons.org/licenses/by/2.0</a>), which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited.</div></div></div><div id="pmclinksbox" class="links-box whole_rhythm"><div class="fm-panel"><div>This article has been <a href="/articles/PMC2559849/citedby/">cited by</a> other articles in PMC.</div></div></div></div><div class="sec"></div><div id="ass-data" class="tsec fm-sec whole_rhythm" data-section="Featured_PMC_Datacitation"><h2>Associated Data</h2><dl data-count="3" class="box-data-suppmats whole_rhythm no_bottom_margin"><dt><a href="#" rid="data-suppmats" data-ga-action="click_feat_toggler" data-ga-label="Supplementary Materials" class="pmctoggle">Supplementary Materials</a></dt><dd id="data-suppmats" style="display: none;"><div class="half_rhythm"><div class="caption half_rhythm no_bottom_margin">Additional file 1 <strong>Detailed results of model comparison</strong>. OpenDocument spreadsheet (.ods) file containing detailed results from table <a href="/articles/PMC2559849/table/T1/" target="table" class="fig-table-link figpopup" rid-figpopup="T1" rid-ob="ob-T1" co-legend-rid=""><span style="position: relative;text-decoration:none;">&#x200B;<span class="figpopup-sensitive-area" style="left: -2.5em;">table1,</span></span><span>1</span></a>, with parameter estimates obtained.</div><div><a href="/articles/PMC2559849/bin/1471-2148-8-255-S1.ods" data-ga-action="click_feat_suppl">1471-2148-8-255-S1.ods</a><span style="color:gray"> (21K)</span></div></div><div class="half_rhythm"><div class="caption half_rhythm no_bottom_margin">Additional file 2 <strong>Program to compute Bowker's test</strong>. Zip archive containing the C++ program used to compute Bowker's test.</div><div><a href="/articles/PMC2559849/bin/1471-2148-8-255-S2.zip" data-ga-action="click_feat_suppl">1471-2148-8-255-S2.zip</a><span style="color:gray"> (4.5K)</span></div></div><div class="half_rhythm"><div class="caption half_rhythm no_bottom_margin">Additional file 3 <strong>Data set, tree and scripts for running Bowker's tests</strong>. Zip archive containing the sequence alignment and phylogenetic tree used, together with scripts for running the tests presented in this article.</div><div><a href="/articles/PMC2559849/bin/1471-2148-8-255-S3.zip" data-ga-action="click_feat_suppl">1471-2148-8-255-S3.zip</a><span style="color:gray"> (49K)</span></div></div></dd></dl></div><div id="id421256" lang="en" class="tsec sec"><h2 class="head no_bottom_margin" id="id421256title">Abstract</h2><!--article-meta--><div><div id="id421257" class="sec sec-first"><h3 id="id421257title">Background</h3><p id="id421260" class="p p-first-last">Accurately modeling the sequence substitution process is required for the correct estimation of evolutionary parameters, be they phylogenetic relationships, substitution rates or ancestral states; it is also crucial to simulate realistic data sets. Such simulation procedures are needed to estimate the null-distribution of complex statistics, an approach referred to as parametric bootstrapping, and are also used to test the quality of phylogenetic reconstruction programs. It has often been observed that homologous sequences can vary widely in their nucleotide or amino-acid compositions, revealing that sequence evolution has changed importantly among lineages, and may therefore be most appropriately approached through non-homogeneous models. Several programs implementing such models have been developed, but they are limited in their possibilities: only a few particular models are available for likelihood optimization, and data sets cannot be easily generated using the resulting estimated parameters.</p></div><div id="id708988" class="sec"><h3 id="id708988title">Results</h3><p id="id738642" class="p p-first-last">We hereby present a general implementation of non-homogeneous models of substitutions. It is available as dedicated classes in the Bio++ libraries and can hence be used in any C++ program. Two programs that use these classes are also presented. The first one, Bio++ Maximum Likelihood (BppML), estimates parameters of any non-homogeneous model and the second one, Bio++ Sequence Generator (BppSeqGen), simulates the evolution of sequences from these models. These programs allow the user to describe non-homogeneous models through a property file with a simple yet powerful syntax, without any programming required.</p></div><div id="id421277" class="sec sec-last"><h3 id="id421277title">Conclusion</h3><p id="id421281" class="p p-first-last">We show that the general implementation introduced here can accommodate virtually any type of non-homogeneous models of sequence evolution, including heterotachous ones, while being computer efficient. We furthermore illustrate the use of such general models for parametric bootstrapping, using tests of non-homogeneity applied to an already published ribosomal RNA data set.</p></div></div></div><div id="id421287" class="tsec sec"><h2 class="head no_bottom_margin" id="id421287title">Background</h2><p id="id421290" class="p p-first">In phylogenetics, simulations have been widely used to study the robustness of inference methods [<a href="#B1" rid="B1" class=" bibr popnode">1</a>] and have been involved in parametric bootstrapping [<a href="#B2" rid="B2" class=" bibr popnode">2</a>]. For instance, simulations have shown that maximum likelihood methods often more accurately reconstructed the evolution of an alignment than distance or parsimony methods [<a href="#B3" rid="B3" class=" bibr popnode">3</a>,<a href="#B4" rid="B4" class=" bibr popnode">4</a>], but could also fail in conditions where compositional biases (a condition here referred to as non-homogeneity) or rate heterogeneity along branches (a phenomenon named heterotachy, [<a href="#B5" rid="B5" class=" bibr popnode">5</a>]) were too intense [<a href="#B6" rid="B6" class=" bibr popnode">6</a>-<a href="#B8" rid="B8" class=" bibr popnode">8</a>]. Similarly, simulations have been used to compare topologies with respect to an alignment [<a href="#B9" rid="B9" class=" bibr popnode">9</a>], or to assess the fit of a model to a particular data set [<a href="#B10" rid="B10" class=" bibr popnode">10</a>-<a href="#B13" rid="B13" class=" bibr popnode">13</a>]. In this last case, a model has a good fit to a particular data set if the alignments it generates have properties similar to the properties of the real alignment. Both for investigating reconstruction methods and for parametric bootstrapping, it is highly desirable that simulation methods model as precisely as possible the conditions that shaped biological sequences through evolution. However, widely-used simulation programs cannot be easily tuned to precisely reproduce the peculiar evolution of a particular data set. Noticeably, non-homogeneity cannot be simulated by Seq-Gen [<a href="#B14" rid="B14" class=" bibr popnode">14</a>] or PAML [<a href="#B15" rid="B15" class=" bibr popnode">15</a>], even if these phenomena are all known to affect the evolution of many data sets [<a href="#B5" rid="B5" class=" bibr popnode">5</a>,<a href="#B16" rid="B16" class=" bibr popnode">16</a>-<a href="#B20" rid="B20" class=" bibr popnode">20</a>].</p><p id="id443052">The ability to estimate parameters of sequence evolution with realistic models, and then computationally evolve sequences using these fitted parameters is crucial to better characterize the behavior of reconstruction methods in realistic settings.</p><p id="id443056" class="p p-last">Here we introduce extensions to the Bio++ package [<a href="#B21" rid="B21" class=" bibr popnode">21</a>] that permit first to estimate parameters of evolution on a specific data set in a maximum likelihood framework, and second to simulate the evolution of sequences using these estimated parameters. Importantly, nearly any combination of non-homogeneous (including non-stationary models) and heterotachous models of evolution can be fitted to data, so that simulations may mimic very precisely the evolution of a data set. Such a flexibility should enable one to probe how robust methods of phylogenetic tree or ancestral state reconstruction are to more realistic evolutionary conditions. Moreover, it offers the possibility to compare a large variety of models by assessing through parametric bootstrapping their respective ability to reproduce a given characteristic of interest, measured on a real data set.</p></div><div id="id443073" class="tsec sec"><h2 class="head no_bottom_margin" id="id443073title">Implementation</h2><p id="id443077" class="p p-first">Molecular phylogenetic methods are used by a wide range of biologists, from bioinformaticians willing to characterize and improve models of sequence evolution to molecular biologists trying to grasp the particular evolutionary history of their gene of interest. These different types of users have different needs: the former may benefit from easy-to-assemble, high-level object-oriented code to conduct phylogenetic analysis, while the latter likes user-friendly interfaces. However, both demand programs able to run the most recent models of evolution. The newly introduced extensions are available in two flavors that might fit different users' needs: (i) as classes in the Bio++ phylogenetic library, including a special class called SubstitutionModelSet which implements the relationships between models, parameters and branches, and (ii) through the BppML and BppSeqGen programs, which can respectively adjust these models to a data set and simulate data from these models. These programs share a common syntax for model specification and are hence fully inter-operational and easy-to-use.</p><div id="id443088" class="sec"><h3 id="id443088title">The SubstitutionModelSet class</h3><p id="id443091" class="p p-first">The Bio++ libraries [<a href="#B21" rid="B21" class=" bibr popnode">21</a>] provide data structures and algorithms dedicated to analysis of nucleotide, codon and amino acid sequences, phylogenetics and molecular evolution, and are designed in an object-oriented way. These include classes for storing phylogenetic trees, computing likelihood under various models of substitution, and estimating parameters. The likelihood classes take as input a phylogenetic tree and a substitution model, and were extended to allow the computation under non-homogeneous models (figure <a href="/articles/PMC2559849/figure/F1/" target="figure" class="fig-table-link figpopup" rid-figpopup="F1" rid-ob="ob-F1" co-legend-rid="lgnd_F1"><span style="position: relative;text-decoration:none;">&#x200B;<span class="figpopup-sensitive-area" style="left: -3.5em;">(figure1).</span></span><span>1</span></a>). This support is achieved through the addition of parameters for the rooting of the tree, since the likelihood may not be independent of the root position with a non-homogeneous model [<a href="#B6" rid="B6" class=" bibr popnode">6</a>], and through a new class named SubstitutionModelSet. The SubstitutionModelSet class essentially associates a substitution model with each branch of the phylogenetic tree, and links each substitution model to a list of corresponding parameters (figure <a href="/articles/PMC2559849/figure/F2/" target="figure" class="fig-table-link figpopup" rid-figpopup="F2" rid-ob="ob-F2" co-legend-rid="lgnd_F2"><span style="position: relative;text-decoration:none;">&#x200B;<span class="figpopup-sensitive-area" style="left: -3.5em;">(figure2).</span></span><span>2</span></a>). It also provides a series of methods for the developer to set up the general model, to assign parameters to substitution models and substitution models to branches.</p><!--fig ft0--><!--fig mode=article f1--><div class="fig iconblock whole_rhythm clearfix" id="F1" co-legend-rid="lgnd_F1"><a href="/articles/PMC2559849/figure/F1/" target="figure" rid-figpopup="F1" rid-ob="ob-F1"><!--fig/graphic|fig/alternatives/graphic mode="anchored" m1--><div data-largeobj="" data-largeobj-link-rid="largeobj_id443185" class="figure"><img class="fig-image" alt="An external file that holds a picture, illustration, etc.&#10;Object name is 1471-2148-8-255-1.jpg" title="An external file that holds a picture, illustration, etc.&#10;Object name is 1471-2148-8-255-1.jpg" src="/articles/PMC2559849/bin/1471-2148-8-255-1.jpg" /></div><div id="largeobj_id443185" class="largeobj-link align_right" style="display: none"><a target="object" href="/articles/PMC2559849/figure/F1/?report=objectonly">Open in a separate window</a></div></a><div class="icnblk_cntnt" id="lgnd_F1"><div><a class="figpopup" href="/articles/PMC2559849/figure/F1/" target="figure" rid-figpopup="F1" rid-ob="ob-F1">Figure 1</a></div><!--caption a7--><div class="caption"><p id="id443147"><strong>General non-homogeneous model of substitution</strong>. The substitution model depicted here is Tamura's 1992 model of substitution, which contains two parameters: <em>&#x003ba;</em>, the transitions/transversions ratio and <em>&#x003b8; </em>the equilibrium G+C content. In the homogeneous case, <em>&#x003b8; </em>and <em>&#x003ba; </em>are constant over the tree (case 'a'). In Galtier and Gouy's 1998 model, <em>&#x003ba; </em>is constant over the tree and one distinct <em>&#x003b8; </em>is allowed per branch (case 'b'). Between these two extrema lay models with certain branches, but not all, sharing a common value of <em>&#x003b8; </em>(case 'c'). In the most general case 'd', there are two sets of parameters, one for <em>&#x003ba; </em>and another for <em>&#x003b8;</em>, that are shared by the branches of the tree.</p></div></div></div><!--fig ft0--><!--fig mode=article f1--><div class="fig iconblock whole_rhythm clearfix" id="F2" co-legend-rid="lgnd_F2"><a href="/articles/PMC2559849/figure/F2/" target="figure" rid-figpopup="F2" rid-ob="ob-F2"><!--fig/graphic|fig/alternatives/graphic mode="anchored" m1--><div data-largeobj="" data-largeobj-link-rid="largeobj_id443212" class="figure"><img class="fig-image" alt="An external file that holds a picture, illustration, etc.&#10;Object name is 1471-2148-8-255-2.jpg" title="An external file that holds a picture, illustration, etc.&#10;Object name is 1471-2148-8-255-2.jpg" src="/articles/PMC2559849/bin/1471-2148-8-255-2.jpg" /></div><div id="largeobj_id443212" class="largeobj-link align_right" style="display: none"><a target="object" href="/articles/PMC2559849/figure/F2/?report=objectonly">Open in a separate window</a></div></a><div class="icnblk_cntnt" id="lgnd_F2"><div><a class="figpopup" href="/articles/PMC2559849/figure/F2/" target="figure" rid-figpopup="F2" rid-ob="ob-F2">Figure 2</a></div><!--caption a7--><div class="caption"><p id="id443205"><strong>Relations between branches, models and parameters</strong>. In the general non-homogeneous case, model parameters are shared by different branches across the tree. These parameters are part of branch-specific substitution models, which specify branch-wise probabilities of replacement between states. Branches are here defined according to their rightmost node. The SubstitutionModelSet class stores dependencies between nodes, models and parameters.</p></div></div></div><p id="id443220" class="p p-last">Substitution models can be totally independent of each other, or can share any number of parameters. Virtually any non-homogeneous model can thus be set up, provided the alignment is not a mix of nucleotide, amino-acid or codon sequences. All models available in Bio++ can be used with this class (<em>e.g</em>. K80, T92, HKY85, GTR, JTT92, etc), including heterotachous models (Galtier's model [<a href="#B22" rid="B22" class=" bibr popnode">22</a>] and Tuffley and Steel's model [<a href="#B23" rid="B23" class=" bibr popnode">23</a>]) and any rates across sites model (<em>i.e</em>. Gamma and Gamma + invariant distributions). The developer can also use the SubstitutionModelSet class with his own substitution model through the Bio++ SubstitutionModel interface. The SubstitutionModelSet class can be used in conjunction with other Bio++ classes to reconstruct ancestral states or to map substitutions, and hence allows to perform these analyses in the general non-homogeneous case.</p></div><div id="id440824" class="sec"><h3 id="id440824title">Estimating parameters</h3><p id="id440827" class="p p-first-last">Estimation of numerical parameters is performed using a modified Newton-Raphson optimization algorithm, commonly used in phylogenetics [<a href="#B4" rid="B4" class=" bibr popnode">4</a>,<a href="#B24" rid="B24" class=" bibr popnode">24</a>,<a href="#B25" rid="B25" class=" bibr popnode">25</a>], and therefore requires computing derivatives with respect to parameters of the model. Because the use of the cross derivatives leads to numerical instabilities in the optimization (Nicolas Galtier, personal communication), they are set to zero in the Hessian matrix. Derivatives regarding branch lengths are computed analytically, whereas derivatives regarding the rates across sites distribution are computed numerically. Although the substitution model derivatives can be computed analytically in the homogeneous case as well as in Galtier and Gouy's model, they are difficult to compute analytically in the more general case, and are consequently computed numerically in Bio++. To prevent convergence issues due to erroneous derivative values we use, in the last optimization steps, Powell's multi-dimensions algorithm, which does not rely on parameter derivatives [<a href="#B26" rid="B26" class=" bibr popnode">26</a>].</p></div><div id="id440872" class="sec"><h3 id="id440872title">A general file format to describe non-homogeneous models</h3><p id="id440875" class="p p-first">We introduced a new user-intuitive property file format to describe non-homogeneous substitution models. This format is an extension of PAML or NHML property file formats, and uses a syntax of the kind</p><p id="id440879">property_name = property_value</p><p id="id440882" class="p">A parser that automatically instantiates the appropriate SubstitutionModelSet object is included in the Bio++ libraries and is used by all programs in the Bio++ programs suite. Moreover, the same format is used for the input file of the programs and for their output, so that the output of one program (<em>e.g</em>. which adjusts a model to real data) can easily be used as the input of another one (<em>e.g</em>. which simulates data from a model). Figure <a href="/articles/PMC2559849/figure/F3/" target="figure" class="fig-table-link figpopup" rid-figpopup="F3" rid-ob="ob-F3" co-legend-rid="lgnd_F3"><span style="position: relative;text-decoration:none;">&#x200B;<span class="figpopup-sensitive-area" style="left: -3em;">Figure3</span></span><span>3</span></a> shows how the models in figure <a href="/articles/PMC2559849/figure/F1/" target="figure" class="fig-table-link figpopup" rid-figpopup="F1" rid-ob="ob-F1" co-legend-rid="lgnd_F1"><span style="position: relative;text-decoration:none;">&#x200B;<span class="figpopup-sensitive-area" style="left: -3em;">figure1</span></span><span>1</span></a> are coded using this format. The core part of the description is the "model" property, which is associated to one or several nodes of the phylogenetic tree through node identifiers. These node identifiers can be obtained from the programs in the Bio++ program suite, or set by the user in his own program.</p><!--fig ft0--><!--fig mode=article f1--><div class="fig iconblock whole_rhythm clearfix" id="F3" co-legend-rid="lgnd_F3"><a href="/articles/PMC2559849/figure/F3/" target="figure" rid-figpopup="F3" rid-ob="ob-F3"><!--fig/graphic|fig/alternatives/graphic mode="anchored" m1--><div data-largeobj="" data-largeobj-link-rid="largeobj_id440930" class="figure"><img class="fig-image" alt="An external file that holds a picture, illustration, etc.&#10;Object name is 1471-2148-8-255-3.jpg" title="An external file that holds a picture, illustration, etc.&#10;Object name is 1471-2148-8-255-3.jpg" src="/articles/PMC2559849/bin/1471-2148-8-255-3.jpg" /></div><div id="largeobj_id440930" class="largeobj-link align_right" style="display: none"><a target="object" href="/articles/PMC2559849/figure/F3/?report=objectonly">Open in a separate window</a></div></a><div class="icnblk_cntnt" id="lgnd_F3"><div><a class="figpopup" href="/articles/PMC2559849/figure/F3/" target="figure" rid-figpopup="F3" rid-ob="ob-F3">Figure 3</a></div><!--caption a7--><div class="caption"><p id="id440922"><strong>Model specification in BppML and BppSeqGen</strong>. A general file format is introduced to allow for the user-friendly description of virtually any non-homogeneous model. The tree shows the nodes identifiers, which can be obtained from the programs or defined by the user in its own program. Each case presented here corresponds to a particular model in figure 1, and was labeled accordingly. Each parameter can be fixed to a specific value or optimized with BppML.</p></div></div></div></div><div id="id440938" class="sec sec-last"><h3 id="id440938title">The BppML and BppSeqGen programs</h3><p id="id440941" class="p p-first-last">Parameter estimation and simulation procedures are available as dedicated classes in the Bio++ phylogenetic library, and can hence be used in any C++ program. However, for users who would rely on appropriate software rather than program their own tools, the Bio++ program suite was designed. These programs, including BppML (for Bio++ Maximum Likelihood) and BppSeqGen (Bio++ Sequence Generator) are command line driven and fully parametrized using property files, as introduced above. They can thus easily be pipelined with scripting languages as bash, python or perl. In addition to the BppML and BppSeqGen programs, the Bio++ program suite also contains programs for distance-based phylogenetic reconstruction, sequence file format conversion and tree manipulation.</p></div></div><div id="id440950" class="tsec sec"><h2 class="head no_bottom_margin" id="id440950title">Results and Discussion</h2><p id="id440954" class="p p-first">Our new general non-homogeneous model implementation was applied to Boussau and Gouy's data set of concatenated small and large subunit ribosomal RNA sequences and tree [<a href="#B6" rid="B6" class=" bibr popnode">6</a>]. This data set contains 92 sequences and 527 complete sites. We first compare computation time, memory usage and parameter estimation for various models and software. We then show how the general non-homogeneous model introduced here can be used to study model fit through parametric bootstrapping.</p><p id="id440968">In this section, we use the following model notations:</p><p id="id440970"><strong>H </strong>Homogeneous model, using a Tamura 1992 substitution model [<a href="#B27" rid="B27" class=" bibr popnode">27</a>].</p><p id="id440984"><strong>NH1 </strong>One-theta-per-branch non-homogeneous model [<a href="#B24" rid="B24" class=" bibr popnode">24</a>]. This model uses Tamura's 1992 substitution model, with one <em>&#x003b8; </em>(equilibrium G+C content) per branch in the tree, whereas <em>&#x003ba; </em>(transitions/transversions ratio) is shared by all branches.</p><p id="id441005"><strong>NH2 </strong>One-theta-per-kingdom non-homogeneous model. In this general model, we allowed each kingdom (Bacteria, Eukaryotes or Archaea) to have its own equilibrium G+C content, while sharing the same transitions/transversions ratio.</p><p id="id441012"><strong>NH3 </strong>Same as NH2, but in addition the (hyper)thermophilic Bacteria on one hand, and the eukaryote G+C-rich genus Giardia on the other hand were allowed to have their own equilibrium G+C content.</p><p id="id441018" class="p"><strong>NH4 </strong>One-kappa-per-branch non-homogeneous model. This model has one <em>&#x003ba; </em>per branch in the tree, whereas <em>&#x003b8; </em>is shared by all branches.</p><div id="id441030" class="sec"><h3 id="id441030title">Performance</h3><p id="id441033" class="p p-first">We compared the likelihood of our implementation with the NHML [<a href="#B22" rid="B22" class=" bibr popnode">22</a>,<a href="#B24" rid="B24" class=" bibr popnode">24</a>] and [nh]PhyML [<a href="#B4" rid="B4" class=" bibr popnode">4</a>,<a href="#B6" rid="B6" class=" bibr popnode">6</a>] programs (see table <a href="/articles/PMC2559849/table/T1/" target="table" class="fig-table-link figpopup" rid-figpopup="T1" rid-ob="ob-T1" co-legend-rid=""><span style="position: relative;text-decoration:none;">&#x200B;<span class="figpopup-sensitive-area" style="left: -2.5em;">table1</span></span><span>1</span></a> and Additional file <a href="#S1" rid="S1" class=" supplementary-material">1</a>). Several models have been tested: Kimura two parameters (K80) for the homogeneous case, and Tamura 1992 (T92) derived models for the non-homogeneous cases, with constant rate, Gamma distributed rates (4 classes), Gamma (4 classes) + invariant and Galtier's 2001 site-specific rate variation model (covarion-like). On all tested models, the optimization algorithm in Bio++, while using numerical derivatives, leads to similar or better likelihood values than other programs, although at the price of an increase in computational time. However this increase is not sufficient to prevent the use of complex models on data sets of usual sizes, as it takes a little bit more than an hour and a quarter to optimize parameters with the richest models on a data set containing 92 sequences. It is also noteworthy that the Bio++ implementation requires less memory than other programs. This is partly explained by differences in the algorithms used to compute the likelihood [<a href="#B28" rid="B28" class=" bibr popnode">28</a>]. The PhyML programs, including nhPhyML, use a double-recursive algorithm [<a href="#B6" rid="B6" class=" bibr popnode">6</a>], which saves a lot of computation when exploring the space of tree topologies but results in a three fold increase in memory usage compared to the simple-recursive algorithm. Because no tree space exploration was involved, BppML computations used the simple-recursive algorithm. If desired, however, Bio++ also offers the double-recursive algorithm.</p><!--table ft1--><!--table-wrap mode="anchored" t5--><div class="table-wrap table anchored whole_rhythm" id="T1"><h3>Table 1</h3><!--caption a7--><div class="caption"><p id="id441125">Comparison of the NHML, (NH)PhyML and BppML programs. Likelihood: - log (likelihood) of the optimized parameters, with a fixed tree topology. </p></div><div data-largeobj="" data-largeobj-link-rid="largeobj_id441129" class="xtable"><table frame="hsides" rules="groups" class="rendered small default_table"><thead><tr><th align="center" colspan="13" rowspan="1">Likelihood</th></tr></thead><tbody><tr><td align="center" rowspan="1" colspan="1">Rate</td><td align="center" colspan="3" rowspan="1">Constant</td><td align="center" colspan="3" rowspan="1">&#x00393;(4)</td><td align="center" colspan="3" rowspan="1">&#x00393;(4) + <em>I</em></td><td align="center" colspan="3" rowspan="1">Covarion</td></tr><tr><td colspan="13" rowspan="1"><hr /></td></tr><tr><td align="center" rowspan="1" colspan="1">Model</td><td align="center" rowspan="1" colspan="1">H</td><td align="center" rowspan="1" colspan="1">NH1</td><td align="center" rowspan="1" colspan="1">NH3</td><td align="center" rowspan="1" colspan="1">H</td><td align="center" rowspan="1" colspan="1">NH1</td><td align="center" rowspan="1" colspan="1">NH3</td><td align="center" rowspan="1" colspan="1">H</td><td align="center" rowspan="1" colspan="1">NH1</td><td align="center" rowspan="1" colspan="1">NH3</td><td align="center" rowspan="1" colspan="1">H</td><td align="center" rowspan="1" colspan="1">NH1</td><td align="center" rowspan="1" colspan="1">NH3</td></tr><tr><td colspan="13" rowspan="1"><hr /></td></tr><tr><td align="center" rowspan="1" colspan="1">NHML</td><td align="center" rowspan="1" colspan="1">15307</td><td align="center" rowspan="1" colspan="1">15034</td><td align="center" rowspan="1" colspan="1">--</td><td align="center" rowspan="1" colspan="1">14145</td><td align="center" rowspan="1" colspan="1">13828</td><td align="center" rowspan="1" colspan="1">--</td><td align="center" rowspan="1" colspan="1">--</td><td align="center" rowspan="1" colspan="1">--</td><td align="center" rowspan="1" colspan="1">--</td><td align="center" rowspan="1" colspan="1">13750</td><td align="center" rowspan="1" colspan="1"><strong>13397</strong></td><td align="center" rowspan="1" colspan="1">--</td></tr><tr><td align="center" rowspan="1" colspan="1">PhyML</td><td align="center" rowspan="1" colspan="1"><strong>15187</strong></td><td align="center" rowspan="1" colspan="1">15011</td><td align="center" rowspan="1" colspan="1">--</td><td align="center" rowspan="1" colspan="1"><strong>14141</strong></td><td align="center" rowspan="1" colspan="1">13824</td><td align="center" rowspan="1" colspan="1">--</td><td align="center" rowspan="1" colspan="1"><strong>14128</strong></td><td align="center" rowspan="1" colspan="1">--</td><td align="center" rowspan="1" colspan="1">--</td><td align="center" rowspan="1" colspan="1">--</td><td align="center" rowspan="1" colspan="1">--</td><td align="center" rowspan="1" colspan="1">--</td></tr><tr><td align="center" rowspan="1" colspan="1">BppML</td><td align="center" rowspan="1" colspan="1">15187</td><td align="center" rowspan="1" colspan="1"><strong>14920</strong></td><td align="center" rowspan="1" colspan="1">15109</td><td align="center" rowspan="1" colspan="1">14141</td><td align="center" rowspan="1" colspan="1"><strong>13821</strong></td><td align="center" rowspan="1" colspan="1">14029</td><td align="center" rowspan="1" colspan="1">14128</td><td align="center" rowspan="1" colspan="1">13810</td><td align="center" rowspan="1" colspan="1">14018</td><td align="center" rowspan="1" colspan="1"><strong>13747</strong></td><td align="center" rowspan="1" colspan="1">13399</td><td align="center" rowspan="1" colspan="1">13615</td></tr><tr><td colspan="13" rowspan="1"><hr /></td></tr><tr><td align="center" colspan="13" rowspan="1">Time</td></tr><tr><td colspan="13" rowspan="1"><hr /></td></tr><tr><td align="center" rowspan="1" colspan="1">Rate</td><td align="center" colspan="3" rowspan="1">Constant</td><td align="center" colspan="3" rowspan="1">&#x00393;(4)</td><td align="center" colspan="3" rowspan="1">&#x00393;(4) + <em>I</em></td><td align="center" colspan="3" rowspan="1">Covarion</td></tr><tr><td colspan="13" rowspan="1"><hr /></td></tr><tr><td align="center" rowspan="1" colspan="1">Model</td><td align="center" rowspan="1" colspan="1">H</td><td align="center" rowspan="1" colspan="1">NH1</td><td align="center" rowspan="1" colspan="1">NH3</td><td align="center" rowspan="1" colspan="1">H</td><td align="center" rowspan="1" colspan="1">NH1</td><td align="center" rowspan="1" colspan="1">NH3</td><td align="center" rowspan="1" colspan="1">H</td><td align="center" rowspan="1" colspan="1">NH1</td><td align="center" rowspan="1" colspan="1">NH3</td><td align="center" rowspan="1" colspan="1">H</td><td align="center" rowspan="1" colspan="1">NH1</td><td align="center" rowspan="1" colspan="1">NH3</td></tr><tr><td colspan="13" rowspan="1"><hr /></td></tr><tr><td align="center" rowspan="1" colspan="1">NHML</td><td align="center" rowspan="1" colspan="1">0:01:40</td><td align="center" rowspan="1" colspan="1">0:02:28</td><td align="center" rowspan="1" colspan="1">--</td><td align="center" rowspan="1" colspan="1">0:03:07</td><td align="center" rowspan="1" colspan="1"><strong>00:02:13</strong></td><td align="center" rowspan="1" colspan="1">--</td><td align="center" rowspan="1" colspan="1">--</td><td align="center" rowspan="1" colspan="1">--</td><td align="center" rowspan="1" colspan="1">--</td><td align="center" rowspan="1" colspan="1">0:19:24</td><td align="center" rowspan="1" colspan="1"><strong>0:19:09</strong></td><td align="center" rowspan="1" colspan="1">--</td></tr><tr><td align="center" rowspan="1" colspan="1">PhyML</td><td align="center" rowspan="1" colspan="1"><strong>0:00:07</strong></td><td align="center" rowspan="1" colspan="1"><strong>0:01:43</strong></td><td align="center" rowspan="1" colspan="1">--</td><td align="center" rowspan="1" colspan="1"><strong>0:00:34</strong></td><td align="center" rowspan="1" colspan="1">00:02:29</td><td align="center" rowspan="1" colspan="1">--</td><td align="center" rowspan="1" colspan="1"><strong>0:00:35</strong></td><td align="center" rowspan="1" colspan="1">--</td><td align="center" rowspan="1" colspan="1">--</td><td align="center" rowspan="1" colspan="1">--</td><td align="center" rowspan="1" colspan="1">--</td><td align="center" rowspan="1" colspan="1">--</td></tr><tr><td align="center" rowspan="1" colspan="1">BppML</td><td align="center" rowspan="1" colspan="1">0:00:27</td><td align="center" rowspan="1" colspan="1">0:11:57</td><td align="center" rowspan="1" colspan="1">0:01:12</td><td align="center" rowspan="1" colspan="1">0:00:47</td><td align="center" rowspan="1" colspan="1">00:35:46</td><td align="center" rowspan="1" colspan="1">0:00:48</td><td align="center" rowspan="1" colspan="1">0:01:01</td><td align="center" rowspan="1" colspan="1">0:29:40</td><td align="center" rowspan="1" colspan="1">0:01:38</td><td align="center" rowspan="1" colspan="1"><strong>0:02:52</strong></td><td align="center" rowspan="1" colspan="1">1:14:32</td><td align="center" rowspan="1" colspan="1">0:14:27</td></tr><tr><td colspan="13" rowspan="1"><hr /></td></tr><tr><td align="center" colspan="13" rowspan="1">Memory</td></tr><tr><td colspan="13" rowspan="1"><hr /></td></tr><tr><td align="center" rowspan="1" colspan="1">Rate</td><td align="center" colspan="3" rowspan="1">Constant</td><td align="center" colspan="3" rowspan="1">&#x00393;(4)</td><td align="center" colspan="3" rowspan="1">&#x00393;(4) + <em>I</em></td><td align="center" colspan="3" rowspan="1">Covarion</td></tr><tr><td colspan="13" rowspan="1"><hr /></td></tr><tr><td align="center" rowspan="1" colspan="1">Model</td><td align="center" rowspan="1" colspan="1">H</td><td align="center" rowspan="1" colspan="1">NH1</td><td align="center" rowspan="1" colspan="1">NH3</td><td align="center" rowspan="1" colspan="1">H</td><td align="center" rowspan="1" colspan="1">NH1</td><td align="center" rowspan="1" colspan="1">NH3</td><td align="center" rowspan="1" colspan="1">H</td><td align="center" rowspan="1" colspan="1">NH1</td><td align="center" rowspan="1" colspan="1">NH3</td><td align="center" rowspan="1" colspan="1">H</td><td align="center" rowspan="1" colspan="1">NH1</td><td align="center" rowspan="1" colspan="1">NH3</td></tr><tr><td colspan="13" rowspan="1"><hr /></td></tr><tr><td align="center" rowspan="1" colspan="1">NHML</td><td align="center" rowspan="1" colspan="1">16.38</td><td align="center" rowspan="1" colspan="1">20.48</td><td align="center" rowspan="1" colspan="1">--</td><td align="center" rowspan="1" colspan="1">55.30</td><td align="center" rowspan="1" colspan="1">65.54</td><td align="center" rowspan="1" colspan="1">--</td><td align="center" rowspan="1" colspan="1">--</td><td align="center" rowspan="1" colspan="1">--</td><td align="center" rowspan="1" colspan="1">--</td><td align="center" rowspan="1" colspan="1">55.30</td><td align="center" rowspan="1" colspan="1">65.54</td><td align="center" rowspan="1" colspan="1">--</td></tr><tr><td align="center" rowspan="1" colspan="1">PhyML</td><td align="center" rowspan="1" colspan="1">10.24</td><td align="center" rowspan="1" colspan="1">28.67</td><td align="center" rowspan="1" colspan="1">--</td><td align="center" rowspan="1" colspan="1">30.73</td><td align="center" rowspan="1" colspan="1">77.82</td><td align="center" rowspan="1" colspan="1">--</td><td align="center" rowspan="1" colspan="1">30.72</td><td align="center" rowspan="1" colspan="1">--</td><td align="center" rowspan="1" colspan="1">--</td><td align="center" rowspan="1" colspan="1">--</td><td align="center" rowspan="1" colspan="1">--</td><td align="center" rowspan="1" colspan="1">--</td></tr><tr><td align="center" rowspan="1" colspan="1">BppML</td><td align="center" rowspan="1" colspan="1"><strong>08.19</strong></td><td align="center" rowspan="1" colspan="1"><strong>08.19</strong></td><td align="center" rowspan="1" colspan="1">08.19</td><td align="center" rowspan="1" colspan="1"><strong>14.34</strong></td><td align="center" rowspan="1" colspan="1"><strong>14.34</strong></td><td align="center" rowspan="1" colspan="1">14.34</td><td align="center" rowspan="1" colspan="1"><strong>14.34</strong></td><td align="center" rowspan="1" colspan="1">16.38</td><td align="center" rowspan="1" colspan="1">16.38</td><td align="center" rowspan="1" colspan="1"><strong>12.29</strong></td><td align="center" rowspan="1" colspan="1"><strong>14.34</strong></td><td align="center" rowspan="1" colspan="1">12.29</td></tr></tbody></table></div><div id="largeobj_id441129" class="largeobj-link align_right" style="display: none"><a target="object" href="/articles/PMC2559849/table/T1/?report=objectonly">Open in a separate window</a></div><div class="tblwrap-foot"><p id="id740552">Time is shown as hours:minutes:seconds. Numbers in bold font correspond to the best performance for each comparison. Memory corresponds to the maximum memory usage during the program execution in megabytes. H: homogeneous case, with a K80 substitution model, NH1: theta per branch model, with a T92 substitution model, NH3: clade-specific and G+C-rich species theta model, see methods. The PhyML program was used for the H model, and nhPhyML for the NH1 model.</p></div></div><p id="id740558" class="p">The convergence of the optimization algorithm was assessed by two methods, using the NH3 model. First, we used 100 distinct randomly chosen initial sets of parameter values and the RNA data set (see methods). We found that the estimated values obtained in each run were the same for all parameters up to the 5th decimal. Second, we simulated 100 data sets using the NH3 model with a Gamma + invariant rate distribution, with parameter values estimated from the real data set and the same number of sites. These parameters were then re-estimated for each simulated data set using random initial values. The results are displayed on figure <a href="/articles/PMC2559849/figure/F4/" target="figure" class="fig-table-link figpopup" rid-figpopup="F4" rid-ob="ob-F4" co-legend-rid="lgnd_F4"><span style="position: relative;text-decoration:none;">&#x200B;<span class="figpopup-sensitive-area" style="left: -3em;">figure4,</span></span><span>4</span></a>, and show that the parameter values are recovered without bias and with a good precision. The only exception is the proportion of invariant sites which is slightly overestimated. These results also validate the simulation procedure.</p><!--fig ft0--><!--fig mode=article f1--><div class="fig iconblock whole_rhythm clearfix" id="F4" co-legend-rid="lgnd_F4"><a href="/articles/PMC2559849/figure/F4/" target="figure" rid-figpopup="F4" rid-ob="ob-F4"><!--fig/graphic|fig/alternatives/graphic mode="anchored" m1--><div data-largeobj="" data-largeobj-link-rid="largeobj_id740612" class="figure"><img class="fig-image" alt="An external file that holds a picture, illustration, etc.&#10;Object name is 1471-2148-8-255-4.jpg" title="An external file that holds a picture, illustration, etc.&#10;Object name is 1471-2148-8-255-4.jpg" src="/articles/PMC2559849/bin/1471-2148-8-255-4.jpg" /></div><div id="largeobj_id740612" class="largeobj-link align_right" style="display: none"><a target="object" href="/articles/PMC2559849/figure/F4/?report=objectonly">Open in a separate window</a></div></a><div class="icnblk_cntnt" id="lgnd_F4"><div><a class="figpopup" href="/articles/PMC2559849/figure/F4/" target="figure" rid-figpopup="F4" rid-ob="ob-F4">Figure 4</a></div><!--caption a7--><div class="caption"><p id="id740587"><strong>Assessing parameter estimation using simulations</strong>. Left: boxes show the median and quartiles of the distribution of parameter estimates for 100 simulations. The 'true' value used in the simulation is shown in red. Right: boxes show the distribution of the bias (estimated value &#x02013; real value), as a function of the (pooled) real values of the branch length. <em>&#x003b8;</em><sub>*</sub>: GC content, <em>&#x003c9; </em>GC content at root, <em>&#x003b1; </em>: shape of the Gamma distribution of rates across sites, <em>p </em>proportion of invariant sites (see text for details on the model used).</p></div></div></div></div><div id="id740620" class="sec"><h3 id="id740620title">Example of application: parametric bootstrap and Bowker's test for non-homogeneity</h3><p id="id740623" class="p p-first">As most phylogenetic reconstruction models are homogeneous, they do not properly model the evolution of homologous sequences that vary widely in their compositions. Analyzing compositionally heterogeneous data sets with homogeneous models of sequence evolution may therefore lead to incorrect inferences, provided the heterogeneity is large enough. Several tests have been developed to assess the amount of heterogeneity present in a data set (see [<a href="#B29" rid="B29" class=" bibr popnode">29</a>] for a review).</p><div id="id740638" class="sec sec-last"><h4 id="id740638title">Estimating the amount of compositional heterogeneity in a data set</h4><p id="id740641" class="p p-first">Most commonly, a matrix is assembled that contains compositions in all characters for all sequences, and this matrix is analyzed through <em>&#x003c7;</em><sup>2 </sup>statistics [<a href="#B29" rid="B29" class=" bibr popnode">29</a>]. However, this approach usually does not distinguish between constant and variable sites, and therefore may underestimate the true amount of heterogeneity in a data set [<a href="#B29" rid="B29" class=" bibr popnode">29</a>].</p><p id="id740669">Recently, Ababneh et al. [<a href="#B30" rid="B30" class=" bibr popnode">30</a>] re-introduced Bowker's pairwise test [<a href="#B31" rid="B31" class=" bibr popnode">31</a>] for symmetry. Given two aligned sequences <em>S</em><sub>1 </sub>and <em>S</em><sub>2 </sub>on a given alphabet of size <em>n </em>and characters <em>x</em><sub>{1,2...<em>n</em>}</sub>, it compares the numbers of substitutions between <em>x</em><sub><em>i </em></sub>in <em>S</em><sub>1 </sub>and <em>x</em><sub><em>j </em></sub>in <em>S</em><sub>2</sub>, {<em>i</em>,<em>j</em>} <img src="/corehtml/pmc/pmcents/x2208.gif" border="0" alt="[set membership]" title="" /> [1 : <em>n</em>], with the numbers of substitutions between <em>x</em><sub><em>j </em></sub>in <em>S</em><sub>1 </sub>and <em>x</em><sub><em>i </em></sub>in <em>S</em><sub>2</sub>. If these pairs of numbers are equal for all {<em>i</em>, <em>j</em>} <img src="/corehtml/pmc/pmcents/x2208.gif" border="0" alt="[set membership]" title="" /> [1 : <em>n</em>], the two sequences may have evolved according to two identical processes. Otherwise, the two processes were necessarily different.</p><p id="id725612">Bowker's test therefore permits to assess whether compositional differences have accumulated between two sequences through non-homogeneous evolution. To apply it to more than two sequences, Rodriguez-Ezpeleta et al. [<a href="#B32" rid="B32" class=" bibr popnode">32</a>] computed all pairwise Bowker's tests in their alignment and computed the median value; one could also have counted the number of Bowker's tests that are significant at a 5% threshold according to a <em>&#x003c7;</em><sup>2 </sup>table.</p><p id="id725632" class="p p-last">However, none of these tests permit to estimate if the amount of heterogeneity that they detect in a given data set is sufficient to bias inferences made using homogeneous models, although this is likely the question an average user would like to answer.</p></div></div><div id="id725636" class="sec"><h3 id="id725636title">Assessment of the fit of evolutionary models with respect to compositional heterogeneity</h3><p id="id725640" class="p p-first">Here, we describe a method to reveal the ability of evolutionary models to account for the compositional heterogeneity in a sequence alignment, which we measure using the median of all Bowker's pairwise statistics, or the number of significant Bowker's pairwise tests (in the following, we note the measure of compositional heterogeneity <em>h</em>). This method is tree-based, and uses parametric bootstrapping [<a href="#B10" rid="B10" class=" bibr popnode">10</a>-<a href="#B12" rid="B12" class=" bibr popnode">12</a>]. In this respect, it is similar to the method recently introduced in [<a href="#B13" rid="B13" class=" bibr popnode">13</a>] in the Bayesian setting. Our approach requires 5 steps to estimate the fit of a model <em>M </em>to a data set <em>D</em>.</p><p id="id725682">1. Compute the compositional heterogeneity measure <em>h </em>for the data set <em>D</em>.</p><p id="id725690">2. Estimate the parameters of model <em>M </em>based on the data set <em>D </em>according to the Maximum Likelihood criterion.</p><p id="id725699">3. Simulate a large number of data sets <em>D' </em>using the model <em>M </em>previously estimated.</p><p id="id725708">4. Compute the compositional heterogeneity measure <em>h' </em>for each alignment <em>D'</em>.</p><p id="id725717">5. Compare the measure <em>h </em>obtained on data set <em>D </em>to measures <em>h' </em>obtained on data sets <em>D'</em>. If <em>h </em>is outside 95% of the distribution of <em>h'</em>, the model does not properly reproduce the heterogeneity of data set <em>D</em>.</p><p id="id725744" class="p p-last">Using such an approach, any model can be compared with others with respect to their ability to handle the compositional heterogeneity of a given data set: the closest the distribution of <em>h' </em>is from <em>h</em>, the highest is the fit. Ideally, the distribution of measures <em>h' </em>obtained on the parametric bootstrap replicates of a good model should be centered around the value obtained for the real alignment <em>h</em>, with a very low variance. If one neglects potential problems linked with over-parametrization, the inferences of the best model should be preferentially trusted compared to a model that fails to account for an important feature of a data set. Overall, our approach can be used for model selection, although contrary to criteria such as AIC or BIC [<a href="#B28" rid="B28" class=" bibr popnode">28</a>] this approach does not take into account the number of parameters; more importantly, it can also be used for estimating model adequacy.</p></div><div id="id725775" class="sec sec-last"><h3 id="id725775title">Application to an rRNA data set</h3><p id="id725778" class="p p-first">Our approach to assess the composition-wise fit of evolutionary models to a data set was applied to an alignment containing ribosomal RNA sequences from Archaea, Bacteria and Eukaryotes [<a href="#B6" rid="B6" class=" bibr popnode">6</a>]. First, several homogeneous and non-homogeneous models were fitted to the data set, using a Tamura 1992 model of substitution with a four classes Gamma + invariant distribution of rates across sites. Then, 10,000 artificial data sets were simulated in each case using these estimated parameters. Eventually, the real data set and the simulated data sets were compared with respect to their compositional heterogeneity: models able to simulate data sets with similar amounts of heterogeneity as the real data set appropriately account for this specific aspect of the data.</p><p id="id725795" class="p">Results are shown in figure <a href="/articles/PMC2559849/figure/F5/" target="figure" class="fig-table-link figpopup" rid-figpopup="F5" rid-ob="ob-F5" co-legend-rid="lgnd_F5"><span style="position: relative;text-decoration:none;">&#x200B;<span class="figpopup-sensitive-area" style="left: -3em;">figure5</span></span><span>5</span></a> and table <a href="/articles/PMC2559849/table/T2/" target="table" class="fig-table-link figpopup" rid-figpopup="T2" rid-ob="ob-T2" co-legend-rid=""><span style="position: relative;text-decoration:none;">&#x200B;<span class="figpopup-sensitive-area" style="left: -2.5em;">table2.</span></span><span>2</span></a>. Both the number of significant Bowker's tests and the median of their values give similar results. For instance, both indices find that the real data set shows significantly more heterogeneity than the distributions of data sets simulated under the homogeneous model of sequence evolution (p-value = 0.0008 for the number of significant pairwise tests and p-value = 0.0028 for the median). The homogeneous model therefore lacks parameters useful to account for this particular feature of the data. Allowing different transition/transversion rates for each branch as in model NH4 does not solve this problem, as the obtained bootstrapped distribution also significantly underestimates the heterogeneity in the real data (p-value = 0.0015 and p-value = 0.0047, respectively). It is noteworthy, however, that the likelihood ratio test finds that this model describes the data significantly better than the homogeneous one, whereas the AIC and BIC criteria do not. On the contrary, the NH1 model simulated sequences distribution surrounds the value obtained on the real data set (p-value &#x0003e; 0.7 in both cases). This suggests that Galtier and Gouy's modeling [<a href="#B24" rid="B24" class=" bibr popnode">24</a>] properly accounts for the heterogeneity in rRNA data sets, and that there may be no point in using more parameter-rich models such as Yang and Roberts' [<a href="#B33" rid="B33" class=" bibr popnode">33</a>] on these molecules. The results even suggest that NH1 might be slightly prone to over-estimating the amount of heterogeneity. For instance, the median Bowker's test value for simulated data sets are most often higher than the value obtained on the real data set. NH1's behavior may be explained by over-parametrization: it is likely that during sequence evolution, not all branches witnessed significant shifts in mutational parameters or selection pressures. To investigate further the impact of the number of parameters on model fit, two other models were tested: NH2, in which different equilibrium G+C contents are associated to each kingdom, and NH3, which further adds two equilibrium G+C contents, one for the hyperthermophilic (G+C rich) Bacteria, and one for the G+C rich Eukaryote Giardia. Hyperthermophilic (G+C rich) Archaea were not considered separately from the others as nearly all Archaea in our data set were thermophilic or hyperthermophilic. The NH2 model seems to lack useful parameters to properly account for the heterogeneity in the real data set, as its simulated data sets are less heterogeneous than the real one (p-value = 0.0040 for the number of pairwise tests, and 0.0141 for the median). The NH3 model improves upon NH2 as its bootstrapped distribution is more centered upon the observed value, which is no longer rejected (p-value = 0.14 and 0.27). However, the observed value is still on the right side of the null-distribution, and it is very likely that the correct parametrization lays between NH1, too rich with its 182 equilibrium G+C contents, and NH3, maybe too poor with its 5 equilibrium G+C contents. However, as NH3 provides a fit nearly as good as NH1 with a much lower amount of parameters, the best model may well have less than a dozen equilibrium G+C contents. Interestingly, Bowker's tests are in agreement with the Bayesian information criterion (BIC, see table <a href="/articles/PMC2559849/table/T2/" target="table" class="fig-table-link figpopup" rid-figpopup="T2" rid-ob="ob-T2" co-legend-rid=""><span style="position: relative;text-decoration:none;">&#x200B;<span class="figpopup-sensitive-area" style="left: -2.5em;">table2)</span></span><span>2</span></a>) and favor the NH3 model. Conversely, Akaike's information criterion (AIC) and the likelihood ratio test (LRT) favor the more parameter-rich model NH1. Obviously, although a few works already addressed this issue in the Bayesian framework [<a href="#B11" rid="B11" class=" bibr popnode">11</a>,<a href="#B13" rid="B13" class=" bibr popnode">13</a>,<a href="#B34" rid="B34" class=" bibr popnode">34</a>], automatic ways to explore and choose among heterogeneous models in a maximum likelihood framework are much needed. All the tools required for such a project are now available in the Bio++ libraries.</p><!--fig ft0--><!--fig mode=article f1--><div class="fig iconblock whole_rhythm clearfix" id="F5" co-legend-rid="lgnd_F5"><a href="/articles/PMC2559849/figure/F5/" target="figure" rid-figpopup="F5" rid-ob="ob-F5"><!--fig/graphic|fig/alternatives/graphic mode="anchored" m1--><div data-largeobj="" data-largeobj-link-rid="largeobj_id725916" class="figure"><img class="fig-image" alt="An external file that holds a picture, illustration, etc.&#10;Object name is 1471-2148-8-255-5.jpg" title="An external file that holds a picture, illustration, etc.&#10;Object name is 1471-2148-8-255-5.jpg" src="/articles/PMC2559849/bin/1471-2148-8-255-5.jpg" /></div><div id="largeobj_id725916" class="largeobj-link align_right" style="display: none"><a target="object" href="/articles/PMC2559849/figure/F5/?report=objectonly">Open in a separate window</a></div></a><div class="icnblk_cntnt" id="lgnd_F5"><div><a class="figpopup" href="/articles/PMC2559849/figure/F5/" target="figure" rid-figpopup="F5" rid-ob="ob-F5">Figure 5</a></div><!--caption a7--><div class="caption"><p id="id725906"><strong>Distributions of the Bowker's test statistics under various models</strong>. First column: number of pairwise tests significant at the 5% level. Second column: median of the pairwise statistics. First row: homogeneous model (H). Second row: one theta per branch non-homogeneous model (NH1). Third row: 3 thetas non-homogeneous model (NH2). Fourth row: 5 thetas non-homogeneous model (NH3). Fifth row: one kappa per branch non-homogeneous model (NH4). All models use the Tamura 1992 substitution model with a 4-classes discrete Gamma + invariant rate distribution. The arrows indicate the observed values from the real data set and the resulting p-values.</p></div></div></div><!--table ft1--><!--table-wrap mode="anchored" t5--><div class="table-wrap table anchored whole_rhythm" id="T2"><h3>Table 2</h3><!--caption a7--><div class="caption"><p id="id725935">Model comparisons. </p></div><div data-largeobj="" data-largeobj-link-rid="largeobj_id725938" class="xtable"><table frame="hsides" rules="groups" class="rendered small default_table"><thead><tr><th align="center" rowspan="1" colspan="1">Model</th><th align="center" rowspan="1" colspan="1">lnL</th><th align="center" rowspan="1" colspan="1"><em>k</em></th><th align="center" colspan="3" rowspan="1">LRT</th><th align="center" rowspan="1" colspan="1">AIC</th><th align="center" rowspan="1" colspan="1">BIC</th><th align="center" colspan="2" rowspan="1">Bowker</th></tr><tr><th rowspan="1" colspan="1"></th><th rowspan="1" colspan="1"></th><th rowspan="1" colspan="1"></th><th align="center" rowspan="1" colspan="1">H</th><th align="center" rowspan="1" colspan="1">NH2</th><th align="center" rowspan="1" colspan="1">NH3</th><th rowspan="1" colspan="1"></th><th rowspan="1" colspan="1"></th><th align="center" rowspan="1" colspan="1"># tests</th><th align="center" rowspan="1" colspan="1">median</th></tr></thead><tbody><tr><td align="center" rowspan="1" colspan="1">H</td><td align="center" rowspan="1" colspan="1">-14110.628293</td><td align="center" rowspan="1" colspan="1">185</td><td rowspan="1" colspan="1"></td><td rowspan="1" colspan="1"></td><td rowspan="1" colspan="1"></td><td align="center" rowspan="1" colspan="1">28591.26</td><td align="center" rowspan="1" colspan="1">29380.69</td><td align="center" rowspan="1" colspan="1">0.0008</td><td align="center" rowspan="1" colspan="1">0.0028</td></tr><tr><td align="center" rowspan="1" colspan="1">NH1</td><td align="center" rowspan="1" colspan="1">-13810.371502</td><td align="center" rowspan="1" colspan="1">368</td><td align="center" rowspan="1" colspan="1">600.51</td><td align="center" rowspan="1" colspan="1">556.74</td><td align="center" rowspan="1" colspan="1">416.97</td><td align="center" rowspan="1" colspan="1"><strong>28356.74</strong></td><td align="center" rowspan="1" colspan="1">29927.07</td><td align="center" rowspan="1" colspan="1">0.7010</td><td align="center" rowspan="1" colspan="1">0.8110</td></tr><tr><td align="center" rowspan="1" colspan="1">NH2</td><td align="center" rowspan="1" colspan="1">-14088.739682</td><td align="center" rowspan="1" colspan="1">189</td><td align="center" rowspan="1" colspan="1">43.78</td><td rowspan="1" colspan="1"></td><td rowspan="1" colspan="1"></td><td align="center" rowspan="1" colspan="1">28555.48</td><td align="center" rowspan="1" colspan="1">29361.98</td><td align="center" rowspan="1" colspan="1">0.0040</td><td align="center" rowspan="1" colspan="1">0.0141</td></tr><tr><td align="center" rowspan="1" colspan="1">NH3</td><td align="center" rowspan="1" colspan="1">-14018.854234</td><td align="center" rowspan="1" colspan="1">191</td><td align="center" rowspan="1" colspan="1">183.55</td><td align="center" rowspan="1" colspan="1">139.77</td><td rowspan="1" colspan="1"></td><td align="center" rowspan="1" colspan="1">28419.71</td><td align="center" rowspan="1" colspan="1"><strong>29234.74</strong></td><td align="center" rowspan="1" colspan="1">0.1448</td><td align="center" rowspan="1" colspan="1">0.2672</td></tr><tr><td align="center" rowspan="1" colspan="1">NH4</td><td align="center" rowspan="1" colspan="1">-13970.841467</td><td align="center" rowspan="1" colspan="1">368</td><td align="center" rowspan="1" colspan="1">279.57</td><td rowspan="1" colspan="1"></td><td rowspan="1" colspan="1"></td><td align="center" rowspan="1" colspan="1">28677.68</td><td align="center" rowspan="1" colspan="1">30248.01</td><td align="center" rowspan="1" colspan="1">0.0015</td><td align="center" rowspan="1" colspan="1">0.0047</td></tr></tbody></table></div><div id="largeobj_id725938" class="largeobj-link align_right" style="display: none"><a target="object" href="/articles/PMC2559849/table/T2/?report=objectonly">Open in a separate window</a></div><div class="tblwrap-foot"><p id="id726522">Comparison of the various non-homogeneous models with the homogeneous case, using different criteria. <em>k </em>is the number of parameters and <em>lnL </em>is the log likelihood of each model. The Akaike's information criterion (AIC) of each model is defined as 2<em>k </em>- 2&#x000b7;<em>lnL</em>, and the lowest value, corresponding to the best model according to this criterion is in bold font. The Bayesian information criterion (BIC) is computed as <em>k</em>&#x000b7; ln(<em>n</em>) - 2&#x000b7;<em>lnL</em>, <em>n </em>= 527 being the number of observations. The lowest value is in bold font. The likelihood ratio test (LRT) allows to compare nested models only, and is defined as minus two times the logarithm of the ratio of likelihoods. All LRT are significant at the 0.1% level. This ratio follows a <em>&#x003c7;</em><sup>2 </sup>distribution with the number of additional parameters as the degrees of freedom. The last two columns show the p-values of the two Bowker's test introduced in this paper.</p></div></div></div></div><div id="id726564" class="tsec sec"><h2 class="head no_bottom_margin" id="id726564title">Conclusion</h2><p id="id726569" class="p p-first-last">Bio++ is a growing set of libraries designed for sequence, phylogenetic and molecular evolution analyzes. In this article extensions allowing to implement a wide variety of non-homogeneous models of sequence evolution were introduced. Combined with support for rates across sites and heterotachous models of evolution, and with routines for optimizing parameters and tree topology in the maximum likelihood framework, they provide a comprehensive platform for phylogenetic studies, either for bioinformaticians willing to develop their own software, or for biologists characterizing the evolution of a particular set of sequences using the BppML and BppSegGen programs. Whilst being a generalist program implementing a large variety of models, BppML was shown to be of a similar quality as programs dedicated to particular homogeneous or non-homogeneous models of evolution, achieving higher likelihood scores with smaller memory requirements while conserving reasonable running-times. Its joint use with BppSeqGen permits to precisely study the evolution of a particular data set through parametric bootstrapping, and may be used to generate realistic artificial data sets to study the robustness of phylogenetic reconstruction methods in the presence of heterogeneity and heterotachy. Further developments may involve methods to optimize the number of models necessary to account for the heterogeneity in a data set, or methods to explore the space of tree topologies with a broad range of non-homogeneous models of sequence evolution.</p></div><div id="id726584" class="tsec sec"><h2 class="head no_bottom_margin" id="id726584title">Methods</h2><div id="id726590" class="sec sec-first"><h3 id="id726590title">Data and phylogeny reconstruction</h3><p id="id726593" class="p p-first-last">RNA sequences from the small and the large subunit of the ribosome were aligned and concatenated. Sequences coming from 22 Archaea, 34 Bacteria and 36 Eukaryotes were selected to yield a data set containing 92 sequences and 527 complete sites, with G+C contents ranging from 43% to 71%. A phylogenetic tree was built with nhPhyML [<a href="#B6" rid="B6" class=" bibr popnode">6</a>]. For additional information, please refer to [<a href="#B6" rid="B6" class=" bibr popnode">6</a>].</p></div><div id="id726615" class="sec"><h3 id="id726615title">Comparing likelihood optimizations</h3><p id="id726618" class="p p-first-last">The NHML, (NH)PhyML and BppML programs were used to compare optimization performances. The programs were run on the data set from [<a href="#B6" rid="B6" class=" bibr popnode">6</a>], after all columns in the alignment containing at least either a gap or an unknown character had been removed. The phylogenetic tree from [<a href="#B6" rid="B6" class=" bibr popnode">6</a>] was used as a fixed topology, and the branch lengths used as initial values for the optimization. To allow the comparison between the three programs, the Kimura two parameters model of substitution [<a href="#B35" rid="B35" class=" bibr popnode">35</a>] was used for homogeneous models and models derived from Tamura's 1992 model [<a href="#B27" rid="B27" class=" bibr popnode">27</a>] for non-homogeneous models. Initial values were set to 1 and 0.5 for the <em>&#x003ba; </em>and <em>&#x003b8; </em>parameters respectively. A Gamma (4 classes) + invariant rates across sites distribution was also tested, with initial value set to 0.5 for the Gamma shape parameter, and 0.2 for the proportion of invariants. Galtier's 2001 [<a href="#B22" rid="B22" class=" bibr popnode">22</a>] heterotachous model was also tested, with 4 rate classes, initial values of the shape parameter set to 0.5, and initial value of the rate change parameter set to 0.5. The precision in the optimization algorithm was set to 0.000001 for the three programs. The total length of execution was corrected according to the average CPU usage, and the memory usage corresponds to the maximum reached during program execution, as reported by the Unix "top" command. All calculations were performed on a 64 bits Intel(R) Core(TM)2 Duo, CPU 2.66 GHz.</p></div><div id="id726679" class="sec"><h3 id="id726679title">Assessing the convergence of the optimization procedure</h3><p id="id726682" class="p p-first-last">Different initial values were used as initial guesses for the optimization algorithm. The GC frequencies and the proportion of invariant sites were chosen randomly from a uniform distribution between 0 and 1. The transitions/transversions ratio and the alpha parameter of the rate distribution were picked from a [0, 5] and [0.2, 2] uniform distributions, respectively. Branch lengths were taken from a uniform distribution between 0 and 0.1.</p></div><div id="id726688" class="sec sec-last"><h3 id="id726688title">Computing p-values for Bowker tests</h3><p id="id726691" class="p p-first">Alignment-wise tests for non-homogeneity were performed using two types of statistics:</p><p id="id726693">&#x02022; The number of 5% significant pairwise tests,</p><p id="id726695">&#x02022; The median of pairwise statistics.</p><p id="id726698">In both cases, the global p-value was computed as</p><div class="disp-formula" id="bmcM1"><div class="f"><math xmlns:mml="http://www.w3.org/1998/Math/MathML" display="block" id="M1" name="1471-2148-8-255-i1" overflow="scroll"><semantics definitionURL="" encoding=""><mrow><mtext>p</mtext><mo>&#x02212;</mo><mtext>value</mtext><mo>=</mo><mfrac><mrow><msub><mi>N</mi><mn>2</mn></msub><mo>+</mo><mn>1</mn></mrow><mrow><msub><mi>N</mi><mn>1</mn></msub><mo>+</mo><mn>1</mn></mrow></mfrac><mo>,</mo></mrow></semantics></math></div><div class="l">(1)</div></div><p></p><p id="id726757">where <em>N</em><sub>1 </sub>is the number of simulations performed under the null model, and <em>N</em><sub>2 </sub>is the number of values of the statistic in the simulations that were greater or equal to the observed one, measured from the real data set. In this study, <em>N</em><sub>1 </sub>was set to 10,000.</p><p id="id726778" class="p p-last">Program source code for performing Bowker's test is provided as Additional file <a href="#S2" rid="S2" class=" supplementary-material">2</a>. The data and scripts to run the analyses are in Additional file <a href="#S3" rid="S3" class=" supplementary-material">3</a>.</p></div></div><div id="id726797" class="tsec sec"><h2 class="head no_bottom_margin" id="id726797title">Availability and requirements</h2><p id="id726800" class="p p-first"><strong>Project name: </strong>The Bio++ libraries (version 1.6) and programs suite (version 1.0).</p><p id="id726805"><strong>Project home page: </strong><a href="http://kimura.univ-montp2.fr/BioPP" data-ga-action="click_feat_suppl" ref="reftype=extlink&amp;article-id=1188243&amp;issue-id=31273&amp;journal-id=409&amp;FROM=Article%7CBody&amp;TO=External%7CLink%7CURI" target="_blank">http://kimura.univ-montp2.fr/BioPP</a> and <a href="http://home.gna.org/bppsuite" data-ga-action="click_feat_suppl" ref="reftype=extlink&amp;article-id=1188243&amp;issue-id=31273&amp;journal-id=409&amp;FROM=Article%7CBody&amp;TO=External%7CLink%7CURI" target="_blank">http://home.gna.org/bppsuite</a></p><p id="id726823"><strong>Operating systems: </strong>Any platform with a C++ compiler and supporting the Standard Template Library</p><p id="id726827"><strong>Programming language: </strong>C++</p><p id="id726832"><strong>Other requirements: </strong>The C++ Standard Template Library</p><p id="id726836" class="p p-last"><strong>License: </strong>The CeCILL free software license (GNU compatible)</p></div><div id="id726841" class="tsec sec"><h2 class="head no_bottom_margin" id="id726841title">Authors' contributions</h2><p id="id726844" class="p p-first-last">BB and JD designed the method, implemented the software and wrote the article. JD ran the analyses.</p></div><div id="id726847" class="tsec sec"><a id="supplementary-material-sec"></a><h2 class="head no_bottom_margin" id="id726847title">Supplementary Material</h2><!--/article/body/sec/--><div class="sec suppmat" id="S1"><!--caption a9--><strong>Additional file 1:</strong><p id="id726866"><strong>Detailed results of model comparison</strong>. OpenDocument spreadsheet (.ods) file containing detailed results from table <a href="/articles/PMC2559849/table/T1/" target="table" class="fig-table-link figpopup" rid-figpopup="T1" rid-ob="ob-T1" co-legend-rid=""><span style="position: relative;text-decoration:none;">&#x200B;<span class="figpopup-sensitive-area" style="left: -2.5em;">table1,</span></span><span>1</span></a>, with parameter estimates obtained.</p><div class="sup-box half_rhythm" id="id726879"><a href="/articles/PMC2559849/bin/1471-2148-8-255-S1.ods" data-ga-action="click_feat_suppl">Click here for file</a><sup>(21K, ods)</sup></div></div><div class="sec suppmat" id="S2"><!--caption a9--><strong>Additional file 2:</strong><p id="id726908"><strong>Program to compute Bowker's test</strong>. Zip archive containing the C++ program used to compute Bowker's test.</p><div class="sup-box half_rhythm" id="id726913"><a href="/articles/PMC2559849/bin/1471-2148-8-255-S2.zip" data-ga-action="click_feat_suppl">Click here for file</a><sup>(4.5K, zip)</sup></div></div><div class="sec suppmat" id="S3"><!--caption a9--><strong>Additional file 3:</strong><p id="id726943"><strong>Data set, tree and scripts for running Bowker's tests</strong>. Zip archive containing the sequence alignment and phylogenetic tree used, together with scripts for running the tests presented in this article.</p><div class="sup-box half_rhythm" id="id726948"><a href="/articles/PMC2559849/bin/1471-2148-8-255-S3.zip" data-ga-action="click_feat_suppl">Click here for file</a><sup>(49K, zip)</sup></div></div></div><div id="id726965" class="tsec bk-sec"><h2 class="head no_bottom_margin" id="id726965title">Acknowledgements</h2><!--/article/back/sec/--><p id="id726969" class="p p-first-last">The authors would like to thank Manolo Gouy, Nicolas Galtier, Mathieu Emily and Matthew Spencer for helpful comments on this manuscript.</p></div><div id="id726972" class="tsec sec"><h2 class="head no_bottom_margin" id="id726972title">References</h2><div class="ref-list-sec sec" id="reference-list"><ul class="back-ref-list" style="list-style-type:decimal;"><li id="B1"><span class="mixed-citation">Williams PD, Pollock DD, Blackburne BP, Goldstein RA. Assessing the accuracy of ancestral protein reconstruction methods. <span><span class="ref-journal">PLoS Comput Biol. </span>2006;<span class="ref-vol">2</span>:e69–e69. doi: 10.1371/journal.pcbi.0020069.</span> [<a href="http://europepmc.org/abstract/MED/16789817" target="pmc_ext" ref="reftype=pubmed&amp;article-id=1188243&amp;issue-id=31273&amp;journal-id=409&amp;FROM=Article%7CCitationRef&amp;TO=Entrez%7CPubMed%7CRecord">PubMed</a>] [<a href="//dx.doi.org/10.1371%2Fjournal.pcbi.0020069" target="pmc_ext" ref="reftype=other&amp;article-id=1188243&amp;issue-id=31273&amp;journal-id=409&amp;FROM=Article%7CCitationRef&amp;TO=Content%20Provider%7CCrosslink%7CDOI">CrossRef</a>] <span class="nowrap">[<a href="https://scholar.google.com/scholar_lookup?journal=PLoS+Comput+Biol&amp;title=Assessing+the+accuracy+of+ancestral+protein+reconstruction+methods&amp;author=PD+Williams&amp;author=DD+Pollock&amp;author=BP+Blackburne&amp;author=RA+Goldstein&amp;volume=2&amp;publication_year=2006&amp;pages=e69-e69&amp;pmid=16789817&amp;doi=10.1371/journal.pcbi.0020069&amp;" target="pmc_ext" ref="reftype=other&amp;article-id=1188243&amp;issue-id=31273&amp;journal-id=409&amp;FROM=Article%7CCitationRef&amp;TO=Content%20Provider%7CLink%7CGoogle%20Scholar">Google Scholar</a>]</span></span></li><li id="B2"><span class="mixed-citation">Goldman N. Statistical tests of models of DNA substitution. <span><span class="ref-journal">J Mol Evol. </span>1993;<span class="ref-vol">36</span>:182–198. doi: 10.1007/BF00166252.</span> [<a href="http://europepmc.org/abstract/MED/7679448" target="pmc_ext" ref="reftype=pubmed&amp;article-id=1188243&amp;issue-id=31273&amp;journal-id=409&amp;FROM=Article%7CCitationRef&amp;TO=Entrez%7CPubMed%7CRecord">PubMed</a>] [<a href="//dx.doi.org/10.1007%2FBF00166252" target="pmc_ext" ref="reftype=other&amp;article-id=1188243&amp;issue-id=31273&amp;journal-id=409&amp;FROM=Article%7CCitationRef&amp;TO=Content%20Provider%7CCrosslink%7CDOI">CrossRef</a>] <span class="nowrap">[<a href="https://scholar.google.com/scholar_lookup?journal=J+Mol+Evol&amp;title=Statistical+tests+of+models+of+DNA+substitution&amp;author=N+Goldman&amp;volume=36&amp;publication_year=1993&amp;pages=182-198&amp;pmid=7679448&amp;doi=10.1007/BF00166252&amp;" target="pmc_ext" ref="reftype=other&amp;article-id=1188243&amp;issue-id=31273&amp;journal-id=409&amp;FROM=Article%7CCitationRef&amp;TO=Content%20Provider%7CLink%7CGoogle%20Scholar">Google Scholar</a>]</span></span></li><li id="B3"><span class="mixed-citation">Kuhner MK, Felsenstein J. A simulation comparison of phylogeny algorithms under equal and unequal evolutionary rates. <span><span class="ref-journal">Mol Biol Evol. </span>1994;<span class="ref-vol">11</span>:459–468.</span> [<a href="http://europepmc.org/abstract/MED/8015439" target="pmc_ext" ref="reftype=pubmed&amp;article-id=1188243&amp;issue-id=31273&amp;journal-id=409&amp;FROM=Article%7CCitationRef&amp;TO=Entrez%7CPubMed%7CRecord">PubMed</a>] <span class="nowrap">[<a href="https://scholar.google.com/scholar_lookup?journal=Mol+Biol+Evol&amp;title=A+simulation+comparison+of+phylogeny+algorithms+under+equal+and+unequal+evolutionary+rates&amp;author=MK+Kuhner&amp;author=J+Felsenstein&amp;volume=11&amp;publication_year=1994&amp;pages=459-468&amp;pmid=8015439&amp;" target="pmc_ext" ref="reftype=other&amp;article-id=1188243&amp;issue-id=31273&amp;journal-id=409&amp;FROM=Article%7CCitationRef&amp;TO=Content%20Provider%7CLink%7CGoogle%20Scholar">Google Scholar</a>]</span></span></li><li id="B4"><span class="mixed-citation">Guindon S, Gascuel O. A simple, fast, and accurate algorithm to estimate large phylogenies by maximum likelihood. <span><span class="ref-journal">Syst Biol. </span>2003;<span class="ref-vol">52</span>:696–704. doi: 10.1080/10635150390235520.</span> [<a href="http://europepmc.org/abstract/MED/14530136" target="pmc_ext" ref="reftype=pubmed&amp;article-id=1188243&amp;issue-id=31273&amp;journal-id=409&amp;FROM=Article%7CCitationRef&amp;TO=Entrez%7CPubMed%7CRecord">PubMed</a>] [<a href="//dx.doi.org/10.1080%2F10635150390235520" target="pmc_ext" ref="reftype=other&amp;article-id=1188243&amp;issue-id=31273&amp;journal-id=409&amp;FROM=Article%7CCitationRef&amp;TO=Content%20Provider%7CCrosslink%7CDOI">CrossRef</a>] <span class="nowrap">[<a href="https://scholar.google.com/scholar_lookup?journal=Syst+Biol&amp;title=A+simple,+fast,+and+accurate+algorithm+to+estimate+large+phylogenies+by+maximum+likelihood&amp;author=S+Guindon&amp;author=O+Gascuel&amp;volume=52&amp;publication_year=2003&amp;pages=696-704&amp;pmid=14530136&amp;doi=10.1080/10635150390235520&amp;" target="pmc_ext" ref="reftype=other&amp;article-id=1188243&amp;issue-id=31273&amp;journal-id=409&amp;FROM=Article%7CCitationRef&amp;TO=Content%20Provider%7CLink%7CGoogle%20Scholar">Google Scholar</a>]</span></span></li><li id="B5"><span class="mixed-citation">Lopez P, Casane D, Philippe H. Heterotachy, an important process of protein evolution. <span><span class="ref-journal">Mol Biol Evol. </span>2002;<span class="ref-vol">19</span>:1–7.</span> [<a href="http://europepmc.org/abstract/MED/11752184" target="pmc_ext" ref="reftype=pubmed&amp;article-id=1188243&amp;issue-id=31273&amp;journal-id=409&amp;FROM=Article%7CCitationRef&amp;TO=Entrez%7CPubMed%7CRecord">PubMed</a>] <span class="nowrap">[<a href="https://scholar.google.com/scholar_lookup?journal=Mol+Biol+Evol&amp;title=Heterotachy,+an+important+process+of+protein+evolution&amp;author=P+Lopez&amp;author=D+Casane&amp;author=H+Philippe&amp;volume=19&amp;publication_year=2002&amp;pages=1-7&amp;pmid=11752184&amp;" target="pmc_ext" ref="reftype=other&amp;article-id=1188243&amp;issue-id=31273&amp;journal-id=409&amp;FROM=Article%7CCitationRef&amp;TO=Content%20Provider%7CLink%7CGoogle%20Scholar">Google Scholar</a>]</span></span></li><li id="B6"><span class="mixed-citation">Boussau B, Gouy M. Efficient likelihood computations with nonreversible models of evolution. <span><span class="ref-journal">Syst Biol. </span>2006;<span class="ref-vol">55</span>:756–768. doi: 10.1080/10635150600975218.</span> [<a href="http://europepmc.org/abstract/MED/17060197" target="pmc_ext" ref="reftype=pubmed&amp;article-id=1188243&amp;issue-id=31273&amp;journal-id=409&amp;FROM=Article%7CCitationRef&amp;TO=Entrez%7CPubMed%7CRecord">PubMed</a>] [<a href="//dx.doi.org/10.1080%2F10635150600975218" target="pmc_ext" ref="reftype=other&amp;article-id=1188243&amp;issue-id=31273&amp;journal-id=409&amp;FROM=Article%7CCitationRef&amp;TO=Content%20Provider%7CCrosslink%7CDOI">CrossRef</a>] <span class="nowrap">[<a href="https://scholar.google.com/scholar_lookup?journal=Syst+Biol&amp;title=Efficient+likelihood+computations+with+nonreversible+models+of+evolution&amp;author=B+Boussau&amp;author=M+Gouy&amp;volume=55&amp;publication_year=2006&amp;pages=756-768&amp;pmid=17060197&amp;doi=10.1080/10635150600975218&amp;" target="pmc_ext" ref="reftype=other&amp;article-id=1188243&amp;issue-id=31273&amp;journal-id=409&amp;FROM=Article%7CCitationRef&amp;TO=Content%20Provider%7CLink%7CGoogle%20Scholar">Google Scholar</a>]</span></span></li><li id="B7"><span class="mixed-citation">Kolaczkowski B, Thornton JW. Performance of maximum parsimony and likelihood phylogenetics when evolution is heterogeneous. <span><span class="ref-journal">Nature. </span>2004;<span class="ref-vol">431</span>:980–984. doi: 10.1038/nature02917.</span> [<a href="http://europepmc.org/abstract/MED/15496922" target="pmc_ext" ref="reftype=pubmed&amp;article-id=1188243&amp;issue-id=31273&amp;journal-id=409&amp;FROM=Article%7CCitationRef&amp;TO=Entrez%7CPubMed%7CRecord">PubMed</a>] [<a href="//dx.doi.org/10.1038%2Fnature02917" target="pmc_ext" ref="reftype=other&amp;article-id=1188243&amp;issue-id=31273&amp;journal-id=409&amp;FROM=Article%7CCitationRef&amp;TO=Content%20Provider%7CCrosslink%7CDOI">CrossRef</a>] <span class="nowrap">[<a href="https://scholar.google.com/scholar_lookup?journal=Nature&amp;title=Performance+of+maximum+parsimony+and+likelihood+phylogenetics+when+evolution+is+heterogeneous&amp;author=B+Kolaczkowski&amp;author=JW+Thornton&amp;volume=431&amp;publication_year=2004&amp;pages=980-984&amp;pmid=15496922&amp;doi=10.1038/nature02917&amp;" target="pmc_ext" ref="reftype=other&amp;article-id=1188243&amp;issue-id=31273&amp;journal-id=409&amp;FROM=Article%7CCitationRef&amp;TO=Content%20Provider%7CLink%7CGoogle%20Scholar">Google Scholar</a>]</span></span></li><li id="B8"><span class="mixed-citation">Philippe H, Zhou Y, Brinkmann H, Rodrigue N, Delsuc F. Heterotachy and long-branch attraction in phylogenetics. <span><span class="ref-journal">BMC Evol Biol. </span>2005;<span class="ref-vol">5</span>:50–50. doi: 10.1186/1471-2148-5-50.</span> <span class="nowrap">[<a class="int-reflink" href="/articles/PMC1274308/">PMC free article</a>]</span> [<a href="http://europepmc.org/abstract/MED/16209710" target="pmc_ext" ref="reftype=pubmed&amp;article-id=1188243&amp;issue-id=31273&amp;journal-id=409&amp;FROM=Article%7CCitationRef&amp;TO=Entrez%7CPubMed%7CRecord">PubMed</a>] [<a href="//dx.doi.org/10.1186%2F1471-2148-5-50" target="pmc_ext" ref="reftype=other&amp;article-id=1188243&amp;issue-id=31273&amp;journal-id=409&amp;FROM=Article%7CCitationRef&amp;TO=Content%20Provider%7CCrosslink%7CDOI">CrossRef</a>] <span class="nowrap">[<a href="https://scholar.google.com/scholar_lookup?journal=BMC+Evol+Biol&amp;title=Heterotachy+and+long-branch+attraction+in+phylogenetics&amp;author=H+Philippe&amp;author=Y+Zhou&amp;author=H+Brinkmann&amp;author=N+Rodrigue&amp;author=F+Delsuc&amp;volume=5&amp;publication_year=2005&amp;pages=50-50&amp;pmid=16209710&amp;doi=10.1186/1471-2148-5-50&amp;" target="pmc_ext" ref="reftype=other&amp;article-id=1188243&amp;issue-id=31273&amp;journal-id=409&amp;FROM=Article%7CCitationRef&amp;TO=Content%20Provider%7CLink%7CGoogle%20Scholar">Google Scholar</a>]</span></span></li><li id="B9"><span class="mixed-citation">Goldman N, Anderson JP, Rodrigo AG. Likelihood-based tests of topologies in phylogenetics. <span><span class="ref-journal">Syst Biol. </span>2000;<span class="ref-vol">49</span>:652–670. doi: 10.1080/106351500750049752.</span> [<a href="http://europepmc.org/abstract/MED/12116432" target="pmc_ext" ref="reftype=pubmed&amp;article-id=1188243&amp;issue-id=31273&amp;journal-id=409&amp;FROM=Article%7CCitationRef&amp;TO=Entrez%7CPubMed%7CRecord">PubMed</a>] [<a href="//dx.doi.org/10.1080%2F106351500750049752" target="pmc_ext" ref="reftype=other&amp;article-id=1188243&amp;issue-id=31273&amp;journal-id=409&amp;FROM=Article%7CCitationRef&amp;TO=Content%20Provider%7CCrosslink%7CDOI">CrossRef</a>] <span class="nowrap">[<a href="https://scholar.google.com/scholar_lookup?journal=Syst+Biol&amp;title=Likelihood-based+tests+of+topologies+in+phylogenetics&amp;author=N+Goldman&amp;author=JP+Anderson&amp;author=AG+Rodrigo&amp;volume=49&amp;publication_year=2000&amp;pages=652-670&amp;pmid=12116432&amp;doi=10.1080/106351500750049752&amp;" target="pmc_ext" ref="reftype=other&amp;article-id=1188243&amp;issue-id=31273&amp;journal-id=409&amp;FROM=Article%7CCitationRef&amp;TO=Content%20Provider%7CLink%7CGoogle%20Scholar">Google Scholar</a>]</span></span></li><li id="B10"><span class="mixed-citation">Bollback JP. Bayesian model adequacy and choice in phylogenetics. <span><span class="ref-journal">Mol Biol Evol. </span>2002;<span class="ref-vol">19</span>:1171–1180.</span> [<a href="http://europepmc.org/abstract/MED/12082136" target="pmc_ext" ref="reftype=pubmed&amp;article-id=1188243&amp;issue-id=31273&amp;journal-id=409&amp;FROM=Article%7CCitationRef&amp;TO=Entrez%7CPubMed%7CRecord">PubMed</a>] <span class="nowrap">[<a href="https://scholar.google.com/scholar_lookup?journal=Mol+Biol+Evol&amp;title=Bayesian+model+adequacy+and+choice+in+phylogenetics&amp;author=JP+Bollback&amp;volume=19&amp;publication_year=2002&amp;pages=1171-1180&amp;pmid=12082136&amp;" target="pmc_ext" ref="reftype=other&amp;article-id=1188243&amp;issue-id=31273&amp;journal-id=409&amp;FROM=Article%7CCitationRef&amp;TO=Content%20Provider%7CLink%7CGoogle%20Scholar">Google Scholar</a>]</span></span></li><li id="B11"><span class="mixed-citation">Foster PG. Modeling compositional heterogeneity. <span><span class="ref-journal">Syst Biol. </span>2004;<span class="ref-vol">53</span>:485–495. doi: 10.1080/10635150490445779.</span> [<a href="http://europepmc.org/abstract/MED/15503675" target="pmc_ext" ref="reftype=pubmed&amp;article-id=1188243&amp;issue-id=31273&amp;journal-id=409&amp;FROM=Article%7CCitationRef&amp;TO=Entrez%7CPubMed%7CRecord">PubMed</a>] [<a href="//dx.doi.org/10.1080%2F10635150490445779" target="pmc_ext" ref="reftype=other&amp;article-id=1188243&amp;issue-id=31273&amp;journal-id=409&amp;FROM=Article%7CCitationRef&amp;TO=Content%20Provider%7CCrosslink%7CDOI">CrossRef</a>] <span class="nowrap">[<a href="https://scholar.google.com/scholar_lookup?journal=Syst+Biol&amp;title=Modeling+compositional+heterogeneity&amp;author=PG+Foster&amp;volume=53&amp;publication_year=2004&amp;pages=485-495&amp;pmid=15503675&amp;doi=10.1080/10635150490445779&amp;" target="pmc_ext" ref="reftype=other&amp;article-id=1188243&amp;issue-id=31273&amp;journal-id=409&amp;FROM=Article%7CCitationRef&amp;TO=Content%20Provider%7CLink%7CGoogle%20Scholar">Google Scholar</a>]</span></span></li><li id="B12"><span class="mixed-citation">Lartillot N, Brinkmann H, Philippe H. Suppression of long-branch attraction artefacts in the animal phylogeny using a site-heterogeneous model. <span><span class="ref-journal">BMC Evol Biol. </span>2007;<span class="ref-vol">7</span>(Suppl 1):S4–S4. doi: 10.1186/1471-2148-7-S1-S4.</span> <span class="nowrap">[<a class="int-reflink" href="/articles/PMC1796613/">PMC free article</a>]</span> [<a href="http://europepmc.org/abstract/MED/17288577" target="pmc_ext" ref="reftype=pubmed&amp;article-id=1188243&amp;issue-id=31273&amp;journal-id=409&amp;FROM=Article%7CCitationRef&amp;TO=Entrez%7CPubMed%7CRecord">PubMed</a>] [<a href="//dx.doi.org/10.1186%2F1471-2148-7-S1-S4" target="pmc_ext" ref="reftype=other&amp;article-id=1188243&amp;issue-id=31273&amp;journal-id=409&amp;FROM=Article%7CCitationRef&amp;TO=Content%20Provider%7CCrosslink%7CDOI">CrossRef</a>] <span class="nowrap">[<a href="https://scholar.google.com/scholar_lookup?journal=BMC+Evol+Biol&amp;title=Suppression+of+long-branch+attraction+artefacts+in+the+animal+phylogeny+using+a+site-heterogeneous+model&amp;author=N+Lartillot&amp;author=H+Brinkmann&amp;author=H+Philippe&amp;volume=7&amp;issue=Suppl+1&amp;publication_year=2007&amp;pages=S4-S4&amp;pmid=17288577&amp;doi=10.1186/1471-2148-7-S1-S4&amp;" target="pmc_ext" ref="reftype=other&amp;article-id=1188243&amp;issue-id=31273&amp;journal-id=409&amp;FROM=Article%7CCitationRef&amp;TO=Content%20Provider%7CLink%7CGoogle%20Scholar">Google Scholar</a>]</span></span></li><li id="B13"><span class="mixed-citation">Blanquart S, Lartillot N. A Site- and Time-Heterogeneous Model of Amino-Acid Replacement. <span class="ref-journal">Mol Biol Evol.</span> 2008.  [<a href="http://europepmc.org/abstract/MED/18234708" target="pmc_ext" ref="reftype=pubmed&amp;article-id=1188243&amp;issue-id=31273&amp;journal-id=409&amp;FROM=Article%7CCitationRef&amp;TO=Entrez%7CPubMed%7CRecord">PubMed</a>]</span></li><li id="B14"><span class="mixed-citation">Rambaut A, Grassly NC. Seq-Gen: an application for the Monte Carlo simulation of DNA sequence evolution along phylogenetic trees. <span><span class="ref-journal">Cabios. </span>1997;<span class="ref-vol">13</span>:235–238.</span> [<a href="http://europepmc.org/abstract/MED/9183526" target="pmc_ext" ref="reftype=pubmed&amp;article-id=1188243&amp;issue-id=31273&amp;journal-id=409&amp;FROM=Article%7CCitationRef&amp;TO=Entrez%7CPubMed%7CRecord">PubMed</a>] <span class="nowrap">[<a href="https://scholar.google.com/scholar_lookup?journal=Cabios&amp;title=Seq-Gen:+an+application+for+the+Monte+Carlo+simulation+of+DNA+sequence+evolution+along+phylogenetic+trees&amp;author=A+Rambaut&amp;author=NC+Grassly&amp;volume=13&amp;publication_year=1997&amp;pages=235-238&amp;pmid=9183526&amp;" target="pmc_ext" ref="reftype=other&amp;article-id=1188243&amp;issue-id=31273&amp;journal-id=409&amp;FROM=Article%7CCitationRef&amp;TO=Content%20Provider%7CLink%7CGoogle%20Scholar">Google Scholar</a>]</span></span></li><li id="B15"><span class="mixed-citation">Yang Z. PAML 4: phylogenetic analysis by maximum likelihood. <span><span class="ref-journal">Mol Biol Evol. </span>2007;<span class="ref-vol">24</span>:1586–1591. doi: 10.1093/molbev/msm088.</span> [<a href="http://europepmc.org/abstract/MED/17483113" target="pmc_ext" ref="reftype=pubmed&amp;article-id=1188243&amp;issue-id=31273&amp;journal-id=409&amp;FROM=Article%7CCitationRef&amp;TO=Entrez%7CPubMed%7CRecord">PubMed</a>] [<a href="//dx.doi.org/10.1093%2Fmolbev%2Fmsm088" target="pmc_ext" ref="reftype=other&amp;article-id=1188243&amp;issue-id=31273&amp;journal-id=409&amp;FROM=Article%7CCitationRef&amp;TO=Content%20Provider%7CCrosslink%7CDOI">CrossRef</a>] <span class="nowrap">[<a href="https://scholar.google.com/scholar_lookup?journal=Mol+Biol+Evol&amp;title=PAML+4:+phylogenetic+analysis+by+maximum+likelihood&amp;author=Z+Yang&amp;volume=24&amp;publication_year=2007&amp;pages=1586-1591&amp;pmid=17483113&amp;doi=10.1093/molbev/msm088&amp;" target="pmc_ext" ref="reftype=other&amp;article-id=1188243&amp;issue-id=31273&amp;journal-id=409&amp;FROM=Article%7CCitationRef&amp;TO=Content%20Provider%7CLink%7CGoogle%20Scholar">Google Scholar</a>]</span></span></li><li id="B16"><span class="mixed-citation">Sueoka N. On the genetic basis of variation and heterogeneity of DNA base composition. <span><span class="ref-journal">Proc Natl Acad Sci USA. </span>1962;<span class="ref-vol">48</span>:582–592. doi: 10.1073/pnas.48.4.582.</span> <span class="nowrap">[<a class="int-reflink" href="/articles/PMC220819/">PMC free article</a>]</span> [<a href="http://europepmc.org/abstract/MED/13918161" target="pmc_ext" ref="reftype=pubmed&amp;article-id=1188243&amp;issue-id=31273&amp;journal-id=409&amp;FROM=Article%7CCitationRef&amp;TO=Entrez%7CPubMed%7CRecord">PubMed</a>] [<a href="//dx.doi.org/10.1073%2Fpnas.48.4.582" target="pmc_ext" ref="reftype=other&amp;article-id=1188243&amp;issue-id=31273&amp;journal-id=409&amp;FROM=Article%7CCitationRef&amp;TO=Content%20Provider%7CCrosslink%7CDOI">CrossRef</a>] <span class="nowrap">[<a href="https://scholar.google.com/scholar_lookup?journal=Proc+Natl+Acad+Sci+USA&amp;title=On+the+genetic+basis+of+variation+and+heterogeneity+of+DNA+base+composition&amp;author=N+Sueoka&amp;volume=48&amp;publication_year=1962&amp;pages=582-592&amp;pmid=13918161&amp;doi=10.1073/pnas.48.4.582&amp;" target="pmc_ext" ref="reftype=other&amp;article-id=1188243&amp;issue-id=31273&amp;journal-id=409&amp;FROM=Article%7CCitationRef&amp;TO=Content%20Provider%7CLink%7CGoogle%20Scholar">Google Scholar</a>]</span></span></li><li id="B17"><span class="mixed-citation">Galtier N, Lobry JR. Relationships between genomic G+C content, RNA secondary structures, and optimal growth temperature in prokaryotes. <span><span class="ref-journal">J Mol Evol. </span>1997;<span class="ref-vol">44</span>:632–636. doi: 10.1007/PL00006186.</span> [<a href="http://europepmc.org/abstract/MED/9169555" target="pmc_ext" ref="reftype=pubmed&amp;article-id=1188243&amp;issue-id=31273&amp;journal-id=409&amp;FROM=Article%7CCitationRef&amp;TO=Entrez%7CPubMed%7CRecord">PubMed</a>] [<a href="//dx.doi.org/10.1007%2FPL00006186" target="pmc_ext" ref="reftype=other&amp;article-id=1188243&amp;issue-id=31273&amp;journal-id=409&amp;FROM=Article%7CCitationRef&amp;TO=Content%20Provider%7CCrosslink%7CDOI">CrossRef</a>] <span class="nowrap">[<a href="https://scholar.google.com/scholar_lookup?journal=J+Mol+Evol&amp;title=Relationships+between+genomic+G+C+content,+RNA+secondary+structures,+and+optimal+growth+temperature+in+prokaryotes&amp;author=N+Galtier&amp;author=JR+Lobry&amp;volume=44&amp;publication_year=1997&amp;pages=632-636&amp;pmid=9169555&amp;doi=10.1007/PL00006186&amp;" target="pmc_ext" ref="reftype=other&amp;article-id=1188243&amp;issue-id=31273&amp;journal-id=409&amp;FROM=Article%7CCitationRef&amp;TO=Content%20Provider%7CLink%7CGoogle%20Scholar">Google Scholar</a>]</span></span></li><li id="B18"><span class="mixed-citation">Foster PG, Jermiin LS, Hickey DA. Nucleotide composition bias affects amino acid content in proteins coded by animal mitochondria. <span><span class="ref-journal">J Mol Evol. </span>1997;<span class="ref-vol">44</span>:282–288. doi: 10.1007/PL00006145.</span> [<a href="http://europepmc.org/abstract/MED/9060394" target="pmc_ext" ref="reftype=pubmed&amp;article-id=1188243&amp;issue-id=31273&amp;journal-id=409&amp;FROM=Article%7CCitationRef&amp;TO=Entrez%7CPubMed%7CRecord">PubMed</a>] [<a href="//dx.doi.org/10.1007%2FPL00006145" target="pmc_ext" ref="reftype=other&amp;article-id=1188243&amp;issue-id=31273&amp;journal-id=409&amp;FROM=Article%7CCitationRef&amp;TO=Content%20Provider%7CCrosslink%7CDOI">CrossRef</a>] <span class="nowrap">[<a href="https://scholar.google.com/scholar_lookup?journal=J+Mol+Evol&amp;title=Nucleotide+composition+bias+affects+amino+acid+content+in+proteins+coded+by+animal+mitochondria&amp;author=PG+Foster&amp;author=LS+Jermiin&amp;author=DA+Hickey&amp;volume=44&amp;publication_year=1997&amp;pages=282-288&amp;pmid=9060394&amp;doi=10.1007/PL00006145&amp;" target="pmc_ext" ref="reftype=other&amp;article-id=1188243&amp;issue-id=31273&amp;journal-id=409&amp;FROM=Article%7CCitationRef&amp;TO=Content%20Provider%7CLink%7CGoogle%20Scholar">Google Scholar</a>]</span></span></li><li id="B19"><span class="mixed-citation">Zeldovich KB, Berezovsky IN, Shakhnovich EI. Protein and DNA sequence determinants of thermophilic adaptation. <span><span class="ref-journal">PLoS Comput Biol. </span>2007;<span class="ref-vol">3</span>:e5–e5. doi: 10.1371/journal.pcbi.0030005.</span> [<a href="http://europepmc.org/abstract/MED/17222055" target="pmc_ext" ref="reftype=pubmed&amp;article-id=1188243&amp;issue-id=31273&amp;journal-id=409&amp;FROM=Article%7CCitationRef&amp;TO=Entrez%7CPubMed%7CRecord">PubMed</a>] [<a href="//dx.doi.org/10.1371%2Fjournal.pcbi.0030005" target="pmc_ext" ref="reftype=other&amp;article-id=1188243&amp;issue-id=31273&amp;journal-id=409&amp;FROM=Article%7CCitationRef&amp;TO=Content%20Provider%7CCrosslink%7CDOI">CrossRef</a>] <span class="nowrap">[<a href="https://scholar.google.com/scholar_lookup?journal=PLoS+Comput+Biol&amp;title=Protein+and+DNA+sequence+determinants+of+thermophilic+adaptation&amp;author=KB+Zeldovich&amp;author=IN+Berezovsky&amp;author=EI+Shakhnovich&amp;volume=3&amp;publication_year=2007&amp;pages=e5-e5&amp;pmid=17222055&amp;doi=10.1371/journal.pcbi.0030005&amp;" target="pmc_ext" ref="reftype=other&amp;article-id=1188243&amp;issue-id=31273&amp;journal-id=409&amp;FROM=Article%7CCitationRef&amp;TO=Content%20Provider%7CLink%7CGoogle%20Scholar">Google Scholar</a>]</span></span></li><li id="B20"><span class="mixed-citation">Wang HC, Spencer M, Susko E, Roger AJ. Testing for covarion-like evolution in protein sequences. <span><span class="ref-journal">Mol Biol Evol. </span>2007;<span class="ref-vol">24</span>:294–305. doi: 10.1093/molbev/msl155.</span> [<a href="http://europepmc.org/abstract/MED/17056642" target="pmc_ext" ref="reftype=pubmed&amp;article-id=1188243&amp;issue-id=31273&amp;journal-id=409&amp;FROM=Article%7CCitationRef&amp;TO=Entrez%7CPubMed%7CRecord">PubMed</a>] [<a href="//dx.doi.org/10.1093%2Fmolbev%2Fmsl155" target="pmc_ext" ref="reftype=other&amp;article-id=1188243&amp;issue-id=31273&amp;journal-id=409&amp;FROM=Article%7CCitationRef&amp;TO=Content%20Provider%7CCrosslink%7CDOI">CrossRef</a>] <span class="nowrap">[<a href="https://scholar.google.com/scholar_lookup?journal=Mol+Biol+Evol&amp;title=Testing+for+covarion-like+evolution+in+protein+sequences&amp;author=HC+Wang&amp;author=M+Spencer&amp;author=E+Susko&amp;author=AJ+Roger&amp;volume=24&amp;publication_year=2007&amp;pages=294-305&amp;pmid=17056642&amp;doi=10.1093/molbev/msl155&amp;" target="pmc_ext" ref="reftype=other&amp;article-id=1188243&amp;issue-id=31273&amp;journal-id=409&amp;FROM=Article%7CCitationRef&amp;TO=Content%20Provider%7CLink%7CGoogle%20Scholar">Google Scholar</a>]</span></span></li><li id="B21"><span class="mixed-citation">Dutheil J, Gaillard S, Bazin E, Gl&#x000e9;min S, Ranwez V, Galtier N, Belkhir K. Bio++: a set of C++ libraries for sequence analysis, phylogenetics, molecular evolution and population genetics. <span><span class="ref-journal">BMC Bioinformatics. </span>2006;<span class="ref-vol">7</span>:188–188. doi: 10.1186/1471-2105-7-188.</span> <span class="nowrap">[<a class="int-reflink" href="/articles/PMC1501049/">PMC free article</a>]</span> [<a href="http://europepmc.org/abstract/MED/16594991" target="pmc_ext" ref="reftype=pubmed&amp;article-id=1188243&amp;issue-id=31273&amp;journal-id=409&amp;FROM=Article%7CCitationRef&amp;TO=Entrez%7CPubMed%7CRecord">PubMed</a>] [<a href="//dx.doi.org/10.1186%2F1471-2105-7-188" target="pmc_ext" ref="reftype=other&amp;article-id=1188243&amp;issue-id=31273&amp;journal-id=409&amp;FROM=Article%7CCitationRef&amp;TO=Content%20Provider%7CCrosslink%7CDOI">CrossRef</a>] <span class="nowrap">[<a href="https://scholar.google.com/scholar_lookup?journal=BMC+Bioinformatics&amp;title=Bio++:+a+set+of+C+++libraries+for+sequence+analysis,+phylogenetics,+molecular+evolution+and+population+genetics&amp;author=J+Dutheil&amp;author=S+Gaillard&amp;author=E+Bazin&amp;author=S+Gl&#x000e9;min&amp;author=V+Ranwez&amp;volume=7&amp;publication_year=2006&amp;pages=188-188&amp;pmid=16594991&amp;doi=10.1186/1471-2105-7-188&amp;" target="pmc_ext" ref="reftype=other&amp;article-id=1188243&amp;issue-id=31273&amp;journal-id=409&amp;FROM=Article%7CCitationRef&amp;TO=Content%20Provider%7CLink%7CGoogle%20Scholar">Google Scholar</a>]</span></span></li><li id="B22"><span class="mixed-citation">Galtier N. Maximum-likelihood phylogenetic analysis under a covarion-like model. <span><span class="ref-journal">Mol Biol Evol. </span>2001;<span class="ref-vol">18</span>:866–873.</span> [<a href="http://europepmc.org/abstract/MED/11319270" target="pmc_ext" ref="reftype=pubmed&amp;article-id=1188243&amp;issue-id=31273&amp;journal-id=409&amp;FROM=Article%7CCitationRef&amp;TO=Entrez%7CPubMed%7CRecord">PubMed</a>] <span class="nowrap">[<a href="https://scholar.google.com/scholar_lookup?journal=Mol+Biol+Evol&amp;title=Maximum-likelihood+phylogenetic+analysis+under+a+covarion-like+model&amp;author=N+Galtier&amp;volume=18&amp;publication_year=2001&amp;pages=866-873&amp;pmid=11319270&amp;" target="pmc_ext" ref="reftype=other&amp;article-id=1188243&amp;issue-id=31273&amp;journal-id=409&amp;FROM=Article%7CCitationRef&amp;TO=Content%20Provider%7CLink%7CGoogle%20Scholar">Google Scholar</a>]</span></span></li><li id="B23"><span class="mixed-citation">Tuffley C, Steel M. Modeling the covarion hypothesis of nucleotide substitution. <span><span class="ref-journal">Math Biosci. </span>1998;<span class="ref-vol">147</span>:63–91. doi: 10.1016/S0025-5564(97)00081-3.</span> [<a href="http://europepmc.org/abstract/MED/9401352" target="pmc_ext" ref="reftype=pubmed&amp;article-id=1188243&amp;issue-id=31273&amp;journal-id=409&amp;FROM=Article%7CCitationRef&amp;TO=Entrez%7CPubMed%7CRecord">PubMed</a>] [<a href="//dx.doi.org/10.1016%2FS0025-5564(97)00081-3" target="pmc_ext" ref="reftype=other&amp;article-id=1188243&amp;issue-id=31273&amp;journal-id=409&amp;FROM=Article%7CCitationRef&amp;TO=Content%20Provider%7CCrosslink%7CDOI">CrossRef</a>] <span class="nowrap">[<a href="https://scholar.google.com/scholar_lookup?journal=Math+Biosci&amp;title=Modeling+the+covarion+hypothesis+of+nucleotide+substitution&amp;author=C+Tuffley&amp;author=M+Steel&amp;volume=147&amp;publication_year=1998&amp;pages=63-91&amp;pmid=9401352&amp;doi=10.1016/S0025-5564(97)00081-3&amp;" target="pmc_ext" ref="reftype=other&amp;article-id=1188243&amp;issue-id=31273&amp;journal-id=409&amp;FROM=Article%7CCitationRef&amp;TO=Content%20Provider%7CLink%7CGoogle%20Scholar">Google Scholar</a>]</span></span></li><li id="B24"><span class="mixed-citation">Galtier N, Gouy M. Inferring pattern and process: maximum-likelihood implementation of a nonhomogeneous model of DNA sequence evolution for phylogenetic analysis. <span><span class="ref-journal">Mol Biol Evol. </span>1998;<span class="ref-vol">15</span>:871–879.</span> [<a href="http://europepmc.org/abstract/MED/9656487" target="pmc_ext" ref="reftype=pubmed&amp;article-id=1188243&amp;issue-id=31273&amp;journal-id=409&amp;FROM=Article%7CCitationRef&amp;TO=Entrez%7CPubMed%7CRecord">PubMed</a>] <span class="nowrap">[<a href="https://scholar.google.com/scholar_lookup?journal=Mol+Biol+Evol&amp;title=Inferring+pattern+and+process:+maximum-likelihood+implementation+of+a+nonhomogeneous+model+of+DNA+sequence+evolution+for+phylogenetic+analysis&amp;author=N+Galtier&amp;author=M+Gouy&amp;volume=15&amp;publication_year=1998&amp;pages=871-879&amp;pmid=9656487&amp;" target="pmc_ext" ref="reftype=other&amp;article-id=1188243&amp;issue-id=31273&amp;journal-id=409&amp;FROM=Article%7CCitationRef&amp;TO=Content%20Provider%7CLink%7CGoogle%20Scholar">Google Scholar</a>]</span></span></li><li id="B25"><span class="mixed-citation">Felsenstein J. PHYLIP (Phylogeny Inference Package) version 3.6. <span class="ref-journal">Distributed by the author.</span> 2005. </span></li><li id="B26"><span class="mixed-citation">Press WH, Teukolsky SA, Vetterling WT, Flannery BP.  <span class="ref-journal">Numerical Recipes in C. The Art of Scientific Computing.</span> second. Cambridge University Press; 1992.  <span class="nowrap">[<a href="https://scholar.google.com/scholar_lookup?title=Numerical+Recipes+in+C.+The+Art+of+Scientific+Computing&amp;author=WH+Press&amp;author=SA+Teukolsky&amp;author=WT+Vetterling&amp;author=BP+Flannery&amp;publication_year=1992&amp;" target="pmc_ext" ref="reftype=other&amp;article-id=1188243&amp;issue-id=31273&amp;journal-id=409&amp;FROM=Article%7CCitationRef&amp;TO=Content%20Provider%7CLink%7CGoogle%20Scholar">Google Scholar</a>]</span></span></li><li id="B27"><span class="mixed-citation">Tamura K. The rate and pattern of nucleotide substitution in Drosophila mitochondrial DNA. <span><span class="ref-journal">Mol Biol Evol. </span>1992;<span class="ref-vol">9</span>:814–825.</span> [<a href="http://europepmc.org/abstract/MED/1528108" target="pmc_ext" ref="reftype=pubmed&amp;article-id=1188243&amp;issue-id=31273&amp;journal-id=409&amp;FROM=Article%7CCitationRef&amp;TO=Entrez%7CPubMed%7CRecord">PubMed</a>] <span class="nowrap">[<a href="https://scholar.google.com/scholar_lookup?journal=Mol+Biol+Evol&amp;title=The+rate+and+pattern+of+nucleotide+substitution+in+Drosophila+mitochondrial+DNA&amp;author=K+Tamura&amp;volume=9&amp;publication_year=1992&amp;pages=814-825&amp;pmid=1528108&amp;" target="pmc_ext" ref="reftype=other&amp;article-id=1188243&amp;issue-id=31273&amp;journal-id=409&amp;FROM=Article%7CCitationRef&amp;TO=Content%20Provider%7CLink%7CGoogle%20Scholar">Google Scholar</a>]</span></span></li><li id="B28"><span class="mixed-citation">Felsenstein J.  <span class="ref-journal">Inferring Phylogenies.</span> Sinauer Associates, Inc; 2004.  <span class="nowrap">[<a href="https://scholar.google.com/scholar_lookup?title=Inferring+Phylogenies&amp;author=J+Felsenstein&amp;publication_year=2004&amp;" target="pmc_ext" ref="reftype=other&amp;article-id=1188243&amp;issue-id=31273&amp;journal-id=409&amp;FROM=Article%7CCitationRef&amp;TO=Content%20Provider%7CLink%7CGoogle%20Scholar">Google Scholar</a>]</span></span></li><li id="B29"><span class="mixed-citation">Jermiin L, Ho SY, Ababneh F, Robinson J, Larkum AW. The biasing effect of compositional heterogeneity on phylogenetic estimates may be underestimated. <span><span class="ref-journal">Syst Biol. </span>2004;<span class="ref-vol">53</span>:638–643. doi: 10.1080/10635150490468648.</span> [<a href="http://europepmc.org/abstract/MED/15371251" target="pmc_ext" ref="reftype=pubmed&amp;article-id=1188243&amp;issue-id=31273&amp;journal-id=409&amp;FROM=Article%7CCitationRef&amp;TO=Entrez%7CPubMed%7CRecord">PubMed</a>] [<a href="//dx.doi.org/10.1080%2F10635150490468648" target="pmc_ext" ref="reftype=other&amp;article-id=1188243&amp;issue-id=31273&amp;journal-id=409&amp;FROM=Article%7CCitationRef&amp;TO=Content%20Provider%7CCrosslink%7CDOI">CrossRef</a>] <span class="nowrap">[<a href="https://scholar.google.com/scholar_lookup?journal=Syst+Biol&amp;title=The+biasing+effect+of+compositional+heterogeneity+on+phylogenetic+estimates+may+be+underestimated&amp;author=L+Jermiin&amp;author=SY+Ho&amp;author=F+Ababneh&amp;author=J+Robinson&amp;author=AW+Larkum&amp;volume=53&amp;publication_year=2004&amp;pages=638-643&amp;pmid=15371251&amp;doi=10.1080/10635150490468648&amp;" target="pmc_ext" ref="reftype=other&amp;article-id=1188243&amp;issue-id=31273&amp;journal-id=409&amp;FROM=Article%7CCitationRef&amp;TO=Content%20Provider%7CLink%7CGoogle%20Scholar">Google Scholar</a>]</span></span></li><li id="B30"><span class="mixed-citation">Ababneh F, Jermiin LS, Ma C, Robinson J. Matched-pairs tests of homogeneity with applications to homologous nucleotide sequences. <span><span class="ref-journal">Bioinformatics. </span>2006;<span class="ref-vol">22</span>:1225–1231. doi: 10.1093/bioinformatics/btl064.</span> [<a href="http://europepmc.org/abstract/MED/16492684" target="pmc_ext" ref="reftype=pubmed&amp;article-id=1188243&amp;issue-id=31273&amp;journal-id=409&amp;FROM=Article%7CCitationRef&amp;TO=Entrez%7CPubMed%7CRecord">PubMed</a>] [<a href="//dx.doi.org/10.1093%2Fbioinformatics%2Fbtl064" target="pmc_ext" ref="reftype=other&amp;article-id=1188243&amp;issue-id=31273&amp;journal-id=409&amp;FROM=Article%7CCitationRef&amp;TO=Content%20Provider%7CCrosslink%7CDOI">CrossRef</a>] <span class="nowrap">[<a href="https://scholar.google.com/scholar_lookup?journal=Bioinformatics&amp;title=Matched-pairs+tests+of+homogeneity+with+applications+to+homologous+nucleotide+sequences&amp;author=F+Ababneh&amp;author=LS+Jermiin&amp;author=C+Ma&amp;author=J+Robinson&amp;volume=22&amp;publication_year=2006&amp;pages=1225-1231&amp;pmid=16492684&amp;doi=10.1093/bioinformatics/btl064&amp;" target="pmc_ext" ref="reftype=other&amp;article-id=1188243&amp;issue-id=31273&amp;journal-id=409&amp;FROM=Article%7CCitationRef&amp;TO=Content%20Provider%7CLink%7CGoogle%20Scholar">Google Scholar</a>]</span></span></li><li id="B31"><span class="mixed-citation">Bowker A. A test for symmetry in contingency tables. <span><span class="ref-journal">J Am Stat Assoc. </span>1948;<span class="ref-vol">43</span>:572–574. doi: 10.2307/2280710.</span> [<a href="http://europepmc.org/abstract/MED/18123073" target="pmc_ext" ref="reftype=pubmed&amp;article-id=1188243&amp;issue-id=31273&amp;journal-id=409&amp;FROM=Article%7CCitationRef&amp;TO=Entrez%7CPubMed%7CRecord">PubMed</a>] [<a href="//dx.doi.org/10.2307%2F2280710" target="pmc_ext" ref="reftype=other&amp;article-id=1188243&amp;issue-id=31273&amp;journal-id=409&amp;FROM=Article%7CCitationRef&amp;TO=Content%20Provider%7CCrosslink%7CDOI">CrossRef</a>] <span class="nowrap">[<a href="https://scholar.google.com/scholar_lookup?journal=J+Am+Stat+Assoc&amp;title=A+test+for+symmetry+in+contingency+tables&amp;author=A+Bowker&amp;volume=43&amp;publication_year=1948&amp;pages=572-574&amp;pmid=18123073&amp;doi=10.2307/2280710&amp;" target="pmc_ext" ref="reftype=other&amp;article-id=1188243&amp;issue-id=31273&amp;journal-id=409&amp;FROM=Article%7CCitationRef&amp;TO=Content%20Provider%7CLink%7CGoogle%20Scholar">Google Scholar</a>]</span></span></li><li id="B32"><span class="mixed-citation">Rodr&#x000ed;guez-Ezpeleta N, Brinkmann H, Roure B, Lartillot N, Lang BF, Philippe H. Detecting and overcoming systematic errors in genome-scale phylogenies. <span><span class="ref-journal">Syst Biol. </span>2007;<span class="ref-vol">56</span>:389–399. doi: 10.1080/10635150701397643.</span> [<a href="http://europepmc.org/abstract/MED/17520503" target="pmc_ext" ref="reftype=pubmed&amp;article-id=1188243&amp;issue-id=31273&amp;journal-id=409&amp;FROM=Article%7CCitationRef&amp;TO=Entrez%7CPubMed%7CRecord">PubMed</a>] [<a href="//dx.doi.org/10.1080%2F10635150701397643" target="pmc_ext" ref="reftype=other&amp;article-id=1188243&amp;issue-id=31273&amp;journal-id=409&amp;FROM=Article%7CCitationRef&amp;TO=Content%20Provider%7CCrosslink%7CDOI">CrossRef</a>] <span class="nowrap">[<a href="https://scholar.google.com/scholar_lookup?journal=Syst+Biol&amp;title=Detecting+and+overcoming+systematic+errors+in+genome-scale+phylogenies&amp;author=N+Rodr&#x000ed;guez-Ezpeleta&amp;author=H+Brinkmann&amp;author=B+Roure&amp;author=N+Lartillot&amp;author=BF+Lang&amp;volume=56&amp;publication_year=2007&amp;pages=389-399&amp;pmid=17520503&amp;doi=10.1080/10635150701397643&amp;" target="pmc_ext" ref="reftype=other&amp;article-id=1188243&amp;issue-id=31273&amp;journal-id=409&amp;FROM=Article%7CCitationRef&amp;TO=Content%20Provider%7CLink%7CGoogle%20Scholar">Google Scholar</a>]</span></span></li><li id="B33"><span class="mixed-citation">Yang Z, Roberts D. On the Use of Nucleic Acid Sequences to Infer Branchings in the Tree of Life. <span><span class="ref-journal">Mol Biol Evol. </span>1995;<span class="ref-vol">12</span>:451–458.</span> [<a href="http://europepmc.org/abstract/MED/7739387" target="pmc_ext" ref="reftype=pubmed&amp;article-id=1188243&amp;issue-id=31273&amp;journal-id=409&amp;FROM=Article%7CCitationRef&amp;TO=Entrez%7CPubMed%7CRecord">PubMed</a>] <span class="nowrap">[<a href="https://scholar.google.com/scholar_lookup?journal=Mol+Biol+Evol&amp;title=On+the+Use+of+Nucleic+Acid+Sequences+to+Infer+Branchings+in+the+Tree+of+Life&amp;author=Z+Yang&amp;author=D+Roberts&amp;volume=12&amp;publication_year=1995&amp;pages=451-458&amp;pmid=7739387&amp;" target="pmc_ext" ref="reftype=other&amp;article-id=1188243&amp;issue-id=31273&amp;journal-id=409&amp;FROM=Article%7CCitationRef&amp;TO=Content%20Provider%7CLink%7CGoogle%20Scholar">Google Scholar</a>]</span></span></li><li id="B34"><span class="mixed-citation">Blanquart S, Lartillot N. A Bayesian Compound Stochastic Process for Modeling Nonstationary and Nonhomogeneous Sequence Evolution. <span><span class="ref-journal">Mol Biol Evol. </span>2006;<span class="ref-vol">23</span>:2058–2071. doi: 10.1093/molbev/msl091.</span> [<a href="http://europepmc.org/abstract/MED/16931538" target="pmc_ext" ref="reftype=pubmed&amp;article-id=1188243&amp;issue-id=31273&amp;journal-id=409&amp;FROM=Article%7CCitationRef&amp;TO=Entrez%7CPubMed%7CRecord">PubMed</a>] [<a href="//dx.doi.org/10.1093%2Fmolbev%2Fmsl091" target="pmc_ext" ref="reftype=other&amp;article-id=1188243&amp;issue-id=31273&amp;journal-id=409&amp;FROM=Article%7CCitationRef&amp;TO=Content%20Provider%7CCrosslink%7CDOI">CrossRef</a>] <span class="nowrap">[<a href="https://scholar.google.com/scholar_lookup?journal=Mol+Biol+Evol&amp;title=A+Bayesian+Compound+Stochastic+Process+for+Modeling+Nonstationary+and+Nonhomogeneous+Sequence+Evolution&amp;author=S+Blanquart&amp;author=N+Lartillot&amp;volume=23&amp;publication_year=2006&amp;pages=2058-2071&amp;pmid=16931538&amp;doi=10.1093/molbev/msl091&amp;" target="pmc_ext" ref="reftype=other&amp;article-id=1188243&amp;issue-id=31273&amp;journal-id=409&amp;FROM=Article%7CCitationRef&amp;TO=Content%20Provider%7CLink%7CGoogle%20Scholar">Google Scholar</a>]</span></span></li><li id="B35"><span class="mixed-citation">Kimura M. A simple method for estimating evolutionary rates of base substitutions through comparative studies of nucleotide sequences. <span><span class="ref-journal">J Mol Evol. </span>1980;<span class="ref-vol">16</span>:111–120. doi: 10.1007/BF01731581.</span> [<a href="http://europepmc.org/abstract/MED/7463489" target="pmc_ext" ref="reftype=pubmed&amp;article-id=1188243&amp;issue-id=31273&amp;journal-id=409&amp;FROM=Article%7CCitationRef&amp;TO=Entrez%7CPubMed%7CRecord">PubMed</a>] [<a href="//dx.doi.org/10.1007%2FBF01731581" target="pmc_ext" ref="reftype=other&amp;article-id=1188243&amp;issue-id=31273&amp;journal-id=409&amp;FROM=Article%7CCitationRef&amp;TO=Content%20Provider%7CCrosslink%7CDOI">CrossRef</a>] <span class="nowrap">[<a href="https://scholar.google.com/scholar_lookup?journal=J+Mol+Evol&amp;title=A+simple+method+for+estimating+evolutionary+rates+of+base+substitutions+through+comparative+studies+of+nucleotide+sequences&amp;author=M+Kimura&amp;volume=16&amp;publication_year=1980&amp;pages=111-120&amp;pmid=7463489&amp;doi=10.1007/BF01731581&amp;" target="pmc_ext" ref="reftype=other&amp;article-id=1188243&amp;issue-id=31273&amp;journal-id=409&amp;FROM=Article%7CCitationRef&amp;TO=Content%20Provider%7CLink%7CGoogle%20Scholar">Google Scholar</a>]</span></span></li></ul></div></div></div><!--post-content--><div class="courtesy-note whole_rhythm small"><hr />Articles from <span class="acknowledgment-journal-title">BMC Evolutionary Biology</span> are provided here courtesy of <strong>BioMed Central</strong></div></div>
+
+<script type="text/javascript">
+$(document).ready(function(){
+   $('A.cite-reflink[rid]').mouseover(function(){ TagToTipAllowed($(this).attr('rid'), WIDTH, 300, FIX, [this, 0, 0], ABOVE, true); });
+   $('A.cite-reflink[rid]').mouseout(function() { UnTipAllowed(); });
+});
+</script>
+
+
+</div>
+<div style="text-align:center">
+
+</div>
+</div>
+</div>
+<div class="ui-tabs-panel ui-tabs-hide" id="fragment-related-citations">
+<div id="idc">
+<span id="references_loading_label"><img src="/images/ajax-loader.gif" style="width:25px" alt="Loading"></span>
+<div class="citations_right" style="display:none"><small><a href="/Help#citationsnetwork">&#160;<img alt="" src="/images/qmark.png"/>How does Europe PMC derive its citations network?</a></small></div>
+<div class="citations" >
+<h3>
+
+<span style="display:none">
+<span class="abs_relcitation_count">
+
+&#160;
+&#8226;
+<a href="" target="_blank">
+Web of Science&#174; times cited (<span></span>)</a>- subscription required
+
+</span>
+</span>
+</h3>
+
+<div class="citedByHolder collapsed" style="display:none">
+<div class="citations_listing">
+
+</div>
+<div class="showHideRelated">
+<a>Show all items</a>
+</div>
+</div>
+</div>
+<br />
+<br />
+<div class="citations">
+
+
+<div class="citesFollowingHolder collapsed" style="display:none">
+<div class="citations_listing">
+
+</div>
+<div class="showHideRelated">
+<a>Show all items</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="ui-tabs-panel ui-tabs-hide" id="fragment-related-pubmedarts">
+<div id="idd">
+<span id="rel_articles_loading_label"><img src="/images/ajax-loader.gif" style="width:25px" alt="Loading"></span>
+<div id="related_reviews_id">
+<div class="citations">
+<h3></h3>
+<div class="citationsHolder collapsed" style="display:none">
+<div class="citations_listing">
+
+</div>
+<div class="showHideRelated">
+<a>Show all items</a>
+</div>
+</div>
+</div>
+</div>
+<br/>
+<div id="other_related_articles_id">
+<div class="citations">
+<h3></h3>
+<div class="citationsHolder collapsed" style="display:none">
+<div class="citations_listing">
+
+</div>
+<div class="showHideRelated">
+<a>Show all items</a>
+</div>
+</div>
+</div>
+</div>
+<br>
+<div class="related-articles-citepeer hidden">
+<h3 class="citepeer-title">CitePeer Related Articles</h3>
+<img src="/images/CitePeer-logo.png" alt="" class="citepeer-logo float-left">
+<a href="http://citepeer.io/#/?pubmedId=18808672" class="citepeer-link" target="_blank">http://citepeer.io/#/?pubmedId=18808672</a>
+</div>
+</div>
+</div>
+<div class="ui-tabs-panel ui-tabs-hide" id="fragment-related-dataLinks">
+<div id="ide">
+<span id="loading_dataLinks_label" style="margin-top:10px"><img src="/images/ajax-loader.gif" style="width:25px" alt="Loading"></span>
+
+<div style="display:block;">
+
+<div class="data_list_div">
+
+
+
+</div>
+</div>
+
+
+<div style="display:block;">
+
+<div class="data_list_div">
+
+
+
+</div>
+</div>
+
+<script type="text/javascript">
+/*<![CDATA[*/
+
+if($(".data_list_div").find("a").length==0){
+$(".data_list_div").hide();
+$("#data_title").hide();
+}
+
+/*]]>*/
+</script>
+<script type="text/javascript">
+/*<![CDATA[*/
+
+function toggleVis(el){
+el.getElementsByTagName("i")[0].classList.toggle("fa-caret-right");
+el.getElementsByTagName("i")[0].classList.toggle("fa-caret-down");
+var IdContainer = $(el).parent().attr("id");
+$("#"+IdContainer+" .section_data_link").each(function(index, el){
+$(el).toggleClass("data_list_hidden");
+});
+}
+
+/*]]>*/
+</script>
+</div>
+</div>
+<div class="ui-tabs-panel ui-tabs-hide" id="fragment-related-bioentities">
+<div id="idf">
+<span id="loading_bioentities_label"><img src="/images/ajax-loader.gif" alt="Loading" style="width:25px"></span>
+
+<div id="protiensHolder" class="collapsed">
+<div id="proteins" style="display:none;">
+<h3>Genes &amp; Proteins</h3>
+
+
+<div class="btmsmr collapsed" style="display:none;">
+
+<div class="relartsdiv">
+
+<div class="tmsummary">
+<div class="text1">
+<div style="width:100%">
+
+</div>
+</div>
+</div>
+
+</div>
+<div class="showHideRelated">
+<a>Show all items</a>
+</div>
+</div>
+</div>
+</div>
+
+
+<div id="protiensintHolder" class="collapsed">
+<div id="protiensint" style="display:none;">
+<h3>Protein Interactions</h3>
+
+
+<div class="btmsmr collapsed" style="display:none;">
+
+<div class="relartsdiv">
+
+<div class="tmsummary">
+<div class="text1">
+<div style="width:100%">
+
+</div>
+</div>
+</div>
+
+</div>
+<div class="showHideRelated">
+<a>Show all items</a>
+</div>
+</div>
+</div>
+</div>
+
+
+<div id="protienssqnHolder" class="collapsed">
+<div id="protienssqn" style="display:none;">
+<h3>Protein Families</h3>
+
+
+<div class="btmsmr collapsed" style="display:none;">
+
+<div class="relartsdiv">
+
+<div class="tmsummary">
+<div class="text1">
+<div style="width:100%">
+
+</div>
+</div>
+</div>
+
+</div>
+<div class="showHideRelated">
+<a>Show all items</a>
+</div>
+</div>
+</div>
+</div>
+
+
+<div id="nuclesqnHolder" class="collapsed">
+<div id="nuclesqn" style="display:none;">
+<h3>Nucleotide Sequences</h3>
+
+
+<div class="btmsmr collapsed" style="display:none;">
+
+<div class="relartsdiv">
+
+<div class="tmsummary">
+<div class="text1">
+<div style="width:100%">
+
+</div>
+</div>
+</div>
+
+</div>
+<div class="showHideRelated">
+<a>Show all items</a>
+</div>
+</div>
+</div>
+</div>
+
+
+<div id="array_expressHolder" class="collapsed">
+<div id="array_express" style="display:none;">
+<h3>Functional Genomics Experiments</h3>
+
+
+<div class="btmsmr collapsed" style="display:none;">
+
+<div class="relartsdiv">
+
+<div class="tmsummary">
+<div class="text1">
+<div style="width:100%">
+
+</div>
+</div>
+</div>
+
+</div>
+<div class="showHideRelated">
+<a>Show all items</a>
+</div>
+</div>
+</div>
+</div>
+
+
+<div id="protiensstructHolder" class="collapsed">
+<div id="protiensstruct" style="display:none;">
+<h3>Protein Structures</h3>
+
+
+<div class="btmsmr collapsed" style="display:none;">
+
+<div class="relartsdiv">
+
+<div class="tmsummary">
+<div class="text1">
+<div style="width:100%">
+
+</div>
+</div>
+</div>
+
+</div>
+<div class="showHideRelated">
+<a>Show all items</a>
+</div>
+</div>
+</div>
+</div>
+
+
+<div id="gotermsHolder" class="collapsed">
+<div id="goterms" style="display:none;">
+<h3>Gene Ontology (GO) Terms</h3>
+
+
+<div class="btmsmr collapsed" style="display:none;">
+
+<div class="relartsdiv">
+
+<div class="tmsummary">
+<div class="text1">
+<div style="width:100%">
+
+</div>
+</div>
+</div>
+
+</div>
+<div class="showHideRelated">
+<a>Show all items</a>
+</div>
+</div>
+</div>
+</div>
+
+
+<div id="organismsHolder" class="collapsed">
+<div id="organisms" style="display:none;">
+<h3>Species</h3>
+
+
+<div class="btmsmr collapsed" style="display:none;">
+
+<div class="relartsdiv">
+
+<div class="tmsummary">
+<div class="text1">
+<div style="width:100%">
+
+</div>
+</div>
+</div>
+
+</div>
+<div class="showHideRelated">
+<a>Show all items</a>
+</div>
+</div>
+</div>
+</div>
+
+
+<div id="diseasesHolder" class="collapsed">
+<div id="diseases" style="display:none;">
+<h3>Diseases</h3>
+
+
+<div class="btmsmr collapsed" style="display:none;">
+
+<div class="relartsdiv">
+
+<div class="tmsummary">
+<div class="text1">
+<div style="width:100%">
+
+</div>
+</div>
+</div>
+
+</div>
+<div class="showHideRelated">
+<a>Show all items</a>
+</div>
+</div>
+</div>
+</div>
+
+
+<div id="accessionHolder" class="collapsed">
+<div id="accession" style="display:none;">
+<h3>Data Citations</h3>
+
+
+<div class="btmsmr collapsed" style="display:none;">
+
+<div class="relartsdiv">
+
+<div class="tmsummary">
+<div class="text1">
+<div style="width:100%">
+
+</div>
+</div>
+</div>
+
+</div>
+<div class="showHideRelated">
+<a>Show all items</a>
+</div>
+</div>
+</div>
+</div>
+
+
+<div id="chemicalHolder" class="collapsed">
+<div id="chemical" style="display:none;">
+<h3>Chemicals</h3>
+
+
+<div class="btmsmr collapsed" style="display:none;">
+
+<div class="relartsdiv">
+
+<div class="tmsummary">
+<div class="text1">
+<div style="width:100%">
+
+</div>
+</div>
+</div>
+
+</div>
+<div class="showHideRelated">
+<a>Show all items</a>
+</div>
+</div>
+</div>
+</div>
+
+
+<div id="efoHolder" class="collapsed">
+<div id="efo" style="display:none;">
+<h3>Experimental Factor Ontology (EFO) Terms</h3>
+
+
+<div class="btmsmr collapsed" style="display:none;">
+
+<div class="relartsdiv">
+
+<div class="tmsummary">
+<div class="text1">
+<div style="width:100%">
+
+</div>
+</div>
+</div>
+
+</div>
+<div class="showHideRelated">
+<a>Show all items</a>
+</div>
+</div>
+</div>
+</div>
+
+
+<div id="prideHolder" class="collapsed">
+<div id="pride" style="display:none;">
+<h3>Proteomics Data</h3>
+
+
+<div class="btmsmr collapsed" style="display:none;">
+
+<div class="relartsdiv">
+
+<div class="tmsummary">
+<div class="text1">
+<div style="width:100%">
+
+</div>
+</div>
+</div>
+
+</div>
+<div class="showHideRelated">
+<a>Show all items</a>
+</div>
+</div>
+</div>
+</div>
+
+</div>
+</div>
+<div class="ui-tabs-panel ui-tabs-hide" id="fragment-related-labLinks">
+<div id="id10" style="display:block;">
+<span id="loading_links_label"><img src="/images/ajax-loader.gif" style="width:25px" alt="Loading"></span>
+
+
+
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="page_info_marginFulltext" class="page_info_margin">
+
+<div>
+<div style="display:none">
+
+</div>
+<div>
+<script type="text/javascript">$(document).ready(function(){
+ document.getElementById("fulltextnavpanel").className='citation_navigation_selected';
+ });</script>
+<div id="movetotop">
+<div class="vertmenu formats">
+<h2>Menu</h2>
+<div class="list_article_link">
+
+<div class="citation_navigation_unselected" style="display:none">
+<a href="../../../article/MED/18808672" tabindex="1" itemprop="mainEntityOfPage">Abstract</a>
+</div>
+
+<div id="fulltextnavpanel" class="citation_navigation_unselected full" style="display:none">
+Full Text <img border="0" src="/images/small_logo.gif" style="height:14px;width:14px" alt=""/>
+</div>
+
+
+<div class="formatMenuTitle">
+<div id="downloadHeading">
+<div><i class="fa fa-download" style="color: #347DC5; font-size:1.2em"></i></div>
+<div style="border-bottom: 5px solid #B4CADA;">Download</div>
+</div>
+</div>
+<div class="citation_navigation_unselected" style="border:none">
+<a href="../../pmc2559849?pdf=render" itemprop="mainEntityOfPage" tabindex="2" target="_blank" style="text-decoration: none;">PDF</a>
+</div>
+
+</div>
+</div>
+</div>
+<div class="vertmenu">
+
+</div>
+</div>
+</div>
+
+
+<div id="id4"><div><img alt="Loading..." src="../../../wicket/resource/org.apache.wicket.ajax.AbstractDefaultAjaxBehavior/indicator-ver-03CE3DCC84AF110E9DA8699A841E5200.gif"/></div></div>
+<div id="annotation_legend_container"></div>
+</div>
+
+<span>
+<script type="text/javascript">
+/*<![CDATA[*/
+
+function getXMLHttpRequestObject()
+{
+var xmlhttp;
+if (!xmlhttp && typeof XMLHttpRequest != 'undefined') {
+try {
+xmlhttp = new XMLHttpRequest();
+} catch (e) {
+xmlhttp = false;
+}
+}
+return xmlhttp;
+}
+function getArticleXMLHttpRequestToUrl(url)
+{
+var http = new getXMLHttpRequestObject();
+var abs = "/articles/"
+http.open("GET", abs+url, true);
+http.onreadystatechange = function() {
+}
+http.send(null);
+}
+function getAbstractXMLHttpRequestToUrl(url)
+{
+var http = new getXMLHttpRequestObject();
+var abs = "/abstract/"
+http.open("GET", abs+url, true);
+http.onreadystatechange = function() {
+}
+http.send(null);
+}
+function getXMLHttpRequestForVisualisation(url)
+{
+var http = new getXMLHttpRequestObject();
+http.open("GET",url, true);
+http.onreadystatechange = function() {
+}
+http.send(null);
+}
+
+/*]]>*/
+</script>
+</span>
+<script type="text/javascript"></script>
+</div>
+<script type="text/javascript">
+/*<![CDATA[*/
+
+jQuery('#tabs_abstract').tabs();
+
+/*]]>*/
+</script>
+<script type="text/javascript">goToFullTextAnnotation('pmc2559849','fragment-fulltext', 'annotation_legend_container');</script>
+<script type="text/javascript">
+/*<![CDATA[*/
+
+jQuery(document).on("scroll", function(e) {
+positionLegendAnnotation(true, true, false);
+});
+positionLegendAnnotation(true, true, false);
+
+/*]]>*/
+</script>
+<div id="popup_figures"></div>
+<script type="text/javascript" src="../../../wicket/resource/uk.bl.ukpmc.web.pages.search.ShowText/ShowText-ver-50439614D1810C21282790808511CE09.js"></script>
+
+</div>
+<footer id="epmc_pageFooter"><div class="epmc-elements"><div data-v-66258b64="" id="footer"><div data-v-66258b64="" id="follow-us-section"><p class="h2">Follow us</p><div id="follow-us-icons"><a href="http://blog.europepmc.org/" class="action"><i class="fas fa-blog feature-large"></i><br>News blog
+</a><a href="//europepmc.github.io/techblog/" class="action"><i class="fas fa-cogs feature-large"></i><br>Technical blog
+</a><a href="//twitter.com/EuropePMC_news" class="action"><i class="fab fa-twitter feature-large"></i><br>Twitter
+</a><a href="//www.youtube.com/user/EuropePMC" class="action"><i class="fab fa-youtube feature-large"></i><br>YouTube
+</a></div></div><div data-v-66258b64="" id="menus" class="grid-row"><div data-v-66258b64="" class="col-16"><div data-v-66258b64=""><p data-v-66258b64="" class="h5"><a data-v-66258b64="" href="/About" target="[object Object]">About</a></p><div data-v-66258b64=""><a data-v-66258b64="" href="/About" class="extra-small">About Europe PMC</a></div><div data-v-66258b64=""><a data-v-66258b64="" href="/Funders" class="extra-small">Funders</a></div><div data-v-66258b64=""><a data-v-66258b64="" href="/Joining" class="extra-small">Joining Europe PMC</a></div><div data-v-66258b64=""><a data-v-66258b64="" href="/Governance" class="extra-small">Governance</a></div><div data-v-66258b64=""><a data-v-66258b64="" href="/Roadmap" class="extra-small">Roadmap</a></div><div data-v-66258b64=""><a data-v-66258b64="" href="/Outreach" class="extra-small">Outreach</a></div></div><div data-v-66258b64=""><p data-v-66258b64="" class="h5"><a data-v-66258b64="" href="/tools" target="[object Object]">Tools</a></p><div data-v-66258b64=""><a data-v-66258b64="" href="/tools" class="extra-small">Tools overview</a></div><div data-v-66258b64=""><a data-v-66258b64="" href="/orcid/import" class="extra-small">ORCID article claiming</a></div><div data-v-66258b64=""><a data-v-66258b64="" href="/journalList" class="extra-small">Journal list</a></div><div data-v-66258b64=""><a data-v-66258b64="" href="/grantfinder" class="extra-small">Grant finder</a></div><div data-v-66258b64=""><a data-v-66258b64="" href="/LabsLink" class="extra-small">External links service</a></div><div data-v-66258b64=""><a data-v-66258b64="" href="/RssFeeds" class="extra-small">RSS feeds</a></div><div data-v-66258b64=""><a data-v-66258b64="" href="/Annotations" class="extra-small">Annotations</a></div><div data-v-66258b64=""><a data-v-66258b64="" href="/AnnotationsSubmission" class="extra-small">Annotations submission service</a></div></div><div data-v-66258b64=""><p data-v-66258b64="" class="h5"><a data-v-66258b64="" href="/developers" target="[object Object]">Developers</a></p><div data-v-66258b64=""><a data-v-66258b64="" href="/developers" class="extra-small">Developer resources</a></div><div data-v-66258b64=""><a data-v-66258b64="" href="/RestfulWebService" class="extra-small">Articles RESTful API</a></div><div data-v-66258b64=""><a data-v-66258b64="" href="/GristAPI" class="extra-small">Grants RESTful API</a></div><div data-v-66258b64=""><a data-v-66258b64="" href="/API-case-studies" class="extra-small">API case studies</a></div><div data-v-66258b64=""><a data-v-66258b64="" href="/SoapWebServices" class="extra-small">SOAP web service</a></div><div data-v-66258b64=""><a data-v-66258b64="" href="/AnnotationsApi" class="extra-small">Annotations API</a></div><div data-v-66258b64=""><a data-v-66258b64="" href="/OaiService" class="extra-small">OAI service</a></div><div data-v-66258b64=""><a data-v-66258b64="" href="/downloads" class="extra-small">Bulk downloads</a></div><div data-v-66258b64=""><a data-v-66258b64="" href="//groups.google.com/a/ebi.ac.uk/forum/#!forum/epmc-webservices" class="extra-small">Developers Forum</a></div></div><div data-v-66258b64=""><p data-v-66258b64="" class="h5"><a data-v-66258b64="" href="/Help" target="[object Object]">Help</a></p><div data-v-66258b64=""><a data-v-66258b64="" href="/Help" class="extra-small">Help using Europe PMC</a></div><div data-v-66258b64=""><a data-v-66258b64="" href="/searchsyntax" class="extra-small">Search syntax reference</a></div><div data-v-66258b64=""><a data-v-66258b64="" href="/ContactUs" class="extra-small">Contact us</a></div></div><div data-v-66258b64=""><p data-v-66258b64="" class="h5"><a data-v-66258b64="" href="/ContactUs" target="[object Object]">Contact us</a></p><div data-v-66258b64=""><a data-v-66258b64="" href="/ContactUs" class="extra-small">Helpdesk</a></div><div data-v-66258b64=""><a data-v-66258b64="" href="#" onclick="var w = window.open('/feedback?url='+window.location.origin + window.location.pathname + encodeURIComponent(window.location.search), 'ukpmc_feedback', 'scrollbars=no,location=no,menuBar=yes,resizable=yes,status=no,toolbar=yes,width=600,height=800'); try {if (w.blur) w.focus();}catch(ignore){}; return false;" class="extra-small">Feedback</a></div><div data-v-66258b64=""><a data-v-66258b64="" href="//twitter.com/EuropePMC_news" class="extra-small">Twitter</a></div><div data-v-66258b64=""><a data-v-66258b64="" href="http://blog.europepmc.org/" class="extra-small">Blog</a></div><div data-v-66258b64=""><a data-v-66258b64="" href="//europepmc.github.io/techblog/" class="extra-small">Tech blog</a></div><div data-v-66258b64=""><a data-v-66258b64="" href="//groups.google.com/a/ebi.ac.uk/forum/#!forum/epmc-webservices" class="extra-small">Developer forum</a></div></div></div></div><div data-v-66258b64="" id="feedback"><div data-v-66258b64="" class="grid-row"><div data-v-66258b64="" class="col-16"><span data-v-66258b64="" id="feedback-label">Let us know how we are doing.</span><span data-v-66258b64="" id="mobile-feedback-label">How are we doing.</span><input data-v-66258b64="" id="feedback-button" type="button" value="Give feedback" class="secondary"></div></div></div><div data-v-66258b64="" id="elixir-banner"><div data-v-66258b64="" class="grid-row"><div data-v-66258b64="" class="col-16"><a data-v-66258b64="" href="//www.elixir-europe.org/platforms/data/core-data-resources"><div data-v-66258b64="" id="elixir-logo-kite"></div><p data-v-66258b64="" class="h5">Europe PMC is part of the ELIXIR infrastructure</p><div data-v-66258b64="" id="elixir-logo-text" class="small">
+Europe PMC is an ELIXIR Core Data Resource
+<span data-v-66258b64="" id="elixir-banner-learn-more">Learn more &gt;</span></div></a></div></div></div><div data-v-66258b64="" id="footer-bottom"><div data-v-66258b64="" class="grid-row"><div data-v-66258b64="" class="col-16 extra-small">
+Europe PMC is a service of the
+<a data-v-66258b64="" href="/Funders">Europe PMC Funders' Group</a>, in partnership with
+the <a data-v-66258b64="" href="//www.ebi.ac.uk/">European Bioinformatics Institute</a>;
+and in cooperation with the
+<a data-v-66258b64="" href="//www.ncbi.nlm.nih.gov/">
+National Center for Biotechnology Information
+</a>
+at the
+<a data-v-66258b64="" href="//www.nlm.nih.gov/">
+U.S. National Library of Medicine (NCBI/NLM) </a>. It includes content provided to the
+<a data-v-66258b64="" href="//www.ncbi.nlm.nih.gov/pmc/">PMC International archive</a>
+by participating publishers.
+</div></div><div data-v-66258b64="" id="footer-bottom-links" class="extra-small"><a data-v-66258b64="" href="/ContactUs">Contact us</a>
+|
+<a data-v-66258b64="" href="/PrivacyNotice">Privacy</a>
+|
+<a data-v-66258b64="" href="//www.ebi.ac.uk/Information/termsofuse.html">Terms of use</a>
+|
+<a data-v-66258b64="" href="/Copyright">Copyright</a>
+|
+<a data-v-66258b64="" href="/Accessibility">Accessibility</a></div></div></div></div></footer>
+
+
+
+<script type="text/javascript" src="/Scripts/wz_tooltip.js?v=12087"></script>
+<script type="text/javascript">
+/*<![CDATA[*/
+
+/**$(document).ready(function(){
+$('#container-1 > ul').tabs();
+});*/
+
+/*]]>*/
+</script>
+<script type="text/javascript">
+/*<![CDATA[*/
+
+var width = $(window).width();
+if (width < 700) {
+/* $('#feedback-container').css('top', '44px'); */
+/* $('#feedback-container').css('position', 'absolute'); */
+$('#feedback-container').draggable();
+} else {
+//@date 23/08/2016 https://www.ebi.ac.uk/panda/jira/browse/CIT-2216
+//$('#feedback-container').css('top', height - 39 + 'px');
+//$('#feedback-container').css('position', 'fixed');
+}
+
+/*]]>*/
+</script>
+<style>
+/*<![CDATA[*/
+
+@media screen and (max-width: 870px) {
+#feedback-container {
+top: 44px;
+bottom: auto;
+position: absolute;
+}
+}
+
+/*]]>*/
+</style>
+<script type="text/javascript">
+/*<![CDATA[*/
+
+jQuery.cachedScript = function (url, options) {
+// Allow user to set any option except for dataType, cache, and url
+options = jQuery.extend(options || {}, {
+dataType: "script",
+cache: true,
+url: url
+});
+// Use $.ajax() since it is more flexible than $.getScript
+// Return the jqXHR object so we can chain callbacks
+return jQuery.ajax(options);
+};
+jQuery.cachedCss = function (url, options) {
+// Allow user to set any option except for dataType, cache, and url
+options = jQuery.extend(options || {}, {
+dataType: "text",
+cache: true,
+url: url
+});
+// Use $.ajax() since it is more flexible than $.getScript
+// Return the jqXHR object so we can chain callbacks
+return jQuery.ajax(options);
+};
+
+/*]]>*/
+</script>
+<script type="text/javascript"></script>
+<noscript></noscript>
+</div>
+</body>
+</html>

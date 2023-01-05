@@ -1,0 +1,898 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" prefix="og: https://ogp.me/ns#">
+  <head>
+    <meta charset="utf-8" /><script type="text/javascript">(window.NREUM||(NREUM={})).init={ajax:{deny_list:["bam.nr-data.net"]}};(window.NREUM||(NREUM={})).loader_config={licenseKey:"761e715901",applicationID:"39077635"};/*! For license information please see nr-loader-rum-1220.min.js.LICENSE.txt */
+!function(t,e){"object"==typeof exports&&"object"==typeof module?module.exports=e():"function"==typeof define&&define.amd?define([],e):"object"==typeof exports?exports.NRBA=e():t.NRBA=e()}(self,(function(){return function(){var t,e,n={9034:function(t,e,n){"use strict";var r=n(4168);e.Z=(0,r.ky)(16)},5973:function(t,e,n){"use strict";n.d(e,{I:function(){return r}});var r=0,o=navigator.userAgent.match(/Firefox[\/\s](\d+\.\d+)/);o&&(r=+o[1])},4280:function(t,e,n){"use strict";n.d(e,{H:function(){return o}});var r=document.createElement("div");r.innerHTML="\x3c!--[if lte IE 6]><div></div><![endif]--\x3e\x3c!--[if lte IE 7]><div></div><![endif]--\x3e\x3c!--[if lte IE 8]><div></div><![endif]--\x3e\x3c!--[if lte IE 9]><div></div><![endif]--\x3e";var o,i=r.getElementsByTagName("div").length;o=4===i?6:3===i?7:2===i?8:1===i?9:0},5955:function(t,e,n){"use strict";n.d(e,{I:function(){return r}});var r=function(t,e){var n=this;return t&&"object"==typeof t?e&&"object"==typeof e?(Object.assign(this,e),void Object.entries(t).forEach((function(t){var e=t[0],r=t[1];n[e]=r}))):console.error("setting a Configurable requires a model to set its initial properties"):console.error("setting a Configurable requires an object as input")}},441:function(t,e,n){"use strict";n.d(e,{C:function(){return c},L:function(){return u}});var r=n(1424),o=n(5955),i={beacon:r.ce.beacon,errorBeacon:r.ce.errorBeacon,licenseKey:void 0,applicationID:void 0,sa:void 0,queueTime:void 0,applicationTime:void 0,ttGuid:void 0,user:void 0,account:void 0,product:void 0,extra:void 0,jsAttributes:{},userAttributes:void 0,atts:void 0,transactionName:void 0,tNamePlain:void 0},a={};function c(t){if(!t)throw new Error("All info objects require an agent identifier!");if(!a[t])throw new Error("Info for "+t+" was never set");return a[t]}function u(t,e){if(!t)throw new Error("All info objects require an agent identifier!");a[t]=new o.I(e,i),(0,r.Qy)(t,a[t],"info")}},1476:function(t,e,n){"use strict";n.d(e,{Dg:function(){return c},Mt:function(){return u}});var r=n(1424),o=n(5955),i={privacy:{cookies_enabled:!0},ajax:{deny_list:void 0,enabled:!0},distributed_tracing:{enabled:void 0,exclude_newrelic_header:void 0,cors_use_newrelic_header:void 0,cors_use_tracecontext_headers:void 0,allowed_origins:void 0},ssl:void 0,obfuscate:void 0,jserrors:{enabled:!0},metrics:{enabled:!0},page_action:{enabled:!0},page_view_event:{enabled:!0},page_view_timing:{enabled:!0},session_trace:{enabled:!0},spa:{enabled:!0}},a={};function c(t,e){if(!t)throw new Error("All configuration objects require an agent identifier!");a[t]=new o.I(e,i),(0,r.Qy)(t,a[t],"config")}function u(t,e){if(!t)throw new Error("All configuration objects require an agent identifier!");var n=function(t){if(!t)throw new Error("All configuration objects require an agent identifier!");if(!a[t])throw new Error("Configuration for "+t+" was never set");return a[t]}(t);if(n){for(var r=e.split("."),o=0;o<r.length-1;o++)if("object"!=typeof(n=n[r[o]]))return;n=n[r[r.length-1]]}return n}},2085:function(t,e,n){"use strict";n.d(e,{Y:function(){return r}});var r=(0,n(1424).mF)().o},1220:function(t,e,n){"use strict";n.d(e,{O:function(){return w},s:function(){return x}});var r={};n.r(r),n.d(r,{agent:function(){return a},match:function(){return f},version:function(){return c}});var o=n(4280),i=n(6959),a=null,c=null;if(navigator.userAgent){var u=navigator.userAgent,s=u.match(/Version\/(\S+)\s+Safari/);s&&-1===u.indexOf("Chrome")&&-1===u.indexOf("Chromium")&&(a="Safari",c=s[1])}function f(t,e){if(!a)return!1;if(t!==a)return!1;if(!e)return!0;if(!c)return!1;for(var n=c.split("."),r=e.split("."),o=0;o<r.length;o++)if(r[o]!==n[o])return!1;return!0}var d=n(5955),l=n(1424),v=n(4168),p=window.sessionStorage,h="NRBA_SESSION_ID";var g=n(1476),y=window.XMLHttpRequest,m=y&&y.prototype,b={};function w(t){if(!t)throw new Error("All runtime objects require an agent identifier!");if(!b[t])throw new Error("Runtime for "+t+" was never set");return b[t]}function x(t,e){if(!t)throw new Error("All runtime objects require an agent identifier!");var n,a;b[t]=new d.I(e,(n=t,{customTransaction:void 0,disabled:!1,features:{},maxBytes:6===o.H?2e3:3e4,offset:(0,i.yf)(),onerror:void 0,origin:""+window.location,ptid:void 0,releaseIds:{},sessionId:!0===(0,g.Mt)(n,"privacy.cookies_enabled")?(null===(a=p.getItem(h))&&(a=(0,v.ky)(16),p.setItem(h,a)),a):"0",xhrWrappable:y&&m&&m.addEventListener&&!/CriOS/.test(navigator.userAgent),userAgent:r})),(0,l.Qy)(t,b[t],"runtime")}},158:function(t,e,n){"use strict";n.d(e,{q:function(){return r}});var r=["1220","PROD"].filter((function(t){return t})).join(".")},3707:function(t,e,n){"use strict";n.d(e,{w:function(){return o}});var r={agentIdentifier:""},o=function(t){var e=this;if("object"!=typeof t)return console.error("shared context requires an object as input");this.sharedContext={},Object.assign(this.sharedContext,r),Object.entries(t).forEach((function(t){var n=t[0],o=t[1];Object.keys(r).includes(n)&&(e.sharedContext[n]=o)}))}},1776:function(t,e,n){"use strict";n.d(e,{ee:function(){return r}});var r,o=n(1424),i=n(4217),a=n(357),c="nr@context",u=(0,o.fP)();function s(){}function f(){return new s}function d(){(r.backlog.api||r.backlog.feature)&&(r.aborted=!0,r.backlog={})}u.ee?r=u.ee:(r=function t(e,n){var o={},u={},l={},v={on:g,addEventListener:g,removeEventListener:y,emit:h,get:b,listeners:m,context:p,buffer:w,abort:d,aborted:!1,isBuffering:x,debugId:n,backlog:e&&e.backlog?e.backlog:{}};return v;function p(t){return t&&t instanceof s?t:t?(0,i.X)(t,c,f):f()}function h(t,n,o,i,a){if(!1!==a&&(a=!0),!r.aborted||i){e&&a&&e.emit(t,n,o);for(var c=p(o),s=m(t),f=s.length,d=0;d<f;d++)s[d].apply(c,n);var l=O()[u[t]];return l&&l.push([v,t,n,c]),c}}function g(t,e){o[t]=m(t).concat(e)}function y(t,e){var n=o[t];if(n)for(var r=0;r<n.length;r++)n[r]===e&&n.splice(r,1)}function m(t){return o[t]||[]}function b(e){return l[e]=l[e]||t(v,e)}function w(t,e){var n=O();v.aborted||(0,a.D)(t,(function(t,r){e=e||"feature",u[r]=e,e in n||(n[e]=[])}))}function x(t){return!!O()[u[t]]}function O(){return v.backlog}}(void 0,"globalEE"),u.ee=r)},7361:function(t,e,n){"use strict";n.d(e,{E:function(){return r},p:function(){return o}});var r=n(1776).ee.get("handle");function o(t,e,n,o,i){i?(i.buffer([t],o),i.emit(t,e,n)):(r.buffer([t],o),r.emit(t,e,n))}},3350:function(t,e,n){"use strict";n.d(e,{X:function(){return i}});var r=n(7361);i.on=a;var o=i.handlers={};function i(t,e,n,i){a(i||r.E,o,t,e,n)}function a(t,e,n,o,i){i||(i="feature"),t||(t=r.E);var a=e[i]=e[i]||{};(a[n]=a[n]||[]).push([t,o])}},4408:function(t,e,n){"use strict";n.d(e,{m:function(){return i}});var r=!1;try{var o=Object.defineProperty({},"passive",{get:function(){r=!0}});window.addEventListener("testPassive",null,o),window.removeEventListener("testPassive",null,o)}catch(t){}function i(t){return r?{passive:!0,capture:!!t}:!!t}},4168:function(t,e,n){"use strict";function r(){var t=null,e=0,n=window.crypto||window.msCrypto;function r(){return t?15&t[e++]:16*Math.random()|0}n&&n.getRandomValues&&(t=n.getRandomValues(new Uint8Array(31)));for(var o,i="xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx",a="",c=0;c<i.length;c++)a+="x"===(o=i[c])?r().toString(16):"y"===o?(o=3&r()|8).toString(16):o;return a}function o(t){var e=null,n=0,r=window.crypto||window.msCrypto;r&&r.getRandomValues&&Uint8Array&&(e=r.getRandomValues(new Uint8Array(31)));for(var o=[],i=0;i<t;i++)o.push(a().toString(16));return o.join("");function a(){return e?15&e[n++]:16*Math.random()|0}}n.d(e,{Rl:function(){return r},ky:function(){return o}})},6959:function(t,e,n){"use strict";n.d(e,{nb:function(){return u},os:function(){return s},yf:function(){return c},zO:function(){return a}});var r=n(2364),o=(new Date).getTime(),i=o;function a(){return r.G&&performance.now?Math.round(performance.now()):(o=Math.max((new Date).getTime(),o))-i}function c(){return o}function u(t){i=t}function s(){return i}},2364:function(t,e,n){"use strict";n.d(e,{G:function(){return r}});var r=void 0!==window.performance&&window.performance.timing&&void 0!==window.performance.timing.navigationStart},1793:function(t,e,n){"use strict";function r(t){var e,n=0;for(e=0;e<t.length;e++)n+=(e+1)*t.charCodeAt(e);return Math.abs(n)}n.d(e,{v:function(){return s},s:function(){return u}});var o=n(6972),i=n(5973),a=n(6959),c=n(2364),u=!0;function s(t){var e=function(){if(i.I&&i.I<9)return;if(c.G)return u=!1,window.performance.timing.navigationStart}()||function(){for(var t=document.cookie.split(" "),e=0;e<t.length;e++)if(0===t[e].indexOf("NREUM=")){for(var n,o,i,a,c=t[e].substring("NREUM=".length).split("&"),u=0;u<c.length;u++)0===c[u].indexOf("s=")?i=c[u].substring(2):0===c[u].indexOf("p=")?";"===(o=c[u].substring(2)).charAt(o.length-1)&&(o=o.substr(0,o.length-1)):0===c[u].indexOf("r=")&&";"===(n=c[u].substring(2)).charAt(n.length-1)&&(n=n.substr(0,n.length-1));if(n){var s=r(document.referrer);(a=s==n)||(a=r(document.location.href)==n&&s==o)}if(a&&i){if((new Date).getTime()-i>6e4)return;return i}}}();e&&((0,o.B)(t,"starttime",e),(0,a.nb)(e))}},6972:function(t,e,n){"use strict";n.d(e,{B:function(){return i},L:function(){return a}});var r=n(6959),o={};function i(t,e,n){void 0===n&&(n=(0,r.zO)()+(0,r.os)()),o[t]=o[t]||{},o[t][e]=n}function a(t,e,n,r){var i,a,c=t.sharedContext.agentIdentifier,u=null==(i=o[c])?void 0:i[n],s=null==(a=o[c])?void 0:a[r];void 0!==u&&void 0!==s&&t.store("measures",e,{value:s-u})}},7299:function(t,e,n){"use strict";n.d(e,{T:function(){return a}});var r=window,o=r;function i(){return o}var a={isFileProtocol:function(){var t=i(),e=!(!t.location||!t.location.protocol||"file:"!==t.location.protocol);e&&(a.supportabilityMetricSent=!0);return e},supportabilityMetricSent:!1}},847:function(t,e,n){"use strict";n.d(e,{K:function(){return a}});var r=n(1220),o=n(1476),i=["ajax","jserrors","metrics","page_action","page_view_event","page_view_timing","session_trace","spa"];function a(t){var e={};return i.forEach((function(n){e[n]=function(t,e){return!0!==(0,r.O)(e).disabled&&!1!==(0,o.Mt)(e,t+".enabled")}(n,t)})),e}},5023:function(t,e,n){"use strict";n.d(e,{W:function(){return o}});var r=n(1776),o=function(t,e,n){void 0===n&&(n=[]),this.agentIdentifier=t,this.aggregator=e,this.ee=r.ee.get(t),this.externalFeatures=n}},4217:function(t,e,n){"use strict";n.d(e,{X:function(){return o}});var r=Object.prototype.hasOwnProperty;function o(t,e,n){if(r.call(t,e))return t[e];var o=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(t,e,{value:o,writable:!0,enumerable:!1}),o}catch(t){}return t[e]=o,o}},357:function(t,e,n){"use strict";n.d(e,{D:function(){return o}});var r=Object.prototype.hasOwnProperty;function o(t,e){var n=[],o="",i=0;for(o in t)r.call(t,o)&&(n[i]=e(o,t[o]),i+=1);return n}},603:function(t,e,n){"use strict";n.d(e,{$c:function(){return s},Ng:function(){return f},RR:function(){return u}});var r=n(1476),o=n(3707),i=n(7299);function a(t,e){return a=Object.setPrototypeOf?Object.setPrototypeOf.bind():function(t,e){return t.__proto__=e,t},a(t,e)}var c={regex:/^file:\/\/(.*)/,replacement:"file://OBFUSCATED"},u=function(t){var e,n;function r(e){return t.call(this,e)||this}n=t,(e=r).prototype=Object.create(n.prototype),e.prototype.constructor=e,a(e,n);var o=r.prototype;return o.shouldObfuscate=function(){return s(this.sharedContext.agentIdentifier).length>0},o.obfuscateString=function(t){if(!t||"string"!=typeof t)return t;for(var e=s(this.sharedContext.agentIdentifier),n=t,r=0;r<e.length;r++){var o=e[r].regex,i=e[r].replacement||"*";n=n.replace(o,i)}return n},r}(o.w);function s(t){var e=[],n=(0,r.Mt)(t,"obfuscate")||[];return e=e.concat(n),i.T.isFileProtocol()&&e.push(c),e}function f(t){for(var e=!1,n=!1,r=0;r<t.length;r++){"regex"in t[r]?"string"!=typeof t[r].regex&&t[r].regex.constructor!==RegExp&&(console&&console.warn&&console.warn('An obfuscation replacement rule contains a "regex" value with an invalid type (must be a string or RegExp)'),n=!0):(console&&console.warn&&console.warn('An obfuscation replacement rule was detected missing a "regex" value.'),n=!0);var o=t[r].replacement;o&&"string"!=typeof o&&(console&&console.warn&&console.warn('An obfuscation replacement rule contains a "replacement" value with an invalid type (must be a string)'),e=!0)}return!e&&!n}},1424:function(t,e,n){"use strict";n.d(e,{EZ:function(){return u},Qy:function(){return c},ce:function(){return o},fP:function(){return i},gG:function(){return s},mF:function(){return a}});var r=n(6959),o={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net"};function i(){return window.NREUM||(window.NREUM={}),void 0===window.newrelic&&(window.newrelic=window.NREUM),window.NREUM}function a(){var t=i();if(!t.o){var e=window,n=e.XMLHttpRequest;t.o={ST:setTimeout,SI:e.setImmediate,CT:clearTimeout,XHR:n,REQ:e.Request,EV:e.Event,PR:e.Promise,MO:e.MutationObserver,FETCH:e.fetch}}return t}function c(t,e,n){var o,a,c=i(),u=c.initializedAgents||{},s=u[t]||{};return Object.keys(s).length||(s.initializedAt={ms:(0,r.zO)(),date:new Date}),c.initializedAgents=Object.assign({},u,((a={})[t]=Object.assign({},s,((o={})[n]=e,o)),a)),c}function u(t,e){i()[t]=e}function s(){var t,e;return t=i(),e=t.info||{},t.info=Object.assign({beacon:o.beacon,errorBeacon:o.errorBeacon},e),function(){var t=i(),e=t.init||{};t.init=Object.assign({},e)}(),a(),function(){var t=i(),e=t.loader_config||{};t.loader_config=Object.assign({},e)}(),i()}},8539:function(t){t.exports=function(t,e,n){e||(e=0),void 0===n&&(n=t?t.length:0);for(var r=-1,o=n-e||0,i=Array(o<0?0:o);++r<o;)i[r]=t[e+r];return i}}},r={};function o(t){var e=r[t];if(void 0!==e)return e.exports;var i=r[t]={exports:{}};return n[t](i,i.exports,o),i.exports}o.m=n,o.n=function(t){var e=t&&t.__esModule?function(){return t.default}:function(){return t};return o.d(e,{a:e}),e},o.d=function(t,e){for(var n in e)o.o(e,n)&&!o.o(t,n)&&Object.defineProperty(t,n,{enumerable:!0,get:e[n]})},o.f={},o.e=function(t){return Promise.all(Object.keys(o.f).reduce((function(e,n){return o.f[n](t,e),e}),[]))},o.u=function(t){return t+"."+o.h().slice(0,8)+"-1220.js"},o.h=function(){return"2d6a2503b7f18a5b77dd"},o.o=function(t,e){return Object.prototype.hasOwnProperty.call(t,e)},t={},e="NRBA:",o.l=function(n,r,i,a){if(t[n])t[n].push(r);else{var c,u;if(void 0!==i)for(var s=document.getElementsByTagName("script"),f=0;f<s.length;f++){var d=s[f];if(d.getAttribute("src")==n||d.getAttribute("data-webpack")==e+i){c=d;break}}c||(u=!0,(c=document.createElement("script")).charset="utf-8",c.timeout=120,o.nc&&c.setAttribute("nonce",o.nc),c.setAttribute("data-webpack",e+i),c.src=n),t[n]=[r];var l=function(e,r){c.onerror=c.onload=null,clearTimeout(v);var o=t[n];if(delete t[n],c.parentNode&&c.parentNode.removeChild(c),o&&o.forEach((function(t){return t(r)})),e)return e(r)},v=setTimeout(l.bind(null,void 0,{type:"timeout",target:c}),12e4);c.onerror=l.bind(null,c.onerror),c.onload=l.bind(null,c.onload),u&&document.head.appendChild(c)}},o.r=function(t){"undefined"!=typeof Symbol&&Symbol.toStringTag&&Object.defineProperty(t,Symbol.toStringTag,{value:"Module"}),Object.defineProperty(t,"__esModule",{value:!0})},o.p="https://js-agent.newrelic.com/",function(){var t={299:0,82:0};o.f.j=function(e,n){var r=o.o(t,e)?t[e]:void 0;if(0!==r)if(r)n.push(r[2]);else{var i=new Promise((function(n,o){r=t[e]=[n,o]}));n.push(r[2]=i);var a=o.p+o.u(e),c=new Error;o.l(a,(function(n){if(o.o(t,e)&&(0!==(r=t[e])&&(t[e]=void 0),r)){var i=n&&("load"===n.type?"missing":n.type),a=n&&n.target&&n.target.src;c.message="Loading chunk "+e+" failed.\n("+i+": "+a+")",c.name="ChunkLoadError",c.type=i,c.request=a,r[1](c)}}),"chunk-"+e,e)}};var e=function(e,n){var r,i,a=n[0],c=n[1],u=n[2],s=0;if(a.some((function(e){return 0!==t[e]}))){for(r in c)o.o(c,r)&&(o.m[r]=c[r]);if(u)u(o)}for(e&&e(n);s<a.length;s++)i=a[s],o.o(t,i)&&t[i]&&t[i][0](),t[i]=0},n=self.webpackChunkNRBA=self.webpackChunkNRBA||[];n.forEach(e.bind(null,0)),n.push=e.bind(null,n.push.bind(n))}();var i={};return function(){"use strict";o.r(i);var t=o(9034),e=o(4408),n=window,r=n.document;function a(t){"complete"===r.readyState&&t()}function c(t){a(t),r.addEventListener?n.addEventListener("load",t,(0,e.m)(!1)):n.attachEvent("onload",t)}function u(t){a(t),r.addEventListener?r.addEventListener("DOMContentLoaded",t,(0,e.m)(!1)):r.attachEvent("onreadystatechange",a)}var s=o(1776);function f(){f=function(){return t};var t={},e=Object.prototype,n=e.hasOwnProperty,r="function"==typeof Symbol?Symbol:{},o=r.iterator||"@@iterator",i=r.asyncIterator||"@@asyncIterator",a=r.toStringTag||"@@toStringTag";function c(t,e,n){return Object.defineProperty(t,e,{value:n,enumerable:!0,configurable:!0,writable:!0}),t[e]}try{c({},"")}catch(t){c=function(t,e,n){return t[e]=n}}function u(t,e,n,r){var o=e&&e.prototype instanceof l?e:l,i=Object.create(o.prototype),a=new j(r||[]);return i._invoke=function(t,e,n){var r="suspendedStart";return function(o,i){if("executing"===r)throw new Error("Generator is already running");if("completed"===r){if("throw"===o)throw i;return P()}for(n.method=o,n.arg=i;;){var a=n.delegate;if(a){var c=x(a,n);if(c){if(c===d)continue;return c}}if("next"===n.method)n.sent=n._sent=n.arg;else if("throw"===n.method){if("suspendedStart"===r)throw r="completed",n.arg;n.dispatchException(n.arg)}else"return"===n.method&&n.abrupt("return",n.arg);r="executing";var u=s(t,e,n);if("normal"===u.type){if(r=n.done?"completed":"suspendedYield",u.arg===d)continue;return{value:u.arg,done:n.done}}"throw"===u.type&&(r="completed",n.method="throw",n.arg=u.arg)}}}(t,n,a),i}function s(t,e,n){try{return{type:"normal",arg:t.call(e,n)}}catch(t){return{type:"throw",arg:t}}}t.wrap=u;var d={};function l(){}function v(){}function p(){}var h={};c(h,o,(function(){return this}));var g=Object.getPrototypeOf,y=g&&g(g(_([])));y&&y!==e&&n.call(y,o)&&(h=y);var m=p.prototype=l.prototype=Object.create(h);function b(t){["next","throw","return"].forEach((function(e){c(t,e,(function(t){return this._invoke(e,t)}))}))}function w(t,e){function r(o,i,a,c){var u=s(t[o],t,i);if("throw"!==u.type){var f=u.arg,d=f.value;return d&&"object"==typeof d&&n.call(d,"__await")?e.resolve(d.__await).then((function(t){r("next",t,a,c)}),(function(t){r("throw",t,a,c)})):e.resolve(d).then((function(t){f.value=t,a(f)}),(function(t){return r("throw",t,a,c)}))}c(u.arg)}var o;this._invoke=function(t,n){function i(){return new e((function(e,o){r(t,n,e,o)}))}return o=o?o.then(i,i):i()}}function x(t,e){var n=t.iterator[e.method];if(void 0===n){if(e.delegate=null,"throw"===e.method){if(t.iterator.return&&(e.method="return",e.arg=void 0,x(t,e),"throw"===e.method))return d;e.method="throw",e.arg=new TypeError("The iterator does not provide a 'throw' method")}return d}var r=s(n,t.iterator,e.arg);if("throw"===r.type)return e.method="throw",e.arg=r.arg,e.delegate=null,d;var o=r.arg;return o?o.done?(e[t.resultName]=o.value,e.next=t.nextLoc,"return"!==e.method&&(e.method="next",e.arg=void 0),e.delegate=null,d):o:(e.method="throw",e.arg=new TypeError("iterator result is not an object"),e.delegate=null,d)}function O(t){var e={tryLoc:t[0]};1 in t&&(e.catchLoc=t[1]),2 in t&&(e.finallyLoc=t[2],e.afterLoc=t[3]),this.tryEntries.push(e)}function E(t){var e=t.completion||{};e.type="normal",delete e.arg,t.completion=e}function j(t){this.tryEntries=[{tryLoc:"root"}],t.forEach(O,this),this.reset(!0)}function _(t){if(t){var e=t[o];if(e)return e.call(t);if("function"==typeof t.next)return t;if(!isNaN(t.length)){var r=-1,i=function e(){for(;++r<t.length;)if(n.call(t,r))return e.value=t[r],e.done=!1,e;return e.value=void 0,e.done=!0,e};return i.next=i}}return{next:P}}function P(){return{value:void 0,done:!0}}return v.prototype=p,c(m,"constructor",p),c(p,"constructor",v),v.displayName=c(p,a,"GeneratorFunction"),t.isGeneratorFunction=function(t){var e="function"==typeof t&&t.constructor;return!!e&&(e===v||"GeneratorFunction"===(e.displayName||e.name))},t.mark=function(t){return Object.setPrototypeOf?Object.setPrototypeOf(t,p):(t.__proto__=p,c(t,a,"GeneratorFunction")),t.prototype=Object.create(m),t},t.awrap=function(t){return{__await:t}},b(w.prototype),c(w.prototype,i,(function(){return this})),t.AsyncIterator=w,t.async=function(e,n,r,o,i){void 0===i&&(i=Promise);var a=new w(u(e,n,r,o),i);return t.isGeneratorFunction(n)?a:a.next().then((function(t){return t.done?t.value:a.next()}))},b(m),c(m,a,"Generator"),c(m,o,(function(){return this})),c(m,"toString",(function(){return"[object Generator]"})),t.keys=function(t){var e=[];for(var n in t)e.push(n);return e.reverse(),function n(){for(;e.length;){var r=e.pop();if(r in t)return n.value=r,n.done=!1,n}return n.done=!0,n}},t.values=_,j.prototype={constructor:j,reset:function(t){if(this.prev=0,this.next=0,this.sent=this._sent=void 0,this.done=!1,this.delegate=null,this.method="next",this.arg=void 0,this.tryEntries.forEach(E),!t)for(var e in this)"t"===e.charAt(0)&&n.call(this,e)&&!isNaN(+e.slice(1))&&(this[e]=void 0)},stop:function(){this.done=!0;var t=this.tryEntries[0].completion;if("throw"===t.type)throw t.arg;return this.rval},dispatchException:function(t){if(this.done)throw t;var e=this;function r(n,r){return a.type="throw",a.arg=t,e.next=n,r&&(e.method="next",e.arg=void 0),!!r}for(var o=this.tryEntries.length-1;o>=0;--o){var i=this.tryEntries[o],a=i.completion;if("root"===i.tryLoc)return r("end");if(i.tryLoc<=this.prev){var c=n.call(i,"catchLoc"),u=n.call(i,"finallyLoc");if(c&&u){if(this.prev<i.catchLoc)return r(i.catchLoc,!0);if(this.prev<i.finallyLoc)return r(i.finallyLoc)}else if(c){if(this.prev<i.catchLoc)return r(i.catchLoc,!0)}else{if(!u)throw new Error("try statement without catch or finally");if(this.prev<i.finallyLoc)return r(i.finallyLoc)}}}},abrupt:function(t,e){for(var r=this.tryEntries.length-1;r>=0;--r){var o=this.tryEntries[r];if(o.tryLoc<=this.prev&&n.call(o,"finallyLoc")&&this.prev<o.finallyLoc){var i=o;break}}i&&("break"===t||"continue"===t)&&i.tryLoc<=e&&e<=i.finallyLoc&&(i=null);var a=i?i.completion:{};return a.type=t,a.arg=e,i?(this.method="next",this.next=i.finallyLoc,d):this.complete(a)},complete:function(t,e){if("throw"===t.type)throw t.arg;return"break"===t.type||"continue"===t.type?this.next=t.arg:"return"===t.type?(this.rval=this.arg=t.arg,this.method="return",this.next="end"):"normal"===t.type&&e&&(this.next=e),d},finish:function(t){for(var e=this.tryEntries.length-1;e>=0;--e){var n=this.tryEntries[e];if(n.finallyLoc===t)return this.complete(n.completion,n.afterLoc),E(n),d}},catch:function(t){for(var e=this.tryEntries.length-1;e>=0;--e){var n=this.tryEntries[e];if(n.tryLoc===t){var r=n.completion;if("throw"===r.type){var o=r.arg;E(n)}return o}}throw new Error("illegal catch attempt")},delegateYield:function(t,e,n){return this.delegate={iterator:_(t),resultName:e,nextLoc:n},"next"===this.method&&(this.arg=void 0),d}},t}function d(t,e,n,r,o,i,a){try{var c=t[i](a),u=c.value}catch(t){return void n(t)}c.done?e(u):Promise.resolve(u).then(r,o)}var l=0;function v(t){var e;(e=f().mark((function e(){var n,r;return f().wrap((function(e){for(;;)switch(e.prev=e.next){case 0:if(!l++){e.next=2;break}return e.abrupt("return");case 2:return e.prev=2,e.next=5,o.e(552).then(o.bind(o,5552));case 5:return n=e.sent,r=n.aggregator,e.next=9,r(t);case 9:e.next=15;break;case 11:e.prev=11,e.t0=e.catch(2),console.error("Failed to successfully load all aggregators. Aborting...\n",e.t0),s.ee.abort();case 15:case"end":return e.stop()}}),e,null,[[2,11]])})),function(){var t=this,n=arguments;return new Promise((function(r,o){var i=e.apply(t,n);function a(t){d(i,r,o,a,c,"next",t)}function c(t){d(i,r,o,a,c,"throw",t)}a(void 0)}))})()}var p=o(8539),h=o.n(p),g=o(1424),y=o(1220),m=o(441),b=o(7361),w=o(357),x=o(6959);var O=o(1476),E=o(5955),j={accountID:void 0,trustKey:void 0,agentID:void 0,licenseKey:void 0,applicationID:void 0,xpid:void 0},_={};var P=!1;var A=o(6972),k=o(1793),L=o(5023);function S(t,e){return S=Object.setPrototypeOf?Object.setPrototypeOf.bind():function(t,e){return t.__proto__=e,t},S(t,e)}var T,C,I,R=function(t){var e,n;function r(e){var n;return n=t.call(this,e)||this,(0,k.v)(e),(0,A.B)(e,"firstbyte",(0,x.yf)()),c((function(){return n.measureWindowLoaded()})),u((function(){return n.measureDomContentLoaded()})),n}n=t,(e=r).prototype=Object.create(n.prototype),e.prototype.constructor=e,S(e,n);var o=r.prototype;return o.measureWindowLoaded=function(){var t=(0,x.zO)();(0,A.B)(this.agentIdentifier,"onload",t+(0,x.os)()),(0,b.p)("timing",["load",t],void 0,void 0,this.ee)},o.measureDomContentLoaded=function(){(0,A.B)(this.agentIdentifier,"domContent",(0,x.zO)()+(0,x.os)())},r}(L.W);void 0!==document.hidden?(T="hidden",C="visibilitychange",I="visibilityState"):void 0!==document.msHidden?(T="msHidden",C="msvisibilitychange"):void 0!==document.webkitHidden&&(T="webkitHidden",C="webkitvisibilitychange",I="webkitVisibilityState");var M=o(2085);function N(t,e){return N=Object.setPrototypeOf?Object.setPrototypeOf.bind():function(t,e){return t.__proto__=e,t},N(t,e)}var D=function(t){var n,r;function o(n){var r,o;if((r=t.call(this,n)||this).pageHiddenTime="hidden"===document.visibilityState?-1:1/0,r.performanceObserver,r.lcpPerformanceObserver,r.clsPerformanceObserver,r.fiRecorded=!1,!r.isEnabled())return function(t){if(void 0===t)throw new ReferenceError("this hasn't been initialised - super() hasn't been called");return t}(r);if("PerformanceObserver"in window&&"function"==typeof window.PerformanceObserver){r.performanceObserver=new PerformanceObserver((function(){var t;return(t=r).perfObserver.apply(t,arguments)}));try{r.performanceObserver.observe({entryTypes:["paint"]})}catch(t){}r.lcpPerformanceObserver=new PerformanceObserver((function(){var t;return(t=r).lcpObserver.apply(t,arguments)}));try{r.lcpPerformanceObserver.observe({entryTypes:["largest-contentful-paint"]})}catch(t){}r.clsPerformanceObserver=new PerformanceObserver((function(){var t;return(t=r).clsObserver.apply(t,arguments)}));try{r.clsPerformanceObserver.observe({type:"layout-shift",buffered:!0})}catch(t){}}if("addEventListener"in document){r.fiRecorded=!1;["click","keydown","mousedown","pointerdown","touchstart"].forEach((function(t){document.addEventListener(t,(function(){var t;return(t=r).captureInteraction.apply(t,arguments)}),(0,e.m)(!1))}))}return o=function(){var t;return(t=r).captureVisibilityChange.apply(t,arguments)},"addEventListener"in document&&C&&document.addEventListener(C,(function(){I&&document[I]?o(document[I]):document[T]?o("hidden"):o("visible")}),(0,e.m)(!1)),r}r=t,(n=o).prototype=Object.create(r.prototype),n.prototype.constructor=n,N(n,r);var i=o.prototype;return i.isEnabled=function(){return!1!==(0,O.Mt)(this.agentIdentifier,"page_view_timing.enabled")},i.perfObserver=function(t,e){var n=this;t.getEntries().forEach((function(t){"first-paint"===t.name?(0,b.p)("timing",["fp",Math.floor(t.startTime)],void 0,void 0,n.ee):"first-contentful-paint"===t.name&&(0,b.p)("timing",["fcp",Math.floor(t.startTime)],void 0,void 0,n.ee)}))},i.lcpObserver=function(t,e){var n=t.getEntries();if(n.length>0){var r=n[n.length-1];if(this.pageHiddenTime<r.startTime)return;var o=[r],i=this.addConnectionAttributes({});i&&o.push(i),(0,b.p)("lcp",o,void 0,void 0,this.ee)}},i.clsObserver=function(t){var e=this;t.getEntries().forEach((function(t){t.hadRecentInput||(0,b.p)("cls",[t],void 0,void 0,e.ee)}))},i.addConnectionAttributes=function(t){var e=navigator.connection||navigator.mozConnection||navigator.webkitConnection;if(e)return e.type&&(t["net-type"]=e.type),e.effectiveType&&(t["net-etype"]=e.effectiveType),e.rtt&&(t["net-rtt"]=e.rtt),e.downlink&&(t["net-dlink"]=e.downlink),t},i.captureInteraction=function(t){if(t instanceof M.Y.EV&&!this.fiRecorded){var e=Math.round(t.timeStamp),n={type:t.type};this.addConnectionAttributes(n),e<=(0,x.zO)()?n.fid=(0,x.zO)()-e:e>(0,x.os)()&&e<=Date.now()?(e-=(0,x.os)(),n.fid=(0,x.zO)()-e):e=(0,x.zO)(),this.fiRecorded=!0,(0,b.p)("timing",["fi",e,n],void 0,void 0,this.ee)}},i.captureVisibilityChange=function(t){"hidden"===t&&(this.pageHiddenTime=(0,x.zO)(),(0,b.p)("pageHide",[this.pageHiddenTime],void 0,void 0,this.ee))},o}(L.W),q=o(3350),B="React",z="Angular",G="AngularJS",H="Backbone",F="Ember",V="Vue",Z="Meteor",U="Zepto",X="Jquery";function Q(){var t=[];try{(function(){try{if(window.React||window.ReactDOM||window.ReactRedux)return!0;if(document.querySelector("[data-reactroot], [data-reactid]"))return!0;for(var t=document.querySelectorAll("body > div"),e=0;e<t.length;e++)if(Object.keys(t[e]).indexOf("_reactRootContainer")>=0)return!0;return!1}catch(t){return!1}})()&&t.push(B),function(){try{return!!window.angular||(!!document.querySelector(".ng-binding, [ng-app], [data-ng-app], [ng-controller], [data-ng-controller], [ng-repeat], [data-ng-repeat]")||!!document.querySelector('script[src*="angular.js"], script[src*="angular.min.js"]'))}catch(t){return!1}}()&&t.push(G),function(){try{return!!(window.hasOwnProperty("ng")&&window.ng.hasOwnProperty("coreTokens")&&window.ng.coreTokens.hasOwnProperty("NgZone"))||!!document.querySelectorAll("[ng-version]").length}catch(t){return!1}}()&&t.push(z),window.Backbone&&t.push(H),window.Ember&&t.push(F),window.Vue&&t.push(V),window.Meteor&&t.push(Z),window.Zepto&&t.push(U),window.jQuery&&t.push(X)}catch(t){}return t}var W=o(7299),K=o(603),Y=o(158);function J(t,e){return J=Object.setPrototypeOf?Object.setPrototypeOf.bind():function(t,e){return t.__proto__=e,t},J(t,e)}var $=function(t){var e,n;function r(e){var n;return(n=t.call(this,e)||this).singleChecks(),(0,q.X)("record-supportability",(function(){var t;return(t=n).recordSupportability.apply(t,arguments)}),void 0,n.ee),(0,q.X)("record-custom",(function(){var t;return(t=n).recordCustom.apply(t,arguments)}),void 0,n.ee),n}n=t,(e=r).prototype=Object.create(n.prototype),e.prototype.constructor=e,J(e,n);var o=r.prototype;return o.recordSupportability=function(t,e){var n=["sm",t,{name:t},e];return(0,b.p)("storeMetric",n,null,void 0,this.ee),n},o.recordCustom=function(t,e){var n=["cm",t,{name:t},e];return(0,b.p)("storeEventMetrics",n,null,void 0,this.ee),n},o.singleChecks=function(){var t=this;this.recordSupportability("Generic/Version/"+Y.q+"/Detected"),u((function(){Q().forEach((function(e){t.recordSupportability("Framework/"+e+"/Detected")}))})),W.T.isFileProtocol()&&(this.recordSupportability("Generic/FileProtocol/Detected"),W.T.supportabilityMetricSent=!0);var e=(0,K.$c)(this.agentIdentifier);e.length>0&&this.recordSupportability("Generic/Obfuscate/Detected"),e.length>0&&!(0,K.Ng)(e)&&this.recordSupportability("Generic/Obfuscate/Invalid")},r}(L.W),tt=o(847);new Promise((function(e,n){if(P)e(P);else{var r=(0,g.gG)();try{(0,m.L)(t.Z,r.info),(0,O.Dg)(t.Z,r.init),function(t,e){if(!t)throw new Error("All loader-config objects require an agent identifier!");_[t]=new E.I(e,j),(0,g.Qy)(t,_[t],"loader_config")}(t.Z,r.loader_config),(0,y.s)(t.Z,{}),function(t){var e=(0,g.fP)(),n=s.ee.get(t),r=n.get("tracer"),o="api-",i="api-ixn-";function a(){}(0,w.D)(["setErrorHandler","finished","addToTrace","inlineHit","addRelease"],(function(t,n){e[n]=u(o,n,!0,"api")})),e.addPageAction=u(o,"addPageAction",!0),e.setCurrentRouteName=u(o,"routeName",!0),e.setPageViewName=function(e,n){if("string"==typeof e)return"/"!==e.charAt(0)&&(e="/"+e),(0,y.O)(t).customTransaction=(n||"http://custom.transaction")+e,u(o,"setPageViewName",!0,"api")()},e.setCustomAttribute=function(e,n){var r,i=(0,m.C)(t);return(0,m.L)(t,Object.assign({},i,{jsAttributes:Object.assign({},i.jsAttributes,(r={},r[e]=n,r))})),u(o,"setCustomAttribute",!0,"api")()},e.interaction=function(){return(new a).get()};var c=a.prototype={createTracer:function(t,e){var o={},i=this,a="function"==typeof e;return(0,b.p)("api-ixn-tracer",[(0,x.zO)(),t,o],i,void 0,n),function(){if(r.emit((a?"":"no-")+"fn-start",[(0,x.zO)(),i,a],o),a)try{return e.apply(this,arguments)}catch(t){throw r.emit("fn-err",[arguments,this,"string"==typeof t?new Error(t):t],o),t}finally{r.emit("fn-end",[(0,x.zO)()],o)}}}};function u(t,e,r,o){return function(){return(0,b.p)("record-supportability",["API/"+e+"/called"],void 0,void 0,n),(0,b.p)(t+e,[(0,x.zO)()].concat(h()(arguments)),r?null:this,o,n),r?void 0:this}}(0,w.D)("actionText,setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),(function(t,e){c[e]=u(i,e)})),e.noticeError=function(t,e){"string"==typeof t&&(t=new Error(t)),(0,b.p)("record-supportability",["API/noticeError/called"],void 0,void 0,n),(0,b.p)("err",[t,(0,x.zO)(),!1,e],void 0,void 0,n)}}(t.Z),e(P=!0)}catch(t){n(t)}}})).then((function(){var e,n,r,o=(0,tt.K)(t.Z);o.page_view_event&&new R(t.Z),o.page_view_timing&&new D(t.Z),o.metrics&&new $(t.Z),e="lite",n?setTimeout((function(){return v(e)}),r||1e3):c((function(){return v(e)}))}))}(),i}()}));</script>
+<link rel="canonical" href="http://investor.veradigm.com/" />
+<link rel="shortlink" href="http://investor.veradigm.com/" />
+<meta name="description" content="The Investor Relations website contains information about Veradigm Inc.&#039;s business for stockholders, potential investors, and financial analysts." />
+<meta property="og:site_name" content="Veradigm Inc." />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://investor.veradigm.com/investor-relations" />
+<meta property="og:title" content="Investor Relations | Veradigm Inc." />
+<meta property="og:description" content="The Investor Relations website contains information about Veradigm Inc.&#039;s business for stockholders, potential investors, and financial analysts." />
+<meta name="Generator" content="Drupal 9 (https://www.drupal.org)" />
+<meta name="MobileOptimized" content="width" />
+<meta name="HandheldFriendly" content="true" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="icon" href="/sites/g/files/knoqqb81646/files/Veradigm_favicon.png" type="image/png" />
+<link rel="alternate" hreflang="en" href="https://investor.veradigm.com/" />
+
+    <title>Investor Relations | Veradigm Inc.</title>
+    <link rel="stylesheet" media="all" href="/sites/g/files/knoqqb81646/files/css/css_PtIDWPSYTAR5c61_viZQmEXmemUAEcFyWq4p65pKtWs.css" />
+<link rel="stylesheet" media="all" href="/sites/g/files/knoqqb81646/files/css/css_IFm4IYcpLd85rEeZ51_Vgsm4Ozcj4VRKO_1sNYyJ74w.css" />
+<link rel="stylesheet" media="all" href="//fonts.googleapis.com/css?family=Raleway:400,800,300" />
+<link rel="stylesheet" media="all" href="//fonts.googleapis.com/css?family=Abel" />
+<link rel="stylesheet" media="all" href="//fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&amp;display=swap" />
+<link rel="stylesheet" media="all" href="/sites/g/files/knoqqb81646/files/css/css_P6HFVNWrjkMxqDSBILYZ8zi-1-bLJhPd6MmTRF726wA.css" />
+<link rel="stylesheet" media="print" href="/sites/g/files/knoqqb81646/files/css/css_0n_9KvkH0hyUGeFtNvf9lkL4iqk34o4qoRPiSiSW7ak.css" />
+<link rel="stylesheet" media="all" href="/sites/g/files/knoqqb81646/files/css/css_MLY6bwmUiDgC73qBISiPOUiqtRyesntowBtG9LZhg10.css" />
+
+    <script src="/core/assets/vendor/modernizr/modernizr.min.js?v=3.11.7"></script>
+<script src="/core/misc/modernizr-additional-tests.js?v=3.11.7"></script>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="//www.googletagmanager.com/gtag/js?id=UA-5869507-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-5869507-1');
+</script>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-5MC8KFM');</script>
+<!-- End Google Tag Manager -->
+  
+                    <script>var w=window;if(w.performance||w.mozPerformance||w.msPerformance||w.webkitPerformance){var d=document;AKSB=w.AKSB||{},AKSB.q=AKSB.q||[],AKSB.mark=AKSB.mark||function(e,_){AKSB.q.push(["mark",e,_||(new Date).getTime()])},AKSB.measure=AKSB.measure||function(e,_,t){AKSB.q.push(["measure",e,_,t||(new Date).getTime()])},AKSB.done=AKSB.done||function(e){AKSB.q.push(["done",e])},AKSB.mark("firstbyte",(new Date).getTime()),AKSB.prof={custid:"543865",ustr:"",originlat:"0",clientrtt:"30",ghostip:"23.201.57.36",ipv6:false,pct:"10",clientip:"24.127.232.176",requestid:"5f4c782f",region:"41273",protocol:"",blver:14,akM:"",akN:"ae",akTT:"O",akTX:"1",akTI:"5f4c782f",ai:"588404",ra:"false",pmgn:"",pmgi:"",pmp:"",qc:""},function(e){var _=d.createElement("script");_.async="async",_.src=e;var t=d.getElementsByTagName("script"),t=t[t.length-1];t.parentNode.insertBefore(_,t)}(("https:"===d.location.protocol?"https:":"http:")+"//ds-aksb-a.akamaihd.net/aksb.min.js")}</script>
+                    </head>
+  <body class="body-sidebars-last nir-node nir-node--type-nir-landing-page nir-node--5806 path-frontpage page-node-type-nir-landing-page">
+    <div id="skip">
+      <a class="visually-hidden focusable skip-link" href="#main-menu">
+        Skip to main navigation
+      </a>
+    </div>
+    
+      <div class="dialog-off-canvas-main-canvas" data-off-canvas-main-canvas>
+    <header>
+    <div class="top-bar row expanded" id="backtotop">
+        <div class="top-bar-left">
+                            <div class="top-custom-banner">  <div class="region region-top-banner">
+    <div id="block-gbtopbanner" class="block-content--nir-global-block block-content--nir-global-block--24026 block--block-contentbfdca80d-896e-4299-ba14-f867895f6e64 block--block-contentbfdca80d-896e-4299-ba14-f867895f6e64--5806 block--top-banner--block-content--bfdca80d-896e-4299-ba14-f867895f6e64 block--top-banner--block-content--bfdca80d-896e-4299-ba14-f867895f6e64--5806 block--cea56008-9947-4c7c-b69c-23a8e272b2a8 block--cea56008-9947-4c7c-b69c-23a8e272b2a8--5806 block block-block-content block-block-contentbfdca80d-896e-4299-ba14-f867895f6e64">
+  
+    
+      
+            <div class="field field--name-field-nir-global-block-node field--type-entity-reference field--label-hidden field__item">  
+            <div class="field field--name-field-nir-global-block-body field--type-text-long field--label-hidden field__item">Allscripts is now known as Veradigm. Please read the <a href="/news-releases/news-release-details/allscripts-announces-corporate-name-change-veradigm-inc">press release</a> and visit <a href="https://veradigm.com/">veradigm.com</a> to learn more</div>
+      
+</div>
+      
+  </div>
+
+  </div>
+</div>
+                        <a href="https://veradigm.com/">
+                                <img class="logo-orig" src="/sites/g/files/knoqqb81646/themes/site/nir_pid499/dist/images/veradigm_primary_logo_formerly_allscripts_RGB.svg" alt="logo"/>
+            </a>
+        </div>
+        <div class="top-bar-right">
+            <div class="title-bar" data-responsive-toggle="main-menu" data-hide-for="large">
+                <button class="menu-icon" type="button" aria-label="Open Search" data-toggle></button>
+            </div>
+                              <div class="region region-navigation" id="main-menu">
+    
+
+                        
+    <h2 class="visually-hidden" id="block-investorrelations-2-menu">Investor Relations</h2>
+    
+
+                              <ul data-block-uuid="bc10dad1-6a1a-4477-9aef-c10239e31332" class="menu vertical medium-horizontal expanded medium-text-center"  data-responsive-menu="drilldown large-dropdown">
+                                  <li>
+                  <a href="/" data-drupal-link-system-path="&lt;front&gt;" class="is-active">Investor Relations</a>
+                  </li>
+                              <li class="has-submenu">
+                  <a href="/financial-information/quarterly-earnings" target="" rel="" data-drupal-link-system-path="node/19176">Financials</a>
+                                    <ul class="submenu menu vertical" data-submenu>
+                                  <li>
+                  <a href="/financial-information/quarterly-earnings" target="" rel="" data-drupal-link-system-path="node/19176">Quarterly Earnings</a>
+                  </li>
+                              <li>
+                  <a href="/financial-information/sec-filings" target="" rel="" data-drupal-link-system-path="node/5876">SEC Filings</a>
+                  </li>
+                              <li>
+                  <a href="/financial-information/annual-reports" target="" rel="" data-drupal-link-system-path="node/5881">Annual Reports</a>
+                  </li>
+          </ul>
+  
+                  </li>
+                              <li class="has-submenu">
+                  <a href="/news-events/news-releases" target="" rel="" data-drupal-link-system-path="node/19346">News &amp; Events</a>
+                                    <ul class="submenu menu vertical" data-submenu>
+                                  <li>
+                  <a href="/news-events/news-releases" target="" rel="" title="Main Investor Relations Page" data-drupal-link-system-path="node/19346">Press Releases</a>
+                  </li>
+                              <li>
+                  <a href="/news-events/event-calendar" target="" rel="" data-drupal-link-system-path="node/5826">Events</a>
+                  </li>
+                              <li>
+                  <a href="/news-events/webcast-%26-presentations" target="" rel="" data-drupal-link-system-path="node/5831">Presentations</a>
+                  </li>
+          </ul>
+  
+                  </li>
+                              <li class="has-submenu">
+                  <a href="/stock-information/stock-quote-and-chart" target="" rel="" data-drupal-link-system-path="node/5911">Stock Info</a>
+                                    <ul class="submenu menu vertical" data-submenu>
+                                  <li>
+                  <a href="/stock-information/stock-quote-and-chart" target="" rel="" data-drupal-link-system-path="node/5911">Stock Quote &amp; Chart</a>
+                  </li>
+                              <li>
+                  <a href="/stock-information/historical-price-lookup" data-drupal-link-system-path="node/5921">Historical Price Lookup</a>
+                  </li>
+                              <li>
+                  <a href="/stock-information/analyst-coverage" target="" rel="" data-drupal-link-system-path="node/5896">Analyst Coverage</a>
+                  </li>
+                              <li>
+                  <a href="/stock-information/earnings-estimates" data-drupal-link-system-path="node/5891">Estimates</a>
+                  </li>
+          </ul>
+  
+                  </li>
+                              <li class="has-submenu">
+                  <a href="/governance-documents" target="" rel="" data-drupal-link-system-path="node/5836">Governance</a>
+                                    <ul class="submenu menu vertical" data-submenu>
+                                  <li>
+                  <a href="https://veradigm.com/about-veradigm/leadership/">Leadership</a>
+                  </li>
+                              <li>
+                  <a href="https://www.allscripts.com/about-us/leaders/#board-of-directors" target="" rel="">Board of Directors</a>
+                  </li>
+                              <li>
+                  <a href="/corporate-governance/committee-composition" data-drupal-link-system-path="node/5851">Committee Composition</a>
+                  </li>
+                              <li>
+                  <a href="/governance-documents" target="" rel="" data-drupal-link-system-path="node/5836">Governance Documents</a>
+                  </li>
+                              <li>
+                  <a href="https://www.allscripts.com/about-us/give-back/">Corporate Social Responsibility</a>
+                  </li>
+          </ul>
+  
+                  </li>
+                              <li class="has-submenu">
+                  <a href="/shareholder-services/contact-us" target="" rel="" data-drupal-link-system-path="node/5981">Investor Resources</a>
+                                    <ul class="submenu menu vertical" data-submenu>
+                                  <li>
+                  <a href="/shareholder-services/contact-us" target="" rel="" data-drupal-link-system-path="node/5981">Contact Us</a>
+                  </li>
+                              <li>
+                  <a href="/shareholder-services/email-alerts" data-drupal-link-system-path="node/5946">Email Alerts</a>
+                  </li>
+                              <li>
+                  <a href="/shareholder-services/rss-feeds" target="" rel="" data-drupal-link-system-path="node/5951">RSS Feeds</a>
+                  </li>
+          </ul>
+  
+                  </li>
+          </ul>
+  
+
+
+    
+  </div>
+
+                    </div>
+    </div>
+</header>
+
+    
+
+
+
+    <div class="banner no-image sect-default" id="hero-banner">
+        <div class="row">
+            <div class="large-12 columns" id="banner-descritption">
+                                      <div class="region region-hero">
+      
+    
+      
+            <div class="field field--name-field-nir-global-block-node field--type-entity-reference field--label-hidden field__item">  
+            <div class="field field--name-field-nir-global-block-body field--type-text-long field--label-hidden field__item"><p>Veradigm (NASDAQ: MDRX), formerly known as Allscripts, is a healthcare technology company that drives value through its unique combination of platforms, data, expertise, connectivity, and scale. Our open, connected network of both owned solutions and partners is dedicated to empowering healthcare providers, payers, and life science companies to transform health and advance value, insightfully.</p>
+
+<p><span class="ccbnTxt">Veradigm connects over 300,000 US healthcare providers via the Veradigm Network, helping to facilitate the transition to value-based care, while representing over 170 million patients. Through its significant healthcare provider base, the Veradigm Network provides life science and health plan organizations unique access to de-identified patient data, provider connectivity and analytics at scale. </span></p>
+</div>
+      
+</div>
+      
+  
+  </div>
+
+                            </div>
+        </div>
+    </div>
+
+
+    <!-- Events and Reports -->
+    <div class="ndq-section bg-light bg-feat-1-2" id="profile">
+        <div class="events-bg-before"></div>
+        <div class="row ndq-events-reports" data-equalizer="feats_one" data-equalize-on="large" data-resize="" data-events="resize">
+                                        <div class="large-6 columns overlay-fade-in">
+                      <div class="region region-featured1">
+    <div class="views-element-container block--views-blockwidget-bundled-content-block-1 block--views-blockwidget-bundled-content-block-1--5806 block--featured1--views-block--widget-bundled-content-block-1 block--featured1--views-block--widget-bundled-content-block-1--5806 block--360cf83d-c1f9-447b-ae39-a272116accd6 block--360cf83d-c1f9-447b-ae39-a272116accd6--5806 block block-views block-views-blockwidget-bundled-content-block-1" id="block-views-block-widget-bundled-content-block-1">
+  
+          
+        <div data-block-uuid="360cf83d-c1f9-447b-ae39-a272116accd6"><div class="acc-wrap view view-widget-bundled-content view-id-widget_bundled_content view-display-id-block_1 js-view-dom-id-7417e75521981733e1733d60c558b68aa6056d5ed10a518ec1c9394eb2d47428">
+  
+    
+        <div class="view-filters">
+      <form class="views-exposed-form" data-drupal-selector="views-exposed-form-widget-bundled-content-block-1" action="/" method="get" id="views-exposed-form-widget-bundled-content-block-1" accept-charset="UTF-8">
+  <div class="form--inline clearfix">
+  
+</div>
+
+</form>
+
+    </div>
+    
+      <div class="view-content">
+                          <h2>
+    <i class="ndq-highlight-icon icon ndqicon-snapshot"></i>
+    Q3 2022 Earnings</h2>
+  <div class="feat-one-eq-row">
+          <div class="views-row " data-equalizer-watch="feats_one">
+      <div class="views-field views-field-field-nir-bundle-content"><div class="field-content"><div class="item-list"><ul><li><div class=" clearfix">
+  <div class="content">
+    
+            <div class="field field--name-field-nir-content-ref field--type-entity-reference field--label-hidden field__item">  <div class="file-link">
+  <span class="file file--mime-application-pdf file--application-pdf"> <a href="/static-files/5a36820d-1e41-4f06-baa8-00f6ab8f8017" type="application/pdf" title="MDRX_3Q_2022_Press_Release_11_03_22.pdf">Earnings Release</a></span><span class="filesize"> 462.6 KB</span>
+</div>
+</div>
+      
+  </div>
+</div>
+</li><li><div class=" clearfix">
+  <div class="content">
+    
+            <div class="field field--name-field-nir-content-ref field--type-entity-reference field--label-hidden field__item">  <div class="file-link">
+  <span class="file file--mime-application-pdf file--application-pdf"> <a href="/static-files/de65bb92-20f2-49ec-9487-75a024779d05" type="application/pdf" title="MDRX_USQ_Transcript_2022_11_03.pdf">Transcript</a></span><span class="filesize"> 213.7 KB</span>
+</div>
+</div>
+      
+  </div>
+</div>
+</li><li><div class=" clearfix">
+  <div class="content">
+    
+            <div class="field field--name-field-nir-content-ref field--type-entity-reference field--label-hidden field__item">  <div class="file-link">
+  <span class="file file--mime-application-pdf file--application-pdf"> <a href="/static-files/993547e7-5e1e-420d-b0ee-cc77348b27d0" type="application/pdf" title="Q3 MDRX 10-Q.pdf">10-Q</a></span><span class="filesize"> 763.9 KB</span>
+</div>
+</div>
+      
+  </div>
+</div>
+</li><li><div class=" clearfix">
+  <div class="content">
+    
+            <div class="field field--name-field-nir-content-ref field--type-entity-reference field--label-hidden field__item webcast-link"><a href="/events/event-details/q3-2022-allscripts-healthcare-solutions-inc-earnings-conference-call" hreflang="en">Webcast</a></div>
+      
+  </div>
+</div>
+</li></ul></div></div></div>
+    </div>
+    </div>
+
+
+      
+
+    </div>
+  
+  
+          <div class="view-footer">
+          
+        </div>
+    </div>
+</div>
+
+  </div>
+
+
+<nav role="navigation" aria-labelledby="block-viewallquarterlyresults-menu" id="block-viewallquarterlyresults" class="block--system-menu-blockview-all-quarterly-results block--system-menu-blockview-all-quarterly-results--5806 block--featured1--system-menu-block--view-all-quarterly-results block--featured1--system-menu-block--view-all-quarterly-results--5806 block--c4426082-918b-41a0-9f4a-e3d960ceb0f7 block--c4426082-918b-41a0-9f4a-e3d960ceb0f7--5806 block block-menu navigation block-system-menublock menu--view-all-quarterly-results">
+                        
+    <h2 class="visually-hidden" id="block-viewallquarterlyresults-menu">View All Quarterly Results</h2>
+    
+
+                              <ul data-block-uuid="c4426082-918b-41a0-9f4a-e3d960ceb0f7" class="menu side-menu">
+                  <li class="side-menu__item">
+          <a href="/financial-information/quarterly-earnings" target="" rel="" data-drupal-link-system-path="node/19176">View All</a>
+                  </li>
+          </ul>
+  
+
+
+    </nav>
+
+  </div>
+
+                </div>
+            
+                            <div class="large-6 columns margin-medium-top overlay-fade-in">
+                      <div class="region region-featured2">
+    <div id="block-widgeteventsv2-2" class="block--nir-events__widget block--nir-events__widget--5806 block--featured2--nir-events__widget block--featured2--nir-events__widget--5806 block--267f3cd6-0510-46f9-b658-79d19ad2edc8 block--267f3cd6-0510-46f9-b658-79d19ad2edc8--5806 block block-nir-events block-nir-events__widget">
+  
+    
+      <div class="nir-widget">
+      <h2>
+        <i class="ndq-highlight-icon icon ndqicon-calendar-1"></i>Upcoming Events
+    </h2>
+    <div class="nir-widget--content" data-equalizer-watch="feats_one">
+        <div class="nir-widget--list">
+              
+<article role="article" class="clearfix node node--nir-event--nir-widget-list node--type-nir-event node--view-mode-nir-widget-list">
+
+  
+          <div class="nir-widget--field nir-widget--event--date">
+          <div class="ndq-date">
+      
+      
+            November 3, 2022 at 4:30 PM EDT
+      </div>  
+
+      </div>
+    
+      <div class="nir-widget--field nir-widgets--event--title">
+      
+<div class="field-nir-event-title">
+      <div class="field__item"><a href="/events/event-details/q3-2022-allscripts-healthcare-solutions-inc-earnings-conference-call" hreflang="en">Q3 2022 Allscripts Healthcare Solutions Inc Earnings Conference Call</a></div>
+  </div>
+    </div>
+  
+
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+</article>
+
+<article role="article" class="clearfix node node--nir-event--nir-widget-list node--type-nir-event node--view-mode-nir-widget-list">
+
+  
+          <div class="nir-widget--field nir-widget--event--date">
+          <div class="ndq-date">
+      
+      
+            September 28, 2022 at 12:00 PM EDT
+      </div>  
+
+      </div>
+    
+      <div class="nir-widget--field nir-widgets--event--title">
+      
+<div class="field-nir-event-title">
+      <div class="field__item"><a href="/events/event-details/investor-day" hreflang="en">Investor Day</a></div>
+  </div>
+    </div>
+  
+
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+</article>
+
+          </div>
+    <div class="nir-widget--pager">
+      
+    </div>
+    <div class="nir-widget--total-results">
+      
+    </div>
+  </div>
+</div>
+  </div>
+
+
+<nav role="navigation" aria-labelledby="block-viewallevents-menu" id="block-viewallevents" class="block--system-menu-blockview-all-events block--system-menu-blockview-all-events--5806 block--featured2--system-menu-block--view-all-events block--featured2--system-menu-block--view-all-events--5806 block--8655d0d8-3812-4e66-b49a-910aefd0b208 block--8655d0d8-3812-4e66-b49a-910aefd0b208--5806 block block-menu navigation block-system-menublock menu--view-all-events">
+                        
+    <h2 class="visually-hidden" id="block-viewallevents-menu">View All Events</h2>
+    
+
+                              <ul data-block-uuid="8655d0d8-3812-4e66-b49a-910aefd0b208" class="menu side-menu">
+                  <li class="side-menu__item">
+          <a href="/news-events/event-calendar" target="" rel="" data-drupal-link-system-path="node/5826">View All</a>
+                  </li>
+          </ul>
+  
+
+
+    </nav>
+
+  </div>
+
+                </div>
+                    </div>
+    </div>
+    <!-- End of Events and Reports -->
+
+
+
+<!-- Press Releases -->
+<div class="ndq-section">
+    <div id="ndq-content" class="row ndq-5806">
+        <div class="column large-12">
+          <div class="region region-content">
+    <div data-drupal-messages-fallback class="hidden"></div>
+<div id="block-nir-pid499-content" class="block--system-main-block block--system-main-block--5806 block--content--system-main-block block--content--system-main-block--5806 block--b0566950-17b3-4af5-840d-56539a35c35b block--b0566950-17b3-4af5-840d-56539a35c35b--5806 block block-system block-system-main-block">
+  
+    
+      <article class="node node--type-nir_landing_page node--view-mode-full clearfix">
+  
+      <h1>
+              Investor Relations
+          </h1>
+    
+
+  <div>
+    
+<div class="panel-display boxton clearfix " >
+
+  <div class="container-fluid">
+    <div class="row">
+      <div class="column medium-12 radix-layouts-content panel-panel">
+        <div class="panel-panel-inner">
+          <div class="block-region-contentmain"><div class="block--home-news block--nir-news__widget block--nir-news__widget--5806 block--contentmain--nir-news__widget block--contentmain--nir-news__widget--5806 block--c0570242-1eaf-4cc6-bc52-624c84159812 block--c0570242-1eaf-4cc6-bc52-624c84159812--5806 block block-nir-news block-nir-news__widget">
+  
+    
+      <div class="nir-widget">
+              <h2 class="nir-widget--label"><span class="primary-color">Press</span> Releases</h2>
+    <div class="nir-widget--content">
+        <div class="nir-widget--list">
+              
+<article role="article" class="clearfix node node--nir-news--nir-widget-list node--type-nir-news node--view-mode-nir-widget-list node--promoted">
+
+  
+      <div class="large-2 columns ndq-press-date">
+                    <span class="press-date">03</span>
+        
+            <span class="press-year">Jan '23</span>
+              
+
+
+            </div>
+  <div class="large-10 columns ndq-press-content detail">
+            <div class="nir-widget--field nir-widget--news--headline">
+          <a href="/news-releases/news-release-details/allscripts-announces-corporate-name-change-veradigm-inc" hreflang="en">Allscripts Announces Corporate Name Change to Veradigm Inc.</a>
+      </div>
+      
+  <div class="">
+        <div >
+      <div class="nir-widget--field nir-widget--news--teaser">
+          CHICAGO --(BUSINESS WIRE)--Jan. 3, 2023-- Allscripts Healthcare Solutions, Inc. announced today that, effective January 1, 2023 , it has changed its name to Veradigm Inc. (NASDAQ: MDRX). Allscripts had been transitioning its solutions to the Veradigm brand during 2022, and Allscripts will now
+      </div>
+    </div>
+  
+  
+
+
+  
+    </div>
+
+
+    
+  <div class="gcs-clear"></div>
+
+</div>
+
+
+
+</article>
+
+<article role="article" class="clearfix node node--nir-news--nir-widget-list node--type-nir-news node--view-mode-nir-widget-list node--promoted">
+
+  
+      <div class="large-2 columns ndq-press-date">
+                    <span class="press-date">22</span>
+        
+            <span class="press-year">Nov '22</span>
+              
+
+
+            </div>
+  <div class="large-10 columns ndq-press-content detail">
+            <div class="nir-widget--field nir-widget--news--headline">
+          <a href="/news-releases/news-release-details/veradigm-digital-health-media-becomes-first-ehr-marketing" hreflang="en">Veradigm Digital Health Media Becomes the First EHR Marketing Solution to Join the Point of Care Marketing Association</a>
+      </div>
+      
+  <div class="">
+        <div >
+      <div class="nir-widget--field nir-widget--news--teaser">
+          Veradigm senior leadership to join board of directors CHICAGO --(BUSINESS WIRE)--Nov. 22, 2022-- Veradigm, a business unit of Allscripts (NASDAQ: MDRX), announced today The Point of Care Marketing Association (POCMA), a nonprofit organization to support the continued growth of the Point of Care
+      </div>
+    </div>
+  
+  
+
+
+  
+    </div>
+
+
+    
+  <div class="gcs-clear"></div>
+
+</div>
+
+
+
+</article>
+
+<article role="article" class="clearfix node node--nir-news--nir-widget-list node--type-nir-news node--view-mode-nir-widget-list node--promoted">
+
+  
+      <div class="large-2 columns ndq-press-date">
+                    <span class="press-date">09</span>
+        
+            <span class="press-year">Nov '22</span>
+              
+
+
+            </div>
+  <div class="large-10 columns ndq-press-content detail">
+            <div class="nir-widget--field nir-widget--news--headline">
+          <a href="/news-releases/news-release-details/veradigm-ehr-achieves-2015-onc-health-it-update-certification" hreflang="en">Veradigm EHR Achieves 2015 ONC Health IT Update Certification</a>
+      </div>
+      
+  <div class="">
+        <div >
+      <div class="nir-widget--field nir-widget--news--teaser">
+          Supporting healthcare practices to successfully meet federal reporting requirements CHICAGO --(BUSINESS WIRE)--Nov. 9, 2022-- Veradigm, a business unit of Allscripts (NASDAQ: MDRX), announced today that Veradigm EHR (formerly known as Professional EHR) has achieved 2015 ONC Health IT Update
+      </div>
+    </div>
+  
+  
+
+
+  
+    </div>
+
+
+    
+  <div class="gcs-clear"></div>
+
+</div>
+
+
+
+</article>
+
+<article role="article" class="clearfix node node--nir-news--nir-widget-list node--type-nir-news node--view-mode-nir-widget-list node--promoted">
+
+  
+      <div class="large-2 columns ndq-press-date">
+                    <span class="press-date">03</span>
+        
+            <span class="press-year">Nov '22</span>
+              
+
+
+            </div>
+  <div class="large-10 columns ndq-press-content detail">
+            <div class="nir-widget--field nir-widget--news--headline">
+          <a href="/news-releases/news-release-details/allscripts-announces-third-quarter-2022-results" hreflang="en">Allscripts announces third quarter of 2022 results</a>
+      </div>
+      
+  <div class="">
+        <div >
+      <div class="nir-widget--field nir-widget--news--teaser">
+          Third quarter consolidated revenue of $152 million Third quarter consolidated operating profit up over 30% year-over-year Generated $42 million of cash flow from continuing operations in the quarter CHICAGO --(BUSINESS WIRE)--Nov. 3, 2022-- Allscripts Healthcare Solutions, Inc.
+      </div>
+    </div>
+  
+  
+
+
+  
+    </div>
+
+
+    
+  <div class="gcs-clear"></div>
+
+</div>
+
+
+
+</article>
+
+          </div>
+    <div class="nir-widget--pager">
+      
+    </div>
+    <div class="nir-widget--total-results">
+      
+    </div>
+  </div>
+</div>
+  </div>
+
+
+<nav role="navigation" aria-labelledby="-menu" class="block--system-menu-blockview-all-news block--system-menu-blockview-all-news--5806 block--contentmain--system-menu-block--view-all-news block--contentmain--system-menu-block--view-all-news--5806 block--420ea05d-f2e4-4711-818c-74c372bd0d8e block--420ea05d-f2e4-4711-818c-74c372bd0d8e--5806 block block-menu navigation block-system-menublock menu--view-all-news">
+                        
+    <h2 class="visually-hidden" id="-menu">View All News</h2>
+    
+
+                              <ul data-block-uuid="420ea05d-f2e4-4711-818c-74c372bd0d8e" class="menu side-menu">
+                  <li class="side-menu__item">
+          <a href="/news-events/news-releases" target="" rel="" data-drupal-link-system-path="node/19346">View All</a>
+                  </li>
+          </ul>
+  
+
+
+    </nav>
+</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div><!-- /.boxton -->
+
+  </div>
+</article>
+
+  </div>
+
+  </div>
+
+        </div>
+            </div>
+</div>
+<!-- End of Press Releases -->
+
+
+
+
+
+<div class="row expanded" data-equalizer="feats_two" data-equalize-on="" data-resize="" data-events="resize">
+            <div class="column large-6 bg-gray" data-equalizer-watch="feats_two">
+            <div class="ndq-callout-box ndq-section box-col float-right padding-right-small overlay-fade-in">
+                  <div class="region region-featured3">
+    <div id="block-widgetassetsv2" class="block--nir-assets__widget block--nir-assets__widget--5806 block--featured3--nir-assets__widget block--featured3--nir-assets__widget--5806 block--731ba45c-cd07-402c-a5d3-b0d143856900 block--731ba45c-cd07-402c-a5d3-b0d143856900--5806 block block-nir-assets block-nir-assets__widget">
+  
+    
+      <div class="nir-widget">
+              <h2 class="nir-widget--label"><span class="primary-color">Featured</span> Documents</h2>
+    <div class="nir-widget--content">
+        <div class="nir-widget--list">
+              
+<article role="article" class="clearfix node node--nir-asset--nir-widget-list node--type-nir-asset node--view-mode-nir-widget-list">
+
+      <div class="nir-widget--field nir-widget--asset--thumbnail float-left">
+      
+<div class="field-nir-thumbnail">
+      <div class="field__item"><img src="/system/files-encrypted/styles/nir_asset_small/encrypt/nasdaq_kms/assets/2021/01/12/9-20-27/MDRX_Capture_Thumb_2.jpg?itok=_h01F42E" alt="logo" class="image-style-nir-asset-small" />
+
+</div>
+  </div>
+    </div>
+  
+  
+  
+  
+  
+  
+  
+
+      <div class="nir-widget--field nir-widget--asset--list-of-files">
+      
+<div class="field-nir-document">
+      <div class="nir-widgets--file-list--hide-filesize field__item">
+<article role="article" class="node node--nir-asset--asset-link node--type-nir-asset node--view-mode-asset-link">
+  <div class="node__content">
+    
+      <div class="field field--name-field-nir-document field--type-file field--label-hidden field__items">
+              <div class="field__item">
+            <div class="file-link">
+  <span class="file file--mime-application-pdf file--application-pdf"> <a href="/static-files/bb6b5db8-96da-43cc-b7de-abee10e7d969" type="application/pdf" title="Allscripts_JPM_2021_Investor_Presentation_Final.pdf">JP Morgan 2021 Virtual Healthcare Conference Presentation</a></span><span class="filesize"> 725.5 KB</span>
+</div>
+
+        </div>
+          </div>
+  
+  </div>
+</article>
+</div>
+  </div>
+    </div>
+  
+</article>
+
+          </div>
+    <div class="nir-widget--pager">
+      
+    </div>
+    <div class="nir-widget--total-results">
+      
+    </div>
+  </div>
+</div>
+  </div>
+
+  </div>
+
+            </div>
+        </div>
+    
+            <div class="column large-6 bg-gray" data-equalizer-watch="feats_two">
+            <div class="ndq-callout-box ndq-section float-left padding-left-small overlay-fade-in ">
+                  <div class="region region-featured4">
+    <div id="block-stockquote" class="block--market-data-block__stock-quote block--market-data-block__stock-quote--5806 block--featured4--market-data-block__stock-quote block--featured4--market-data-block__stock-quote--5806 block--6cf81ca4-31d9-4fa4-9f77-67ae2d8b05da block--6cf81ca4-31d9-4fa4-9f77-67ae2d8b05da--5806 block block-nir-market-data-block block-market-data-block__stock-quote">
+  
+      <h2>Stock Information</h2>
+    
+      <div class='stock-quote stock-quote__short'>
+    <div class="quote-wrapper">
+                                                                                        <div class="stock-price-content">
+                <span class="stock-price"></span>
+                <span class="stock-change "></span>
+            </div>
+            </div>
+</div>
+  </div>
+<div id="block-stockinfoattributionthomsonreuters" class="block--attribution-block__stock-info-attribution__thomson-reuters block--attribution-block__stock-info-attribution__thomson-reuters--5806 block--featured4--attribution-block__stock-info-attribution__thomson-reuters block--featured4--attribution-block__stock-info-attribution__thomson-reuters--5806 block--8606fdd3-28d6-4c49-8e41-9416ed5a3486 block--8606fdd3-28d6-4c49-8e41-9416ed5a3486--5806 block block-nir-attribution-block block-attribution-block__stock-info-attribution__thomson-reuters">
+  
+    
+      <p>
+  Data Provided by Refinitiv. Minimum 15 minutes delayed.</p>
+
+  </div>
+<div id="block-widgetstockchart-3" class="block--nir-stock-chart block--nir-stock-chart--5806 block--featured4--nir-stock-chart block--featured4--nir-stock-chart--5806 block--8f4e429c-ba78-43d7-a044-dc01ab3b03e1 block--8f4e429c-ba78-43d7-a044-dc01ab3b03e1--5806 block block-nir-stock-chart">
+  
+    
+      
+<img src="https://api.nasdaqomx.wallst.com/api/chart?display=mountain&symbol=MDRX&scale=linear&duration=6mo&frequency=1dy&gridLine=h&bgColor=f4f6f8&lineColor=7a3578&fillcolor=7a3578|7a3578&width=600&height=243&bdr=2&amp;volume=0&amp;headerType=" width="600" height="243" ></img>
+
+  </div>
+
+  </div>
+
+            </div>
+        </div>
+        </div>
+
+
+<!-- Corporate Governance-->
+<!-- End of Corporate Governance-->
+
+
+
+
+<!-- Toolkit -->
+<div class="ndq_toolbar row expanded overlay-fade-in " data-equalizer="s05n9a-equalizer" data-equalize-on="medium" data-resize="e77siw-eq" data-events="resize">
+        <div class="column large-6 medium-12" data-equalizer-watch="">
+        <div id="block-gbinvestorcontact" class="block-content--nir-global-block block-content--nir-global-block--21576 block--block-content66c9fc24-391d-4b0a-b82f-8618749915d3 block--block-content66c9fc24-391d-4b0a-b82f-8618749915d3--5806 block--toolbar--block-content--66c9fc24-391d-4b0a-b82f-8618749915d3 block--toolbar--block-content--66c9fc24-391d-4b0a-b82f-8618749915d3--5806 block--cc12a6a7-1cab-46e7-94d5-57351a622efc block--cc12a6a7-1cab-46e7-94d5-57351a622efc--5806 block block-block-content block-block-content66c9fc24-391d-4b0a-b82f-8618749915d3">
+  
+      <h2>Contact Investor Relations</h2>
+    
+      
+            <div class="field field--name-field-nir-global-block-node field--type-entity-reference field--label-hidden field__item">  
+            <div class="field field--name-field-nir-global-block-body field--type-text-long field--label-hidden field__item"><p>Jenny Gelinas<br />
+Vice President, Investor Relations<br /><a href="mailto:jenny.gelinas@veradigm.com">jenny.gelinas@veradigm.com</a></p></div>
+      
+</div>
+      
+  </div>
+
+    </div>
+        <div class="column large-6 medium-12 bg-dark-blue" data-equalizer-watch="">
+        <div class="ndq-footer-alerts-outer">
+            <div class="ndq-footer-alerts-inner">
+                <form class="ndq-footer-alerts" id="alerts-form" action="/shareholder-services/email-alerts">
+                    <h2>Request E-mail Alerts</h2>
+                    <input aria-label="Request Email Alerts" type="email" name="nir_email_alerts_signup_email" placeholder="E-mail">
+                    <button aria-label="submit form" type="submit"></button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<footer role="contentinfo">
+    <div class="row expanded overlay-fade-in revealOnScroll-fadeInUp fadeInUp animated-fast">
+        <div class="large-8 medium-12 columns" id="footer-copyright">
+            <p>&copy; <strong>2023 Veradigm Inc.</strong>.&nbsp;&nbsp;&nbspAll rights reserved.
+
+                <ul id="menu-bottom-footer-policies" class="nav fl-page-nav fl-navbar-nav menu">
+                    <li id="menu-item-7378" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-privacy-policy menu-item-7378"><a href="https://veradigm.com/privacy-policy/">Privacy Policy</a></li>
+                    <li id="menu-item-5469" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5469"><a href="https://veradigm.com/terms-of-use/">Terms of Use</a></li>
+                    <li id="menu-item-5467" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5467"><a href="https://www.allscripts.com/legal/">Legal</a></li>
+                    </ul>
+            </p>
+        </div>
+        <div class="large-4 medium-12 columns text-right" id="footer-links">
+            <div class="fl-socials-wrap">
+
+              <ul class="fl-socials">
+
+                <li class="fl-social"><a class="fl-social-icon fa-twitter js-new-window" href="https://twitter.com/Veradigm"><span class="d-none">Twitter</span></a></li>
+                <li class="fl-social"><a class="fl-social-icon fa-facebook js-new-window" href="https://www.facebook.com/Veradigm"><span class="d-none">Facebook</span></a></li>
+                <li class="fl-social"><a class="fl-social-icon fa-youtube-play js-new-window" href="https://www.youtube.com/channel/UCghbwhiHJI2xPymZHLC9wAA"><span class="d-none">YouTube</span></a></li>
+                <li class="fl-social"><a class="fl-social-icon fa-linkedin js-new-window" href="https://www.linkedin.com/company/veradigm/"><span class="d-none">LinkedIn</span></a></li>
+                <li class="fl-social"><a class="fl-social-icon fa-rss" href="https://veradigm.com/veradigm-news/#1"><span class="d-none">Blog</span></a></li>
+
+              </ul><!-- / fl-socials -->
+
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+
+<!-- back to top -->
+<div id="back-top">
+    <a href="#" class="fa fa-chevron-up"></a>
+</div>
+
+<div class="gcs-share-modal" style="display:none;">
+    <ul class="lf-share">
+        <li>
+            <a class="icon ndqicon-fb" href="http://www.facebook.com/share.php?u=https://investor.veradigm.com/investor-relations&t=Veradigm Inc. - Investor Relations"
+               onclick="window.open('http://www.facebook.com/share.php?u=https://investor.veradigm.com/investor-relations&t=Veradigm Inc. - Investor Relations','Facebook','resizable=yes,scrollbars=yes,width=900,height=570'); return false;"
+               alt="Facebook" title="Facebook" aria-label="Facebook">Facebook</a>
+        </li>
+
+        <li>
+            <a class="icon ndqicon-tw" href="http://twitter.com/home?status=Veradigm Inc. - Investor Relations+https://investor.veradigm.com/investor-relations"
+               onclick="window.open('http://twitter.com/home?status=Veradigm Inc. - Investor Relations+https://investor.veradigm.com/investor-relations','Twitter','resizable=yes,scrollbars=yes,width=900,height=570'); return false;"
+               alt="Twitter" title="Twitter" aria-label="Twitter">Twitter</a>
+        </li>
+
+        <li>
+            <a class="icon ndqicon-linkedin" href="http://www.linkedin.com/shareArticle?mini=true&url=https://investor.veradigm.com/investor-relations&title=Veradigm Inc. - Investor Relations"
+               onclick="window.open('http://www.linkedin.com/shareArticle?mini=true&url=https://investor.veradigm.com/investor-relations&title=Veradigm Inc. - Investor Relations','LinkedIn','resizable=yes,scrollbars=yes,width=900,height=570'); return false;"
+               alt="LinkedIn" title="LinkedIn" aria-label="LinkedIn">LinkedIn</a>
+        </li>
+
+        <li>
+            <a class="icon ndqicon-google-plus" href="https://plus.google.com/share?url=https://investor.veradigm.com/investor-relations?&amp;t=Veradigm Inc. - Investor Relations"
+               onclick="window.open('https://plus.google.com/share?url=https://investor.veradigm.com/investor-relations?&amp;t=Veradigm Inc. - Investor Relations','GooglePlus','resizable=yes,scrollbars=yes,width=900,height=570'); return false;"
+               alt="Google" title="GooglePlus" aria-label="GooglePlus">Google+</a>
+        </li>
+    </ul>
+</div>
+
+  </div>
+
+    
+          <script type="text/javascript">var s_CCSWebHostingAccount = "trcgclientweb567";</script>
+        <script type="application/json" data-drupal-selector="drupal-settings-json">{"path":{"baseUrl":"\/","scriptPath":null,"pathPrefix":"","currentPath":"node\/5806","currentPathIsAdmin":false,"isFront":true,"currentLanguage":"en"},"pluralDelimiter":"\u0003","suppressDeprecationErrors":true,"ajaxPageState":{"libraries":"classy\/node,nir_analytics\/nir_analytics.adobe_launch,nir_analytics\/nir_analytics.adobe_prod,nir_base\/lib,nir_base\/nir_icons,nir_base\/nir_toolbar,nir_base\/sidr,nir_ckeditor_datatables\/datatables,nir_market_data_block\/analyst_rating_bar_chart,nir_market_data_block\/analyst_ratings_table,nir_market_data_block\/mean_recommendation_chart,nir_market_data_block\/nir_market_data_block.command,nir_market_data_block\/nir_market_data_block.stockQuote,nir_multimedia\/nir_multimedia,nir_pid499\/override,nir_stock_chart\/nir_stock_chart.stockChartStyling,radix_layouts\/radix_layouts,system\/base,views\/views.module","theme":"nir_pid499","theme_token":null},"ajaxTrustedUrl":{"\/investor-relations":true},"nir_admin_use_chosen":true,"nir_admin_use_select2":false,"user":{"uid":0,"permissionsHash":"db9a150d60684a62f0b95eec534f970f1aac787b56ad9a1033b5b8e3977d293e"}}</script>
+<script src="/sites/g/files/knoqqb81646/files/js/js_uAoLWKXCvpqAdC05EQFyEsH94GehPOG51jteKKxss3Q.js"></script>
+<script src="//assets.adobedtm.com/898335afd880/c52ee8aa1e90/launch-5ef258dce664.min.js" async></script>
+
+    <!-- Google Tag Manager (noscript) -->
+<noscript><iframe src=https://www.googletagmanager.com/ns.html?id=GTM-5MC8KFM
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+  <script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"761e715901","applicationID":"39077635,24276188","transactionName":"ZlVXYRcAW0ZRW0QKX18fYEcMTlxbVF1ITUBZQA==","queueTime":0,"applicationTime":228,"atts":"ShJUF18aSEg=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+</html>

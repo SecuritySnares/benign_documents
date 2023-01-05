@@ -1,0 +1,1747 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<kml xmlns='http://www.opengis.net/kml/2.2'>
+	<Document>
+		<name>Boise Cascade EWP Distributors</name>
+		<description>Locate your area, zoom in and click on the dot for the distributors in your area. A complete listing of the distributors can viewed below the map. If you are searching the map in general, enter the city, state or zip code in the search area and click on the magnifying glass to find the distributor info for the location nearest you. | Created with https://batchgeo.com</description>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+				<name>Boise Cascade Building Materials Dist.</name>				<ExtendedData>
+												<Data name='Phone'>
+								<value>413-572-2120</value>
+							</Data>
+												<Data name='Toll Free'>
+								<value>877-462-6473</value>
+							</Data>
+												<Data name='Contact: Phone or Email'>
+								<value>David Badeau 413-572-2184 or email: EWPSales@BC.com</value>
+							</Data>
+												<Data name='Area Manager Info'>
+								<value>Area Mgr:  Chris Staub T 678-410-0488  or email: ChrisStaub@BC.com</value>
+							</Data>
+												<Data name='Region'>
+								<value>EAST US</value>
+							</Data>
+												<Data name='Country'>
+								<value>US</value>
+							</Data>
+									</ExtendedData>
+								<address>33 Fowler Street Extension Westfield MA 01085-2417</address>
+				<Point>
+					<coordinates>-72.735415,42.128664,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+				<name>Warren Trask Company</name>				<ExtendedData>
+												<Data name='Phone'>
+								<value>508-946-0126</value>
+							</Data>
+												<Data name='Toll Free'>
+								<value>800-752-0121</value>
+							</Data>
+												<Data name='Contact: Phone or Email'>
+								<value>Mike Miller 508-946-0126 or email:mmiller@warrentraskcompany.com</value>
+							</Data>
+												<Data name='Area Manager Info'>
+								<value>Area Mgr:  Chris Staub T 678-410-0488  or email: ChrisStaub@BC.com</value>
+							</Data>
+												<Data name='Region'>
+								<value>EAST US</value>
+							</Data>
+												<Data name='Country'>
+								<value>US</value>
+							</Data>
+									</ExtendedData>
+								<address>63 B Bedford Street Lakeville MA 2347</address>
+				<Point>
+					<coordinates>-70.958655,41.884835,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+				<name>BMD Boise Structural Solutions</name>				<ExtendedData>
+												<Data name='Phone'>
+								<value>877-291-5276</value>
+							</Data>
+												<Data name='Toll Free'>
+								<value>877-291-5276</value>
+							</Data>
+												<Data name='Contact: Phone or Email'>
+								<value>Bill Card 877-291-5276 or email: BillCard@BC.com</value>
+							</Data>
+												<Data name='Area Manager Info'>
+								<value>Area Mgr:  Bill Ingham T 413-427-3233  or email: BillIngham@bc.com</value>
+							</Data>
+												<Data name='Region'>
+								<value>EAST US</value>
+							</Data>
+												<Data name='Country'>
+								<value>US</value>
+							</Data>
+									</ExtendedData>
+								<address>68 Industrial Park Road Saco ME 07072-1840</address>
+				<Point>
+					<coordinates>-70.447763,43.530578,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+				<name>Boise Cascade Building Materials Dist.</name>				<ExtendedData>
+												<Data name='Phone'>
+								<value>603-431-6955</value>
+							</Data>
+												<Data name='Toll Free'>
+								<value>800-962-9961</value>
+							</Data>
+												<Data name='Contact: Phone or Email'>
+								<value>Jay Kilban 603-334-5640 x2880 or email: POLEWPDept@BC.com</value>
+							</Data>
+												<Data name='Area Manager Info'>
+								<value>Area Mgr:  Bill Ingham T 413-427-3233  or email: BillIngham@bc.com</value>
+							</Data>
+												<Data name='Region'>
+								<value>EAST US</value>
+							</Data>
+												<Data name='Country'>
+								<value>US</value>
+							</Data>
+									</ExtendedData>
+								<address>270 Ocean Road Greenland NH 03840-2442</address>
+				<Point>
+					<coordinates>-70.814266,43.037246,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+				<name>Boise Cascade Building Materials Dist.</name>				<ExtendedData>
+												<Data name='Phone'>
+								<value>856-461-8700</value>
+							</Data>
+												<Data name='Toll Free'>
+								<value>800-257-8459</value>
+							</Data>
+												<Data name='Contact: Phone or Email'>
+								<value>Sharon Martin 856-824-9121 or email: DOLEWPDept@BC.com</value>
+							</Data>
+												<Data name='Area Manager Info'>
+								<value>Area Mgr:  Josh Nau T 610-384-1835    or email: JoshNau@BC.com</value>
+							</Data>
+												<Data name='Region'>
+								<value>EAST US</value>
+							</Data>
+												<Data name='Country'>
+								<value>US</value>
+							</Data>
+									</ExtendedData>
+								<address>700 Cooper Street Delanco NJ 08075-5200</address>
+				<Point>
+					<coordinates>-74.948788,40.049527,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+				<name>Boise Cascade Building Materials Dist.</name>				<ExtendedData>
+												<Data name='Phone'>
+								<value>410-288-8400</value>
+							</Data>
+												<Data name='Toll Free'>
+								<value>800-638-9830</value>
+							</Data>
+												<Data name='Contact: Phone or Email'>
+								<value>Paul Moulton 410-288-8430 x3229 or email: ANLEWPDept@BC.com</value>
+							</Data>
+												<Data name='Area Manager Info'>
+								<value>Area Mgr:  Josh Nau T 610-384-1835    or email: JoshNau@BC.com</value>
+							</Data>
+												<Data name='Region'>
+								<value>EAST US</value>
+							</Data>
+												<Data name='Country'>
+								<value>US</value>
+							</Data>
+									</ExtendedData>
+								<address>7700 Rolling Mill Road, Suite 6 Baltimore MD 21224</address>
+				<Point>
+					<coordinates>-76.509967,39.301436,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+				<name>Boise Cascade Building Materials Dist.</name>				<ExtendedData>
+												<Data name='Phone'>
+								<value>410-288-8400</value>
+							</Data>
+												<Data name='Toll Free'>
+								<value>800-638-9830</value>
+							</Data>
+												<Data name='Contact: Phone or Email'>
+								<value>Paul Moulton 410-288-8430 x3229 or email: ANLEWPDept@BC.com</value>
+							</Data>
+												<Data name='Area Manager Info'>
+								<value>Area Mgr:  Josh Nau T 610-384-1835    or email: JoshNau@BC.com</value>
+							</Data>
+												<Data name='Region'>
+								<value>EAST US</value>
+							</Data>
+												<Data name='Country'>
+								<value>US</value>
+							</Data>
+									</ExtendedData>
+								<address>100 Council Ave Wheatland PA 16161</address>
+				<Point>
+					<coordinates>-80.492323,41.195864,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+				<name>Boise Cascade Building Materials Dist.</name>				<ExtendedData>
+												<Data name='Phone'>
+								<value>336-664-1050</value>
+							</Data>
+												<Data name='Toll Free'>
+								<value>800-210-6049</value>
+							</Data>
+												<Data name='Contact: Phone or Email'>
+								<value>Gene Wyatt 336-291-0830 x3671 or email: BDGRLEWPDept@BC.com</value>
+							</Data>
+												<Data name='Area Manager Info'>
+								<value>Area Mgr:  Jeff Ruebusch T 704-426-9506  or email: JeffRuebusch@BC.com</value>
+							</Data>
+												<Data name='Region'>
+								<value>EAST US</value>
+							</Data>
+												<Data name='Country'>
+								<value>US</value>
+							</Data>
+									</ExtendedData>
+								<address>300 Standard Drive Greensboro NC 27409</address>
+				<Point>
+					<coordinates>-79.984376,36.096218,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+				<name>Boise Cascade Building Materials Dist.</name>				<ExtendedData>
+												<Data name='Phone'>
+								<value>770-513-3521</value>
+							</Data>
+												<Data name='Toll Free'>
+								<value>800-241-9089</value>
+							</Data>
+												<Data name='Contact: Phone or Email'>
+								<value>Christine Radick 770-513-3521 x3058 or email: ATLEWPDept@BC.com</value>
+							</Data>
+												<Data name='Area Manager Info'>
+								<value>Area Mgr:  Charlie Walker T 678-218-2404 or email: CharlieWalker@BC.com</value>
+							</Data>
+												<Data name='Region'>
+								<value>EAST US</value>
+							</Data>
+												<Data name='Country'>
+								<value>US</value>
+							</Data>
+									</ExtendedData>
+								<address>8 Mount Moriah Auburn GA 30011-2912</address>
+				<Point>
+					<coordinates>-83.830833,34.014908,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+				<name>Dixie Plywood Company of Atlanta</name>				<ExtendedData>
+												<Data name='Phone'>
+								<value>678-957-4535</value>
+							</Data>
+												<Data name='Toll Free'>
+								<value>888-396-8371</value>
+							</Data>
+												<Data name='Contact: Phone or Email'>
+								<value>Art Southerland 678-957-4517 or email: jasouth@dixieply.com</value>
+							</Data>
+												<Data name='Area Manager Info'>
+								<value>Area Mgr:  Charlie Walker T 678-218-2404 or email: CharlieWalker@BC.com</value>
+							</Data>
+												<Data name='Region'>
+								<value>EAST US</value>
+							</Data>
+												<Data name='Country'>
+								<value>US</value>
+							</Data>
+									</ExtendedData>
+								<address>2803 Pleasant Hill Road Duluth GA 30096-3806</address>
+				<Point>
+					<coordinates>-84.15139,33.972566,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+				<name>Boise Cascade Building Materials Dist.</name>				<ExtendedData>
+												<Data name='Phone'>
+								<value>850-626-4042</value>
+							</Data>
+												<Data name='Toll Free'>
+								<value>866-616-5507</value>
+							</Data>
+												<Data name='Contact: Phone or Email'>
+								<value>Chuck Everette 850-626-4042  or email: BDMLLEWPDept@BC.com or ChuckEverette@BC.com</value>
+							</Data>
+												<Data name='Area Manager Info'>
+								<value>Area Mgr:  Brian Clark T 318-623-1046 or email: BrianClark@BC.com</value>
+							</Data>
+												<Data name='Region'>
+								<value>EAST US</value>
+							</Data>
+												<Data name='Country'>
+								<value>US</value>
+							</Data>
+									</ExtendedData>
+								<address>8260 Armstrong Road Milton FL 32583-8711</address>
+				<Point>
+					<coordinates>-86.978738,30.63806,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+				<name>Boise Cascade Building Materials Dist.</name>				<ExtendedData>
+												<Data name='Phone'>
+								<value>407-851-0107</value>
+							</Data>
+												<Data name='Toll Free'>
+								<value>800-432-1544</value>
+							</Data>
+												<Data name='Contact: Phone or Email'>
+								<value>Alan Fletcher  407-850-7828 x4321 or email: ORLEWPDept@BC.com</value>
+							</Data>
+												<Data name='Area Manager Info'>
+								<value>Area Mgr:  Brian Clark T 318-623-1046 or email: BrianClark@BC.com</value>
+							</Data>
+												<Data name='Region'>
+								<value>EAST US</value>
+							</Data>
+												<Data name='Country'>
+								<value>US</value>
+							</Data>
+									</ExtendedData>
+								<address>75 West Holden Avenue Orlando FL 32839-2003</address>
+				<Point>
+					<coordinates>-81.37725,28.496548,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+				<name>Dixie Plywood Company of Orlando</name>				<ExtendedData>
+												<Data name='Phone'>
+								<value>407-291-1582</value>
+							</Data>
+												<Data name='Toll Free'>
+								<value>800-432-3794</value>
+							</Data>
+												<Data name='Contact: Phone or Email'>
+								<value>Bill Heine 407-291-1582 or email: BEHeine@dixieply.com</value>
+							</Data>
+												<Data name='Area Manager Info'>
+								<value>Area Mgr:  Brian Clark T 318-623-1046 or email: BrianClark@BC.com</value>
+							</Data>
+												<Data name='Region'>
+								<value>EAST US</value>
+							</Data>
+												<Data name='Country'>
+								<value>US</value>
+							</Data>
+									</ExtendedData>
+								<address>3544 All American Blvd Orlando FL 32810-4723</address>
+				<Point>
+					<coordinates>-81.422553,28.61005,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+				<name>Boise Cascade Building Materials Dist.</name>				<ExtendedData>
+												<Data name='Phone'>
+								<value>954-984-7640</value>
+							</Data>
+												<Data name='Toll Free'>
+								<value>877-891-9252</value>
+							</Data>
+												<Data name='Contact: Phone or Email'>
+								<value>Chuck Donaldson 954-984-7650 x7150  or email: ChuckDonaldson@BC.com</value>
+							</Data>
+												<Data name='Area Manager Info'>
+								<value>Area Mgr:  Brian Clark T 318-623-1046 or email: BrianClark@BC.com</value>
+							</Data>
+												<Data name='Region'>
+								<value>EAST US</value>
+							</Data>
+												<Data name='Country'>
+								<value>US</value>
+							</Data>
+									</ExtendedData>
+								<address>1341 NW 15th Street Pompano Beach FL 33069-1728</address>
+				<Point>
+					<coordinates>-80.141417,26.246894,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+				<name>Dixie Plywood Company of Tampa</name>				<ExtendedData>
+												<Data name='Phone'>
+								<value>813-677-7573</value>
+							</Data>
+												<Data name='Toll Free'>
+								<value>800-282-8581</value>
+							</Data>
+												<Data name='Contact: Phone or Email'>
+								<value>Bill Heine 407-291-1582 or email: BEHeine@dixieply.com</value>
+							</Data>
+												<Data name='Area Manager Info'>
+								<value>Area Mgr:  Brian Clark T 318-623-1046 or email: BrianClark@BC.com</value>
+							</Data>
+												<Data name='Region'>
+								<value>EAST US</value>
+							</Data>
+												<Data name='Country'>
+								<value>US</value>
+							</Data>
+									</ExtendedData>
+								<address>6509 Powell Road Gibsonton FL 33534-5822</address>
+				<Point>
+					<coordinates>-82.376111,27.80262,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+				<name>Engineered Lumber Partners</name>				<ExtendedData>
+												<Data name='Phone'>
+								<value>251-960-1020</value>
+							</Data>
+												<Data name='Toll Free'>
+								<value>866-523-4391</value>
+							</Data>
+												<Data name='Contact: Phone or Email'>
+								<value>Tim Vernor 251-960-1020 or email: tim@elpewp.com</value>
+							</Data>
+												<Data name='Area Manager Info'>
+								<value>Area Mgr:  Brian Clark T 318-623-1046 or email: BrianClark@BC.com</value>
+							</Data>
+												<Data name='Region'>
+								<value>EAST US</value>
+							</Data>
+												<Data name='Country'>
+								<value>US</value>
+							</Data>
+									</ExtendedData>
+								<address>30775 County Road 49 Loxley AL 36551-2527</address>
+				<Point>
+					<coordinates>-87.758746,30.676195,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#1</styleUrl>
+				<name>Boise Cascade Building Materials Dist.</name>				<ExtendedData>
+												<Data name='Phone'>
+								<value>815-562-3366</value>
+							</Data>
+												<Data name='Toll Free'>
+								<value>877-206-2144</value>
+							</Data>
+												<Data name='Contact: Phone or Email'>
+								<value>Andy McRae 815-562-1685 x5020 or email: CILEWPDept@BC.com</value>
+							</Data>
+												<Data name='Area Manager Info'>
+								<value>Area Mgr:  Phil Bannos T 630-330-2576 or email: PhilBannos@BC.com</value>
+							</Data>
+												<Data name='Region'>
+								<value>CENTRAL US</value>
+							</Data>
+												<Data name='Country'>
+								<value>US</value>
+							</Data>
+									</ExtendedData>
+								<address>600 Timber Lane Rochelle IL 61068-3512</address>
+				<Point>
+					<coordinates>-89.04055,41.904063,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+				<name>Boise Cascade Building Materials Dist.</name>				<ExtendedData>
+												<Data name='Phone'>
+								<value>734-595-6196</value>
+							</Data>
+												<Data name='Toll Free'>
+								<value>800-295-6107</value>
+							</Data>
+												<Data name='Contact: Phone or Email'>
+								<value>Chris Jarjosa 734-727-8720 x3510 or email: DetroitEWP@BC.com</value>
+							</Data>
+												<Data name='Area Manager Info'>
+								<value>Area Mgr:  Phil Bannos T 630-330-2576 or email: PhilBannos@BC.com</value>
+							</Data>
+												<Data name='Region'>
+								<value>EAST US</value>
+							</Data>
+												<Data name='Country'>
+								<value>US</value>
+							</Data>
+									</ExtendedData>
+								<address>36199 Michigan Avenue Wayne MI 48184-1665</address>
+				<Point>
+					<coordinates>-83.395638,42.279425,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#1</styleUrl>
+				<name>Boise Cascade Building Materials Dist.</name>				<ExtendedData>
+												<Data name='Phone'>
+								<value>952-469-5900</value>
+							</Data>
+												<Data name='Toll Free'>
+								<value>800-281-5503</value>
+							</Data>
+												<Data name='Contact: Phone or Email'>
+								<value>Jason Myers 952-985-3147 x5520 or email: MILEWPDept@BC.com</value>
+							</Data>
+												<Data name='Area Manager Info'>
+								<value>Area Mgr:  Phil Bannos T 630-330-2576 or email: PhilBannos@BC.com</value>
+							</Data>
+												<Data name='Region'>
+								<value>CENTRAL US</value>
+							</Data>
+												<Data name='Country'>
+								<value>US</value>
+							</Data>
+									</ExtendedData>
+								<address>8714 215th Street West Lakeville MN 55044-7011</address>
+				<Point>
+					<coordinates>-93.241696,44.636185,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+				<name>Boise Cascade Building Materials Dist.</name>				<ExtendedData>
+												<Data name='Phone'>
+								<value>740-382-6766</value>
+							</Data>
+												<Data name='Toll Free'>
+								<value>800-371-9615</value>
+							</Data>
+												<Data name='Contact: Phone or Email'>
+								<value>Robert Kurtz 740-692-9220 x3624 or email: OHLEWPDept@BC.com</value>
+							</Data>
+												<Data name='Area Manager Info'>
+								<value>Area Mgr:  Matt Brandt T 678-502-0481  or email: MattBrandt@BC.com</value>
+							</Data>
+												<Data name='Region'>
+								<value>EAST US</value>
+							</Data>
+												<Data name='Country'>
+								<value>US</value>
+							</Data>
+									</ExtendedData>
+								<address>3007 Harding Hwy East Marion OH 43302-8370</address>
+				<Point>
+					<coordinates>-83.044281,40.608683,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+				<name>Boise Cascade Building Materials Dist.</name>				<ExtendedData>
+												<Data name='Phone'>
+								<value>513-451-5700</value>
+							</Data>
+												<Data name='Toll Free'>
+								<value>800-543-7486</value>
+							</Data>
+												<Data name='Contact: Phone or Email'>
+								<value>Jerry Jacob 513-347-8571 or email: BDCNLEWP@BC.com</value>
+							</Data>
+												<Data name='Area Manager Info'>
+								<value>Area Mgr:  Matt Brandt T 678-502-0481  or email: MattBrandt@BC.com</value>
+							</Data>
+												<Data name='Region'>
+								<value>EAST US</value>
+							</Data>
+												<Data name='Country'>
+								<value>US</value>
+							</Data>
+									</ExtendedData>
+								<address>771 Neeb Road Cincinnati OH 45233-4621</address>
+				<Point>
+					<coordinates>-84.63659,39.108397,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#0</styleUrl>
+				<name>The Forest Products Group</name>				<ExtendedData>
+												<Data name='Phone'>
+								<value>937-778-0272</value>
+							</Data>
+												<Data name='Toll Free'>
+								<value>800-686-9595</value>
+							</Data>
+												<Data name='Contact: Phone or Email'>
+								<value>Heath Smith 937-778-0272 x230 or email: Heath.Smith@forestproductsgroup.com</value>
+							</Data>
+												<Data name='Area Manager Info'>
+								<value>Area Mgr:  Matt Brandt T 678-502-0481  or email: MattBrandt@BC.com</value>
+							</Data>
+												<Data name='Region'>
+								<value>EAST US</value>
+							</Data>
+												<Data name='Country'>
+								<value>US</value>
+							</Data>
+									</ExtendedData>
+								<address>9850 Looney Road Piqua OH 45356-9522</address>
+				<Point>
+					<coordinates>-84.214475,40.179677,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#1</styleUrl>
+				<name>Boise Cascade Building Materials Dist.</name>				<ExtendedData>
+												<Data name='Phone'>
+								<value>205-791-0155</value>
+							</Data>
+												<Data name='Toll Free'>
+								<value>800-433-8578</value>
+							</Data>
+												<Data name='Contact: Phone or Email'>
+								<value>Kenny Todd 205-443-7948 or email: KennyTodd@BC.com</value>
+							</Data>
+												<Data name='Area Manager Info'>
+								<value>Area Mgr:  Kenny Todd T 205-443-7948  or email: KennyTodd@BC.com</value>
+							</Data>
+												<Data name='Region'>
+								<value>CENTRAL US</value>
+							</Data>
+												<Data name='Country'>
+								<value>US</value>
+							</Data>
+									</ExtendedData>
+								<address>2405 Republic Blvd Birmingham AL 35214-5931</address>
+				<Point>
+					<coordinates>-86.876471,33.523043,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#1</styleUrl>
+				<name>Boise Cascade Building Materials Dist.</name>				<ExtendedData>
+												<Data name='Phone'>
+								<value>615-321-3038</value>
+							</Data>
+												<Data name='Toll Free'>
+								<value>800-521-9663</value>
+							</Data>
+												<Data name='Contact: Phone or Email'>
+								<value>Phil Duke 615-321-3038 or email: NashvilleSales@BC.com</value>
+							</Data>
+												<Data name='Area Manager Info'>
+								<value>Area Mgr:  Kenny Todd T 205-443-7948  or email: KennyTodd@BC.com</value>
+							</Data>
+												<Data name='Region'>
+								<value>CENTRAL US</value>
+							</Data>
+												<Data name='Country'>
+								<value>US</value>
+							</Data>
+									</ExtendedData>
+								<address>805 42nd Avenue North Nashville TN 37209-2364</address>
+				<Point>
+					<coordinates>-86.838019,36.157905,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#1</styleUrl>
+				<name>Boise Cascade Building Materials Dist.</name>				<ExtendedData>
+												<Data name='Phone'>
+								<value>618-491-7030</value>
+							</Data>
+												<Data name='Toll Free'>
+								<value>833-587-7470</value>
+							</Data>
+												<Data name='Contact: Phone or Email'>
+								<value>Larry Grooms 618-491-7034 email:  LarryGrooms@BC.com</value>
+							</Data>
+												<Data name='Area Manager Info'>
+								<value>Area Mgr:  Kenny Todd T 205-443-7948  or email: KennyTodd@BC.com</value>
+							</Data>
+												<Data name='Region'>
+								<value>CENTRAL US</value>
+							</Data>
+												<Data name='Country'>
+								<value>US</value>
+							</Data>
+									</ExtendedData>
+								<address>1635 W 1st Street Suite 310 Granite City IL 62040-1883</address>
+				<Point>
+					<coordinates>-90.168449,38.69783,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#1</styleUrl>
+				<name>Boise Cascade Building Materials Dist.</name>				<ExtendedData>
+												<Data name='Phone'>
+								<value>901-365-6500</value>
+							</Data>
+												<Data name='Toll Free'>
+								<value>800-238-5680</value>
+							</Data>
+												<Data name='Contact: Phone or Email'>
+								<value>Charles Barfield  901/365-6500 x4165 email: MemphisEWP@BC.com</value>
+							</Data>
+												<Data name='Area Manager Info'>
+								<value>Area Mgr:  Tennesee side Adam Pittman T 615-967-8311  or email: AdamPittman@BC.com Arkansas side Marion Bailey 918-691-8442  email: MarionBailey@BC.com</value>
+							</Data>
+												<Data name='Region'>
+								<value>CENTRAL US</value>
+							</Data>
+												<Data name='Country'>
+								<value>US</value>
+							</Data>
+									</ExtendedData>
+								<address>4365 Old Lamar Avenue Memphis TN 38118-7033</address>
+				<Point>
+					<coordinates>-89.918785,35.04469,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#1</styleUrl>
+				<name>Boise Cascade Building Materials Dist.</name>				<ExtendedData>
+												<Data name='Phone'>
+								<value>816-347-7448</value>
+							</Data>
+												<Data name='Contact: Phone or Email'>
+								<value>Don Happel 816-347-7448 or email: DonHappel@BC.com</value>
+							</Data>
+												<Data name='Area Manager Info'>
+								<value>Area Mgr:  Marion Bailey 918-691-8442  email: MarionBailey@BC.com</value>
+							</Data>
+												<Data name='Region'>
+								<value>CENTRAL US</value>
+							</Data>
+												<Data name='Country'>
+								<value>US</value>
+							</Data>
+									</ExtendedData>
+								<address>221 NW Chipman Road Lee&apos;s Summit MO 64063-1905</address>
+				<Point>
+					<coordinates>-94.386308,38.922858,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#1</styleUrl>
+				<name>Boise Cascade Building Materials Dist.</name>				<ExtendedData>
+												<Data name='Phone'>
+								<value>918-252-1536</value>
+							</Data>
+												<Data name='Toll Free'>
+								<value>800-299-5768</value>
+							</Data>
+												<Data name='Contact: Phone or Email'>
+								<value>Dave Burrough 918-307-4311 or email: TULEWPDept@BC.com</value>
+							</Data>
+												<Data name='Area Manager Info'>
+								<value>Area Mgr:  Marion Bailey 918-691-8442  email: MarionBailey@BC.com</value>
+							</Data>
+												<Data name='Region'>
+								<value>CENTRAL US</value>
+							</Data>
+												<Data name='Country'>
+								<value>US</value>
+							</Data>
+									</ExtendedData>
+								<address>9999 East 58th Street Tulsa OK 74146-6412</address>
+				<Point>
+					<coordinates>-95.865133,36.0815,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#1</styleUrl>
+				<name>Cameron Ashley Building Products</name>				<ExtendedData>
+												<Data name='Phone'>
+								<value>318-448-0590</value>
+							</Data>
+												<Data name='Toll Free'>
+								<value>800-737-8989</value>
+							</Data>
+												<Data name='Contact: Phone or Email'>
+								<value>Tyler Stephens email:  tylerstephens@cameronashleybp.com or Hunter Nicholson email:hunternicholson@cameronashleybp.com or Ralph Funk email: ralphfunk@cameronashleybp.com</value>
+							</Data>
+												<Data name='Area Manager Info'>
+								<value>Area Mgr:  Stephen Hausner T 281-844-8005 or email: StephenHausner@BC.com</value>
+							</Data>
+												<Data name='Region'>
+								<value>CENTRAL US</value>
+							</Data>
+												<Data name='Country'>
+								<value>US</value>
+							</Data>
+									</ExtendedData>
+								<address>3401 Eddie Williams Ave Alexandria LA 71302-4758</address>
+				<Point>
+					<coordinates>-92.439955,31.27996,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#1</styleUrl>
+				<name>Dixie Plywood Company of Houston</name>				<ExtendedData>
+												<Data name='Phone'>
+								<value>713-644-2001</value>
+							</Data>
+												<Data name='Toll Free'>
+								<value>800-950-8023</value>
+							</Data>
+												<Data name='Contact: Phone or Email'>
+								<value>Jeremy Kiser 713-249-7190 or email: jdkiser@dixieply.com</value>
+							</Data>
+												<Data name='Area Manager Info'>
+								<value>Area Mgr:  Stephen Hausner T 281-844-8005 or email: StephenHausner@BC.com</value>
+							</Data>
+												<Data name='Region'>
+								<value>CENTRAL US</value>
+							</Data>
+												<Data name='Country'>
+								<value>US</value>
+							</Data>
+									</ExtendedData>
+								<address>6770 Mykawa Road Houston TX 77033-1111</address>
+				<Point>
+					<coordinates>-95.323498,29.680521,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#1</styleUrl>
+				<name>Boise Cascade Building Materials Dist.</name>				<ExtendedData>
+												<Data name='Phone'>
+								<value>281-313-5575</value>
+							</Data>
+												<Data name='Toll Free'>
+								<value>800-392-3942</value>
+							</Data>
+												<Data name='Contact: Phone or Email'>
+								<value>Jeff Hoffart 281-566-3913 x4020 or email: HULEWPDept@BC.com</value>
+							</Data>
+												<Data name='Area Manager Info'>
+								<value>Area Mgr:  Stephen Hausner T 281-844-8005 or email: StephenHausner@BC.com</value>
+							</Data>
+												<Data name='Region'>
+								<value>CENTRAL US</value>
+							</Data>
+												<Data name='Country'>
+								<value>US</value>
+							</Data>
+									</ExtendedData>
+								<address>702 Reed Road Sugar Land TX 77478-2864</address>
+				<Point>
+					<coordinates>-95.601653,29.639094,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#1</styleUrl>
+				<name>Dixie Plywood Company of Dallas</name>				<ExtendedData>
+												<Data name='Phone'>
+								<value>972-864-1752</value>
+							</Data>
+												<Data name='Toll Free'>
+								<value>800-950-8025</value>
+							</Data>
+												<Data name='Contact: Phone or Email'>
+								<value>Ken Smithhart 972-271-4607 or email: kgsmithhart@dixieply.com</value>
+							</Data>
+												<Data name='Area Manager Info'>
+								<value>Area Mgr:  Chelton Ammons T 214-957-4752 or email: cheltonammons@BC.com</value>
+							</Data>
+												<Data name='Region'>
+								<value>CENTRAL US</value>
+							</Data>
+												<Data name='Country'>
+								<value>US</value>
+							</Data>
+									</ExtendedData>
+								<address>3060 W Miller Road Garland TX 75041-6106</address>
+				<Point>
+					<coordinates>-96.675423,32.893623,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#1</styleUrl>
+				<name>Boise Cascade Building Materials Dist.</name>				<ExtendedData>
+												<Data name='Phone'>
+								<value>214-333-4141</value>
+							</Data>
+												<Data name='Toll Free'>
+								<value>800-966-3334</value>
+							</Data>
+												<Data name='Contact: Phone or Email'>
+								<value>Robyn Brus 214-333-4707 x6732 or email: DallasEWP@BC.com</value>
+							</Data>
+												<Data name='Area Manager Info'>
+								<value>Area Mgr:  Chelton Ammons T 214-957-4752 or email: cheltonammons@BC.com</value>
+							</Data>
+												<Data name='Region'>
+								<value>CENTRAL US</value>
+							</Data>
+												<Data name='Country'>
+								<value>US</value>
+							</Data>
+									</ExtendedData>
+								<address>3930 Duncanville Road Dallas TX 75236-1404</address>
+				<Point>
+					<coordinates>-96.906195,32.695155,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#1</styleUrl>
+				<name>Boise Cascade Building Materials Dist.</name>				<ExtendedData>
+												<Data name='Phone'>
+								<value>505-877-8150</value>
+							</Data>
+												<Data name='Toll Free'>
+								<value>800-889-4306</value>
+							</Data>
+												<Data name='Contact: Phone or Email'>
+								<value>Mike Henry 505-246-2751 or email: AQLEWPDept@BC.com</value>
+							</Data>
+												<Data name='Area Manager Info'>
+								<value>Area Mgr:  Cole Gibbs T 303-746-5784 or email: ColeGibbs@BC.com</value>
+							</Data>
+												<Data name='Region'>
+								<value>CENTRAL US</value>
+							</Data>
+												<Data name='Country'>
+								<value>US</value>
+							</Data>
+									</ExtendedData>
+								<address>101 Prosperity Road SE Albuquerque NM 87105-0819</address>
+				<Point>
+					<coordinates>-106.659092,35.01643,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#1</styleUrl>
+				<name>Dixie Plywood Company of San Antonio</name>				<ExtendedData>
+												<Data name='Phone'>
+								<value>210-662-6220</value>
+							</Data>
+												<Data name='Toll Free'>
+								<value>800-284-0089</value>
+							</Data>
+												<Data name='Contact: Phone or Email'>
+								<value>Ken Ainsley 210-662-6199 or email: KLAinsley@dixieply.com</value>
+							</Data>
+												<Data name='Area Manager Info'>
+								<value>Area Mgr:  Harry Purdom T 303-746-5784 or email: HarryPurdom@BC.com</value>
+							</Data>
+												<Data name='Region'>
+								<value>CENTRAL US</value>
+							</Data>
+												<Data name='Country'>
+								<value>US</value>
+							</Data>
+									</ExtendedData>
+								<address>4618 Interstate 10 E San Antonio TX 78219</address>
+				<Point>
+					<coordinates>-98.402583,29.431438,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#2</styleUrl>
+				<name>Boise Cascade Building Materials Dist.</name>				<ExtendedData>
+												<Data name='Phone'>
+								<value>303-289-3271</value>
+							</Data>
+												<Data name='Toll Free'>
+								<value>800-525-1255</value>
+							</Data>
+												<Data name='Contact: Phone or Email'>
+								<value>Steve Norton 303-289-3271 or email: DELEWPDept@BC.com</value>
+							</Data>
+												<Data name='Area Manager Info'>
+								<value>Area Mgr:  Cole Gibbs T 303-746-5784 or email: ColeGibbs@BC.com</value>
+							</Data>
+												<Data name='Region'>
+								<value>WEST US</value>
+							</Data>
+												<Data name='Country'>
+								<value>US</value>
+							</Data>
+									</ExtendedData>
+								<address>1351 East 66 Avenue Denver CO 80229-7222</address>
+				<Point>
+					<coordinates>-104.972112,39.817305,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#2</styleUrl>
+				<name>Boise Cascade Building Materials Dist.</name>				<ExtendedData>
+												<Data name='Phone'>
+								<value>970-244-8301</value>
+							</Data>
+												<Data name='Toll Free'>
+								<value>800-264-5842</value>
+							</Data>
+												<Data name='Contact: Phone or Email'>
+								<value>Jana Schoech 970-248-2944 x5186 or email: GJLEWPDept@BC.com</value>
+							</Data>
+												<Data name='Area Manager Info'>
+								<value>Area Mgr:  Cole Gibbs T 303-746-5784 or email: ColeGibbs@BC.com</value>
+							</Data>
+												<Data name='Region'>
+								<value>WEST US</value>
+							</Data>
+												<Data name='Country'>
+								<value>US</value>
+							</Data>
+									</ExtendedData>
+								<address>615 S 15th Street Grand Junction CO 81501-4629</address>
+				<Point>
+					<coordinates>-108.547985,39.061564,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#2</styleUrl>
+				<name>Boise Cascade Building Materials Dist.</name>				<ExtendedData>
+												<Data name='Phone'>
+								<value>208-522-6564</value>
+							</Data>
+												<Data name='Toll Free'>
+								<value>800-336-7071</value>
+							</Data>
+												<Data name='Contact: Phone or Email'>
+								<value>Layne Felsted 208-535-9863 x5270 or email: IDLEWPDept@BC.com</value>
+							</Data>
+												<Data name='Area Manager Info'>
+								<value>Area Mgr:  Becky Juluson 801-558-1870 or email:BeckyJuluson@BC.com</value>
+							</Data>
+												<Data name='Region'>
+								<value>WEST US</value>
+							</Data>
+												<Data name='Country'>
+								<value>US</value>
+							</Data>
+									</ExtendedData>
+								<address>3890 Bombardier Avenue Idaho Falls ID 83402-4302</address>
+				<Point>
+					<coordinates>-112.065268,43.464227,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#2</styleUrl>
+				<name>Boise Cascade Building Materials Dist.</name>				<ExtendedData>
+												<Data name='Phone'>
+								<value>801-973-3943</value>
+							</Data>
+												<Data name='Toll Free'>
+								<value>800-562-2443</value>
+							</Data>
+												<Data name='Contact: Phone or Email'>
+								<value>Tyler Leggett  801-887-9553 x6030 email: SCLEWPDept@BC.com</value>
+							</Data>
+												<Data name='Area Manager Info'>
+								<value>Area Mgr:  Becky Juluson 801-558-1870 or email:BeckyJuluson@BC.com</value>
+							</Data>
+												<Data name='Region'>
+								<value>WEST US</value>
+							</Data>
+												<Data name='Country'>
+								<value>US</value>
+							</Data>
+									</ExtendedData>
+								<address>1020 West 3265 South Salt Lake City UT 84119-3341</address>
+				<Point>
+					<coordinates>-111.921244,40.701626,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#2</styleUrl>
+				<name>Boise Cascade Building Materials Dist.</name>				<ExtendedData>
+												<Data name='Phone'>
+								<value>406-652-3250</value>
+							</Data>
+												<Data name='Toll Free'>
+								<value>800-548-7020 or 800-332-7163</value>
+							</Data>
+												<Data name='Contact: Phone or Email'>
+								<value>Mark Paine 406-652-3250 or email: BILEWPDept@BC.com</value>
+							</Data>
+												<Data name='Area Manager Info'>
+								<value>Area Mgr:  Curtis Eck T 208-859-2576 or email:  CurtisEck@BC.com</value>
+							</Data>
+												<Data name='Region'>
+								<value>WEST US</value>
+							</Data>
+												<Data name='Country'>
+								<value>US</value>
+							</Data>
+									</ExtendedData>
+								<address>1240 S 29 St. West Billings MT 59102-6793</address>
+				<Point>
+					<coordinates>-108.589082,45.746749,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#2</styleUrl>
+				<name>Boise Cascade Building Materials Dist.</name>				<ExtendedData>
+												<Data name='Phone'>
+								<value>208-384-7700</value>
+							</Data>
+												<Data name='Toll Free'>
+								<value>800-632-5138</value>
+							</Data>
+												<Data name='Contact: Phone or Email'>
+								<value>Jared Allen 208-384-7700 or email: BBLEWPDept@BC.com</value>
+							</Data>
+												<Data name='Area Manager Info'>
+								<value>Area Mgr:  Curtis Eck T 208-859-2576 or email:  CurtisEck@BC.com</value>
+							</Data>
+												<Data name='Region'>
+								<value>WEST US</value>
+							</Data>
+												<Data name='Country'>
+								<value>US</value>
+							</Data>
+									</ExtendedData>
+								<address>4300 Enterprise Street Boise ID 83705-5421</address>
+				<Point>
+					<coordinates>-116.197479,43.563492,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#2</styleUrl>
+				<name>Boise Cascade Building Materials Dist.</name>				<ExtendedData>
+												<Data name='Phone'>
+								<value>509-928-7650</value>
+							</Data>
+												<Data name='Toll Free'>
+								<value>800-541-0529</value>
+							</Data>
+												<Data name='Contact: Phone or Email'>
+								<value>Dan Managhan  509-928-7650 or email: SKLEWPDept@BC.com</value>
+							</Data>
+												<Data name='Area Manager Info'>
+								<value>Area Mgr:  Curtis Eck T 208-859-2576 or email:  CurtisEck@BC.com</value>
+							</Data>
+												<Data name='Region'>
+								<value>WEST US</value>
+							</Data>
+												<Data name='Country'>
+								<value>US</value>
+							</Data>
+									</ExtendedData>
+								<address>7020 East Mission Avenue Spokane Valley WA 99212-1152</address>
+				<Point>
+					<coordinates>-117.310746,47.670402,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#2</styleUrl>
+				<name>Boise Cascade Building Materials Dist.</name>				<ExtendedData>
+												<Data name='Phone'>
+								<value>509-453-0305</value>
+							</Data>
+												<Data name='Toll Free'>
+								<value>800-533-6353</value>
+							</Data>
+												<Data name='Contact: Phone or Email'>
+								<value>Chris Ehlis 509-453-0305 or email: YALEWPDept@BC.com</value>
+							</Data>
+												<Data name='Area Manager Info'>
+								<value>Area Mgr:  Curtis Eck T 208-859-2576 or email:  CurtisEck@BC.com</value>
+							</Data>
+												<Data name='Region'>
+								<value>WEST US</value>
+							</Data>
+												<Data name='Country'>
+								<value>US</value>
+							</Data>
+									</ExtendedData>
+								<address>1512 South First Street Yakima WA 98901-3544</address>
+				<Point>
+					<coordinates>-120.497166,46.582031,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#2</styleUrl>
+				<name>Boise Cascade Building Materials Dist.</name>				<ExtendedData>
+												<Data name='Phone'>
+								<value>541-535-3465</value>
+							</Data>
+												<Data name='Toll Free'>
+								<value>800-365-4627</value>
+							</Data>
+												<Data name='Contact: Phone or Email'>
+								<value>Jeff Pons 541-535-3465 or email: JeffPons@BC.com</value>
+							</Data>
+												<Data name='Area Manager Info'>
+								<value>Area Mgr:  Jason Bodily T 360-518-0506 or email: JasonBodily@BC.com</value>
+							</Data>
+												<Data name='Region'>
+								<value>WEST US</value>
+							</Data>
+												<Data name='Country'>
+								<value>US</value>
+							</Data>
+									</ExtendedData>
+								<address>100 Houston Rd. Phoenix OR 97535-5700</address>
+				<Point>
+					<coordinates>-122.825243,42.273933,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#2</styleUrl>
+				<name>Boise Cascade Building Materials Dist.</name>				<ExtendedData>
+												<Data name='Phone'>
+								<value>425-486-7477</value>
+							</Data>
+												<Data name='Toll Free'>
+								<value>800-342-2299</value>
+							</Data>
+												<Data name='Contact: Phone or Email'>
+								<value>Marshall Menne  425-402-1273 x2300 or email: WOLEWPDept@BC.com</value>
+							</Data>
+												<Data name='Area Manager Info'>
+								<value>Area Mgr:  Jason Bodily T 360-518-0506 or email: JasonBodily@BC.com</value>
+							</Data>
+												<Data name='Region'>
+								<value>WEST US</value>
+							</Data>
+												<Data name='Country'>
+								<value>US</value>
+							</Data>
+									</ExtendedData>
+								<address>21832 87th Ave. SE Woodinville WA 98072-8018</address>
+				<Point>
+					<coordinates>-122.118334,47.798742,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#2</styleUrl>
+				<name>Boise Cascade Building Materials Dist.</name>				<ExtendedData>
+												<Data name='Phone'>
+								<value>360-693-0057</value>
+							</Data>
+												<Data name='Toll Free'>
+								<value>800-621-8896</value>
+							</Data>
+												<Data name='Contact: Phone or Email'>
+								<value>Peter Grazian 360-906-5747 or email: VALEWPDept@BC.com</value>
+							</Data>
+												<Data name='Area Manager Info'>
+								<value>Area Mgr:  Jason Bodily T 360-518-0506 or email: JasonBodily@BC.com</value>
+							</Data>
+												<Data name='Region'>
+								<value>WEST US</value>
+							</Data>
+												<Data name='Country'>
+								<value>US</value>
+							</Data>
+									</ExtendedData>
+								<address>3309 NW Lower River Road Vancouver WA 98660-1028</address>
+				<Point>
+					<coordinates>-122.704797,45.643913,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#2</styleUrl>
+				<name>Boise Cascade Building Materials Dist.</name>				<ExtendedData>
+												<Data name='Phone'>
+								<value>602-269-6145</value>
+							</Data>
+												<Data name='Toll Free'>
+								<value>800-289-9663</value>
+							</Data>
+												<Data name='Contact: Phone or Email'>
+								<value>Steven D’Antonio 602-233-6810 or email: PHLEWPDept@BC.com</value>
+							</Data>
+												<Data name='Area Manager Info'>
+								<value>Area Mgr:  Ryan Mitchell T 951-377-1417 or email: RyanMitchell@BC.com</value>
+							</Data>
+												<Data name='Region'>
+								<value>WEST US</value>
+							</Data>
+												<Data name='Country'>
+								<value>US</value>
+							</Data>
+									</ExtendedData>
+								<address>200 South 35 Avenue Phoenix AZ 85009-4723</address>
+				<Point>
+					<coordinates>-112.135615,33.445284,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#2</styleUrl>
+				<name>Boise Cascade Building Materials Dist.</name>				<ExtendedData>
+												<Data name='Phone'>
+								<value>951-343-3000</value>
+							</Data>
+												<Data name='Toll Free'>
+								<value>800-648-9116</value>
+							</Data>
+												<Data name='Contact: Phone or Email'>
+								<value>Heath Stai  951-353-7417 x5850 or email: RSLEWPDept@BC.com</value>
+							</Data>
+												<Data name='Area Manager Info'>
+								<value>Area Mgr:  Ryan Mitchell T 951-377-1417 or email: RyanMitchell@BC.com</value>
+							</Data>
+												<Data name='Region'>
+								<value>WEST US</value>
+							</Data>
+												<Data name='Country'>
+								<value>US</value>
+							</Data>
+									</ExtendedData>
+								<address>7145 Arlington Avenue Riverside CA 92503-1508</address>
+				<Point>
+					<coordinates>-117.450619,33.947969,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#2</styleUrl>
+				<name>Reliable Wholesale Lumber Inc.</name>				<ExtendedData>
+												<Data name='Phone'>
+								<value>951-684-0392 x11</value>
+							</Data>
+												<Data name='Toll Free'>
+								<value>800-998-0922</value>
+							</Data>
+												<Data name='Contact: Phone or Email'>
+								<value>Robert Strutt 951-684-0392 x11 or email: Rstrutt@rwli.net</value>
+							</Data>
+												<Data name='Area Manager Info'>
+								<value>Area Mgr:  Ryan Mitchell T 951-377-1417 or email: RyanMitchell@BC.com</value>
+							</Data>
+												<Data name='Region'>
+								<value>WEST US</value>
+							</Data>
+												<Data name='Country'>
+								<value>US</value>
+							</Data>
+									</ExtendedData>
+								<address>1450 Citrus Street Riverside CA 92507</address>
+				<Point>
+					<coordinates>-117.343147,34.007224,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#2</styleUrl>
+				<name>All-Coast Forest Products Inc.</name>				<ExtendedData>
+												<Data name='Phone'>
+								<value>707-894-4281</value>
+							</Data>
+												<Data name='Toll Free'>
+								<value>800-767-2237</value>
+							</Data>
+												<Data name='Contact: Phone or Email'>
+								<value>Jim Fyfe 916-952-8711 or email: jfyfe@all-coast.com</value>
+							</Data>
+												<Data name='Area Manager Info'>
+								<value>Area Mgr:  Antony Homenock T 209-814-6631 or email: AntonyHomenock@BC.com</value>
+							</Data>
+												<Data name='Region'>
+								<value>WEST US</value>
+							</Data>
+												<Data name='Country'>
+								<value>US</value>
+							</Data>
+									</ExtendedData>
+								<address>250 Asti Road Cloverdale CA 95425</address>
+				<Point>
+					<coordinates>-123.007134,38.798152,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#2</styleUrl>
+				<name>Boise Cascade Building Materials Dist.</name>				<ExtendedData>
+												<Data name='Phone'>
+								<value>209-983-4114</value>
+							</Data>
+												<Data name='Toll Free'>
+								<value>800-796-9573</value>
+							</Data>
+												<Data name='Contact: Phone or Email'>
+								<value>Kim Jackson 209-808-7284 or email: BDLALEWPDept@BC.com</value>
+							</Data>
+												<Data name='Area Manager Info'>
+								<value>Area Mgr:  Antony Homenock T 209-814-6631 or email: AntonyHomenock@BC.com</value>
+							</Data>
+												<Data name='Region'>
+								<value>WEST US</value>
+							</Data>
+												<Data name='Country'>
+								<value>US</value>
+							</Data>
+									</ExtendedData>
+								<address>12030 South Harlan Road Lathrop CA 95330-8768</address>
+				<Point>
+					<coordinates>-121.281981,37.845816,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#2</styleUrl>
+				<name>Western Buyers (Meek&apos;s)</name>				<ExtendedData>
+												<Data name='Phone'>
+								<value>916-576-3050</value>
+							</Data>
+												<Data name='Contact: Phone or Email'>
+								<value>Jonathan Charny 916-576-3042 x8116 or email: gojonathan@meeks.com</value>
+							</Data>
+												<Data name='Area Manager Info'>
+								<value>Area Mgr:  Antony Homenock T 209-814-6631 or email: AntonyHomenock@BC.com</value>
+							</Data>
+												<Data name='Region'>
+								<value>WEST US</value>
+							</Data>
+												<Data name='Country'>
+								<value>US</value>
+							</Data>
+									</ExtendedData>
+								<address>1651 Response Road, Suite 200 Sacramento CA 95815-5255</address>
+				<Point>
+					<coordinates>-121.428029,38.596817,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#3</styleUrl>
+				<name>Copps Buildall</name>				<ExtendedData>
+												<Data name='Phone'>
+								<value>519-652-3575</value>
+							</Data>
+												<Data name='Contact: Phone or Email'>
+								<value>Mike Mills 519-679-9090Email: mikem@coppsbuildall.com</value>
+							</Data>
+												<Data name='Area Manager Info'>
+								<value>Area Mgr:  Marko Merhar T 416-453-6522 or email: MarkoMerhar@BC.com</value>
+							</Data>
+												<Data name='Region'>
+								<value>EAST CANADA</value>
+							</Data>
+												<Data name='Country'>
+								<value>CANADA</value>
+							</Data>
+									</ExtendedData>
+								<address>4333 Colonel Talbot Road London ON N6P 1P9</address>
+				<Point>
+					<coordinates>-81.300063,42.908722,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#3</styleUrl>
+				<name>Turkstra Lumber</name>				<ExtendedData>
+												<Data name='Phone'>
+								<value>905-561-1112</value>
+							</Data>
+												<Data name='Contact: Phone or Email'>
+								<value>turkstrastoneycreek.ca 905-561-1112Email: stoneycreek@turkstralumber.com</value>
+							</Data>
+												<Data name='Area Manager Info'>
+								<value>Area Mgr:  Marko Merhar T 416-453-6522 or email: MarkoMerhar@BC.com</value>
+							</Data>
+												<Data name='Region'>
+								<value>EAST CANADA</value>
+							</Data>
+												<Data name='Country'>
+								<value>CANADA</value>
+							</Data>
+									</ExtendedData>
+								<address>370 Green Road Stoney Creek ON L8E 4A5</address>
+				<Point>
+					<coordinates>-79.727738,43.233341,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#3</styleUrl>
+				<name>Simcoe Block Centre</name>				<ExtendedData>
+												<Data name='Phone'>
+								<value>705-728-1773</value>
+							</Data>
+												<Data name='Contact: Phone or Email'>
+								<value>Tim Robinson 705-790-3909Email: t.robinson@simcoeblock.com</value>
+							</Data>
+												<Data name='Area Manager Info'>
+								<value>Area Mgr:  Marko Merhar T 416-453-6522 or email: MarkoMerhar@BC.com</value>
+							</Data>
+												<Data name='Region'>
+								<value>EAST CANADA</value>
+							</Data>
+												<Data name='Country'>
+								<value>CANADA</value>
+							</Data>
+									</ExtendedData>
+								<address>140 Ferndale Drive North Barrie ON L4M 4T2</address>
+				<Point>
+					<coordinates>-79.721434,44.377828,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#3</styleUrl>
+				<name>Materiaux</name>				<ExtendedData>
+												<Data name='Phone'>
+								<value>450-438-3577</value>
+							</Data>
+												<Data name='Contact: Phone or Email'>
+								<value>EWP Manager  450-438-3577</value>
+							</Data>
+												<Data name='Area Manager Info'>
+								<value>Area Mgr:  Marko Merhar T 416-453-6522 or email: MarkoMerhar@BC.com</value>
+							</Data>
+												<Data name='Region'>
+								<value>EAST CANADA</value>
+							</Data>
+												<Data name='Country'>
+								<value>CANADA</value>
+							</Data>
+									</ExtendedData>
+								<address>2159 Boulevard du Cure Labelle St Jerome QC J7Y 1T1</address>
+				<Point>
+					<coordinates>-74.010344,45.803329,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#3</styleUrl>
+				<name>Barrette Structural</name>				<ExtendedData>
+												<Data name='Phone'>
+								<value>819-374-8784</value>
+							</Data>
+												<Data name='Toll Free'>
+								<value>1-800-567-8644</value>
+							</Data>
+												<Data name='Contact: Phone or Email'>
+								<value>EWP Manager  819-374-8784</value>
+							</Data>
+												<Data name='Area Manager Info'>
+								<value>Area Mgr:  Marko Merhar T 416-453-6522 or email: MarkoMerhar@BC.com</value>
+							</Data>
+												<Data name='Region'>
+								<value>EAST CANADA</value>
+							</Data>
+												<Data name='Country'>
+								<value>CANADA</value>
+							</Data>
+									</ExtendedData>
+								<address>545 Rang Saint-Malo Trois-Rivieres QC G8V0A8</address>
+				<Point>
+					<coordinates>-72.51625,46.385863,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#3</styleUrl>
+				<name>Atlas Structural Systems</name>				<ExtendedData>
+												<Data name='Phone'>
+								<value>506-855-6666</value>
+							</Data>
+												<Data name='Contact: Phone or Email'>
+								<value>Marc-Andre Richard 506-855-6666Email: richard.marcandre@atlasway.ca</value>
+							</Data>
+												<Data name='Area Manager Info'>
+								<value>Area Mgr:  Marko Merhar T 416-453-6522 or email: MarkoMerhar@BC.com</value>
+							</Data>
+												<Data name='Region'>
+								<value>EAST CANADA</value>
+							</Data>
+												<Data name='Country'>
+								<value>CANADA</value>
+							</Data>
+									</ExtendedData>
+								<address>280 English Drive Moncton NB E1E 3Y9</address>
+				<Point>
+					<coordinates>-64.84624,46.087082,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#4</styleUrl>
+				<name>Star Building Materials</name>				<ExtendedData>
+												<Data name='Phone'>
+								<value>403-720-0010</value>
+							</Data>
+												<Data name='Toll Free'>
+								<value>866-626-0010</value>
+							</Data>
+												<Data name='Contact: Phone or Email'>
+								<value>David Klassen 403-720-0010Email: DKlassen@starbuilding.ca</value>
+							</Data>
+												<Data name='Area Manager Info'>
+								<value>Area Mgr:  Michael Iallonardo T 604-345-3453 or email: MichaelIallonardo@BC.com</value>
+							</Data>
+												<Data name='Region'>
+								<value>WEST CANADA</value>
+							</Data>
+												<Data name='Country'>
+								<value>CANADA</value>
+							</Data>
+									</ExtendedData>
+								<address>2345 Alyth Rd SE Calgary AB T2G 5T8</address>
+				<Point>
+					<coordinates>-114.023658,51.030592,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#4</styleUrl>
+				<name>Star Building Components</name>				<ExtendedData>
+												<Data name='Phone'>
+								<value>780-986-0334</value>
+							</Data>
+												<Data name='Contact: Phone or Email'>
+								<value>Ken Crockett 780-986-0334Email: sbc@starbuilding.ca</value>
+							</Data>
+												<Data name='Area Manager Info'>
+								<value>Area Mgr:  Michael Iallonardo T 604-345-3453 or email: MichaelIallonardo@BC.com</value>
+							</Data>
+												<Data name='Region'>
+								<value>WEST CANADA</value>
+							</Data>
+												<Data name='Country'>
+								<value>CANADA</value>
+							</Data>
+									</ExtendedData>
+								<address>4507 – 61st Ave Leduc AB T9E 7B5</address>
+				<Point>
+					<coordinates>-113.542669,53.274213,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#4</styleUrl>
+				<name>Haney Builders Supply Ltd</name>				<ExtendedData>
+												<Data name='Phone'>
+								<value>604-463-6206</value>
+							</Data>
+												<Data name='Contact: Phone or Email'>
+								<value>Trevor Gibson 604-463-6206Email: trevor@haneybuilders.com</value>
+							</Data>
+												<Data name='Area Manager Info'>
+								<value>Area Mgr:  Michael Iallonardo T 604-345-3453 or email: MichaelIallonardo@BC.com</value>
+							</Data>
+												<Data name='Region'>
+								<value>WEST CANADA</value>
+							</Data>
+												<Data name='Country'>
+								<value>CANADA</value>
+							</Data>
+									</ExtendedData>
+								<address>22740 Dewdney Trunk Rd Maple Ridge BC V2X 3K2</address>
+				<Point>
+					<coordinates>-122.592269,49.220267,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#4</styleUrl>
+				<name>Northcoast Building Products Ltd</name>				<ExtendedData>
+												<Data name='Phone'>
+								<value>604-597-8884</value>
+							</Data>
+												<Data name='Contact: Phone or Email'>
+								<value>Ron Sargeant 604-597-8884Email: rons@northcoastlumber.com</value>
+							</Data>
+												<Data name='Area Manager Info'>
+								<value>Area Mgr:  Michael Iallonardo T 604-345-3453 or email: MichaelIallonardo@BC.com</value>
+							</Data>
+												<Data name='Region'>
+								<value>WEST CANADA</value>
+							</Data>
+												<Data name='Country'>
+								<value>CANADA</value>
+							</Data>
+									</ExtendedData>
+								<address>14682 – 66th Ave Surrey BC V3S 1Z9</address>
+				<Point>
+					<coordinates>-122.815383,49.122677,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#4</styleUrl>
+				<name>Selkirk Truss</name>				<ExtendedData>
+												<Data name='Phone'>
+								<value>250-359-7000</value>
+							</Data>
+												<Data name='Contact: Phone or Email'>
+								<value>Trevor Kanigan 250-359-7000Email:  Trevor@SelkirkTruss.com</value>
+							</Data>
+												<Data name='Area Manager Info'>
+								<value>Area Mgr:  Michael Iallonardo T 604-345-3453 or email: MichaelIallonardo@BC.com</value>
+							</Data>
+												<Data name='Region'>
+								<value>WEST CANADA</value>
+							</Data>
+												<Data name='Country'>
+								<value>CANADA</value>
+							</Data>
+									</ExtendedData>
+								<address>2894 Sentinel Road Castlegar BC V0G 2G0</address>
+				<Point>
+					<coordinates>-117.530561,49.448788,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#4</styleUrl>
+				<name>Timber-Tech Truss inc.</name>				<ExtendedData>
+												<Data name='Phone'>
+								<value>403-601-4546</value>
+							</Data>
+												<Data name='Contact: Phone or Email'>
+								<value>Wendy Going  403-601-4546Email: Wendyg@timbertechtruss.ca</value>
+							</Data>
+												<Data name='Area Manager Info'>
+								<value>Area Mgr:  Michael Iallonardo T 604-345-3453 or email: MichaelIallonardo@BC.com</value>
+							</Data>
+												<Data name='Region'>
+								<value>WEST CANADA</value>
+							</Data>
+												<Data name='Country'>
+								<value>CANADA</value>
+							</Data>
+									</ExtendedData>
+								<address>1 Maple Leaf Road Aldersyde AB TOL 0A0</address>
+				<Point>
+					<coordinates>-113.884632,50.6753173,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#4</styleUrl>
+				<name>Timber-Tech Truss inc.</name>				<ExtendedData>
+												<Data name='Phone'>
+								<value>403-328-5499</value>
+							</Data>
+												<Data name='Contact: Phone or Email'>
+								<value>Benn Hann  403-328-5499Email: bennh@timbertechtruss.ca</value>
+							</Data>
+												<Data name='Area Manager Info'>
+								<value>Area Mgr:  Michael Iallonardo T 604-345-3453 or email: MichaelIallonardo@BC.com</value>
+							</Data>
+												<Data name='Region'>
+								<value>WEST CANADA</value>
+							</Data>
+												<Data name='Country'>
+								<value>CANADA</value>
+							</Data>
+									</ExtendedData>
+								<address>1405 31 St N Lethbridge AB T1H 5G8</address>
+				<Point>
+					<coordinates>-112.7958814,49.7178876,0</coordinates>
+				</Point>
+			</Placemark>
+					<Placemark>
+				<styleUrl>#4</styleUrl>
+				<name>Timber-Tech Truss inc.</name>				<ExtendedData>
+												<Data name='Phone'>
+								<value>403-527-7840</value>
+							</Data>
+												<Data name='Contact: Phone or Email'>
+								<value>Dave Mickey  403-527-7840Email: davem@timbertechtruss.ca</value>
+							</Data>
+												<Data name='Area Manager Info'>
+								<value>Area Mgr:  Michael Iallonardo T 604-345-3453 or email: MichaelIallonardo@BC.com</value>
+							</Data>
+												<Data name='Region'>
+								<value>WEST CANADA</value>
+							</Data>
+												<Data name='Country'>
+								<value>CANADA</value>
+							</Data>
+									</ExtendedData>
+								<address>1276 32 St SW Medicine Hat AB T1B3N7</address>
+				<Point>
+					<coordinates>-110.7189799,50.0095765,0</coordinates>
+				</Point>
+			</Placemark>
+		<Style id="0"><IconStyle><scale>1</scale><Icon><href>https://batchgeo.com/images/icons/green_shadow_Marker.png</href></Icon><hotSpot x=".3" y=".8" xunits="fraction" yunits="fraction" /></IconStyle><LabelStyle><scale>0</scale></LabelStyle></Style><Style id="1"><IconStyle><scale>1</scale><Icon><href>https://batchgeo.com/images/icons/blue_shadow_Marker.png</href></Icon><hotSpot x=".3" y=".8" xunits="fraction" yunits="fraction" /></IconStyle><LabelStyle><scale>0</scale></LabelStyle></Style><Style id="2"><IconStyle><scale>1</scale><Icon><href>https://batchgeo.com/images/icons/orange_shadow_Marker.png</href></Icon><hotSpot x=".3" y=".8" xunits="fraction" yunits="fraction" /></IconStyle><LabelStyle><scale>0</scale></LabelStyle></Style><Style id="3"><IconStyle><scale>1</scale><Icon><href>https://batchgeo.com/images/icons/yellow_shadow_Marker.png</href></Icon><hotSpot x=".3" y=".8" xunits="fraction" yunits="fraction" /></IconStyle><LabelStyle><scale>0</scale></LabelStyle></Style><Style id="4"><IconStyle><scale>1</scale><Icon><href>https://batchgeo.com/images/icons/brown_shadow_Marker.png</href></Icon><hotSpot x=".3" y=".8" xunits="fraction" yunits="fraction" /></IconStyle><LabelStyle><scale>0</scale></LabelStyle></Style>	</Document>
+</kml>

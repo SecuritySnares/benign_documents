@@ -1,0 +1,807 @@
+<!DOCTYPE html><html lang="en-US"><head><meta charset="UTF-8"/>
+<script data-ezscrex='false' data-cfasync='false' data-pagespeed-no-defer>var __ez=__ez||{};__ez.stms=Date.now();__ez.evt={};__ez.script={};__ez.ck=__ez.ck||{};__ez.template={};__ez.template.isOrig=true;__ez.queue=function(){var e=0,i=0,t=[],n=!1,s=[],r=[],o=!0,a=function(e,i,n,s,r,o,a){var l=this;this.name=e,this.funcName=i,this.parameters=null===n?null:n instanceof Array?n:[n],this.isBlock=s,this.blockedBy=r,this.deleteWhenComplete=o,this.isError=!1,this.isComplete=!1,this.isInitialized=!1,this.proceedIfError=a,this.isTimeDelay=!1,this.process=function(){u("... func = "+e),l.isInitialized=!0,l.isComplete=!0,u("... func.apply: "+e);var i=l.funcName.split("."),n=null;i.length>3||(n=3===i.length?window[i[0]][i[1]][i[2]]:2===i.length?window[i[0]][i[1]]:window[l.funcName]),null!=n&&n.apply(null,this.parameters),!0===l.deleteWhenComplete&&delete t[e],!0===l.isBlock&&(u("----- F'D: "+l.name),f())}},l=function(e,i,t,n,s,r,o){var a=this;this.name=e,this.path=i,this.async=s,this.defer=r,this.isBlock=t,this.blockedBy=n,this.isInitialized=!1,this.isError=!1,this.isComplete=!1,this.proceedIfError=o,this.isTimeDelay=!1,this.isPath=function(e){return"/"===e[0]&&"/"!==e[1]},this.getSrc=function(e){return void 0!==window.__ezScriptHost&&this.isPath(e)?window.__ezScriptHost+e:e},this.process=function(){a.isInitialized=!0,u("... file = "+e);var i=document.createElement("script");i.src=this.getSrc(this.path),!0===s?i.async=!0:!0===r&&(i.defer=!0),i.onerror=function(){u("----- ERR'D: "+a.name),a.isError=!0,!0===a.isBlock&&f()},i.onreadystatechange=i.onload=function(){var e=i.readyState;u("----- F'D: "+a.name),e&&!/loaded|complete/.test(e)||(a.isComplete=!0,!0===a.isBlock&&f())},document.getElementsByTagName("head")[0].appendChild(i)}},c=function(e,i){this.name=e,this.path="",this.async=!1,this.defer=!1,this.isBlock=!1,this.blockedBy=[],this.isInitialized=!0,this.isError=!1,this.isComplete=i,this.proceedIfError=!1,this.isTimeDelay=!1,this.process=function(){}};function d(e){!0!==h(e)&&0!=o&&e.process()}function h(e){if(!0===e.isTimeDelay&&!1===n)return u(e.name+" blocked = TIME DELAY!"),!0;if(e.blockedBy instanceof Array)for(var i=0;i<e.blockedBy.length;i++){var s=e.blockedBy[i];if(!1===t.hasOwnProperty(s))return u(e.name+" blocked = "+s),!0;if(!0===e.proceedIfError&&!0===t[s].isError)return!1;if(!1===t[s].isComplete)return u(e.name+" blocked = "+s),!0}return!1}function u(e){var i=window.location.href,t=new RegExp("[?&]ezq=([^&#]*)","i").exec(i);"1"===(t?t[1]:null)&&console.debug(e)}function f(){++e>200||(u("let's go"),m(s),m(r))}function m(e){for(var i in e)if(!1!==e.hasOwnProperty(i)){var t=e[i];!0===t.isComplete||h(t)||!0===t.isInitialized||!0===t.isError?!0===t.isError?u(t.name+": error"):!0===t.isComplete?u(t.name+": complete already"):!0===t.isInitialized&&u(t.name+": initialized already"):t.process()}}return window.addEventListener("load",(function(){setTimeout((function(){n=!0,u("TDELAY -----"),f()}),5e3)}),!1),{addFile:function(e,i,n,o,a,c,h,u){var f=new l(e,i,n,o,a,c,h);!0===u?s[e]=f:r[e]=f,t[e]=f,d(f)},addDelayFile:function(e,i){var n=new l(e,i,!1,[],!1,!1,!0);n.isTimeDelay=!0,u(e+" ...  FILE! TDELAY"),r[e]=n,t[e]=n,d(n)},addFunc:function(e,n,o,l,c,h,u,f,m){!0===h&&(e=e+"_"+i++);var p=new a(e,n,o,l,c,u,f);!0===m?s[e]=p:r[e]=p,t[e]=p,d(p)},addDelayFunc:function(e,i,n){var s=new a(e,i,n,!1,[],!0,!0);s.isTimeDelay=!0,u(e+" ...  FUNCTION! TDELAY"),r[e]=s,t[e]=s,d(s)},items:t,processAll:f,setallowLoad:function(e){o=e},markLoaded:function(e){if(e&&0!==e.length){if(e in t){var i=t[e];!0===i.isComplete?u(i.name+" "+e+": error loaded duplicate"):(i.isComplete=!0,i.isInitialized=!0)}else t[e]=new c(e,!0);u("markLoaded dummyfile: "+t[e].name)}},logWhatsBlocked:function(){for(var e in t)!1!==t.hasOwnProperty(e)&&h(t[e])}}}();__ez.evt.add=function(e,t,n){e.addEventListener?e.addEventListener(t,n,!1):e.attachEvent?e.attachEvent("on"+t,n):e["on"+t]=n()},__ez.evt.remove=function(e,t,n){e.removeEventListener?e.removeEventListener(t,n,!1):e.detachEvent?e.detachEvent("on"+t,n):delete e["on"+t]};__ez.script.add=function(e){var t=document.createElement("script");t.src=e,t.async=!0,t.type="text/javascript",document.getElementsByTagName("head")[0].appendChild(t)};__ez.dot={};__ez.queue.addFile('/detroitchicago/boise.js', '/detroitchicago/boise.js?gcb=195-0&cb=2', true, [], true, false, true, false);__ez.queue.addFile('/detroitchicago/memphis.js', '/detroitchicago/memphis.js?gcb=195-0&cb=22', true, [], true, false, true, false);__ez.queue.addFile('/detroitchicago/minneapolis.js', '/detroitchicago/minneapolis.js?gcb=195-0&cb=4', true, [], true, false, true, false);__ez.queue.addFile('/detroitchicago/rochester.js', '/detroitchicago/rochester.js?gcb=195-0&cb=13', false, ['/detroitchicago/memphis.js','/detroitchicago/minneapolis.js'], true, false, true, false);!function(){var e;__ez.vep=(e=[],{Add:function(i,t){__ez.dot.isDefined(i)&&__ez.dot.isValid(t)&&e.push({type:"video",video_impression_id:i,domain_id:__ez.dot.getDID(),t_epoch:__ez.dot.getEpoch(0),data:__ez.dot.dataToStr(t)})},Fire:function(){if(void 0===document.visibilityState||"prerender"!==document.visibilityState){if(__ez.dot.isDefined(e)&&e.length>0)for(;e.length>0;){var i=5;i>e.length&&(i=e.length);var t=e.splice(0,i),o=__ez.dot.getURL("/detroitchicago/grapefruit.gif")+"?orig="+(!0===__ez.template.isOrig?1:0)+"&v="+btoa(JSON.stringify(t));__ez.dot.Fire(o)}e=[]}}})}();</script><script data-ezscrex='false' data-cfasync='false' data-pagespeed-no-defer>!function(){function e(i){return e="function"==typeof Symbol&&"symbol"==typeof Symbol.iterator?function(e){return typeof e}:function(e){return e&&"function"==typeof Symbol&&e.constructor===Symbol&&e!==Symbol.prototype?"symbol":typeof e},e(i)}__ez.pel=function(){var i=[];function t(t,o,d,_,n,r,a,s){if(__ez.dot.isDefined(t)&&0!=__ez.dot.isAnyDefined(t.getSlotElementId,t.ElementId)){void 0===s&&(s=!1);var p=parseInt(__ez.dot.getTargeting(t,"ap")),f=__ez.dot.getSlotIID(t),u=__ez.dot.getAdUnit(t,s),z=parseInt(__ez.dot.getTargeting(t,"compid")),g=0,c=0,l=function(i){if("undefined"==typeof _ezim_d)return!1;var t=__ez.dot.getAdUnitPath(i).split("/").pop();if("object"===("undefined"==typeof _ezim_d?"undefined":e(_ezim_d))&&_ezim_d.hasOwnProperty(t))return _ezim_d[t];for(var o in _ezim_d)if(o.split("/").pop()===t)return _ezim_d[o];return!1}(t);"object"==e(l)&&(void 0!==l.creative_id&&(c=l.creative_id),void 0!==l.line_item_id&&(g=l.line_item_id)),__ez.dot.isDefined(f,u)&&__ez.dot.isValid(o)&&("0"===f&&!0!==s||""===u||i.push({type:"impression",impression_id:f,domain_id:__ez.dot.getDID(),unit:u,t_epoch:__ez.dot.getEpoch(0),revenue:d,est_revenue:_,ad_position:p,ad_size:"",bid_floor_filled:n,bid_floor_prev:r,stat_source_id:a,country_code:__ez.dot.getCC(),pageview_id:__ez.dot.getPageviewId(),comp_id:z,line_item_id:g,creative_id:c,data:__ez.dot.dataToStr(o),is_orig:s||__ez.template.isOrig}))}}function o(){void 0!==document.visibilityState&&"prerender"===document.visibilityState||(__ez.dot.isDefined(i)&&i.length>0&&[i.filter((function(e){return e.is_orig})),i.filter((function(e){return!e.is_orig}))].forEach((function(e){for(;e.length>0;){var i=e[0].is_orig||!1,t=5;t>e.length&&(t=e.length);var o=e.splice(0,t),d=__ez.dot.getURL("/porpoiseant/army.gif")+"?orig="+(!0===i?1:0)+"&sts="+btoa(JSON.stringify(o));(void 0!==window.isAmp&&isAmp||void 0!==window.ezWp&&ezWp)&&void 0!==window._ezaq&&_ezaq.hasOwnProperty("domain_id")&&(d+="&visit_uuid="+_ezaq.visit_uuid),__ez.dot.Fire(d)}})),i=[])}return{Add:t,AddAndFire:function(e,i){t(e,i,0,0,0,0,0),o()},AddAndFireOrig:function(e,i){t(e,i,0,0,0,0,0,!0),o()},AddById:function(e,t,o,d){var _=e.split("/");if(__ez.dot.isDefined(e)&&3===_.length&&__ez.dot.isValid(t)){var n=_[0],r={type:"impression",impression_id:_[2],domain_id:__ez.dot.getDID(),unit:n,t_epoch:__ez.dot.getEpoch(0),pageview_id:__ez.dot.getPageviewId(),data:__ez.dot.dataToStr(t),is_orig:o||__ez.template.isOrig};void 0!==d&&(r.revenue=d),i.push(r)}},Fire:o,GetPixels:function(){return i}}}()}();__ez.queue.addFile('/detroitchicago/raleigh.js', '/detroitchicago/raleigh.js?gcb=195-0&cb=6', false, [], true, false, true, false);__ez.queue.addFile('/detroitchicago/tampa.js', '/detroitchicago/tampa.js?gcb=195-0&cb=5', false, [], true, false, true, false);</script>
+<script data-ezscrex="false" data-cfasync="false">(function(){if("function"===typeof window.CustomEvent)return!1;window.CustomEvent=function(c,a){a=a||{bubbles:!1,cancelable:!1,detail:null};var b=document.createEvent("CustomEvent");b.initCustomEvent(c,a.bubbles,a.cancelable,a.detail);return b}})();</script><script data-ezscrex="false" data-cfasync="false">__ez.queue.addFile('/detroitchicago/tulsa.js', '/detroitchicago/tulsa.js?gcb=195-0&cb=7', false, [], true, false, true, false);</script>
+	
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5, viewport-fit=cover"/>
+	<link rel="profile" href="https://gmpg.org/xfn/11"/>
+
+	<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"/>
+
+	<!-- This site is optimized with the Yoast SEO plugin v19.5.1 - https://yoast.com/wordpress/plugins/seo/ -->
+	<title>15 Tips on How to Find Your Niche Market</title>
+	<meta name="description" content="Deciding who you&#39;re going to serve is one of the first things you need to do when starting a business. It has to happen before you build a website,"/>
+	<link rel="canonical" href="https://coursemethod.com/15-tips-on-how-to-find-your-niche-market.html"/>
+	<meta property="og:locale" content="en_US"/>
+	<meta property="og:type" content="article"/>
+	<meta property="og:title" content="15 Tips on How to Find Your Niche Market"/>
+	<meta property="og:description" content="Deciding who you&#39;re going to serve is one of the first things you need to do when starting a business. It has to happen before you build a website,"/>
+	<meta property="og:url" content="https://coursemethod.com/15-tips-on-how-to-find-your-niche-market.html"/>
+	<meta property="og:site_name" content="Course Method"/>
+	<meta property="article:publisher" content="https://www.facebook.com/businessbolts/"/>
+	<meta property="article:published_time" content="2018-07-15T21:17:19+00:00"/>
+	<meta property="article:modified_time" content="2022-08-16T16:48:35+00:00"/>
+	<meta property="og:image" content="https://coursemethod.com/wp-content/uploads/2018/07/find-niche-1030-1.jpg"/>
+	<meta property="og:image:width" content="1030"/>
+	<meta property="og:image:height" content="368"/>
+	<meta property="og:image:type" content="image/jpeg"/>
+	<meta name="author" content="Lisa Parmley"/>
+	<meta name="twitter:card" content="summary_large_image"/>
+	<meta name="twitter:label1" content="Written by"/>
+	<meta name="twitter:data1" content="Lisa Parmley"/>
+	<meta name="twitter:label2" content="Est. reading time"/>
+	<meta name="twitter:data2" content="14 minutes"/>
+	<script type="application/ld+json" class="yoast-schema-graph">{"@context":"https://schema.org","@graph":[{"@type":"Article","@id":"https://coursemethod.com/15-tips-on-how-to-find-your-niche-market.html#article","isPartOf":{"@id":"https://coursemethod.com/15-tips-on-how-to-find-your-niche-market.html"},"author":{"name":"Lisa Parmley","@id":"https://coursemethod.com/#/schema/person/f792460e71bb60422e85956e3b69a39a"},"headline":"15 Tips on How to Find Your Niche Market","datePublished":"2018-07-15T21:17:19+00:00","dateModified":"2022-08-16T16:48:35+00:00","mainEntityOfPage":{"@id":"https://coursemethod.com/15-tips-on-how-to-find-your-niche-market.html"},"wordCount":3071,"commentCount":14,"publisher":{"@id":"https://coursemethod.com/#organization"},"image":{"@id":"https://coursemethod.com/15-tips-on-how-to-find-your-niche-market.html#primaryimage"},"thumbnailUrl":"https://coursemethod.com/wp-content/uploads/2018/07/find-niche-1030-1.jpg","articleSection":["Topic Ideas"],"inLanguage":"en-US","potentialAction":[{"@type":"CommentAction","name":"Comment","target":["https://coursemethod.com/15-tips-on-how-to-find-your-niche-market.html#respond"]}]},{"@type":"WebPage","@id":"https://coursemethod.com/15-tips-on-how-to-find-your-niche-market.html","url":"https://coursemethod.com/15-tips-on-how-to-find-your-niche-market.html","name":"15 Tips on How to Find Your Niche Market","isPartOf":{"@id":"https://coursemethod.com/#website"},"primaryImageOfPage":{"@id":"https://coursemethod.com/15-tips-on-how-to-find-your-niche-market.html#primaryimage"},"image":{"@id":"https://coursemethod.com/15-tips-on-how-to-find-your-niche-market.html#primaryimage"},"thumbnailUrl":"https://coursemethod.com/wp-content/uploads/2018/07/find-niche-1030-1.jpg","datePublished":"2018-07-15T21:17:19+00:00","dateModified":"2022-08-16T16:48:35+00:00","description":"Deciding who you're going to serve is one of the first things you need to do when starting a business. It has to happen before you build a website,","breadcrumb":{"@id":"https://coursemethod.com/15-tips-on-how-to-find-your-niche-market.html#breadcrumb"},"inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https://coursemethod.com/15-tips-on-how-to-find-your-niche-market.html"]}]},{"@type":"ImageObject","inLanguage":"en-US","@id":"https://coursemethod.com/15-tips-on-how-to-find-your-niche-market.html#primaryimage","url":"https://coursemethod.com/wp-content/uploads/2018/07/find-niche-1030-1.jpg","contentUrl":"https://coursemethod.com/wp-content/uploads/2018/07/find-niche-1030-1.jpg","width":1030,"height":368},{"@type":"BreadcrumbList","@id":"https://coursemethod.com/15-tips-on-how-to-find-your-niche-market.html#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://coursemethod.com/"},{"@type":"ListItem","position":2,"name":"15 Tips on How to Find Your Niche Market"}]},{"@type":"WebSite","@id":"https://coursemethod.com/#website","url":"https://coursemethod.com/","name":"Course Method","description":"","publisher":{"@id":"https://coursemethod.com/#organization"},"potentialAction":[{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https://coursemethod.com/?s={search_term_string}"},"query-input":"required name=search_term_string"}],"inLanguage":"en-US"},{"@type":"Organization","@id":"https://coursemethod.com/#organization","name":"Business Bolts","url":"https://coursemethod.com/","sameAs":["https://www.facebook.com/businessbolts/"],"logo":{"@type":"ImageObject","inLanguage":"en-US","@id":"https://coursemethod.com/#/schema/logo/image/","url":"https://coursemethod.com/wp-content/uploads/2022/08/LOGO-TRANSPARENCY-400.png","contentUrl":"https://coursemethod.com/wp-content/uploads/2022/08/LOGO-TRANSPARENCY-400.png","width":400,"height":48,"caption":"Business Bolts"},"image":{"@id":"https://coursemethod.com/#/schema/logo/image/"}},{"@type":"Person","@id":"https://coursemethod.com/#/schema/person/f792460e71bb60422e85956e3b69a39a","name":"Lisa Parmley","image":{"@type":"ImageObject","inLanguage":"en-US","@id":"https://coursemethod.com/#/schema/person/image/","url":"https://secure.gravatar.com/avatar/f2c7de30a900aaf7b034d7628b7fc43b?s=96&d=mm&r=g","contentUrl":"https://secure.gravatar.com/avatar/f2c7de30a900aaf7b034d7628b7fc43b?s=96&d=mm&r=g","caption":"Lisa Parmley"},"description":"Lisa Parmley is the founder of CourseMethod.com. After gaining a Master's degree in Biology, she worked in research for about 7 years. Lisa decided to start her own training company in 2001, helping people pass a professional exam. In that time, she created online courses as well as books, DVD's, CD's, and testing software. That course has earned multiple 7-figures throughout the years. She created SEO and authority site building training around 2007 which went on to earn well into the 6-figure mark. She has 21+ years of experience in the trenches doing both creating and selling online courses. Download her 7-figure Online Course Success Blueprint here.","url":"https://coursemethod.com/author/editor3xy8"}]}</script>
+	<!-- / Yoast SEO plugin. -->
+
+
+<link rel="dns-prefetch" href="//cdn.affiliatable.io"/>
+<link rel="dns-prefetch" href="//a.omappapi.com"/>
+<link rel="dns-prefetch" href="//fonts.googleapis.com"/>
+<link rel="dns-prefetch" href="//s.w.org"/>
+<link rel="stylesheet" id="blocksy-dynamic-global-css" href="https://coursemethod.com/wp-content/uploads/blocksy/css/global.css?ver=05799" media="all"/>
+<link rel="stylesheet" id="wp-block-library-css" href="https://coursemethod.com/wp-includes/css/dist/block-library/style.min.css?ver=6.0.3" media="all"/>
+<link rel="stylesheet" id="convertkit-broadcasts-css" href="https://coursemethod.com/wp-content/plugins/convertkit/resources/frontend/css/broadcasts.css?ver=1.9.8.2" media="all"/>
+<style id="global-styles-inline-css">
+body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--color--palette-color-1: var(--paletteColor1, #2872fa);--wp--preset--color--palette-color-2: var(--paletteColor2, #1559ed);--wp--preset--color--palette-color-3: var(--paletteColor3, #3A4F66);--wp--preset--color--palette-color-4: var(--paletteColor4, #192a3d);--wp--preset--color--palette-color-5: var(--paletteColor5, #e1e8ed);--wp--preset--color--palette-color-6: var(--paletteColor6, #f2f5f7);--wp--preset--color--palette-color-7: var(--paletteColor7, #FAFBFC);--wp--preset--color--palette-color-8: var(--paletteColor8, #ffffff);--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--gradient--juicy-peach: linear-gradient(to right, #ffecd2 0%, #fcb69f 100%);--wp--preset--gradient--young-passion: linear-gradient(to right, #ff8177 0%, #ff867a 0%, #ff8c7f 21%, #f99185 52%, #cf556c 78%, #b12a5b 100%);--wp--preset--gradient--true-sunset: linear-gradient(to right, #fa709a 0%, #fee140 100%);--wp--preset--gradient--morpheus-den: linear-gradient(to top, #30cfd0 0%, #330867 100%);--wp--preset--gradient--plum-plate: linear-gradient(135deg, #667eea 0%, #764ba2 100%);--wp--preset--gradient--aqua-splash: linear-gradient(15deg, #13547a 0%, #80d0c7 100%);--wp--preset--gradient--love-kiss: linear-gradient(to top, #ff0844 0%, #ffb199 100%);--wp--preset--gradient--new-retrowave: linear-gradient(to top, #3b41c5 0%, #a981bb 49%, #ffc8a9 100%);--wp--preset--gradient--plum-bath: linear-gradient(to top, #cc208e 0%, #6713d2 100%);--wp--preset--gradient--high-flight: linear-gradient(to right, #0acffe 0%, #495aff 100%);--wp--preset--gradient--teen-party: linear-gradient(-225deg, #FF057C 0%, #8D0B93 50%, #321575 100%);--wp--preset--gradient--fabled-sunset: linear-gradient(-225deg, #231557 0%, #44107A 29%, #FF1361 67%, #FFF800 100%);--wp--preset--gradient--arielle-smile: radial-gradient(circle 248px at center, #16d9e3 0%, #30c7ec 47%, #46aef7 100%);--wp--preset--gradient--itmeo-branding: linear-gradient(180deg, #2af598 0%, #009efd 100%);--wp--preset--gradient--deep-blue: linear-gradient(to right, #6a11cb 0%, #2575fc 100%);--wp--preset--gradient--strong-bliss: linear-gradient(to right, #f78ca0 0%, #f9748f 19%, #fd868c 60%, #fe9a8b 100%);--wp--preset--gradient--sweet-period: linear-gradient(to top, #3f51b1 0%, #5a55ae 13%, #7b5fac 25%, #8f6aae 38%, #a86aa4 50%, #cc6b8e 62%, #f18271 75%, #f3a469 87%, #f7c978 100%);--wp--preset--gradient--purple-division: linear-gradient(to top, #7028e4 0%, #e5b2ca 100%);--wp--preset--gradient--cold-evening: linear-gradient(to top, #0c3483 0%, #a2b6df 100%, #6b8cce 100%, #a2b6df 100%);--wp--preset--gradient--mountain-rock: linear-gradient(to right, #868f96 0%, #596164 100%);--wp--preset--gradient--desert-hump: linear-gradient(to top, #c79081 0%, #dfa579 100%);--wp--preset--gradient--ethernal-constance: linear-gradient(to top, #09203f 0%, #537895 100%);--wp--preset--gradient--happy-memories: linear-gradient(-60deg, #ff5858 0%, #f09819 100%);--wp--preset--gradient--grown-early: linear-gradient(to top, #0ba360 0%, #3cba92 100%);--wp--preset--gradient--morning-salad: linear-gradient(-225deg, #B7F8DB 0%, #50A7C2 100%);--wp--preset--gradient--night-call: linear-gradient(-225deg, #AC32E4 0%, #7918F2 48%, #4801FF 100%);--wp--preset--gradient--mind-crawl: linear-gradient(-225deg, #473B7B 0%, #3584A7 51%, #30D2BE 100%);--wp--preset--gradient--angel-care: linear-gradient(-225deg, #FFE29F 0%, #FFA99F 48%, #FF719A 100%);--wp--preset--gradient--juicy-cake: linear-gradient(to top, #e14fad 0%, #f9d423 100%);--wp--preset--gradient--rich-metal: linear-gradient(to right, #d7d2cc 0%, #304352 100%);--wp--preset--gradient--mole-hall: linear-gradient(-20deg, #616161 0%, #9bc5c3 100%);--wp--preset--gradient--cloudy-knoxville: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);--wp--preset--gradient--soft-grass: linear-gradient(to top, #c1dfc4 0%, #deecdd 100%);--wp--preset--gradient--saint-petersburg: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);--wp--preset--gradient--everlasting-sky: linear-gradient(135deg, #fdfcfb 0%, #e2d1c3 100%);--wp--preset--gradient--kind-steel: linear-gradient(-20deg, #e9defa 0%, #fbfcdb 100%);--wp--preset--gradient--over-sun: linear-gradient(60deg, #abecd6 0%, #fbed96 100%);--wp--preset--gradient--premium-white: linear-gradient(to top, #d5d4d0 0%, #d5d4d0 1%, #eeeeec 31%, #efeeec 75%, #e9e9e7 100%);--wp--preset--gradient--clean-mirror: linear-gradient(45deg, #93a5cf 0%, #e4efe9 100%);--wp--preset--gradient--wild-apple: linear-gradient(to top, #d299c2 0%, #fef9d7 100%);--wp--preset--gradient--snow-again: linear-gradient(to top, #e6e9f0 0%, #eef1f5 100%);--wp--preset--gradient--confident-cloud: linear-gradient(to top, #dad4ec 0%, #dad4ec 1%, #f3e7e9 100%);--wp--preset--gradient--glass-water: linear-gradient(to top, #dfe9f3 0%, white 100%);--wp--preset--gradient--perfect-white: linear-gradient(-225deg, #E3FDF5 0%, #FFE6FA 100%);--wp--preset--duotone--dark-grayscale: url('#wp-duotone-dark-grayscale');--wp--preset--duotone--grayscale: url('#wp-duotone-grayscale');--wp--preset--duotone--purple-yellow: url('#wp-duotone-purple-yellow');--wp--preset--duotone--blue-red: url('#wp-duotone-blue-red');--wp--preset--duotone--midnight: url('#wp-duotone-midnight');--wp--preset--duotone--magenta-yellow: url('#wp-duotone-magenta-yellow');--wp--preset--duotone--purple-green: url('#wp-duotone-purple-green');--wp--preset--duotone--blue-orange: url('#wp-duotone-blue-orange');--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+</style>
+<link rel="stylesheet" id="bcct_style-css" href="https://coursemethod.com/wp-content/plugins/better-click-to-tweet/assets/css/styles.css?ver=3.0" media="all"/>
+<link rel="stylesheet" id="tap-disclosure-notice-css" href="https://coursemethod.com/wp-content/plugins/thirstyaffiliates-pro/js/app/disclosure-notice/dist/disclosure-notice.css?ver=1.7.3" media="all"/>
+<style id="wpgb-head-inline-css">
+.wp-grid-builder:not(.wpgb-template),.wpgb-facet{opacity:0.01}.wpgb-facet fieldset{margin:0;padding:0;border:none;outline:none;box-shadow:none}.wpgb-facet fieldset:last-child{margin-bottom:40px;}.wpgb-facet fieldset legend.wpgb-sr-only{height:1px;width:1px}
+</style>
+<link rel="stylesheet" id="tablepress-default-css" href="https://coursemethod.com/wp-content/tablepress-combined.min.css?ver=52" media="all"/>
+<link rel="stylesheet" id="ct-main-styles-css" href="https://coursemethod.com/wp-content/themes/blocksy/static/bundle/main.min.css?ver=1.8.36" media="all"/>
+<link rel="stylesheet" id="blocksy-ext-mega-menu-styles-css" href="https://coursemethod.com/wp-content/plugins/blocksy-companion-pro/framework/premium/extensions/mega-menu/static/bundle/main.min.css?ver=1.8.34" media="all"/>
+<link rel="stylesheet" id="blocksy-fonts-font-source-google-css" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;600;700;900&amp;display=swap" media="all"/>
+<link rel="stylesheet" id="ct-page-title-styles-css" href="https://coursemethod.com/wp-content/themes/blocksy/static/bundle/page-title.min.css?ver=1.8.36" media="all"/>
+<link rel="stylesheet" id="ct-sidebar-styles-css" href="https://coursemethod.com/wp-content/themes/blocksy/static/bundle/sidebar.min.css?ver=1.8.36" media="all"/>
+<link rel="stylesheet" id="ct-author-box-styles-css" href="https://coursemethod.com/wp-content/themes/blocksy/static/bundle/author-box.min.css?ver=1.8.36" media="all"/>
+
+			<!-- Google Analytics -->
+			<script>
+			(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+			(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+			m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+			})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+			ga('create', 'UA-938444-40', 'auto');
+			ga('send', 'pageview');
+						</script>
+			<!-- End Google Analytics -->
+
+			<script src="https://coursemethod.com/wp-includes/js/jquery/jquery.min.js?ver=3.6.0" id="jquery-core-js"></script>
+<script src="https://coursemethod.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.3.2" id="jquery-migrate-js"></script>
+<link rel="https://api.w.org/" href="https://coursemethod.com/wp-json/"/><link rel="alternate" type="application/json" href="https://coursemethod.com/wp-json/wp/v2/posts/4432"/><link rel="alternate" type="application/json+oembed" href="https://coursemethod.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fcoursemethod.com%2F15-tips-on-how-to-find-your-niche-market.html"/>
+<link rel="alternate" type="text/xml+oembed" href="https://coursemethod.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fcoursemethod.com%2F15-tips-on-how-to-find-your-niche-market.html&amp;format=xml"/>
+<script src="https://dash.sparkloop.app/widget/MF5a5e697288/embed.js" async="" data-sparkloop=""></script>
+<noscript><style>.wp-grid-builder .wpgb-card.wpgb-card-hidden .wpgb-card-wrapper{opacity:1!important;visibility:visible!important;transform:none!important}.wpgb-facet {opacity:1!important;pointer-events:auto!important}.wpgb-facet *:not(.wpgb-pagination-facet){display:none}</style></noscript><noscript><link rel='stylesheet' href='https://coursemethod.com/wp-content/themes/blocksy/static/bundle/no-scripts.min.css' type='text/css' /></noscript>
+<style id="ct-main-styles-inline-css">[data-block*="26515"] > [class*="ct-container"] > article[class*="post"] {--has-boxed:var(--true);--has-wide:var(--false);background-color:var(--has-background, var(--paletteColor8));--border-radius:3px;--boxed-content-spacing:40px;--box-shadow:0px 12px 18px -6px rgba(34, 56, 101, 0.04);}@media (max-width: 999.98px) {[data-block*="26515"] > [class*="ct-container"] > article[class*="post"] {--boxed-content-spacing:35px;}}@media (max-width: 689.98px) {[data-block*="26515"] > [class*="ct-container"] > article[class*="post"] {--boxed-content-spacing:20px;}}</style>
+<script async="" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6253488315831452" crossorigin="anonymous"></script>		<style id="wp-custom-css">
+			
+
+.textwidget ul { --listStyleType: disc; }
+
+div.padded {
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}		</style>
+			<script type="text/javascript">var ezouid = "1";</script><base href="https://coursemethod.com/15-tips-on-how-to-find-your-niche-market.html"><script type='text/javascript'>
+var ezoTemplate = 'old_site_noads';
+if(typeof ezouid == 'undefined')
+{
+    var ezouid = 'none';
+}
+var ezoFormfactor = '1';
+var ezo_elements_to_check = Array();
+</script><!-- START EZHEAD -->
+<script data-ezscrex="false" type='text/javascript'>
+var soc_app_id = '0';
+var did = 374959;
+var ezdomain = 'coursemethod.com';
+var ezoicSearchable = 1;
+</script>
+<!--{jquery}-->
+<!-- END EZHEAD -->
+<script data-ezscrex="false" type="text/javascript" data-cfasync="false">var _ezaq = {"ad_cache_level":0,"ad_lazyload_version":0,"ad_load_version":0,"city":"Monroe","country":"US","days_since_last_visit":-1,"domain_id":374959,"engaged_time_visit":0,"ezcache_level":2,"ezcache_skip_code":0,"form_factor_id":1,"framework_id":1,"is_return_visitor":false,"is_sitespeed":0,"last_page_load":"","last_pageview_id":"","lt_cache_level":0,"metro_code":505,"page_ad_positions":"","page_view_count":0,"page_view_id":"4a830362-ed1a-4ddc-50fa-a7e97f9cd438","position_selection_id":0,"postal_code":"48161","pv_event_count":0,"response_size_orig":102148,"response_time_orig":56,"serverid":"3.236.110.234:16243","state":"MI","t_epoch":1672912798,"template_id":120,"time_on_site_visit":0,"url":"https://coursemethod.com/15-tips-on-how-to-find-your-niche-market.html","user_id":0,"word_count":3474,"worst_bad_word_level":0};var _ezExtraQueries = "&ez_orig=1";</script>
+<script data-ezscrex='false' data-pagespeed-no-defer data-cfasync='false'>
+function create_ezolpl(pvID, rv) {
+    var d = new Date();
+    d.setTime(d.getTime() + (365*24*60*60*1000));
+    var expires = "expires="+d.toUTCString();
+    __ez.ck.setByCat("ezux_lpl_374959=" + new Date().getTime() + "|" + pvID + "|" + rv + "; " + expires, 3);
+}
+function attach_ezolpl(pvID, rv) {
+    if (document.readyState === "complete") {
+        create_ezolpl(pvID, rv);
+    }
+    if(window.attachEvent) {
+        window.attachEvent("onload", create_ezolpl, pvID, rv);
+    } else {
+        if(window.onload) {
+            var curronload = window.onload;
+            var newonload = function(evt) {
+                curronload(evt);
+                create_ezolpl(pvID, rv);
+            };
+            window.onload = newonload;
+        } else {
+            window.onload = create_ezolpl.bind(null, pvID, rv);
+        }
+    }
+}
+
+__ez.queue.addFunc("attach_ezolpl", "attach_ezolpl", ["4a830362-ed1a-4ddc-50fa-a7e97f9cd438", "false"], false, ['/detroitchicago/boise.js'], true, false, false, false);
+</script></head>
+
+<body class="post-template-default single single-post postid-4432 single-format-standard wp-custom-logo wp-embed-responsive fpt-template-blocksy ct-loading" data-link="type-2" data-prefix="single_blog_post" data-header="type-1" data-footer="type-1" itemscope="itemscope" itemtype="https://schema.org/Blog">
+
+<a class="skip-link show-on-focus" href="#main">
+	Skip to content</a>
+
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;"><defs><filter id="wp-duotone-dark-grayscale"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 "></feColorMatrix><feComponentTransfer color-interpolation-filters="sRGB"><feFuncR type="table" tableValues="0 0.49803921568627"></feFuncR><feFuncG type="table" tableValues="0 0.49803921568627"></feFuncG><feFuncB type="table" tableValues="0 0.49803921568627"></feFuncB><feFuncA type="table" tableValues="1 1"></feFuncA></feComponentTransfer><feComposite in2="SourceGraphic" operator="in"></feComposite></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;"><defs><filter id="wp-duotone-grayscale"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 "></feColorMatrix><feComponentTransfer color-interpolation-filters="sRGB"><feFuncR type="table" tableValues="0 1"></feFuncR><feFuncG type="table" tableValues="0 1"></feFuncG><feFuncB type="table" tableValues="0 1"></feFuncB><feFuncA type="table" tableValues="1 1"></feFuncA></feComponentTransfer><feComposite in2="SourceGraphic" operator="in"></feComposite></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;"><defs><filter id="wp-duotone-purple-yellow"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 "></feColorMatrix><feComponentTransfer color-interpolation-filters="sRGB"><feFuncR type="table" tableValues="0.54901960784314 0.98823529411765"></feFuncR><feFuncG type="table" tableValues="0 1"></feFuncG><feFuncB type="table" tableValues="0.71764705882353 0.25490196078431"></feFuncB><feFuncA type="table" tableValues="1 1"></feFuncA></feComponentTransfer><feComposite in2="SourceGraphic" operator="in"></feComposite></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;"><defs><filter id="wp-duotone-blue-red"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 "></feColorMatrix><feComponentTransfer color-interpolation-filters="sRGB"><feFuncR type="table" tableValues="0 1"></feFuncR><feFuncG type="table" tableValues="0 0.27843137254902"></feFuncG><feFuncB type="table" tableValues="0.5921568627451 0.27843137254902"></feFuncB><feFuncA type="table" tableValues="1 1"></feFuncA></feComponentTransfer><feComposite in2="SourceGraphic" operator="in"></feComposite></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;"><defs><filter id="wp-duotone-midnight"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 "></feColorMatrix><feComponentTransfer color-interpolation-filters="sRGB"><feFuncR type="table" tableValues="0 0"></feFuncR><feFuncG type="table" tableValues="0 0.64705882352941"></feFuncG><feFuncB type="table" tableValues="0 1"></feFuncB><feFuncA type="table" tableValues="1 1"></feFuncA></feComponentTransfer><feComposite in2="SourceGraphic" operator="in"></feComposite></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;"><defs><filter id="wp-duotone-magenta-yellow"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 "></feColorMatrix><feComponentTransfer color-interpolation-filters="sRGB"><feFuncR type="table" tableValues="0.78039215686275 1"></feFuncR><feFuncG type="table" tableValues="0 0.94901960784314"></feFuncG><feFuncB type="table" tableValues="0.35294117647059 0.47058823529412"></feFuncB><feFuncA type="table" tableValues="1 1"></feFuncA></feComponentTransfer><feComposite in2="SourceGraphic" operator="in"></feComposite></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;"><defs><filter id="wp-duotone-purple-green"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 "></feColorMatrix><feComponentTransfer color-interpolation-filters="sRGB"><feFuncR type="table" tableValues="0.65098039215686 0.40392156862745"></feFuncR><feFuncG type="table" tableValues="0 1"></feFuncG><feFuncB type="table" tableValues="0.44705882352941 0.4"></feFuncB><feFuncA type="table" tableValues="1 1"></feFuncA></feComponentTransfer><feComposite in2="SourceGraphic" operator="in"></feComposite></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;"><defs><filter id="wp-duotone-blue-orange"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 "></feColorMatrix><feComponentTransfer color-interpolation-filters="sRGB"><feFuncR type="table" tableValues="0.098039215686275 1"></feFuncR><feFuncG type="table" tableValues="0 0.66274509803922"></feFuncG><feFuncB type="table" tableValues="0.84705882352941 0.41960784313725"></feFuncB><feFuncA type="table" tableValues="1 1"></feFuncA></feComponentTransfer><feComposite in2="SourceGraphic" operator="in"></feComposite></filter></defs></svg><div class="ct-drawer-canvas">
+		<div id="search-modal" class="ct-panel" data-behaviour="modal">
+			<div class="ct-panel-actions">
+				<button class="ct-toggle-close" data-type="type-1" aria-label="Close search modal">
+					<svg class="ct-icon" width="12" height="12" viewBox="0 0 15 15">
+						<path d="M1 15a1 1 0 01-.71-.29 1 1 0 010-1.41l5.8-5.8-5.8-5.8A1 1 0 011.7.29l5.8 5.8 5.8-5.8a1 1 0 011.41 1.41l-5.8 5.8 5.8 5.8a1 1 0 01-1.41 1.41l-5.8-5.8-5.8 5.8A1 1 0 011 15z"></path>
+					</svg>
+				</button>
+			</div>
+
+			<div class="ct-panel-content">
+				
+
+<form role="search" method="get" class="search-form" action="https://coursemethod.com" data-live-results="thumbs">
+
+	<input type="search" class="modal-field" placeholder="Search" value="" name="s" autocomplete="off" title="Search Input"/>
+
+	<button type="submit" class="search-submit" aria-label="Search button">
+		<svg class="ct-icon" aria-hidden="true" width="15" height="15" viewBox="0 0 15 15"><path d="M14.8,13.7L12,11c0.9-1.2,1.5-2.6,1.5-4.2c0-3.7-3-6.8-6.8-6.8S0,3,0,6.8s3,6.8,6.8,6.8c1.6,0,3.1-0.6,4.2-1.5l2.8,2.8c0.1,0.1,0.3,0.2,0.5,0.2s0.4-0.1,0.5-0.2C15.1,14.5,15.1,14,14.8,13.7z M1.5,6.8c0-2.9,2.4-5.2,5.2-5.2S12,3.9,12,6.8S9.6,12,6.8,12S1.5,9.6,1.5,6.8z"></path></svg>
+		<span data-loader="circles"><span></span><span></span><span></span></span>
+	</button>
+
+	
+			<input type="hidden" name="ct_post_type" value="post:page"/>
+	
+</form>
+
+
+			</div>
+		</div>
+
+		<div id="offcanvas" class="ct-panel ct-header" data-behaviour="right-side"><div class="ct-panel-inner">
+		<div class="ct-panel-actions">
+			<button class="ct-toggle-close" data-type="type-1" aria-label="Close drawer">
+				<svg class="ct-icon" width="12" height="12" viewBox="0 0 15 15">
+					<path d="M1 15a1 1 0 01-.71-.29 1 1 0 010-1.41l5.8-5.8-5.8-5.8A1 1 0 011.7.29l5.8 5.8 5.8-5.8a1 1 0 011.41 1.41l-5.8 5.8 5.8 5.8a1 1 0 01-1.41 1.41l-5.8-5.8-5.8 5.8A1 1 0 011 15z"></path>
+				</svg>
+			</button>
+		</div>
+		<div class="ct-panel-content" data-device="desktop"></div><div class="ct-panel-content" data-device="mobile">
+<nav class="mobile-menu has-submenu" data-id="mobile-menu" data-interaction="click" data-toggle-type="type-1" aria-label="Off Canvas Menu">
+	<ul id="menu-top-1" class=""><li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-34415"><a href="https://coursemethod.com/explore-training" class="ct-menu-link">Training</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-31112"><span class="ct-sub-menu-parent"><a href="#" class="ct-menu-link">Starting</a><button class="ct-toggle-dropdown-mobile" aria-label="Expand dropdown menu" aria-expanded="false"><svg class="ct-icon toggle-icon-1" width="15" height="15" viewBox="0 0 15 15"><path d="M3.9,5.1l3.6,3.6l3.6-3.6l1.4,0.7l-5,5l-5-5L3.9,5.1z"></path></svg></button></span>
+<ul class="sub-menu">
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-31113"><a href="https://coursemethod.com/site-building" class="ct-menu-link">Site Building</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category current-post-ancestor current-menu-parent current-post-parent menu-item-31114"><a href="https://coursemethod.com/topic-ideas" class="ct-menu-link">Topic Ideas</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-31115"><a href="https://coursemethod.com/elearning" class="ct-menu-link">eLearning</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-31116"><a href="https://coursemethod.com/business-success" class="ct-menu-link">Business Success</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-31118"><span class="ct-sub-menu-parent"><a href="#" class="ct-menu-link">Building</a><button class="ct-toggle-dropdown-mobile" aria-label="Expand dropdown menu" aria-expanded="false"><svg class="ct-icon toggle-icon-1" width="15" height="15" viewBox="0 0 15 15"><path d="M3.9,5.1l3.6,3.6l3.6-3.6l1.4,0.7l-5,5l-5-5L3.9,5.1z"></path></svg></button></span>
+<ul class="sub-menu">
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-31119"><a href="https://coursemethod.com/lms" class="ct-menu-link">LMS</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-31120"><a href="https://coursemethod.com/course-creation" class="ct-menu-link">Course Creation</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-31121"><a href="https://coursemethod.com/presentations" class="ct-menu-link">Creating Presentations</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-31122"><a href="https://coursemethod.com/audio-video" class="ct-menu-link">Audio/Video Creation</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-31123"><span class="ct-sub-menu-parent"><a href="#" class="ct-menu-link">Growing</a><button class="ct-toggle-dropdown-mobile" aria-label="Expand dropdown menu" aria-expanded="false"><svg class="ct-icon toggle-icon-1" width="15" height="15" viewBox="0 0 15 15"><path d="M3.9,5.1l3.6,3.6l3.6-3.6l1.4,0.7l-5,5l-5-5L3.9,5.1z"></path></svg></button></span>
+<ul class="sub-menu">
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-31124"><a href="https://coursemethod.com/email-marketing" class="ct-menu-link">Email Marketing</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-31125"><a href="https://coursemethod.com/driving-traffic" class="ct-menu-link">Driving Traffic</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-31126"><a href="https://coursemethod.com/selling-courses" class="ct-menu-link">Selling Courses</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-31127"><a href="https://coursemethod.com/ecommerce" class="ct-menu-link">eCommerce</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-25409"><a href="https://coursemethod.com/explore-interviews" class="ct-menu-link">Interviews</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-31128"><span class="ct-sub-menu-parent"><a href="#" class="ct-menu-link">Guides &amp; Info</a><button class="ct-toggle-dropdown-mobile" aria-label="Expand dropdown menu" aria-expanded="false"><svg class="ct-icon toggle-icon-1" width="15" height="15" viewBox="0 0 15 15"><path d="M3.9,5.1l3.6,3.6l3.6-3.6l1.4,0.7l-5,5l-5-5L3.9,5.1z"></path></svg></button></span>
+<ul class="sub-menu">
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-31359"><a href="https://coursemethod.com/online-course-ideas" class="ct-menu-link">Online Course Ideas</a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-31358"><a href="https://coursemethod.com/create-online-course" class="ct-menu-link">Create Online Course</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-31167"><a href="https://coursemethod.com/online-course-platforms-guide" class="ct-menu-link">Best Online Course Platforms</a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-31360"><a href="https://coursemethod.com/sell-courses-online" class="ct-menu-link">Sell Courses Online</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-31192"><a href="https://coursemethod.com/glossary" class="ct-menu-link">Complete A to Z Online Business Glossary</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-31129"><a href="https://coursemethod.com/research" class="ct-menu-link">Research &amp; Statistics</a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-31130"><a href="https://coursemethod.com/blog" class="ct-menu-link">All Articles</a></li>
+</ul>
+</li>
+</ul></nav>
+
+</div></div></div></div>
+<div id="main-container">
+	<header id="header" class="ct-header" data-id="type-1" itemscope="" itemtype="https://schema.org/WPHeader"><div data-device="desktop"><div data-row="top" data-column-set="1"><div class="ct-container"><div data-column="end" data-placements="1"><div data-items="primary">
+<div class="ct-header-cta" data-id="button">
+
+	<a href="https://coursemethod.com/sign-up" class="ct-button" data-size="small">
+		SIGN UP	</a>
+</div>
+
+
+<div class="ct-header-cta" data-id="__2iNL">
+
+	<a href="http://training.coursemethod.com/sign_in" class="ct-button-ghost" data-size="small">
+		LOGIN	</a>
+</div>
+
+</div></div></div></div><div data-row="middle" data-column-set="2"><div class="ct-container"><div data-column="start" data-placements="1"><div data-items="primary">
+<div class="site-branding" data-id="logo" itemscope="itemscope" itemtype="https://schema.org/Organization">
+
+			<a href="https://coursemethod.com/" class="site-logo-container" rel="home"><img width="400" height="48" src="https://coursemethod.com/wp-content/uploads/2022/08/LOGO-TRANSPARENCY-400.png" class="default-logo" alt="Course Method"/></a>	
+	</div>
+
+</div></div><div data-column="end" data-placements="1"><div data-items="primary">
+<nav id="header-menu-1" class="header-menu-1" data-id="menu" data-interaction="hover" data-menu="type-1" data-dropdown="type-1:simple" data-responsive="no" itemscope="" itemtype="https://schema.org/SiteNavigationElement" aria-label="Header Menu">
+
+	<ul id="menu-top" class="menu"><li id="menu-item-34415" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-34415"><a href="https://coursemethod.com/explore-training" class="ct-menu-link">Training</a></li>
+<li id="menu-item-31112" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-31112 ct-mega-menu-custom-width ct-mega-menu-columns-1 animated-submenu"><a href="#" class="ct-menu-link">Starting<span class="ct-toggle-dropdown-desktop"><svg class="ct-icon" width="8" height="8" viewBox="0 0 15 15"><path d="M2.1,3.2l5.4,5.4l5.4-5.4L15,4.3l-7.5,7.5L0,4.3L2.1,3.2z"></path></svg></span></a><button class="ct-toggle-dropdown-desktop-ghost" aria-label="Expand dropdown menu" aria-expanded="false"></button>
+<ul class="sub-menu">
+	<li id="menu-item-31113" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-31113"><a href="https://coursemethod.com/site-building" class="ct-menu-link">Site Building</a></li>
+	<li id="menu-item-31114" class="menu-item menu-item-type-taxonomy menu-item-object-category current-post-ancestor current-menu-parent current-post-parent menu-item-31114"><a href="https://coursemethod.com/topic-ideas" class="ct-menu-link">Topic Ideas</a></li>
+	<li id="menu-item-31115" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-31115"><a href="https://coursemethod.com/elearning" class="ct-menu-link">eLearning</a></li>
+	<li id="menu-item-31116" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-31116"><a href="https://coursemethod.com/business-success" class="ct-menu-link">Business Success</a></li>
+</ul>
+</li>
+<li id="menu-item-31118" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-31118 ct-mega-menu-custom-width ct-mega-menu-columns-1 animated-submenu"><a href="#" class="ct-menu-link">Building<span class="ct-toggle-dropdown-desktop"><svg class="ct-icon" width="8" height="8" viewBox="0 0 15 15"><path d="M2.1,3.2l5.4,5.4l5.4-5.4L15,4.3l-7.5,7.5L0,4.3L2.1,3.2z"></path></svg></span></a><button class="ct-toggle-dropdown-desktop-ghost" aria-label="Expand dropdown menu" aria-expanded="false"></button>
+<ul class="sub-menu">
+	<li id="menu-item-31119" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-31119"><a href="https://coursemethod.com/lms" class="ct-menu-link">LMS</a></li>
+	<li id="menu-item-31120" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-31120"><a href="https://coursemethod.com/course-creation" class="ct-menu-link">Course Creation</a></li>
+	<li id="menu-item-31121" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-31121"><a href="https://coursemethod.com/presentations" class="ct-menu-link">Creating Presentations</a></li>
+	<li id="menu-item-31122" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-31122"><a href="https://coursemethod.com/audio-video" class="ct-menu-link">Audio/Video Creation</a></li>
+</ul>
+</li>
+<li id="menu-item-31123" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-31123 ct-mega-menu-custom-width ct-mega-menu-columns-1 animated-submenu"><a href="#" class="ct-menu-link">Growing<span class="ct-toggle-dropdown-desktop"><svg class="ct-icon" width="8" height="8" viewBox="0 0 15 15"><path d="M2.1,3.2l5.4,5.4l5.4-5.4L15,4.3l-7.5,7.5L0,4.3L2.1,3.2z"></path></svg></span></a><button class="ct-toggle-dropdown-desktop-ghost" aria-label="Expand dropdown menu" aria-expanded="false"></button>
+<ul class="sub-menu">
+	<li id="menu-item-31124" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-31124"><a href="https://coursemethod.com/email-marketing" class="ct-menu-link">Email Marketing</a></li>
+	<li id="menu-item-31125" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-31125"><a href="https://coursemethod.com/driving-traffic" class="ct-menu-link">Driving Traffic</a></li>
+	<li id="menu-item-31126" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-31126"><a href="https://coursemethod.com/selling-courses" class="ct-menu-link">Selling Courses</a></li>
+	<li id="menu-item-31127" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-31127"><a href="https://coursemethod.com/ecommerce" class="ct-menu-link">eCommerce</a></li>
+</ul>
+</li>
+<li id="menu-item-25409" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-25409"><a href="https://coursemethod.com/explore-interviews" class="ct-menu-link">Interviews</a></li>
+<li id="menu-item-31128" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-31128 ct-mega-menu-custom-width ct-mega-menu-columns-1 animated-submenu"><a href="#" class="ct-menu-link">Guides &amp; Info<span class="ct-toggle-dropdown-desktop"><svg class="ct-icon" width="8" height="8" viewBox="0 0 15 15"><path d="M2.1,3.2l5.4,5.4l5.4-5.4L15,4.3l-7.5,7.5L0,4.3L2.1,3.2z"></path></svg></span></a><button class="ct-toggle-dropdown-desktop-ghost" aria-label="Expand dropdown menu" aria-expanded="false"></button>
+<ul class="sub-menu">
+	<li id="menu-item-31359" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-31359"><a href="https://coursemethod.com/online-course-ideas" class="ct-menu-link">Online Course Ideas</a></li>
+	<li id="menu-item-31358" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-31358"><a href="https://coursemethod.com/create-online-course" class="ct-menu-link">Create Online Course</a></li>
+	<li id="menu-item-31167" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-31167"><a href="https://coursemethod.com/online-course-platforms-guide" class="ct-menu-link">Best Online Course Platforms</a></li>
+	<li id="menu-item-31360" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-31360"><a href="https://coursemethod.com/sell-courses-online" class="ct-menu-link">Sell Courses Online</a></li>
+	<li id="menu-item-31192" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-31192"><a href="https://coursemethod.com/glossary" class="ct-menu-link">Complete A to Z Online Business Glossary</a></li>
+	<li id="menu-item-31129" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-31129"><a href="https://coursemethod.com/research" class="ct-menu-link">Research &amp; Statistics</a></li>
+	<li id="menu-item-31130" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-31130"><a href="https://coursemethod.com/blog" class="ct-menu-link">All Articles</a></li>
+</ul>
+</li>
+</ul></nav>
+
+
+<button data-toggle-panel="#search-modal" class="ct-header-search ct-toggle " aria-label="Open search form" data-label="left" data-id="search">
+
+	<span class="ct-label ct-hidden-sm ct-hidden-md ct-hidden-lg">Search</span>
+
+	<svg class="ct-icon" aria-hidden="true" width="15" height="15" viewBox="0 0 15 15"><path d="M14.8,13.7L12,11c0.9-1.2,1.5-2.6,1.5-4.2c0-3.7-3-6.8-6.8-6.8S0,3,0,6.8s3,6.8,6.8,6.8c1.6,0,3.1-0.6,4.2-1.5l2.8,2.8c0.1,0.1,0.3,0.2,0.5,0.2s0.4-0.1,0.5-0.2C15.1,14.5,15.1,14,14.8,13.7z M1.5,6.8c0-2.9,2.4-5.2,5.2-5.2S12,3.9,12,6.8S9.6,12,6.8,12S1.5,9.6,1.5,6.8z"></path></svg></button>
+</div></div></div></div></div><div data-device="mobile"><div data-row="middle" data-column-set="2"><div class="ct-container"><div data-column="start" data-placements="1"><div data-items="primary">
+<div class="site-branding" data-id="logo" itemscope="itemscope" itemtype="https://schema.org/Organization">
+
+			<a href="https://coursemethod.com/" class="site-logo-container" rel="home"><img width="400" height="48" src="https://coursemethod.com/wp-content/uploads/2022/08/LOGO-TRANSPARENCY-400.png" class="default-logo" alt="Course Method"/></a>	
+	</div>
+
+</div></div><div data-column="end" data-placements="1"><div data-items="primary">
+<button data-toggle-panel="#offcanvas" class="ct-header-trigger ct-toggle " data-design="simple" data-label="right" aria-label="Open off canvas" data-id="trigger">
+
+	<span class="ct-label ct-hidden-sm ct-hidden-md ct-hidden-lg">Menu</span>
+
+	<svg class="ct-icon" width="18" height="14" viewBox="0 0 18 14" aria-hidden="true" data-type="type-1">
+
+		<rect y="0.00" width="18" height="1.7" rx="1"></rect>
+		<rect y="6.15" width="18" height="1.7" rx="1"></rect>
+		<rect y="12.3" width="18" height="1.7" rx="1"></rect>
+	</svg>
+</button>
+</div></div></div></div></div></header>
+	<main id="main" class="site-main hfeed" itemscope="itemscope" itemtype="https://schema.org/CreativeWork">
+
+		
+	<div class="ct-container" data-sidebar="right" data-vertical-spacing="top">
+
+		
+		
+	<article id="post-4432" class="post-4432 post type-post status-publish format-standard has-post-thumbnail hentry category-topic-ideas">
+
+		
+<div class="hero-section" data-type="type-1">
+	<header class="entry-header">
+		<ul class="entry-meta" data-type="label:none"><li class="meta-categories" data-type="underline"><span></span><a href="https://coursemethod.com/topic-ideas" rel="tag" class="ct-term-166">Topic Ideas</a></li><li class="meta-updated-date" itemprop="dateModified"><span>Last Updated: </span><time class="ct-meta-element-date" datetime="2022-08-16T16:48:35+00:00">August 16, 2022</time></li></ul><h1 class="page-title" title="15 Tips on How to Find Your Niche Market" itemprop="headline">15 Tips on How to Find Your Niche Market</h1>	</header>
+</div>
+<figure class="ct-featured-image "><div class="ct-image-container"><img width="1030" height="368" src="https://coursemethod.com/wp-content/uploads/2018/07/find-niche-1030-1.jpg" class="attachment-full size-full wp-post-image" alt="" loading="lazy" srcset="https://coursemethod.com/wp-content/uploads/2018/07/find-niche-1030-1.jpg 1030w, https://coursemethod.com/wp-content/uploads/2018/07/find-niche-1030-1-300x107.jpg 300w, https://coursemethod.com/wp-content/uploads/2018/07/find-niche-1030-1-768x274.jpg 768w, https://coursemethod.com/wp-content/uploads/2018/07/find-niche-1030-1-705x252.jpg 705w, https://coursemethod.com/wp-content/uploads/2018/07/find-niche-1030-1-450x161.jpg 450w" sizes="(max-width: 1030px) 100vw, 1030px" data-object-fit="~" itemprop="image"/><span class="ct-ratio" style="padding-bottom: 35.7%"></span></div></figure>
+		
+		<div data-block="hook:23906"><article id="post-23906" class="post-23906"><div class="entry-content">
+<p class="has-text-align-center" style="font-size:14px"><span style="color:#6ec1e4" class="has-inline-color"><strong>Our content is reader supported, which means when you buy from links you click on, we may earn a commission.</strong></span></p>
+
+
+
+<hr class="wp-block-separator aligncenter is-style-default"/>
+
+
+
+<div style="height:20px" aria-hidden="true" class="wp-block-spacer"></div>
+</div></article></div>
+		<div class="entry-content">
+			<p>Deciding who you’re going to serve is one of the first things you need to do when starting a business. It has to happen before you build a website, select a domain name, or ever consider placing an ad. Before we get into the tips, here’s a little background on what a niche market is.</p><!-- Ezoic - wp_under_page_title - under_page_title --><div id="ezoic-pub-ad-placeholder-102" data-inserter-version="2"></div><!-- End Ezoic - wp_under_page_title - under_page_title -->
+<p>A niche market is where you take a broad market like dresses and drill down further. In the process you may simplify your marketing by tuning into a specific audience.</p>
+<p>So instead of just selling dresses and competing with giant companies like ‘Ann Taylor’ and ‘JCPenny’, you could go into a niche market and offer summer dresses. Or dresses for toddlers.</p><!-- Ezoic - wp_under_first_paragraph - under_first_paragraph --><div id="ezoic-pub-ad-placeholder-110" data-inserter-version="2"></div><!-- End Ezoic - wp_under_first_paragraph - under_first_paragraph -->
+<p>With a water purification business you could niche down to selling to families or go in a different direction and sell to businesses. Even a certain type of business, like large corporations. Now you know exactly who you’re selling to.</p>
+<p>Even a web design business can take a turn into a niche by specializing in creating web sites for caterers.  Now you know exactly who to target. You can go through the yellow page listings, find all the caterers within a town and see if they need a new web site complete with an app for mobile users on the go.</p>
+<p>Going after a niche market can make you appear more relevant.  It can help you target your marketing. And the end result is you can position your business for an easier sale.</p><!-- Ezoic - wp_under_second_paragraph - under_second_paragraph --><div id="ezoic-pub-ad-placeholder-111" data-inserter-version="2"></div><!-- End Ezoic - wp_under_second_paragraph - under_second_paragraph -->
+<p>It’s always best to learn with real examples so I asked entrepreneurs and small business owners to share how they got into their niche market along with sharing their tips for those who are struggling. I put together the 15 best stories and tips for you in the list below.</p>
+<h3>1.  The Confidence Building Coach</h3>
+<p>“What helped me find my niche market was to look inwards and see what previous struggles I had overcome. In my case it was not knowing what my personal style was or how to dress my body. Today I am able to relate and help women like my former self who don’t know what their personal style is or how to shop for their body type. I understand and know their struggles.</p>
+<p>I advise anyone looking to identify their niche market to look inwards, the answer is always there.”</p><!-- Ezoic - wp_mid_content - mid_content --><div id="ezoic-pub-ad-placeholder-112" data-inserter-version="2"></div><!-- End Ezoic - wp_mid_content - mid_content -->
+<p><em>– Catherine E. Storing, Founder and Chief Style Coach of The Confidence Building Coach</em></p>
+<h3>2.  Eco Business Technology Consultant</h3>
+<p>“I have a passion for keeping people healthy and comfy in their home. I started out in the HVAC trade when I was 14. I enjoyed it and have even stated I could do it as a hobby if I was rich. Basically that is my dream now, to make a free service available for the elderly and less fortunate when I have built my business to the point of it running itself and producing well.</p>
+<p>I have combined that with a passion for green technology. I have a business that uses green technology to create healthy indoor living systems.</p><!-- Ezoic - wp_long_content - long_content --><div id="ezoic-pub-ad-placeholder-113" data-inserter-version="2"></div><!-- End Ezoic - wp_long_content - long_content -->
+<p>My tips are:</p>
+<ul>
+<li>Be true to yourself, even though it may be hard to come up with a brand at first.</li>
+<li>Be persistent even when it doesn’t seem you will ever be successful.</li><!-- Ezoic - wp_longer_content - longer_content --><div id="ezoic-pub-ad-placeholder-114" data-inserter-version="2"></div><!-- End Ezoic - wp_longer_content - longer_content -->
+<li>Be consistent in your brand message.</li>
+<li>Be positive and draw the right kind of success to you.</li>
+</ul>
+<p><em>– Rick Stein, Green Technology Consultant at Eco Business</em></p><!-- Ezoic - wp_longest_content - longest_content --><div id="ezoic-pub-ad-placeholder-115" data-inserter-version="2"></div><!-- End Ezoic - wp_longest_content - longest_content -->
+<h3>3.  GovernmentAuctions.org</h3>
+<p>“Over a decade ago, my co-founder and I were inspired to start GovernmentAuctions.org after having gone to several government auctions and noticed how popular they were with the attendees. We kept seeing the same people come back auction after auction and we later found out through the grapevine that there were tons of auctions happening everywhere. Since there was no central directory for these auctions, the niche was wide open. Moreover, we knew the market potential was huge because most people, even regular attendees, didn’t know how many government auctions were happening around them. There were limitless opportunities by simply selling the information. We figured that people really didn’t want to—or know how to—call dozens of different counties to find an auction near their home, so our company does the legwork and puts all the data into one easy-to-use, constantly updated database.</p>
+<p>For budding entrepreneurs still figuring out what their niche is, here are a couple of tips from us:</p>
+<p><em>Pinpoint Your Customer Base</em></p><!-- Ezoic - wp_incontent_5 - incontent_5 --><div id="ezoic-pub-ad-placeholder-116" data-inserter-version="2"></div><!-- End Ezoic - wp_incontent_5 - incontent_5 -->
+<p>Someone out there has unmet needs. However, avoid being too broad. Targeting people who simply like pets will not produce great results for your business. Targeting people who enjoy setting up elaborate home aquariums is another story. The key is to be specific. By targeting a specific customer base, people will know who exactly to do business with when they need a particular product or service, and that’s you. You can talk about expansion after you start generating revenue.</p>
+<p><em>Have a Simple Business Plan</em></p>
+<p>The old cliché “Actions speak louder than words” rings true here. While it’s important to have a detailed business plan, creating a simple one and putting it into action is far more productive for your business than sitting around trying to perfect the hypothetical numbers and charts that only appear on paper. Too often entrepreneurs sit around trying to create the best business plan and forget to even start the business, or they miss the opportunity. The business plan serves as an outline for what your business will do, so the best way to go about this is to keep your business bound to a simple one.”</p><!-- Ezoic - wp_incontent_6 - incontent_6 --><div id="ezoic-pub-ad-placeholder-117" data-inserter-version="2"></div><!-- End Ezoic - wp_incontent_6 - incontent_6 -->
+<p><em>– Ian Aronovich, Co-founder and CEO of <a href="http://www.governmentauctions.org">GovernmentAuctions.org®</a></em><em><br/>
+</em></p>
+<h3>4. Astrida Naturals</h3>
+<p>“Shea butter was the first product in my skin care line, but I purposefully chose a brand name that would not restrict me moving forward. Over the years, I branched out and added new products that were, frankly, all over the place, complicated and without a focus. Realizing I needed a niche, I struggled and eventually decided to simplify and slashed my product line back to the basics. For me that was natural, simple, shea butter based products.</p>
+<p>My advice to others would be to go ahead and try a few different things to see what works, then simplify. Sometimes it’s only after you have the clarity needed to weed out the unnecessary aspects of your business that you’re able to see what your niche is. For me, it was where I started in the first place.”</p><!-- Ezoic - wp_incontent_7 - incontent_7 --><div id="ezoic-pub-ad-placeholder-118" data-inserter-version="2"></div><!-- End Ezoic - wp_incontent_7 - incontent_7 -->
+<p><em>– Maia, Owner of <a href="http://www.astridanaturals.com">Astrida Naturals</a></em></p>
+<h3>5.  Kustom Koozies</h3>
+<p>“The idea for Kustom Koozies first formed back in 1995 when my wife and I wanted to order KOOZIE® Can Koolers for our boat with our boat name and our lake. We only wanted a dozen but as it turns out everywhere we looked required us to order at least 200 plus, which was just not feasible. We figured there HAD to be a way. So we spent 2 years experimenting with processes, and when we finally figured out how to do it, started screen printing in the spare bedroom of our house.</p>
+<p>We now have 14 employees and a 6,000 square foot plant, and we now work full time for ourselves, focusing on the business.</p><!-- Ezoic - wp_incontent_8 - incontent_8 --><div id="ezoic-pub-ad-placeholder-119" data-inserter-version="2"></div><!-- End Ezoic - wp_incontent_8 - incontent_8 -->
+<p>When it comes to choosing a niche market to get into the best advice we can give other entrepreneurs is that no matter how small a niche may seem, if there’s truly a gap in the market then there is money to be made.”</p>
+<p><em>– Robert Liddle, Founder of <a href="http://www.kustomkoozies.com">Kustom Koozies</a></em></p>
+<h3>6.  Predictable Profits</h3>
+<p>“In addition to ensuring the niche market is large enough, has money to spend and is easy to reach – when looking for a niche, it must fulfill one of three criteria.</p><!-- Ezoic - wp_incontent_9 - incontent_9 --><div id="ezoic-pub-ad-placeholder-120" data-inserter-version="2"></div><!-- End Ezoic - wp_incontent_9 - incontent_9 -->
+<ol>
+<li>The product/service idea must be PROVEN to work in the niche where people are already buying something similar; however, they are being underserved.</li>
+<li>Your target prospects are DEMONSTRATING demand by actively searching for a solution to their problem.</li>
+<li>Prospects must show a strong DESIRE for the product/service for actively asking for the product or the desired benefit.</li><!-- Ezoic - wp_incontent_10 - incontent_10 --><div id="ezoic-pub-ad-placeholder-121" data-inserter-version="2"></div><!-- End Ezoic - wp_incontent_10 - incontent_10 -->
+</ol>
+<p><em>– Charlie Gaudet, Founder of <a href="http://www.PredictableProfits.com">Predictable Profits</a></em></p>
+<h3>7. Clever Container</h3>
+<p>“My passion is organizing and that is what helped me decide which niche market to get into. Although my background was in computer programming, when I decided to do something on my own I wanted to be able to incorporate my passion. I began by doing professional organizing and then after attending a Pampered Chef party, came up with the idea for Clever Container. At the time, no other direct sales party plan company was selling organizing products. We launched in 2006 and have been growing year after year.</p>
+<p>One tip that I always offer up is to know your competition. Figure out what makes them your competition, and then do it better or different.”</p><!-- Ezoic - wp_incontent_11 - incontent_11 --><div id="ezoic-pub-ad-placeholder-122" data-inserter-version="2"></div><!-- End Ezoic - wp_incontent_11 - incontent_11 -->
+<p><em>– Karen Eschebach, Co-founder of <a href="http://www.clevercontainer.com">Clever Container</a></em></p>
+<h3>8.  Binfire.com</h3>
+<p>“I worked as a director of engineering and senior project manager while I worked for Polaroid and other large companies. As project manager for various large and complicated projects, I was looking for a tool to help us manage complex projects and distributed teams. None of the solutions on the market satisfied our needs.</p>
+<p>That’s why we developed something that answered the needs in project management. We believe what makes or breaks a project is collaboration and the software we developed makes it easier to collaborate on tasks, on files and brainstorm even when the team members are working remotely.</p><!-- Ezoic - wp_incontent_12 - incontent_12 --><div id="ezoic-pub-ad-placeholder-123" data-inserter-version="2"></div><!-- End Ezoic - wp_incontent_12 - incontent_12 -->
+<p>The advice I can give to aspiring business owners is to follow what they know and love. The industry and its strategies and tactics will be easier for them to follow and adapt to. And, I firmly believe that when you’re passionate about something, you’ll give it 200%.”</p>
+<p><em>– David Robins, CEO and Founder of <a href="http://www.Binfire.com">Binfire.com</a></em></p>
+<h3>9.  Cabinet Hardware</h3>
+<p>“For me, it started with patio furniture. One of my lines was a rustic patio furniture set made from wooden logs. When I went to visit the company, they encouraged me to start selling their beds as well. So I began selling rustic beds and other indoor furniture. These generated several nice sized sales from Cabin owners, who were very into the rustic look, so I started wondering if I should market to Cabin owners. I put the word cabin into my keyword research tools and found that while there were not so many searches for cabin furniture, there were quite a few searches for “kitchen cabinets” (having the word “cabin” in it, it came up in the same set of search results). So I started selling kitchen cabinets, which soon became my number one line. But my cabinets didn’t have knobs, so I began selling knobs as well, and I found my home in the knobs business.</p><!-- Ezoic - wp_incontent_13 - incontent_13 --><div id="ezoic-pub-ad-placeholder-124" data-inserter-version="2"></div><!-- End Ezoic - wp_incontent_13 - incontent_13 -->
+<p>I use this story often to illustrate my number one piece of advice for people looking to get started in online business, which is to not worry initially about mapping everything out. Rather, there’s such a steep learning curve and such a low cost of entry, that you shouldn’t worry about making money on your first attempt. Start off trying to learn and grow as much as you can and see where that leads you. That’s why I encourage people when doing their first project to choose something that is either 1) a passion of theirs, or 2) an area of expertise. Choosing such an area will make it easier for you to get going, and later, once you really understand the field, you can develop an understanding of where your money will come from.“</p>
+<p><em>– Dave Mason, CEO of <a href="http://www.CabinetHardware.org">Cabinet Hardware</a></em></p>
+<h3>10.  Pirate Jonny’s</h3>
+<p>“My husband, Jonathan Toner and I started a small business in 2010 called Pirate Jonny’s which provides healthy Caribbean BBQ rubs, seasonings and now sauces. Jon started his business during a recession in construction as he is a Certified Landscape Architect and arborist. His other passion is cooking and he loves BBQ. We started this business because we needed an easy healthy way to create our meals and also to change the way we were doing our BBQ just with sauces. The ease of cooking is because these are “ready to go” blends that simply are to be “sprinkled” or “rubbed” into your food to get delicious flavor without having to cut up onions, peppers, etc.</p><!-- Ezoic - wp_incontent_14 - incontent_14 --><div id="ezoic-pub-ad-placeholder-125" data-inserter-version="2"></div><!-- End Ezoic - wp_incontent_14 - incontent_14 -->
+<p>Here are our tips for those who are struggling:</p>
+<ol>
+<li>Use your passion</li>
+<li>Look at the marketplace – Does your product fulfill a need?</li><!-- Ezoic - wp_incontent_15 - incontent_15 --><div id="ezoic-pub-ad-placeholder-126" data-inserter-version="2"></div><!-- End Ezoic - wp_incontent_15 - incontent_15 -->
+<li>Is it realistic for you to do? Time/Money/Location</li>
+<li>If you’ve answered yes, just do it!</li>
+</ol>
+<p><em>– Terri Toner, Founder of <a href="http://www.piratejonnys.com">Pirate Jonny’s Caribbean Rubs and Seasonings</a></em></p><!-- Ezoic - wp_incontent_16 - incontent_16 --><div id="ezoic-pub-ad-placeholder-127" data-inserter-version="2"></div><!-- End Ezoic - wp_incontent_16 - incontent_16 -->
+<h3>11.  Dog Rings</h3>
+<p>“I invented a tool that allows people to safely secure their dogs around trees, posts or poles in seconds. I had come up with the idea out of necessity. I found that there was no real solution for dog lovers that would allow them to take their dogs with them which was easy and safe on both sides of the leash.</p>
+<p>The best way to find a gap is to look around to see what needs there are. Once someone figures out the need, they must then test the market to make sure that the need exists. My company does not have much to do with my past businesses at all. I was in the mortgage banking industry for years, then in the oil business for years after that. I now own a dog products company.”</p>
+<p><em>– David Wilder, CEO of Dog Ring LLC</em></p><!-- Ezoic - wp_incontent_17 - incontent_17 --><div id="ezoic-pub-ad-placeholder-128" data-inserter-version="2"></div><!-- End Ezoic - wp_incontent_17 - incontent_17 -->
+<h3>12.  Vacuum Spot</h3>
+<p>“Over the last 3 years I have built a very successful niche business selling vacuum cleaner parts and accessories online.</p>
+<p>Due to a past business failure I started doing vacuum repairs from my shed at home to keep overheads at an absolute minimum while I cleared past debts. The business was very successful very quickly and before long nearby retail stores were sending me loads and loads of repair customers. It did not take long for the stores to ask me to get obscure vacuum parts that I was able to get easily because of my repair business. Once that happened I had a light bulb moment and realized that if the stores near me were using me to track down parts I could put the business online and do the same thing for a far greater audience.</p>
+<p>As soon as we got online and I learned a bit about SEO and web promotion we had very quick success within 3 months we had a $15k turnover per month and has grown to over $100K per month now. My story has a lot of ups and downs over the years but this recent chapter is very very exciting and shows you really can make a great business out of a small niche.”</p><!-- Ezoic - wp_incontent_18 - incontent_18 --><div id="ezoic-pub-ad-placeholder-129" data-inserter-version="2"></div><!-- End Ezoic - wp_incontent_18 - incontent_18 -->
+<p><em>– Alec Nelson, Founder and CEO of <a href="http://www.VacuumSpot.com.au">Vacuum Spot</a></em></p>
+<h3>13.  Internet Marketing Training</h3>
+<p>“The market you have the most experience in is your “natural market”. If it’s on the rise, then reposition yourself from being an employee in that market, to being an expert in that market.</p>
+<p>If it’s on the decline, see what spinoff markets from your natural market are doing well. Since you know the industry it will be an easier reposition effort for you.”</p><!-- Ezoic - wp_incontent_19 - incontent_19 --><div id="ezoic-pub-ad-placeholder-130" data-inserter-version="2"></div><!-- End Ezoic - wp_incontent_19 - incontent_19 -->
+<p><em>– Tom Antion, Founder of <a href="http://www.GreatInternetMarketingTraining.com">Great Internet Marketing Training</a></em></p>
+<h3>14.  Mary Larsen’s Designs</h3>
+<p>“When I began my coaching/consulting business, I found my niche specifically because I originally ran an interior decorating business, and there was NOTHING available to help women grow that business from the business and money making side of things. I kept running into incredibly talented women who could really change the lives of their clients through incredible design work – and they were frustrated and burned out because they didn’t know how to charge for their services, and quite frankly had tons of hang-ups around money, and even collecting money was a huge hurdle! They could do incredible design work – but completely struggled with charging, collecting, and managing the money.</p>
+<p>I began coaching and consulting to that niche specifically – and three years later “kept the same talk, and added a new audience.” I still speak to the design industry, but I have also added women owned businesses that are service based, such as other coaches, health and wellness practitioners, and consultants.</p><!-- Ezoic - wp_incontent_20 - incontent_20 --><div id="ezoic-pub-ad-placeholder-131" data-inserter-version="2"></div><!-- End Ezoic - wp_incontent_20 - incontent_20 -->
+<p>My biggest tip for finding a niche is to really pay attention to what you and those around you are saying that they are looking for.</p>
+<p>For example, I was looking for someone to help ME set up pricing and marketing strategy for my design  business. And couldn’t find it! And when I asked around – there was very little help out there – and other people wanted and needed it too. So what are you and your tribe saying and looking for? What do you find yourself “wishing you could find”. How do you finish the sentence – If I could just get some help with _______________? THAT just might be your niche!</p>
+<p>Lastly – don’t forget – you are solving a problem. What problem do you keep running into – and your tribe is running into – that you can solve??”</p><!-- Ezoic - wp_incontent_21 - incontent_21 --><div id="ezoic-pub-ad-placeholder-132" data-inserter-version="2"></div><!-- End Ezoic - wp_incontent_21 - incontent_21 -->
+<p><em>– Mary Larsen, Founder of <a href="http://www.marylarsendesigns.com">Mary Larsen Designs</a></em></p>
+<h3>15. Boogie Graphics</h3>
+<p>“I started out as a freelance designer doing work for any and every industry. I’ve done work for night clubs, churches, school organizations and small businesses. After a few years of working freelance, I decided to hire employees and refocus my business. I realized I enjoyed working with some industries (and people) more than others. In addition, I learned it was easier to conceptualize ideas for the industries that I found more interesting. This realization led me straight to my niches- the fashion industry, restaurants and bars, and start-up businesses. Nearly all of my business’ clientele fall into one of those categories.</p>
+<p>Recently, BG began offering social media marketing to our clients. We have found that our niche markets are able to benefit more from the services we cater specifically to their industries. My number one tip for businesses looking to establish a niche is to cater your services toward things you understand and are passionate about– the rest will come on its own.”</p><!-- Ezoic - wp_incontent_22 - incontent_22 --><div id="ezoic-pub-ad-placeholder-133" data-inserter-version="2"></div><!-- End Ezoic - wp_incontent_22 - incontent_22 -->
+<p><em>– Jacques Bastien, CEO + Creative Director at <a href="http://www.boogiegraphics.com">Boogie Graphics (BG)</a></em></p>
+<p> </p>
+<p>What niche market are you in and why did you decide to get into it? Please share with us in the comments below.</p><!-- Ezoic - wp_incontent_23 - incontent_23 --><div id="ezoic-pub-ad-placeholder-134" data-inserter-version="2"></div><!-- End Ezoic - wp_incontent_23 - incontent_23 -->
+<!-- AI CONTENT END 1 -->
+		</div>
+
+		
+		
+		
+		
+	<div class="author-box " data-type="type-1">
+		<a href="https://coursemethod.com/author/editor3xy8" class="ct-image-container"><img loading="lazy" src="https://secure.gravatar.com/avatar/f2c7de30a900aaf7b034d7628b7fc43b?s=120&amp;d=mm&amp;r=g" data-object-fit="~" width="60" height="60" alt="Default image"/>
+						<svg width="18px" height="13px" viewBox="0 0 20 15">
+							<polygon points="14.5,2 13.6,2.9 17.6,6.9 0,6.9 0,8.1 17.6,8.1 13.6,12.1 14.5,13 20,7.5 "></polygon>
+						</svg>
+					<span class="ct-ratio" style="padding-bottom: 100%"></span></a>
+		<section>
+			<h5 class="author-box-name">
+				Lisa Parmley			</h5>
+
+			<div class="author-box-bio">
+				
+				<p>Lisa Parmley is the founder of CourseMethod.com. After gaining a Master&#39;s degree in Biology, she worked in research for about 7 years. </p>
+<p>Lisa decided to start her own training company in 2001, helping people pass a professional exam. In that time, she created online courses as well as books, DVD&#39;s, CD&#39;s, and testing software. That course has earned multiple 7-figures throughout the years. </p>
+<p>She created SEO and authority site building training around 2007 which went on to earn well into the 6-figure mark.  </p>
+<p>She has 21+ years of experience in the trenches doing both creating and selling online courses. Download her <a href="https://coursemethod.com/sign-up">7-figure Online Course Success Blueprint here</a>.</p>
+			</div>
+
+			
+					</section>
+	</div>
+
+	
+	</article>
+
+	
+		
+	<aside class="ct-hidden-sm" data-type="type-1" id="sidebar" itemtype="https://schema.org/WPSideBar" itemscope="itemscope">
+
+		
+		<div class="ct-sidebar" data-sticky="sidebar">
+			
+			<!-- Ezoic - wp_sidebar - sidebar --><div id="ezoic-pub-ad-placeholder-104" data-inserter-version="-1"></div><!-- End Ezoic - wp_sidebar - sidebar --><div class="ct-widget widget_text" id="text-3">			<div class="textwidget entry-content"><p></p>
+<div style="background-color: #fafbfc;">
+<div style="border-width: 1px; border-color: #e1e8ed;">
+<div class="padded">
+<div data-block="hook:31239" class="alignfull"><article id="post-31239" class="post-31239"><div class="entry-content">
+<div style="height:50px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<h2 class="has-text-align-center">Get the growth strategy built for online course founders.</h2>
+
+
+
+<p class="has-text-align-center"><strong>Access the free Online Course Success Blueprint PDF + gain inspiration from successful course creators in twice-weekly emails.</strong></p>
+
+
+
+<div align="center"><script async="" data-uid="f490aa22eb" src="https://course-method.ck.page/f490aa22eb/index.js"></script></div>
+
+
+
+<p class="has-text-align-center has-small-font-size">You may unsubscribe at any time.</p>
+
+
+
+<div style="height:30px" aria-hidden="true" class="wp-block-spacer"></div>
+</div></article></div></div>
+</div>
+</div>
+</div>
+		</div><!-- Ezoic - wp_sidebar_middle_1 - sidebar_middle --><div id="ezoic-pub-ad-placeholder-105" data-inserter-version="-1"></div><!-- End Ezoic - wp_sidebar_middle_1 - sidebar_middle --><!-- Ezoic - wp_sidebar_middle_2 - sidebar_middle --><div id="ezoic-pub-ad-placeholder-106" data-inserter-version="-1"></div><!-- End Ezoic - wp_sidebar_middle_2 - sidebar_middle --><!-- Ezoic - wp_sidebar_middle_3 - sidebar_middle --><div id="ezoic-pub-ad-placeholder-107" data-inserter-version="-1"></div><!-- End Ezoic - wp_sidebar_middle_3 - sidebar_middle --><!-- Ezoic - wp_sidebar_bottom - sidebar_bottom --><div id="ezoic-pub-ad-placeholder-108" data-inserter-version="-1"></div><!-- End Ezoic - wp_sidebar_bottom - sidebar_bottom --><!-- Ezoic - wp_sidebar_floating_1 - sidebar_floating_1 --><div id="ezoic-pub-ad-placeholder-109" data-inserter-version="-1"></div><!-- End Ezoic - wp_sidebar_floating_1 - sidebar_floating_1 -->
+					</div>
+
+			</aside>
+
+	
+			</div>
+
+
+		<div class="ct-related-posts-container">
+		<div class="ct-container">
+	
+		<div class="ct-related-posts">
+			
+											<h3 class="ct-block-title">
+					You might also be interested in:				</h3>
+							
+			<div class="ct-related-posts-items" data-layout="grid">
+							
+				<article itemscope="itemscope" itemtype="https://schema.org/CreativeWork">
+					<a class="ct-image-container" href="https://coursemethod.com/popular-online-courses.html" aria-label="50 Most Popular Online Course Topics Searched For in the U.S." tabindex="-1"><img width="1030" height="368" src="https://coursemethod.com/wp-content/uploads/2019/01/popular-online-courses.jpg" class="attachment-full size-full wp-post-image" alt="" loading="lazy" srcset="https://coursemethod.com/wp-content/uploads/2019/01/popular-online-courses.jpg 1030w, https://coursemethod.com/wp-content/uploads/2019/01/popular-online-courses-300x107.jpg 300w, https://coursemethod.com/wp-content/uploads/2019/01/popular-online-courses-768x274.jpg 768w, https://coursemethod.com/wp-content/uploads/2019/01/popular-online-courses-705x252.jpg 705w, https://coursemethod.com/wp-content/uploads/2019/01/popular-online-courses-450x161.jpg 450w, https://coursemethod.com/wp-content/uploads/2019/01/popular-online-courses-50x18.jpg 50w" sizes="(max-width: 1030px) 100vw, 1030px" data-object-fit="~" itemprop="image"/><span class="ct-ratio" style="padding-bottom: 35.7%"></span></a>
+											<h4 class="related-entry-title" itemprop="name">
+							<a href="https://coursemethod.com/popular-online-courses.html" itemprop="url">50 Most Popular Online Course Topics Searched For in the U.S.</a>
+						</h4>
+					
+					<ul class="entry-meta" data-type="simple:slash"><li class="meta-date" itemprop="datePublished"><time class="ct-meta-element-date" datetime="2019-01-29T23:21:42+00:00">January 29, 2019</time></li></ul>				</article>
+							
+				<article itemscope="itemscope" itemtype="https://schema.org/CreativeWork">
+					<a class="ct-image-container" href="https://coursemethod.com/niche-market-mindmap.html" aria-label="How to Find a Niche Market: 7 Keys to Success and Over 287 Hot Niche Ideas" tabindex="-1"><img width="1030" height="368" src="https://coursemethod.com/wp-content/uploads/2018/07/find-niche-1030.jpg" class="attachment-full size-full wp-post-image" alt="" loading="lazy" srcset="https://coursemethod.com/wp-content/uploads/2018/07/find-niche-1030.jpg 1030w, https://coursemethod.com/wp-content/uploads/2018/07/find-niche-1030-300x107.jpg 300w, https://coursemethod.com/wp-content/uploads/2018/07/find-niche-1030-768x274.jpg 768w, https://coursemethod.com/wp-content/uploads/2018/07/find-niche-1030-705x252.jpg 705w, https://coursemethod.com/wp-content/uploads/2018/07/find-niche-1030-450x161.jpg 450w" sizes="(max-width: 1030px) 100vw, 1030px" data-object-fit="~" itemprop="image"/><span class="ct-ratio" style="padding-bottom: 35.7%"></span></a>
+											<h4 class="related-entry-title" itemprop="name">
+							<a href="https://coursemethod.com/niche-market-mindmap.html" itemprop="url">How to Find a Niche Market: 7 Keys to Success and Over 287 Hot Niche Ideas</a>
+						</h4>
+					
+					<ul class="entry-meta" data-type="simple:slash"><li class="meta-date" itemprop="datePublished"><time class="ct-meta-element-date" datetime="2017-11-05T04:07:58+00:00">November 5, 2017</time></li><li class="meta-comments"><a href="https://coursemethod.com/niche-market-mindmap.html#comments">19 Comments</a></li></ul>				</article>
+						</div>
+
+					</div>
+
+			</div>
+	</div>
+	
+		</main>
+
+	<div data-block="hook:26515" data-block-container="" data-vertical-spacing="top:bottom"><div class="ct-container-full" data-content="normal"><article id="post-26515" class="post-26515"><div class="entry-content">
+<div style="height:20px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<section class="wp-block-uagb-section uagb-section__wrap uagb-section__background-color uagb-block-89b988d8"><div class="uagb-section__overlay"></div><div class="uagb-section__inner-wrap">
+<div style="height:10px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<h1 class="has-text-align-center has-x-large-font-size">Get the growth strategy built for online course founders.</h1>
+
+
+
+<p class="has-text-align-center"><strong>Access the free Online Course Success Blueprint PDF + gain inspiration from successful course creators in twice-weekly emails.</strong></p>
+
+
+
+<section class="wp-block-uagb-columns uagb-columns__wrap uagb-columns__background-undefined uagb-columns__stack-mobile uagb-columns__valign-undefined uagb-columns__gap-10 alignundefined uagb-block-eaf55ec9"><div class="uagb-columns__overlay"></div><div class="uagb-columns__inner-wrap uagb-columns__columns-3">
+<div class="wp-block-uagb-column uagb-column__wrap uagb-column__background-undefined uagb-block-581fd752"><div class="uagb-column__overlay"></div><div class="uagb-column__inner-wrap"></div></div>
+
+
+
+<div class="wp-block-uagb-column uagb-column__wrap uagb-column__background-undefined uagb-block-6c200675"><div class="uagb-column__overlay"></div><div class="uagb-column__inner-wrap">
+<div align="center"><script async="" data-uid="f490aa22eb" src="https://course-method.ck.page/f490aa22eb/index.js"></script></div>
+
+
+
+<p class="has-text-align-center has-small-font-size">You may unsubscribe at any time.</p>
+</div></div>
+
+
+
+<div class="wp-block-uagb-column uagb-column__wrap uagb-column__background-undefined uagb-block-9d37c5ab"><div class="uagb-column__overlay"></div><div class="uagb-column__inner-wrap"></div></div>
+</div></section>
+
+
+
+<p></p>
+</div></section>
+</div></article></div></div><footer class="ct-footer" data-id="type-1" itemscope="" itemtype="https://schema.org/WPFooter"><div data-row="middle"><div class="ct-container"><div data-column="widget-area-1"><div class="widget_text ct-widget widget_custom_html" id="custom_html-15"><div class="textwidget entry-content custom-html-widget"><a href="https://coursemethod.com"><img src="https://coursemethod.com/wp-content/uploads/2020/01/logo-white-272.png" alt="Coursemethod logo" width="175"/></a></div></div></div><div data-column="widget-area-2"><div class="widget_text ct-widget widget_custom_html" id="custom_html-16"><div class="textwidget entry-content custom-html-widget">TRAINING<br/><br/>
+<a href="https://coursemethod.com/">Success Blueprint </a>
+<br/>
+
+</div></div></div><div data-column="widget-area-3"><div class="widget_text ct-widget widget_custom_html" id="custom_html-12"><div class="textwidget entry-content custom-html-widget">COMPANY<br/><br/>
+
+<a href="https://coursemethod.com/contact">Contact Us</a><br/>
+<a href="https://coursemethod.com/about">About Us</a></div></div></div><div data-column="widget-area-4"><div class="widget_text ct-widget widget_custom_html" id="custom_html-11"><div class="textwidget entry-content custom-html-widget">RESOURCES:<br/><br/>
+<a href="https://coursemethod.com/explore-interviews">Interviews</a>
+<br/>
+<a href="https://coursemethod.com/blog">Blog</a>
+<br/>
+</div></div></div></div></div><div data-row="bottom"><div class="ct-container"><div data-column="copyright">
+<div class="ct-footer-copyright" data-id="copyright">
+
+	<p align="left">© 2022 coursemethod.com   //  <a href="https://coursemethod.com/privacy-policy">Privacy Policy</a>  |  <a href="https://coursemethod.com/terms">Terms of Use</a>  |  <a href="https://coursemethod.com/compensation-disclosure">Affiliate Disclosure</a></p></div>
+</div><div data-column="ghost"></div></div></div></footer></div>
+
+
+    <script type="text/javascript">
+        jQuery(document).ready(function($) {
+            function handleGeotargeting() {
+                userCountry = userCountry.toLowerCase(), localizedStores.hasOwnProperty(userCountry) && (storeTarget = localizedStores[userCountry],
+                storeTarget === storeCountry || trackingIds.hasOwnProperty(storeTarget) && (localTrackingId = trackingIds[storeTarget],
+                update_amazon_links(storeCountry, storeTarget, localTrackingId)));
+            }
+            function getCountry() {
+                getCountryFromApiGeoipdb();
+            }
+            function getCountryFromApiGeoipdb() {
+                var requestUrl = "https://geolocation-db.com/jsonp/";
+                (requestUrl = "https://geolocation-db.com/jsonp/"), jQuery.ajax({
+                    url: requestUrl,
+                    jsonpCallback: "callback",
+                    dataType: "jsonp",
+                    success: function(response) {
+                        console.log(response);
+                        "undefined" != typeof response.IPv4 && "undefined" != typeof response.country_code && (userCountry = response.country_code,
+                            setGeotargetingCookie(userCountry)), handleGeotargeting();
+                    }
+                });
+            }
+
+            function update_amazon_links(storeOld, storeNew, trackingId) {
+                null !== trackingId && $("a[href*='/amazon'], a[href*='/www.amazon'], a[href*='/amzn'], a[href*='/www.amzn']").each(function(el) {
+                    var url = $(this).attr("href");
+                    url = get_url_mode_title($(this), url, storeOld, storeNew),
+                    void 0 !== url && (url = replaceUrlParam(url, "tag", trackingId), $(this).attr("href", url));
+                });
+            }
+            function get_url_mode_title(linkElement, url, storeOld, storeNew) {
+                var productTitle = linkElement.data("post-title");
+                return productTitle || (productTitle = linkElement.parents().filter(function() {
+                    return $(this).data("post-title");
+                }).eq(0).data("post-title")), productTitle && (productTitle = getWords(productTitle, 5),
+                    url = "https://www.amazon." + storeNew + "/s/?field-keywords=" + encodeURIComponent(productTitle)),
+                    url;
+            }
+            function replaceUrlParam(url, paramName, paramValue) {
+                null == paramValue && (paramValue = "");
+                var pattern = new RegExp("\\b(" + paramName + "=).*?(&|$)");
+                return url.search(pattern) >= 0 ? url.replace(pattern, "$1" + paramValue + "$2") : url + (url.indexOf("?") > 0 ? "&" : "?") + paramName + "=" + paramValue;
+            }
+            function getWords(str, max) {
+                return str.split(/\s+/).slice(0, max).join(" ");
+            }
+            function setGeotargetingCookie(countryCode) {
+                countryCode && setCookieAff("affiliatable-geotargeting", countryCode,1);
+            }
+            function setCookieAff(key, value, expiry) {
+                var expires = new Date();
+                expires.setTime(expires.getTime() + (expiry * 24 * 60 * 60 * 1000));
+                document.cookie = key + '=' + value + ';expires=' + expires.toUTCString();
+            }
+
+            function getCookieAff(key) {
+                var keyValue = document.cookie.match('(^|;) ?' + key + '=([^;]*)(;|$)');
+                return keyValue ? keyValue[2] : 'Not found';
+            }
+            function getGeotargetingDebugIP() {
+                var vars = {};
+                return window.location.href.replace(location.hash, "").replace(/[?&]+([^=&]+)=?([^&]*)?/gi, function(m, key, value) {
+                    vars[key] = void 0 !== value ? value : "";
+                }), vars.affiliatable_debug_geotargeting_ip ? vars.affiliatable_debug_geotargeting_ip : "";
+            }
+            if ("undefined" != typeof affiliatable_geotargeting_settings && "undefined" != typeof affiliatable_geotargeting_localized_stores && "undefined" != typeof affiliatable_geotargeting_tracking_ids) {
+                var devIP = getGeotargetingDebugIP(), api = "undefined" != typeof affiliatable_geotargeting_api ? affiliatable_geotargeting_api : "", settings = affiliatable_geotargeting_settings, localizedStores = affiliatable_geotargeting_localized_stores, trackingIds = affiliatable_geotargeting_tracking_ids;
+                if (!settings.hasOwnProperty("store"))
+                    return;
+                var urlMode = settings.hasOwnProperty("mode") ? settings.mode : "mode", storeCountry = settings.store, storeTarget = "", userCountry = "", localTrackingId = "", geotargetingCookie = getCookieAff('affiliatable-geotargeting');
+                console.log(geotargetingCookie);
+                if (geotargetingCookie!=='Not found'){
+                    userCountry = geotargetingCookie;
+                    handleGeotargeting();
+                }
+                else{
+                    getCountry()
+                }
+            }
+        });
+    </script>
+
+    <script type="text/javascript">
+        function affiliatable_click_save(data){
+            jQuery.ajax({
+                method:'POST',
+                data:data,
+                action:'affiliatable_link_click',
+                url: "/wp-admin/admin-ajax.php",
+                success: function(value) {
+
+                }
+            });
+        }
+        jQuery('.cg-aff-link').click(function ($) {
+            var $this=jQuery(this);
+            var page=window.location.href;
+            var post_type=$this.attr('data-post-type');
+            var post_id=$this.attr('data-post-id');
+            var link=$this.attr('href');
+            var title=$this.attr('data-post-title');
+            if (post_type!=='') {
+                affiliatable_click_save({
+                    page: page,
+                    post_type: post_type,
+                    link: link,
+                    title: title,
+                    city: '',
+                    country: '',
+                    action: 'affiliatable_link_click',
+                    post_id: post_id
+                });
+            }
+        });
+    </script>
+            <script type="text/javascript">
+            var thirstyGoogleClickTrack = function ( e ) {
+
+                var $this       = jQuery( this ),
+                    linkID      = $this.data( 'linkid' ),
+                    href        = linkID ? $this.attr( 'href' ) : thirstyFunctions.isThirstyLink( $this.attr( 'href' ) ),
+                    action_name = 'Affiliate Link',
+                    page_slug   = '/15-tips-on-how-to-find-your-niche-market.html',
+                    home_url    = 'https://coursemethod.com';
+
+                if ( ! href || typeof ga !== 'function' ) {
+                    return;
+                }
+
+                var is_uncloak  = href.indexOf( home_url + '/' + thirsty_global_vars.link_prefix ) < 0,
+                    href_parts  = href.split('/'),
+                    href_last   = href_parts[ href_parts.length - 1 ] ? href_parts[ href_parts.length - 1 ] : href_parts[ href_parts.length - 2 ],
+                    link_text   = $this.text(),
+                    link_uri    = linkID && is_uncloak ? href : href.replace( home_url , '' ),
+                    link_slug   = linkID && is_uncloak ? href : href_last;
+
+                ga( 'send' , 'event' , {
+                    eventCategory : action_name,
+                    eventAction   : link_uri,
+                    eventLabel    : page_slug,
+                    transport     : 'beacon'
+                } );
+            };
+
+            jQuery( document ).ready( function($) {
+                $( 'body' ).on( 'click', 'a', thirstyGoogleClickTrack );
+            });
+        </script>
+        <!-- This site is converting visitors into subscribers and customers with OptinMonster - https://optinmonster.com :: Campaign Title: Course Method Minimal Form - Mobile -->
+<script>(function(d,u,ac){var s=d.createElement('script');s.type='text/javascript';s.src='https://a.omappapi.com/app/js/api.min.js';s.async=true;s.dataset.user=u;s.dataset.campaign=ac;d.getElementsByTagName('head')[0].appendChild(s);})(document,69181,'q5gsyfista2tctldsoct');</script>
+<!-- / OptinMonster --><!-- This site is converting visitors into subscribers and customers with OptinMonster - https://optinmonster.com :: Campaign Title: Course Method Minimal Form -->
+<script>(function(d,u,ac){var s=d.createElement('script');s.type='text/javascript';s.src='https://a.omappapi.com/app/js/api.min.js';s.async=true;s.dataset.user=u;s.dataset.campaign=ac;d.getElementsByTagName('head')[0].appendChild(s);})(document,69181,'xvryx6bv3cesv9mptx1v');</script>
+<!-- / OptinMonster -->		<script type="text/javascript">
+		var q5gsyfista2tctldsoct_shortcode = true;var xvryx6bv3cesv9mptx1v_shortcode = true;		</script>
+		<script id="convertkit-broadcasts-js-extra">
+var convertkit_broadcasts = {"ajax_url":"https:\/\/coursemethod.com\/wp-admin\/admin-ajax.php","action":"convertkit_broadcasts_render","debug":""};
+</script>
+<script src="https://coursemethod.com/wp-content/plugins/convertkit/resources/frontend/js/broadcasts.js?ver=1.9.8.2" id="convertkit-broadcasts-js"></script>
+<script src="https://cdn.affiliatable.io/5670e55e4d3459091885818c74beba82.js?ver=6.0.3" id="affiliatable_js-js"></script>
+<script id="convertkit-js-js-extra">
+var convertkit = {"ajaxurl":"https:\/\/coursemethod.com\/wp-admin\/admin-ajax.php","debug":"","nonce":"01ee09d516","subscriber_id":"0","tag":"","post_id":"4432"};
+</script>
+<script src="https://coursemethod.com/wp-content/plugins/convertkit/resources/frontend/js/convertkit.js?ver=1.9.8.2" id="convertkit-js-js"></script>
+<script id="wpil-frontend-script-js-extra">
+var wpilFrontend = {"ajaxUrl":"\/wp-admin\/admin-ajax.php","postId":"4432","postType":"post","openInternalInNewTab":"0","openExternalInNewTab":"0","disableClicks":"0","openLinksWithJS":"0","trackAllElementClicks":"0","clicksI18n":{"imageNoText":"Image in link: No Text","imageText":"Image Title: ","noText":"No Anchor Text Found"}};
+</script>
+<script src="https://coursemethod.com/wp-content/plugins/link-whisper-premium/js/frontend.js?ver=1660592494" id="wpil-frontend-script-js"></script>
+<script id="tap-disclosure-notice-js-extra">
+var tap_disclosure_notice_vars = {"disclosure_page":"https:\/\/coursemethod.com\/compensation-disclosure","display_icon":"","notice_icon_message":"This is an affiliate link. See our {{disclosure_link}}.","display_bottom_post":"","bottom_post_message":"<h4>AFFILIATE DISCLOSURE:<\/h4>\r\nThis article may contain affiliate links. See our {{disclosure_link}} for more information.","notice_link_text":"disclosure notice","post_type":"post","post_id":"4432"};
+</script>
+<script src="https://coursemethod.com/wp-content/plugins/thirstyaffiliates-pro/js/app/disclosure-notice/dist/disclosure-notice.js?ver=1.7.3" id="tap-disclosure-notice-js"></script>
+<script id="ta_main_js-js-extra">
+var thirsty_global_vars = {"home_url":"\/\/coursemethod.com","ajax_url":"https:\/\/coursemethod.com\/wp-admin\/admin-ajax.php","link_fixer_enabled":"yes","link_prefix":"go","link_prefixes":{"0":"recommends","3":"go"},"post_id":"4432","enable_record_stats":"yes","enable_js_redirect":"yes","disable_thirstylink_class":""};
+</script>
+<script src="https://coursemethod.com/wp-content/plugins/thirstyaffiliates/js/app/ta.js?ver=3.10.11" id="ta_main_js-js"></script>
+<script>(function(d){var s=d.createElement("script");s.type="text/javascript";s.src="https://a.omappapi.com/app/js/api.min.js";s.async=true;s.id="omapi-script";d.getElementsByTagName("head")[0].appendChild(s);})(document);</script><script id="ct-scripts-js-extra">
+var ct_localizations = {"ajax_url":"https:\/\/coursemethod.com\/wp-admin\/admin-ajax.php","nonce":"d49a5ae136","public_url":"https:\/\/coursemethod.com\/wp-content\/themes\/blocksy\/static\/bundle\/","rest_url":"https:\/\/coursemethod.com\/wp-json\/","search_url":"https:\/\/coursemethod.com\/search\/QUERY_STRING","show_more_text":"Show more","more_text":"More","expand_submenu":"Expand dropdown menu","collapse_submenu":"Collapse dropdown menu","dynamic_js_chunks":[{"id":"blocksy_pro_micro_popups","selector":".ct-popup","url":"https:\/\/coursemethod.com\/wp-content\/plugins\/blocksy-companion-pro\/framework\/premium\/static\/bundle\/micro-popups.js"},{"id":"blocksy_dark_mode","selector":"[data-id=\"dark-mode-switcher\"]","url":"https:\/\/coursemethod.com\/wp-content\/plugins\/blocksy-companion-pro\/static\/bundle\/dark-mode.js","trigger":"click"},{"id":"blocksy_sticky_header","selector":"header [data-sticky]","url":"https:\/\/coursemethod.com\/wp-content\/plugins\/blocksy-companion-pro\/static\/bundle\/sticky.js"}],"dynamic_styles":{"lazy_load":"https:\/\/coursemethod.com\/wp-content\/themes\/blocksy\/static\/bundle\/non-critical-styles.min.css","search_lazy":"https:\/\/coursemethod.com\/wp-content\/themes\/blocksy\/static\/bundle\/non-critical-search-styles.min.css"},"dynamic_styles_selectors":[{"selector":"#account-modal","url":"https:\/\/coursemethod.com\/wp-content\/plugins\/blocksy-companion-pro\/static\/bundle\/account-lazy.min.css"}]};
+</script>
+<script src="https://coursemethod.com/wp-content/themes/blocksy/static/bundle/main.js?ver=1.8.36" id="ct-scripts-js"></script>
+<script src="https://coursemethod.com/wp-includes/js/comment-reply.min.js?ver=6.0.3" id="comment-reply-js"></script>
+<script src="https://coursemethod.com/wp-content/plugins/optinmonster/assets/dist/js/helper.min.js?ver=2.9.0" id="optinmonster-wp-helper-js"></script>
+		<script type="text/javascript">var omapi_localized = {
+			ajax: 'https://coursemethod.com/wp-admin/admin-ajax.php?optin-monster-ajax-route=1',
+			nonce: 'ba5fc8b1c7',
+			slugs:
+			{"q5gsyfista2tctldsoct":{"slug":"q5gsyfista2tctldsoct","mailpoet":false},"xvryx6bv3cesv9mptx1v":{"slug":"xvryx6bv3cesv9mptx1v","mailpoet":false}}		};</script>
+				<script type="text/javascript">var omapi_data = {"wc_cart":[],"object_id":4432,"object_key":"post","object_type":"post","term_ids":[166],"wp_json":"https:\/\/coursemethod.com\/wp-json"};</script>
+		
+
+
+<script type='text/javascript' style='display:none;' async>
+__ez.queue.addFile('/detroitchicago/edmonton.webp', '/detroitchicago/edmonton.webp?a=a&cb=0&shcb=34', true, ['/detroitchicago/minneapolis.js'], true, false, false, false);
+__ez.queue.addFile('/porpoiseant/jellyfish.webp', '/porpoiseant/jellyfish.webp?a=a&cb=0&shcb=34', false, [], true, false, false, false);
+</script>
+
+<script>__ez.queue.addFile('/tardisrocinante/vitals.js', '/tardisrocinante/vitals.js?gcb=0&cb=3', false, ['/detroitchicago/minneapolis.js'], true, false, true, false);</script>
+<script type="text/javascript" data-cfasync="false"></script>
+<script>var _audins_dom="coursemethod_com",_audins_did=374959;__ez.queue.addDelayFunc("audins.js","__ez.script.add", "//go.ezoic.net/detroitchicago/audins.js?cb=195-0");</script><noscript><div style="display:none;"><img src="//pixel.quantserve.com/pixel/p-31iz6hfFutd16.gif?labels=Domain.coursemethod_com,DomainId.374959" border="0" height="1" width="1" alt="Quantcast"/></div></noscript>
+<script>__ez.queue.addFile('/beardeddragon/drake.js', '/beardeddragon/drake.js?gcb=0&cb=4', false, [], true, false, true, false);</script></body></html>

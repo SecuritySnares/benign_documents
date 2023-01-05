@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document id="3c33a11085e4b115a8f56ddeb9f152a1">
+    <Style id="TR-Orange-Marker">
+      <IconStyle>
+        <Icon>
+          <href>https://cdn.superlawyers.com/image/upload/q_auto,f_auto/v20201015/resources/shared/tr-marker.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="TR-Grey-Marker">
+      <IconStyle>
+        <Icon>
+          <href>https://cdn.superlawyers.com/image/upload/q_auto,f_auto/v20201015/resources/shared/tr-marker-grey.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Placemark>
+      <name>Matthew E. Miller-Novak</name>
+      <address>3074 Madison Road, Cincinnati, OH, 45209</address>
+      <phoneNumber>tel:+15137211350</phoneNumber>
+      <description><![CDATA[Phone: 513-721-1350<br/>3074 Madison Road, Cincinnati, OH, 45209<br/><a href="https://profiles.superlawyers.com/ohio/cincinnati/lawyer/matthew-e-miller-novak/04645380-2725-4014-8301-bf4e3b34e4ff.html">Learn more about this attorney...</a>]]></description>
+      <Point>
+        <coordinates>-84.431401,39.152623</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Jacqueline Greene</name>
+      <address>441 Vine St, Suite 3400, Cincinnati, OH, 45202</address>
+      <phoneNumber>tel:+15135724200</phoneNumber>
+      <description><![CDATA[Phone: 513-572-4200<br/>441 Vine St, Suite 3400, Cincinnati, OH, 45202<br/><a href="https://profiles.superlawyers.com/ohio/cincinnati/lawyer/jacqueline-greene/6b7ed03c-304a-4bb6-b481-dd1be025663e.html">Learn more about this attorney...</a>]]></description>
+      <Point>
+        <coordinates>-84.512935,39.100986</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Patricia Anderson Pryor</name>
+      <address>PNC Center, 26th Floor, 201 E. Fifth Street, Cincinnati, OH, 45202</address>
+      <phoneNumber>tel:+15133225035</phoneNumber>
+      <description><![CDATA[Phone: 513-322-5035<br/>PNC Center, 26th Floor, 201 E. Fifth Street, Cincinnati, OH, 45202<br/><a href="https://profiles.superlawyers.com/ohio/cincinnati/lawyer/patricia-anderson-pryor/cd0b969a-9c93-4da6-a1c2-9b9eb684ee96.html">Learn more about this attorney...</a>]]></description>
+      <Point>
+        <coordinates>-84.509750,39.101630</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Linda L. Woeber</name>
+      <address>600 Vine St, Suite 2650, Cincinnati, OH, 45202</address>
+      <phoneNumber>tel:+15137685207</phoneNumber>
+      <description><![CDATA[Phone: 513-768-5207<br/>600 Vine St, Suite 2650, Cincinnati, OH, 45202<br/><a href="https://profiles.superlawyers.com/ohio/cincinnati/lawyer/linda-l-woeber/20493950-534e-4146-8eca-18f6f9a73651.html">Learn more about this attorney...</a>]]></description>
+      <Point>
+        <coordinates>-84.513395,39.102796</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>J. Robert Linneman</name>
+      <address>600 Vine Street, Suite 2700, Cincinnati, OH, 45202</address>
+      <phoneNumber>tel:+15137214450</phoneNumber>
+      <description><![CDATA[Phone: 513-721-4450<br/>600 Vine Street, Suite 2700, Cincinnati, OH, 45202<br/><a href="https://profiles.superlawyers.com/ohio/cincinnati/lawyer/j-robert-linneman/651250b8-1743-40b3-8da3-4680e64bc030.html">Learn more about this attorney...</a>]]></description>
+      <Point>
+        <coordinates>-84.513380,39.102740</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Calvin S. Tregre, Jr.</name>
+      <address>791 E. McMillan Street, Suite 235, Cincinnati, OH, 45206</address>
+      <phoneNumber>tel:+15133818734</phoneNumber>
+      <description><![CDATA[Phone: 513-381-8734<br/>791 E. McMillan Street, Suite 235, Cincinnati, OH, 45206<br/><a href="https://profiles.superlawyers.com/ohio/cincinnati/lawyer/calvin-s-tregre-jr/17ee4124-06eb-4f65-9af8-64acfc57f732.html">Learn more about this attorney...</a>]]></description>
+      <Point>
+        <coordinates>-84.491180,39.126023</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Konrad Kircher</name>
+      <address>12 East Warren Street, Lebanon, OH, 45036</address>
+      <phoneNumber>tel:+15134960134</phoneNumber>
+      <description><![CDATA[Phone: 513-496-0134<br/>12 East Warren Street, Lebanon, OH, 45036<br/><a href="https://profiles.superlawyers.com/ohio/lebanon/lawyer/konrad-kircher/a2491184-a4d2-4bb6-b750-bb2bdcfe27eb.html">Learn more about this attorney...</a>]]></description>
+      <Point>
+        <coordinates>-84.207031,39.436776</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Elizabeth S. Tuck</name>
+      <address>810 Sycamore Street, 4th Floor, Cincinnati, OH, 45202</address>
+      <phoneNumber>tel:+15135456781</phoneNumber>
+      <description><![CDATA[Phone: 513-545-6781<br/>810 Sycamore Street, 4th Floor, Cincinnati, OH, 45202<br/><a href="https://profiles.superlawyers.com/ohio/cincinnati/lawyer/elizabeth-s-tuck/e7dba59e-0fdd-45b8-adf6-a7062f6dd743.html">Learn more about this attorney...</a>]]></description>
+      <Point>
+        <coordinates>-84.509050,39.105560</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Paul M. Laufman</name>
+      <address>4310 Hunt Road, Cincinnati, OH, 45242</address>
+      <phoneNumber>tel:+15136214556</phoneNumber>
+      <description><![CDATA[Phone: 513-621-4556<br/>4310 Hunt Road, Cincinnati, OH, 45242<br/><a href="https://profiles.superlawyers.com/ohio/cincinnati/lawyer/paul-m-laufman/e40a6c4e-e32f-4897-b68f-91051ac78439.html">Learn more about this attorney...</a>]]></description>
+      <Point>
+        <coordinates>-84.390900,39.228450</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Alphonse A. Gerhardstein</name>
+      <address>441 Vine St, Suite 3400, Cincinnati, OH, 45202</address>
+      <phoneNumber>tel:+15135724200</phoneNumber>
+      <description><![CDATA[Phone: 513-572-4200<br/>441 Vine St, Suite 3400, Cincinnati, OH, 45202<br/><a href="https://profiles.superlawyers.com/ohio/cincinnati/lawyer/alphonse-a-gerhardstein/f6b05875-c433-4604-8b30-d1b58d57db16.html">Learn more about this attorney...</a>]]></description>
+      <Point>
+        <coordinates>-84.512935,39.100986</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Brian E. Hurley</name>
+      <address>5300 Socialville-Foster Road, Suite 200, Mason, OH, 45040</address>
+      <phoneNumber>tel:+15135834200</phoneNumber>
+      <description><![CDATA[Phone: 513-583-4200<br/>5300 Socialville-Foster Road, Suite 200, Mason, OH, 45040<br/><a href="https://profiles.superlawyers.com/ohio/mason/lawyer/brian-e-hurley/f1336a39-4806-4609-8126-6bb9d2fc01dc.html">Learn more about this attorney...</a>]]></description>
+      <Point>
+        <coordinates>-84.317560,39.320670</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Jonathan T. Deters</name>
+      <address>119 E. Court Street, Suite 530, Cincinnati, OH, 45202</address>
+      <phoneNumber>tel:+15136513700</phoneNumber>
+      <description><![CDATA[Phone: 513-651-3700<br/>119 E. Court Street, Suite 530, Cincinnati, OH, 45202<br/><a href="https://profiles.superlawyers.com/ohio/cincinnati/lawyer/jonathan-t-deters/cda61843-a207-48cc-8c6d-eb57743c67e3.html">Learn more about this attorney...</a>]]></description>
+      <Point>
+        <coordinates>-84.443686,39.150654</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>R. Gary Winters</name>
+      <address>600 Vine St, Suite 800, Cincinnati, OH, 45202</address>
+      <phoneNumber>tel:+15132632100</phoneNumber>
+      <description><![CDATA[Phone: 513-263-2100<br/>600 Vine St, Suite 800, Cincinnati, OH, 45202<br/><a href="https://profiles.superlawyers.com/ohio/cincinnati/lawyer/r-gary-winters/226a8ddb-fe7b-4f21-bcbd-dca78586d892.html">Learn more about this attorney...</a>]]></description>
+      <Point>
+        <coordinates>-84.513550,39.103410</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Katherine L. Barbiere</name>
+      <address>5300 Socialville-Foster Road, Suite 200, Mason, OH, 45040</address>
+      <phoneNumber>tel:+15135834200</phoneNumber>
+      <description><![CDATA[Phone: 513-583-4200<br/>5300 Socialville-Foster Road, Suite 200, Mason, OH, 45040<br/><a href="https://profiles.superlawyers.com/ohio/mason/lawyer/katherine-l-barbiere/cf71eef9-7d15-4b75-a71a-d1ac1380574a.html">Learn more about this attorney...</a>]]></description>
+      <Point>
+        <coordinates>-84.317560,39.320670</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Robert B. Newman</name>
+      <address>215 E 9th St, Suite 650, Cincinnati, OH, 45202</address>
+      <phoneNumber>tel:+15136397000</phoneNumber>
+      <description><![CDATA[Phone: 513-639-7000<br/>215 E 9th St, Suite 650, Cincinnati, OH, 45202<br/><a href="https://profiles.superlawyers.com/ohio/cincinnati/lawyer/robert-b-newman/b40be27c-9d5a-44f4-b12c-36cf8d9a9a5d.html">Learn more about this attorney...</a>]]></description>
+      <Point>
+        <coordinates>-84.510190,39.105980</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Meagan L. Tate</name>
+      <address>50 E Business Way, Suite 110, Cincinnati, OH, 45241</address>
+      <phoneNumber>tel:+15133515997</phoneNumber>
+      <description><![CDATA[Phone: 513-351-5997<br/>50 E Business Way, Suite 110, Cincinnati, OH, 45241<br/><a href="https://profiles.superlawyers.com/ohio/cincinnati/lawyer/meagan-l-tate/1e8f761c-2245-4e79-9c90-e1e71086239d.html">Learn more about this attorney...</a>]]></description>
+      <Point>
+        <coordinates>-84.462148,39.324094</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Andrew R. Biller</name>
+      <address>8044 Montgomery Rd, Suite 515, Cincinnati, OH, 45236</address>
+      <phoneNumber>tel:+15137158711</phoneNumber>
+      <description><![CDATA[Phone: 513-715-8711<br/>8044 Montgomery Rd, Suite 515, Cincinnati, OH, 45236<br/><a href="https://profiles.superlawyers.com/ohio/cincinnati/lawyer/andrew-r-biller/0d125273-345f-4096-96a8-bf702769640b.html">Learn more about this attorney...</a>]]></description>
+      <Point>
+        <coordinates>-84.442460,39.149110</coordinates>
+      </Point>
+    </Placemark>
+  </Document>
+</kml>

@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document id="8b2517f126dad497b97ecdc378ed1cd8">
+    <Style id="TR-Orange-Marker">
+      <IconStyle>
+        <Icon>
+          <href>https://cdn.superlawyers.com/image/upload/q_auto,f_auto/v20201015/resources/shared/tr-marker.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="TR-Grey-Marker">
+      <IconStyle>
+        <Icon>
+          <href>https://cdn.superlawyers.com/image/upload/q_auto,f_auto/v20201015/resources/shared/tr-marker-grey.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Placemark>
+      <name>J. Angela Ables</name>
+      <address>201 Robert S. Kerr Ave., Suite 600, Oklahoma City, OK, 73102</address>
+      <phoneNumber>tel:+14052729221</phoneNumber>
+      <description><![CDATA[Phone: 405-272-9221<br/>201 Robert S. Kerr Ave., Suite 600, Oklahoma City, OK, 73102<br/><a href="https://profiles.superlawyers.com/oklahoma/oklahoma-city/lawyer/j-angela-ables/466241de-b8d7-42dc-b70c-425d21f00c53.html">Learn more about this attorney...</a>]]></description>
+      <Point>
+        <coordinates>-97.516940,35.469830</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Curtis M. Long</name>
+      <address>1700 One Leadership Square, 211 North Robinson Ave., Oklahoma City, OK, 73102</address>
+      <phoneNumber>tel:+14052725711</phoneNumber>
+      <description><![CDATA[Phone: 405-272-5711<br/>1700 One Leadership Square, 211 North Robinson Ave., Oklahoma City, OK, 73102<br/><a href="https://profiles.superlawyers.com/oklahoma/oklahoma-city/lawyer/curtis-m-long/67a681b2-27f2-4de1-a9f9-11de72bbce1f.html">Learn more about this attorney...</a>]]></description>
+      <Point>
+        <coordinates>-97.517074,35.469326</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Richard K. Books</name>
+      <address>211 North Robinson, Suite 1300, Oklahoma City, OK, 73102</address>
+      <phoneNumber>tel:+14052323722</phoneNumber>
+      <description><![CDATA[Phone: 405-232-3722<br/>211 North Robinson, Suite 1300, Oklahoma City, OK, 73102<br/><a href="https://profiles.superlawyers.com/oklahoma/oklahoma-city/lawyer/richard-k-books/236d7759-cd94-437b-a076-79c0fd174a80.html">Learn more about this attorney...</a>]]></description>
+      <Point>
+        <coordinates>-97.516445,35.468995</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Evan Way</name>
+      <address>324 N Robinson Ave, Suite 100, Oklahoma City, OK, 73102</address>
+      <phoneNumber>tel:+14052396636</phoneNumber>
+      <description><![CDATA[Phone: 405-239-6636<br/>324 N Robinson Ave, Suite 100, Oklahoma City, OK, 73102<br/><a href="https://profiles.superlawyers.com/oklahoma/oklahoma-city/lawyer/evan-way/240b4d57-e9b8-456b-9eec-7f9762a631c0.html">Learn more about this attorney...</a>]]></description>
+      <Point>
+        <coordinates>-97.516390,35.470580</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Michael C. Turpen</name>
+      <address>528 N.W. 12th Street, Oklahoma City, OK, 73103</address>
+      <phoneNumber>tel:+14058439909</phoneNumber>
+      <description><![CDATA[Phone: 405-843-9909<br/>528 N.W. 12th Street, Oklahoma City, OK, 73103<br/><a href="https://profiles.superlawyers.com/oklahoma/oklahoma-city/lawyer/michael-c-turpen/697f9e01-53eb-4051-b7e5-88cd28f56504.html">Learn more about this attorney...</a>]]></description>
+      <Point>
+        <coordinates>-97.522300,35.481260</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Eric R. King</name>
+      <address>100 North Broadway, Suite 1700, Oklahoma City, OK, 73102</address>
+      <phoneNumber>tel:+14052320621</phoneNumber>
+      <description><![CDATA[Phone: 405-232-0621<br/>100 North Broadway, Suite 1700, Oklahoma City, OK, 73102<br/><a href="https://profiles.superlawyers.com/oklahoma/oklahoma-city/lawyer/eric-r-king/a1cfbfc2-791a-4427-8f1c-9adadf5ff6b6.html">Learn more about this attorney...</a>]]></description>
+      <Point>
+        <coordinates>-97.513979,35.468025</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Laura N. Pringle</name>
+      <address>9251 N Pennsylvania Ave, Oklahoma City, OK, 73120</address>
+      <phoneNumber>tel:+14058484810</phoneNumber>
+      <description><![CDATA[Phone: 405-848-4810<br/>9251 N Pennsylvania Ave, Oklahoma City, OK, 73120<br/><a href="https://profiles.superlawyers.com/oklahoma/oklahoma-city/lawyer/laura-n-pringle/0dbccbd0-6c2e-46ec-a568-4edef05e9b97.html">Learn more about this attorney...</a>]]></description>
+      <Point>
+        <coordinates>-97.549250,35.564390</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Cori H. Loomis</name>
+      <address>3401 N.W. 63rd Street, Suite 600, Oklahoma City, OK, 73116</address>
+      <phoneNumber>tel:+14052322020</phoneNumber>
+      <description><![CDATA[Phone: 405-232-2020<br/>3401 N.W. 63rd Street, Suite 600, Oklahoma City, OK, 73116<br/><a href="https://profiles.superlawyers.com/oklahoma/oklahoma-city/lawyer/cori-h-loomis/eaff49b9-95c4-4d6f-bfd1-e0e5665fba6c.html">Learn more about this attorney...</a>]]></description>
+      <Point>
+        <coordinates>-97.577410,35.536710</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Anthony Hendricks</name>
+      <address>324 N Robinson Ave, Suite 100, Oklahoma City, OK, 73102</address>
+      <phoneNumber>tel:+14052357700</phoneNumber>
+      <description><![CDATA[Phone: 405-235-7700<br/>324 N Robinson Ave, Suite 100, Oklahoma City, OK, 73102<br/><a href="https://profiles.superlawyers.com/oklahoma/oklahoma-city/lawyer/anthony-hendricks/5ab2fd4f-8305-4692-90ff-709b55e704a4.html">Learn more about this attorney...</a>]]></description>
+      <Point>
+        <coordinates>-97.516390,35.470580</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>J. Edward Barth</name>
+      <address>100 North Broadway Ave, Suite 3300, Oklahoma City, OK, 73102</address>
+      <phoneNumber>tel:+14052358775</phoneNumber>
+      <description><![CDATA[Phone: 405-235-8775<br/>100 North Broadway Ave, Suite 3300, Oklahoma City, OK, 73102<br/><a href="https://profiles.superlawyers.com/oklahoma/oklahoma-city/lawyer/j-edward-barth/b417109f-7945-440c-854e-828fae77fe7a.html">Learn more about this attorney...</a>]]></description>
+      <Point>
+        <coordinates>-97.514513,35.468138</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>C. Scott Jones</name>
+      <address>1109 N Francis Ave, Oklahoma City, OK, 73106</address>
+      <phoneNumber>tel:+14055520204</phoneNumber>
+      <description><![CDATA[Phone: 405-552-0204<br/>1109 N Francis Ave, Oklahoma City, OK, 73106<br/><a href="https://profiles.superlawyers.com/oklahoma/oklahoma-city/lawyer/c-scott-jones/e2323492-57ee-4717-b5cd-47e5d313a7ee.html">Learn more about this attorney...</a>]]></description>
+      <Point>
+        <coordinates>-97.590700,35.464440</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Kevin D. Gordon</name>
+      <address>324 N Robinson Ave, Suite 100, Oklahoma City, OK, 73102</address>
+      <phoneNumber>tel:+14052396619</phoneNumber>
+      <description><![CDATA[Phone: 405-239-6619<br/>324 N Robinson Ave, Suite 100, Oklahoma City, OK, 73102<br/><a href="https://profiles.superlawyers.com/oklahoma/oklahoma-city/lawyer/kevin-d-gordon/803746d5-799f-45e3-a81d-a9e3eef4c7e7.html">Learn more about this attorney...</a>]]></description>
+      <Point>
+        <coordinates>-97.516390,35.470580</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>S. Gregory Frogge</name>
+      <address>Two Leadership Square, 211 North Robinson Ave, 8th Floor, Oklahoma City, OK, 73102</address>
+      <phoneNumber>tel:+14055522283</phoneNumber>
+      <description><![CDATA[Phone: 405-552-2283<br/>Two Leadership Square, 211 North Robinson Ave, 8th Floor, Oklahoma City, OK, 73102<br/><a href="https://profiles.superlawyers.com/oklahoma/oklahoma-city/lawyer/s-gregory-frogge/b207d977-a0c1-4888-a69d-00bee78a2403.html">Learn more about this attorney...</a>]]></description>
+      <Point>
+        <coordinates>-97.516450,35.469010</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Andrew S. Mildren</name>
+      <address>101 North Robinson Avenue, Thirteenth Floor, Oklahoma City, OK, 73102</address>
+      <phoneNumber>tel:+14052354100</phoneNumber>
+      <description><![CDATA[Phone: 405-235-4100<br/>101 North Robinson Avenue, Thirteenth Floor, Oklahoma City, OK, 73102<br/><a href="https://profiles.superlawyers.com/oklahoma/oklahoma-city/lawyer/andrew-s-mildren/ae7cd888-8785-4b5e-adfb-d368a38ca911.html">Learn more about this attorney...</a>]]></description>
+      <Point>
+        <coordinates>-97.516450,35.468020</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Cynthia L. Andrews</name>
+      <address>324 N Robinson Ave, Suite 100, Oklahoma City, OK, 73102</address>
+      <phoneNumber>tel:+14052396607</phoneNumber>
+      <description><![CDATA[Phone: 405-239-6607<br/>324 N Robinson Ave, Suite 100, Oklahoma City, OK, 73102<br/><a href="https://profiles.superlawyers.com/oklahoma/oklahoma-city/lawyer/cynthia-l-andrews/d5a22ba0-5da3-425d-a984-fc1b51091ee9.html">Learn more about this attorney...</a>]]></description>
+      <Point>
+        <coordinates>-97.516390,35.470580</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Richard J. Gore</name>
+      <address>300 NE 1st Street, Oklahoma City, OK, 73104</address>
+      <phoneNumber>tel:+14052360478</phoneNumber>
+      <description><![CDATA[Phone: 405-236-0478<br/>300 NE 1st Street, Oklahoma City, OK, 73104<br/><a href="https://profiles.superlawyers.com/oklahoma/oklahoma-city/lawyer/richard-j-gore/c5dcccbf-1455-4251-b429-8d0efbbbc2ec.html">Learn more about this attorney...</a>]]></description>
+      <Point>
+        <coordinates>-97.507140,35.468570</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Mack K. Martin</name>
+      <address>125 Park Avenue, Fifth Floor, Oklahoma City, OK, 73102</address>
+      <phoneNumber>tel:+14052368888</phoneNumber>
+      <description><![CDATA[Phone: 405-236-8888<br/>125 Park Avenue, Fifth Floor, Oklahoma City, OK, 73102<br/><a href="https://profiles.superlawyers.com/oklahoma/oklahoma-city/lawyer/mack-k-martin/3e72bb15-c9d9-4bcc-8176-2e09ddbfeb6d.html">Learn more about this attorney...</a>]]></description>
+      <Point>
+        <coordinates>-97.515640,35.468760</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Don M. Powers</name>
+      <address>1420 Bond St., Edmond, OK, 73034</address>
+      <phoneNumber>tel:+14053595999</phoneNumber>
+      <description><![CDATA[Phone: 405-359-5999<br/>1420 Bond St., Edmond, OK, 73034<br/><a href="https://profiles.superlawyers.com/oklahoma/edmond/lawyer/don-m-powers/95ab2dc4-0789-4993-a182-017bd608696b.html">Learn more about this attorney...</a>]]></description>
+      <Point>
+        <coordinates>-97.461130,35.683540</coordinates>
+      </Point>
+    </Placemark>
+  </Document>
+</kml>

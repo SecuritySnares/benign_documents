@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document id="95cc607065af26ca19cb95328fbdf484">
+    <Style id="TR-Orange-Marker">
+      <IconStyle>
+        <Icon>
+          <href>https://cdn.superlawyers.com/image/upload/q_auto,f_auto/v20201015/resources/shared/tr-marker.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="TR-Grey-Marker">
+      <IconStyle>
+        <Icon>
+          <href>https://cdn.superlawyers.com/image/upload/q_auto,f_auto/v20201015/resources/shared/tr-marker-grey.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Placemark>
+      <name>Samuel P. Baumgartner</name>
+      <address>408 North Columbia Street, Covington, LA, 70433</address>
+      <phoneNumber>tel:+19858934790</phoneNumber>
+      <description><![CDATA[Phone: 985-893-4790<br/>408 North Columbia Street, Covington, LA, 70433<br/><a href="https://profiles.superlawyers.com/louisiana/covington/lawyer/samuel-p-baumgartner/ef7c4591-8f7e-4abe-8ec1-42f70879ee07.html">Learn more about this attorney...</a>]]></description>
+      <Point>
+        <coordinates>-90.094639,30.476936</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Jacques Francois Bezou, Jr.</name>
+      <address>534 E Boston Street, Covington, LA, 70433</address>
+      <phoneNumber>tel:+19858922111</phoneNumber>
+      <description><![CDATA[Phone: 985-892-2111<br/>534 E Boston Street, Covington, LA, 70433<br/><a href="https://profiles.superlawyers.com/louisiana/covington/lawyer/jacques-francois-bezou-jr/12ee5b44-3f96-4938-8f79-2d4417874046.html">Learn more about this attorney...</a>]]></description>
+      <Point>
+        <coordinates>-90.094752,30.475680</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Katy B. Kennedy</name>
+      <address>PO Box 5350, Covington, LA, 70434</address>
+      <phoneNumber>tel:+19857928116</phoneNumber>
+      <description><![CDATA[Phone: 985-792-8116<br/>PO Box 5350, Covington, LA, 70434<br/><a href="https://profiles.superlawyers.com/louisiana/covington/lawyer/katy-b-kennedy/1ed02286-e5a4-49f9-b5d3-9e3b93637025.html">Learn more about this attorney...</a>]]></description>
+      <Point>
+        <coordinates>-90.104980,30.496690</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Bailey D. Morse</name>
+      <address>Northlake Corp Park Ste 103, 1001 Service Rd E Hwy 190, Covington, LA, 70433</address>
+      <phoneNumber>tel:+19858924801</phoneNumber>
+      <description><![CDATA[Phone: 985-892-4801<br/>Northlake Corp Park Ste 103, 1001 Service Rd E Hwy 190, Covington, LA, 70433<br/><a href="https://profiles.superlawyers.com/louisiana/covington/lawyer/bailey-d-morse/22a89f82-cbb0-4a32-8275-be39738c03c1.html">Learn more about this attorney...</a>]]></description>
+      <Point>
+        <coordinates>-90.083951,30.423063</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Sarabeth T. Bradley</name>
+      <address>209 N. New Hampshire Street, Covington, LA, 70433</address>
+      <phoneNumber>tel:+19858881874</phoneNumber>
+      <description><![CDATA[Phone: 985-888-1874<br/>209 N. New Hampshire Street, Covington, LA, 70433<br/><a href="https://profiles.superlawyers.com/louisiana/covington/lawyer/sarabeth-t-bradley/5443eb92-5c1c-49be-967c-fc61e88f6dc9.html">Learn more about this attorney...</a>]]></description>
+      <Point>
+        <coordinates>-90.098135,30.476291</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Samantha B. Simmons</name>
+      <address>195 Greenbriar Blvd Suite 200, Covington, LA, 70433</address>
+      <phoneNumber>tel:+15048310946</phoneNumber>
+      <description><![CDATA[Phone: 504-831-0946<br/>195 Greenbriar Blvd Suite 200, Covington, LA, 70433<br/><a href="https://profiles.superlawyers.com/louisiana/covington/lawyer/samantha-b-simmons/c94bcc3c-05a7-463f-9d77-f80103a6d736.html">Learn more about this attorney...</a>]]></description>
+      <Point>
+        <coordinates>-90.136248,30.456233</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Elizabeth Liuzza Huval</name>
+      <address>408 North Columbia Street, Covington, LA, 70433</address>
+      <phoneNumber>tel:+19858934790</phoneNumber>
+      <description><![CDATA[Phone: 985-893-4790<br/>408 North Columbia Street, Covington, LA, 70433<br/><a href="https://profiles.superlawyers.com/louisiana/covington/lawyer/elizabeth-liuzza-huval/5073dcaf-c86f-4103-979d-820ba6021f1d.html">Learn more about this attorney...</a>]]></description>
+      <Point>
+        <coordinates>-90.094639,30.476936</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Richard P. Sulzer</name>
+      <address>201 Holiday Blvd, Suite 335, Covington, LA, 70433</address>
+      <phoneNumber>tel:+19858980608</phoneNumber>
+      <description><![CDATA[Phone: 985-898-0608<br/>201 Holiday Blvd, Suite 335, Covington, LA, 70433<br/><a href="https://profiles.superlawyers.com/louisiana/covington/lawyer/richard-p-sulzer/03a5a49c-4e9a-4b6a-9ce7-b46b79d16101.html">Learn more about this attorney...</a>]]></description>
+      <Point>
+        <coordinates>-90.085444,30.437940</coordinates>
+      </Point>
+    </Placemark>
+  </Document>
+</kml>

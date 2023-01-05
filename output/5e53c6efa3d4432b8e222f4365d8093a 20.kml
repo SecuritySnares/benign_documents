@@ -1,0 +1,1488 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="Automatic_Cycle_Counters" id="Automatic_Cycle_Counters">
+	<SimpleField name="OBJECTID" type="int"></SimpleField>
+	<SimpleField name="SiteNumber" type="int"></SimpleField>
+	<SimpleField name="CountID" type="string"></SimpleField>
+	<SimpleField name="CounterType" type="string"></SimpleField>
+	<SimpleField name="ChannelDirection" type="string"></SimpleField>
+	<SimpleField name="Road" type="string"></SimpleField>
+	<SimpleField name="RoadName" type="string"></SimpleField>
+	<SimpleField name="Comments" type="string"></SimpleField>
+	<SimpleField name="Easting" type="int"></SimpleField>
+	<SimpleField name="Northing" type="int"></SimpleField>
+</Schema>
+<Folder><name>Automatic_Cycle_Counters</name>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Automatic_Cycle_Counters">
+		<SimpleData name="OBJECTID">1</SimpleData>
+		<SimpleData name="SiteNumber">6</SimpleData>
+		<SimpleData name="CountID">6c1</SimpleData>
+		<SimpleData name="CounterType">Cycle</SimpleData>
+		<SimpleData name="ChannelDirection">Channel 1: North West                                     </SimpleData>
+		<SimpleData name="Road">Cycle Path</SimpleData>
+		<SimpleData name="RoadName">Cinder Lane</SimpleData>
+		<SimpleData name="Easting">459025</SimpleData>
+		<SimpleData name="Northing">452304</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-1.10183616289807,53.9634758242042</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Automatic_Cycle_Counters">
+		<SimpleData name="OBJECTID">2</SimpleData>
+		<SimpleData name="SiteNumber">6</SimpleData>
+		<SimpleData name="CountID">6c2</SimpleData>
+		<SimpleData name="CounterType">Cycle</SimpleData>
+		<SimpleData name="ChannelDirection">Channel 2: South East</SimpleData>
+		<SimpleData name="Road">Cycle Path</SimpleData>
+		<SimpleData name="RoadName">Cinder Lane</SimpleData>
+		<SimpleData name="Easting">459025</SimpleData>
+		<SimpleData name="Northing">452304</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-1.10183616289807,53.9634758242042</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Automatic_Cycle_Counters">
+		<SimpleData name="OBJECTID">3</SimpleData>
+		<SimpleData name="SiteNumber">8</SimpleData>
+		<SimpleData name="CountID">8c3</SimpleData>
+		<SimpleData name="CounterType">Cycle</SimpleData>
+		<SimpleData name="ChannelDirection">Channel 3: Cycles East 1             </SimpleData>
+		<SimpleData name="Road">Shared Use</SimpleData>
+		<SimpleData name="RoadName">Crichton Avenue</SimpleData>
+		<SimpleData name="Easting">460122</SimpleData>
+		<SimpleData name="Northing">453499</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-1.0848828000012,53.9740886489564</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Automatic_Cycle_Counters">
+		<SimpleData name="OBJECTID">4</SimpleData>
+		<SimpleData name="SiteNumber">8</SimpleData>
+		<SimpleData name="CountID">8c4</SimpleData>
+		<SimpleData name="CounterType">Cycle</SimpleData>
+		<SimpleData name="ChannelDirection">Channel 4: Cycles West 1            </SimpleData>
+		<SimpleData name="Road">Shared Use</SimpleData>
+		<SimpleData name="RoadName">Crichton Avenue</SimpleData>
+		<SimpleData name="Easting">460122</SimpleData>
+		<SimpleData name="Northing">453499</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-1.0848828000012,53.9740886489564</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Automatic_Cycle_Counters">
+		<SimpleData name="OBJECTID">5</SimpleData>
+		<SimpleData name="SiteNumber">8</SimpleData>
+		<SimpleData name="CountID">8c5</SimpleData>
+		<SimpleData name="CounterType">Cycle</SimpleData>
+		<SimpleData name="ChannelDirection">Channel 5: Cycles East 2             </SimpleData>
+		<SimpleData name="Road">Shared Use</SimpleData>
+		<SimpleData name="RoadName">Crichton Avenue</SimpleData>
+		<SimpleData name="Easting">460122</SimpleData>
+		<SimpleData name="Northing">453499</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-1.0848828000012,53.9740886489564</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Automatic_Cycle_Counters">
+		<SimpleData name="OBJECTID">6</SimpleData>
+		<SimpleData name="SiteNumber">8</SimpleData>
+		<SimpleData name="CountID">8c6</SimpleData>
+		<SimpleData name="CounterType">Cycle</SimpleData>
+		<SimpleData name="ChannelDirection">Channel 6: Cycles West 2</SimpleData>
+		<SimpleData name="Road">Shared Use</SimpleData>
+		<SimpleData name="RoadName">Crichton Avenue</SimpleData>
+		<SimpleData name="Easting">460122</SimpleData>
+		<SimpleData name="Northing">453499</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-1.0848828000012,53.9740886489564</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Automatic_Cycle_Counters">
+		<SimpleData name="OBJECTID">7</SimpleData>
+		<SimpleData name="SiteNumber">19</SimpleData>
+		<SimpleData name="CountID">19c1</SimpleData>
+		<SimpleData name="CounterType">Cycle</SimpleData>
+		<SimpleData name="ChannelDirection">Channel 1: North To Railway                               </SimpleData>
+		<SimpleData name="Road">Cycle Path</SimpleData>
+		<SimpleData name="RoadName">Hob Moor</SimpleData>
+		<SimpleData name="Easting">458921</SimpleData>
+		<SimpleData name="Northing">450410</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-1.10378530708402,53.9464671803347</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Automatic_Cycle_Counters">
+		<SimpleData name="OBJECTID">8</SimpleData>
+		<SimpleData name="SiteNumber">19</SimpleData>
+		<SimpleData name="CountID">19c2</SimpleData>
+		<SimpleData name="CounterType">Cycle</SimpleData>
+		<SimpleData name="ChannelDirection">Channel 2: South to Tadcaster Road   </SimpleData>
+		<SimpleData name="Road">Cycle Path</SimpleData>
+		<SimpleData name="RoadName">Hob Moor</SimpleData>
+		<SimpleData name="Easting">458921</SimpleData>
+		<SimpleData name="Northing">450410</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-1.10378530708402,53.9464671803347</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Automatic_Cycle_Counters">
+		<SimpleData name="OBJECTID">9</SimpleData>
+		<SimpleData name="SiteNumber">19</SimpleData>
+		<SimpleData name="CountID">19c3</SimpleData>
+		<SimpleData name="CounterType">Cycle</SimpleData>
+		<SimpleData name="ChannelDirection">Channel 3: East to Hob Terrace             </SimpleData>
+		<SimpleData name="Road">Cycle Path</SimpleData>
+		<SimpleData name="RoadName">Hob Moor</SimpleData>
+		<SimpleData name="Easting">458921</SimpleData>
+		<SimpleData name="Northing">450410</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-1.10378530708402,53.9464671803347</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Automatic_Cycle_Counters">
+		<SimpleData name="OBJECTID">10</SimpleData>
+		<SimpleData name="SiteNumber">19</SimpleData>
+		<SimpleData name="CountID">19c4</SimpleData>
+		<SimpleData name="CounterType">Cycle</SimpleData>
+		<SimpleData name="ChannelDirection">Channel 4: West to Tadcaster Road          </SimpleData>
+		<SimpleData name="Road">Cycle Path</SimpleData>
+		<SimpleData name="RoadName">Hob Moor</SimpleData>
+		<SimpleData name="Easting">458921</SimpleData>
+		<SimpleData name="Northing">450410</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-1.10378530708402,53.9464671803347</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Automatic_Cycle_Counters">
+		<SimpleData name="OBJECTID">11</SimpleData>
+		<SimpleData name="SiteNumber">27</SimpleData>
+		<SimpleData name="CountID">27c1</SimpleData>
+		<SimpleData name="CounterType">Cycle</SimpleData>
+		<SimpleData name="ChannelDirection">Channel 1: South                                    </SimpleData>
+		<SimpleData name="Road">Cycle Path</SimpleData>
+		<SimpleData name="RoadName">Maple Grove</SimpleData>
+		<SimpleData name="Easting">460444</SimpleData>
+		<SimpleData name="Northing">450190</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-1.08062771380675,53.9443149803574</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Automatic_Cycle_Counters">
+		<SimpleData name="OBJECTID">12</SimpleData>
+		<SimpleData name="SiteNumber">27</SimpleData>
+		<SimpleData name="CountID">27c2</SimpleData>
+		<SimpleData name="CounterType">Cycle</SimpleData>
+		<SimpleData name="ChannelDirection">Channel 2: North </SimpleData>
+		<SimpleData name="Road">Cycle Path</SimpleData>
+		<SimpleData name="RoadName">Maple Grove</SimpleData>
+		<SimpleData name="Easting">460444</SimpleData>
+		<SimpleData name="Northing">450190</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-1.08062771380675,53.9443149803574</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Automatic_Cycle_Counters">
+		<SimpleData name="OBJECTID">13</SimpleData>
+		<SimpleData name="SiteNumber">28</SimpleData>
+		<SimpleData name="CountID">28c1</SimpleData>
+		<SimpleData name="CounterType">Cycle</SimpleData>
+		<SimpleData name="ChannelDirection">Channel 1: Bridge to Maple                              </SimpleData>
+		<SimpleData name="Road">Cycle Path</SimpleData>
+		<SimpleData name="RoadName">Millennium Bridge</SimpleData>
+		<SimpleData name="Comments">No longer used</SimpleData>
+		<SimpleData name="Easting">460401</SimpleData>
+		<SimpleData name="Northing">450203</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-1.08128016903677,53.9444368114038</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Automatic_Cycle_Counters">
+		<SimpleData name="OBJECTID">14</SimpleData>
+		<SimpleData name="SiteNumber">28</SimpleData>
+		<SimpleData name="CountID">28c2</SimpleData>
+		<SimpleData name="CounterType">Cycle</SimpleData>
+		<SimpleData name="ChannelDirection">Channel 2: Maple to Bridge</SimpleData>
+		<SimpleData name="Road">Cycle Path</SimpleData>
+		<SimpleData name="RoadName">Millennium Bridge</SimpleData>
+		<SimpleData name="Comments">No longer used</SimpleData>
+		<SimpleData name="Easting">460401</SimpleData>
+		<SimpleData name="Northing">450203</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-1.08128016903677,53.9444368114038</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Automatic_Cycle_Counters">
+		<SimpleData name="OBJECTID">15</SimpleData>
+		<SimpleData name="SiteNumber">28</SimpleData>
+		<SimpleData name="CountID">28c3</SimpleData>
+		<SimpleData name="CounterType">Cycle</SimpleData>
+		<SimpleData name="ChannelDirection">Channel 3: Bridge to Maple                       </SimpleData>
+		<SimpleData name="Road">Cycle Path</SimpleData>
+		<SimpleData name="RoadName">Millennium Bridge</SimpleData>
+		<SimpleData name="Comments">No longer used</SimpleData>
+		<SimpleData name="Easting">460401</SimpleData>
+		<SimpleData name="Northing">450203</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-1.08128016903677,53.9444368114038</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Automatic_Cycle_Counters">
+		<SimpleData name="OBJECTID">16</SimpleData>
+		<SimpleData name="SiteNumber">28</SimpleData>
+		<SimpleData name="CountID">28c4</SimpleData>
+		<SimpleData name="CounterType">Cycle</SimpleData>
+		<SimpleData name="ChannelDirection">Channel 4: Maple to Bridge                                  </SimpleData>
+		<SimpleData name="Road">Cycle Path</SimpleData>
+		<SimpleData name="RoadName">Millennium Bridge</SimpleData>
+		<SimpleData name="Comments">No longer used</SimpleData>
+		<SimpleData name="Easting">460401</SimpleData>
+		<SimpleData name="Northing">450203</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-1.08128016903677,53.9444368114038</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Automatic_Cycle_Counters">
+		<SimpleData name="OBJECTID">17</SimpleData>
+		<SimpleData name="SiteNumber">28</SimpleData>
+		<SimpleData name="CountID">28c5</SimpleData>
+		<SimpleData name="CounterType">Cycle</SimpleData>
+		<SimpleData name="ChannelDirection">Channel 5: Bridge to St Georges                                 </SimpleData>
+		<SimpleData name="Road">Cycle Path</SimpleData>
+		<SimpleData name="RoadName">Millennium Bridge</SimpleData>
+		<SimpleData name="Comments">No longer used</SimpleData>
+		<SimpleData name="Easting">460401</SimpleData>
+		<SimpleData name="Northing">450203</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-1.08128016903677,53.9444368114038</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Automatic_Cycle_Counters">
+		<SimpleData name="OBJECTID">18</SimpleData>
+		<SimpleData name="SiteNumber">28</SimpleData>
+		<SimpleData name="CountID">28c6</SimpleData>
+		<SimpleData name="CounterType">Cycle</SimpleData>
+		<SimpleData name="ChannelDirection">Channel 6: St Georges to Bridge                               </SimpleData>
+		<SimpleData name="Road">Cycle Path</SimpleData>
+		<SimpleData name="RoadName">Millennium Bridge</SimpleData>
+		<SimpleData name="Comments">No longer used</SimpleData>
+		<SimpleData name="Easting">460401</SimpleData>
+		<SimpleData name="Northing">450203</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-1.08128016903677,53.9444368114038</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Automatic_Cycle_Counters">
+		<SimpleData name="OBJECTID">19</SimpleData>
+		<SimpleData name="SiteNumber">28</SimpleData>
+		<SimpleData name="CountID">28c7</SimpleData>
+		<SimpleData name="CounterType">Cycle</SimpleData>
+		<SimpleData name="ChannelDirection">Channel 7: Bridge to St Georges                              </SimpleData>
+		<SimpleData name="Road">Cycle Path</SimpleData>
+		<SimpleData name="RoadName">Millennium Bridge</SimpleData>
+		<SimpleData name="Comments">No longer used</SimpleData>
+		<SimpleData name="Easting">460401</SimpleData>
+		<SimpleData name="Northing">450203</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-1.08128016903677,53.9444368114038</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Automatic_Cycle_Counters">
+		<SimpleData name="OBJECTID">20</SimpleData>
+		<SimpleData name="SiteNumber">28</SimpleData>
+		<SimpleData name="CountID">28c8</SimpleData>
+		<SimpleData name="CounterType">Cycle</SimpleData>
+		<SimpleData name="ChannelDirection">Channel 8: St Georges to Maple                         </SimpleData>
+		<SimpleData name="Road">Cycle Path</SimpleData>
+		<SimpleData name="RoadName">Millennium Bridge</SimpleData>
+		<SimpleData name="Comments">No longer used</SimpleData>
+		<SimpleData name="Easting">460401</SimpleData>
+		<SimpleData name="Northing">450203</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-1.08128016903677,53.9444368114038</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Automatic_Cycle_Counters">
+		<SimpleData name="OBJECTID">21</SimpleData>
+		<SimpleData name="SiteNumber">31</SimpleData>
+		<SimpleData name="CountID">31c2</SimpleData>
+		<SimpleData name="CounterType">Cycle</SimpleData>
+		<SimpleData name="ChannelDirection">Channel 2: North                                             </SimpleData>
+		<SimpleData name="Road">Shared Use</SimpleData>
+		<SimpleData name="RoadName">A1237 - Shipton Rd &amp; Millfield Lane</SimpleData>
+		<SimpleData name="Easting">456948</SimpleData>
+		<SimpleData name="Northing">454246</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-1.13312743775854,53.9811600163093</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Automatic_Cycle_Counters">
+		<SimpleData name="OBJECTID">22</SimpleData>
+		<SimpleData name="SiteNumber">31</SimpleData>
+		<SimpleData name="CountID">31c4</SimpleData>
+		<SimpleData name="CounterType">Cycle</SimpleData>
+		<SimpleData name="ChannelDirection">Channel 4: South                </SimpleData>
+		<SimpleData name="Road">Shared Use</SimpleData>
+		<SimpleData name="RoadName">A1237 - Shipton Rd &amp; Millfield Lane</SimpleData>
+		<SimpleData name="Easting">456948</SimpleData>
+		<SimpleData name="Northing">454246</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-1.13312743775854,53.9811600163093</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Automatic_Cycle_Counters">
+		<SimpleData name="OBJECTID">23</SimpleData>
+		<SimpleData name="SiteNumber">38</SimpleData>
+		<SimpleData name="CountID">38c1</SimpleData>
+		<SimpleData name="CounterType">Cycle</SimpleData>
+		<SimpleData name="ChannelDirection">Channel 1: East                               </SimpleData>
+		<SimpleData name="Road">Shared Use</SimpleData>
+		<SimpleData name="RoadName">A1237 - Wigginton Rd to Haxby Rd</SimpleData>
+		<SimpleData name="Easting">460211</SimpleData>
+		<SimpleData name="Northing">456170</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-1.08299917505771,53.9980807650594</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Automatic_Cycle_Counters">
+		<SimpleData name="OBJECTID">24</SimpleData>
+		<SimpleData name="SiteNumber">38</SimpleData>
+		<SimpleData name="CountID">38c2</SimpleData>
+		<SimpleData name="CounterType">Cycle</SimpleData>
+		<SimpleData name="ChannelDirection">Channel 2: West</SimpleData>
+		<SimpleData name="Road">Shared Use</SimpleData>
+		<SimpleData name="RoadName">A1237 - Wigginton Rd to Haxby Rd</SimpleData>
+		<SimpleData name="Easting">460211</SimpleData>
+		<SimpleData name="Northing">456170</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-1.08299917505771,53.9980807650594</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Automatic_Cycle_Counters">
+		<SimpleData name="OBJECTID">25</SimpleData>
+		<SimpleData name="SiteNumber">43</SimpleData>
+		<SimpleData name="CountID">43c3</SimpleData>
+		<SimpleData name="CounterType">Cycle</SimpleData>
+		<SimpleData name="ChannelDirection">Channel 3: North East </SimpleData>
+		<SimpleData name="Road">On Road</SimpleData>
+		<SimpleData name="RoadName">Rawcliffe Lane</SimpleData>
+		<SimpleData name="Easting">459127</SimpleData>
+		<SimpleData name="Northing">453324</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-1.10008440596334,53.9726304619647</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Automatic_Cycle_Counters">
+		<SimpleData name="OBJECTID">26</SimpleData>
+		<SimpleData name="SiteNumber">43</SimpleData>
+		<SimpleData name="CountID">43c4</SimpleData>
+		<SimpleData name="CounterType">Cycle</SimpleData>
+		<SimpleData name="ChannelDirection">Channel 4: South West</SimpleData>
+		<SimpleData name="Road">On Road</SimpleData>
+		<SimpleData name="RoadName">Rawcliffe Lane</SimpleData>
+		<SimpleData name="Easting">459127</SimpleData>
+		<SimpleData name="Northing">453324</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-1.10008440596334,53.9726304619647</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Automatic_Cycle_Counters">
+		<SimpleData name="OBJECTID">27</SimpleData>
+		<SimpleData name="SiteNumber">47</SimpleData>
+		<SimpleData name="CountID">47c1</SimpleData>
+		<SimpleData name="CounterType">Cycle</SimpleData>
+		<SimpleData name="ChannelDirection">Channel 1: North                              </SimpleData>
+		<SimpleData name="Road">On Road</SimpleData>
+		<SimpleData name="RoadName">Skeldergate Bridge</SimpleData>
+		<SimpleData name="Easting">460328</SimpleData>
+		<SimpleData name="Northing">451263</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-1.08218357949261,53.9539709680357</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Automatic_Cycle_Counters">
+		<SimpleData name="OBJECTID">28</SimpleData>
+		<SimpleData name="SiteNumber">47</SimpleData>
+		<SimpleData name="CountID">47c2</SimpleData>
+		<SimpleData name="CounterType">Cycle</SimpleData>
+		<SimpleData name="ChannelDirection">Channel 2: South</SimpleData>
+		<SimpleData name="Road">On Road</SimpleData>
+		<SimpleData name="RoadName">Skeldergate Bridge</SimpleData>
+		<SimpleData name="Easting">460328</SimpleData>
+		<SimpleData name="Northing">451263</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-1.08218357949261,53.9539709680357</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Automatic_Cycle_Counters">
+		<SimpleData name="OBJECTID">29</SimpleData>
+		<SimpleData name="SiteNumber">48</SimpleData>
+		<SimpleData name="CountID">48c1</SimpleData>
+		<SimpleData name="CounterType">Cycle</SimpleData>
+		<SimpleData name="ChannelDirection">Channel 1: North East                                 </SimpleData>
+		<SimpleData name="Road">Cycle Path</SimpleData>
+		<SimpleData name="RoadName">St.Georges Field</SimpleData>
+		<SimpleData name="Easting">460479</SimpleData>
+		<SimpleData name="Northing">451186</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-1.07989807105924,53.9532614271999</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Automatic_Cycle_Counters">
+		<SimpleData name="OBJECTID">30</SimpleData>
+		<SimpleData name="SiteNumber">48</SimpleData>
+		<SimpleData name="CountID">48c2</SimpleData>
+		<SimpleData name="CounterType">Cycle</SimpleData>
+		<SimpleData name="ChannelDirection">Channel 2: South West </SimpleData>
+		<SimpleData name="Road">Cycle Path</SimpleData>
+		<SimpleData name="RoadName">St.Georges Field</SimpleData>
+		<SimpleData name="Easting">460479</SimpleData>
+		<SimpleData name="Northing">451186</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-1.07989807105924,53.9532614271999</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Automatic_Cycle_Counters">
+		<SimpleData name="OBJECTID">31</SimpleData>
+		<SimpleData name="SiteNumber">51</SimpleData>
+		<SimpleData name="CountID">51c1</SimpleData>
+		<SimpleData name="CounterType">Cycle</SimpleData>
+		<SimpleData name="ChannelDirection">Channel 1: East                                       </SimpleData>
+		<SimpleData name="Road">Cycle Path</SimpleData>
+		<SimpleData name="RoadName">Terrys</SimpleData>
+		<SimpleData name="Easting">460027</SimpleData>
+		<SimpleData name="Northing">449828</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-1.08705070434063,53.9411102732579</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Automatic_Cycle_Counters">
+		<SimpleData name="OBJECTID">32</SimpleData>
+		<SimpleData name="SiteNumber">51</SimpleData>
+		<SimpleData name="CountID">51c2</SimpleData>
+		<SimpleData name="CounterType">Cycle</SimpleData>
+		<SimpleData name="ChannelDirection">Channel 2: West</SimpleData>
+		<SimpleData name="Road">Cycle Path</SimpleData>
+		<SimpleData name="RoadName">Terrys</SimpleData>
+		<SimpleData name="Easting">460027</SimpleData>
+		<SimpleData name="Northing">449828</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-1.08705070434063,53.9411102732579</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Automatic_Cycle_Counters">
+		<SimpleData name="OBJECTID">33</SimpleData>
+		<SimpleData name="SiteNumber">58</SimpleData>
+		<SimpleData name="CountID">58c1</SimpleData>
+		<SimpleData name="CounterType">Cycle</SimpleData>
+		<SimpleData name="ChannelDirection">Channel 1: East                                     </SimpleData>
+		<SimpleData name="Road">Shared Use</SimpleData>
+		<SimpleData name="RoadName">A1079 Hull Road</SimpleData>
+		<SimpleData name="Easting">463968</SimpleData>
+		<SimpleData name="Northing">451301</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-1.02671561890692,53.9538763463746</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Automatic_Cycle_Counters">
+		<SimpleData name="OBJECTID">34</SimpleData>
+		<SimpleData name="SiteNumber">58</SimpleData>
+		<SimpleData name="CountID">58c2</SimpleData>
+		<SimpleData name="CounterType">Cycle</SimpleData>
+		<SimpleData name="ChannelDirection">Channel 2: West </SimpleData>
+		<SimpleData name="Road">Shared Use</SimpleData>
+		<SimpleData name="RoadName">A1079 Hull Road</SimpleData>
+		<SimpleData name="Easting">463968</SimpleData>
+		<SimpleData name="Northing">451301</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-1.02671561890692,53.9538763463746</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Automatic_Cycle_Counters">
+		<SimpleData name="OBJECTID">35</SimpleData>
+		<SimpleData name="SiteNumber">62</SimpleData>
+		<SimpleData name="CountID">62c1</SimpleData>
+		<SimpleData name="CounterType">Cycle</SimpleData>
+		<SimpleData name="ChannelDirection">Channel 1: South West                            </SimpleData>
+		<SimpleData name="Road">Cycle Path</SimpleData>
+		<SimpleData name="RoadName">James Street Orbital Cycle Track</SimpleData>
+		<SimpleData name="Easting">461163</SimpleData>
+		<SimpleData name="Northing">452177</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-1.06927856385047,53.9620867998786</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Automatic_Cycle_Counters">
+		<SimpleData name="OBJECTID">36</SimpleData>
+		<SimpleData name="SiteNumber">62</SimpleData>
+		<SimpleData name="CountID">62c2</SimpleData>
+		<SimpleData name="CounterType">Cycle</SimpleData>
+		<SimpleData name="ChannelDirection">Channel 2: North East </SimpleData>
+		<SimpleData name="Road">Cycle Path</SimpleData>
+		<SimpleData name="RoadName">James Street Orbital Cycle Track</SimpleData>
+		<SimpleData name="Easting">461163</SimpleData>
+		<SimpleData name="Northing">452177</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-1.06927856385047,53.9620867998786</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Automatic_Cycle_Counters">
+		<SimpleData name="OBJECTID">37</SimpleData>
+		<SimpleData name="SiteNumber">63</SimpleData>
+		<SimpleData name="CountID">63c1</SimpleData>
+		<SimpleData name="CounterType">Cycle</SimpleData>
+		<SimpleData name="ChannelDirection">Channel 1: East                                </SimpleData>
+		<SimpleData name="Road">Cycle Path</SimpleData>
+		<SimpleData name="RoadName">path connecting Tribune Way to Water Lane</SimpleData>
+		<SimpleData name="Easting">459483</SimpleData>
+		<SimpleData name="Northing">454794</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-1.09437131978677,53.9857997744369</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Automatic_Cycle_Counters">
+		<SimpleData name="OBJECTID">38</SimpleData>
+		<SimpleData name="SiteNumber">63</SimpleData>
+		<SimpleData name="CountID">63c2</SimpleData>
+		<SimpleData name="CounterType">Cycle</SimpleData>
+		<SimpleData name="ChannelDirection">Channel 2: West</SimpleData>
+		<SimpleData name="Road">Cycle Path</SimpleData>
+		<SimpleData name="RoadName">path connecting Tribune Way to Water Lane</SimpleData>
+		<SimpleData name="Easting">459483</SimpleData>
+		<SimpleData name="Northing">454794</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-1.09437131978677,53.9857997744369</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Automatic_Cycle_Counters">
+		<SimpleData name="OBJECTID">39</SimpleData>
+		<SimpleData name="SiteNumber">64</SimpleData>
+		<SimpleData name="CountID">64c1</SimpleData>
+		<SimpleData name="CounterType">Cycle</SimpleData>
+		<SimpleData name="ChannelDirection">Channel 1: East                                </SimpleData>
+		<SimpleData name="Road">Cycle Path</SimpleData>
+		<SimpleData name="RoadName">path connecting Manor Lane to Hurricane Way</SimpleData>
+		<SimpleData name="Easting">458329</SimpleData>
+		<SimpleData name="Northing">455191</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-1.11189158599433,53.989498646337</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Automatic_Cycle_Counters">
+		<SimpleData name="OBJECTID">40</SimpleData>
+		<SimpleData name="SiteNumber">64</SimpleData>
+		<SimpleData name="CountID">64c2</SimpleData>
+		<SimpleData name="CounterType">Cycle</SimpleData>
+		<SimpleData name="ChannelDirection">Channel 2: West</SimpleData>
+		<SimpleData name="Road">Cycle Path</SimpleData>
+		<SimpleData name="RoadName">path connecting Manor Lane to Hurricane Way</SimpleData>
+		<SimpleData name="Easting">458329</SimpleData>
+		<SimpleData name="Northing">455191</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-1.11189158599433,53.989498646337</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Automatic_Cycle_Counters">
+		<SimpleData name="OBJECTID">41</SimpleData>
+		<SimpleData name="SiteNumber">65</SimpleData>
+		<SimpleData name="CountID">65c1</SimpleData>
+		<SimpleData name="CounterType">Cycle</SimpleData>
+		<SimpleData name="ChannelDirection">Channel 1: North East                              </SimpleData>
+		<SimpleData name="Road">Cycle Path</SimpleData>
+		<SimpleData name="RoadName">Oakdale Road South</SimpleData>
+		<SimpleData name="Easting">458839</SimpleData>
+		<SimpleData name="Northing">454653</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-1.10421825083356,53.9846062658219</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Automatic_Cycle_Counters">
+		<SimpleData name="OBJECTID">42</SimpleData>
+		<SimpleData name="SiteNumber">65</SimpleData>
+		<SimpleData name="CountID">65c1</SimpleData>
+		<SimpleData name="CounterType">Cycle</SimpleData>
+		<SimpleData name="ChannelDirection">Channel 1: North East                              </SimpleData>
+		<SimpleData name="Road">Cycle Path</SimpleData>
+		<SimpleData name="RoadName">Oakdale Road South</SimpleData>
+		<SimpleData name="Easting">458839</SimpleData>
+		<SimpleData name="Northing">454653</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-1.10421825083356,53.9846062658219</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Automatic_Cycle_Counters">
+		<SimpleData name="OBJECTID">43</SimpleData>
+		<SimpleData name="SiteNumber">66</SimpleData>
+		<SimpleData name="CountID">66c1</SimpleData>
+		<SimpleData name="CounterType">Cycle</SimpleData>
+		<SimpleData name="ChannelDirection">Channel 1: South West                                   </SimpleData>
+		<SimpleData name="Road">Cycle Path</SimpleData>
+		<SimpleData name="RoadName">Oakdale Road North</SimpleData>
+		<SimpleData name="Easting">458806</SimpleData>
+		<SimpleData name="Northing">454728</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-1.10470695839681,53.9852839928395</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Automatic_Cycle_Counters">
+		<SimpleData name="OBJECTID">44</SimpleData>
+		<SimpleData name="SiteNumber">66</SimpleData>
+		<SimpleData name="CountID">66c2</SimpleData>
+		<SimpleData name="CounterType">Cycle</SimpleData>
+		<SimpleData name="ChannelDirection">Channel 2: North East</SimpleData>
+		<SimpleData name="Road">Cycle Path</SimpleData>
+		<SimpleData name="RoadName">Oakdale Road North</SimpleData>
+		<SimpleData name="Easting">458806</SimpleData>
+		<SimpleData name="Northing">454728</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-1.10470695839681,53.9852839928395</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Automatic_Cycle_Counters">
+		<SimpleData name="OBJECTID">45</SimpleData>
+		<SimpleData name="SiteNumber">67</SimpleData>
+		<SimpleData name="CountID">67c1</SimpleData>
+		<SimpleData name="CounterType">Cycle</SimpleData>
+		<SimpleData name="ChannelDirection">Channel 1: North                            </SimpleData>
+		<SimpleData name="Road">Cycle Path</SimpleData>
+		<SimpleData name="RoadName">Sterling Road</SimpleData>
+		<SimpleData name="Easting">459540</SimpleData>
+		<SimpleData name="Northing">455827</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-1.09330052583191,53.9950760994748</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Automatic_Cycle_Counters">
+		<SimpleData name="OBJECTID">46</SimpleData>
+		<SimpleData name="SiteNumber">67</SimpleData>
+		<SimpleData name="CountID">67c2</SimpleData>
+		<SimpleData name="CounterType">Cycle</SimpleData>
+		<SimpleData name="ChannelDirection">Channel 2: South</SimpleData>
+		<SimpleData name="Road">Cycle Path</SimpleData>
+		<SimpleData name="RoadName">Sterling Road</SimpleData>
+		<SimpleData name="Easting">459540</SimpleData>
+		<SimpleData name="Northing">455827</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-1.09330052583191,53.9950760994748</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Automatic_Cycle_Counters">
+		<SimpleData name="OBJECTID">47</SimpleData>
+		<SimpleData name="SiteNumber">68</SimpleData>
+		<SimpleData name="CountID">68c1</SimpleData>
+		<SimpleData name="CounterType">Cycle</SimpleData>
+		<SimpleData name="ChannelDirection">Channel 1: North East                                 </SimpleData>
+		<SimpleData name="Road">Shared Use</SimpleData>
+		<SimpleData name="RoadName">Malton Road (Outbound)</SimpleData>
+		<SimpleData name="Easting">461902</SimpleData>
+		<SimpleData name="Northing">453688</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-1.05771059679667,53.9755774170962</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Automatic_Cycle_Counters">
+		<SimpleData name="OBJECTID">48</SimpleData>
+		<SimpleData name="SiteNumber">68</SimpleData>
+		<SimpleData name="CountID">68c2</SimpleData>
+		<SimpleData name="CounterType">Cycle</SimpleData>
+		<SimpleData name="ChannelDirection">Channel 2: South West </SimpleData>
+		<SimpleData name="Road">Shared Use</SimpleData>
+		<SimpleData name="RoadName">Malton Road (Outbound)</SimpleData>
+		<SimpleData name="Easting">461902</SimpleData>
+		<SimpleData name="Northing">453688</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-1.05771059679667,53.9755774170962</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Automatic_Cycle_Counters">
+		<SimpleData name="OBJECTID">49</SimpleData>
+		<SimpleData name="SiteNumber">69</SimpleData>
+		<SimpleData name="CountID">69c1</SimpleData>
+		<SimpleData name="CounterType">Cycle</SimpleData>
+		<SimpleData name="ChannelDirection">Channel 1: North East                             </SimpleData>
+		<SimpleData name="Road">Shared Use</SimpleData>
+		<SimpleData name="RoadName">Malton Road (Inbound)</SimpleData>
+		<SimpleData name="Easting">461933</SimpleData>
+		<SimpleData name="Northing">453695</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-1.05723660544694,53.9756366146318</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Automatic_Cycle_Counters">
+		<SimpleData name="OBJECTID">50</SimpleData>
+		<SimpleData name="SiteNumber">69</SimpleData>
+		<SimpleData name="CountID">69c2</SimpleData>
+		<SimpleData name="CounterType">Cycle</SimpleData>
+		<SimpleData name="ChannelDirection">Channel 2: South West </SimpleData>
+		<SimpleData name="Road">Shared Use</SimpleData>
+		<SimpleData name="RoadName">Malton Road (Inbound)</SimpleData>
+		<SimpleData name="Easting">461933</SimpleData>
+		<SimpleData name="Northing">453695</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-1.05723660544694,53.9756366146318</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Automatic_Cycle_Counters">
+		<SimpleData name="OBJECTID">51</SimpleData>
+		<SimpleData name="SiteNumber">70</SimpleData>
+		<SimpleData name="CountID">70c1</SimpleData>
+		<SimpleData name="CounterType">Cycle</SimpleData>
+		<SimpleData name="ChannelDirection">Channel 1: North                             </SimpleData>
+		<SimpleData name="Road">Cycle Path</SimpleData>
+		<SimpleData name="RoadName">Beckfield Lane</SimpleData>
+		<SimpleData name="Easting">456918</SimpleData>
+		<SimpleData name="Northing">452782</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-1.13385770682383,53.9680069317579</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Automatic_Cycle_Counters">
+		<SimpleData name="OBJECTID">52</SimpleData>
+		<SimpleData name="SiteNumber">70</SimpleData>
+		<SimpleData name="CountID">70c2</SimpleData>
+		<SimpleData name="CounterType">Cycle</SimpleData>
+		<SimpleData name="ChannelDirection">Channel 2: South</SimpleData>
+		<SimpleData name="Road">Cycle Path</SimpleData>
+		<SimpleData name="RoadName">Beckfield Lane</SimpleData>
+		<SimpleData name="Easting">456918</SimpleData>
+		<SimpleData name="Northing">452782</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-1.13385770682383,53.9680069317579</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Automatic_Cycle_Counters">
+		<SimpleData name="OBJECTID">53</SimpleData>
+		<SimpleData name="SiteNumber">71</SimpleData>
+		<SimpleData name="CountID">71c1</SimpleData>
+		<SimpleData name="CounterType">Cycle</SimpleData>
+		<SimpleData name="ChannelDirection">Channel 1: North                             </SimpleData>
+		<SimpleData name="Road">Cycle Path</SimpleData>
+		<SimpleData name="RoadName">Woodlea Avenue</SimpleData>
+		<SimpleData name="Easting">457266</SimpleData>
+		<SimpleData name="Northing">451852</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-1.12872778988469,53.9596111041123</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Automatic_Cycle_Counters">
+		<SimpleData name="OBJECTID">54</SimpleData>
+		<SimpleData name="SiteNumber">71</SimpleData>
+		<SimpleData name="CountID">71c2</SimpleData>
+		<SimpleData name="CounterType">Cycle</SimpleData>
+		<SimpleData name="ChannelDirection">Channel 2: South</SimpleData>
+		<SimpleData name="Road">Cycle Path</SimpleData>
+		<SimpleData name="RoadName">Woodlea Avenue</SimpleData>
+		<SimpleData name="Easting">457266</SimpleData>
+		<SimpleData name="Northing">451852</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-1.12872778988469,53.9596111041123</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Automatic_Cycle_Counters">
+		<SimpleData name="OBJECTID">55</SimpleData>
+		<SimpleData name="SiteNumber">72</SimpleData>
+		<SimpleData name="CountID">72c1</SimpleData>
+		<SimpleData name="CounterType">Cycle</SimpleData>
+		<SimpleData name="ChannelDirection">Channel 1: South West                  </SimpleData>
+		<SimpleData name="Road">Cycle Path</SimpleData>
+		<SimpleData name="RoadName">Scarcroft Lane</SimpleData>
+		<SimpleData name="Easting">459875</SimpleData>
+		<SimpleData name="Northing">451296</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-1.08907925670574,53.9543200065625</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Automatic_Cycle_Counters">
+		<SimpleData name="OBJECTID">56</SimpleData>
+		<SimpleData name="SiteNumber">72</SimpleData>
+		<SimpleData name="CountID">72c2</SimpleData>
+		<SimpleData name="CounterType">Cycle</SimpleData>
+		<SimpleData name="ChannelDirection">Channel 2: North East</SimpleData>
+		<SimpleData name="Road">Cycle Path</SimpleData>
+		<SimpleData name="RoadName">Scarcroft Lane</SimpleData>
+		<SimpleData name="Easting">459875</SimpleData>
+		<SimpleData name="Northing">451296</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-1.08907925670574,53.9543200065625</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Automatic_Cycle_Counters">
+		<SimpleData name="OBJECTID">57</SimpleData>
+		<SimpleData name="SiteNumber">73</SimpleData>
+		<SimpleData name="CountID">73c2</SimpleData>
+		<SimpleData name="CounterType">Cycle</SimpleData>
+		<SimpleData name="ChannelDirection">Channel 2: West                                     </SimpleData>
+		<SimpleData name="Road">On Road</SimpleData>
+		<SimpleData name="RoadName">A1079 Lawrence Street</SimpleData>
+		<SimpleData name="Easting">461537</SimpleData>
+		<SimpleData name="Northing">451325</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-1.06375032187808,53.9543861131323</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Automatic_Cycle_Counters">
+		<SimpleData name="OBJECTID">58</SimpleData>
+		<SimpleData name="SiteNumber">73</SimpleData>
+		<SimpleData name="CountID">73c4</SimpleData>
+		<SimpleData name="CounterType">Cycle</SimpleData>
+		<SimpleData name="ChannelDirection">Channel 4: East </SimpleData>
+		<SimpleData name="Road">On Road</SimpleData>
+		<SimpleData name="RoadName">A1079 Lawrence Street</SimpleData>
+		<SimpleData name="Easting">461537</SimpleData>
+		<SimpleData name="Northing">451325</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-1.06375032187808,53.9543861131323</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Automatic_Cycle_Counters">
+		<SimpleData name="OBJECTID">59</SimpleData>
+		<SimpleData name="SiteNumber">74</SimpleData>
+		<SimpleData name="CountID">74c3</SimpleData>
+		<SimpleData name="CounterType">Cycle</SimpleData>
+		<SimpleData name="ChannelDirection">Channel 3: North                                                </SimpleData>
+		<SimpleData name="Road">On Road</SimpleData>
+		<SimpleData name="RoadName">Cemetery Road</SimpleData>
+		<SimpleData name="Easting">460946</SimpleData>
+		<SimpleData name="Northing">450945</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-1.07283070654972,53.9510410359834</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Automatic_Cycle_Counters">
+		<SimpleData name="OBJECTID">60</SimpleData>
+		<SimpleData name="SiteNumber">74</SimpleData>
+		<SimpleData name="CountID">74c4</SimpleData>
+		<SimpleData name="CounterType">Cycle</SimpleData>
+		<SimpleData name="ChannelDirection">Channel 4: South </SimpleData>
+		<SimpleData name="Road">On Road</SimpleData>
+		<SimpleData name="RoadName">Cemetery Road</SimpleData>
+		<SimpleData name="Easting">460946</SimpleData>
+		<SimpleData name="Northing">450945</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-1.07283070654972,53.9510410359834</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Automatic_Cycle_Counters">
+		<SimpleData name="OBJECTID">61</SimpleData>
+		<SimpleData name="SiteNumber">75</SimpleData>
+		<SimpleData name="CountID">75c2</SimpleData>
+		<SimpleData name="CounterType">Cycle</SimpleData>
+		<SimpleData name="ChannelDirection">Channel 2: North East </SimpleData>
+		<SimpleData name="Road">Cycle Path</SimpleData>
+		<SimpleData name="RoadName">Terry Avenue</SimpleData>
+		<SimpleData name="Easting">460353</SimpleData>
+		<SimpleData name="Northing">450349</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-1.08198261628659,53.9457544220821</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Automatic_Cycle_Counters">
+		<SimpleData name="OBJECTID">62</SimpleData>
+		<SimpleData name="SiteNumber">75</SimpleData>
+		<SimpleData name="CountID">75c1</SimpleData>
+		<SimpleData name="CounterType">Cycle</SimpleData>
+		<SimpleData name="ChannelDirection">Channel 1: South West                          </SimpleData>
+		<SimpleData name="Road">Cycle Path</SimpleData>
+		<SimpleData name="RoadName">Terry Avenue</SimpleData>
+		<SimpleData name="Easting">460353</SimpleData>
+		<SimpleData name="Northing">450349</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-1.08198261628659,53.9457544220821</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Automatic_Cycle_Counters">
+		<SimpleData name="OBJECTID">63</SimpleData>
+		<SimpleData name="SiteNumber">76</SimpleData>
+		<SimpleData name="CountID">76c1</SimpleData>
+		<SimpleData name="CounterType">Cycle</SimpleData>
+		<SimpleData name="ChannelDirection">Channel 1: Inbound                                 </SimpleData>
+		<SimpleData name="Road">Shared Use</SimpleData>
+		<SimpleData name="RoadName">Millfield Lane</SimpleData>
+		<SimpleData name="Comments">No longer used</SimpleData>
+		<SimpleData name="Easting">456514</SimpleData>
+		<SimpleData name="Northing">454075</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-1.13977603030865,53.9796708022981</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Automatic_Cycle_Counters">
+		<SimpleData name="OBJECTID">64</SimpleData>
+		<SimpleData name="SiteNumber">76</SimpleData>
+		<SimpleData name="CountID">76c2</SimpleData>
+		<SimpleData name="CounterType">Cycle</SimpleData>
+		<SimpleData name="ChannelDirection">Channel 2: Outbound</SimpleData>
+		<SimpleData name="Road">Shared Use</SimpleData>
+		<SimpleData name="RoadName">Millfield Lane</SimpleData>
+		<SimpleData name="Comments">No longer used</SimpleData>
+		<SimpleData name="Easting">456514</SimpleData>
+		<SimpleData name="Northing">454075</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-1.13977603030865,53.9796708022981</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Automatic_Cycle_Counters">
+		<SimpleData name="OBJECTID">65</SimpleData>
+		<SimpleData name="SiteNumber">77</SimpleData>
+		<SimpleData name="CountID">77c1</SimpleData>
+		<SimpleData name="CounterType">Cycle</SimpleData>
+		<SimpleData name="ChannelDirection">Channel 1: South West                          </SimpleData>
+		<SimpleData name="Road">Shared Use</SimpleData>
+		<SimpleData name="RoadName">A1176 Clifton Bridge</SimpleData>
+		<SimpleData name="Easting">458962</SimpleData>
+		<SimpleData name="Northing">452820</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-1.10269682901613,53.968120037144</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Automatic_Cycle_Counters">
+		<SimpleData name="OBJECTID">66</SimpleData>
+		<SimpleData name="SiteNumber">77</SimpleData>
+		<SimpleData name="CountID">77c2</SimpleData>
+		<SimpleData name="CounterType">Cycle</SimpleData>
+		<SimpleData name="ChannelDirection">Channel 2: North East </SimpleData>
+		<SimpleData name="Road">Shared Use</SimpleData>
+		<SimpleData name="RoadName">A1176 Clifton Bridge</SimpleData>
+		<SimpleData name="Easting">458962</SimpleData>
+		<SimpleData name="Northing">452820</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-1.10269682901613,53.968120037144</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Automatic_Cycle_Counters">
+		<SimpleData name="OBJECTID">67</SimpleData>
+		<SimpleData name="SiteNumber">79</SimpleData>
+		<SimpleData name="CountID">79c3</SimpleData>
+		<SimpleData name="CounterType">Cycle</SimpleData>
+		<SimpleData name="ChannelDirection">Channel 3: South West                                                 </SimpleData>
+		<SimpleData name="Road">On Road</SimpleData>
+		<SimpleData name="RoadName">A1036 Heworth Green</SimpleData>
+		<SimpleData name="Easting">461058</SimpleData>
+		<SimpleData name="Northing">452573</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-1.07079961287285,53.9656578097987</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Automatic_Cycle_Counters">
+		<SimpleData name="OBJECTID">68</SimpleData>
+		<SimpleData name="SiteNumber">79</SimpleData>
+		<SimpleData name="CountID">79c4</SimpleData>
+		<SimpleData name="CounterType">Cycle</SimpleData>
+		<SimpleData name="ChannelDirection">Channel 4: North East </SimpleData>
+		<SimpleData name="Road">On Road</SimpleData>
+		<SimpleData name="RoadName">A1036 Heworth Green</SimpleData>
+		<SimpleData name="Easting">461058</SimpleData>
+		<SimpleData name="Northing">452573</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-1.07079961287285,53.9656578097987</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Automatic_Cycle_Counters">
+		<SimpleData name="OBJECTID">69</SimpleData>
+		<SimpleData name="SiteNumber">80</SimpleData>
+		<SimpleData name="CountID">80c1</SimpleData>
+		<SimpleData name="CounterType">Cycle</SimpleData>
+		<SimpleData name="ChannelDirection">Channel 1: North</SimpleData>
+		<SimpleData name="Road">On Road</SimpleData>
+		<SimpleData name="RoadName">Huntington Road</SimpleData>
+		<SimpleData name="Easting">460876</SimpleData>
+		<SimpleData name="Northing">453622</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-1.07336443644729,53.9751059275927</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Automatic_Cycle_Counters">
+		<SimpleData name="OBJECTID">70</SimpleData>
+		<SimpleData name="SiteNumber">81</SimpleData>
+		<SimpleData name="CountID">81c1</SimpleData>
+		<SimpleData name="CounterType">Cycle</SimpleData>
+		<SimpleData name="ChannelDirection">Channel 1: South </SimpleData>
+		<SimpleData name="Road">On Road</SimpleData>
+		<SimpleData name="RoadName">Huntington Road</SimpleData>
+		<SimpleData name="Easting">460890</SimpleData>
+		<SimpleData name="Northing">453619</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-1.07315161580669,53.9750773231245</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Automatic_Cycle_Counters">
+		<SimpleData name="OBJECTID">71</SimpleData>
+		<SimpleData name="SiteNumber">82</SimpleData>
+		<SimpleData name="CountID">82c2</SimpleData>
+		<SimpleData name="CounterType">Cycle</SimpleData>
+		<SimpleData name="ChannelDirection">Channel 2: North East </SimpleData>
+		<SimpleData name="Road">Shared Use</SimpleData>
+		<SimpleData name="RoadName">James Street Morrisons</SimpleData>
+		<SimpleData name="Easting">461162</SimpleData>
+		<SimpleData name="Northing">452026</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-1.06932400949105,53.9607299629249</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Automatic_Cycle_Counters">
+		<SimpleData name="OBJECTID">72</SimpleData>
+		<SimpleData name="SiteNumber">82</SimpleData>
+		<SimpleData name="CountID">82c1</SimpleData>
+		<SimpleData name="CounterType">Cycle</SimpleData>
+		<SimpleData name="ChannelDirection">Channel 1: South West                            </SimpleData>
+		<SimpleData name="Road">Shared Use</SimpleData>
+		<SimpleData name="RoadName">James Street Morrisons</SimpleData>
+		<SimpleData name="Easting">461162</SimpleData>
+		<SimpleData name="Northing">452026</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-1.06932400949105,53.9607299629249</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Automatic_Cycle_Counters">
+		<SimpleData name="OBJECTID">73</SimpleData>
+		<SimpleData name="SiteNumber">83</SimpleData>
+		<SimpleData name="CountID">83c1</SimpleData>
+		<SimpleData name="CounterType">Cycle</SimpleData>
+		<SimpleData name="ChannelDirection">Channel 1: North West                              </SimpleData>
+		<SimpleData name="Road">Cycle Path</SimpleData>
+		<SimpleData name="RoadName">Naburn Bridge</SimpleData>
+		<SimpleData name="Easting">459691</SimpleData>
+		<SimpleData name="Northing">446591</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-1.09279858935379,53.9120594959214</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Automatic_Cycle_Counters">
+		<SimpleData name="OBJECTID">74</SimpleData>
+		<SimpleData name="SiteNumber">83</SimpleData>
+		<SimpleData name="CountID">83c2</SimpleData>
+		<SimpleData name="CounterType">Cycle</SimpleData>
+		<SimpleData name="ChannelDirection">Channel 2: South East</SimpleData>
+		<SimpleData name="Road">Cycle Path</SimpleData>
+		<SimpleData name="RoadName">Naburn Bridge</SimpleData>
+		<SimpleData name="Easting">459691</SimpleData>
+		<SimpleData name="Northing">446591</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-1.09279858935379,53.9120594959214</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Automatic_Cycle_Counters">
+		<SimpleData name="OBJECTID">75</SimpleData>
+		<SimpleData name="SiteNumber">84</SimpleData>
+		<SimpleData name="CountID">84c1</SimpleData>
+		<SimpleData name="CounterType">Cycle</SimpleData>
+		<SimpleData name="ChannelDirection">Channel 1: North East                 </SimpleData>
+		<SimpleData name="Road">Cycle Path</SimpleData>
+		<SimpleData name="RoadName">Scarborough Bridge</SimpleData>
+		<SimpleData name="Easting">459642</SimpleData>
+		<SimpleData name="Northing">452091</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-1.09247458094097,53.9614911123387</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Automatic_Cycle_Counters">
+		<SimpleData name="OBJECTID">76</SimpleData>
+		<SimpleData name="SiteNumber">84</SimpleData>
+		<SimpleData name="CountID">84c2</SimpleData>
+		<SimpleData name="CounterType">Cycle</SimpleData>
+		<SimpleData name="ChannelDirection">Channel 2: South West</SimpleData>
+		<SimpleData name="Road">Cycle Path</SimpleData>
+		<SimpleData name="RoadName">Scarborough Bridge</SimpleData>
+		<SimpleData name="Easting">459642</SimpleData>
+		<SimpleData name="Northing">452091</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-1.09247458094097,53.9614911123387</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Automatic_Cycle_Counters">
+		<SimpleData name="OBJECTID">77</SimpleData>
+		<SimpleData name="SiteNumber">85</SimpleData>
+		<SimpleData name="CountID">85c1</SimpleData>
+		<SimpleData name="CounterType">Cycle</SimpleData>
+		<SimpleData name="ChannelDirection">Channel 1: North East                            </SimpleData>
+		<SimpleData name="Road">Cycle Path</SimpleData>
+		<SimpleData name="RoadName">Almery Terrace</SimpleData>
+		<SimpleData name="Easting">459613</SimpleData>
+		<SimpleData name="Northing">452093</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-1.0929161303752,53.9615124193517</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Automatic_Cycle_Counters">
+		<SimpleData name="OBJECTID">78</SimpleData>
+		<SimpleData name="SiteNumber">85</SimpleData>
+		<SimpleData name="CountID">85c2</SimpleData>
+		<SimpleData name="CounterType">Cycle</SimpleData>
+		<SimpleData name="ChannelDirection">Channel 2: South West </SimpleData>
+		<SimpleData name="Road">Cycle Path</SimpleData>
+		<SimpleData name="RoadName">Almery Terrace</SimpleData>
+		<SimpleData name="Easting">459613</SimpleData>
+		<SimpleData name="Northing">452093</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-1.0929161303752,53.9615124193517</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Automatic_Cycle_Counters">
+		<SimpleData name="OBJECTID">79</SimpleData>
+		<SimpleData name="SiteNumber">86</SimpleData>
+		<SimpleData name="CountID">86c1</SimpleData>
+		<SimpleData name="CounterType">Cycle</SimpleData>
+		<SimpleData name="ChannelDirection">Channel 1 : North East                        </SimpleData>
+		<SimpleData name="Road">Cycle Path</SimpleData>
+		<SimpleData name="RoadName">Rawcliffe Bar</SimpleData>
+		<SimpleData name="Easting">457523</SimpleData>
+		<SimpleData name="Northing">454416</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-1.12432874819006,53.9826242434451</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Automatic_Cycle_Counters">
+		<SimpleData name="OBJECTID">80</SimpleData>
+		<SimpleData name="SiteNumber">86</SimpleData>
+		<SimpleData name="CountID">86c2</SimpleData>
+		<SimpleData name="CounterType">Cycle</SimpleData>
+		<SimpleData name="ChannelDirection">Channel 2: South West </SimpleData>
+		<SimpleData name="Road">Cycle Path</SimpleData>
+		<SimpleData name="RoadName">Rawcliffe Bar</SimpleData>
+		<SimpleData name="Easting">457523</SimpleData>
+		<SimpleData name="Northing">454416</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-1.12432874819006,53.9826242434451</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Automatic_Cycle_Counters">
+		<SimpleData name="OBJECTID">81</SimpleData>
+		<SimpleData name="SiteNumber">87</SimpleData>
+		<SimpleData name="CountID">87c2</SimpleData>
+		<SimpleData name="CounterType">Cycle</SimpleData>
+		<SimpleData name="ChannelDirection">Channel 2: South East</SimpleData>
+		<SimpleData name="Road">Cycle Path</SimpleData>
+		<SimpleData name="RoadName">Millfield Lane</SimpleData>
+		<SimpleData name="Easting">456508</SimpleData>
+		<SimpleData name="Northing">454085</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-1.13986565367497,53.9797613224758</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Automatic_Cycle_Counters">
+		<SimpleData name="OBJECTID">82</SimpleData>
+		<SimpleData name="SiteNumber">87</SimpleData>
+		<SimpleData name="CountID">87c1</SimpleData>
+		<SimpleData name="CounterType">Cycle</SimpleData>
+		<SimpleData name="ChannelDirection">Channel 1: North West                                </SimpleData>
+		<SimpleData name="Road">Cycle Path</SimpleData>
+		<SimpleData name="RoadName">Millfield Lane</SimpleData>
+		<SimpleData name="Easting">456508</SimpleData>
+		<SimpleData name="Northing">454085</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-1.13986565367497,53.9797613224758</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Automatic_Cycle_Counters">
+		<SimpleData name="OBJECTID">83</SimpleData>
+		<SimpleData name="SiteNumber">88</SimpleData>
+		<SimpleData name="CountID">88c1</SimpleData>
+		<SimpleData name="CounterType">Cycle</SimpleData>
+		<SimpleData name="ChannelDirection">Channel 1: East                                       </SimpleData>
+		<SimpleData name="Road">Cycle Path</SimpleData>
+		<SimpleData name="RoadName">Windmill Lane</SimpleData>
+		<SimpleData name="Easting">462779</SimpleData>
+		<SimpleData name="Northing">450869</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-1.04492009313947,53.9501394855125</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Automatic_Cycle_Counters">
+		<SimpleData name="OBJECTID">84</SimpleData>
+		<SimpleData name="SiteNumber">88</SimpleData>
+		<SimpleData name="CountID">88c2</SimpleData>
+		<SimpleData name="CounterType">Cycle</SimpleData>
+		<SimpleData name="ChannelDirection">Channel 2: West </SimpleData>
+		<SimpleData name="Road">Cycle Path</SimpleData>
+		<SimpleData name="RoadName">Windmill Lane</SimpleData>
+		<SimpleData name="Easting">462779</SimpleData>
+		<SimpleData name="Northing">450869</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-1.04492009313947,53.9501394855125</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Automatic_Cycle_Counters">
+		<SimpleData name="OBJECTID">85</SimpleData>
+		<SimpleData name="SiteNumber">89</SimpleData>
+		<SimpleData name="CountID">89c3</SimpleData>
+		<SimpleData name="CounterType">Cycle</SimpleData>
+		<SimpleData name="ChannelDirection">Channel 3: South                                    </SimpleData>
+		<SimpleData name="Road">On Road</SimpleData>
+		<SimpleData name="RoadName">Clarence Street</SimpleData>
+		<SimpleData name="Easting">460278</SimpleData>
+		<SimpleData name="Northing">452679</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-1.08266654474094,53.9667016360637</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Automatic_Cycle_Counters">
+		<SimpleData name="OBJECTID">86</SimpleData>
+		<SimpleData name="SiteNumber">89</SimpleData>
+		<SimpleData name="CountID">89c4</SimpleData>
+		<SimpleData name="CounterType">Cycle</SimpleData>
+		<SimpleData name="ChannelDirection">Channel 4: North </SimpleData>
+		<SimpleData name="Road">On Road</SimpleData>
+		<SimpleData name="RoadName">Clarence Street</SimpleData>
+		<SimpleData name="Easting">460278</SimpleData>
+		<SimpleData name="Northing">452679</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-1.08266654474094,53.9667016360637</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Automatic_Cycle_Counters">
+		<SimpleData name="OBJECTID">87</SimpleData>
+		<SimpleData name="SiteNumber">90</SimpleData>
+		<SimpleData name="CountID">90c1</SimpleData>
+		<SimpleData name="CounterType">Cycle</SimpleData>
+		<SimpleData name="ChannelDirection">Channel 1: North West                                </SimpleData>
+		<SimpleData name="Road">Shared Use</SimpleData>
+		<SimpleData name="RoadName">Crichton Avenue</SimpleData>
+		<SimpleData name="Comments">No longer used</SimpleData>
+		<SimpleData name="Easting">460124</SimpleData>
+		<SimpleData name="Northing">453498</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-1.08485250910494,53.9740794304104</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Automatic_Cycle_Counters">
+		<SimpleData name="OBJECTID">88</SimpleData>
+		<SimpleData name="SiteNumber">90</SimpleData>
+		<SimpleData name="CountID">90c2</SimpleData>
+		<SimpleData name="CounterType">Cycle</SimpleData>
+		<SimpleData name="ChannelDirection">Channel 2: South East</SimpleData>
+		<SimpleData name="Road">Shared Use</SimpleData>
+		<SimpleData name="RoadName">Crichton Avenue</SimpleData>
+		<SimpleData name="Comments">No longer used</SimpleData>
+		<SimpleData name="Easting">460124</SimpleData>
+		<SimpleData name="Northing">453498</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-1.08485250910494,53.9740794304104</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Automatic_Cycle_Counters">
+		<SimpleData name="OBJECTID">89</SimpleData>
+		<SimpleData name="SiteNumber">91</SimpleData>
+		<SimpleData name="CountID">91c1</SimpleData>
+		<SimpleData name="CounterType">Cycle</SimpleData>
+		<SimpleData name="ChannelDirection">Channel 1: North West                                      </SimpleData>
+		<SimpleData name="Road">Shared Use</SimpleData>
+		<SimpleData name="RoadName">Crichton Avenue</SimpleData>
+		<SimpleData name="Comments">No longer used</SimpleData>
+		<SimpleData name="Easting">460127</SimpleData>
+		<SimpleData name="Northing">453498</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-1.08480677749364,53.9740790822646</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Automatic_Cycle_Counters">
+		<SimpleData name="OBJECTID">90</SimpleData>
+		<SimpleData name="SiteNumber">91</SimpleData>
+		<SimpleData name="CountID">91c2</SimpleData>
+		<SimpleData name="CounterType">Cycle</SimpleData>
+		<SimpleData name="ChannelDirection">Channel 2: South East </SimpleData>
+		<SimpleData name="Road">Shared Use</SimpleData>
+		<SimpleData name="RoadName">Crichton Avenue</SimpleData>
+		<SimpleData name="Comments">No longer used</SimpleData>
+		<SimpleData name="Easting">460127</SimpleData>
+		<SimpleData name="Northing">453498</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-1.08480677749364,53.9740790822646</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Automatic_Cycle_Counters">
+		<SimpleData name="OBJECTID">91</SimpleData>
+		<SimpleData name="SiteNumber">92</SimpleData>
+		<SimpleData name="CountID">92c2</SimpleData>
+		<SimpleData name="CounterType">Cycle</SimpleData>
+		<SimpleData name="ChannelDirection">Channel 2: North West</SimpleData>
+		<SimpleData name="Road">Cycle Path</SimpleData>
+		<SimpleData name="RoadName">Retreat Lane</SimpleData>
+		<SimpleData name="Easting">461786</SimpleData>
+		<SimpleData name="Northing">450857</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-1.06005079902651,53.9501508671174</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Automatic_Cycle_Counters">
+		<SimpleData name="OBJECTID">92</SimpleData>
+		<SimpleData name="SiteNumber">92</SimpleData>
+		<SimpleData name="CountID">92c1</SimpleData>
+		<SimpleData name="CounterType">Cycle</SimpleData>
+		<SimpleData name="ChannelDirection">Channel 1: South East                                      </SimpleData>
+		<SimpleData name="Road">Cycle Path</SimpleData>
+		<SimpleData name="RoadName">Retreat Lane</SimpleData>
+		<SimpleData name="Easting">461786</SimpleData>
+		<SimpleData name="Northing">450857</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-1.06005079902651,53.9501508671174</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Automatic_Cycle_Counters">
+		<SimpleData name="OBJECTID">93</SimpleData>
+		<SimpleData name="SiteNumber">94</SimpleData>
+		<SimpleData name="CountID">94c1</SimpleData>
+		<SimpleData name="CounterType">Cycle</SimpleData>
+		<SimpleData name="ChannelDirection">Channel 1: Bridge to Maple                                      </SimpleData>
+		<SimpleData name="Road">Cycle Path</SimpleData>
+		<SimpleData name="RoadName">Millennium Bridge</SimpleData>
+		<SimpleData name="Easting">460401</SimpleData>
+		<SimpleData name="Northing">450205</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-1.08127977510021,53.9444547843589</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Automatic_Cycle_Counters">
+		<SimpleData name="OBJECTID">94</SimpleData>
+		<SimpleData name="SiteNumber">94</SimpleData>
+		<SimpleData name="CountID">94c2</SimpleData>
+		<SimpleData name="CounterType">Cycle</SimpleData>
+		<SimpleData name="ChannelDirection">Channel 2: Maple to Bridge                                                        </SimpleData>
+		<SimpleData name="Road">Cycle Path</SimpleData>
+		<SimpleData name="RoadName">Millennium Bridge</SimpleData>
+		<SimpleData name="Easting">460401</SimpleData>
+		<SimpleData name="Northing">450205</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-1.08127977510021,53.9444547843589</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Automatic_Cycle_Counters">
+		<SimpleData name="OBJECTID">95</SimpleData>
+		<SimpleData name="SiteNumber">94</SimpleData>
+		<SimpleData name="CountID">94c3</SimpleData>
+		<SimpleData name="CounterType">Cycle</SimpleData>
+		<SimpleData name="ChannelDirection">Channel 3: Bridge to Maple                                                      </SimpleData>
+		<SimpleData name="Road">Cycle Path</SimpleData>
+		<SimpleData name="RoadName">Millennium Bridge</SimpleData>
+		<SimpleData name="Easting">460401</SimpleData>
+		<SimpleData name="Northing">450205</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-1.08127977510021,53.9444547843589</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Automatic_Cycle_Counters">
+		<SimpleData name="OBJECTID">96</SimpleData>
+		<SimpleData name="SiteNumber">94</SimpleData>
+		<SimpleData name="CountID">94c4</SimpleData>
+		<SimpleData name="CounterType">Cycle</SimpleData>
+		<SimpleData name="ChannelDirection">Channel 4: Maple to Bridge                                 </SimpleData>
+		<SimpleData name="Road">Cycle Path</SimpleData>
+		<SimpleData name="RoadName">Millennium Bridge</SimpleData>
+		<SimpleData name="Easting">460401</SimpleData>
+		<SimpleData name="Northing">450205</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-1.08127977510021,53.9444547843589</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Automatic_Cycle_Counters">
+		<SimpleData name="OBJECTID">97</SimpleData>
+		<SimpleData name="SiteNumber">95</SimpleData>
+		<SimpleData name="CountID">95c1</SimpleData>
+		<SimpleData name="CounterType">Cycle</SimpleData>
+		<SimpleData name="ChannelDirection">Channel 1: Bridge to St Georges                  </SimpleData>
+		<SimpleData name="Road">Cycle Path</SimpleData>
+		<SimpleData name="RoadName">Millennium Bridge</SimpleData>
+		<SimpleData name="Easting">460401</SimpleData>
+		<SimpleData name="Northing">450205</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-1.08127977510021,53.9444547843589</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Automatic_Cycle_Counters">
+		<SimpleData name="OBJECTID">98</SimpleData>
+		<SimpleData name="SiteNumber">95</SimpleData>
+		<SimpleData name="CountID">95c2</SimpleData>
+		<SimpleData name="CounterType">Cycle</SimpleData>
+		<SimpleData name="ChannelDirection">Channel 2: St Georges to Bridge                  </SimpleData>
+		<SimpleData name="Road">Cycle Path</SimpleData>
+		<SimpleData name="RoadName">Millennium Bridge</SimpleData>
+		<SimpleData name="Easting">460401</SimpleData>
+		<SimpleData name="Northing">450205</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-1.08127977510021,53.9444547843589</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Automatic_Cycle_Counters">
+		<SimpleData name="OBJECTID">99</SimpleData>
+		<SimpleData name="SiteNumber">95</SimpleData>
+		<SimpleData name="CountID">95c3</SimpleData>
+		<SimpleData name="CounterType">Cycle</SimpleData>
+		<SimpleData name="ChannelDirection">Channel 3: Bridge to St Georges   </SimpleData>
+		<SimpleData name="Road">Cycle Path</SimpleData>
+		<SimpleData name="RoadName">Millennium Bridge</SimpleData>
+		<SimpleData name="Easting">460401</SimpleData>
+		<SimpleData name="Northing">450205</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-1.08127977510021,53.9444547843589</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Automatic_Cycle_Counters">
+		<SimpleData name="OBJECTID">100</SimpleData>
+		<SimpleData name="SiteNumber">95</SimpleData>
+		<SimpleData name="CountID">95c4</SimpleData>
+		<SimpleData name="CounterType">Cycle</SimpleData>
+		<SimpleData name="ChannelDirection">Channel 4: St Georges to Bridge                         </SimpleData>
+		<SimpleData name="Road">Cycle Path</SimpleData>
+		<SimpleData name="RoadName">Millennium Bridge</SimpleData>
+		<SimpleData name="Easting">460401</SimpleData>
+		<SimpleData name="Northing">450205</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-1.08127977510021,53.9444547843589</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Automatic_Cycle_Counters">
+		<SimpleData name="OBJECTID">101</SimpleData>
+		<SimpleData name="SiteNumber">96</SimpleData>
+		<SimpleData name="CountID">96c3</SimpleData>
+		<SimpleData name="CounterType">Cycle</SimpleData>
+		<SimpleData name="ChannelDirection">Channel 3: East</SimpleData>
+		<SimpleData name="Road">On Road</SimpleData>
+		<SimpleData name="RoadName">Leeman Road</SimpleData>
+		<SimpleData name="Easting">458807</SimpleData>
+		<SimpleData name="Northing">452135</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-1.10519093270099,53.9619818665252</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Automatic_Cycle_Counters">
+		<SimpleData name="OBJECTID">102</SimpleData>
+		<SimpleData name="SiteNumber">96</SimpleData>
+		<SimpleData name="CountID">96c4</SimpleData>
+		<SimpleData name="CounterType">Cycle</SimpleData>
+		<SimpleData name="ChannelDirection">Channel 4: West</SimpleData>
+		<SimpleData name="Road">On Road</SimpleData>
+		<SimpleData name="RoadName">Leeman Road</SimpleData>
+		<SimpleData name="Easting">458807</SimpleData>
+		<SimpleData name="Northing">452135</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-1.10519093270099,53.9619818665252</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Automatic_Cycle_Counters">
+		<SimpleData name="OBJECTID">103</SimpleData>
+		<SimpleData name="SiteNumber">99</SimpleData>
+		<SimpleData name="CountID">99c3</SimpleData>
+		<SimpleData name="CounterType">Cycle</SimpleData>
+		<SimpleData name="ChannelDirection">Channel 3: North</SimpleData>
+		<SimpleData name="Road">On Road</SimpleData>
+		<SimpleData name="RoadName">Eboracum Way</SimpleData>
+		<SimpleData name="Easting">461019</SimpleData>
+		<SimpleData name="Northing">452468</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-1.07141496080608,53.9647188229001</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#Automatic_Cycle_Counters">
+		<SimpleData name="OBJECTID">104</SimpleData>
+		<SimpleData name="SiteNumber">99</SimpleData>
+		<SimpleData name="CountID">99c4</SimpleData>
+		<SimpleData name="CounterType">Cycle</SimpleData>
+		<SimpleData name="ChannelDirection">Channel 4: South</SimpleData>
+		<SimpleData name="Road">On Road</SimpleData>
+		<SimpleData name="RoadName">Eboracum Way</SimpleData>
+		<SimpleData name="Easting">461019</SimpleData>
+		<SimpleData name="Northing">452468</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-1.07141496080608,53.9647188229001</coordinates></Point>
+  </Placemark>
+</Folder>
+</Document></kml>

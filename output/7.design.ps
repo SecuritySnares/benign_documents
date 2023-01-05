@@ -1,0 +1,4791 @@
+%!PS-Adobe-3.0
+%%BoundingBox: (atend)
+%%Pages: (atend)
+%%PageOrder: (atend)
+%%DocumentFonts: (atend)
+%%Creator: Frame 5.1
+%%DocumentData: Clean7Bit
+%%EndComments
+%%BeginProlog
+%-
+%- Frame ps_prolog 5.0, for use with Frame 5.0 products
+%- This ps_prolog file is Copyright (c) 1986-1996 Adobe Systems, Incoporated.
+%- All rights reserved.  This ps_prolog file may be freely copied and 
+%- distributed in conjunction with documents created using FrameMaker, 
+%- FrameMaker/SGML FrameReader and FrameViewer as long as this 
+%- copyright notice is preserved.
+%-
+%- FrameMaker users specify the proper paper size for each print job in the
+%- "Print" dialog's "Printer Paper Size" "Width" and "Height~ fields.  If the
+%- printer that the PS file is sent to does not support the requested paper
+%- size, or if there is no paper tray of the proper size currently installed, 
+%- then the job will not be printed.  The following flag, if set to true, will
+%- cause the job to print on the default paper in such cases.
+/FMAllowPaperSizeMismatch            false def
+%-
+%- Frame products normally print colors as their true color on a color printer
+%- or as shades of gray, based on luminance, on a black-and white printer. The
+%- following flag, if set to true, forces all non-white colors to print as pure
+%- black. This has no effect on bitmap images.
+/FMPrintAllColorsAsBlack             false def
+%-
+%- Frame products can either set their own line screens or use a printer's 
+%- default settings. Three flags below control this separately for no 
+%- separations, spot separations and process separations. If a flag
+%- is true, then the default printer settings will not be changed. If it is
+%- false, Frame products will use their own settings from a table based on
+%- the printer's resolution.
+/FMUseDefaultNoSeparationScreen      true  def
+/FMUseDefaultSpotSeparationScreen    true  def
+/FMUseDefaultProcessSeparationScreen false def
+%-
+%- For any given PostScript printer resolution, Frame products have two sets of 
+%- screen angles and frequencies for printing process separations, which are 
+%- recomended by Adobe. The following variable chooses the higher frequencies
+%- when set to true or the lower frequencies when set to false. This is only
+%- effective if the appropriate FMUseDefault...SeparationScreen flag is false.
+/FMUseHighFrequencyScreens true def
+%-
+%- The following is a set of predefined optimal frequencies and angles for various
+%- common dpi settings. This is taken from "Advances in Color Separation Using
+%- PostScript Software Technology," from Adobe Systems (3/13/89 P.N. LPS 0043)
+%- and corrolated with information which is in various PPD (4.0) files.
+%-
+%- The "dpiranges" figure is the minimum dots per inch device resolution which
+%- can support this setting. The "low" and "high" values are controlled by the
+%- setting of the FMUseHighFrequencyScreens flag above. The "TDot" flags control
+%- the use of the "Yellow Triple Dot" feature whereby the frequency id divided by
+%- three, but the dot function is "trippled" giving a block of 3x3 dots per cell.
+%-
+%- PatFreq is a compromise pattern frequency for ps Level 2 printers which is close
+%- to the ideal WYSIWYG pattern frequency of 9 repetitions/inch but does not beat
+%- (too badly) against the screen frequencies of any separations for that DPI.
+% This is computed by taking dpi/9 as the ideal pixels per repetition, and then
+% computing a tiling size in printer pixels for each of the four separations as 
+% (dpi/screenFreq)*(cos(screenAngle)+sin(screenAngle)) Actually, this is the same 
+% for Cyan and Magenta). Then, we take a "nice" LCM of the tile sizes close to
+% the desired pattern tile where the beat factor is not more than 2 or 3.
+%
+/dpiranges   [  2540    2400    1693     1270    1200     635      600      0      ] def
+/CMLowFreqs  [ 100.402  94.8683 89.2289 100.402  94.8683  66.9349  63.2456 47.4342 ] def
+/YLowFreqs   [  95.25   90.0    84.65    95.25   90.0     70.5556  66.6667 50.0    ] def
+/KLowFreqs   [  89.8026 84.8528 79.8088  89.8026 84.8528  74.8355  70.7107 53.033  ] def
+/CLowAngles  [  71.5651 71.5651 71.5651 71.5651  71.5651  71.5651  71.5651 71.5651 ] def
+/MLowAngles  [  18.4349 18.4349 18.4349 18.4349  18.4349  18.4349  18.4349 18.4349 ] def
+/YLowTDot    [  true    true    false    true    true     false    false   false   ] def
+
+/CMHighFreqs [ 133.87  126.491 133.843  108.503 102.523  100.402   94.8683 63.2456 ] def
+/YHighFreqs  [ 127.0   120.0   126.975  115.455 109.091   95.25    90.0    60.0    ] def
+/KHighFreqs  [ 119.737 113.137 119.713  128.289 121.218   89.8026  84.8528 63.6395 ] def
+/CHighAngles [  71.5651 71.5651 71.5651  70.0169 70.0169  71.5651  71.5651 71.5651 ] def
+/MHighAngles [  18.4349 18.4349 18.4349  19.9831 19.9831  18.4349  18.4349 18.4349 ] def
+/YHighTDot   [  false   false   true     false   false    true     true    false   ] def
+
+/PatFreq     [	10.5833 10.0     9.4055  10.5833 10.0	  10.5833  10.0	   9.375   ] def
+%-
+%- PostScript Level 2 printers contain an "Accurate Screens" feature which can
+%- improve process separation rendering at the expense of compute time. This 
+%- flag is ignored by PostScript Level 1 printers.
+/FMUseAcccurateScreens true def
+%-
+%- The following PostScript procedure defines the spot function that Frame
+%- products will use for process separations. You may un-comment-out one of
+%- the alternative functions below, or use your own.
+%-
+%- Dot function
+/FMSpotFunction {abs exch abs 2 copy add 1 gt 
+		{1 sub dup mul exch 1 sub dup mul add 1 sub }
+		{dup mul exch dup mul add 1 exch sub }ifelse } def
+%-
+%- Line function
+%- /FMSpotFunction { pop } def
+%-
+%- Elipse function
+%- /FMSpotFunction { dup 5 mul 8 div mul exch dup mul exch add 
+%-		sqrt 1 exch sub } def
+%-
+%-
+
+/FMversion (5.0) def % matches PS_VERSION in fmprintdriver
+
+% PostScript Level 1 = true, 2 = false
+/fMLevel1 /languagelevel where {pop languagelevel} {1} ifelse 2 lt def
+
+% Set up Color vs. Black-and-White
+/FMPColor
+	fMLevel1 {
+		false
+		/colorimage where {pop pop true} if
+	} {
+%		statusdict /processcolors known {
+%			statusdict /processcolors get exec
+%		} {1} ifelse
+%		1 gt
+		true
+	} ifelse
+def
+
+/FrameDict 400 dict def % should check this value each time changes made
+
+%
+% For NeWS we add a fake errordict, so we can psh files
+%
+systemdict /errordict known not {/errordict 10 dict def
+		errordict /rangecheck {stop} put} if
+
+%- The readline in PS 23.0 doesn't recognize cr's as nl's on AppleTalk
+FrameDict /tmprangecheck errordict /rangecheck get put % save old rangecheck
+errordict /rangecheck {FrameDict /bug true put} put % will flag bug found
+FrameDict /bug false put % flag bug not found
+mark % since we're not sure what will happen next
+%- Some PS machines read past the CR, so keep the following 3 lines together!
+currentfile 5 string readline
+00
+0000000000
+cleartomark % junk from readline and rangecheck
+errordict /rangecheck FrameDict /tmprangecheck get put % restore rangecheck
+FrameDict /bug get { % redefine readline if last one got a rangecheck
+	/readline {
+		/gstring exch def
+		/gfile exch def
+		/gindex 0 def
+		{
+			gfile read pop % get a char
+			dup 10 eq {exit} if % exit if LF
+			dup 13 eq {exit} if % exit if CR
+			gstring exch gindex exch put % store it away
+			/gindex gindex 1 add def % bump index
+		} loop
+		pop % eol character
+		gstring 0 gindex getinterval true % simulate real readline
+		} bind def
+	} if
+
+% outer-world defs
+
+/FMshowpage /showpage load def
+/FMquit /quit load def
+
+/FMFAILURE { % enter with two error strings on the stack
+	dup = flush % send a copy of the message to the console
+	FMshowpage % msg on a page by itself, so it can't be, say, black on black
+	/Helvetica findfont 12 scalefont setfont
+	72 200 moveto show
+	72 220 moveto show
+	FMshowpage % we might be in the middle of some EPS, where "showpage"
+	FMquit % and "quit" are redefined
+	} def % only used once at most, so no bind
+
+/FMVERSION {
+	FMversion ne {
+		(Adobe Frame product version does not match ps_prolog!  Check installation;)
+		(also check ~/fminit and ./fminit for old versions) FMFAILURE
+		} if
+	} def % only used at startup, so no bind
+
+/FMBADEPSF { % Call with bad operator name on stack (as a string)
+	(Adobe's PostScript Language Reference Manual, 2nd Edition, section H.2.4)
+	(says your EPS file is not valid, as it calls X              )
+	dup dup (X) search pop exch pop exch pop length % parmstr errstr errstr indx
+	5 -1 roll % errstr errstr index parmstr
+	putinterval % errstr
+	FMFAILURE
+	} def
+
+% standard concatprocs routine
+/fmConcatProcs
+	{
+	/proc2 exch cvlit def/proc1 exch cvlit def/newproc proc1 length proc2 length add array def
+	newproc 0 proc1 putinterval newproc proc1 length proc2 putinterval newproc cvx
+}def
+
+% Put all local variables here in alphabetical order.
+FrameDict begin [
+	/ALDsave
+	/FMdicttop
+	/FMoptop
+	/FMpointsize
+	/FMsaveobject
+	/b
+	/bitmapsave
+	/blut
+	/bpside
+	/bs
+	/bstring
+	/bwidth
+	/c
+	/cf
+	/cs
+	/cynu
+	/depth
+	/edown
+	/fh
+	/fillvals
+	/fw
+	/fx
+	/fy
+	/g
+	/gfile
+	/gindex
+	/grnt
+	/gryt
+	/gstring
+	/height
+	/hh
+	/i
+	/im
+	/indx
+	/is
+	/k
+	/kk
+	/landscape
+	/lb
+	/len
+	/llx
+	/lly
+	/m
+	/magu
+	/manualfeed
+	/n
+	/offbits
+	/onbits
+	/organgle
+	/orgbangle
+	/orgbfreq
+	/orgbproc
+	/orgbxfer
+	/orgfreq
+	/orggangle
+	/orggfreq
+	/orggproc
+	/orggxfer
+	/orgmatrix
+	/orgproc
+	/orgrangle
+	/orgrfreq
+	/orgrproc
+	/orgrxfer
+	/orgxfer
+	/pagesave
+	/paperheight
+	/papersizedict
+	/paperwidth
+	/pos
+	/pwid
+	/r
+	/rad
+	/redt
+	/sl
+	/str
+	/tran
+	/u
+	/urx
+	/ury
+	/val
+	/width
+	/width
+	/ws
+	/ww
+	/x
+	/x1
+	/x2
+	/xindex
+	/xpoint
+	/xscale
+	/xx
+	/y
+	/y1
+	/y2
+	/yelu
+	/yindex
+	/ypoint
+	/yscale
+	/yy
+] { 0 def } forall
+
+% Start of PDF/Acrobat support
+
+% Bind def
+/FmBD {bind def} bind def
+
+systemdict /pdfmark known {
+	/fMAcrobat true def
+
+	% FmPD is a conditional PDFMark
+	/FmPD /pdfmark load def
+	
+	% FmPT is a show text operator which only show up when distiller is active
+	/FmPT /show load def
+	
+	% FmPD2 and FmPA are Acrobat 2.0-specific
+	currentdistillerparams /CoreDistVersion get 2000 ge {
+	
+		% FmPD2 is like FmPD but for Acrobat 2.0-specific PDF
+		/FmPD2 /pdfmark load def
+		
+		% x y/name FmPA
+		% 	is equivalent to
+		% [/Dest/name/View[/FitH x y FmDC exch pop]/DEST FmPD
+		% It is a shortcut for pagragraph Uinique ID designators whic occurr commonly.
+		/FmPA { mark exch /Dest exch 5 3 roll 
+				/View [ /XYZ null 6 -2 roll FmDC exch pop null] /DEST FmPD 
+		}FmBD
+	} {
+		% These are No-Ops for Distiller 1.0
+		/FmPD2 /cleartomark load def
+		/FmPA {pop pop pop}FmBD
+	} ifelse
+} {
+	% these are the No-Ops for regular PostScript
+	/fMAcrobat false def
+	/FmPD /cleartomark load def
+	/FmPD2 /cleartomark load def
+	/FmPT /pop load def
+	/FmPA {pop pop pop}FmBD
+} ifelse
+
+% This convert a set of X Y coordinates from the current user space to the default
+% PostScript coordinates needed by some pdfmark variants. We also convert to 
+% integer because the distiller doesn't always like floats!
+/FmDC {
+	transform fMDefaultMatrix itransform cvi exch cvi exch
+}FmBD
+
+% This converts four numbers into a bounding box making sure the first two are maller than the last two
+/FmBx {
+	dup 3 index lt {3 1 roll exch} if 
+	1 index 4 index lt {4 -1 roll 3 1 roll exch 4 1 roll} if
+}FmBD
+
+% End of PDF/Acrobat support
+
+%
+% Color separation code
+%
+
+% Constants.
+
+/FMnone 0 def
+/FMcyan 1 def
+/FMmagenta 2 def
+/FMyellow 3 def
+/FMblack 4 def
+/FMcustom 5 def
+
+/fMNegative false def % we are inverting the page
+
+% Variables.
+
+/FrameSepIs FMnone def % separation we are printing
+% If FrameSepIs is FMcustom, this is the custom color
+/FrameSepBlack 0 def
+/FrameSepYellow 0 def
+/FrameSepMagenta 0 def
+/FrameSepCyan 0 def
+/FrameSepRed 1 def
+/FrameSepGreen 1 def
+/FrameSepBlue 1 def
+/FrameCurGray 1 def
+/FrameCurPat null def
+
+/FrameCurColors [ 0 0 0 1 0 0 0 ] def % c m y k r g b
+
+% Utility routines
+
+/FrameColorEpsilon .001 def	% epsilon by which values can differ and sill be equal
+/eqepsilon {		% v1 v2 eqeps bool
+	sub dup 0 lt {neg} if
+	FrameColorEpsilon le
+} bind def
+
+% are the cmyk and cmykrgb arrays on the stack the same color?
+/FrameCmpColorsCMYK { % [ c1 m1 y1 k1 ] [ c2 m2 y2 k2 r2 g2 b2] -> bool
+	2 copy 0 get exch 0 get eqepsilon {
+		2 copy 1 get exch 1 get eqepsilon {
+			2 copy 2 get exch 2 get eqepsilon {
+				3 get exch 3 get eqepsilon
+			} {pop pop false} ifelse
+		}{pop pop false} ifelse
+	} {pop pop false} ifelse
+} bind def
+% are the rgb and cmykrgb arrays on the stack the same color?
+/FrameCmpColorsRGB { % [ r1 g1 b1 ] [ c2 m2 y2 k2 r2 g2 b2] -> bool
+	2 copy 4 get exch 0 get eqepsilon {
+		2 copy 5 get exch 1 get eqepsilon {
+			6 get exch 2 get eqepsilon
+		}{pop pop false} ifelse
+	} {pop pop false} ifelse
+} bind def
+
+% convert r g b to c m y k
+/RGBtoCMYK { % r g b
+	1 exch sub % r g y
+	3 1 roll % y r g
+	1 exch sub % y r m
+	3 1 roll % m y r
+	1 exch sub % m y c
+	3 1 roll % c m y
+	3 copy % c m y c m y
+	2 copy % c m y c m y m y
+	le { pop } { exch pop } ifelse % c m y c min(m,y)
+	2 copy % c m y c min(m,y) c min(m,y)
+	le { pop } { exch pop } ifelse % c m y min(c, min(m,y))
+	dup dup dup % c m y k k k k
+	6 1 roll % c k m y k k k
+	4 1 roll % c k m k y k k
+	7 1 roll % k c k m k y k
+	sub % k c k m k y
+	6 1 roll % y k c k m k
+	sub % y k c k m
+	5 1 roll % m y k c k
+	sub % m y k c
+	4 1 roll % c m y k 
+} bind def
+/CMYKtoRGB { % c m y k CMYKtoRGB r g b
+	dup dup 4 -1 roll add 						  % c m k k y+k
+	5 1 roll 3 -1 roll add 						  % y+k c k m+k
+	4 1 roll add 								  % m+k y+k c+k
+	1 exch sub dup 0 lt {pop 0} if 3 1 roll 	  % r m+k y+k
+	1 exch sub dup 0 lt {pop 0} if exch 	      % r b m+k
+	1 exch sub dup 0 lt {pop 0} if exch	  		  % r g b
+} bind def
+
+% Public routines
+
+
+% Happens at the top of each page that is a separation
+/FrameSepInit {
+	1.0 RealSetgray
+} bind def
+% Tell the separation code that this separation is for a custom color
+/FrameSetSepColor { % c m y k r g b
+	/FrameSepBlue exch def
+	/FrameSepGreen exch def
+	/FrameSepRed exch def
+	/FrameSepBlack exch def
+	/FrameSepYellow exch def
+	/FrameSepMagenta exch def
+	/FrameSepCyan exch def
+	/FrameSepIs FMcustom def
+	setCurrentScreen	
+} bind def
+% Tell the separation code that this separation is Cyan
+/FrameSetCyan {
+	/FrameSepBlue 1.0 def
+	/FrameSepGreen 1.0 def
+	/FrameSepRed 0.0 def
+	/FrameSepBlack 0.0 def
+	/FrameSepYellow 0.0 def
+	/FrameSepMagenta 0.0 def
+	/FrameSepCyan 1.0 def
+	/FrameSepIs FMcyan def
+	setCurrentScreen	
+} bind def
+ 
+% Tell the separation code that this separation is Magenta
+/FrameSetMagenta {
+	/FrameSepBlue 1.0 def
+	/FrameSepGreen 0.0 def
+	/FrameSepRed 1.0 def
+	/FrameSepBlack 0.0 def
+	/FrameSepYellow 0.0 def
+	/FrameSepMagenta 1.0 def
+	/FrameSepCyan 0.0 def
+	/FrameSepIs FMmagenta def
+	setCurrentScreen
+} bind def
+ 
+% Tell the separation code that this separation is Yellow
+/FrameSetYellow {
+	/FrameSepBlue 0.0 def
+	/FrameSepGreen 1.0 def
+	/FrameSepRed 1.0 def
+	/FrameSepBlack 0.0 def
+	/FrameSepYellow 1.0 def
+	/FrameSepMagenta 0.0 def
+	/FrameSepCyan 0.0 def
+	/FrameSepIs FMyellow def
+	setCurrentScreen
+} bind def
+ 
+% Tell the separation code that this separation is Black
+/FrameSetBlack {
+	/FrameSepBlue 0.0 def
+	/FrameSepGreen 0.0 def
+	/FrameSepRed 0.0 def
+	/FrameSepBlack 1.0 def
+	/FrameSepYellow 0.0 def
+	/FrameSepMagenta 0.0 def
+	/FrameSepCyan 0.0 def
+	/FrameSepIs FMblack def
+	setCurrentScreen
+} bind def
+ 
+% Tell the separation code we are not doing a separation
+/FrameNoSep { %
+	/FrameSepIs FMnone def
+	setCurrentScreen
+} bind def
+
+% Initialize the separation code with all the custom colors we are
+% separating (not process colors)
+/FrameSetSepColors { % list of arrays of [c m y k r g b] count 
+	FrameDict begin
+	[ exch 1 add 1 roll ]
+	/FrameSepColors  % array of arrays of colors we are separating
+	exch def end
+	} bind def
+
+% is this color array in the array of custom color separations?
+/FrameColorInSepListCMYK { % [ c m y k ] -> bool
+	FrameSepColors {  % color elem-of-array
+       		exch dup 3 -1 roll % color color elem
+       		FrameCmpColorsCMYK % color bool
+       		{ pop true exit } if
+    	} forall % exits with either [color] or true
+	dup true ne {pop false} if
+	} bind def
+/FrameColorInSepListRGB { % [ r g b ] -> bool
+	FrameSepColors {  % color elem-of-array
+       		exch dup 3 -1 roll % color color elem
+       		FrameCmpColorsRGB % color bool
+       		{ pop true exit } if
+    	} forall % exits with either [color] or true
+	dup true ne {pop false} if
+	} bind def
+
+% Level 1 color operators saved and redefined
+/RealSetgray /setgray load def
+/RealSetrgbcolor /setrgbcolor load def
+/RealSethsbcolor /sethsbcolor load def
+end 
+
+% Setgray patch
+/setgray { % num
+	FrameDict begin
+	FrameSepIs FMnone eq
+		{ RealSetgray } 
+		{ % go to white unless the current sep color is black
+		FrameSepIs FMblack eq 
+			{ RealSetgray } 
+			{ FrameSepIs FMcustom eq 
+			  FrameSepRed 0 eq and
+			  FrameSepGreen 0 eq and
+			  FrameSepBlue 0 eq and {
+			  	RealSetgray
+			  } {
+				1 RealSetgray pop 
+			  } ifelse
+			} ifelse
+		} ifelse
+	end
+} bind def
+/setrgbcolor { % r g b
+	FrameDict begin
+	FrameSepIs FMnone eq
+	{  RealSetrgbcolor }
+	{
+		3 copy [ 4 1 roll ] % r g b [ r g b ]
+		FrameColorInSepListRGB
+		{
+				FrameSepBlue eq exch 
+			 	FrameSepGreen eq and exch 
+			 	FrameSepRed eq and
+			 	{ 0 } { 1 } ifelse
+		}
+		{
+			FMPColor {
+				RealSetrgbcolor
+				currentcmykcolor
+			} {
+				RGBtoCMYK
+			} ifelse
+			FrameSepIs FMblack eq
+			{1.0 exch sub 4 1 roll pop pop pop} {
+			FrameSepIs FMyellow eq
+			{pop 1.0 exch sub 3 1 roll pop pop} {
+			FrameSepIs FMmagenta eq
+			{pop pop 1.0 exch sub exch pop } {
+			FrameSepIs FMcyan eq
+			{pop pop pop 1.0 exch sub } 
+			{pop pop pop pop 1} ifelse } ifelse } ifelse } ifelse 
+		} ifelse
+		RealSetgray
+	} 
+	ifelse
+	end
+} bind def
+/sethsbcolor {
+	FrameDict begin
+	FrameSepIs FMnone eq 
+	{ RealSethsbcolor } 
+	{
+		RealSethsbcolor % safe since we will overwrite the color state
+		currentrgbcolor  % r g b - Let PostsCript to the conversion.
+		setrgbcolor % call our version
+	} 
+	ifelse
+	end
+} bind def
+FrameDict begin
+
+/setcmykcolor where {
+	pop /RealSetcmykcolor /setcmykcolor load def
+} {
+	/RealSetcmykcolor {
+		4 1 roll
+		3 { 3 index add 0 max 1 min 1 exch sub 3 1 roll} repeat 
+		RealSetrgbcolor pop
+	} bind def
+} ifelse
+userdict /setcmykcolor { % c m y k
+		FrameDict begin
+		FrameSepIs FMnone eq
+		{ RealSetcmykcolor } 
+		{
+			4 copy [ 5 1 roll ]
+			FrameColorInSepListCMYK
+			{
+				FrameSepBlack eq exch 
+				FrameSepYellow eq and exch 
+				FrameSepMagenta eq and exch 
+				FrameSepCyan eq and 
+				{ 0 } { 1 } ifelse
+			}
+			{
+				FrameSepIs FMblack eq
+				{1.0 exch sub 4 1 roll pop pop pop} {
+				FrameSepIs FMyellow eq
+				{pop 1.0 exch sub 3 1 roll pop pop} {
+				FrameSepIs FMmagenta eq
+				{pop pop 1.0 exch sub exch pop } {
+				FrameSepIs FMcyan eq
+				{pop pop pop 1.0 exch sub } 
+				{pop pop pop pop 1} ifelse } ifelse } ifelse } ifelse 
+			} ifelse
+			RealSetgray
+		}
+		ifelse
+		end
+	} bind put
+
+% Set up a prototype pattern for PostScript Level 2
+fMLevel1 { 
+	% set up screen functions for the patterns in PS level 1
+	% each entry contains an angle, spot function, flipped spot function,
+	% gray level and frequency multiplier.
+	/patScreenDict 7 dict dup begin
+		<0f1e3c78f0e1c387> [ 45  { pop } {exch pop} 		.5   2 sqrt] FmBD
+		<0f87c3e1f0783c1e> [ 135 { pop } {exch pop}			.5   2 sqrt] FmBD
+		<cccccccccccccccc> [ 0   { pop } dup				.5   2	   ] FmBD
+		<ffff0000ffff0000> [ 90  { pop } dup				.5   2	   ] FmBD
+		<8142241818244281> [ 45  { 2 copy lt {exch} if pop}	dup .75  2 sqrt] FmBD
+		<03060c183060c081> [ 45  { pop } {exch pop}			.875 2 sqrt] FmBD
+		<8040201008040201> [ 135 { pop } {exch pop}			.875 2 sqrt] FmBD
+	end def
+} { % prototype level 2 pattern dictionary
+	% define some PostScript procedures for known jaggy patterns.
+	/patProcDict 5 dict dup begin
+		<0f1e3c78f0e1c387> { 3 setlinewidth -1 -1 moveto 9 9 lineto stroke 
+											4 -4 moveto 12 4 lineto stroke
+											-4 4 moveto 4 12 lineto stroke} bind def
+		<0f87c3e1f0783c1e> { 3 setlinewidth -1 9 moveto 9 -1 lineto stroke 
+											-4 4 moveto 4 -4 lineto stroke
+											4 12 moveto 12 4 lineto stroke} bind def
+		<8142241818244281> { 1 setlinewidth -1 9 moveto 9 -1 lineto stroke
+											-1 -1 moveto 9 9 lineto stroke } bind def
+		<03060c183060c081> { 1 setlinewidth -1 -1 moveto 9 9 lineto stroke 
+											4 -4 moveto 12 4 lineto stroke
+											-4 4 moveto 4 12 lineto stroke} bind def
+		<8040201008040201> { 1 setlinewidth -1 9 moveto 9 -1 lineto stroke 
+											-4 4 moveto 4 -4 lineto stroke
+											4 12 moveto 12 4 lineto stroke} bind def
+	end def
+	/patDict 15 dict dup begin
+		/PatternType 1 def		% Always 1 for PS Level 2
+		/PaintType 2 def		% Uncolored pattern
+		/TilingType 3 def		% constant spacing and faster tiling
+		/BBox [ 0 0 8 8 ] def 	% bounding box
+		/XStep 8 def			% X offset
+		/YStep 8 def			% Y offset
+		/PaintProc {
+			begin
+			patProcDict bstring known {
+				patProcDict bstring get exec
+			} {
+				8 8 true [1 0 0 -1 0 8] bstring imagemask
+			} ifelse
+			end
+		} bind def
+	end def
+} ifelse
+
+%combineColor puts together the current gray value (which could also be
+%a fraction of on bits for a fill pattern and the current color and calls
+%the appropriate function
+%
+/combineColor {
+    FrameSepIs FMnone eq
+	{
+		graymode fMLevel1 or not {
+			% Level 2 pattern
+			[/Pattern [/DeviceCMYK]] setcolorspace
+			FrameCurColors 0 4 getinterval aload pop FrameCurPat setcolor
+		} {
+			FrameCurColors 3 get 1.0 ge {
+				FrameCurGray RealSetgray
+			} {
+				fMAcrobat not FMPColor graymode and and {
+					0 1 3 { 
+						FrameCurColors exch get
+						1 FrameCurGray sub mul
+					} for
+					RealSetcmykcolor
+				} {
+					4 1 6 {
+						FrameCurColors exch get
+						graymode {
+							1 exch sub 1 FrameCurGray sub mul 1 exch sub
+						} {
+							1.0 lt {FrameCurGray} {1} ifelse
+						} ifelse
+					} for
+					RealSetrgbcolor
+				} ifelse
+			} ifelse
+		} ifelse
+	} { % separation case
+		FrameCurColors 0 4 getinterval aload
+		FrameColorInSepListCMYK {
+			FrameSepBlack eq exch 
+			FrameSepYellow eq and exch 
+			FrameSepMagenta eq and exch 
+			FrameSepCyan eq and
+			FrameSepIs FMcustom eq and
+			{ FrameCurGray } { 1 } ifelse
+		} {
+			FrameSepIs FMblack eq
+			{FrameCurGray 1.0 exch sub mul 1.0 exch sub 4 1 roll pop pop pop} {
+			FrameSepIs FMyellow eq
+			{pop FrameCurGray 1.0 exch sub mul 1.0 exch sub 3 1 roll pop pop} {
+			FrameSepIs FMmagenta eq
+			{pop pop FrameCurGray 1.0 exch sub mul 1.0 exch sub exch pop } {
+			FrameSepIs FMcyan eq
+			{pop pop pop FrameCurGray 1.0 exch sub mul 1.0 exch sub } 
+			{pop pop pop pop 1} ifelse } ifelse } ifelse } ifelse 
+		} ifelse
+		graymode fMLevel1 or not {
+			% Level 2 pattern
+			[/Pattern [/DeviceGray]] setcolorspace
+			FrameCurPat setcolor
+		} { 
+			graymode not fMLevel1 and {
+				% Level 1 patterns are either all there or not there at all
+				dup 1 lt {pop FrameCurGray} if
+			} if
+			RealSetgray
+		} ifelse
+	} ifelse
+} bind def
+
+/savematrix {
+	orgmatrix currentmatrix pop
+	} bind def
+/restorematrix {
+	orgmatrix setmatrix
+	} bind def
+/fMDefaultMatrix matrix defaultmatrix def
+/fMatrix2 matrix def
+/dpi    72 0 fMDefaultMatrix dtransform
+    dup mul exch   dup mul add   sqrt def
+	
+% freq and sangle are used for ps Level 1 pattern building.
+/freq dpi dup 72 div round dup 0 eq {pop 1} if 8 mul div def
+/sangle 1 0 fMDefaultMatrix dtransform exch atan def
+	sangle fMatrix2 rotate 
+	fMDefaultMatrix fMatrix2 concatmatrix 
+	dup 0 get /sflipx exch def
+	    3 get /sflipy exch def
+
+%
+% screen index depending on dpi
+%	- screenIndex smallint
+/screenIndex {
+	0 1 dpiranges length 1 sub { dup dpiranges exch get 1 sub dpi le {exit} {pop} ifelse } for
+} bind def
+
+%
+% These routines get the standard Adobe frequencies, angles, and spot functions
+% depending on the DPI
+%
+% - getCyanScreen freq angle spotfunction
+/getCyanScreen {
+	FMUseHighFrequencyScreens { CHighAngles CMHighFreqs} {CLowAngles CMLowFreqs} ifelse
+		screenIndex dup 3 1 roll get 3 1 roll get /FMSpotFunction load
+} bind def
+
+%
+% - getMagentaScreen freq angle spotFunction
+/getMagentaScreen {
+	FMUseHighFrequencyScreens { MHighAngles CMHighFreqs } {MLowAngles CMLowFreqs} ifelse
+		screenIndex dup 3 1 roll get 3 1 roll get /FMSpotFunction load
+} bind def
+
+%
+% - getYellowScreen freq angle spotFunction
+% note that some of these use a "tripple dot" function at 1/3 the frequency
+/getYellowScreen {
+	FMUseHighFrequencyScreens { YHighTDot YHighFreqs} { YLowTDot YLowFreqs } ifelse
+		screenIndex dup 3 1 roll get 3 1 roll get { 3 div
+			{2 { 1 add 2 div 3 mul dup floor sub 2 mul 1 sub exch} repeat
+			FMSpotFunction } } {/FMSpotFunction load } ifelse
+			0.0 exch
+} bind def
+
+%
+% - getBlackScreen freq angle spotFunction
+/getBlackScreen  {
+	FMUseHighFrequencyScreens { KHighFreqs } { KLowFreqs } ifelse
+		screenIndex get 45.0 /FMSpotFunction load 
+} bind def
+
+%
+% - getSpotScreen freq angle spotFunction
+/getSpotScreen {
+	getBlackScreen
+} bind def
+
+%
+% - getCompositeScreen freq angle spotFunction
+/getCompositeScreen {
+	getBlackScreen
+} bind def
+
+% FmSetScreen sets the screen for either PostScript Level 1 or Level 2 and optionally
+% sets the accuratescreens flag in the latter case
+% freq angle spotfunction FMSetScreen -
+/FMSetScreen 
+	fMLevel1 { /setscreen load 
+	}{ {
+		8 dict begin
+		/HalftoneType 1 def
+		/SpotFunction exch def
+		/Angle exch def
+		/Frequency exch def
+		/AccurateScreens FMUseAcccurateScreens def
+		currentdict end sethalftone
+	} bind } ifelse
+def
+
+% This sets the default screen as was set at the beginning of the job
+% - setDefaultScreen -
+/setDefaultScreen {
+	FMPColor {
+		orgrxfer cvx orggxfer cvx orgbxfer cvx orgxfer cvx setcolortransfer
+	}
+	{
+		orgxfer cvx settransfer
+	} ifelse
+	orgfreq organgle orgproc cvx setscreen
+} bind def
+
+% This sets the current screen depending on FrameSepIs
+% - setCurrentScreen -
+/setCurrentScreen {
+	FrameSepIs FMnone eq {
+		FMUseDefaultNoSeparationScreen {
+			setDefaultScreen
+		} {
+			getCompositeScreen FMSetScreen
+		} ifelse
+	} {
+		FrameSepIs FMcustom eq {
+			FMUseDefaultSpotSeparationScreen {
+				setDefaultScreen
+			} {
+				getSpotScreen FMSetScreen
+			} ifelse
+		} {
+			FMUseDefaultProcessSeparationScreen {
+				setDefaultScreen
+			} {
+				FrameSepIs FMcyan eq {
+					getCyanScreen FMSetScreen
+				} {
+					FrameSepIs FMmagenta eq {
+						getMagentaScreen FMSetScreen
+					} {
+						FrameSepIs FMyellow eq {
+							getYellowScreen FMSetScreen
+						} {
+							getBlackScreen FMSetScreen
+						} ifelse
+					} ifelse
+				} ifelse
+			} ifelse
+		} ifelse
+	} ifelse 
+} bind def
+
+
+end
+
+% End of Color separation code
+%
+	
+/FMDOCUMENT { % xscale yscale edown negative paperwidth paperheight manfeed numcopies numfonts
+	array /FMfonts exch def % Why isn't this in FrameDict???
+	/#copies exch def
+	FrameDict begin
+	0 ne /manualfeed exch def
+	/paperheight exch def
+	/paperwidth exch def
+	0 ne /fMNegative exch def % invert page
+	0 ne /edown exch def % flip page along y axis
+	/yscale exch def
+	/xscale exch def
+
+	fMLevel1 {
+		manualfeed {setmanualfeed} if
+		/FMdicttop countdictstack 1 add def % some PS's leave junk on dict ...
+		/FMoptop count def % ...or on operand stack...
+		setpapername % This stuff may alter the transfer/screen/angle
+		manualfeed {true} {papersize} ifelse % true->more work to do
+		{manualpapersize} {false} ifelse % true->more work to do
+		{desperatepapersize} {false} ifelse % true->failed completely
+		{papersizefailure} if
+		count -1 FMoptop {pop pop} for
+		countdictstack -1 FMdicttop {pop end} for %...if tray not installed
+		}
+		{2 dict
+		 dup /PageSize [paperwidth paperheight] put
+		 manualfeed {dup /ManualFeed manualfeed put} if
+		 {setpagedevice} stopped {papersizefailure} if
+		}
+	ifelse % fMLevel1
+	
+	FMPColor {
+		currentcolorscreen
+			cvlit /orgproc exch def
+				  /organgle exch def 
+				  /orgfreq exch def
+			cvlit /orgbproc exch def
+				  /orgbangle exch def 
+				  /orgbfreq exch def
+			cvlit /orggproc exch def
+				  /orggangle exch def 
+				  /orggfreq exch def
+			cvlit /orgrproc exch def
+				  /orgrangle exch def 
+				  /orgrfreq exch def
+
+			currentcolortransfer 
+			fMNegative {
+				1 1 4 { 
+					pop { 1 exch sub } fmConcatProcs 4 1 roll
+				} for
+				4 copy
+				setcolortransfer
+			} if
+			cvlit /orgxfer exch def
+			cvlit /orgbxfer exch def
+			cvlit /orggxfer exch def
+			cvlit /orgrxfer exch def
+	} {
+		currentscreen 
+			cvlit /orgproc exch def
+				  /organgle exch def 
+				  /orgfreq exch def
+				  
+		currenttransfer 
+		fMNegative {
+			{ 1 exch sub } fmConcatProcs
+			dup settransfer
+		} if 
+		cvlit /orgxfer exch def
+	} ifelse
+
+	end % FrameDict
+} def % only used at startup, so no bind
+
+/FMBEGINPAGE { % pagewidth pageheight landscape color-arrays count
+	FrameDict begin % for the whole page...
+	/pagesave save def
+	3.86 setmiterlimit
+	/landscape exch 0 ne def
+	landscape { % check for landscape
+		90 rotate 0 exch dup /pwid exch def neg translate pop 
+	}{
+		pop /pwid exch def
+	} ifelse
+	edown { [-1 0 0 1 pwid 0] concat } if
+% paint the whole page in "white".  If the page is inverted, then
+% this will actually paint our black background
+	0 0 moveto paperwidth 0 lineto paperwidth paperheight lineto 
+	0 paperheight lineto 0 0 lineto 1 setgray fill
+	xscale yscale scale
+	/orgmatrix matrix def
+	gsave % for CLIP
+} def % only used infrequently, so no bind
+
+/FMENDPAGE {
+	grestore % for CLIP
+	pagesave restore
+	end % FrameDict
+	showpage
+	} def % only used infrequently, so no bind
+
+/FMFONTDEFINE { % fontindex nonstd_encoding fontname -- 
+	FrameDict begin
+	findfont % fontindex nonstd_encoding font
+	ReEncode % fontindex font'
+	1 index exch % fontindex fontindex font'
+	definefont % fontindex font"
+	FMfonts 3 1 roll %  FMfonts fontindex font"
+	put
+	end % FrameDict
+	} def % only used infrequently, so no bind
+
+/FMFILLS {
+	FrameDict begin dup
+	array /fillvals exch def
+	dict /patCache exch def
+	end % framedict
+	} def % Only called once, so no bind
+
+/FMFILL {
+	FrameDict begin
+	 fillvals 3 1 roll put
+	end % FrameDict
+	} def % only used infrequently, so no bind
+
+% Set things to a known, quiescent state, for when we switch to another writer
+/FMNORMALIZEGRAPHICS { 
+	newpath
+	1 setlinewidth
+	0 setlinecap
+	0 0 0 sethsbcolor
+	0 setgray % Not FMsetgray; only called outside of our environment!
+	} bind def
+
+/FMBEGINEPSF { % <theta> llx lly urx ury fw fh fx fy
+	end % FrameDict
+	/FMEPSF save def % in userdict
+	/showpage {} def % this def is in userdict
+%- See Adobe's "PostScript Language Reference Manual, 2nd Edition", page 714.
+%- "...the following operators MUST NOT be used in an EPS file:" (emphasis ours)
+	/banddevice {(banddevice) FMBADEPSF} def
+	/clear {(clear) FMBADEPSF} def
+	/cleardictstack {(cleardictstack) FMBADEPSF} def % FMBADEPSF knows this is the longest!
+	/copypage {(copypage) FMBADEPSF} def
+	/erasepage {(erasepage) FMBADEPSF} def
+	/exitserver {(exitserver) FMBADEPSF} def
+	/framedevice {(framedevice) FMBADEPSF} def
+	/grestoreall {(grestoreall) FMBADEPSF} def
+	/initclip {(initclip) FMBADEPSF} def
+	/initgraphics {(initgraphics) FMBADEPSF} def
+%	/initmatrix {(initmatrix) FMBADEPSF} def	% Aldus Freehand 4.0 epsf uses this harmlessly <Gus 4/26/95>
+	/quit {(quit) FMBADEPSF} def
+	/renderbands {(renderbands) FMBADEPSF} def
+	/setglobal {(setglobal) FMBADEPSF} def
+	/setpagedevice {(setpagedevice) FMBADEPSF} def
+	/setshared {(setshared) FMBADEPSF} def
+	/startjob {(startjob) FMBADEPSF} def
+	/lettertray {(lettertray) FMBADEPSF} def
+	/letter {(letter) FMBADEPSF} def
+	/lettersmall {(lettersmall) FMBADEPSF} def
+	/11x17tray {(11x17tray) FMBADEPSF} def
+	/11x17 {(11x17) FMBADEPSF} def
+	/ledgertray {(ledgertray) FMBADEPSF} def
+	/ledger {(ledger) FMBADEPSF} def
+	/legaltray {(legaltray) FMBADEPSF} def
+	/legal {(legal) FMBADEPSF} def
+	/statementtray {(statementtray) FMBADEPSF} def
+	/statement {(statement) FMBADEPSF} def
+	/executivetray {(executivetray) FMBADEPSF} def
+	/executive {(executive) FMBADEPSF} def
+	/a3tray {(a3tray) FMBADEPSF} def
+	/a3 {(a3) FMBADEPSF} def
+	/a4tray {(a4tray) FMBADEPSF} def
+	/a4 {(a4) FMBADEPSF} def
+	/a4small {(a4small) FMBADEPSF} def
+	/b4tray {(b4tray) FMBADEPSF} def
+	/b4 {(b4) FMBADEPSF} def
+	/b5tray {(b5tray) FMBADEPSF} def
+	/b5 {(b5) FMBADEPSF} def
+	FMNORMALIZEGRAPHICS % in case we're in a strange state
+	[/fy /fx /fh /fw /ury /urx /lly /llx] {exch def} forall % neat trick
+	fx fw 2 div add fy fh 2 div add  translate
+	rotate
+	fw 2 div neg fh 2 div neg translate
+	fw urx llx sub div fh ury lly sub div scale % then scale
+	llx neg lly neg translate % then compensate for LL offset 
+	/FMdicttop countdictstack 1 add def % high-water mark of dict stack
+	/FMoptop count def % tricky! "/FMoptop" on stack
+	} bind def
+
+/FMENDEPSF {
+	count -1 FMoptop {pop pop} for % clear EPS junk from operand stack
+	countdictstack -1 FMdicttop {pop end} for % ditto for dict stack
+	FMEPSF restore
+	FrameDict begin % for the whole page...
+	} bind def
+
+FrameDict begin % put most defs here
+
+/setmanualfeed {
+%%BeginFeature *ManualFeed True
+	 statusdict /manualfeed true put
+%%EndFeature
+	} bind def
+
+/max {2 copy lt {exch} if pop} bind def
+/min {2 copy gt {exch} if pop} bind def
+/inch {72 mul} def
+
+/pagedimen { % name width height
+	paperheight sub abs 16 lt exch % 16pt is an arbitrary slop amount
+	paperwidth sub abs 16 lt and
+	{/papername exch def} {pop} ifelse
+	} bind def
+
+/setpapername { % Already set up: paperwidth paperheight and manualfeed
+	/papersizedict 14 dict def % one for /papername, one for /unknown
+	papersizedict begin
+	/papername /unknown def % in case no match
+		/Letter 8.5 inch 11.0 inch pagedimen
+		/LetterSmall 7.68 inch 10.16 inch pagedimen
+		/Tabloid 11.0 inch 17.0 inch pagedimen
+		/Ledger 17.0 inch 11.0 inch pagedimen
+		/Legal 8.5 inch 14.0 inch pagedimen
+		/Statement 5.5 inch 8.5 inch pagedimen
+		/Executive 7.5 inch 10.0 inch pagedimen
+		/A3 11.69 inch 16.5 inch pagedimen
+		/A4 8.26 inch 11.69 inch pagedimen
+		/A4Small 7.47 inch 10.85 inch pagedimen
+		/B4 10.125 inch 14.33 inch pagedimen
+		/B5 7.16 inch 10.125 inch pagedimen
+	end
+	} bind def
+
+/papersize {
+	papersizedict begin
+		/Letter {lettertray letter} def
+		/LetterSmall {lettertray lettersmall} def
+		/Tabloid {11x17tray 11x17} def
+		/Ledger {ledgertray ledger} def
+		/Legal {legaltray legal} def
+		/Statement {statementtray statement} def
+		/Executive {executivetray executive} def
+		/A3 {a3tray a3} def
+		/A4 {a4tray a4} def
+		/A4Small {a4tray a4small} def
+		/B4 {b4tray b4} def
+		/B5 {b5tray b5} def
+		/unknown {unknown} def
+	papersizedict dup papername known {papername} {/unknown} ifelse get
+	end
+	statusdict begin stopped end % return true if more work to do
+	} bind def
+
+/manualpapersize {
+	papersizedict begin
+		/Letter {letter} def
+		/LetterSmall {lettersmall} def
+		/Tabloid {11x17} def
+		/Ledger {ledger} def
+		/Legal {legal} def
+		/Statement {statement} def
+		/Executive {executive} def
+		/A3 {a3} def
+		/A4 {a4} def
+		/A4Small {a4small} def
+		/B4 {b4} def
+		/B5 {b5} def
+		/unknown {unknown} def
+	papersizedict dup papername known {papername} {/unknown} ifelse get
+	end
+	stopped % return true if more work to do
+	} bind def
+
+/desperatepapersize {
+	statusdict /setpageparams known
+		{
+		paperwidth paperheight 0 1 
+		statusdict begin
+		{setpageparams} stopped % return true iff failed
+		end
+		} {true} ifelse % return true iff failed
+	} bind def
+
+/papersizefailure {
+	FMAllowPaperSizeMismatch not
+		{
+(The requested paper size is not available in any currently-installed tray)
+(Edit the PS file to "FMAllowPaperSizeMismatch true" to use default tray)
+		 FMFAILURE } if
+	} def
+
+%
+% Font re-encoding to include diacritics
+% 
+/DiacriticEncoding [
+
+/.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef
+/.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef
+/.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef
+/.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef
+/.notdef /.notdef /.notdef /.notdef /space /exclam /quotedbl
+/numbersign /dollar /percent /ampersand /quotesingle /parenleft
+/parenright /asterisk /plus /comma /hyphen /period /slash /zero /one
+/two /three /four /five /six /seven /eight /nine /colon /semicolon
+/less /equal /greater /question /at /A /B /C /D /E /F /G /H /I /J /K
+/L /M /N /O /P /Q /R /S /T /U /V /W /X /Y /Z /bracketleft /backslash
+/bracketright /asciicircum /underscore /grave /a /b /c /d /e /f /g /h
+/i /j /k /l /m /n /o /p /q /r /s /t /u /v /w /x /y /z /braceleft /bar
+/braceright /asciitilde /.notdef /Adieresis /Aring /Ccedilla /Eacute
+/Ntilde /Odieresis /Udieresis /aacute /agrave /acircumflex /adieresis
+/atilde /aring /ccedilla /eacute /egrave /ecircumflex /edieresis
+/iacute /igrave /icircumflex /idieresis /ntilde /oacute /ograve
+/ocircumflex /odieresis /otilde /uacute /ugrave /ucircumflex
+/udieresis /dagger /.notdef /cent /sterling /section /bullet
+/paragraph /germandbls /registered /copyright /trademark /acute
+/dieresis /.notdef /AE /Oslash /.notdef /.notdef /.notdef /.notdef
+/yen /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef
+/ordfeminine /ordmasculine /.notdef /ae /oslash /questiondown
+/exclamdown /logicalnot /.notdef /florin /.notdef /.notdef
+/guillemotleft /guillemotright /ellipsis /.notdef /Agrave /Atilde
+/Otilde /OE /oe /endash /emdash /quotedblleft /quotedblright
+/quoteleft /quoteright /.notdef /.notdef /ydieresis /Ydieresis
+/fraction /currency /guilsinglleft /guilsinglright /fi /fl /daggerdbl
+/periodcentered /quotesinglbase /quotedblbase /perthousand
+/Acircumflex /Ecircumflex /Aacute /Edieresis /Egrave /Iacute
+/Icircumflex /Idieresis /Igrave /Oacute /Ocircumflex /.notdef /Ograve
+/Uacute /Ucircumflex /Ugrave /dotlessi /circumflex /tilde /macron
+/breve /dotaccent /ring /cedilla /hungarumlaut /ogonek /caron
+
+] def
+
+/ReEncode { % nonstd_encoding font -- reencodedfont
+	dup % nonstd_encoding font font
+	length % nonstd_encoding font dictlength
+	dict begin % nonstd_encoding font % currentdict = newdict
+	{% forall % forall is over font to be copied
+	1 index /FID ne % skip FID
+		{def} % defs go into newfontdict which is currentdict
+		{pop pop} ifelse % copy all keys including /Encoding
+	} forall % nonstd_encoding
+	0 eq {/Encoding DiacriticEncoding def} if % --
+	currentdict % push a copy of the copied font dict onto operand stack
+	end % font' % before popping it off dictionary stack
+	} bind def
+
+FMPColor 
+	% setup procs for color printing
+	{
+
+	/BEGINBITMAPCOLOR { % iw, ih, width, height, theta, x y 
+		BITMAPCOLOR} def
+	/BEGINBITMAPCOLORc { % iw, ih, width, height, theta, x y 
+		BITMAPCOLORc} def
+	/BEGINBITMAPTRUECOLOR { 
+		BITMAPTRUECOLOR } def
+	/BEGINBITMAPTRUECOLORc { 
+		BITMAPTRUECOLORc } def
+	/BEGINBITMAPCMYK { 
+		BITMAPCMYK } def
+	/BEGINBITMAPCMYKc { 
+		BITMAPCMYKc } def
+	}
+	% setup procs for B&W printing
+	{
+	/BEGINBITMAPCOLOR { % iw, ih, width, height, theta, x y 
+		BITMAPGRAY} def
+	/BEGINBITMAPCOLORc { % iw, ih, width, height, theta, x y 
+		BITMAPGRAYc} def
+	/BEGINBITMAPTRUECOLOR { 
+		BITMAPTRUEGRAY } def
+	/BEGINBITMAPTRUECOLORc { 
+		BITMAPTRUEGRAYc } def
+	/BEGINBITMAPCMYK { 
+		BITMAPCMYKGRAY } def
+	/BEGINBITMAPCMYKc { 
+		BITMAPCMYKGRAYc } def
+	}
+ifelse
+
+/K { % c m y k r g b SEPARATION
+	FMPrintAllColorsAsBlack {
+		dup 1 eq 2 index 1 eq and 3 index 1 eq and not
+			{7 {pop} repeat 0 0 0 1 0 0 0} if
+	} if 
+	FrameCurColors astore 
+	pop combineColor
+} bind def
+%
+% graymode is true if we are just doing gray fills, this way do not keep calling
+% setscreen. I don't know what the cost is on calling setscreen with defaults, but
+% this is easy to keep track of, and we know for sure we aren't wasting cycles.
+% if graymode is false and fMLevel1 is false, then we are using Level 2 patterns.
+%
+/graymode true def
+
+% used by level 1 patterns
+% defaultflip matrixentry fmGetFlit -> eith -1 or 1
+fMLevel1 {
+	/fmGetFlip {
+		fMatrix2 exch get mul 0 lt { -1 } { 1 } ifelse
+	} FmBD
+} if
+
+/setPatternMode {
+	fMLevel1 {
+		2 index patScreenDict exch known {
+			pop pop
+			patScreenDict exch get aload pop % angle spot fspot gray mult
+			freq 								% freq
+			mul									% times multiplier
+			5 2 roll							% angle spot fspot gray mult freq -> gray freq angle spot fspot
+			fMatrix2 currentmatrix 1 get 0 ne {
+				3 -1 roll 90 add 3 1 roll 		% landscape
+				sflipx 1 fmGetFlip sflipy 2 fmGetFlip neg mul
+			} {  								% portrait     
+				sflipx 0 fmGetFlip sflipy 3 fmGetFlip mul 
+			} ifelse
+			0 lt {exch pop} {pop} ifelse 		% take regular or flipped spot function
+			fMNegative { 
+				{neg} fmConcatProcs 			% invert spot function
+			} if
+			bind
+			% we need to bypass any screen filter and go directly to systemdict
+			% to avoid problems with Kodak Precision calibration software
+			% <Gus 9/13/93>
+			systemdict /setscreen get exec		% leave graylevel on stack
+			/FrameCurGray exch def
+		} {
+			/bwidth  exch def
+			/bpside  exch def
+			/bstring exch def
+			/onbits 0 def  /offbits 0 def
+			freq sangle landscape {90 add} if 
+				{/ypoint exch def
+				 /xpoint exch def
+				 /xindex xpoint 1 add 2 div bpside mul cvi def
+				 /yindex ypoint 1 add 2 div bpside mul cvi def
+				 bstring yindex bwidth mul xindex 8 idiv add get
+				 1 7 xindex 8 mod sub bitshift and 0 ne fMNegative {not} if
+				 {/onbits  onbits  1 add def 1}
+				 {/offbits offbits 1 add def 0}
+				 ifelse
+				}
+				setscreen
+			offbits offbits onbits add div fMNegative {1.0 exch sub} if
+			/FrameCurGray exch def
+		} ifelse
+	} { % Level 2 version
+		pop pop
+		dup patCache exch known {
+			patCache exch get
+		} { % not in cache
+			dup
+			patDict /bstring 3 -1 roll put
+			patDict 
+			9 PatFreq screenIndex get div dup matrix scale
+%			9 orgfreq 
+%				organgle sin abs organgle cos abs add div
+%				dup 16 div round dup 0 le {pop 1} if  % Unix pattern size
+%			    dup  9 div round dup 0 le {pop 1} if  % Mac larger (WYSIWYG) size
+%					div div dup matrix scale % This gives Unix pattern size.
+			makepattern
+			dup 
+			patCache 4 -1 roll 3 -1 roll put
+		} ifelse
+		/FrameCurGray 0 def
+		/FrameCurPat exch def
+	} ifelse
+	/graymode false def
+	combineColor
+} bind def
+
+/setGrayScaleMode {
+	graymode not {
+		/graymode true def
+		fMLevel1 {
+			setCurrentScreen
+		} if
+	} if
+	/FrameCurGray exch def
+	combineColor
+} bind def
+
+/normalize {
+	transform round exch round exch itransform
+	} bind def
+
+/dnormalize {
+	dtransform round exch round exch idtransform
+	} bind def
+
+/lnormalize { % line widths are always odd so that arrow heads work
+	0 dtransform exch cvi 2 idiv 2 mul 1 add exch idtransform pop
+	} bind def
+
+/H { % THICK
+	lnormalize setlinewidth
+	} bind def
+
+/Z {
+	setlinecap
+	} bind def
+	
+% This is used to fill or stroke white behind a Level 2 pattern
+/PFill {
+	graymode fMLevel1 or not {
+		gsave 1 setgray eofill grestore
+	} if
+} bind def
+/PStroke {
+	graymode fMLevel1 or not {
+		gsave 1 setgray stroke grestore
+	} if
+	stroke
+} bind def
+
+/X { % TEXTURE
+	fillvals exch get
+	dup type /stringtype eq
+	{8 1 setPatternMode} % Silly to pass parameters here
+	{setGrayScaleMode}
+	ifelse
+	} bind def
+
+/V { % FILL
+	PFill gsave eofill grestore
+	} bind def
+
+/Vclip {
+	clip
+	} bind def
+
+/Vstrk {
+	currentlinewidth exch setlinewidth PStroke setlinewidth
+	} bind def
+
+/N { % PEN
+	PStroke
+	} bind def
+
+/Nclip {
+	strokepath clip newpath
+	} bind def
+
+/Nstrk {
+	currentlinewidth exch setlinewidth PStroke setlinewidth
+	} bind def
+
+/M {newpath moveto} bind def
+/E {lineto} bind def
+/D {curveto} bind def
+/O {closepath} bind def
+
+/L { % POLYLINE
+ 	/n exch def
+	newpath
+	normalize
+	moveto 
+	2 1 n {pop normalize lineto} for
+	} bind def
+
+/Y { % POLYGON !!!
+	L % POLYLINE
+	closepath
+	} bind def
+
+/R { % RECT x1 y1 x2 y2
+	/y2 exch def
+	/x2 exch def
+	/y1 exch def
+	/x1 exch def
+	x1 y1
+	x2 y1
+	x2 y2
+	x1 y2
+	4 Y % POLYGON
+	} bind def
+
+/rarc % Leaves all sorts of junk on the operand stack for caller to clear off
+	{rad % arcto might fail if we're scaled way down
+	 arcto
+	} bind def
+
+/RR { % ROUNDRECT x1 y1 x2 y2 r
+	/rad exch def
+	normalize
+	/y2 exch def
+	/x2 exch def
+	normalize
+	/y1 exch def
+	/x1 exch def
+	mark
+	newpath
+	{
+	x1 y1 rad add moveto
+	x1 y2 x2 y2 rarc
+	x2 y2 x2 y1 rarc
+	x2 y1 x1 y1 rarc
+	x1 y1 x1 y2 rarc
+	closepath
+	} stopped {x1 y1 x2 y2 R} if % in case rarc failed for degenerate arcs
+	cleartomark
+	} bind def
+
+/RRR { % ROUNDRECT ROTATED xs ys x1 y1 x2 y2 x3 y3 x4 y4 r
+	/rad exch def
+	normalize /y4 exch def /x4 exch def
+	normalize /y3 exch def /x3 exch def
+	normalize /y2 exch def /x2 exch def
+	normalize /y1 exch def /x1 exch def
+	newpath
+	normalize moveto % eats xs ys
+	mark
+	{
+	x2 y2 x3 y3 rarc
+	x3 y3 x4 y4 rarc
+	x4 y4 x1 y1 rarc
+	x1 y1 x2 y2 rarc
+	closepath
+	} stopped
+	 {x1 y1 x2 y2 x3 y3 x4 y4 newpath moveto lineto lineto lineto closepath} if
+	cleartomark
+	} bind def
+
+/C { % CLIP
+	grestore
+	gsave
+	R % RECT
+	clip
+	setCurrentScreen
+} bind def
+
+/CP { % CLIPPOLY p1x p1y p2x p2y ... n 
+	grestore
+	gsave
+	Y % POLYGON
+	clip
+	setCurrentScreen
+} bind def
+
+/F { % FONT
+	FMfonts exch get
+	FMpointsize scalefont
+	setfont
+	} bind def
+
+/Q { % POINTSIZE (& font)
+	/FMpointsize exch def
+	F % could be slightly optimized here
+	} bind def
+
+/T { % TEXT <string> <x> <y>
+	moveto show
+	} bind def
+
+% Callers of RF (rotate/flip) must gsave (or save) first; (g)restore when done
+/RF { % <flip> <theta>
+	rotate
+	0 ne {-1 1 scale} if
+	} bind def
+
+/TF { % TEXTFLIPROTATE <string> <flip> <theta> <x> <y>
+	gsave
+	moveto 
+	RF
+	show
+	grestore
+	} bind def
+
+/P { % PADTEXT <pad> <string> <x> <y>
+	moveto
+	0 32 3 2 roll widthshow
+	} bind def
+
+/PF { % PADTEXTFLIPROTATE <pad> <string> <flip> <theta> <x> <y>
+	gsave
+	moveto 
+	RF
+	0 32 3 2 roll widthshow
+	grestore
+	} bind def
+
+/S { % SPREADTEXT <spread> <string> <x> <y>
+	moveto
+	0 exch ashow
+	} bind def
+
+/SF { % SPREADTEXTFLIPROTATE <spread> <string> <flip> <theta> <x> <y>
+	gsave
+	moveto
+	RF
+	0 exch ashow
+	grestore
+	} bind def
+
+/B { % PADSPREADTEXT <pad> <spread> <string> <x> <y>
+	moveto
+	0 32 4 2 roll 0 exch awidthshow
+	} bind def
+
+/BF { % PADSPREADTEXTFLIPROTATE <pad> <spread> <string> <flip> <theta> <x> <y>
+	gsave
+	moveto
+	RF
+	0 32 4 2 roll 0 exch awidthshow
+	grestore
+	} bind def
+
+/G { % ARCFILL theta1 theta2 width height x y
+	gsave
+	newpath
+	normalize translate 0.0 0.0 moveto % eats x y
+	dnormalize scale % eats width height
+	0.0 0.0 1.0 5 3 roll arc % eats theta1 theta2
+	closepath 
+	PFill fill
+	grestore
+	} bind def
+
+/Gstrk {
+	savematrix
+    newpath
+    2 index 2 div add exch 3 index 2 div sub exch % theta1 theta2 width height x y
+    normalize 2 index 2 div sub exch 3 index 2 div add exch % theta1 theta2 width height x y
+    translate
+    scale % eats width height
+    0.0 0.0 1.0 5 3 roll arc % eats theta1 theta2
+    restorematrix
+    currentlinewidth exch setlinewidth PStroke setlinewidth
+    } bind def
+
+/Gclip { % ARCFILL theta1 theta2 width height x y swid
+	newpath
+	savematrix
+	normalize translate 0.0 0.0 moveto % eats x y
+	dnormalize scale % eats width height
+	0.0 0.0 1.0 5 3 roll arc % eats theta1 theta2
+	closepath 
+	clip newpath
+	restorematrix
+	} bind def
+
+/GG { % ARCFILL ROTATED theta1 theta2 width height angle x y
+	gsave
+	newpath
+	normalize translate 0.0 0.0 moveto % eats x y
+	rotate % eats angle
+	dnormalize scale % eats width height
+	0.0 0.0 1.0 5 3 roll arc % eats theta1 theta2
+	closepath
+	PFill
+	fill
+	grestore
+	} bind def
+
+/GGclip { % ARCFILL ROTATED theta1 theta2 width height angle x y
+	savematrix
+	newpath
+    normalize translate 0.0 0.0 moveto % eats x y
+    rotate % eats angle
+    dnormalize scale % eats width height
+    0.0 0.0 1.0 5 3 roll arc % eats theta1 theta2
+    closepath
+	clip newpath
+	restorematrix
+	} bind def
+
+/GGstrk { % ARCFILL ROTATED swid theta1 theta2 width height angle x y
+	savematrix
+    newpath
+    normalize translate 0.0 0.0 moveto % eats x y
+    rotate % eats angle
+    dnormalize scale % eats width height
+    0.0 0.0 1.0 5 3 roll arc % eats theta1 theta2
+    closepath 
+	restorematrix
+    currentlinewidth exch setlinewidth PStroke setlinewidth
+	} bind def
+
+/A { % ARCPEN theta1 theta2 width height x y
+	gsave
+	savematrix
+	newpath
+	2 index 2 div add exch 3 index 2 div sub exch % theta1 theta2 width height x y
+	normalize 2 index 2 div sub exch 3 index 2 div add exch % theta1 theta2 width height x y
+	translate 
+	scale % eats width height
+	0.0 0.0 1.0 5 3 roll arc % eats theta1 theta2
+	restorematrix
+	PStroke
+	grestore
+	} bind def
+
+/Aclip {
+	newpath
+	savematrix
+	normalize translate 0.0 0.0 moveto % eats x y
+	dnormalize scale % eats width height
+	0.0 0.0 1.0 5 3 roll arc % eats theta1 theta2
+	closepath 
+	strokepath clip newpath
+	restorematrix
+} bind def
+
+/Astrk {
+	Gstrk
+} bind def
+
+/AA { % ARCPEN ROTATED theta1 theta2 width height angle x y
+	gsave
+	savematrix
+	newpath
+	% theta1 theta2 width height angle x y
+	3 index 2 div add exch 4 index 2 div sub exch 
+	% theta1 theta2 width height angle x y
+	normalize 3 index 2 div sub exch 4 index 2 div add exch
+	translate % eats x y
+	rotate % eats angle
+	scale % eats width height
+	0.0 0.0 1.0 5 3 roll arc % eats theta1 theta2
+	restorematrix
+	PStroke
+	grestore
+	} bind def
+
+/AAclip {
+	savematrix
+	newpath
+    normalize translate 0.0 0.0 moveto % eats x y
+    rotate % eats angle
+    dnormalize scale % eats width height
+    0.0 0.0 1.0 5 3 roll arc % eats theta1 theta2
+    closepath
+	strokepath clip newpath
+	restorematrix
+} bind def
+
+/AAstrk {
+	GGstrk
+} bind def
+
+/BEGINPRINTCODE { % -x -y width height
+	/FMdicttop countdictstack 1 add def % high-water mark of dict stack
+	/FMoptop count 7 sub def % tricky! 7 params on stack, plus "/FMoptop"
+	/FMsaveobject save def
+	userdict begin % insulate user from FrameDict; not in /FMdicttop count
+	/showpage {} def % this def is in userdict
+	FMNORMALIZEGRAPHICS % in case we're in a strange state
+	3 index neg 3 index neg translate
+	} bind def
+
+/ENDPRINTCODE {
+	count -1 FMoptop {pop pop} for % clear user junk from operand stack
+	countdictstack -1 FMdicttop {pop end} for % ditto for dict stack
+	FMsaveobject restore % this is now safe, unless user very malicious
+	} bind def
+
+/gn { % get a number in a funny encoding scheme
+	0 % result on stack
+	{	46 mul % shift old digits
+		cf read pop % get next character
+		32 sub % zero is the space character
+		dup 46 lt {exit} if % quit if we're the last digit
+		46 sub add % add in this digit and loop around for next
+		} loop
+	add % result on stack
+	} bind def
+
+/cfs { % create a string of length "sl" filled with "val"s
+	/str sl string def % create string as "str"
+	0 1 sl 1 sub {str exch val put} for % fill array
+	str def % define real array name, too; name is on stack from caller
+	} bind def
+
+/ic [ % "case" stmt list of procedures that the image commands should call
+	0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0223
+	0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0223
+	0
+	{0 hx} {1 hx} {2 hx} {3 hx} {4 hx} {5 hx} {6 hx} {7 hx} {8 hx} {9 hx}
+	{10 hx} {11 hx} {12 hx} {13 hx} {14 hx} {15 hx} {16 hx} {17 hx} {18 hx}
+	{19 hx} {gn hx} {0} {1} {2} {3} {4} {5} {6} {7} {8} {9} {10} {11} {12}
+	{13} {14} {15} {16} {17} {18} {19} {gn} {0 wh} {1 wh} {2 wh} {3 wh}
+	{4 wh} {5 wh} {6 wh} {7 wh} {8 wh} {9 wh} {10 wh} {11 wh} {12 wh}
+	{13 wh} {14 wh} {gn wh} {0 bl} {1 bl} {2 bl} {3 bl} {4 bl} {5 bl} {6 bl}
+	{7 bl} {8 bl} {9 bl} {10 bl} {11 bl} {12 bl} {13 bl} {14 bl} {gn bl}
+	{0 fl} {1 fl} {2 fl} {3 fl} {4 fl} {5 fl} {6 fl} {7 fl} {8 fl} {9 fl}
+	{10 fl} {11 fl} {12 fl} {13 fl} {14 fl} {gn fl}
+	] def
+
+/ms { % make all the strings
+	/sl exch def % remember length of currently existing strings
+	/val 255 def % that's white
+	/ws cfs % make "ws" a string filled with white
+	/im cfs % and "im" is a complete image scanline
+	/val 0 def % that's black
+	/bs cfs % make "bs" a string filled with black
+	/cs cfs % here's where we'll put complete command lines
+	} bind def
+
+400 ms % make strings that will be plenty long for most applications
+
+/ip { % image procedure; reads and executes commands to make scanlines
+	is % leave image string and...
+	0 % ...image position on stack all through this procedure
+	cf cs readline pop % get a string of commands
+	{	ic exch get exec % execute next command
+		add % all commands leave a length on the stack; update pos
+		} forall % step through all commands
+	pop % get rid of image position pointer
+	% image string left on stack, so it's returned to image primitive
+	} bind def
+/rip { % this is similar to ip above, except for 24 bit images
+	   % this takes an extra argument, the width of the image
+	  % do red
+	  bis ris copy pop % copy blue to red
+      is
+      0
+      cf cs readline pop 
+      {       ic exch get exec 
+              add 
+              } forall 
+	  pop pop % remove is and position from stack
+	  ris gis copy pop % copy red to green
+	  dup is exch % position of green is width bytes into is
+	  % do green
+      cf cs readline pop 
+      {       ic exch get exec 
+              add 
+              } forall 
+	  pop pop
+	  gis bis copy pop % copy green to blue
+	  dup add is exch % position of blue is 2*width bytes into is
+	  % do blue
+      cf cs readline pop 
+      {       ic exch get exec 
+              add 
+              } forall 
+      pop 
+      
+      } bind def
+
+/rip4 { % this is similar to ip above, except for 32 bit images
+	   % this takes an extra argument, the width of the image
+	  % do cyan
+	  kis cis copy pop % copy black to cyan
+      is
+      0
+      cf cs readline pop 
+      {       ic exch get exec 
+              add 
+              } forall 
+	  pop pop % remove is and position from stack
+	  cis mis copy pop % copy cyan to magenta
+	  dup is exch % position of magenta is width bytes into is
+	  % do magenta
+      cf cs readline pop 
+      {       ic exch get exec 
+              add 
+              } forall 
+	  pop pop
+	  mis yis copy pop % copy magenta to yellow
+	  dup dup add is exch % position of yellow is 2*width bytes into is
+	  % do yellow
+      cf cs readline pop 
+      {       ic exch get exec 
+              add 
+              } forall 
+	  pop pop
+	  yis kis copy pop % copy yellow to black
+	  3 mul is exch % position of black is 3*width bytes into is
+	  % do black
+      cf cs readline pop 
+      {       ic exch get exec 
+              add 
+              } forall 
+      pop 
+      
+      } bind def
+
+
+/wh { % fill a number of bytes with "white"
+	/len exch def % number of bytes to fill
+	/pos exch def % position to put them at
+	ws 0 len getinterval im pos len getinterval copy pop
+	pos len % remember where we got to
+	} bind def
+
+/bl { % fill a number of bytes with "black"
+	/len exch def % number of bytes to fill
+	/pos exch def % position to put them at
+	bs 0 len getinterval im pos len getinterval copy pop
+	pos len % remember where we got to
+	} bind def
+
+/s1 1 string def
+
+/fl { % fill a number of bytes with a specific hex value
+	/len exch def % number of bytes to fill
+	/pos exch def % position to put them at
+	/val cf s1 readhexstring pop 0 get def
+	pos 1 pos len add 1 sub {im exch val put} for
+	pos len % remember where we got to
+	} bind def
+
+/hx { % read hex bytes directly; on entry, stack has <str> <pos> <len>
+	3 copy getinterval % stack has <str> <pos> <len> <substr>
+	cf exch readhexstring pop pop % stack back to <str> <pos> <len>
+	} bind def
+
+/wbytes { % width depth -> wb      find width in bytes  given 1, 2, 8 or 24 or 32
+      dup dup
+      8 gt { pop 8 idiv mul }
+      { 8 eq {pop} {1 eq {7 add 8 idiv} {3 add 4 idiv} ifelse} ifelse } ifelse
+	} bind def
+/BEGINBITMAPBWc { % iw, ih, width, height, theta, x y 
+	1 {} COMMONBITMAPc
+	} bind def
+/BEGINBITMAPGRAYc { % iw, ih, width, height, theta, x y 
+	8 {} COMMONBITMAPc
+	} bind def
+/BEGINBITMAP2BITc { % iw, ih, width, height, theta, x y 
+	2 {} COMMONBITMAPc
+	} bind def
+%
+% Common routine for imaging compressed images
+%
+/COMMONBITMAPc { % iw, ih, width, height, theta, x y depth proc
+		 % (x,y) is the lower left corner of the image
+	/cvtProc exch def
+	/depth exch def
+	gsave
+	% rotate about center of image
+	3 index 2 div add exch	% iw ih width height theta y+(height/2) x
+	4 index 2 div add exch	% iw ih width height theta x+(width/2) y+(height/2)
+	translate		% iw ih width height theta
+	rotate			% iw ih width height
+	1 index 2 div neg	% iw ih width height -(width/2)
+	1 index 2 div neg	% iw ih width height -(width/2) -(height/2)
+	translate		% iw ih width height
+	scale			% iw ih
+	/height exch def /width exch def
+	/lb width depth wbytes def % so "lb" has width in bytes
+	sl lb lt {lb ms} if % maybe make bigger strings
+	/bitmapsave save def % LW+ has a buggy memory leak!
+	cvtProc                % run the desired proc after save has occurred
+	/is im 0 lb getinterval def % image substring
+	ws 0 lb getinterval is copy pop % whiten it
+	/cf currentfile def % evaluate "currentfile" only once
+	width height depth [width 0 0 height neg 0 height] % top to bottom
+	{ip} image % zap!
+	bitmapsave restore % avoid occasional disaster on the LW+
+	grestore
+	} bind def
+/BEGINBITMAPBW { % iw, ih, width, height, theta, x y 
+	1 {} COMMONBITMAP
+	} bind def
+/BEGINBITMAPGRAY { % iw, ih, width, height, theta, x y 
+	8 {} COMMONBITMAP
+	} bind def
+/BEGINBITMAP2BIT { % iw, ih, width, height, theta, x y 
+	2 {} COMMONBITMAP
+	} bind def
+%
+% Common routine for uncompressed images
+%
+/COMMONBITMAP { % iw, ih, width, height, theta, x y depth proc
+	/cvtProc exch def
+	/depth exch def
+	gsave
+	% rotate about center of image
+	3 index 2 div add exch	% iw ih width height theta y+(height/2) x
+	4 index 2 div add exch	% iw ih width height theta x+(width/2) y+(height/2)
+	translate		% iw ih width height theta
+	rotate			% iw ih width height
+	1 index 2 div neg	% iw ih width height -(width/2)
+	1 index 2 div neg	% iw ih width height -(width/2) -(height/2)
+	translate		% iw ih width height
+	scale			% iw ih
+	/height exch def /width exch def
+	/bitmapsave save def % LW+ has a buggy memory leak!
+	cvtProc              % run the desired proc after save has occurred
+	/is width depth wbytes string def
+	/cf currentfile def % evaluate "currentfile" only once
+	width height depth [width 0 0 height neg 0 height] % top to bottom
+	{cf is readhexstring pop} image
+	bitmapsave restore % avoid occasional disaster on the LW+
+	grestore
+	} bind def
+
+%
+% All this hairy color setup stuff gus wrote on the mac, I just copied and
+% changed the variable names to be humanly readable.
+
+/ngrayt 256 array def
+/nredt 256 array def
+/nbluet 256 array def
+/ngreent 256 array def
+
+fMLevel1 {
+/colorsetup {
+	currentcolortransfer
+	/gryt exch def
+	/blut exch def
+	/grnt exch def
+	/redt exch def
+	0 1 255 {
+		/indx exch def
+		/cynu 1 red indx get 255 div sub def
+		/magu 1 green indx get 255 div sub def
+		/yelu 1 blue indx get 255 div sub def
+		/kk cynu magu min yelu min def
+% The HP PaintJet XL300 ignores the gray transfer curve but still sets its
+% default black generation and undercolor removal functions as if it is
+% used. This causes black colors not to work. Bug#56844 <Gus 2/22/93>
+% - We go back to the old (correct?) way of doing this since this code
+% is now bypassed for PS Level 2 printers in favor of colorSetup2 which
+% uses PS Level 2 indexed color, which is much cleaner. <Gus 3/3/93>
+		/u kk currentundercolorremoval exec def
+%-		/u 0 def
+		nredt indx 1 0 cynu u sub max sub redt exec put
+		ngreent indx 1 0 magu u sub max sub grnt exec put
+		nbluet indx 1 0 yelu u sub max sub blut exec put
+		ngrayt indx 1 kk currentblackgeneration exec sub gryt exec put
+	} for
+	{255 mul cvi nredt exch get}
+	{255 mul cvi ngreent exch get}
+	{255 mul cvi nbluet exch get}
+	{255 mul cvi ngrayt exch get}
+	setcolortransfer
+	{pop 0} setundercolorremoval
+	{} setblackgeneration
+	} bind def
+}
+{
+% Here, we set up indexed color for imaging on PS Level 2 without mucking around
+% with the transfer functions.
+
+/colorSetup2 {
+	[ /Indexed /DeviceRGB 255 
+		{dup red exch get 255 div 
+		 exch dup green exch get 255 div 
+		 exch blue exch get 255 div}
+	] setcolorspace
+} bind def
+} ifelse
+
+%
+% Setup a transfer function to convert psuedo color values into grayscale
+% values based on the color lookup tables.
+%
+/fakecolorsetup {
+	/tran 256 string def
+	0 1 255 {/indx exch def 
+		tran indx
+		red indx get 77 mul
+		green indx get 151 mul
+		blue indx get 28 mul
+		add add 256 idiv put} for
+	currenttransfer
+	{255 mul cvi tran exch get 255.0 div}
+	exch fmConcatProcs settransfer
+} bind def
+%
+% image a color image
+%
+/BITMAPCOLOR { % iw, ih, width, height, theta, x y 
+	/depth 8 def
+	gsave
+	% rotate about center of image
+	3 index 2 div add exch	% iw ih width height theta y+(height/2) x
+	4 index 2 div add exch	% iw ih width height theta x+(width/2) y+(height/2)
+	translate		% iw ih width height theta
+	rotate			% iw ih width height
+	1 index 2 div neg	% iw ih width height -(width/2)
+	1 index 2 div neg	% iw ih width height -(width/2) -(height/2)
+	translate		% iw ih width height
+	scale			% iw ih
+	/height exch def /width exch def
+	/bitmapsave save def
+	fMLevel1 {	
+		colorsetup
+		/is width depth wbytes string def
+		/cf currentfile def % evaluate "currentfile" only once
+		width height depth [width 0 0 height neg 0 height] % top to bottom
+		{cf is readhexstring pop} {is} {is} true 3 colorimage 
+	} {
+		colorSetup2
+		/is width depth wbytes string def
+		/cf currentfile def % evaluate "currentfile" only once
+		7 dict dup begin
+			/ImageType 1 def
+			/Width width def
+			/Height height def
+			/ImageMatrix [width 0 0 height neg 0 height] def
+			/DataSource {cf is readhexstring pop} bind def
+			/BitsPerComponent depth def
+			/Decode [0 255] def
+		end image	
+	} ifelse
+	bitmapsave restore 
+	grestore
+	} bind def
+%
+% Compressed color image rendering
+%
+/BITMAPCOLORc { % iw, ih, width, height, theta, x y 
+	/depth 8 def
+	gsave
+	% rotate about center of image
+	3 index 2 div add exch	% iw ih width height theta y+(height/2) x
+	4 index 2 div add exch	% iw ih width height theta x+(width/2) y+(height/2)
+	translate		% iw ih width height theta
+	rotate			% iw ih width height
+	1 index 2 div neg	% iw ih width height -(width/2)
+	1 index 2 div neg	% iw ih width height -(width/2) -(height/2)
+	translate		% iw ih width height
+	scale			% iw ih
+	/height exch def /width exch def
+	/lb width depth wbytes def % so "lb" has width in bytes
+	sl lb lt {lb ms} if % maybe make bigger strings
+	/bitmapsave save def 
+	fMLevel1 {	
+		colorsetup
+		/is im 0 lb getinterval def % image substring
+		ws 0 lb getinterval is copy pop % whiten it
+		/cf currentfile def % evaluate "currentfile" only once
+		width height depth [width 0 0 height neg 0 height] % top to bottom
+		{ip} {is} {is} true 3 colorimage
+	} {
+		colorSetup2
+		/is im 0 lb getinterval def % image substring
+		ws 0 lb getinterval is copy pop % whiten it
+		/cf currentfile def % evaluate "currentfile" only once
+		7 dict dup begin
+			/ImageType 1 def
+			/Width width def
+			/Height height def
+			/ImageMatrix [width 0 0 height neg 0 height] def
+			/DataSource {ip} bind def
+			/BitsPerComponent depth def
+			/Decode [0 255] def
+		end image	
+	} ifelse
+	bitmapsave restore 
+	grestore
+	} bind def
+/BITMAPTRUECOLORc { 
+	/depth 24 def
+        gsave
+ 	% rotate about center of image
+	3 index 2 div add exch	% iw ih width height theta y+(height/2) x
+	4 index 2 div add exch	% iw ih width height theta x+(width/2) y+(height/2)
+	translate		% iw ih width height theta
+	rotate			% iw ih width height
+	1 index 2 div neg	% iw ih width height -(width/2)
+	1 index 2 div neg	% iw ih width height -(width/2) -(height/2)
+	translate		% iw ih width height
+	scale			% iw ih
+	/height exch def /width exch def
+	/lb width depth wbytes def % so "lb" has width in bytes
+	sl lb lt {lb ms} if % maybe make bigger strings
+	/bitmapsave save def 
+        
+	/is im 0 lb getinterval def	% Whole scanline
+	/ris im 0 width getinterval def	% red part of im
+	/gis im width width getinterval def	% green part of im
+	/bis im width 2 mul width getinterval def % blue part of im
+        
+	ws 0 lb getinterval is copy pop 
+	/cf currentfile def 
+	width height 8 [width 0 0 height neg 0 height] 
+	{width rip pop ris} {gis} {bis} true 3 colorimage
+	bitmapsave restore 
+	grestore
+	} bind def
+/BITMAPCMYKc { 
+	/depth 32 def
+        gsave
+ 	% rotate about center of image
+	3 index 2 div add exch	% iw ih width height theta y+(height/2) x
+	4 index 2 div add exch	% iw ih width height theta x+(width/2) y+(height/2)
+	translate		% iw ih width height theta
+	rotate			% iw ih width height
+	1 index 2 div neg	% iw ih width height -(width/2)
+	1 index 2 div neg	% iw ih width height -(width/2) -(height/2)
+	translate		% iw ih width height
+	scale			% iw ih
+	/height exch def /width exch def
+	/lb width depth wbytes def % so "lb" has width in bytes
+	sl lb lt {lb ms} if % maybe make bigger strings
+	/bitmapsave save def 
+        
+	/is im 0 lb getinterval def	% Whole scanline
+	/cis im 0 width getinterval def	% cyan part of im
+	/mis im width width getinterval def	% magenta part of im
+	/yis im width 2 mul width getinterval def % yellow part of im
+	/kis im width 3 mul width getinterval def % black part of im
+        
+	ws 0 lb getinterval is copy pop 
+	/cf currentfile def 
+	width height 8 [width 0 0 height neg 0 height] 
+	{width rip4 pop cis} {mis} {yis} {kis} true 4 colorimage
+	bitmapsave restore 
+	grestore
+	} bind def
+/BITMAPTRUECOLOR { 
+        gsave
+		% rotate about center of image
+		3 index 2 div add exch	% iw ih width height theta y+(height/2) x
+		4 index 2 div add exch	% iw ih width height theta x+(width/2) y+(height/2)
+		translate		% iw ih width height theta
+		rotate			% iw ih width height
+		1 index 2 div neg	% iw ih width height -(width/2)
+		1 index 2 div neg	% iw ih width height -(width/2) -(height/2)
+		translate		% iw ih width height
+		scale			% iw ih
+		/height exch def /width exch def
+        /bitmapsave save def 
+        /is width string def
+        /gis width string def
+        /bis width string def
+        /cf currentfile def 
+        width height 8 [width 0 0 height neg 0 height] 
+        { cf is readhexstring pop } 
+        { cf gis readhexstring pop } 
+        { cf bis readhexstring pop } 
+        true 3 colorimage 
+        bitmapsave restore 
+        grestore
+        } bind def
+/BITMAPCMYK { 
+        gsave
+		% rotate about center of image
+		3 index 2 div add exch	% iw ih width height theta y+(height/2) x
+		4 index 2 div add exch	% iw ih width height theta x+(width/2) y+(height/2)
+		translate		% iw ih width height theta
+		rotate			% iw ih width height
+		1 index 2 div neg	% iw ih width height -(width/2)
+		1 index 2 div neg	% iw ih width height -(width/2) -(height/2)
+		translate		% iw ih width height
+		scale			% iw ih
+		/height exch def /width exch def
+        /bitmapsave save def 
+        /is width string def
+        /mis width string def
+        /yis width string def
+        /kis width string def
+        /cf currentfile def 
+        width height 8 [width 0 0 height neg 0 height] 
+        { cf is readhexstring pop } 
+        { cf mis readhexstring pop } 
+        { cf yis readhexstring pop } 
+        { cf kis readhexstring pop } 
+        true 4 colorimage 
+        bitmapsave restore 
+        grestore
+        } bind def
+%
+% image a color image to a b&width device
+%
+/BITMAPTRUEGRAYc { 
+	/depth 24 def
+        gsave
+	% rotate about center of image
+	3 index 2 div add exch	% iw ih width height theta y+(height/2) x
+	4 index 2 div add exch	% iw ih width height theta x+(width/2) y+(height/2)
+	translate		% iw ih width height theta
+	rotate			% iw ih width height
+	1 index 2 div neg	% iw ih width height -(width/2)
+	1 index 2 div neg	% iw ih width height -(width/2) -(height/2)
+	translate		% iw ih width height
+	scale			% iw ih
+	/height exch def /width exch def
+	/lb width depth wbytes def % so "lb" has width in bytes
+	sl lb lt {lb ms} if % maybe make bigger strings
+        /bitmapsave save def 
+        
+	/is im 0 lb getinterval def	% Whole scanline
+	/ris im 0 width getinterval def	% red part of im
+	/gis im width width getinterval def	% green part of im
+	/bis im width 2 mul width getinterval def % blue part of im
+        ws 0 lb getinterval is copy pop 
+        /cf currentfile def 
+        width height 8 [width 0 0 height neg 0 height] 
+        {width rip pop ris gis bis width gray} image
+        bitmapsave restore 
+        grestore
+        } bind def
+/BITMAPCMYKGRAYc { 
+	/depth 32 def
+        gsave
+	% rotate about center of image
+	3 index 2 div add exch	% iw ih width height theta y+(height/2) x
+	4 index 2 div add exch	% iw ih width height theta x+(width/2) y+(height/2)
+	translate		% iw ih width height theta
+	rotate			% iw ih width height
+	1 index 2 div neg	% iw ih width height -(width/2)
+	1 index 2 div neg	% iw ih width height -(width/2) -(height/2)
+	translate		% iw ih width height
+	scale			% iw ih
+	/height exch def /width exch def
+	/lb width depth wbytes def % so "lb" has width in bytes
+	sl lb lt {lb ms} if % maybe make bigger strings
+        /bitmapsave save def 
+        
+	/is im 0 lb getinterval def	% Whole scanline
+	/cis im 0 width getinterval def	% cyan part of im
+	/mis im width width getinterval def	% magenta part of im
+	/yis im width 2 mul width getinterval def % yellow part of im
+	/kis im width 3 mul width getinterval def % black part of im
+        ws 0 lb getinterval is copy pop 
+        /cf currentfile def 
+        width height 8 [width 0 0 height neg 0 height] 
+        {width rip pop cis mis yis kis width cgray} image
+        bitmapsave restore 
+        grestore
+        } bind def
+/cgray { % c m y k width
+        /ww exch def
+        /k exch def
+        /y exch def
+        /m exch def
+        /c exch def
+        0 1 ww 1 sub { /i exch def c i get m i get y i get k i get CMYKtoRGB
+				.144 mul 3 1 roll .587 mul 3 1 roll .299 mul add add
+				c i 3 -1 roll floor cvi put } for
+        c
+ 		} bind def
+/gray { % r g b width
+        /ww exch def
+        /b exch def
+        /g exch def
+        /r exch def
+        0 1 ww 1 sub { /i exch def r i get .299 mul g i get .587 mul
+			b i get .114 mul add add r i 3 -1 roll floor cvi put } for
+        r
+        } bind def
+/BITMAPTRUEGRAY { 
+        gsave
+		% rotate about center of image
+		3 index 2 div add exch	% iw ih width height theta y+(height/2) x
+		4 index 2 div add exch	% iw ih width height theta x+(width/2) y+(height/2)
+		translate		% iw ih width height theta
+		rotate			% iw ih width height
+		1 index 2 div neg	% iw ih width height -(width/2)
+		1 index 2 div neg	% iw ih width height -(width/2) -(height/2)
+		translate		% iw ih width height
+		scale			% iw ih
+		/height exch def /width exch def
+        /bitmapsave save def 
+        /is width string def
+        /gis width string def
+        /bis width string def
+        /cf currentfile def 
+        width height 8 [width 0 0 height neg 0 height] 
+        { cf is readhexstring pop 
+          cf gis readhexstring pop 
+          cf bis readhexstring pop width gray}  image
+        bitmapsave restore 
+        grestore
+        } bind def
+/BITMAPCMYKGRAY { 
+        gsave
+		% rotate about center of image
+		3 index 2 div add exch	% iw ih width height theta y+(height/2) x
+		4 index 2 div add exch	% iw ih width height theta x+(width/2) y+(height/2)
+		translate		% iw ih width height theta
+		rotate			% iw ih width height
+		1 index 2 div neg	% iw ih width height -(width/2)
+		1 index 2 div neg	% iw ih width height -(width/2) -(height/2)
+		translate		% iw ih width height
+		scale			% iw ih
+		/height exch def /width exch def
+        /bitmapsave save def 
+        /is width string def
+        /yis width string def
+        /mis width string def
+        /kis width string def
+        /cf currentfile def 
+        width height 8 [width 0 0 height neg 0 height] 
+        { cf is readhexstring pop 
+          cf mis readhexstring pop 
+          cf yis readhexstring pop 
+          cf kis readhexstring pop width cgray}  image
+        bitmapsave restore 
+        grestore
+        } bind def
+/BITMAPGRAY { % iw, ih, width, height, theta, x y 
+	8 {fakecolorsetup} COMMONBITMAP
+	} bind def
+/BITMAPGRAYc { % iw, ih, width, height, theta, x y 
+	8 {fakecolorsetup} COMMONBITMAPc
+	} bind def
+/ENDBITMAP {
+	} bind def
+end % of FrameDict definitions
+
+% OPI stuff
+	/ALDmatrix matrix def ALDmatrix currentmatrix pop
+/StartALD {
+	/ALDsave save def
+	 savematrix
+	 ALDmatrix setmatrix
+	} bind def
+/InALD {
+	 restorematrix
+	} bind def
+/DoneALD {
+	 ALDsave restore
+	} bind def
+
+% Dashed lines stuff
+/I { setdash } bind def
+/J { [] 0 setdash } bind def
+
+%%EndProlog
+%%BeginSetup
+(5.0) FMVERSION
+1 1 0 0 612 792 0 1 20 FMDOCUMENT
+0 0 /Times-Roman FMFONTDEFINE
+1 1 /Symbol FMFONTDEFINE
+2 0 /Helvetica-Bold FMFONTDEFINE
+3 0 /Helvetica-BoldOblique FMFONTDEFINE
+4 0 /Helvetica FMFONTDEFINE
+5 0 /Helvetica-Oblique FMFONTDEFINE
+6 0 /Courier-Bold FMFONTDEFINE
+7 0 /Courier FMFONTDEFINE
+32 FMFILLS
+0 0 FMFILL
+1 0.1 FMFILL
+2 0.3 FMFILL
+3 0.5 FMFILL
+4 0.7 FMFILL
+5 0.9 FMFILL
+6 0.97 FMFILL
+7 1 FMFILL
+8 <0f1e3c78f0e1c387> FMFILL
+9 <0f87c3e1f0783c1e> FMFILL
+10 <cccccccccccccccc> FMFILL
+11 <ffff0000ffff0000> FMFILL
+12 <8142241818244281> FMFILL
+13 <03060c183060c081> FMFILL
+14 <8040201008040201> FMFILL
+16 1 FMFILL
+17 0.9 FMFILL
+18 0.7 FMFILL
+19 0.5 FMFILL
+20 0.3 FMFILL
+21 0.1 FMFILL
+22 0.03 FMFILL
+23 0 FMFILL
+24 <f0e1c3870f1e3c78> FMFILL
+25 <f0783c1e0f87c3e1> FMFILL
+26 <3333333333333333> FMFILL
+27 <0000ffff0000ffff> FMFILL
+28 <7ebddbe7e7dbbd7e> FMFILL
+29 <fcf9f3e7cf9f3f7e> FMFILL
+30 <7fbfdfeff7fbfdfe> FMFILL
+%%EndSetup
+%%Page: "mini" 1
+%%BeginPaperSize: Letter
+%%EndPaperSize
+612 792 0 FMBEGINPAGE
+[0 0 0 1 0 0 0]
+[ 0 1 1 0 1 0 0]
+[ 1 0 1 0 0 1 0]
+[ 1 1 0 0 0 0 1]
+[ 1 0 0 0 0 1 1]
+[ 0 1 0 0 1 0 1]
+[ 0 0 1 0 1 1 0]
+ 7 FrameSetSepColors
+FrameNoSep
+0 0 0 1 0 0 0 K
+J
+70.15 400.5 541.85 765 C
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 4.76 Q
+0 X
+0 0 0 1 0 0 0 K
+(Cop) 113.03 418.77 T
+(yright) 120.93 418.77 T
+1 F
+(\323) 133.5 418.77 T
+0 F
+(1997) 137.26 418.77 T
+(Computer Science 217: Program Design) 267.49 418.77 T
+(P) 483.82 418.77 T
+(age 61) 486.4 418.77 T
+113.03 743.56 498.97 754.28 R
+7 X
+V
+0 4.17 Q
+0 X
+(September 14, 1999) 465.5 751.5 T
+113.03 702.46 498.97 713.18 C
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+113.03 702.46 498.97 713.18 R
+7 X
+0 0 0 1 0 0 0 K
+V
+113.03 707.82 477.53 707.82 2 L
+1.19 H
+2 Z
+0 X
+N
+70.15 400.5 541.85 765 C
+2 14.29 Q
+0 X
+0 0 0 1 0 0 0 K
+(Pr) 250.94 717.95 T
+(ogram Design) 265.75 717.95 T
+2 10.72 Q
+(1.) 113.03 686.98 T
+(Pr) 123.75 686.98 T
+(ob) 134.86 686.98 T
+(lem statement and) 147.85 686.98 T
+312.87 686.01 244.96 686.01 2 L
+V
+0.32 H
+0 Z
+N
+3 F
+(requirements) 244.96 686.98 T
+2 F
+(:) 312.87 686.98 T
+4 F
+(What is the prob) 134.47 668.51 T
+(lem?) 212.31 668.51 T
+2 F
+(2.) 113.03 648.26 T
+191.68 647.3 124.95 647.3 2 L
+V
+N
+3 F
+(Speci\336cation) 124.95 648.26 T
+2 F
+(:) 191.68 648.26 T
+4 F
+(Detailed descr) 134.47 629.8 T
+(iption of) 203.15 629.8 T
+268.09 628.84 243.67 628.84 2 L
+V
+N
+3 F
+(what) 243.67 629.8 T
+4 F
+( the system do instead of) 268.09 629.8 T
+402.17 628.84 390.25 628.84 2 L
+V
+N
+5 F
+(ho) 390.25 629.8 T
+409.75 628.84 402.01 628.84 2 L
+V
+N
+(w) 402.01 629.8 T
+4 F
+(.) 409.11 629.8 T
+2 F
+(3.) 113.03 609.55 T
+160.7 608.59 124.95 608.59 2 L
+V
+N
+3 F
+(Design) 124.95 609.55 T
+2 F
+(:) 160.7 609.55 T
+4 F
+(Explore design space \050such as \322bac) 134.47 591.09 T
+(k of the en) 304.07 591.09 T
+(v) 353.92 591.09 T
+(elope\323 calculations\051) 359.01 591.09 T
+(identify algor) 134.47 579.18 T
+(ithms and k) 195.41 579.18 T
+(e) 250.01 579.18 T
+(y) 255.75 579.18 T
+314.74 578.21 264.09 578.21 2 L
+V
+N
+3 F
+(interfaces) 264.09 579.18 T
+2 F
+(4.) 113.03 558.93 T
+136.27 557.96 124.95 557.96 2 L
+V
+N
+3 F
+(Pr) 124.95 558.93 T
+194.43 557.96 136.06 557.96 2 L
+V
+N
+(ogramming) 136.06 558.93 T
+2 F
+(:) 194.43 558.93 T
+4 F
+(Implement it in the) 134.47 540.46 T
+268.53 539.5 225.04 539.5 2 L
+V
+N
+3 F
+(simplest) 225.04 540.46 T
+4 F
+( possib) 268.53 540.46 T
+(le w) 302.28 540.46 T
+(a) 321.18 540.46 T
+(y; use libr) 326.82 540.46 T
+(ar) 372.58 540.46 T
+(ies) 382.28 540.46 T
+2 F
+(5.) 113.03 520.21 T
+131.5 519.25 124.95 519.25 2 L
+V
+N
+3 F
+(T) 124.95 520.21 T
+162.43 519.25 130.86 519.25 2 L
+V
+N
+(esting) 130.86 520.21 T
+2 F
+(:) 162.43 520.21 T
+4 F
+(Deb) 134.47 501.75 T
+(ug and test until the implementation is) 153.92 501.75 T
+373.2 500.79 336.85 500.79 2 L
+V
+N
+3 F
+(correct) 336.85 501.75 T
+2 F
+(6.) 113.03 481.5 T
+157.12 480.54 124.95 480.54 2 L
+V
+N
+3 F
+(Iterate) 124.95 481.5 T
+2 F
+(:) 157.12 481.5 T
+4 F
+(Do the design and implementation) 134.47 463.04 T
+322.76 462.08 300.12 462.08 2 L
+V
+N
+3 F
+(conf) 300.12 463.04 T
+342.79 462.08 322.54 462.08 2 L
+V
+N
+(orm) 322.54 463.04 T
+4 F
+( to the) 342.79 463.04 T
+441.11 462.08 375.58 462.08 2 L
+V
+N
+3 F
+(speci\336cation) 375.58 463.04 T
+4 F
+(?) 441.11 463.04 T
+70.15 27 541.85 391.5 C
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 4.76 Q
+0 X
+0 0 0 1 0 0 0 K
+(Cop) 113.03 45.27 T
+(yright) 120.93 45.27 T
+1 F
+(\323) 133.5 45.27 T
+0 F
+(1997) 137.26 45.27 T
+(Computer Science 217: Program Design) 267.49 45.27 T
+(P) 483.82 45.27 T
+(age 62) 486.4 45.27 T
+113.03 370.06 498.97 380.78 R
+7 X
+V
+0 4.17 Q
+0 X
+(September 14, 1999) 465.5 378 T
+113.03 328.96 498.97 339.68 C
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+113.03 328.96 498.97 339.68 R
+7 X
+0 0 0 1 0 0 0 K
+V
+113.03 334.32 477.53 334.32 2 L
+1.19 H
+2 Z
+0 X
+N
+70.15 27 541.85 391.5 C
+2 14.29 Q
+0 X
+0 0 0 1 0 0 0 K
+(Design Methodologies) 229.76 344.45 T
+2 13.1 Q
+(\245) 113.03 286.08 T
+4 10.72 Q
+(T) 123.75 286.08 T
+(w) 129.02 286.08 T
+(o impor) 136.65 286.08 T
+(tant design methodologies) 172.82 286.08 T
+167.81 266.65 134.47 266.65 2 L
+V
+0.32 H
+0 Z
+N
+3 F
+(top-do) 134.47 267.62 T
+182.54 266.65 167.65 266.65 2 L
+V
+N
+(wn) 167.65 267.62 T
+4 F
+( design, or stepwise re\336nement) 182.54 267.62 T
+187.46 248.19 134.47 248.19 2 L
+V
+N
+3 F
+(bottom-up) 134.47 249.15 T
+4 F
+( design) 187.46 249.15 T
+2 13.1 Q
+(\245) 113.03 216.99 T
+4 10.72 Q
+(Reality: use) 123.75 216.99 T
+205.96 216.03 182.74 216.03 2 L
+V
+N
+3 F
+(both) 182.74 216.99 T
+4 F
+( \321 \322left cor) 205.96 216.99 T
+(ner\323 design) 258.65 216.99 T
+2 13.1 Q
+(\245) 113.03 184.83 T
+4 10.72 Q
+(Prog) 123.75 184.83 T
+(r) 146.29 184.83 T
+(am) 149.75 184.83 T
+218.26 183.87 167.62 183.87 2 L
+V
+N
+3 F
+(call graph) 167.62 184.83 T
+4 F
+( illustr) 218.26 184.83 T
+(ates these design methodogies) 246.15 184.83 T
+2 13.1 Q
+(\245) 113.03 152.67 T
+4 10.72 Q
+(Left-cor) 123.75 152.67 T
+(ner design pr) 160.36 152.67 T
+(unes) 223.09 152.67 T
+304.11 151.71 249.31 151.71 2 L
+V
+N
+3 F
+(subgraphs) 249.31 152.67 T
+4 F
+( from the top do) 304.11 152.67 T
+(wn) 379.04 152.67 T
+FMENDPAGE
+%%EndPage: "mini" 1
+%%Page: "mini" 2
+612 792 0 FMBEGINPAGE
+[0 0 0 1 0 0 0]
+[ 0 1 1 0 1 0 0]
+[ 1 0 1 0 0 1 0]
+[ 1 1 0 0 0 0 1]
+[ 1 0 0 0 0 1 1]
+[ 0 1 0 0 1 0 1]
+[ 0 0 1 0 1 1 0]
+ 7 FrameSetSepColors
+FrameNoSep
+70.15 400.5 541.85 765 C
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 4.76 Q
+0 X
+0 0 0 1 0 0 0 K
+(Cop) 113.03 418.77 T
+(yright) 120.93 418.77 T
+1 F
+(\323) 133.5 418.77 T
+0 F
+(1997) 137.26 418.77 T
+(Computer Science 217: Program Design) 267.49 418.77 T
+(P) 483.82 418.77 T
+(age 63) 486.4 418.77 T
+113.03 743.56 498.97 754.28 R
+7 X
+V
+0 4.17 Q
+0 X
+(September 14, 1999) 465.5 751.5 T
+113.03 702.46 498.97 713.18 C
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+113.03 702.46 498.97 713.18 R
+7 X
+0 0 0 1 0 0 0 K
+V
+113.03 707.82 477.53 707.82 2 L
+1.19 H
+2 Z
+0 X
+N
+70.15 400.5 541.85 765 C
+2 14.29 Q
+0 X
+0 0 0 1 0 0 0 K
+(Stepwise Re\336nement) 234.12 717.95 T
+2 13.1 Q
+(\245) 113.03 686.98 T
+4 10.72 Q
+(T) 123.75 686.98 T
+(op-do) 129.02 686.98 T
+(wn design) 156.27 686.98 T
+(star) 134.47 668.51 T
+(ts with a) 152.77 668.51 T
+230.22 667.55 195.07 667.55 2 L
+V
+0.32 H
+0 Z
+N
+3 F
+(high-le) 195.07 668.51 T
+289.64 667.55 230.06 667.55 2 L
+V
+N
+(vel abstract) 230.06 668.51 T
+4 F
+( solution) 289.64 668.51 T
+169.62 649.09 134.47 649.09 2 L
+V
+N
+3 F
+(re\336nes) 134.47 650.05 T
+4 F
+( it repeatedly b) 169.62 650.05 T
+(y successiv) 239.73 650.05 T
+(e tr) 294.26 650.05 T
+(ansf) 309.64 650.05 T
+(or) 329.58 650.05 T
+(mations to lo) 339.38 650.05 T
+(w) 400 650.05 T
+(er-le) 407.63 650.05 T
+(v) 428.75 650.05 T
+(el solutions) 433.84 650.05 T
+(re\336nement ends at prog) 134.47 631.59 T
+(r) 247.58 631.59 T
+(amming language statements) 251.05 631.59 T
+2 13.1 Q
+(\245) 113.03 611.34 T
+4 10.72 Q
+(K) 123.75 611.34 T
+(e) 130.47 611.34 T
+(y idea: each re\336nement or) 136.22 611.34 T
+320.92 610.37 263.14 610.37 2 L
+V
+N
+3 F
+(elaboration) 263.14 611.34 T
+4 F
+(m) 134.47 592.88 T
+(ust be) 143.3 592.88 T
+205.87 591.91 175.48 591.91 2 L
+V
+N
+3 F
+(small,) 175.48 592.88 T
+2 F
+( and) 205.87 592.88 T
+267.23 591.91 230.89 591.91 2 L
+V
+N
+3 F
+(correct) 230.89 592.88 T
+4 F
+(m) 134.47 574.41 T
+(ust mo) 143.3 574.41 T
+(v) 175.31 574.41 T
+(e to) 180.4 574.41 T
+(w) 198.12 574.41 T
+(ard \336nal solution) 205.7 574.41 T
+2 13.1 Q
+(\245) 113.03 554.16 T
+4 10.72 Q
+(Accompan) 123.75 554.16 T
+(y re\336nements with) 174.24 554.16 T
+291.61 553.2 263.6 553.2 2 L
+V
+N
+3 F
+(asser) 263.6 554.16 T
+317.44 553.2 291.83 553.2 2 L
+V
+N
+(tions) 291.83 554.16 T
+4 F
+( to help ensure) 317.44 554.16 T
+452.11 553.2 391.33 553.2 2 L
+V
+N
+3 F
+(correctness) 391.33 554.16 T
+2 13.1 Q
+(\245) 113.03 533.91 T
+4 10.72 Q
+(Re\336nements use English and pseudocode) 123.75 533.91 T
+(, b) 324.41 533.91 T
+(ut ultimately result in) 336.11 533.91 T
+461.82 532.95 436.8 532.95 2 L
+V
+N
+3 F
+(code) 436.8 533.91 T
+4 F
+(:) 461.82 533.91 T
+218.39 467.36 393.61 530.34 C
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+2 9.53 Q
+0 X
+0 0 0 1 0 0 0 K
+(English/pseudocode) 259.25 513.77 T
+(C code) 290.15 476.36 T
+90 450 0.6 0.6 270.7 304.71 494.48 GG
+304.72 493.89 306.88 493.92 304.81 486.34 302.55 493.86 4 Y
+1.19 H
+0 Z
+N
+304.72 493.89 306.88 493.92 304.81 486.34 302.55 493.86 4 Y
+V
+304.5 511.46 304.71 494.48 2 L
+N
+70.15 400.5 541.85 765 C
+70.15 27 541.85 391.5 C
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 4.76 Q
+0 X
+0 0 0 1 0 0 0 K
+(Cop) 113.03 45.27 T
+(yright) 120.93 45.27 T
+1 F
+(\323) 133.5 45.27 T
+0 F
+(1997) 137.26 45.27 T
+(Computer Science 217: Program Design) 267.49 45.27 T
+(P) 483.82 45.27 T
+(age 64) 486.4 45.27 T
+113.03 370.06 498.97 380.78 R
+7 X
+V
+0 4.17 Q
+0 X
+(September 14, 1999) 465.5 378 T
+113.03 328.96 498.97 339.68 C
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+113.03 328.96 498.97 339.68 R
+7 X
+0 0 0 1 0 0 0 K
+V
+113.03 334.32 477.53 334.32 2 L
+1.19 H
+2 Z
+0 X
+N
+70.15 27 541.85 391.5 C
+2 14.29 Q
+0 X
+0 0 0 1 0 0 0 K
+(Example: Ho) 128.75 344.45 T
+(w Man) 215.11 344.45 T
+(y Librar) 258.51 344.45 T
+(y Books are Ne) 311.08 344.45 T
+(ver Used?) 414.14 344.45 T
+2 9.53 Q
+(1.) 113.03 315.46 T
+(Pr) 123.75 315.46 T
+(ob) 133.62 315.46 T
+(lem statement:) 145.17 315.46 T
+4 F
+(The circulation \336le has a line of author& title f) 134.47 298.79 T
+(or each chec) 323.8 298.79 T
+(k) 378.17 298.79 T
+(ed out book.) 382.74 298.79 T
+(Need a prog) 134.47 282.11 T
+(r) 186.82 282.11 T
+(am to ans) 189.9 282.11 T
+(w) 231.45 282.11 T
+(er ho) 238.24 282.11 T
+(w man) 259.81 282.11 T
+(y books circulate in a y) 287.73 282.11 T
+(ear) 383.93 282.11 T
+2 F
+(2. Speci\336cation:) 113.03 264.24 T
+6 F
+(unique) 134.47 247.57 T
+4 F
+(reads its standard input and pr) 174.5 247.57 T
+(ints the n) 303.35 247.57 T
+(umber of distinct \050non-redundant\051) 341.92 247.57 T
+(lines on the standard output) 134.47 236.84 T
+2 F
+(3. Design: ho) 113.03 218.98 T
+(w man) 172.72 218.98 T
+(y lines are in a typical cir) 202.19 218.98 T
+(culation \336le?) 314.82 218.98 T
+4 F
+(top-do) 134.47 202.3 T
+(wn design) 161.35 202.3 T
+3 F
+(<unique>) 134.47 185.03 T
+1 F
+(\272) 179.49 185.03 T
+3 F
+(<f) 155.91 174.31 T
+(or eac) 164.46 174.31 T
+(h line of input>) 192.44 174.31 T
+(<ad) 177.35 163.59 T
+(d the line to the set of strings>) 193.95 163.59 T
+(<count ho) 155.91 152.87 T
+(w man) 201.57 152.87 T
+(y lines are in the set>) 231.03 152.87 T
+(<print the output>) 155.91 142.15 T
+2 F
+(4. Pr) 113.03 124.28 T
+(ogramming: make f) 133.5 124.28 T
+(orwar) 221.21 124.28 T
+(d pr) 246.97 124.28 T
+(ogress b) 264.78 124.28 T
+(y elaborating c) 304.3 124.28 T
+(hunks) 371.47 124.28 T
+3 F
+(<count ho) 134.47 107.01 T
+(w man) 180.13 107.01 T
+(y lines in the set>) 209.59 107.01 T
+1 F
+(\272) 291.95 107.01 T
+6 F
+(count = 0;) 155.91 96.29 T
+3 F
+(<f) 155.91 85.57 T
+(or eac) 164.46 85.57 T
+(h element of the set>) 192.44 85.57 T
+6 F
+(count++;) 177.35 74.85 T
+217.85 147.31 504.33 208.65 C
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+2 9.53 Q
+0 X
+0 0 0 1 0 0 0 K
+(\322c) 286.35 196.8 T
+(hunks\323) 296.31 196.8 T
+(are pseudocode to be elaborated) 332.78 196.8 T
+90 450 0.6 0.6 226.03 265.41 189.57 GG
+265 189.14 266.56 187.64 259.76 183.71 263.44 190.65 4 Y
+1.19 H
+0 Z
+N
+265 189.14 266.56 187.64 259.76 183.71 263.44 190.65 4 Y
+V
+288.18 194.66 M
+ 277.66 194.29 273.65 198.11 265.41 189.57 D
+2 Z
+N
+90 450 0.6 0.6 184.62 343.77 160.29 GG
+343.17 160.25 343.35 158.08 335.63 159.64 343 162.41 4 Y
+0 Z
+N
+343.17 160.25 343.35 158.08 335.63 159.64 343 162.41 4 Y
+V
+289.47 194.81 M
+ 301.33 182.16 396.39 164.55 343.77 160.29 D
+2 Z
+N
+90 450 0.6 0.6 260.25 286.62 182.13 GG
+286.52 181.54 288.65 181.17 285.24 174.1 284.39 181.91 4 Y
+0 Z
+N
+286.52 181.54 288.65 181.17 285.24 174.1 284.39 181.91 4 Y
+V
+288.8 194.84 286.62 182.12 2 L
+2 Z
+N
+70.15 27 541.85 391.5 C
+FMENDPAGE
+%%EndPage: "mini" 2
+%%Page: "mini" 3
+612 792 0 FMBEGINPAGE
+[0 0 0 1 0 0 0]
+[ 0 1 1 0 1 0 0]
+[ 1 0 1 0 0 1 0]
+[ 1 1 0 0 0 0 1]
+[ 1 0 0 0 0 1 1]
+[ 0 1 0 0 1 0 1]
+[ 0 0 1 0 1 1 0]
+ 7 FrameSetSepColors
+FrameNoSep
+70.15 400.5 541.85 765 C
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 4.76 Q
+0 X
+0 0 0 1 0 0 0 K
+(Cop) 113.03 418.77 T
+(yright) 120.93 418.77 T
+1 F
+(\323) 133.5 418.77 T
+0 F
+(1997) 137.26 418.77 T
+(Computer Science 217: Program Design) 267.49 418.77 T
+(P) 483.82 418.77 T
+(age 65) 486.4 418.77 T
+113.03 743.56 498.97 754.28 R
+7 X
+V
+0 4.17 Q
+0 X
+(September 14, 1999) 465.5 751.5 T
+113.03 702.46 498.97 713.18 C
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+113.03 702.46 498.97 713.18 R
+7 X
+0 0 0 1 0 0 0 K
+V
+113.03 707.82 477.53 707.82 2 L
+1.19 H
+2 Z
+0 X
+N
+70.15 400.5 541.85 765 C
+2 14.29 Q
+0 X
+0 0 0 1 0 0 0 K
+(What Modules?) 253.19 717.95 T
+2 13.1 Q
+(\245) 113.03 685.59 T
+4 11.91 Q
+(ADTs: sets of str) 123.75 685.59 T
+(ings) 211.97 685.59 T
+2 13.1 Q
+(\245) 113.03 663.55 T
+4 11.91 Q
+(Modules:) 123.75 663.55 T
+6 9.53 Q
+(main.c) 134.47 646.08 T
+4 F
+(handle command-line arguments \050if an) 198.79 646.08 T
+(y\051 and top-le) 361.24 646.08 T
+(v) 413.92 646.08 T
+(el loops) 418.45 646.08 T
+3 F
+(<unique>) 134.47 628.81 T
+1 F
+(\272) 179.49 628.81 T
+3 F
+(<inc) 155.91 618.09 T
+(ludes>) 175.06 618.09 T
+(<de\336nes>) 155.91 607.37 T
+7 F
+(int main\050int argc, char *argv[]\051 {) 155.91 596.65 T
+3 F
+(<locals>) 177.35 585.93 T
+(<f) 177.35 575.21 T
+(or eac) 185.9 575.21 T
+(h line of input>) 213.88 575.21 T
+(<ad) 198.79 564.49 T
+(d the line to the set of strings>) 215.39 564.49 T
+(<count ho) 177.35 553.77 T
+(w man) 223.01 553.77 T
+(y lines are in the set>) 252.47 553.77 T
+(<print the output>) 177.35 543.04 T
+7 F
+(return EXIT_SUCCESS;) 177.35 532.32 T
+(}) 134.47 521.6 T
+6 F
+(strset.h) 134.47 504.93 T
+4 F
+(interf) 198.79 504.93 T
+(ace f) 219.69 504.93 T
+(or sets of str) 240.07 504.93 T
+(ings) 292.64 504.93 T
+6 F
+(strset.c) 134.47 491.23 T
+4 F
+(initial implementation of sets of str) 198.79 491.23 T
+(ings) 342.46 491.23 T
+2 13.1 Q
+(\245) 113.03 474.55 T
+2 9.53 Q
+(Use RCS to trac) 123.75 474.55 T
+(k c) 195.57 474.55 T
+(hang) 208.73 474.55 T
+(es) 231.59 474.55 T
+6 F
+(main.c,v) 134.47 462.64 T
+(strset.h,v) 134.47 451.92 T
+(strset.c,v) 134.47 441.2 T
+70.15 27 541.85 391.5 C
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 4.76 Q
+0 X
+0 0 0 1 0 0 0 K
+(Cop) 113.03 45.27 T
+(yright) 120.93 45.27 T
+1 F
+(\323) 133.5 45.27 T
+0 F
+(1997) 137.26 45.27 T
+(Computer Science 217: Program Design) 267.49 45.27 T
+(P) 483.82 45.27 T
+(age 66) 486.4 45.27 T
+113.03 370.06 498.97 380.78 R
+7 X
+V
+0 4.17 Q
+0 X
+(September 14, 1999) 465.5 378 T
+113.03 328.96 498.97 339.68 C
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+113.03 328.96 498.97 339.68 R
+7 X
+0 0 0 1 0 0 0 K
+V
+113.03 334.32 477.53 334.32 2 L
+1.19 H
+2 Z
+0 X
+N
+70.15 27 541.85 391.5 C
+2 14.29 Q
+0 X
+0 0 0 1 0 0 0 K
+(Elaboration) 266.68 344.45 T
+2 13.1 Q
+(\245) 113.03 304.34 T
+4 11.91 Q
+(Do the easy chunks \336rst) 123.75 304.34 T
+3 9.53 Q
+(<print the output>) 134.47 286.28 T
+1 F
+(\272) 218.65 286.28 T
+7 F
+(printf\050"%d\134n", count\051;) 155.91 275.56 T
+3 F
+(<locals>) 134.47 258.29 T
+1 F
+(\272) 175.27 258.29 T
+7 F
+(int count = 0;) 155.91 247.57 T
+3 F
+(<inc) 134.47 230.29 T
+(ludes>) 153.62 230.29 T
+1 F
+(\272) 186.72 230.29 T
+7 F
+(#include <stdio.h>) 155.91 219.57 T
+2 13.1 Q
+(\245) 113.03 190.59 T
+4 11.91 Q
+(Some elabor) 123.75 190.59 T
+(ations can be done) 191.16 190.59 T
+329 189.73 295.12 189.73 2 L
+V
+0.28 H
+0 Z
+N
+3 9.53 Q
+(without) 295.12 190.59 T
+4 11.91 Q
+( de\336ning the ADTs) 329 190.59 T
+3 9.53 Q
+(<f) 134.47 172.52 T
+(or eac) 143.02 172.52 T
+(h line in the input>) 171 172.52 T
+1 F
+(\272) 258.11 172.52 T
+7 F
+(while \050gets\050line\051\051) 155.91 161.8 T
+3 F
+(<de\336nes>) 134.47 144.53 T
+1 F
+(\272) 181.61 144.53 T
+7 F
+(#define MAXLINE 512) 155.91 133.81 T
+3 F
+(<locals>) 134.47 116.54 T
+1 F
+(+\272) 175.27 116.54 T
+7 F
+(char line[MAXLINE];) 155.91 105.82 T
+172.59 112.37 498.97 130.83 C
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+2 9.53 Q
+0 X
+0 0 0 1 0 0 0 K
+(indicates that code is) 280.99 118.63 T
+425.55 117.77 380.55 117.77 2 L
+V
+0.28 H
+0 Z
+N
+3 F
+(appended) 380.55 118.63 T
+2 F
+( to the c) 425.55 118.63 T
+(hunk) 461.99 118.63 T
+90 450 0.6 0.6 197.83 189.55 124.18 GG
+188.98 123.99 189.64 121.93 181.79 121.68 188.32 126.05 4 Y
+1.19 H
+N
+188.98 123.99 189.64 121.93 181.79 121.68 188.32 126.05 4 Y
+V
+278.6 121.47 M
+ 253.52 127.49 227.98 124.64 202.37 125.39 D
+ 198.91 125.49 193.94 125.59 189.55 124.18 D
+2 Z
+N
+70.15 27 541.85 391.5 C
+FMENDPAGE
+%%EndPage: "mini" 3
+%%Page: "mini" 4
+612 792 0 FMBEGINPAGE
+[0 0 0 1 0 0 0]
+[ 0 1 1 0 1 0 0]
+[ 1 0 1 0 0 1 0]
+[ 1 1 0 0 0 0 1]
+[ 1 0 0 0 0 1 1]
+[ 0 1 0 0 1 0 1]
+[ 0 0 1 0 1 1 0]
+ 7 FrameSetSepColors
+FrameNoSep
+70.15 400.5 541.85 765 C
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 4.76 Q
+0 X
+0 0 0 1 0 0 0 K
+(Cop) 113.03 418.77 T
+(yright) 120.93 418.77 T
+1 F
+(\323) 133.5 418.77 T
+0 F
+(1997) 137.26 418.77 T
+(Computer Science 217: Program Design) 267.49 418.77 T
+(P) 483.82 418.77 T
+(age 67) 486.4 418.77 T
+113.03 743.56 498.97 754.28 R
+7 X
+V
+0 4.17 Q
+0 X
+(September 14, 1999) 465.5 751.5 T
+113.03 702.46 498.97 713.18 C
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+113.03 702.46 498.97 713.18 R
+7 X
+0 0 0 1 0 0 0 K
+V
+113.03 707.82 477.53 707.82 2 L
+1.19 H
+2 Z
+0 X
+N
+70.15 400.5 541.85 765 C
+2 14.29 Q
+0 X
+0 0 0 1 0 0 0 K
+(ADT) 236.8 717.95 T
+(: Sets of Strings) 265.6 717.95 T
+6 9.53 Q
+(strset.h) 113.03 688.57 T
+4 11.91 Q
+(descr) 164.49 688.57 T
+(ibes) 193.79 688.57 T
+256.02 687.71 218.95 687.71 2 L
+V
+0.28 H
+0 Z
+N
+3 9.53 Q
+(abstract) 218.95 688.57 T
+4 11.91 Q
+( oper) 256.02 688.57 T
+(ations) 283.05 688.57 T
+(,) 314.65 688.57 T
+336.09 687.71 321.27 687.71 2 L
+V
+N
+3 9.53 Q
+(not) 321.27 688.57 T
+4 11.91 Q
+( implementation;) 336.09 688.57 T
+448.49 687.71 426.78 687.71 2 L
+V
+N
+3 9.53 Q
+(what) 426.78 688.57 T
+4 11.91 Q
+(, not) 448.49 688.57 T
+486.63 687.71 474.98 687.71 2 L
+V
+N
+3 9.53 Q
+(ho) 474.98 688.57 T
+493.9 687.71 486.48 687.71 2 L
+V
+N
+(w) 486.48 688.57 T
+7 8.34 Q
+(#ifndef STRSET_INCLUDED) 134.47 671.89 T
+(#define STRSET_INCLUDED) 134.47 662.36 T
+(#define T Strset_T) 134.47 646.87 T
+(typedef struct T *T;) 134.47 637.34 T
+(T Strset_new\050void\051;) 134.47 621.86 T
+(/* allocates and returns a new, empty set */) 263.12 621.86 T
+(void Strset_free\050T *set\051;) 134.47 606.38 T
+(/* deallocates *set and its contents, set *set to NULL */) 155.91 596.85 T
+(void Strset_add\050T set, char *str\051;) 134.47 581.36 T
+(/* adds str to set, if str is not already in set */) 155.91 571.83 T
+(void Strset_delete\050T set, char *str\051;) 134.47 556.35 T
+(/* removes str from set, if str is in set */) 155.91 546.82 T
+(int Strset_member\050T set, char *str\051;) 134.47 531.33 T
+(/* returns 1 if str is in set, else 0 */) 155.91 521.8 T
+(void Strset_foreach\050T set,) 134.47 506.32 T
+474.67 505.57 269.55 505.57 2 L
+V
+0.25 H
+N
+6 F
+(void apply\050char *str, void *cl\051, void *cl) 269.55 506.32 T
+7 F
+(\051;) 474.67 506.32 T
+(/* executes apply\050s, cl\051 for each string s in set */) 155.91 496.79 T
+(/* It is a) 134.47 481.3 T
+294.57 480.55 189.5 480.55 2 L
+V
+N
+6 F
+(checked runtime error) 189.5 481.3 T
+7 F
+( to pass a NULL T, *T, char*, or apply) 294.57 481.3 T
+(to any function in this interface. */) 134.47 471.77 T
+174.5 455.54 134.47 455.54 2 L
+V
+N
+6 F
+(#undef T) 134.47 456.29 T
+7 F
+(#endif) 134.47 446.76 T
+209.52 615.9 497.18 669.51 C
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+345.5 635.05 276.67 635.05 2 L
+0 X
+0 0 0 1 0 0 0 K
+V
+0.28 H
+0 Z
+N
+3 9.53 Q
+(opaque pointer) 276.67 635.91 T
+2 F
+( type; c) 345.5 635.91 T
+(lients can\325t see innar) 378.67 635.91 T
+(ds) 472.75 635.91 T
+90 450 0.6 0.6 159.8 240.19 634.43 GG
+239.63 634.63 238.88 632.6 232.54 637.24 240.38 636.67 4 Y
+1.19 H
+N
+239.63 634.63 238.88 632.6 232.54 637.24 240.38 636.67 4 Y
+V
+273.69 638.29 M
+ 268.33 630.87 252.01 630.08 240.19 634.43 D
+2 Z
+N
+(naming) 254.93 647.52 T
+308.41 646.66 291.46 646.66 2 L
+V
+0.28 H
+0 Z
+N
+3 F
+(con) 291.46 647.52 T
+341.91 646.66 308.03 646.66 2 L
+V
+N
+(vention) 308.03 647.52 T
+2 F
+(: ugl) 341.91 647.52 T
+(y) 361.89 647.52 T
+(, b) 366.42 647.52 T
+(ut a) 377.35 647.52 T
+(v) 394.15 647.52 T
+(oids name) 399.16 647.52 T
+492.9 646.66 448.95 646.66 2 L
+V
+N
+3 F
+(collisions) 448.95 647.52 T
+90 450 0.6 0.6 188.35 236.96 651.56 GG
+236.37 651.47 236.68 649.33 228.9 650.38 236.05 653.61 4 Y
+1.19 H
+N
+236.37 651.47 236.68 649.33 228.9 650.38 236.05 653.61 4 Y
+V
+251.95 650.5 M
+ 247.29 651.27 242.05 652.31 236.96 651.56 D
+2 Z
+N
+70.15 400.5 541.85 765 C
+177.35 441.6 466.66 536.29 C
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+2 9.53 Q
+0 X
+0 0 0 1 0 0 0 K
+(c) 211.6 450.13 T
+(lient) 216.71 450.13 T
+308.86 449.28 238.95 449.28 2 L
+V
+0.28 H
+0 Z
+N
+3 F
+(responsibilities) 238.95 450.13 T
+2 F
+(\322c) 368.39 518.48 T
+(losure\323) 378.26 518.48 T
+90 450 0.6 0.6 331.6 430.19 517.82 GG
+430.72 517.54 431.75 519.44 437.36 513.95 429.68 515.63 4 Y
+1.19 H
+N
+430.72 517.54 431.75 519.44 437.36 513.95 429.68 515.63 4 Y
+V
+412.46 521.85 M
+ 419.66 522.41 425.21 520.52 430.19 517.82 D
+2 Z
+N
+90 450 0.6 0.6 203.9 297.26 515.75 GG
+296.71 515.51 297.59 513.53 289.81 512.45 295.83 517.49 4 Y
+0 Z
+N
+296.71 515.51 297.59 513.53 289.81 512.45 295.83 517.49 4 Y
+V
+365.71 521.6 M
+ 347.54 509.82 331.61 517.83 311.51 517.83 D
+ 310.95 517.83 305.39 519.36 297.26 515.75 D
+2 Z
+N
+90 450 0.89 0.89 113.38 187.63 457.21 GG
+187.28 458.03 185.2 457.14 184.15 465.27 189.36 458.93 4 Y
+1.79 H
+0 Z
+N
+187.28 458.03 185.2 457.14 184.15 465.27 189.36 458.93 4 Y
+V
+210.11 452.61 M
+ 202.55 445.96 191.23 448.9 187.63 457.21 D
+2 Z
+N
+70.15 400.5 541.85 765 C
+70.15 27 541.85 391.5 C
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 4.76 Q
+0 X
+0 0 0 1 0 0 0 K
+(Cop) 113.03 45.27 T
+(yright) 120.93 45.27 T
+1 F
+(\323) 133.5 45.27 T
+0 F
+(1997) 137.26 45.27 T
+(Computer Science 217: Program Design) 267.49 45.27 T
+(P) 483.82 45.27 T
+(age 68) 486.4 45.27 T
+113.03 370.06 498.97 380.78 R
+7 X
+V
+0 4.17 Q
+0 X
+(September 14, 1999) 465.5 378 T
+113.03 328.96 498.97 339.68 C
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+113.03 328.96 498.97 339.68 R
+7 X
+0 0 0 1 0 0 0 K
+V
+113.03 334.32 477.53 334.32 2 L
+1.19 H
+2 Z
+0 X
+N
+70.15 27 541.85 391.5 C
+2 14.29 Q
+0 X
+0 0 0 1 0 0 0 K
+(Elaboration, cont\325) 241.84 344.45 T
+(d) 361.42 344.45 T
+2 13.1 Q
+(\245) 113.03 304.34 T
+4 11.91 Q
+(ADT interf) 123.75 304.34 T
+(ace giv) 177.01 304.34 T
+(es enough inf) 214.45 304.34 T
+(or) 285.61 304.34 T
+(mation to \336nish the client,) 296.49 304.34 T
+6 9.53 Q
+( main.c) 430.89 304.34 T
+3 8.34 Q
+(<locals>) 134.47 287.67 T
+1 F
+(+\272) 170.17 287.67 T
+7 F
+(Strset_T set = Strset_new\050\051;) 155.91 278.14 T
+3 F
+(<inc) 134.47 262.65 T
+(ludes>) 151.22 262.65 T
+1 F
+(+\272) 180.19 262.65 T
+7 F
+(#include "strset.h") 155.91 253.12 T
+3 F
+(<ad) 134.47 237.64 T
+(d the line to the set of strings>) 148.99 237.64 T
+1 F
+(\272) 272.47 237.64 T
+7 F
+(Strset_add\050set, line\051;) 155.91 228.11 T
+3 F
+(<count ho) 134.47 197.14 T
+(w man) 174.42 197.14 T
+(y lines are in the set >) 200.2 197.14 T
+1 F
+(\272) 289.42 197.14 T
+7 F
+(Strset_foreach\050set, cardinality, &count\051;) 155.91 187.61 T
+(static void cardinality\050char *str, void *cl\051 {) 155.91 153.07 T
+(int *p = cl;) 177.35 143.54 T
+(\050*p\051++;) 177.35 128.05 T
+(/* or) 241.68 128.05 T
+346.74 127.3 271.7 127.3 2 L
+V
+0.25 H
+0 Z
+N
+6 F
+(\050*\050int *\051cl\051++;) 271.7 128.05 T
+7 F
+( */) 346.74 128.05 T
+(}) 155.91 118.52 T
+2 13.1 Q
+(\245) 113.03 89.94 T
+4 11.91 Q
+(Implement clients of ADTs) 123.75 89.94 T
+280.37 89.08 266.07 89.08 2 L
+V
+0.28 H
+N
+3 9.53 Q
+(bef) 266.07 89.94 T
+295 89.08 280.17 89.08 2 L
+V
+N
+(ore) 280.17 89.94 T
+4 11.91 Q
+( the ADTs themselv) 295 89.94 T
+(es; helps) 398.63 89.94 T
+454.91 89.08 449.62 89.08 2 L
+V
+N
+3 9.53 Q
+(e) 449.62 89.94 T
+482.31 89.08 454.77 89.08 2 L
+V
+N
+(xpose) 454.77 89.94 T
+4 11.91 Q
+(design) 123.75 76.83 T
+222.53 75.98 162.15 75.98 2 L
+V
+N
+3 9.53 Q
+(inadequacies) 162.15 76.83 T
+316.72 147.9 375.68 196.15 C
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 X
+0 0 0 1 0 0 0 K
+90 450 0.6 0.6 324.05 351.86 165.86 GG
+352.34 165.52 353.61 167.27 358.45 161.09 351.07 163.76 4 Y
+1.19 H
+0 Z
+N
+352.34 165.52 353.61 167.27 358.45 161.09 351.07 163.76 4 Y
+V
+332.21 184.83 M
+ 332.62 173.98 343.79 171.71 351.86 165.86 D
+2 Z
+N
+70.15 27 541.85 391.5 C
+FMENDPAGE
+%%EndPage: "mini" 4
+%%Page: "mini" 5
+612 792 0 FMBEGINPAGE
+[0 0 0 1 0 0 0]
+[ 0 1 1 0 1 0 0]
+[ 1 0 1 0 0 1 0]
+[ 1 1 0 0 0 0 1]
+[ 1 0 0 0 0 1 1]
+[ 0 1 0 0 1 0 1]
+[ 0 0 1 0 1 1 0]
+ 7 FrameSetSepColors
+FrameNoSep
+70.15 400.5 541.85 765 C
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 4.76 Q
+0 X
+0 0 0 1 0 0 0 K
+(Cop) 113.03 418.77 T
+(yright) 120.93 418.77 T
+1 F
+(\323) 133.5 418.77 T
+0 F
+(1997) 137.26 418.77 T
+(Computer Science 217: Program Design) 267.49 418.77 T
+(P) 483.82 418.77 T
+(age 69) 486.4 418.77 T
+113.03 743.56 498.97 754.28 R
+7 X
+V
+0 4.17 Q
+0 X
+(September 14, 1999) 465.5 751.5 T
+113.03 702.46 498.97 713.18 C
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+113.03 702.46 498.97 713.18 R
+7 X
+0 0 0 1 0 0 0 K
+V
+113.03 707.82 477.53 707.82 2 L
+1.19 H
+2 Z
+0 X
+N
+70.15 400.5 541.85 765 C
+2 14.29 Q
+0 X
+0 0 0 1 0 0 0 K
+(Str) 285.85 717.95 T
+(set) 305.49 717.95 T
+2 13.1 Q
+(\245) 113.03 677.84 T
+4 11.91 Q
+(Initial implementation can be) 123.75 677.84 T
+308.2 676.99 278.01 676.99 2 L
+V
+0.28 H
+0 Z
+N
+3 9.53 Q
+(simple) 278.01 677.84 T
+4 11.91 Q
+(; it might suf\336ce ...) 308.2 677.84 T
+2 13.1 Q
+(\245) 113.03 648.07 T
+4 11.91 Q
+(Implementation) 123.75 648.07 T
+217.5 647.21 208.49 647.21 2 L
+V
+N
+3 9.53 Q
+(re) 208.49 648.07 T
+241.2 647.21 217.35 647.21 2 L
+V
+N
+(veals) 217.35 648.07 T
+4 11.91 Q
+( the innards of the) 241.2 648.07 T
+373.75 647.21 339.86 647.21 2 L
+V
+N
+3 9.53 Q
+(opaque) 339.86 648.07 T
+4 11.91 Q
+( type: a list of str) 373.75 648.07 T
+(ings) 460.65 648.07 T
+7 9.53 Q
+(#include "strset.h") 134.47 630 T
+(#define T Strset_T) 134.47 619.28 T
+(struct T {) 134.47 602.01 T
+(T next;) 155.91 591.29 T
+(char str[) 155.91 580.57 T
+213.09 579.71 207.37 579.71 2 L
+V
+N
+6 F
+(1) 207.37 580.57 T
+7 F
+(];) 213.09 580.57 T
+(};) 134.47 569.85 T
+2 13.1 Q
+(\245) 113.03 540.86 T
+6 9.53 Q
+(Strset_new) 123.75 540.86 T
+4 11.91 Q
+(allocates a ne) 186.65 540.86 T
+(w header node) 259.9 540.86 T
+7 9.53 Q
+(T Strset_new\050void\051 {) 134.47 522.8 T
+(T set = calloc\0501, sizeof *set\051;) 155.91 512.08 T
+(assert\050set\051;) 155.91 490.63 T
+(return set;) 155.91 479.91 T
+(}) 134.47 469.19 T
+4 F
+(OK dur) 134.47 452.52 T
+(ing de) 164.8 452.52 T
+(v) 190.48 452.52 T
+(elopment and in COS 217, b) 195 452.52 T
+(ut not in production prog) 315.05 452.52 T
+(r) 417.72 452.52 T
+(ams) 420.8 452.52 T
+335.18 488.05 504.33 640.52 C
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+395.34 608.56 417.37 630 R
+1.19 H
+2 Z
+0 X
+0 0 0 1 0 0 0 K
+N
+395.34 565.68 491.82 587.12 R
+N
+395.34 522.2 470.38 543.64 R
+N
+406.06 587.12 405.84 565.53 2 L
+N
+406.06 543.64 406.06 523.39 2 L
+N
+405.46 630 405.46 608.71 2 L
+N
+6 9.53 Q
+(a long string) 411.42 574.02 T
+(hi there!) 412.61 531.13 T
+90 450 0.6 0.6 270 400.7 598.61 GG
+400.7 598.02 402.86 598.02 400.7 590.47 398.53 598.02 4 Y
+0 Z
+N
+400.7 598.02 402.86 598.02 400.7 590.47 398.53 598.02 4 Y
+V
+400.7 619.28 400.7 598.61 2 L
+2 Z
+N
+90 450 0.6 0.6 270 400.7 554.54 GG
+400.7 553.95 402.86 553.95 400.7 546.4 398.53 553.95 4 Y
+0 Z
+N
+400.7 553.95 402.86 553.95 400.7 546.4 398.53 553.95 4 Y
+V
+400.7 575.21 400.7 554.54 2 L
+2 Z
+N
+90 450 0.6 0.6 270 400.7 511.66 GG
+400.7 511.06 402.86 511.06 400.7 503.51 398.53 511.06 4 Y
+0 Z
+N
+400.7 511.06 402.86 511.06 400.7 503.51 398.53 511.06 4 Y
+V
+400.7 533.52 400.7 511.66 2 L
+2 Z
+N
+(...) 398.91 495.4 T
+2 F
+(\322header\323 node) 426.9 617.49 T
+90 450 0.6 0.6 385.03 619.28 G
+385.63 619.28 385.63 621.44 393.18 619.28 385.63 617.11 4 Y
+0 Z
+N
+385.63 619.28 385.63 621.44 393.18 619.28 385.63 617.11 4 Y
+V
+363.18 619.28 385.03 619.28 2 L
+2 Z
+N
+6 F
+(set) 342.33 616.9 T
+70.15 400.5 541.85 765 C
+121.37 451.33 164.25 497.78 C
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 X
+0 0 0 1 0 0 0 K
+90 450 0.6 0.6 35.99 143.56 483.04 GG
+144.04 483.39 142.77 485.14 150.15 487.82 145.31 481.64 4 Y
+1.19 H
+0 Z
+N
+144.04 483.39 142.77 485.14 150.15 487.82 145.31 481.64 4 Y
+V
+132.69 456.49 M
+ 127.99 465.21 134.64 476.56 143.56 483.04 D
+2 Z
+N
+70.15 400.5 541.85 765 C
+70.15 27 541.85 391.5 C
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 4.76 Q
+0 X
+0 0 0 1 0 0 0 K
+(Cop) 113.03 45.27 T
+(yright) 120.93 45.27 T
+1 F
+(\323) 133.5 45.27 T
+0 F
+(1997) 137.26 45.27 T
+(Computer Science 217: Program Design) 267.49 45.27 T
+(P) 483.82 45.27 T
+(age 70) 486.4 45.27 T
+113.03 370.06 498.97 380.78 R
+7 X
+V
+0 4.17 Q
+0 X
+(September 14, 1999) 465.5 378 T
+113.03 328.96 498.97 339.68 C
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+113.03 328.96 498.97 339.68 R
+7 X
+0 0 0 1 0 0 0 K
+V
+113.03 334.32 477.53 334.32 2 L
+1.19 H
+2 Z
+0 X
+N
+70.15 27 541.85 391.5 C
+2 14.29 Q
+0 X
+0 0 0 1 0 0 0 K
+(Initial Implementation of Str) 201.66 344.45 T
+(set) 389.68 344.45 T
+2 13.1 Q
+(\245) 113.03 304.34 T
+4 11.91 Q
+(F) 123.75 304.34 T
+(or no) 130.67 304.34 T
+(w) 157.64 304.34 T
+(, implement only enough of the ADT to test) 165.53 304.34 T
+6 9.53 Q
+( unique) 391.3 304.34 T
+7 F
+(void Strset_add\050T set, char *str\051 {) 134.47 286.28 T
+(T p = set;) 155.91 275.56 T
+(assert\050set\051;) 155.91 258.29 T
+(assert\050str\051;) 155.91 247.57 T
+(while \050) 155.91 236.84 T
+316.01 235.99 195.94 235.99 2 L
+V
+0.28 H
+0 Z
+N
+6 F
+(\050p = p->next\051 != NULL) 195.94 236.84 T
+7 F
+(\051) 316.01 236.84 T
+(if \050strcmp\050str, p->str\051 == 0\051) 177.35 226.12 T
+(return;) 198.79 215.4 T
+361.75 203.83 155.91 203.83 2 L
+V
+N
+6 F
+(p = malloc\050sizeof *p + strlen\050str\051\051;) 155.91 204.68 T
+7 F
+(assert\050p\051;) 155.91 193.96 T
+(strcpy\050p->str, str\051;) 155.91 183.24 T
+(p->next = set->next;) 155.91 172.52 T
+(set->next = p;) 155.91 161.8 T
+(}) 134.47 151.08 T
+(void Strset_foreach\050T set, void apply\050char *str, void *cl\051,) 134.47 133.81 T
+(void *cl\051 {) 134.47 123.09 T
+(assert\050set\051;) 155.91 112.37 T
+(assert\050apply\051;) 155.91 101.65 T
+(while \050) 155.91 90.93 T
+338.88 90.07 195.94 90.07 2 L
+V
+N
+6 F
+(\050set = set->next\051 != NULL) 195.94 90.93 T
+7 F
+(\051) 338.88 90.93 T
+(apply\050set->str, cl\051;) 177.35 80.21 T
+(}) 134.47 69.49 T
+FMENDPAGE
+%%EndPage: "mini" 5
+%%Page: "mini" 6
+612 792 0 FMBEGINPAGE
+[0 0 0 1 0 0 0]
+[ 0 1 1 0 1 0 0]
+[ 1 0 1 0 0 1 0]
+[ 1 1 0 0 0 0 1]
+[ 1 0 0 0 0 1 1]
+[ 0 1 0 0 1 0 1]
+[ 0 0 1 0 1 1 0]
+ 7 FrameSetSepColors
+FrameNoSep
+70.15 400.5 541.85 765 C
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 4.76 Q
+0 X
+0 0 0 1 0 0 0 K
+(Cop) 113.03 418.77 T
+(yright) 120.93 418.77 T
+1 F
+(\323) 133.5 418.77 T
+0 F
+(1997) 137.26 418.77 T
+(Computer Science 217: Program Design) 267.49 418.77 T
+(P) 483.82 418.77 T
+(age 71) 486.4 418.77 T
+113.03 743.56 498.97 754.28 R
+7 X
+V
+0 4.17 Q
+0 X
+(September 14, 1999) 465.5 751.5 T
+113.03 702.46 498.97 713.18 C
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+113.03 702.46 498.97 713.18 R
+7 X
+0 0 0 1 0 0 0 K
+V
+113.03 707.82 477.53 707.82 2 L
+1.19 H
+2 Z
+0 X
+N
+70.15 400.5 541.85 765 C
+2 14.29 Q
+0 X
+0 0 0 1 0 0 0 K
+(T) 281.01 717.95 T
+(esting) 288.89 717.95 T
+2 9.53 Q
+(5. T) 113.03 684.2 T
+(esting:) 128.88 684.2 T
+6 F
+( unique) 160.12 684.2 T
+2 F
+(w) 205.86 684.2 T
+(orks, b) 213.08 684.2 T
+(ut runs too slo) 244.14 684.2 T
+(wl) 310.17 684.2 T
+(y on) 320.09 684.2 T
+353.99 683.34 342.33 683.34 2 L
+V
+0.28 H
+0 Z
+N
+3 F
+(lar) 342.33 684.2 T
+359.67 683.34 353.85 683.34 2 L
+V
+N
+(g) 353.85 684.2 T
+365.06 683.34 359.76 683.34 2 L
+V
+N
+(e) 359.76 684.2 T
+2 F
+( inputs; wh) 365.06 684.2 T
+(y?) 415.17 684.2 T
+4 F
+( impro) 134.47 667.52 T
+(v) 160.8 667.52 T
+(e) 165.33 667.52 T
+6 F
+(strset) 173.28 667.52 T
+4 F
+(\325) 207.58 667.52 T
+(s implementation; don\325t change its interf) 209.22 667.52 T
+(ace) 376.83 667.52 T
+2 13.1 Q
+(\245) 113.03 646.28 T
+4 11.91 Q
+(Solution: use a) 123.75 646.28 T
+245.04 645.42 205.86 645.42 2 L
+V
+N
+3 9.53 Q
+(hash tab) 205.86 646.28 T
+252.9 645.42 244.95 645.42 2 L
+V
+N
+(le) 244.95 646.28 T
+4 11.91 Q
+( to represent a set of str) 252.9 646.28 T
+(ings) 378.87 646.28 T
+4 9.53 Q
+(a set is a pointer to an arr) 134.47 628.81 T
+(a) 242.43 628.81 T
+(y of) 247.44 628.81 T
+6 F
+(TABLESIZE) 265.45 628.81 T
+4 F
+( link) 316.91 628.81 T
+(ed lists) 333.66 628.81 T
+(cr) 134.47 615.11 T
+(unch the str) 142.55 615.11 T
+(ing into an integer) 192.49 615.11 T
+6 F
+( h) 268.23 615.11 T
+4 F
+(let) 134.47 601.41 T
+6 F
+( i = h%TABLESIZE) 144.54 601.41 T
+4 F
+(search the) 155.91 587.71 T
+6 F
+(i) 203.05 587.71 T
+4 F
+(th link) 208.77 587.71 T
+(ed list f) 233.47 587.71 T
+(or the str) 263.38 587.71 T
+(ing, or) 301.12 587.71 T
+(add the str) 155.91 576.99 T
+(ing to the head of the) 201.08 576.99 T
+6 F
+(i) 293.27 576.99 T
+4 F
+(th list) 298.99 576.99 T
+133.8 438.8 478.2 573.82 C
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+197.55 445.2 208.72 562.46 R
+7 X
+0 0 0 1 0 0 0 K
+V
+1.19 H
+0 Z
+0 X
+N
+6 9.53 Q
+(0) 189.36 554.83 T
+(TABLESIZE-1) 134.64 447.62 T
+198.13 455.52 208.18 455.52 2 L
+N
+197.59 466.16 209.24 466.16 2 L
+N
+198.02 476.51 208.59 476.51 2 L
+N
+198.05 487.66 208.99 487.33 2 L
+N
+198.02 498.7 208.55 498.7 2 L
+N
+198.01 520.03 208.62 520.03 2 L
+N
+197.98 530.11 208.62 530.11 2 L
+N
+198.05 541.76 208.25 541.43 2 L
+N
+(.) 200.62 507.18 T
+(.) 200.55 511.91 T
+(.) 200.58 503.5 T
+241.88 541.43 263.65 552.6 R
+N
+273.7 541.24 316.7 552.41 R
+N
+284.8 552.11 284.8 541.5 2 L
+N
+326.75 541.43 359.69 552.6 R
+N
+337.58 552.37 337.58 541.76 2 L
+N
+241.88 487.02 284.87 498.19 R
+N
+294.92 486.83 337.92 498 R
+N
+347.97 487.02 380.35 498.19 R
+N
+422.23 486.83 444.01 498 R
+N
+306.02 497.7 306.02 486.54 2 L
+N
+358.58 498 358.58 486.83 2 L
+N
+433.32 497.7 433.32 486.54 2 L
+N
+90 450 0.6 0.6 39.65 286.44 480.26 GG
+286.89 480.64 285.51 482.31 292.7 485.45 288.27 478.98 4 Y
+N
+286.89 480.64 285.51 482.31 292.7 485.45 288.27 478.98 4 Y
+V
+246.9 492.98 M
+ 246.59 475.14 273.66 469.67 286.44 480.26 D
+N
+90 450 0.6 0.6 30.37 338.52 481.62 GG
+339.03 481.92 337.94 483.79 345.55 485.74 340.12 480.05 4 Y
+N
+339.03 481.92 337.94 483.79 345.55 485.74 340.12 480.05 4 Y
+V
+300.51 492.98 M
+ 303.68 475.74 324.87 473.62 338.52 481.62 D
+N
+90 450 0.6 0.6 38.69 384.03 480.95 GG
+384.5 481.32 383.15 483.01 390.39 486.04 385.85 479.63 4 Y
+N
+384.5 481.32 383.15 483.01 390.39 486.04 385.85 479.63 4 Y
+V
+352.99 492.42 M
+ 353.74 478.79 373.81 472.76 384.04 480.95 D
+N
+90 450 0.6 0.6 37.18 413.46 481.16 GG
+413.93 481.52 412.62 483.24 419.95 486.08 415.24 479.79 4 Y
+N
+413.93 481.52 412.62 483.24 419.95 486.08 415.24 479.79 4 Y
+V
+401.01 487.39 M
+ 403.77 481.52 409.47 478.14 413.45 481.16 D
+N
+(...) 387.61 490.74 T
+(0) 200.25 522.26 T
+241.8 454.46 284.8 465.63 R
+N
+252.97 465.81 252.97 454.65 2 L
+N
+90 450 0.6 0.6 359.65 231.5 460.11 GG
+232.1 460.1 232.11 462.27 239.64 460.06 232.08 457.94 4 Y
+N
+232.1 460.1 232.11 462.27 239.64 460.06 232.08 457.94 4 Y
+V
+203.04 460.28 231.5 460.11 2 L
+N
+252.49 498 252.49 486.83 2 L
+N
+198.11 552.45 208.16 552.45 2 L
+N
+250.41 552.45 250.41 541.84 2 L
+N
+90 450 0.6 0.6 0.55 231.35 546.71 GG
+231.95 546.72 231.93 548.88 239.5 546.79 231.97 544.55 4 Y
+N
+231.95 546.72 231.93 548.88 239.5 546.79 231.97 544.55 4 Y
+V
+202.95 546.44 231.35 546.71 2 L
+N
+90 450 0.6 0.6 359.45 231.35 492.81 GG
+231.95 492.8 231.97 494.97 239.5 492.73 231.93 490.64 4 Y
+N
+231.95 492.8 231.97 494.97 239.5 492.73 231.93 490.64 4 Y
+V
+202.94 493.08 231.35 492.81 2 L
+N
+90 450 0.6 0.6 40.39 265.86 535.12 GG
+266.32 535.51 264.91 537.16 272.07 540.4 267.72 533.86 4 Y
+N
+266.32 535.51 264.91 537.16 272.07 540.4 267.72 533.86 4 Y
+V
+245.45 547.32 M
+ 246.18 534.07 258.11 528.53 265.86 535.12 D
+N
+90 450 0.6 0.6 30.95 318.48 536.5 GG
+318.99 536.81 317.88 538.66 325.46 540.69 320.1 534.95 4 Y
+N
+318.99 536.81 317.88 538.66 325.46 540.69 320.1 534.95 4 Y
+V
+279.43 546.28 M
+ 282.61 528.99 304.55 528.15 318.48 536.5 D
+N
+70.15 400.5 541.85 765 C
+70.15 27 541.85 391.5 C
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 4.76 Q
+0 X
+0 0 0 1 0 0 0 K
+(Cop) 113.03 45.27 T
+(yright) 120.93 45.27 T
+1 F
+(\323) 133.5 45.27 T
+0 F
+(1997) 137.26 45.27 T
+(Computer Science 217: Program Design) 267.49 45.27 T
+(P) 483.82 45.27 T
+(age 72) 486.4 45.27 T
+113.03 370.06 498.97 380.78 R
+7 X
+V
+0 4.17 Q
+0 X
+(September 14, 1999) 465.5 378 T
+113.03 328.96 498.97 339.68 C
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+113.03 328.96 498.97 339.68 R
+7 X
+0 0 0 1 0 0 0 K
+V
+113.03 334.32 477.53 334.32 2 L
+1.19 H
+2 Z
+0 X
+N
+70.15 27 541.85 391.5 C
+2 14.29 Q
+0 X
+0 0 0 1 0 0 0 K
+(Better Implementation of Str) 199.68 344.45 T
+(set) 391.66 344.45 T
+7 8.34 Q
+(#include <assert.h>) 134.47 317.45 T
+(#include <stdlib.h>) 134.47 307.92 T
+(#include <string.h>) 134.47 298.39 T
+(#include "strset.h") 134.47 288.86 T
+(#define T Strset_T) 134.47 279.33 T
+(#define TABLESIZE 97) 134.47 263.84 T
+(struct T {) 134.47 254.32 T
+(struct elem {) 155.91 244.79 T
+(struct elem *next;) 177.35 235.26 T
+(char str[1];) 177.35 225.73 T
+(} *table[TABLESIZE];) 155.91 216.2 T
+(};) 134.47 206.67 T
+(void Strset_free\050T *set\051 {) 134.47 191.18 T
+(int i;) 155.91 181.66 T
+(assert\050set && *set\051;) 155.91 166.17 T
+(for \050i = 0; i < TABLESIZE; i++\051 {) 155.91 156.64 T
+(struct elem *p, *q;) 177.35 147.11 T
+(for \050p = \050*set\051->table[i]; p; p = q\051 {) 177.35 137.58 T
+(q = p->next;) 198.79 128.05 T
+(free\050p\051;) 198.79 118.52 T
+(}) 177.35 108.99 T
+(}) 155.91 99.47 T
+(free\050*set\051;) 155.91 89.94 T
+(*set = NULL;) 155.91 80.41 T
+(}) 134.47 70.88 T
+276.82 188.26 495.1 300.97 C
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+282.18 195.85 491.22 261.66 R
+7 X
+0 0 0 1 0 0 0 K
+V
+7 8.34 Q
+0 X
+(T Strset_new\050void\051 {) 303.62 256.1 T
+(T set =) 325.06 246.57 T
+395.1 245.82 365.08 245.82 2 L
+V
+0.25 H
+0 Z
+N
+6 F
+(calloc) 365.08 246.57 T
+7 F
+(\0501, sizeof *set\051;) 395.1 246.57 T
+(assert\050set\051;) 325.06 231.09 T
+(return set;) 325.06 221.56 T
+(}) 303.62 212.03 T
+281.43 278.78 463.68 290.4 R
+7 X
+V
+4 9.53 Q
+0 X
+(same as abo) 302.87 284.05 T
+(v) 357.29 284.05 T
+(e!) 361.81 284.05 T
+90 450 0.89 0.89 228.85 398.48 270.11 GG
+397.89 269.44 399.6 267.95 392.71 263.51 396.19 270.93 4 Y
+1.79 H
+N
+397.89 269.44 399.6 267.95 392.71 263.51 396.19 270.93 4 Y
+V
+375.09 288.46 M
+ 387.84 288.62 407.67 280.63 398.48 270.11 D
+2 Z
+N
+70.15 27 541.85 391.5 C
+FMENDPAGE
+%%EndPage: "mini" 6
+%%Page: "mini" 7
+612 792 0 FMBEGINPAGE
+[0 0 0 1 0 0 0]
+[ 0 1 1 0 1 0 0]
+[ 1 0 1 0 0 1 0]
+[ 1 1 0 0 0 0 1]
+[ 1 0 0 0 0 1 1]
+[ 0 1 0 0 1 0 1]
+[ 0 0 1 0 1 1 0]
+ 7 FrameSetSepColors
+FrameNoSep
+70.15 400.5 541.85 765 C
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 4.76 Q
+0 X
+0 0 0 1 0 0 0 K
+(Cop) 113.03 418.77 T
+(yright) 120.93 418.77 T
+1 F
+(\323) 133.5 418.77 T
+0 F
+(1997) 137.26 418.77 T
+(Computer Science 217: Program Design) 267.49 418.77 T
+(P) 483.82 418.77 T
+(age 73) 486.4 418.77 T
+113.03 743.56 498.97 754.28 R
+7 X
+V
+0 4.17 Q
+0 X
+(September 14, 1999) 465.5 751.5 T
+113.03 702.46 498.97 713.18 C
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+113.03 702.46 498.97 713.18 R
+7 X
+0 0 0 1 0 0 0 K
+V
+113.03 707.82 477.53 707.82 2 L
+1.19 H
+2 Z
+0 X
+N
+70.15 400.5 541.85 765 C
+2 14.29 Q
+0 X
+0 0 0 1 0 0 0 K
+(Better Implementation of Str) 174.84 717.95 T
+(set, cont\325) 366.82 717.95 T
+(d) 428.43 717.95 T
+7 9.53 Q
+(static unsigned hash\050char *str\051 {) 134.47 689.56 T
+(unsigned h = 0;) 155.91 678.84 T
+(while \050*str\051) 155.91 661.57 T
+(h = \050h<<1\051 + *str++;) 177.35 650.84 T
+(return h;) 155.91 640.12 T
+(}) 134.47 629.4 T
+(void Strset_add\050T set, char *str\051 {) 134.47 612.13 T
+(int i;) 155.91 601.41 T
+(struct elem *p;) 155.91 590.69 T
+(assert\050set\051;) 155.91 573.42 T
+(assert\050str\051;) 155.91 562.7 T
+(i = hash\050str\051%TABLESIZE;) 155.91 551.98 T
+(for \050p = set->table[i]; p; p = p->next\051) 155.91 541.26 T
+(if \050strcmp\050str, p->str\051 == 0\051) 177.35 530.54 T
+(return;) 198.79 519.82 T
+(p = malloc\050sizeof *p + strlen\050str\051\051;) 155.91 509.1 T
+(assert\050p\051;) 155.91 498.38 T
+(strcpy\050p->str, str\051;) 155.91 487.66 T
+(p->next = set->table[i];) 155.91 476.93 T
+(set->table[i] = p;) 155.91 466.21 T
+(}) 134.47 455.49 T
+70.15 27 541.85 391.5 C
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 4.76 Q
+0 X
+0 0 0 1 0 0 0 K
+(Cop) 113.03 45.27 T
+(yright) 120.93 45.27 T
+1 F
+(\323) 133.5 45.27 T
+0 F
+(1997) 137.26 45.27 T
+(Computer Science 217: Program Design) 267.49 45.27 T
+(P) 483.82 45.27 T
+(age 74) 486.4 45.27 T
+113.03 370.06 498.97 380.78 R
+7 X
+V
+0 4.17 Q
+0 X
+(September 14, 1999) 465.5 378 T
+113.03 328.96 498.97 339.68 C
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+113.03 328.96 498.97 339.68 R
+7 X
+0 0 0 1 0 0 0 K
+V
+113.03 334.32 477.53 334.32 2 L
+1.19 H
+2 Z
+0 X
+N
+70.15 27 541.85 391.5 C
+2 14.29 Q
+0 X
+0 0 0 1 0 0 0 K
+(Better Implementation of Str) 174.84 344.45 T
+(set, cont\325) 366.82 344.45 T
+(d) 428.43 344.45 T
+7 9.53 Q
+(void Strset_foreach\050T set, void apply\050char *str, void *cl\051,) 134.47 316.06 T
+(void *cl\051 {) 134.47 305.34 T
+(int i;) 155.91 294.62 T
+(assert\050set\051;) 155.91 277.34 T
+(assert\050apply\051;) 155.91 266.62 T
+(for \050i = 0; i < TABLESIZE; i++\051 {) 155.91 255.9 T
+(struct elem *p;) 177.35 245.18 T
+(for \050p = set->table[i]; p; p = p->next\051) 177.35 234.46 T
+(apply\050p->str, cl\051;) 198.79 223.74 T
+(}) 155.91 213.02 T
+(}) 134.47 202.3 T
+2 13.1 Q
+(\245) 113.03 173.32 T
+4 11.91 Q
+(see \336les in) 123.75 173.32 T
+6 9.53 Q
+( src/{strset,unique}) 180.02 173.32 T
+4 11.91 Q
+(; RCS \336les tr) 294.37 173.32 T
+(ac) 361.1 173.32 T
+(k) 373.44 173.32 T
+393.31 172.46 382.71 172.46 2 L
+V
+0.28 H
+0 Z
+N
+3 9.53 Q
+(all) 382.71 173.32 T
+4 11.91 Q
+( impro) 393.31 173.32 T
+(v) 426.22 173.32 T
+(ements) 431.88 173.32 T
+FMENDPAGE
+%%EndPage: "mini" 7
+%%Page: "mini" 8
+612 792 0 FMBEGINPAGE
+[0 0 0 1 0 0 0]
+[ 0 1 1 0 1 0 0]
+[ 1 0 1 0 0 1 0]
+[ 1 1 0 0 0 0 1]
+[ 1 0 0 0 0 1 1]
+[ 0 1 0 0 1 0 1]
+[ 0 0 1 0 1 1 0]
+ 7 FrameSetSepColors
+FrameNoSep
+70.15 400.5 541.85 765 C
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+0 4.76 Q
+0 X
+0 0 0 1 0 0 0 K
+(Cop) 113.03 418.77 T
+(yright) 120.93 418.77 T
+1 F
+(\323) 133.5 418.77 T
+0 F
+(1997) 137.26 418.77 T
+(Computer Science 217: Program Design) 267.49 418.77 T
+(P) 483.82 418.77 T
+(age 75) 486.4 418.77 T
+113.03 743.56 498.97 754.28 R
+7 X
+V
+0 4.17 Q
+0 X
+(September 14, 1999) 465.5 751.5 T
+113.03 702.46 498.97 713.18 C
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+113.03 702.46 498.97 713.18 R
+7 X
+0 0 0 1 0 0 0 K
+V
+113.03 707.82 477.53 707.82 2 L
+1.19 H
+2 Z
+0 X
+N
+70.15 400.5 541.85 765 C
+2 14.29 Q
+0 X
+0 0 0 1 0 0 0 K
+(More T) 261.95 717.95 T
+(esting) 307.95 717.95 T
+2 13.1 Q
+(\245) 113.03 685.59 T
+146.52 684.73 123.75 684.73 2 L
+V
+0.28 H
+0 Z
+N
+3 9.53 Q
+(More) 123.75 685.59 T
+4 11.91 Q
+( testing) 146.52 685.59 T
+4 9.53 Q
+(test on \322typical\323 inputs) 134.47 670.5 T
+(test on) 134.47 656.21 T
+171.03 655.35 165.73 655.35 2 L
+V
+N
+3 F
+(e) 165.73 656.21 T
+202.13 655.35 170.88 655.35 2 L
+V
+N
+(xtreme) 170.88 656.21 T
+4 F
+( inputs:) 202.13 656.21 T
+(a \336le with b) 155.91 639.53 T
+(lank lines) 203.39 639.53 T
+(a v) 155.91 628.81 T
+(er) 168.39 628.81 T
+(y long \336le) 177.15 628.81 T
+(a long \336le with lines that are all identical) 155.91 618.09 T
+(a \336le with v) 155.91 607.37 T
+(er) 202.81 607.37 T
+(y long lines) 211.57 607.37 T
+(an empty \336le) 155.91 596.65 T
+(...) 155.91 585.93 T
+2 13.1 Q
+(\245) 113.03 564.68 T
+4 11.91 Q
+(V) 123.75 564.68 T
+(er) 130.74 564.68 T
+(y long lines causes) 141.69 564.68 T
+6 9.53 Q
+( unique) 242.32 564.68 T
+4 11.91 Q
+(to cr) 288.06 564.68 T
+(ash!) 311.11 564.68 T
+3 8.34 Q
+(<f) 134.47 548.01 T
+(or eac) 141.95 548.01 T
+(h line in the input>) 166.43 548.01 T
+1 F
+(\272) 242.65 548.01 T
+7 F
+(while \050gets\050line\051\051) 155.91 538.48 T
+2 9.53 Q
+(6. Iterate) 113.03 521.01 T
+4 F
+(go to step 2, amend the) 134.47 504.33 T
+295.5 503.48 237.25 503.48 2 L
+V
+N
+3 F
+(speci\336cation) 237.25 504.33 T
+4 F
+(:) 295.5 504.33 T
+(\322Only the \336rst 511 char) 155.91 491.23 T
+(acters of a line are signi\336cant\323) 252.21 491.23 T
+(go to step 4 \050prog) 134.47 474.55 T
+(r) 209.07 474.55 T
+(amming\051 and \336x the error \050use RCS\051) 212.15 474.55 T
+(go to step 5 \050testing\051 and repeat) 134.47 457.88 T
+282.8 457.02 272.2 457.02 2 L
+V
+N
+3 F
+(all) 272.2 457.88 T
+4 F
+( of the tests) 282.8 457.88 T
+163.07 440.34 134.47 440.34 2 L
+V
+N
+3 F
+(iterate) 134.47 441.2 T
+4 F
+( again.) 163.07 441.2 T
+196.71 522.7 447.31 560.37 C
+0 0 0 1 0 0 0 K
+0 0 0 1 0 0 0 K
+6 9.53 Q
+0 X
+0 0 0 1 0 0 0 K
+(gets) 287.54 544.18 T
+2 F
+(can\325t c) 316.13 544.18 T
+(hec) 346.22 544.18 T
+(k length of) 362.45 544.18 T
+6 F
+( line) 410.63 544.18 T
+90 450 0.89 0.89 155.38 240.54 529.65 GG
+239.73 530.02 238.79 527.97 232.56 533.3 240.67 532.08 4 Y
+1.79 H
+0 Z
+N
+239.73 530.02 238.79 527.97 232.56 533.3 240.67 532.08 4 Y
+V
+293.94 542.25 M
+ 279.8 530.59 257.69 521.79 240.54 529.65 D
+2 Z
+N
+70.15 400.5 541.85 765 C
+FMENDPAGE
+%%EndPage: "mini" 8
+%%Trailer
+%%BoundingBox: 0 0 612 792
+%%PageOrder: Ascend
+%%Pages: 8
+%%DocumentFonts: Times-Roman
+%%+ Symbol
+%%+ Helvetica-Bold
+%%+ Helvetica-BoldOblique
+%%+ Helvetica
+%%+ Helvetica-Oblique
+%%+ Courier-Bold
+%%+ Courier
+%%EOF

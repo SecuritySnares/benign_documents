@@ -1,0 +1,725 @@
+<!DOCTYPE html>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" lang="en-us" xml:lang="en-us" class="_Skins_MSTR_Generic_EN_New" data-mc-search-type="Stem" data-mc-help-system-file-name="index.xml" data-mc-path-to-help-system="../" data-mc-has-content-body="True" data-mc-toc-path="Reports and Documents |Designing Reports, Documents, and Dossiers|Introduction to Report Creation" data-mc-conditions="MSTR_Tool.Web" data-mc-target-type="WebHelp2" data-mc-runtime-file-type="Topic;Default" data-mc-preload-images="false" data-mc-in-preview-mode="false">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><title>Introduction to Metrics</title>
+        <!--The div.header class below is set to display:none, until the JavaScript (header.js) loads. This is done to avoid the preloading of unstyled list items.-->
+        <div class="header" style="display:none;">
+            <ul id="header-ul">
+                <li id="navigation">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" id="rows" width="24px" height="100%">
+                        <path d="M21.5 6.5h-19c-.3 0-.7-.4-.7-.7V4.4c0-.4.4-.7.7-.7h19c.3 0 .7.3.7.7v1.4c0 .3-.4.7-.7.7zm0 6.8h-19c-.3 0-.7-.3-.7-.7v-1.3c0-.4.4-.7.7-.7h19c.3 0 .7.3.7.7v1.4c0 .3-.4.6-.7.6zm0 7h-19c-.3 0-.7-.3-.7-.7v-1.4c0-.3.4-.7.7-.7h19c.3 0 .7.4.7.7v1.4c0 .4-.4.7-.7.7z" />
+                    </svg>
+                </li>
+                <li id="logo-li"><a href="https://community.microstrategy.com/s/"><img id="logo" src="Resources/Images/MSTR_logo.png" /></a>
+                </li>
+                <li title="MicroStrategy Community" id="community">COMMUNITY</li>
+                <li class="header-item" title="Home"><a href="https://community.microstrategy.com/s/">Home</a>
+                </li>
+                <li class="header-item" title="Gallery"><a href="https://community.microstrategy.com/s/gallery">Gallery</a>
+                </li>
+                <li class="header-item" title="Learning Center"><a href="https://community.microstrategy.com/s/learning-center">Learning Center</a>
+                </li>
+                <li class="header-item" title="Discussions"><a href="https://community.microstrategy.com/s/discussions">Discussions</a>
+                </li>
+                <li class="header-item" title="Downloads"><a href="https://community.microstrategy.com/s/products">Downloads</a>
+                </li>
+                <li class="header-item" title="Cases"><a href="https://community.microstrategy.com/s/contactsupport">Cases</a>
+                </li>
+                <li class="header-item" title="Activation Site"><a href="https://licensing.microstrategy.com/">Activation Site</a>
+                </li>
+                <li class="header-item" title="Groups"><a href="https://community.microstrategy.com/s/group/CollaborationGroup/00BE0000004Cob6MAC">Groups</a>
+                </li>
+                <li class="header-item" title="Announcements"><a href="https://community.microstrategy.com/s/announcements">Announcements</a>
+                </li>
+                <li class="header-item" title="Ideas"><a href="https://community.microstrategy.com/s/ideas">Ideas</a>
+                </li>
+                <li class="header-item" title="Members"><a href="https://community.microstrategy.com/s/members">Members</a>
+                </li>
+                <li class="header-item" title="简体中文"><a href="https://community.microstrategy.com/s/topic/0TO44000000QAGaGAO">简体中文</a>
+                </li>
+                <li class="header-item" title="日本語"><a href="https://community.microstrategy.com/s/topic/0TO44000000QAGVGA4">日本語</a>
+                </li>
+                <li class="header-item" title="한국어"><a href="https://community.microstrategy.com/s/topic/0TO2R000000kaD0WAI">한국어</a>
+                </li>
+                <li class="header-item" title="More" id="more"><a href="#">More</a>
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" id="chevrondown">
+                        <path d="M22 8.2l-9.5 9.6c-.3.2-.7.2-1 0L2 8.2c-.2-.3-.2-.7 0-1l1-1c.3-.3.8-.3 1.1 0l7.4 7.5c.3.3.7.3 1 0l7.4-7.5c.3-.2.8-.2 1.1 0l1 1c.2.3.2.7 0 1z" />
+                    </svg>
+                </li>
+            </ul>
+            <ul class="overflow">
+            </ul>
+            <ul class="nav-header">
+                <li class="znav-item" title="Home"><a href="https://community.microstrategy.com/s/">Home</a>
+                </li>
+                <li class="znav-item" title="Gallery"><a href="https://community.microstrategy.com/s/gallery">Gallery</a>
+                </li>
+                <li class="znav-item" title="Learning Center"><a href="https://community.microstrategy.com/s/learning-center">Learning Center</a>
+                </li>
+                <li class="znav-item" title="Discussions"><a href="https://community.microstrategy.com/s/discussions">Discussions</a>
+                </li>
+                <li class="znav-item" title="Downloads"><a href="https://community.microstrategy.com/s/products">Downloads</a>
+                </li>
+                <li class="znav-item" title="Cases"><a href="https://community.microstrategy.com/s/contactsupport">Cases</a>
+                </li>
+                <li class="znav-item" title="Activation Site"><a href="https://licensing.microstrategy.com/">Activation Site</a>
+                </li>
+                <li class="znav-item" title="Groups"><a href="https://community.microstrategy.com/s/group/CollaborationGroup/00BE0000004Cob6MAC">Groups</a>
+                </li>
+                <li class="znav-item" title="Announcements"><a href="https://community.microstrategy.com/s/announcements">Announcements</a>
+                </li>
+                <li class="znav-item" title="Ideas"><a href="https://community.microstrategy.com/s/ideas">Ideas</a>
+                </li>
+                <li class="znav-item" title="Members"><a href="https://community.microstrategy.com/s/members">Members</a>
+                </li>
+                <li class="znav-item" title="简体中文"><a href="https://community.microstrategy.com/s/topic/0TO44000000QAGaGAO">简体中文</a>
+                </li>
+                <li class="znav-item" title="日本語"><a href="https://community.microstrategy.com/s/topic/0TO44000000QAGVGA4">日本語</a>
+                </li>
+                <li class="znav-item" title="한국어"><a href="https://community.microstrategy.com/s/topic/0TO2R000000kaD0WAI">한국어</a>
+                </li>
+            </ul>
+        </div>
+        <!-- Google Tag Manager -->
+        <!-- tabs for mobile/web iOS/Android etc. script -->
+        <link href="../Skins/Default/Stylesheets/Slideshow.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../Skins/Default/Stylesheets/TextEffects.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../Skins/Default/Stylesheets/Topic.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../Skins/Default/Stylesheets/Components/Styles.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../Skins/Default/Stylesheets/Components/Tablet.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../Skins/Default/Stylesheets/Components/Mobile.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../Skins/Fluid/Stylesheets/foundation.6.2.3.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../Skins/Fluid/Stylesheets/Styles.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../Skins/Fluid/Stylesheets/Tablet.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../Skins/Fluid/Stylesheets/Mobile.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="Resources/Stylesheets/EN_DocStyles.css" rel="stylesheet" type="text/css" />
+        <link href="Resources/fontawesome/css/all.css" rel="stylesheet" />
+        <style>/*&lt;meta /&gt;*/
+
+.button.select-language-button
+{
+	-pie-background: url('../Skins/Default/Stylesheets/Images/select-language.png') no-repeat center center, linear-gradient(#ffffff, #ececec);
+}
+
+.needs-pie
+{
+	behavior: url('../Resources/Scripts/PIE-no-motw.htc');
+}
+
+</style>
+        <script src="../Resources/Scripts/jquery.min.js" type="text/javascript">
+        </script>
+        <script src="../Resources/Scripts/require.min.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../Resources/Scripts/require.config.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../Resources/Scripts/foundation.6.2.3_custom.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../Resources/Scripts/plugins.min.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../Resources/Scripts/MadCapAll.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="Resources/js/header.js">
+        </script>
+        <script src="Resources/js/gtm.js">
+        </script>
+        <script src="Resources/js/new_tabs.js" type="application/javascript">
+        </script>
+        <script type="text/javascript" src="../Skins/Default/Scripts/Toolbar_NewLook_noPDF.js">
+        </script>
+    </head>
+    <body>
+        <div class="foundation-wrap off-canvas-wrapper">
+            <div class="off-canvas-wrapper-inner" data-off-canvas-wrapper="">
+                <aside class="off-canvas position-right" role="navigation" id="offCanvas" data-off-canvas="" data-position="right" data-mc-ignore="true">
+                    <ul class="off-canvas-accordion vertical menu off-canvas-list" data-accordion-menu="" data-mc-back-link="Back" data-mc-css-tree-node-expanded="is-accordion-submenu-parent" data-mc-css-tree-node-collapsed="is-accordion-submenu-parent" data-mc-css-sub-menu="vertical menu is-accordion-submenu nested" data-mc-include-indicator="False" data-mc-include-icon="False" data-mc-include-parent-link="True" data-mc-include-back="False" data-mc-defer-expand-event="True" data-mc-expand-event="click.zf.accordionMenu" data-mc-toc="True">
+                    </ul>
+                </aside>
+                <div class="off-canvas-content inner-wrap" data-off-canvas-content="">
+                    <div data-sticky-container="" class="title-bar-container">
+                        <nav class="title-bar tab-bar sticky" role="banner" data-sticky="" data-options="marginTop:0" style="width:100%" data-sticky-on="only screen and (max-width: 1279px)" data-mc-ignore="true"><a class="skip-to-content fluid-skip showOnFocus" href="#">Skip To Main Content</a>
+                            <div class="middle title-bar-section outer-row clearfix">
+                                <div class="menu-icon-container relative clearfix">
+                                    <div class="central-account-wrapper">
+                                        <div class="central-dropdown"><a class="central-account-drop"><span class="central-account-image"></span><span class="central-account-text">Account</span></a>
+                                            <div class="central-dropdown-content"><a class="MCCentralLink central-dropdown-content-settings">Settings</a>
+                                                <hr class="central-separator" /><a class="MCCentralLink central-dropdown-content-logout">Logout</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <button class="menu-icon" aria-label="Show Navigation Panel" data-toggle="offCanvas"><span></span>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="title-bar-layout outer-row">
+                                <div class="logo-wrapper"><a class="logo" href="home_mstrweb.htm" alt="Logo"></a>
+                                </div>
+                                <div class="navigation-wrapper nocontent">
+                                    <ul class="navigation clearfix" role="navigation" data-mc-css-tree-node-has-children="has-children" data-mc-css-sub-menu="sub-menu" data-mc-expand-event="mouseenter" data-mc-top-nav-menu="True" data-mc-max-depth="3" data-mc-include-icon="False" data-mc-include-indicator="False" data-mc-include-children="True" data-mc-include-siblings="True" data-mc-include-parent="True" data-mc-toc="True">
+                                        <li class="placeholder" style="visibility:hidden"><a>placeholder</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="central-account-wrapper">
+                                    <div class="central-dropdown"><a class="central-account-drop"><span class="central-account-image"></span><span class="central-account-text">Account</span></a>
+                                        <div class="central-dropdown-content"><a class="MCCentralLink central-dropdown-content-settings">Settings</a>
+                                            <hr class="central-separator" /><a class="MCCentralLink central-dropdown-content-logout">Logout</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="nav-search-wrapper">
+                                    <div class="nav-search row">
+                                        <form class="search" action="#">
+                                            <div class="search-bar search-bar-container needs-pie">
+                                                <input class="search-field needs-pie" type="search" aria-label="Search Field" placeholder="Search" />
+                                                <div class="search-filter-wrapper"><span class="invisible-label" id="search-filters-label">Filter: </span>
+                                                    <div class="search-filter" aria-haspopup="true" aria-controls="sf-content" aria-expanded="false" aria-label="Search Filter" title="All Files" role="button" tabindex="0">
+                                                    </div>
+                                                    <div class="search-filter-content" id="sf-content">
+                                                        <ul>
+                                                            <li>
+                                                                <button class="mc-dropdown-item" aria-labelledby="search-filters-label filterSelectorLabel-00001"><span id="filterSelectorLabel-00001">All Files</span>
+                                                                </button>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                                <div class="search-submit-wrapper" dir="ltr">
+                                                    <div class="search-submit" title="Search" role="button" tabindex="0"><span class="invisible-label">Submit Search</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </nav>
+                    </div>
+                    <div class="main-section">
+                        <div class="row outer-row sidenav-layout">
+                            <nav class="sidenav-wrapper">
+                                <div class="sidenav-container">
+                                    <ul class="off-canvas-accordion vertical menu sidenav" data-accordion-menu="" data-mc-css-tree-node-expanded="is-accordion-submenu-parent" data-mc-css-tree-node-collapsed="is-accordion-submenu-parent" data-mc-css-sub-menu="vertical menu accordion-menu is-accordion-submenu nested" data-mc-include-indicator="False" data-mc-include-icon="False" data-mc-include-parent-link="False" data-mc-include-back="False" data-mc-defer-expand-event="True" data-mc-expand-event="click.zf.accordionMenu" data-mc-toc="True" data-mc-side-nav-menu="True">
+                                    </ul>
+                                </div>
+                            </nav>
+                            <div class="body-container">
+                                <div data-mc-content-body="True">
+                                    <!-- Google Tag Manager (noscript) -->
+                                    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WLQTSS" height="0" width="0" style="display:none;visibility:hidden"></iframe>
+                                    </noscript>
+                                    <div class="main-content">
+                                        <div class="row">
+                                            <div class="medium-9 columns">
+                                                <div class="buttons popup-container clearfix topicToolbarProxy _Skins_Toolbar_NewLook_noPDF mc-component nocontent" style="mc-topic-toolbar-items: SelectLanguage;">
+                                                    <div class="button-group-container-left">
+                                                        <button class="button needs-pie select-language-button" title="Change language">
+                                                            <img alt="Change language" src="../Skins/Default/Stylesheets/Images/transparent.gif" class="invisible-label" />
+                                                        </button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="medium-3 columns">
+                                                <p id="version">Version <span class="mc-variable MSTR_Default_Variables.CurrentVersion variable">2021</span></p>
+                                            </div>
+                                        </div>
+                                        <div role="main" id="mc-main-content">
+                                            <h1><a name="kanchor394"></a>Introduction to Metrics</h1>
+                                            <p>Metrics are MicroStrategy objects that represent business measures and 
+ key performance indicators. From a practical perspective, metrics are 
+ the calculations performed on data stored in your database, the results 
+ of which are displayed on a report. Metrics are similar to formulas in 
+ spreadsheet software. For example, in a report that shows sales in the 
+ Southeast, sales is the metric. </p>
+                                            <p>Metric calculations can show information at simple levels as well as 
+ at complex levels of analysis: displaying sales trends, growth patterns, 
+ percent-to-total contributions, and profit analysis. Questions such as 
+ "What were the sales for the Eastern Region during the fourth quarter?" 
+ and "How many employees received a bonus greater than $5000 in the 
+ last three years?" can easily be answered by creating metrics.</p>
+                                            <p>Specifically, metrics define the analytical calculations to be performed 
+ against data that is stored in the data source. A metric is made up of 
+ data source facts and the mathematical operations to be performed on those 
+ facts, so that meaningful business analysis can be performed on the results. 
+ A metric on a report shows a list of values used for analytical calculations.</p>
+                                            <p>For steps to create a metric, see <a href="Metric_editor.htm" class="MCXref xref">How to Create a Metric</a>. If you want to create a metric by typing the metric formula 
+ directly, see <a href="Metric_Formula_Editor.htm" class="MCXref xref">Metric Formula Editor</a>.</p>
+                                            <p>For an introduction to metrics and some basic examples, see the <i>Creating a Query</i> chapter in the 
+ <a href="https://www2.microstrategy.com/producthelp/2021/BasicReporting/WebHelp/Lang_1033/index.htm" target="_blank">Basic Reporting Help</a>. 
+ For advanced concept information about metrics in general, with a focus 
+ on level, conditional, and transformation metrics, including examples, 
+ see the <a href="https://www2.microstrategy.com/producthelp/2021/AdvancedReportingGuide/WebHelp/Lang_1033/index.htm" target="_blank">Advanced Reporting
+ Help</a>. 
+ For a description of the functions available for metrics, see the <a href="https://www2.microstrategy.com/producthelp/2021/FunctionsRef/index.htm" target="_blank">Functions Reference</a>.</p>
+                                            <h2>Creating Multiple Metrics that Perform the Same Calculation</h2>
+                                            <p>If you are creating multiple metrics and each metric uses the same basic 
+ calculation as part of its formula, you can save time by creating a base 
+ metric to perform the calculation. You can then define additional metrics 
+ based on the base metric instead of typing the same calculation multiple 
+ times. </p>
+                                            <p>For example, you want to create a Profit metric and a Profit Margin 
+ metric. You can create a Revenue metric which calculates <code>Price 
+ x Quantity</code>. You can then define the Profit metric as <code>Revenue 
+ - Cost</code>, and the Profit Margin metric as <code>Profit/Revenue</code>. 
+ If you decide to change how Revenue is calculated later on, you can 
+ make changes to the Revenue metric; all metrics defined using the Revenue 
+ metric, including Profit and Profit Margin, will be updated to reflect 
+ the change. </p>
+                                            <p>You create base metrics using the same steps as you would use to create 
+ any other metric. When creating metrics using the base metric, you type 
+ the base metric as part of the metric formula. For steps to create a metric, 
+ see <a href="Metric_editor.htm" class="MCXref xref">How to Create a Metric</a>.</p>
+                                            <h3>Related Topics</h3>
+                                            <p><a href="Metric_editor.htm" class="MCXref xref">How to Create a Metric</a>
+                                            </p>
+                                            <p><a href="Level_metrics.htm" class="MCXref xref">Level Metrics: How to Modify the Context of Data Calculations</a>
+                                            </p>
+                                            <p><a href="Conditional_metrics.htm" class="MCXref xref">Conditional Metrics: How to Filter Data Calculations</a>
+                                            </p>
+                                            <p><a href="Transformation_metrics.htm" class="MCXref xref">Transformation Metrics: Time-Based and Other Comparisons</a>
+                                            </p>
+                                            <p><a href="Editing_a_metric.htm" class="MCXref xref">How to Edit a Metric</a>
+                                            </p>
+                                            <p><a href="Format_Metric_dialog_box.htm" class="MCXref xref">Format Dialog Box for Metrics</a> for steps to format a metric</p>
+                                            <p><a href="Advanced_Metric_Options_dialog_box.htm" class="MCXref xref">Advanced Metric Options Dialog</a> for descriptions of advanced metric 
+	 settings, such as dynamic aggregation and subtotal functions, VLDB 
+	 properties, metric aliases, and the metric join type</p>
+                                        </div>
+                                        <!-- <MadCap:topicToolbarProxy style="mc-topic-toolbar-items: ;" data-mc-skin="/Project/Skins/TopicToolbar_next.flskn" /> -->
+                                        <div id="clearfix">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div><a data-close="true"></a>
+                </div>
+            </div>
+        </div>
+    </body>
+    <footer data-sticky-container="">
+        <div data-options="marginBottom:0;" style="width:100%">
+            <div id="feedback-survey" class="english" style="display: none;"><span class="question">Did you find this helpful?</span>
+                <div id="feedback-yes" class="feedback-option yes">
+                    <div class="feedback-option-button"><i class="far fa-smile fa-2x feedback-yes" aria-hidden="true" title="Yes, this article was helpful." alt="Yes, this article was helpful." data-eventCategory="Feedback" data-eventLabel="yes"></i>
+                    Yes
+                </div>
+                    <div class="feedback-dialog yes"><span class="close">x</span>
+                        <p>Great!</p>
+                        <p>Thanks for taking the time to give us some feedback.</p>
+                    </div>
+                </div>
+                <div id="feedback-no" class="feedback-option no">
+                    <div class="feedback-option-button"><i class="far fa-frown fa-2x feedback-no" title="No, this article wasn't helpful." alt="No, this article wasn't helpful."></i>
+                    No
+                </div>
+                    <div class="feedback-dialog"><span class="close">x</span>
+                        <p>Sorry about that</p>
+                        <p>Why wasn't this helpful? (check all that apply)</p><span class="divider"></span>
+                        <div class="check-option">
+                            <input type="checkbox" class="option no" id="option1" value="Couldn't find what I was looking for" data-analytics-label="Could not find" data-eventCategory="Feedback" data-eventLabel="No-Couldn't Find" />
+                            <label for="option1">I couldn't find what I was looking for.</label>
+                        </div>
+                        <div class="check-option">
+                            <input type="checkbox" class="option no" id="option2" value="Instructions confusing or unclear" data-analytics-label="Confusing or unclear" data-eventCategory="Feedback" data-eventLabel="No-Confusing/Unclear" />
+                            <label for="option2">The instructions are confusing or unclear.</label>
+                        </div>
+                        <div class="check-option">
+                            <input type="checkbox" class="option no" id="option3" value="Instructions didn't work" data-analytics-label="Did not work" data-eventCategory="Feedback" data-eventLabel="No-Didn't Work" />
+                            <label for="option3">The instructions didn't work.</label>
+                        </div>
+                        <div class="thank-you-message">
+                            <div class="text">
+                                <p><b>Thanks for your feedback</b>.</p>
+                                <p>Want to tell us more? Send us an email to leave your feedback.</p>
+                            </div><a class="feedback-button" href="mailto:documentationfeedback@microstrategy.com?subject=Feedback" id="feedbackEmailLink">Email us</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="feedback-survey" class="german" style="display: none;"><span class="question">Waren Ihnen die Informationen hilfreich?</span>
+                <div id="feedback-yes" class="feedback-option yes">
+                    <div class="feedback-option-button"><i class="far fa-smile fa-2x feedback-yes" aria-hidden="true" title="Yes, this article was helpful." alt="Yes, this article was helpful." data-eventCategory="Feedback" data-eventLabel="yes"></i>
+						Ja
+					</div>
+                    <div class="feedback-dialog yes"><span class="close">x</span>
+                        <p>Großartig!</p>
+                        <p>Vielen Dank, das Sie sich die Zeit genommen haben, uns Ihr Feedback mitzuteilen.</p>
+                    </div>
+                </div>
+                <div id="feedback-no" class="feedback-option no">
+                    <div class="feedback-option-button"><i class="far fa-frown fa-2x feedback-no" title="No, this article wasn't helpful." alt="No, this article wasn't helpful."></i>
+						Nein
+					</div>
+                    <div class="feedback-dialog"><span class="close">x</span>
+                        <p>Das tut uns leid!</p>
+                        <p>Warum waren diese Informationen nicht hilfreich? (Zutreffendes bitte auswählen)</p><span class="divider"></span>
+                        <div class="check-option">
+                            <input type="checkbox" class="option no" id="option1" value="Couldn't find what I was looking for" data-analytics-label="Could not find" data-eventCategory="Feedback" data-eventLabel="No-Couldn't Find" />
+                            <label for="option1">Ich konnte nicht finden, wonach ich gesucht habe</label>
+                        </div>
+                        <div class="check-option">
+                            <input type="checkbox" class="option no" id="option2" value="Instructions confusing or unclear" data-analytics-label="Confusing or unclear" data-eventCategory="Feedback" data-eventLabel="No-Confusing/Unclear" />
+                            <label for="option2">Anweisungen waren verwirrend oder unklar</label>
+                        </div>
+                        <div class="check-option">
+                            <input type="checkbox" class="option no" id="option3" value="Instructions didn't work" data-analytics-label="Did not work" data-eventCategory="Feedback" data-eventLabel="No-Didn't Work" />
+                            <label for="option3">Anweisungen haben nicht zum Ziel geführt</label>
+                        </div>
+                        <div class="thank-you-message">
+                            <div class="text">
+                                <p style="font-weight: bold;">Vielen Dank für Ihre Antworten.</p>
+                                <p>möchten Sie uns noch etwas mitteilen? Senden Sie uns eine E-Mail mit Ihrem Feedback.</p>
+                            </div><a class="feedback-button" href="mailto:documentationfeedback@microstrategy.com?subject=Feedback" id="feedbackEmailLink">E-Mail an uns senden</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="feedback-survey" class="french" style="display: none;"><span class="question">Ces informations vous ont-elles été utiles ?</span>
+                <div id="feedback-yes" class="feedback-option yes">
+                    <div class="feedback-option-button"><i class="far fa-smile fa-2x feedback-yes" aria-hidden="true" title="Yes, this article was helpful." alt="Yes, this article was helpful." data-eventCategory="Feedback" data-eventLabel="yes"></i>
+						Oui
+					</div>
+                    <div class="feedback-dialog yes"><span class="close">x</span>
+                        <p>Superbe !</p>
+                        <p>Merci de nous avoir accordé un peu de votre temps.</p>
+                    </div>
+                </div>
+                <div id="feedback-no" class="feedback-option no">
+                    <div class="feedback-option-button"><i class="far fa-frown fa-2x feedback-no" title="No, this article wasn't helpful." alt="No, this article wasn't helpful."></i>
+						Non
+					</div>
+                    <div class="feedback-dialog"><span class="close">x</span>
+                        <p>Nous en sommes désolés</p>
+                        <p>Pourquoi ne vous ont-elles pas été utiles ? (cochez tous les choix applicables)</p><span class="divider"></span>
+                        <div class="check-option">
+                            <input type="checkbox" class="option no" id="option1" value="Couldn't find what I was looking for" data-analytics-label="Could not find" data-eventCategory="Feedback" data-eventLabel="No-Couldn't Find" />
+                            <label for="option1">Je n’ai pas trouvé ce que je recherchais</label>
+                        </div>
+                        <div class="check-option">
+                            <input type="checkbox" class="option no" id="option2" value="Instructions confusing or unclear" data-analytics-label="Confusing or unclear" data-eventCategory="Feedback" data-eventLabel="No-Confusing/Unclear" />
+                            <label for="option2">Instructions confuses ou obscures</label>
+                        </div>
+                        <div class="check-option">
+                            <input type="checkbox" class="option no" id="option3" value="Instructions didn't work" data-analytics-label="Did not work" data-eventCategory="Feedback" data-eventLabel="No-Didn't Work" />
+                            <label for="option3">Les instructions ne fonctionnaient pas</label>
+                        </div>
+                        <div class="thank-you-message">
+                            <div class="text">
+                                <p style="font-weight: bold;">Merci de vos commentaires.</p>
+                                <p>Vous voulez nous en dire plus ? Envoyez-nous un e-mail pour nous laisser vos commentaires.</p>
+                            </div><a class="feedback-button" href="mailto:documentationfeedback@microstrategy.com?subject=Feedback" id="feedbackEmailLink">Envoyez-nous un e-mail</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="feedback-survey" class="italian" style="display: none;"><span class="question">Questo contenuto ti è stato utile?</span>
+                <div id="feedback-yes" class="feedback-option yes">
+                    <div class="feedback-option-button"><i class="far fa-smile fa-2x feedback-yes" aria-hidden="true" title="Yes, this article was helpful." alt="Yes, this article was helpful." data-eventCategory="Feedback" data-eventLabel="yes"></i>
+						Sì
+					</div>
+                    <div class="feedback-dialog yes"><span class="close">x</span>
+                        <p>Perfetto!</p>
+                        <p>Grazie per avere dedicato del tempo per fornirci un tuo commento.</p>
+                    </div>
+                </div>
+                <div id="feedback-no" class="feedback-option no">
+                    <div class="feedback-option-button"><i class="far fa-frown fa-2x feedback-no" title="No, this article wasn't helpful." alt="No, this article wasn't helpful."></i>
+						No
+					</div>
+                    <div class="feedback-dialog"><span class="close">x</span>
+                        <p>Siamo spiacenti</p>
+                        <p>Perché non è stato utile? (selezionare tutte le risposte adeguate)</p><span class="divider"></span>
+                        <div class="check-option">
+                            <input type="checkbox" class="option no" id="option1" value="Couldn't find what I was looking for" data-analytics-label="Could not find" data-eventCategory="Feedback" data-eventLabel="No-Couldn't Find" />
+                            <label for="option1">Non ho trovato quello che stavo cercando</label>
+                        </div>
+                        <div class="check-option">
+                            <input type="checkbox" class="option no" id="option2" value="Instructions confusing or unclear" data-analytics-label="Confusing or unclear" data-eventCategory="Feedback" data-eventLabel="No-Confusing/Unclear" />
+                            <label for="option2">Le istruzioni erano confuse o poco chiare</label>
+                        </div>
+                        <div class="check-option">
+                            <input type="checkbox" class="option no" id="option3" value="Instructions didn't work" data-analytics-label="Did not work" data-eventCategory="Feedback" data-eventLabel="No-Didn't Work" />
+                            <label for="option3">Le istruzioni non hanno dato il risultato previsto</label>
+                        </div>
+                        <div class="thank-you-message">
+                            <div class="text">
+                                <p style="font-weight: bold;">Grazie per il feedback.</p>
+                                <p>Vuoi inviarci un commento? Inviaci un’e-mail o lasciaci un commento.</p>
+                            </div><a class="feedback-button" href="mailto:documentationfeedback@microstrategy.com?subject=Feedback" id="feedbackEmailLink">Inviaci un’e-mail</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="feedback-survey" class="spanish" style="display: none;"><span class="question">¿Le ha resultado útil?</span>
+                <div id="feedback-yes" class="feedback-option yes">
+                    <div class="feedback-option-button"><i class="far fa-smile fa-2x feedback-yes" aria-hidden="true" title="Yes, this article was helpful." alt="Yes, this article was helpful." data-eventCategory="Feedback" data-eventLabel="yes"></i>
+						Sí
+					</div>
+                    <div class="feedback-dialog yes"><span class="close">x</span>
+                        <p>¡Genial!</p>
+                        <p>Gracias por dedicar su tiempo a proporcionarnos sus comentarios.</p>
+                    </div>
+                </div>
+                <div id="feedback-no" class="feedback-option no">
+                    <div class="feedback-option-button"><i class="far fa-frown fa-2x feedback-no" title="No, this article wasn't helpful." alt="No, this article wasn't helpful."></i>
+						No
+					</div>
+                    <div class="feedback-dialog"><span class="close">x</span>
+                        <p>Lo sentimos</p>
+                        <p>¿Por qué no ha sido útil? (Marque todos los que correspondan)</p><span class="divider"></span>
+                        <div class="check-option">
+                            <input type="checkbox" class="option no" id="option1" value="Couldn't find what I was looking for" data-analytics-label="Could not find" data-eventCategory="Feedback" data-eventLabel="No-Couldn't Find" />
+                            <label for="option1">No he encontrado lo que buscaba</label>
+                        </div>
+                        <div class="check-option">
+                            <input type="checkbox" class="option no" id="option2" value="Instructions confusing or unclear" data-analytics-label="Confusing or unclear" data-eventCategory="Feedback" data-eventLabel="No-Confusing/Unclear" />
+                            <label for="option2">Las instrucciones eran confusas o no eran claras.</label>
+                        </div>
+                        <div class="check-option">
+                            <input type="checkbox" class="option no" id="option3" value="Instructions didn't work" data-analytics-label="Did not work" data-eventCategory="Feedback" data-eventLabel="No-Didn't Work" />
+                            <label for="option3">Las instrucciones no funcionaban.</label>
+                        </div>
+                        <div class="thank-you-message">
+                            <div class="text">
+                                <p style="font-weight: bold;">Gracias por sus comentarios.</p>
+                                <p>¿Desea informarnos de más cosas? Envíenos un correo electrónico para dejar sus comentarios.</p>
+                            </div><a class="feedback-button" href="mailto:documentationfeedback@microstrategy.com?subject=Feedback" id="feedbackEmailLink">Envíenos un correo electrónico</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="feedback-survey" class="portuguese" style="display: none;"><span class="question">Você achou isso útil?</span>
+                <div id="feedback-yes" class="feedback-option yes">
+                    <div class="feedback-option-button"><i class="far fa-smile fa-2x feedback-yes" aria-hidden="true" title="Yes, this article was helpful." alt="Yes, this article was helpful." data-eventCategory="Feedback" data-eventLabel="yes"></i>
+						Sim
+					</div>
+                    <div class="feedback-dialog yes"><span class="close">x</span>
+                        <p>Ótimo!</p>
+                        <p>Obrigado por aproveitar o tempo para nos dar alguns comentários.</p>
+                    </div>
+                </div>
+                <div id="feedback-no" class="feedback-option no">
+                    <div class="feedback-option-button"><i class="far fa-frown fa-2x feedback-no" title="No, this article wasn't helpful." alt="No, this article wasn't helpful."></i>
+						Não
+					</div>
+                    <div class="feedback-dialog"><span class="close">x</span>
+                        <p>Desculpe por isso</p>
+                        <p>Por que isso não foi útil? (marque todas as que se aplicam)</p><span class="divider"></span>
+                        <div class="check-option">
+                            <input type="checkbox" class="option no" id="option1" value="Couldn't find what I was looking for" data-analytics-label="Could not find" data-eventCategory="Feedback" data-eventLabel="No-Couldn't Find" />
+                            <label for="option1">Não consegui encontrar o que estava procurando</label>
+                        </div>
+                        <div class="check-option">
+                            <input type="checkbox" class="option no" id="option2" value="Instructions confusing or unclear" data-analytics-label="Confusing or unclear" data-eventCategory="Feedback" data-eventLabel="No-Confusing/Unclear" />
+                            <label for="option2">Instruções confusas ou não claras.</label>
+                        </div>
+                        <div class="check-option">
+                            <input type="checkbox" class="option no" id="option3" value="Instructions didn't work" data-analytics-label="Did not work" data-eventCategory="Feedback" data-eventLabel="No-Didn't Work" />
+                            <label for="option3">As instruções não funcionaram.</label>
+                        </div>
+                        <div class="thank-you-message">
+                            <div class="text">
+                                <p style="font-weight: bold;">Obrigado pelos seus comentários.</p>
+                                <p>Quer nos contar mais? Envie-nos um e-mail para deixar seus comentários.</p>
+                            </div><a class="feedback-button" href="mailto:documentationfeedback@microstrategy.com?subject=Feedback" id="feedbackEmailLink">Envie-nos um e-mail</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="feedback-survey" class="japanese" style="display: none;"><span class="question">役に立ちましたか?</span>
+                <div id="feedback-yes" class="feedback-option yes">
+                    <div class="feedback-option-button"><i class="far fa-smile fa-2x feedback-yes" aria-hidden="true" title="Yes, this article was helpful." alt="Yes, this article was helpful." data-eventCategory="Feedback" data-eventLabel="yes"></i>
+						はい
+					</div>
+                    <div class="feedback-dialog yes"><span class="close">x</span>
+                        <p>ありがとうございます。</p>
+                        <p>お時間を割いてご意見をお寄せいただき誠にありがとうございます。</p>
+                    </div>
+                </div>
+                <div id="feedback-no" class="feedback-option no">
+                    <div class="feedback-option-button"><i class="far fa-frown fa-2x feedback-no" title="No, this article wasn't helpful." alt="No, this article wasn't helpful."></i>
+						いいえ
+					</div>
+                    <div class="feedback-dialog"><span class="close">x</span>
+                        <p>それは残念です</p>
+                        <p>役に立たなかった理由は何ですか? (該当するものをすべてチェックしてください)</p><span class="divider"></span>
+                        <div class="check-option">
+                            <input type="checkbox" class="option no" id="option1" value="Couldn't find what I was looking for" data-analytics-label="Could not find" data-eventCategory="Feedback" data-eventLabel="No-Couldn't Find" />
+                            <label for="option1">目的の情報を見つけられなかった</label>
+                        </div>
+                        <div class="check-option">
+                            <input type="checkbox" class="option no" id="option2" value="Instructions confusing or unclear" data-analytics-label="Confusing or unclear" data-eventCategory="Feedback" data-eventLabel="No-Confusing/Unclear" />
+                            <label for="option2">手順がややこしいまたは不明確</label>
+                        </div>
+                        <div class="check-option">
+                            <input type="checkbox" class="option no" id="option3" value="Instructions didn't work" data-analytics-label="Did not work" data-eventCategory="Feedback" data-eventLabel="No-Didn't Work" />
+                            <label for="option3">手順が間違っていた</label>
+                        </div>
+                        <div class="thank-you-message">
+                            <div class="text">
+                                <p style="font-weight: bold;">ご意見をいただき誠にありがとうございます。</p>
+                                <p>もっと詳しくお聞かせいただけますか? メールでご意見をお聞かせください。</p>
+                            </div><a class="feedback-button" href="mailto:documentationfeedback@microstrategy.com?subject=Feedback" id="feedbackEmailLink">メール</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="feedback-survey" class="korean" style="display: none;"><span class="question">도움이 되었습니까?</span>
+                <div id="feedback-yes" class="feedback-option yes">
+                    <div class="feedback-option-button"><i class="far fa-smile fa-2x feedback-yes" aria-hidden="true" title="Yes, this article was helpful." alt="Yes, this article was helpful." data-eventCategory="Feedback" data-eventLabel="yes"></i>
+						예
+					</div>
+                    <div class="feedback-dialog yes"><span class="close">x</span>
+                        <p>수고하셨습니다.</p>
+                        <p>피드백을 위해 시간 내 주셔서 감사합니다.</p>
+                    </div>
+                </div>
+                <div id="feedback-no" class="feedback-option no">
+                    <div class="feedback-option-button"><i class="far fa-frown fa-2x feedback-no" title="No, this article wasn't helpful." alt="No, this article wasn't helpful."></i>
+						아니오
+					</div>
+                    <div class="feedback-dialog"><span class="close">x</span>
+                        <p>죄송합니다.</p>
+                        <p>도움이 되지 않은 이유는 무엇입니까? (해당되는 모든 사항 선택)</p><span class="divider"></span>
+                        <div class="check-option">
+                            <input type="checkbox" class="option no" id="option1" value="Couldn't find what I was looking for" data-analytics-label="Could not find" data-eventCategory="Feedback" data-eventLabel="No-Couldn't Find" />
+                            <label for="option1">찾는 내용이 없습니다.</label>
+                        </div>
+                        <div class="check-option">
+                            <input type="checkbox" class="option no" id="option2" value="Instructions confusing or unclear" data-analytics-label="Confusing or unclear" data-eventCategory="Feedback" data-eventLabel="No-Confusing/Unclear" />
+                            <label for="option2">지침이 혼동되거나 불분명합니다.</label>
+                        </div>
+                        <div class="check-option">
+                            <input type="checkbox" class="option no" id="option3" value="Instructions didn't work" data-analytics-label="Did not work" data-eventCategory="Feedback" data-eventLabel="No-Didn't Work" />
+                            <label for="option3">지침이 효과가 없습니다.</label>
+                        </div>
+                        <div class="thank-you-message">
+                            <div class="text">
+                                <p style="font-weight: bold;">Thanks for your feedback.</p>
+                                <p>Want to tell us more? Send us an email to leave your feedback.</p>
+                            </div><a class="feedback-button" href="mailto:documentationfeedback@microstrategy.com?subject=Feedback" id="feedbackEmailLink">Email us</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="feedback-survey" class="chinese" style="display: none;"><span class="question">您觉得这篇文章有用吗？</span>
+                <div id="feedback-yes" class="feedback-option yes">
+                    <div class="feedback-option-button"><i class="far fa-smile feedback-yes" aria-hidden="true" title="Yes, this article was helpful." alt="Yes, this article was helpful." data-eventCategory="Feedback" data-eventLabel="yes"></i>
+						是
+					</div>
+                    <div class="feedback-dialog yes"><span class="close">x</span>
+                        <p>好极了！</p>
+                        <p>感谢您抽出时间给我们提供一些反馈。</p>
+                    </div>
+                </div>
+                <div id="feedback-no" class="feedback-option no">
+                    <div class="feedback-option-button"><i class="far fa-frown fa-1x feedback-no" title="No, this article wasn't helpful." alt="No, this article wasn't helpful."></i>
+						否
+					</div>
+                    <div class="feedback-dialog"><span class="close">x</span>
+                        <p>我们对此感到抱歉</p>
+                        <p>为什么您觉得没什么用？ （选中所有适用项）</p><span class="divider"></span>
+                        <div class="check-option">
+                            <input type="checkbox" class="option no" id="option1" value="Couldn't find what I was looking for" data-analytics-label="Could not find" data-eventCategory="Feedback" data-eventLabel="No-Couldn't Find" />
+                            <label for="option1">无法找到我需要的内容</label>
+                        </div>
+                        <div class="check-option">
+                            <input type="checkbox" class="option no" id="option2" value="Instructions confusing or unclear" data-analytics-label="Confusing or unclear" data-eventCategory="Feedback" data-eventLabel="No-Confusing/Unclear" />
+                            <label for="option2">说明含混或者不明确</label>
+                        </div>
+                        <div class="check-option">
+                            <input type="checkbox" class="option no" id="option3" value="Instructions didn't work" data-analytics-label="Did not work" data-eventCategory="Feedback" data-eventLabel="No-Didn't Work" />
+                            <label for="option3">说明没有用</label>
+                        </div>
+                        <div class="thank-you-message">
+                            <div class="text">
+                                <p style="font-weight: bold;">感谢您的反馈。</p>
+                                <p>希望告诉我们更多信息吗？ 请发送电子邮件给我们，留下您的反馈。</p>
+                            </div><a class="feedback-button" href="mailto:documentationfeedback@microstrategy.com?subject=Feedback" id="feedbackEmailLink">给我们发送电子邮件</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--Feedback Script-->
+            <script src="Resources/js/feedback_redo.js" type="application/javascript">
+            </script>
+            <div id="page-footer">
+                <div class="row align-justify">
+                    <nav id="footer-navigation" role="navigation">
+                        <div class="columns medium-3">
+                            <ul class="menu vertical compact component-red">
+                                <li class="menu-label">Products</li>
+                                <li class="menu-item"><a href="https://www2.microstrategy.com/producthelp/Current/Readme/en-us/content/whats_new.htm">What's New</a>
+                                </li>
+                                <li class="menu-item"><a href="https://www2.microstrategy.com/producthelp/Current/Hyper/index.htm">HyperIntelligence</a>
+                                </li>
+                                <li class="menu-item"><a href="https://www2.microstrategy.com/producthelp/Current/Workstation/WebHelp/Lang_1033/index.htm">Workstation</a>
+                                </li>
+                                <li class="menu-item"><a href="https://www2.microstrategy.com/producthelp/Current/Cloud/index.htm">Cloud Platform</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="columns medium-3">
+                            <ul class="menu vertical compact component-blue">
+                                <li class="menu-label">Interact</li>
+                                <li class="menu-item"><a href="mailto:documentationfeedback@microstrategy.com">Documentation Feedback</a>
+                                </li>
+                                <li class="menu-item"><a href="https://community.microstrategy.com/s/ideas">Idea Exchange</a>
+                                </li>
+                                <li class="menu-item"><a href="https://community.microstrategy.com/s/discussions">Community Discussions</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="columns medium-3">
+                            <ul class="menu vertical compact component-orange">
+                                <li class="menu-label">Resources</li>
+                                <li class="menu-item"><a href="https://community.microstrategy.com/s/learning-center">Learning Center</a>
+                                </li>
+                                <li class="menu-item"><a href="https://www2.microstrategy.com/producthelp/Current/Readme/en-us/content/certified_configurations.htm">Platform Certifications</a>
+                                </li>
+                                <li class="menu-item"><a href="https://www.microstrategy.com/en">Resource Library</a>
+                                </li>
+                                <li class="menu-item"><a href="https://www.microstrategy.com/en/support">Technical Support</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="columns medium-3">
+                            <ul class="menu vertical compact component-navy-blue">
+                                <li class="menu-label">Company</li>
+                                <li class="menu-item"><a href="https://www.microstrategy.com/en/investor-relations">Investor Relations</a>
+                                </li>
+                                <li class="menu-item"><a href="https://www.microstrategy.com/en/careers">Careers</a>
+                                </li>
+                                <li class="menu-item"><a href="https://www.microstrategy.com/en/company/contact-us">Contact MicroStrategy</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+                <div id="legal-row" class="row">
+                    <div id="copyright-column" class="columns small-12 medium-6">
+                        <p id="copyright">Copyright © <span class="mc-variable MSTR_Default_Variables.CurrentYear variable">2022</span> MicroStrategy Incorporated. All Rights Reserved.</p>
+                    </div>
+                    <div id="legal-links" class="columns small-12 medium-5 medium-offset-1">
+                        <nav role="navigation">
+                            <ul class="menu">
+                                <li class="menu-item"><a href="https://www.microstrategy.com/en/legal">Legal Policies |</a>
+                                </li>
+                                <li class="menu-item"><a href="https://www.microstrategy.com/en/legal/privacy-policy">Privacy Policy |</a>
+                                </li>
+                                <li class="menu-item"><a href="https://www.microstrategy.com/en/legal/terms-of-use">Terms of Use |</a>
+                                </li>
+                                <li class="menu-item"><a href="https://www.microstrategy.com/us/legal/ethics-line" target="_blank">Ethics Line</a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</html>

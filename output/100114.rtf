@@ -1,0 +1,15 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1504\cocoasubrtf820
+{\fonttbl\f0\fnil\fcharset0 AvenirNext-Regular;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww14580\viewh12440\viewkind0
+\deftab720
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardeftab720\sl288\slmult1\sa220\qj\partightenfactor0
+
+\f0\fs24 \cf0 \expnd0\expndtw0\kerning0
+Maps of predicted distribution of vertebrates.\
+These compressed files contain raster images in .asc format. The files describe the predicted distribution of a set of 162 species of vertebrates which have been reported in the recent literature (last 30 years) as hosts for ticks or reservoirs for the pathogens transmitted by ticks. The images can be read by most of the open source GIS software. The R developmental framework has methods to read, transform and convert these images (e.g. package \'93raster\'94). The images are projected into Latitude/Longitude, WGS84, at 0.05\'ba of spatial resolution. The left bottom corner of the images has the coordinates 25.975N, 17.025W. The images have 1300 columns and 960 rows. NODATA pixels are indicated by -9999.\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardeftab720\sl288\slmult1\qj\partightenfactor0
+\cf0 The purpose of this dataset is to produce a set of distribution maps for the hosts of ticks and the pathogens they transmit, aiming to describe the "biotic side" of the ecology of ticks. The maps have been developed using the MaxEnt package version 3.3.3k as developed and distributed in https://www.cs.princeton.edu/~schapire/maxent/\
+\
+The environmental niches of hosts were produced using correlative modelling on the occurrences for each species and the set of environmental covariates. We used the pairs of coordinates of the reported distribution of every species of host for each tick to identify regions where each species is predicted to occur to obtain the dimensions of its environmental hyperniche. We independently modelled the presence of each species using the niche modelling program MaxEnt, with lineal and quadratic features, with a maximum number of 10,000 background points, 10 replicates per species modelled, and 70% of points for training purposes, using cross-validation for comparing the resulting models. The regularization multiplier was set to 1. MaxEnt was chosen because it demonstrated robust model performance compared to other modelling algorithms when presence-only data is available. Each model was replicated 100 times using the cross-validation function in MaxEnt to partition the data into replicate folds, with each fold being used in turn to test the model.}
